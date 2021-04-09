@@ -1,0 +1,3270 @@
+osu file format v14
+
+[General]
+AudioFilename: audio.mp3
+AudioLeadIn: 0
+PreviewTime:215731
+Countdown: 0
+SampleSet: Soft
+StackLeniency: 0.4
+Mode: 0
+LetterboxInBreaks: 0
+WidescreenStoryboard: 1
+
+[Editor]
+Bookmarks:12960,22357,24526,36092,47658,53441,56333,57779,60670,69345,72237,78020,83803,95369,105490,106935,118502,130068,135851,138743,143080,154646,156182,160429,166213,177779,183562,185008,186454,187899,189345,192056,203803,212478,215369,225490,228381,228743,234164,239947,252960
+DistanceSpacing: 0.7
+BeatDivisor: 4
+GridSize: 32
+TimelineZoom: 4.099998
+
+[Metadata]
+Title:Eternal Star
+TitleUnicode:Eternal Star
+Artist:Asaka
+ArtistUnicode:亜咲花
+Creator:Creamy Candy
+Version:Will's Extra
+Source:ISLAND
+Tags:ed ending anime japanese jpop j-pop pop roger ][ -gh- ][ uta william_k アイランド Haggy Rock Yuuki Shinichi 悠木真一 Front wing frontwing
+BeatmapID:2327853
+BeatmapSetID:1109544
+
+[Difficulty]
+HPDrainRate:5
+CircleSize:4
+OverallDifficulty:8
+ApproachRate:9
+SliderMultiplier:1.9
+SliderTickRate:1
+
+[Events]
+//Background and Video events
+0,0,"creamy candy.png",0,0
+//Break Periods
+2,215478,221998
+//Storyboard Layer 0 (Background)
+//Storyboard Layer 1 (Fail)
+//Storyboard Layer 2 (Pass)
+//Storyboard Layer 3 (Foreground)
+//Storyboard Layer 4 (Overlay)
+//Storyboard Sound Samples
+Sample,829,0,"Keysound/Piano/F3S_s.wav",16
+Sample,851,0,"Keysound/Piano/G3S_s.wav",16
+Sample,874,0,"Keysound/Piano/A3S_s.wav",16
+Sample,896,0,"Keysound/Piano/B3S_s.wav",16
+Sample,919,0,"Keysound/Piano/C4S_s.wav",16
+Sample,941,0,"Keysound/Piano/D4S_s.wav",16
+Sample,964,0,"Keysound/Piano/E4S_s.wav",16
+Sample,987,0,"Keysound/Piano/F4S_s.wav",16
+Sample,1009,0,"Keysound/Piano/G4S_s.wav",16
+Sample,1032,0,"Keysound/Piano/A4S_s.wav",16
+Sample,1054,0,"Keysound/Piano/B4S_s.wav",16
+Sample,1077,0,"Keysound/Piano/C5S_s.wav",16
+Sample,1100,0,"Keysound/Piano/D5S_s.wav",16
+Sample,1122,0,"Keysound/Piano/E5S_s.wav",16
+Sample,1145,0,"Keysound/Piano/F5S_s.wav",16
+Sample,1167,0,"Keysound/Piano/G5S_s.wav",16
+Sample,1190,0,"Keysound/Piano/A5S_s.wav",16
+Sample,1213,0,"Keysound/Piano/B5S_s.wav",16
+Sample,1235,0,"Keysound/Piano/C6S_s.wav",16
+Sample,1258,0,"Keysound/Piano/D6S_s.wav",16
+Sample,1280,0,"Keysound/Piano/E6S_s.wav",16
+Sample,1303,0,"Keysound/Piano/F6S_s.wav",16
+Sample,1326,0,"Keysound/Piano/G6S_s.wav",16
+Sample,1348,0,"Keysound/Piano/A6S_s.wav",16
+Sample,1371,0,"Keysound/Piano/A#6S_Bb6S_s.wav",16
+Sample,1393,0,"Keysound/Piano/A#5S_Bb5S_s.wav",30
+Sample,1393,0,"Keysound/Piano/G6S_s.wav",16
+Sample,1393,0,"Keysound/Piano/D#6S_Eb6S_s.wav",30
+Sample,1393,0,"Keysound/Ensemble String/Ensemble String_A#6S_Bb6S.wav",54
+Sample,1393,0,"Keysound/Piano/A#6S_Bb6S_s.wav",30
+Sample,1755,0,"Keysound/Piano/D7S_s.wav",30
+Sample,1935,0,"Keysound/Piano/D#7S_Eb7S_s.wav",30
+Sample,1935,0,"Keysound/Piano/D#6S_Eb6S_s.wav",30
+Sample,2297,0,"Keysound/Piano/D7S_s.wav",30
+Sample,2478,0,"Keysound/Piano/D#6S_Eb6S_s.wav",30
+Sample,2478,0,"Keysound/Piano/D#7S_Eb7S_s.wav",30
+Sample,2658,0,"Keysound/Piano/F6S_s.wav",30
+Sample,2658,0,"Keysound/Piano/F7S_s.wav",30
+Sample,3020,0,"Keysound/Piano/D#6S_Eb6S_s.wav",30
+Sample,3020,0,"Keysound/Piano/D#7S_Eb7S_s.wav",30
+Sample,3381,0,"Keysound/Piano/A#5S_Bb5S.wav",30
+Sample,3381,0,"Keysound/Piano/A#6S_Bb6S.wav",30
+Sample,3923,0,"Keysound/Short String/Short String_C7S_s.wav",54
+Sample,3923,0,"Keysound/Piano/C6S_s.wav",30
+Sample,3923,0,"Keysound/Piano/C7S_s.wav",30
+Sample,4285,0,"Keysound/Piano/G6S_s.wav",30
+Sample,4285,0,"Keysound/Piano/A#5S_Bb5S_s.wav",30
+Sample,4285,0,"Keysound/Piano/D#6S_Eb6S_s.wav",30
+Sample,4285,0,"Keysound/Piano/A#6S_Bb6S_s.wav",30
+Sample,4285,0,"Keysound/Ensemble String/Ensemble String_A#6S_Bb6S.wav",54
+Sample,4646,0,"Keysound/Piano/D7S_s.wav",30
+Sample,4827,0,"Keysound/Piano/D#7S_Eb7S_s.wav",30
+Sample,4827,0,"Keysound/Piano/D#6S_Eb6S_s.wav",30
+Sample,5188,0,"Keysound/Piano/D7S_s.wav",30
+Sample,5369,0,"Keysound/Piano/D#6S_Eb6S_s.wav",30
+Sample,5369,0,"Keysound/Piano/D#7S_Eb7S_s.wav",30
+Sample,5550,0,"Keysound/Piano/F7S_s.wav",30
+Sample,5550,0,"Keysound/Piano/F6S_s.wav",30
+Sample,5911,0,"Keysound/Piano/D#6S_Eb6S_s.wav",30
+Sample,5911,0,"Keysound/Piano/D#7S_Eb7S_s.wav",30
+Sample,6273,0,"Keysound/Piano/A#6S_Bb6S.wav",30
+Sample,6273,0,"Keysound/Piano/A#5S_Bb5S.wav",30
+Sample,6815,0,"Keysound/Short String/Short String_D#6S_Eb6S_s.wav",54
+Sample,6815,0,"Keysound/Piano/D#6S_Eb6S_s.wav",30
+Sample,6905,0,"Keysound/Piano/F6S_s.wav",30
+Sample,6905,0,"Keysound/Short String/Short String_F6S_s.wav",54
+Sample,6996,0,"Keysound/Short String/Short String_G6S_s.wav",54
+Sample,6996,0,"Keysound/Piano/G6S_s.wav",30
+Sample,7086,0,"Keysound/Short String/Short String_G#6S_Ab6S_s.wav",54
+Sample,7086,0,"Keysound/Piano/G#6S_Ab6S_s.wav",30
+Sample,7176,0,"Keysound/Piano/A#6S_Bb6S_s.wav",30
+Sample,7176,0,"Keysound/Piano/D#6S_Eb6S_s.wav",30
+Sample,7176,0,"Keysound/Piano/G6S_s.wav",30
+Sample,7176,0,"Keysound/Piano/A#5S_Bb5S_s.wav",30
+Sample,7176,0,"Keysound/Ensemble String/Ensemble String_A#6S_Bb6S.wav",54
+Sample,7538,0,"Keysound/Piano/D7S_s.wav",30
+Sample,7719,0,"Keysound/Piano/D#6S_Eb6S_s.wav",30
+Sample,7719,0,"Keysound/Piano/D#7S_Eb7S_s.wav",30
+Sample,8080,0,"Keysound/Piano/D7S_s.wav",30
+Sample,8261,0,"Keysound/Piano/D#7S_Eb7S_s.wav",30
+Sample,8261,0,"Keysound/Piano/D#6S_Eb6S_s.wav",30
+Sample,8441,0,"Keysound/Piano/F7S_s.wav",30
+Sample,8441,0,"Keysound/Piano/F6S_s.wav",30
+Sample,8803,0,"Keysound/Piano/D#7S_Eb7S_s.wav",30
+Sample,8803,0,"Keysound/Piano/D#6S_Eb6S_s.wav",30
+Sample,9164,0,"Keysound/Piano/A#5S_Bb5S.wav",30
+Sample,9164,0,"Keysound/Piano/G6S.wav",30
+Sample,9164,0,"Keysound/Piano/D#6S_Eb6S.wav",30
+Sample,9164,0,"Keysound/Piano/A#6S_Bb6S.wav",30
+Sample,9707,0,"Keysound/Piano/D#7S_Eb7S_s.wav",30
+Sample,9707,0,"Keysound/Short String/Short String_D#7S_Eb7S_s.wav",54
+Sample,9887,0,"Keysound/Piano/F7S_s.wav",30
+Sample,9887,0,"Keysound/Short String/Short String_F7S_s.wav",54
+Sample,10068,0,"Keysound/Short String/Short String_G6S_s.wav",54
+Sample,10068,0,"Keysound/Piano/G7S_s.wav",30
+Sample,10068,0,"Keysound/Short String/Short String_G7S_s.wav",54
+Sample,10068,0,"Keysound/Piano/G6S_s.wav",30
+Sample,10429,0,"Keysound/Piano/G#7S_Ab7S_s.wav",30
+Sample,10429,0,"Keysound/Short String/Short String_G#7S_Ab7S_s.wav",54
+Sample,10610,0,"Keysound/Piano/G6S_s.wav",30
+Sample,10610,0,"Keysound/Short String/Short String_G7S_s.wav",54
+Sample,10610,0,"Keysound/Short String/Short String_G6S_s.wav",54
+Sample,10610,0,"Keysound/Piano/G7S_s.wav",30
+Sample,10972,0,"Keysound/Short String/Short String_D#7S_Eb7S_s.wav",54
+Sample,10972,0,"Keysound/Short String/Short String_D#6S_Eb6S_s.wav",54
+Sample,10972,0,"Keysound/Piano/D#7S_Eb7S_s.wav",30
+Sample,10972,0,"Keysound/Piano/D#6S_Eb6S_s.wav",30
+Sample,11333,0,"Keysound/Ensemble String/A#5&A#6.wav",54
+Sample,11333,0,"Keysound/Piano/A#4S_Bb4S.wav",30
+Sample,11333,0,"Keysound/Piano/A#6S_Bb6S.wav",30
+Sample,11333,0,"Keysound/Piano/A#5S_Bb5S_s.wav",30
+Sample,12237,0,"Keysound/Piano/F8S_s.wav",16
+Sample,12259,0,"Keysound/Piano/E8S_s.wav",16
+Sample,12282,0,"Keysound/Piano/D8S_s.wav",16
+Sample,12304,0,"Keysound/Piano/C8S_s.wav",16
+Sample,12327,0,"Keysound/Piano/B7S_s.wav",16
+Sample,12350,0,"Keysound/Piano/A7S_s.wav",16
+Sample,12372,0,"Keysound/Piano/G7S_s.wav",16
+Sample,12395,0,"Keysound/Piano/F#7S_Gb7S_s.wav",16
+Sample,12417,0,"Keysound/Piano/E7S_s.wav",16
+Sample,12440,0,"Keysound/Piano/D7S_s.wav",16
+Sample,12463,0,"Keysound/Piano/C7S_s.wav",16
+Sample,12485,0,"Keysound/Piano/B6S_s.wav",16
+Sample,12508,0,"Keysound/Piano/A6S_s.wav",16
+Sample,12530,0,"Keysound/Piano/G6S_s.wav",16
+Sample,12553,0,"Keysound/Piano/F#6S_Gb6S_s.wav",16
+Sample,12576,0,"Keysound/Piano/E6S_s.wav",16
+Sample,12598,0,"Keysound/Piano/D6S_s.wav",16
+Sample,12621,0,"Keysound/Piano/C6S_s.wav",16
+Sample,12643,0,"Keysound/Piano/B5S_s.wav",16
+Sample,12666,0,"Keysound/Piano/A5S_s.wav",16
+Sample,12688,0,"Keysound/Piano/G5S_s.wav",16
+Sample,12711,0,"Keysound/Piano/F#5S_Gb5S_s.wav",16
+Sample,12734,0,"Keysound/Piano/E5S_s.wav",16
+Sample,12756,0,"Keysound/Piano/D5S_s.wav",16
+Sample,12779,0,"Keysound/Piano/C5S_s.wav",16
+Sample,12801,0,"Keysound/Piano/B4S_s.wav",16
+Sample,12824,0,"Keysound/Piano/A4S_s.wav",16
+Sample,13321,0,"Keysound/Piano/A#5S_Bb5S_s.wav",35
+Sample,13682,0,"Keysound/Piano/F6S_s.wav",35
+Sample,13682,0,"Keysound/Piano/F5S_s.wav",35
+Sample,14044,0,"Keysound/Piano/D#6S_Eb6S_s.wav",35
+Sample,14225,0,"Keysound/Piano/D#6S_Eb6S.wav",35
+Sample,14225,0,"Keysound/Piano/D#5S_Eb5S.wav",35
+Sample,15128,0,"Keysound/Piano/D#6S_Eb6S_s.wav",35
+Sample,15128,0,"Keysound/Piano/D#5S_Eb5S_s.wav",35
+Sample,15490,0,"Keysound/Piano/F5S_s.wav",35
+Sample,15490,0,"Keysound/Piano/F6S_s.wav",35
+Sample,15851,0,"Keysound/Piano/G6S_s.wav",35
+Sample,15851,0,"Keysound/Piano/A#5S_Bb5S_s.wav",38
+Sample,15851,0,"Keysound/Piano/G5S_s.wav",35
+Sample,16213,0,"Keysound/Piano/G#6S_Ab6S_s.wav",35
+Sample,16393,0,"Keysound/Piano/F5S_s.wav",35
+Sample,16393,0,"Keysound/Piano/F6S_s.wav",35
+Sample,16393,0,"Keysound/Piano/A#5S_Bb5S_s.wav",35
+Sample,16755,0,"Keysound/Piano/D#5S_Eb5S_s.wav",35
+Sample,16755,0,"Keysound/Piano/D#6S_Eb6S_s.wav",35
+Sample,17116,0,"Keysound/Piano/C6S.wav",35
+Sample,17116,0,"Keysound/Piano/G6S.wav",35
+Sample,17116,0,"Keysound/Piano/G5S.wav",35
+Sample,18743,0,"Keysound/Piano/A#4S_Bb4S_s.wav",35
+Sample,19104,0,"Keysound/Piano/A#5S_Bb5S_s.wav",35
+Sample,19104,0,"Keysound/Piano/A#4S_Bb4S_s.wav",35
+Sample,19466,0,"Keysound/Piano/F6S_s.wav",35
+Sample,19466,0,"Keysound/Piano/D6S_s.wav",35
+Sample,19466,0,"Keysound/Piano/F5S_s.wav",35
+Sample,19827,0,"Keysound/Piano/D#6S_Eb6S_s.wav",35
+Sample,20008,0,"Keysound/Piano/D#6S_Eb6S.wav",35
+Sample,20008,0,"Keysound/Piano/D#5S_Eb5S.wav",35
+Sample,20911,0,"Keysound/Piano/D6S_s.wav",35
+Sample,21273,0,"Keysound/Piano/D#6S_Eb6S_s.wav",35
+Sample,21273,0,"Keysound/Piano/D#7S_Eb7S.wav",35
+Sample,21273,0,"Keysound/Piano/A#5S_Bb5S_s.wav",35
+Sample,21634,0,"Keysound/Piano/C6S_s.wav",35
+Sample,21634,0,"Keysound/Piano/C5S_s.wav",35
+Sample,21996,0,"Keysound/Piano/A#5S_Bb5S_s.wav",35
+Sample,22176,0,"Keysound/Piano/A#4S_Bb4S.wav",35
+Sample,22176,0,"Keysound/Piano/A#5S_Bb5S.wav",35
+Sample,23080,0,"Keysound/Piano/D#7S_Eb7S_s.wav",35
+Sample,23261,0,"Keysound/Piano/F7S_s.wav",35
+Sample,23261,0,"Keysound/Piano/F6S_s.wav",38
+Sample,23441,0,"Keysound/Piano/D#7S_Eb7S_s.wav",35
+Sample,23622,0,"Keysound/Piano/D6S_s.wav",35
+Sample,23622,0,"Keysound/Piano/D7S_s.wav",35
+Sample,23984,0,"Keysound/Piano/C7S_s.wav",35
+Sample,24164,0,"Keysound/Piano/A#5S_Bb5S_s.wav",35
+Sample,24164,0,"Keysound/Piano/A#6S_Bb6S_s.wav",35
+Sample,24345,0,"Keysound/Piano/A#6S_Bb6S_s.wav",35
+Sample,24345,0,"Keysound/Piano/A#5S_Bb5S_s.wav",35
+Sample,24887,0,"Keysound/Piano/A#4S_Bb4S_s.wav",35
+Sample,24887,0,"Keysound/Piano/D#5S_Eb5S_s.wav",35
+Sample,24887,0,"Keysound/Piano/A#5S_Bb5S_s.wav",35
+Sample,25249,0,"Keysound/Piano/F5S_s.wav",35
+Sample,25249,0,"Keysound/Piano/F6S_s.wav",35
+Sample,25610,0,"Keysound/Piano/D5S_s.wav",35
+Sample,25610,0,"Keysound/Piano/D6S_s.wav",35
+Sample,25791,0,"Keysound/Piano/A#5S_Bb5S.wav",35
+Sample,25791,0,"Keysound/Piano/D#5S_Eb5S.wav",35
+Sample,25791,0,"Keysound/Piano/D#6S_Eb6S.wav",35
+Sample,26695,0,"Keysound/Piano/D#6S_Eb6S_s.wav",35
+Sample,26695,0,"Keysound/Piano/D#5S_Eb5S_s.wav",35
+Sample,27056,0,"Keysound/Piano/F6S_s.wav",35
+Sample,27056,0,"Keysound/Piano/F5S.wav",35
+Sample,27417,0,"Keysound/Piano/G6S_s.wav",35
+Sample,27417,0,"Keysound/Piano/A#5S_Bb5S_s.wav",35
+Sample,27417,0,"Keysound/Piano/G5S_s.wav",35
+Sample,27779,0,"Keysound/Piano/G#6S_Ab6S_s.wav",35
+Sample,27960,0,"Keysound/Piano/F5S_s.wav",35
+Sample,27960,0,"Keysound/Piano/G#5S_Ab5S_s.wav",35
+Sample,27960,0,"Keysound/Piano/F6S_s.wav",35
+Sample,28321,0,"Keysound/Piano/D#6S_Eb6S_s.wav",35
+Sample,28321,0,"Keysound/Piano/D#5S_Eb5S.wav",35
+Sample,28682,0,"Keysound/Piano/G5S.wav",35
+Sample,28682,0,"Keysound/Piano/A#5S_Bb5S.wav",35
+Sample,28682,0,"Keysound/Piano/G6S.wav",35
+Sample,29586,0,"Keysound/Piano/G6S_s.wav",35
+Sample,29586,0,"Keysound/Piano/G5S_s.wav",35
+Sample,29948,0,"Keysound/Piano/G#5S_Ab5S_s.wav",35
+Sample,29948,0,"Keysound/Piano/G#6S_Ab6S_s.wav",35
+Sample,30309,0,"Keysound/Piano/A#5S_Bb5S_s.wav",35
+Sample,30309,0,"Keysound/Piano/A#6S_Bb6S_s.wav",35
+Sample,30490,0,"Keysound/Piano/G6S_s.wav",35
+Sample,30670,0,"Keysound/Piano/A#6S_Bb6S_s.wav",35
+Sample,30670,0,"Keysound/Piano/A#5S_Bb5S_s.wav",35
+Sample,30851,0,"Keysound/Piano/G6S_s.wav",35
+Sample,31032,0,"Keysound/Piano/A#6S_Bb6S_s.wav",35
+Sample,31032,0,"Keysound/Piano/A#5S_Bb5S_s.wav",35
+Sample,31393,0,"Keysound/Piano/C7S_s.wav",35
+Sample,31574,0,"Keysound/Piano/D#6S_Eb6S_s.wav",35
+Sample,31574,0,"Keysound/Piano/A#6S_Bb6S_s.wav",35
+Sample,31574,0,"Keysound/Piano/A#5S_Bb5S_s.wav",35
+Sample,31935,0,"Keysound/Piano/D#6S_Eb6S.wav",35
+Sample,32297,0,"Keysound/Piano/G6S_s.wav",35
+Sample,32297,0,"Keysound/Piano/G5S_s.wav",35
+Sample,32658,0,"Keysound/Piano/A#5S_Bb5S_s.wav",35
+Sample,32658,0,"Keysound/Piano/G6S_s.wav",35
+Sample,32839,0,"Keysound/Piano/D#6S_Eb6S_s.wav",35
+Sample,33020,0,"Keysound/Piano/F6S_s.wav",35
+Sample,33201,0,"Keysound/Piano/A#5S_Bb5S_s.wav",35
+Sample,33201,0,"Keysound/Piano/G5S_s.wav",35
+Sample,33201,0,"Keysound/Piano/G6S_s.wav",35
+Sample,33562,0,"Keysound/Piano/F6S_s.wav",35
+Sample,33743,0,"Keysound/Piano/G#5S_Ab5S_s.wav",35
+Sample,33743,0,"Keysound/Piano/G#6S_Ab6S_s.wav",35
+Sample,34104,0,"Keysound/Piano/G6S_s.wav",35
+Sample,34104,0,"Keysound/Piano/G5S_s.wav",35
+Sample,34466,0,"Keysound/Piano/D#6S_Eb6S.wav",35
+Sample,34466,0,"Keysound/Piano/D#7S_Eb7S.wav",35
+Sample,34466,0,"Keysound/Piano/D#5S_Eb5S.wav",35
+Sample,34917,0,"Keysound/Short String/Short String_F6S_s.wav",54
+Sample,34917,0,"Keysound/Piano/F6S_s.wav",35
+Sample,35188,0,"Keysound/Short String/Short String_G6S_s.wav",54
+Sample,35188,0,"Keysound/Piano/G6S_s.wav",35
+Sample,35550,0,"Keysound/Short String/Short String_F6S_s.wav",54
+Sample,35550,0,"Keysound/Piano/F5S_s.wav",35
+Sample,35550,0,"Keysound/Piano/F6S_s.wav",35
+Sample,35731,0,"Keysound/Piano/G6S_s.wav",35
+Sample,35731,0,"Keysound/Short String/Short String_G6S_s.wav",54
+Sample,36092,0,"Keysound/Piano/D#5S_Eb5S_s.wav",35
+Sample,36092,0,"Keysound/Piano/G#5S_Ab5S_s.wav",37
+Sample,36092,0,"Keysound/Piano/D#6S_Eb6S_s.wav",35
+Sample,36273,0,"Keysound/Piano/C6S_s.wav",35
+Sample,36454,0,"Keysound/Piano/D#6S_Eb6S_s.wav",35
+Sample,36454,0,"Keysound/Piano/D#5S_Eb5S_s.wav",35
+Sample,36454,0,"Keysound/Piano/G#5S_Ab5S_s.wav",37
+Sample,36634,0,"Keysound/Piano/C6S_s.wav",35
+Sample,36815,0,"Keysound/Piano/G#5S_Ab5S_s.wav",37
+Sample,36815,0,"Keysound/Piano/D#6S_Eb6S_s.wav",35
+Sample,36815,0,"Keysound/Piano/D#5S_Eb5S_s.wav",35
+Sample,37176,0,"Keysound/Piano/G6S_s.wav",35
+Sample,37176,0,"Keysound/Piano/G5S_s.wav",38
+Sample,37357,0,"Keysound/Piano/A#5S_Bb5S_s.wav",35
+Sample,37357,0,"Keysound/Piano/F5S_s.wav",35
+Sample,37357,0,"Keysound/Piano/F6S_s.wav",35
+Sample,37719,0,"Keysound/Piano/D#6S_Eb6S_s.wav",35
+Sample,37719,0,"Keysound/Piano/D#5S_Eb5S_s.wav",35
+Sample,38080,0,"Keysound/Piano/D5S_s.wav",35
+Sample,38080,0,"Keysound/Piano/D6S_s.wav",35
+Sample,38441,0,"Keysound/Piano/D#6S_Eb6S_s.wav",35
+Sample,38441,0,"Keysound/Short String/Short String_D#6S_Eb6S_s.wav",54
+Sample,38622,0,"Keysound/Short String/Short String_G6S_s.wav",54
+Sample,38622,0,"Keysound/Piano/G6S_s.wav",35
+Sample,38803,0,"Keysound/Piano/G#6S_Ab6S_s.wav",35
+Sample,38803,0,"Keysound/Short String/Short String_G#6S_Ab6S_s.wav",54
+Sample,38984,0,"Keysound/Piano/D5S_s.wav",37
+Sample,38984,0,"Keysound/Piano/D6S_s.wav",35
+Sample,38984,0,"Keysound/Piano/G5S_s.wav",35
+Sample,39164,0,"Keysound/Piano/A#5S_Bb5S_s.wav",35
+Sample,39345,0,"Keysound/Piano/G5S_s.wav",35
+Sample,39345,0,"Keysound/Piano/D6S_s.wav",35
+Sample,39345,0,"Keysound/Piano/D5S_s.wav",37
+Sample,39526,0,"Keysound/Piano/A#5S_Bb5S_s.wav",35
+Sample,39707,0,"Keysound/Piano/F5S_s.wav",37
+Sample,39707,0,"Keysound/Piano/D5S_s.wav",37
+Sample,39707,0,"Keysound/Piano/D6S_s.wav",35
+Sample,40068,0,"Keysound/Piano/G5S_s.wav",38
+Sample,40068,0,"Keysound/Piano/G6S_s.wav",35
+Sample,40249,0,"Keysound/Piano/F5S_s.wav",37
+Sample,40249,0,"Keysound/Piano/F6S_s.wav",35
+Sample,40610,0,"Keysound/Piano/D#5S_Eb5S_s.wav",37
+Sample,40610,0,"Keysound/Piano/D#6S_Eb6S_s.wav",35
+Sample,40972,0,"Keysound/Piano/C6S_s.wav",35
+Sample,41333,0,"Keysound/Piano/D#6S_Eb6S_s.wav",35
+Sample,41333,0,"Keysound/Piano/D#5S_Eb5S_s.wav",37
+Sample,41514,0,"Keysound/Piano/D#6S_Eb6S_s.wav",37
+Sample,41514,0,"Keysound/Piano/D#5S_Eb5S_s.wav",37
+Sample,41875,0,"Keysound/Piano/F5S.wav",35
+Sample,41875,0,"Keysound/Piano/F6S.wav",35
+Sample,41875,0,"Keysound/Piano/G#5S_Ab5S.wav",37
+Sample,42417,0,"Keysound/Piano/D6S_s.wav",35
+Sample,42598,0,"Keysound/Piano/D5S.wav",37
+Sample,42598,0,"Keysound/Piano/D6S.wav",35
+Sample,43321,0,"Keysound/Piano/D5S_s.wav",53
+Sample,43321,0,"Keysound/Short String/Short String_D5S_s.wav",63
+Sample,43502,0,"Keysound/Piano/D5S_s.wav",53
+Sample,43502,0,"Keysound/Short String/Short String_D5S_s.wav",63
+Sample,43682,0,"Keysound/Piano/D5S_s.wav",53
+Sample,43682,0,"Keysound/Short String/Short String_D5S_s.wav",63
+Sample,44044,0,"Keysound/Piano/C6S_s.wav",35
+Sample,44044,0,"Keysound/Piano/C5S_s.wav",35
+Sample,44405,0,"Keysound/Piano/D#5S_Eb5S_s.wav",35
+Sample,44405,0,"Keysound/Piano/D#6S_Eb6S_s.wav",35
+Sample,44767,0,"Keysound/Piano/G#5S_Ab5S.wav",35
+Sample,44767,0,"Keysound/Piano/F6S.wav",35
+Sample,44767,0,"Keysound/Piano/F5S.wav",35
+Sample,45309,0,"Keysound/Piano/G6S_s.wav",35
+Sample,45309,0,"Keysound/Piano/G5S_s.wav",35
+Sample,45490,0,"Keysound/Piano/G5S.wav",35
+Sample,45490,0,"Keysound/Piano/G6S.wav",35
+Sample,46213,0,"Keysound/Piano/D#7S_Eb7S_s.wav",35
+Sample,46213,0,"Keysound/Short String/Short String_D#7S_Eb7S_s.wav",54
+Sample,46454,0,"Keysound/Short String/Short String_F6S_s.wav",54
+Sample,46454,0,"Keysound/Short String/Short String_F7S_s.wav",54
+Sample,46461,0,"Keysound/Piano/F7S_s.wav",35
+Sample,46461,0,"Keysound/Piano/F6S_s.wav",35
+Sample,46695,0,"Keysound/Short String/Short String_G7S_s.wav",54
+Sample,46710,0,"Keysound/Piano/G7S_s.wav",35
+Sample,46935,0,"Keysound/Piano/G7S_s.wav",35
+Sample,46935,0,"Keysound/Short String/Short String_G7S_s.wav",54
+Sample,46935,0,"Keysound/Piano/G6S_s.wav",35
+Sample,46935,0,"Keysound/Short String/Short String_G6S_s.wav",54
+Sample,47176,0,"Keysound/Short String/Short String_F7S_s.wav",54
+Sample,47176,0,"Keysound/Short String/Short String_F6S_s.wav",54
+Sample,47184,0,"Keysound/Piano/F6S_s.wav",35
+Sample,47184,0,"Keysound/Piano/F7S_s.wav",35
+Sample,47417,0,"Keysound/Short String/Short String_D6S_s.wav",54
+Sample,47417,0,"Keysound/Short String/Short String_D7S_s.wav",54
+Sample,47432,0,"Keysound/Piano/D6S_s.wav",35
+Sample,47432,0,"Keysound/Piano/D7S_s.wav",35
+Sample,47658,0,"Keysound/Piano/D#5S_Eb5S_s.wav",35
+Sample,47658,0,"Keysound/Piano/D#6S_Eb6S_s.wav",35
+Sample,47839,0,"Keysound/Piano/D#5S_Eb5S_s.wav",35
+Sample,47839,0,"Keysound/Piano/D#6S_Eb6S_s.wav",35
+Sample,48020,0,"Keysound/Piano/D#5S_Eb5S_s.wav",35
+Sample,48020,0,"Keysound/Piano/D#6S_Eb6S_s.wav",35
+Sample,48201,0,"Keysound/Piano/C6S_s.wav",35
+Sample,48381,0,"Keysound/Piano/D#6S_Eb6S_s.wav",35
+Sample,48381,0,"Keysound/Piano/D#5S_Eb5S_s.wav",35
+Sample,48743,0,"Keysound/Piano/G6S_s.wav",35
+Sample,48923,0,"Keysound/Piano/F5S_s.wav",35
+Sample,48923,0,"Keysound/Piano/F6S_s.wav",35
+Sample,48923,0,"Keysound/Piano/G#5S_Ab5S_s.wav",35
+Sample,49285,0,"Keysound/Piano/D#6S_Eb6S_s.wav",35
+Sample,49646,0,"Keysound/Piano/D6S_s.wav",35
+Sample,50008,0,"Keysound/Piano/A#5S_Bb5S.wav",35
+Sample,50008,0,"Keysound/Piano/F6S.wav",35
+Sample,50008,0,"Keysound/Piano/F5S.wav",35
+Sample,50550,0,"Keysound/Piano/D5S_s.wav",35
+Sample,50550,0,"Keysound/Piano/D6S_s.wav",35
+Sample,50731,0,"Keysound/Piano/D6S_s.wav",35
+Sample,50731,0,"Keysound/Piano/D5S_s.wav",35
+Sample,51092,0,"Keysound/Piano/A#5S_Bb5S_s.wav",35
+Sample,51273,0,"Keysound/Piano/D5S_s.wav",35
+Sample,51273,0,"Keysound/Piano/D6S_s.wav",35
+Sample,51634,0,"Keysound/Piano/G6S_s.wav",35
+Sample,51815,0,"Keysound/Piano/F5S_s.wav",35
+Sample,51815,0,"Keysound/Piano/A#5S_Bb5S_s.wav",38
+Sample,51815,0,"Keysound/Piano/F6S_s.wav",35
+Sample,52176,0,"Keysound/Piano/A#5S_Bb5S_s.wav",38
+Sample,52176,0,"Keysound/Piano/D#5S_Eb5S_s.wav",35
+Sample,52176,0,"Keysound/Piano/D#6S_Eb6S_s.wav",35
+Sample,52538,0,"Keysound/Piano/C6S_s.wav",35
+Sample,52538,0,"Keysound/Piano/C5S_s.wav",35
+Sample,52899,0,"Keysound/Piano/D#5S_Eb5S_s.wav",35
+Sample,52899,0,"Keysound/Piano/D#6S_Eb6S_s.wav",35
+Sample,53080,0,"Keysound/Piano/F8S_s.wav",16
+Sample,53103,0,"Keysound/Piano/E8S_s.wav",16
+Sample,53125,0,"Keysound/Piano/D8S_s.wav",16
+Sample,53148,0,"Keysound/Piano/C8S_s.wav",16
+Sample,53170,0,"Keysound/Piano/B7S_s.wav",16
+Sample,53193,0,"Keysound/Piano/A7S_s.wav",16
+Sample,53216,0,"Keysound/Piano/G7S_s.wav",16
+Sample,53238,0,"Keysound/Piano/F#7S_Gb7S_s.wav",16
+Sample,53261,0,"Keysound/Piano/E7S_s.wav",16
+Sample,53283,0,"Keysound/Piano/D7S_s.wav",16
+Sample,53306,0,"Keysound/Piano/C7S_s.wav",16
+Sample,53329,0,"Keysound/Piano/B6S_s.wav",16
+Sample,53351,0,"Keysound/Piano/A6S_s.wav",16
+Sample,53374,0,"Keysound/Piano/G6S_s.wav",16
+Sample,53396,0,"Keysound/Piano/F#6S_Gb6S_s.wav",16
+Sample,53419,0,"Keysound/Piano/E6S_s.wav",16
+Sample,53442,0,"Keysound/Short String/Short String_D#6S_Eb6S_s.wav",54
+Sample,53442,0,"Keysound/Piano/D#6S_Eb6S.wav",38
+Sample,53442,0,"Keysound/Piano/D#5S_Eb5S.wav",38
+Sample,53803,0,"Keysound/Short String/Short String_D#6S_Eb6S_s.wav",54
+Sample,53984,0,"Keysound/Piano/C6S_s.wav",38
+Sample,53984,0,"Keysound/Short String/Short String_C6S_s.wav",54
+Sample,54164,0,"Keysound/Piano/F5S.wav",38
+Sample,54164,0,"Keysound/Piano/C6S.wav",38
+Sample,54164,0,"Keysound/Piano/C5S.wav",38
+Sample,54164,0,"Keysound/Short String/Short String_C6S_s.wav",54
+Sample,54526,0,"Keysound/Short String/Short String_C6S_s.wav",54
+Sample,54887,0,"Keysound/Short String/Short String_C6S_s.wav",54
+Sample,55249,0,"Keysound/Short String/Short String_C6S_s.wav",54
+Sample,55429,0,"Keysound/Piano/C6S_s.wav",38
+Sample,55610,0,"Keysound/Short String/Short String_C6S_s.wav",54
+Sample,55610,0,"Keysound/Piano/C6S.wav",38
+Sample,55972,0,"Keysound/Piano/D#6S_Eb6S_s.wav",38
+Sample,55972,0,"Keysound/Short String/Short String_D#6S_Eb6S_s.wav",54
+Sample,55972,0,"Keysound/Piano/D#5S_Eb5S_s.wav",38
+Sample,56333,0,"Keysound/Piano/G5S.wav",38
+Sample,56333,0,"Keysound/Piano/G6S.wav",38
+Sample,56333,0,"Keysound/Short String/Short String_G6S_s.wav",54
+Sample,56333,0,"Keysound/Piano/A#5S_Bb5S.wav",38
+Sample,56695,0,"Keysound/Short String/Short String_G6S_s.wav",54
+Sample,57056,0,"Keysound/Short String/Short String_G6S_s.wav",54
+Sample,57237,0,"Keysound/Piano/G#6S_Ab6S.wav",38
+Sample,57417,0,"Keysound/Short String/Short String_G#6S_Ab6S_s.wav",54
+Sample,57598,0,"Keysound/Piano/F6S_s.wav",38
+Sample,57598,0,"Keysound/Short String/Short String_F6S_s.wav",54
+Sample,57779,0,"Keysound/Piano/A#6S_Bb6S_s.wav",38
+Sample,57779,0,"Keysound/Short String/Short String_A#6S_Bb6S_s.wav",54
+Sample,57779,0,"Keysound/Piano/A#5S_Bb5S_s.wav",38
+Sample,57960,0,"Keysound/Short String/Short String_A#6S_Bb6S_s.wav",54
+Sample,57960,0,"Keysound/Piano/A#6S_Bb6S_s.wav",38
+Sample,58140,0,"Keysound/Short String/Short String_C7S_s.wav",54
+Sample,58140,0,"Keysound/Short String/Short String_C6S_s.wav",54
+Sample,58140,0,"Keysound/Piano/C7S_s.wav",38
+Sample,58140,0,"Keysound/Piano/C6S_s.wav",38
+Sample,58502,0,"Keysound/Piano/D6S_s.wav",38
+Sample,58502,0,"Keysound/Short String/Short String_D6S_s.wav",54
+Sample,58502,0,"Keysound/Piano/D7S_s.wav",38
+Sample,58502,0,"Keysound/Short String/Short String_D7S_s.wav",54
+Sample,58773,0,"Keysound/Short String/Short String_D#7S_Eb7S_s.wav",54
+Sample,58773,0,"Keysound/Piano/D#6S_Eb6S_s.wav",38
+Sample,58773,0,"Keysound/Piano/D#7S_Eb7S_s.wav",38
+Sample,58773,0,"Keysound/Short String/Short String_D#6S_Eb6S_s.wav",54
+Sample,59044,0,"Keysound/Piano/F7S_s.wav",38
+Sample,59044,0,"Keysound/Piano/F6S_s.wav",38
+Sample,59044,0,"Keysound/Short String/Short String_F6S_s.wav",54
+Sample,59044,0,"Keysound/Short String/Short String_F7S_s.wav",54
+Sample,59179,0,"Keysound/Piano/A#6S_Bb6S_s.wav",38
+Sample,59225,0,"Keysound/Piano/D7S_s.wav",38
+Sample,59270,0,"Keysound/Piano/A#7S_Bb7S_s.wav",38
+Sample,59586,0,"Keysound/Piano/D#6S_Eb6S_s.wav",38
+Sample,59948,0,"Keysound/Piano/C6S.wav",38
+Sample,59948,0,"Keysound/Piano/C7S.wav",38
+Sample,60670,0,"Keysound/Piano/D#5S_Eb5S.wav",38
+Sample,60670,0,"Keysound/Short String/Short String_A#5S_Bb5S.wav",54
+Sample,60670,0,"Keysound/Short String/Short String_D#5S_Eb5S.wav",54
+Sample,60670,0,"Keysound/Piano/A#5S_Bb5S.wav",38
+Sample,60670,0,"Keysound/Piano/A#6S_Bb6S.wav",38
+Sample,60670,0,"Keysound/Short String/Short String_A#6S_Bb6S.wav",54
+Sample,61393,0,"Keysound/Piano/A#6S_Bb6S_s.wav",38
+Sample,61393,0,"Keysound/Short String/Short String_A#6S_Bb6S_s.wav",54
+Sample,61393,0,"Keysound/Short String/Short String_A#5S_Bb5S_s.wav",54
+Sample,61393,0,"Keysound/Piano/A#5S_Bb5S_s.wav",38
+Sample,61755,0,"Keysound/Short String/Short String_C7S_s.wav",54
+Sample,61755,0,"Keysound/Piano/C6S_s.wav",38
+Sample,61755,0,"Keysound/Short String/Short String_C6S_s.wav",54
+Sample,61755,0,"Keysound/Piano/C7S_s.wav",38
+Sample,61935,0,"Keysound/Short String/Short String_A#6S_Bb6S_s.wav",54
+Sample,61935,0,"Keysound/Piano/A#5S_Bb5S_s.wav",38
+Sample,61935,0,"Keysound/Short String/Short String_A#5S_Bb5S_s.wav",54
+Sample,61935,0,"Keysound/Piano/A#6S_Bb6S_s.wav",38
+Sample,62297,0,"Keysound/Short String/Short String_F5S_s.wav",54
+Sample,62297,0,"Keysound/Short String/Short String_F6S_s.wav",54
+Sample,62297,0,"Keysound/Piano/F6S_s.wav",38
+Sample,62297,0,"Keysound/Piano/F5S_s.wav",38
+Sample,62478,0,"Keysound/Piano/F6S_s.wav",38
+Sample,62478,0,"Keysound/Ensemble String/Ensemble String_F6S_s.wav",54
+Sample,62478,0,"Keysound/Piano/F5S_s.wav",38
+Sample,62478,0,"Keysound/Piano/A#5S_Bb5S_s.wav",38
+Sample,62478,0,"Keysound/Ensemble String/Ensemble String_F5S_s.wav",54
+Sample,62478,0,"Keysound/Ensemble String/Ensemble String_A#5S_Bb5S_s.wav",54
+Sample,63201,0,"Keysound/Short String/Short String_D#6S_Eb6S_s.wav",54
+Sample,63201,0,"Keysound/Piano/D#6S_Eb6S_s.wav",38
+Sample,63381,0,"Keysound/Piano/F6S_s.wav",38
+Sample,63381,0,"Keysound/Short String/Short String_F6S_s.wav",54
+Sample,63562,0,"Keysound/Piano/G6S_s.wav",38
+Sample,63562,0,"Keysound/Short String/Short String_G6S_s.wav",54
+Sample,63562,0,"Keysound/Piano/A#5S_Bb5S_s.wav",38
+Sample,63562,0,"Keysound/Piano/G5S_s.wav",38
+Sample,63562,0,"Keysound/Short String/Short String_G5S_s.wav",54
+Sample,63562,0,"Keysound/Short String/Short String_A#5S_Bb5S_s.wav",54
+Sample,63743,0,"Keysound/Short String/Short String_F6S_s.wav",54
+Sample,63743,0,"Keysound/Piano/F6S_s.wav",38
+Sample,63923,0,"Keysound/Short String/Short String_G6S_s.wav",54
+Sample,63923,0,"Keysound/Piano/G6S_s.wav",38
+Sample,64104,0,"Keysound/Piano/A#6S_Bb6S_s.wav",38
+Sample,64104,0,"Keysound/Short String/Short String_A#6S_Bb6S_s.wav",54
+Sample,64285,0,"Keysound/Short String/Short String_G6S_s.wav",54
+Sample,64285,0,"Keysound/Piano/G6S_s.wav",38
+Sample,64285,0,"Keysound/Piano/D#6S_Eb6S_s.wav",38
+Sample,64285,0,"Keysound/Short String/Short String_D#7S_Eb7S_s.wav",54
+Sample,64285,0,"Keysound/Short String/Short String_D#6S_Eb6S_s.wav",54
+Sample,64285,0,"Keysound/Piano/D#7S_Eb7S_s.wav",38
+Sample,64646,0,"Keysound/Piano/G6S_s.wav",38
+Sample,64646,0,"Keysound/Short String/Short String_G6S_s.wav",54
+Sample,64646,0,"Keysound/Piano/G5S_s.wav",38
+Sample,64646,0,"Keysound/Short String/Short String_G5S_s.wav",54
+Sample,64827,0,"Keysound/Piano/F5S_s.wav",38
+Sample,64827,0,"Keysound/Short String/Short String_F6S_s.wav",54
+Sample,64827,0,"Keysound/Piano/F6S_s.wav",38
+Sample,64827,0,"Keysound/Short String/Short String_F5S_s.wav",54
+Sample,65189,0,"Keysound/Short String/Short String_D#6S_Eb6S_s.wav",54
+Sample,65189,0,"Keysound/Piano/D#5S_Eb5S_s.wav",38
+Sample,65189,0,"Keysound/Piano/D#6S_Eb6S_s.wav",38
+Sample,65189,0,"Keysound/Short String/Short String_D#5S_Eb5S_s.wav",54
+Sample,65369,0,"Keysound/Ensemble String/Ensemble String_D#5S_Eb5S_s.wav",54
+Sample,65369,0,"Keysound/Ensemble String/Ensemble String_D#6S_Eb6S_s.wav",54
+Sample,65369,0,"Keysound/Piano/D#5S_Eb5S_s.wav",38
+Sample,65369,0,"Keysound/Piano/D#6S_Eb6S_s.wav",38
+Sample,66092,0,"Keysound/Short String/Short String_D#6S_Eb6S_s.wav",54
+Sample,66092,0,"Keysound/Short String/Short String_D#5S_Eb5S_s.wav",54
+Sample,66092,0,"Keysound/Piano/D#6S_Eb6S_s.wav",38
+Sample,66092,0,"Keysound/Piano/D#5S_Eb5S_s.wav",38
+Sample,66454,0,"Keysound/Short String/Short String_F6S_s.wav",54
+Sample,66454,0,"Keysound/Piano/F6S_s.wav",38
+Sample,66454,0,"Keysound/Piano/F5S_s.wav",38
+Sample,66454,0,"Keysound/Short String/Short String_F5S_s.wav",54
+Sample,66815,0,"Keysound/Piano/G6S_s.wav",38
+Sample,66815,0,"Keysound/Short String/Short String_G5S_s.wav",54
+Sample,66815,0,"Keysound/Short String/Short String_G6S_s.wav",54
+Sample,66815,0,"Keysound/Piano/G5S_s.wav",38
+Sample,66996,0,"Keysound/Short String/Short String_G6S_s.wav",54
+Sample,66996,0,"Keysound/Piano/G5S_s.wav",38
+Sample,66996,0,"Keysound/Short String/Short String_G5S_s.wav",54
+Sample,66996,0,"Keysound/Piano/G6S_s.wav",38
+Sample,67357,0,"Keysound/Short String/Short String_G#5S_Ab5S_s.wav",54
+Sample,67357,0,"Keysound/Piano/G#6S_Ab6S_s.wav",38
+Sample,67357,0,"Keysound/Short String/Short String_G#6S_Ab6S_s.wav",54
+Sample,67357,0,"Keysound/Piano/G#5S_Ab5S_s.wav",38
+Sample,67719,0,"Keysound/Short String/Short String_G5S_s.wav",54
+Sample,67719,0,"Keysound/Piano/G6S_s.wav",38
+Sample,67719,0,"Keysound/Short String/Short String_G6S_s.wav",54
+Sample,67719,0,"Keysound/Piano/G5S_s.wav",38
+Sample,68080,0,"Keysound/Short String/Short String_F5S_s.wav",54
+Sample,68080,0,"Keysound/Piano/F5S_s.wav",38
+Sample,68080,0,"Keysound/Short String/Short String_F6S_s.wav",54
+Sample,68080,0,"Keysound/Piano/F6S_s.wav",38
+Sample,68442,0,"Keysound/Short String/Short String_D#6S_Eb6S_s.wav",54
+Sample,68442,0,"Keysound/Short String/Short String_D#5S_Eb5S_s.wav",54
+Sample,68442,0,"Keysound/Piano/D#6S_Eb6S_s.wav",38
+Sample,68442,0,"Keysound/Piano/D#5S_Eb5S_s.wav",38
+Sample,68803,0,"Keysound/Short String/Short String_F5S_s.wav",54
+Sample,68803,0,"Keysound/Piano/F5S_s.wav",38
+Sample,68803,0,"Keysound/Piano/F6S_s.wav",38
+Sample,68803,0,"Keysound/Short String/Short String_F6S_s.wav",54
+Sample,69164,0,"Keysound/Piano/G6S.wav",38
+Sample,69164,0,"Keysound/Piano/G5S.wav",35
+Sample,69345,0,"Keysound/Short String/Short String_G6S.wav",54
+Sample,69345,0,"Keysound/Short String/Short String_G5S.wav",54
+Sample,69707,0,"Keysound/Short String/Short String_G6S_s.wav",54
+Sample,69707,0,"Keysound/Short String/Short String_G5S_s.wav",54
+Sample,69887,0,"Keysound/Short String/Short String_G5S.wav",54
+Sample,69887,0,"Keysound/Short String/Short String_G6S.wav",54
+Sample,70249,0,"Keysound/Short String/Short String_F#6S_Gb6S.wav",54
+Sample,70249,0,"Keysound/Short String/Short String_F#5S_Gb5S.wav",54
+Sample,70610,0,"Keysound/Short String/Short String_F5S.wav",54
+Sample,70610,0,"Keysound/Short String/Short String_F6S.wav",54
+Sample,71152,0,"Keysound/Short String/Short String_D#5S_Eb5S_s.wav",54
+Sample,71152,0,"Keysound/Piano/D#5S_Eb5S_s.wav",38
+Sample,71514,0,"Keysound/Piano/C7S.wav",38
+Sample,71514,0,"Keysound/Short String/Short String_C6S.wav",54
+Sample,71514,0,"Keysound/Piano/C6S.wav",38
+Sample,71514,0,"Keysound/Short String/Short String_C7S.wav",54
+Sample,72237,0,"Keysound/Piano/A#5S_Bb5S.wav",38
+Sample,72237,0,"Keysound/Short String/Short String_A#6S_Bb6S.wav",54
+Sample,72237,0,"Keysound/Short String/Short String_D#5S_Eb5S.wav",54
+Sample,72237,0,"Keysound/Short String/Short String_A#5S_Bb5S.wav",54
+Sample,72237,0,"Keysound/Piano/A#6S_Bb6S.wav",38
+Sample,72237,0,"Keysound/Piano/D#5S_Eb5S.wav",38
+Sample,72960,0,"Keysound/Short String/Short String_A#5S_Bb5S_s.wav",54
+Sample,72960,0,"Keysound/Short String/Short String_A#6S_Bb6S_s.wav",54
+Sample,72960,0,"Keysound/Piano/A#5S_Bb5S_s.wav",38
+Sample,72960,0,"Keysound/Piano/A#6S_Bb6S_s.wav",38
+Sample,73321,0,"Keysound/Piano/C6S_s.wav",38
+Sample,73321,0,"Keysound/Short String/Short String_C6S_s.wav",54
+Sample,73321,0,"Keysound/Piano/C7S_s.wav",38
+Sample,73321,0,"Keysound/Short String/Short String_C7S_s.wav",54
+Sample,73502,0,"Keysound/Short String/Short String_A#6S_Bb6S_s.wav",54
+Sample,73502,0,"Keysound/Piano/A#5S_Bb5S_s.wav",38
+Sample,73502,0,"Keysound/Piano/A#6S_Bb6S_s.wav",38
+Sample,73502,0,"Keysound/Short String/Short String_A#5S_Bb5S_s.wav",54
+Sample,73863,0,"Keysound/Short String/Short String_F5S_s.wav",54
+Sample,73863,0,"Keysound/Piano/F6S_s.wav",38
+Sample,73863,0,"Keysound/Piano/F5S_s.wav",38
+Sample,73863,0,"Keysound/Short String/Short String_F6S_s.wav",54
+Sample,74044,0,"Keysound/Piano/A#5S_Bb5S_s.wav",38
+Sample,74044,0,"Keysound/Piano/F6S_s.wav",38
+Sample,74044,0,"Keysound/Piano/F5S_s.wav",38
+Sample,74044,0,"Keysound/Ensemble String/Ensemble String_F6S_s.wav",54
+Sample,74044,0,"Keysound/Ensemble String/Ensemble String_F5S_s.wav",54
+Sample,74044,0,"Keysound/Ensemble String/Ensemble String_A#5S_Bb5S_s.wav",54
+Sample,74767,0,"Keysound/Short String/Short String_D#6S_Eb6S_s.wav",54
+Sample,74767,0,"Keysound/Piano/D#6S_Eb6S_s.wav",38
+Sample,74948,0,"Keysound/Piano/F6S_s.wav",38
+Sample,74948,0,"Keysound/Short String/Short String_F6S_s.wav",54
+Sample,75128,0,"Keysound/Short String/Short String_G6S_s.wav",54
+Sample,75128,0,"Keysound/Short String/Short String_G5S_s.wav",54
+Sample,75128,0,"Keysound/Piano/G6S_s.wav",38
+Sample,75128,0,"Keysound/Short String/Short String_A#5S_Bb5S_s.wav",54
+Sample,75128,0,"Keysound/Piano/A#5S_Bb5S_s.wav",38
+Sample,75128,0,"Keysound/Piano/G5S_s.wav",38
+Sample,75309,0,"Keysound/Short String/Short String_F6S_s.wav",54
+Sample,75309,0,"Keysound/Piano/F6S_s.wav",38
+Sample,75490,0,"Keysound/Piano/G6S_s.wav",38
+Sample,75490,0,"Keysound/Short String/Short String_G6S_s.wav",54
+Sample,75670,0,"Keysound/Piano/A#6S_Bb6S_s.wav",38
+Sample,75670,0,"Keysound/Short String/Short String_A#6S_Bb6S_s.wav",54
+Sample,75851,0,"Keysound/Piano/B5S_s.wav",38
+Sample,75851,0,"Keysound/Short String/Short String_B5S_s.wav",54
+Sample,75851,0,"Keysound/Piano/B6S_s.wav",38
+Sample,75851,0,"Keysound/Short String/Short String_B6S_s.wav",54
+Sample,76213,0,"Keysound/Piano/G6S_s.wav",38
+Sample,76213,0,"Keysound/Short String/Short String_G6S_s.wav",54
+Sample,76393,0,"Keysound/Short String/Short String_D#6S_Eb6S_s.wav",54
+Sample,76393,0,"Keysound/Short String/Short String_D#7S_Eb7S_s.wav",54
+Sample,76393,0,"Keysound/Piano/D#7S_Eb7S_s.wav",38
+Sample,76393,0,"Keysound/Piano/D#6S_Eb6S_s.wav",38
+Sample,76393,0,"Keysound/Piano/G6S.wav",37
+Sample,76393,0,"Keysound/Short String/Short String_G6S.wav",54
+Sample,76755,0,"Keysound/Short String/Short String_D7S_s.wav",54
+Sample,76755,0,"Keysound/Piano/D7S_s.wav",38
+Sample,76935,0,"Keysound/Ensemble String/C6&C7.wav",54
+Sample,76935,0,"Keysound/Piano/C6S_s.wav",38
+Sample,76935,0,"Keysound/Piano/C7S_s.wav",38
+Sample,77658,0,"Keysound/Piano/D#6S_Eb6S_s.wav",38
+Sample,77658,0,"Keysound/Short String/Short String_D#5S_Eb5S.wav",54
+Sample,77658,0,"Keysound/Short String/Short String_D#6S_Eb6S_s.wav",54
+Sample,77658,0,"Keysound/Piano/D#5S_Eb5S.wav",38
+Sample,78020,0,"Keysound/Piano/F6S_s.wav",38
+Sample,78020,0,"Keysound/Short String/Short String_F5S_s.wav",54
+Sample,78020,0,"Keysound/Short String/Short String_F6S_s.wav",54
+Sample,78020,0,"Keysound/Piano/F5S_s.wav",38
+Sample,78381,0,"Keysound/Piano/D#6S_Eb6S_s.wav",38
+Sample,78381,0,"Keysound/Short String/Short String_D#6S_Eb6S_s.wav",54
+Sample,78381,0,"Keysound/Piano/D#5S_Eb5S_s.wav",38
+Sample,78381,0,"Keysound/Short String/Short String_D#5S_Eb5S_s.wav",54
+Sample,78562,0,"Keysound/Short String/Short String_D#6S_Eb6S_s.wav",54
+Sample,78562,0,"Keysound/Short String/Short String_D#5S_Eb5S_s.wav",54
+Sample,78562,0,"Keysound/Piano/D#5S_Eb5S_s.wav",38
+Sample,78562,0,"Keysound/Piano/D#6S_Eb6S_s.wav",38
+Sample,78923,0,"Keysound/Short String/Short String_G5S_s.wav",54
+Sample,78923,0,"Keysound/Piano/G6S_s.wav",38
+Sample,78923,0,"Keysound/Piano/G5S_s.wav",38
+Sample,78923,0,"Keysound/Short String/Short String_G6S_s.wav",54
+Sample,79285,0,"Keysound/Piano/F5S_s.wav",38
+Sample,79285,0,"Keysound/Piano/F6S_s.wav",38
+Sample,79285,0,"Keysound/Short String/Short String_F5S_s.wav",54
+Sample,79285,0,"Keysound/Short String/Short String_F6S_s.wav",54
+Sample,79646,0,"Keysound/Piano/D#6S_Eb6S_s.wav",38
+Sample,79646,0,"Keysound/Short String/Short String_D#5S_Eb5S_s.wav",54
+Sample,79646,0,"Keysound/Piano/D#5S_Eb5S_s.wav",38
+Sample,79646,0,"Keysound/Short String/Short String_D#6S_Eb6S_s.wav",54
+Sample,80008,0,"Keysound/Short String/Short String_C5S_s.wav",54
+Sample,80008,0,"Keysound/Piano/C5S_s.wav",38
+Sample,80008,0,"Keysound/Piano/C6S_s.wav",38
+Sample,80008,0,"Keysound/Short String/Short String_C6S_s.wav",54
+Sample,80369,0,"Keysound/Short String/Short String_D#6S_Eb6S_s.wav",54
+Sample,80369,0,"Keysound/Short String/Short String_D#5S_Eb5S_s.wav",54
+Sample,80369,0,"Keysound/Piano/D#6S_Eb6S_s.wav",38
+Sample,80369,0,"Keysound/Piano/D#5S_Eb5S_s.wav",38
+Sample,80731,0,"Keysound/Ensemble String/D#5&D#4.wav",54
+Sample,80731,0,"Keysound/Piano/D#5S_Eb5S.wav",38
+Sample,80731,0,"Keysound/Piano/D#6S_Eb6S.wav",38
+Sample,81996,0,"Keysound/Piano/C5S_s.wav",38
+Sample,81996,0,"Keysound/Short String/Short String_C5S_s.wav",54
+Sample,82357,0,"Keysound/Piano/G6S_s.wav",38
+Sample,82357,0,"Keysound/Short String/Short String_G6S_s.wav",54
+Sample,82357,0,"Keysound/Short String/Short String_G5S_s.wav",54
+Sample,82357,0,"Keysound/Piano/G5S_s.wav",38
+Sample,82719,0,"Keysound/Short String/Short String_F5S_s.wav",54
+Sample,82719,0,"Keysound/Piano/F5S_s.wav",38
+Sample,82899,0,"Keysound/Piano/F5S_s.wav",38
+Sample,82899,0,"Keysound/Short String/Short String_F5S_s.wav",54
+Sample,83261,0,"Keysound/Piano/D#5S_Eb5S_s.wav",38
+Sample,83261,0,"Keysound/Short String/Short String_D#5S_Eb5S_s.wav",54
+Sample,83622,0,"Keysound/Piano/D#5S_Eb5S_s.wav",38
+Sample,83622,0,"Keysound/Short String/Short String_D#6S_Eb6S_s.wav",54
+Sample,83622,0,"Keysound/Piano/D#6S_Eb6S_s.wav",38
+Sample,83622,0,"Keysound/Short String/Short String_D#5S_Eb5S_s.wav",54
+Sample,83803,0,"Keysound/Piano/A#5S_Bb5S_s.wav",30
+Sample,83803,0,"Keysound/Piano/D#6S_Eb6S_s.wav",30
+Sample,83803,0,"Keysound/Piano/A#6S_Bb6S_s.wav",30
+Sample,83803,0,"Keysound/Piano/G6S_s.wav",30
+Sample,83803,0,"Keysound/Ensemble String/Ensemble String_A#6S_Bb6S.wav",54
+Sample,84164,0,"Keysound/Piano/D7S_s.wav",30
+Sample,84345,0,"Keysound/Piano/D#7S_Eb7S_s.wav",30
+Sample,84345,0,"Keysound/Piano/D#6S_Eb6S_s.wav",30
+Sample,84707,0,"Keysound/Piano/D7S_s.wav",30
+Sample,84887,0,"Keysound/Piano/D#6S_Eb6S_s.wav",30
+Sample,84887,0,"Keysound/Piano/D#7S_Eb7S_s.wav",30
+Sample,85068,0,"Keysound/Piano/F7S_s.wav",30
+Sample,85068,0,"Keysound/Piano/F6S_s.wav",30
+Sample,85429,0,"Keysound/Piano/D#7S_Eb7S_s.wav",30
+Sample,85429,0,"Keysound/Piano/D#6S_Eb6S_s.wav",30
+Sample,85791,0,"Keysound/Piano/A#5S_Bb5S.wav",30
+Sample,85791,0,"Keysound/Piano/A#6S_Bb6S.wav",30
+Sample,86333,0,"Keysound/Short String/Short String_C7S_s.wav",54
+Sample,86333,0,"Keysound/Piano/C6S_s.wav",30
+Sample,86333,0,"Keysound/Piano/C7S_s.wav",30
+Sample,86695,0,"Keysound/Piano/A#6S_Bb6S_s.wav",30
+Sample,86695,0,"Keysound/Piano/A#5S_Bb5S_s.wav",30
+Sample,86695,0,"Keysound/Piano/G6S_s.wav",30
+Sample,86695,0,"Keysound/Ensemble String/Ensemble String_A#6S_Bb6S.wav",54
+Sample,86695,0,"Keysound/Piano/D#6S_Eb6S_s.wav",30
+Sample,87056,0,"Keysound/Piano/D7S_s.wav",30
+Sample,87237,0,"Keysound/Piano/D#6S_Eb6S_s.wav",30
+Sample,87237,0,"Keysound/Piano/D#7S_Eb7S_s.wav",30
+Sample,87598,0,"Keysound/Piano/D7S_s.wav",30
+Sample,87779,0,"Keysound/Piano/D#6S_Eb6S_s.wav",30
+Sample,87779,0,"Keysound/Piano/D#7S_Eb7S_s.wav",30
+Sample,87960,0,"Keysound/Piano/F6S_s.wav",30
+Sample,87960,0,"Keysound/Piano/F7S_s.wav",30
+Sample,88321,0,"Keysound/Piano/D#6S_Eb6S_s.wav",30
+Sample,88321,0,"Keysound/Piano/D#7S_Eb7S_s.wav",30
+Sample,88682,0,"Keysound/Piano/A#5S_Bb5S_s.wav",30
+Sample,88682,0,"Keysound/Piano/A#6S_Bb6S_s.wav",30
+Sample,89225,0,"Keysound/Piano/D#6S_Eb6S_s.wav",30
+Sample,89225,0,"Keysound/Short String/Short String_D#6S_Eb6S_s.wav",54
+Sample,89315,0,"Keysound/Short String/Short String_F6S_s.wav",54
+Sample,89315,0,"Keysound/Piano/F6S_s.wav",30
+Sample,89405,0,"Keysound/Piano/G6S_s.wav",30
+Sample,89405,0,"Keysound/Short String/Short String_G6S_s.wav",54
+Sample,89496,0,"Keysound/Short String/Short String_G#6S_Ab6S_s.wav",54
+Sample,89496,0,"Keysound/Piano/G#6S_Ab6S_s.wav",30
+Sample,89586,0,"Keysound/Piano/D#6S_Eb6S_s.wav",30
+Sample,89586,0,"Keysound/Ensemble String/Ensemble String_A#6S_Bb6S.wav",54
+Sample,89586,0,"Keysound/Piano/A#6S_Bb6S_s.wav",30
+Sample,89586,0,"Keysound/Piano/G6S_s.wav",30
+Sample,89586,0,"Keysound/Piano/A#5S_Bb5S_s.wav",30
+Sample,89948,0,"Keysound/Piano/D7S_s.wav",30
+Sample,90128,0,"Keysound/Piano/D#6S_Eb6S_s.wav",30
+Sample,90128,0,"Keysound/Piano/D#7S_Eb7S_s.wav",30
+Sample,90490,0,"Keysound/Piano/D7S_s.wav",30
+Sample,90670,0,"Keysound/Piano/D#6S_Eb6S_s.wav",30
+Sample,90670,0,"Keysound/Piano/D#7S_Eb7S_s.wav",30
+Sample,90851,0,"Keysound/Piano/F7S_s.wav",30
+Sample,90851,0,"Keysound/Piano/F6S_s.wav",30
+Sample,91213,0,"Keysound/Piano/D#7S_Eb7S_s.wav",30
+Sample,91213,0,"Keysound/Piano/D#6S_Eb6S_s.wav",30
+Sample,91574,0,"Keysound/Piano/A#5S_Bb5S.wav",30
+Sample,91574,0,"Keysound/Piano/A#6S_Bb6S.wav",30
+Sample,92116,0,"Keysound/Short String/Short String_D#7S_Eb7S_s.wav",54
+Sample,92116,0,"Keysound/Piano/D#7S_Eb7S_s.wav",30
+Sample,92297,0,"Keysound/Piano/F7S_s.wav",30
+Sample,92297,0,"Keysound/Short String/Short String_F7S_s.wav",54
+Sample,92478,0,"Keysound/Piano/G7S_s.wav",30
+Sample,92478,0,"Keysound/Piano/G6S_s.wav",30
+Sample,92478,0,"Keysound/Short String/Short String_G6S_s.wav",54
+Sample,92478,0,"Keysound/Short String/Short String_G7S_s.wav",54
+Sample,92839,0,"Keysound/Piano/G#7S_Ab7S_s.wav",30
+Sample,92839,0,"Keysound/Short String/Short String_G#7S_Ab7S_s.wav",54
+Sample,93020,0,"Keysound/Piano/G6S_s.wav",30
+Sample,93020,0,"Keysound/Piano/G7S_s.wav",30
+Sample,93020,0,"Keysound/Short String/Short String_G6S_s.wav",54
+Sample,93020,0,"Keysound/Short String/Short String_G7S_s.wav",54
+Sample,93381,0,"Keysound/Piano/D#7S_Eb7S_s.wav",30
+Sample,93381,0,"Keysound/Short String/Short String_D#7S_Eb7S_s.wav",54
+Sample,93381,0,"Keysound/Short String/Short String_D#6S_Eb6S_s.wav",54
+Sample,93381,0,"Keysound/Piano/D#6S_Eb6S_s.wav",30
+Sample,93743,0,"Keysound/Piano/A#5S_Bb5S_s.wav",30
+Sample,93743,0,"Keysound/Piano/A#4S_Bb4S.wav",30
+Sample,93743,0,"Keysound/Ensemble String/A#5&A#6.wav",54
+Sample,93743,0,"Keysound/Ensemble String/Ensemble String_A#6S_Bb6S.wav",54
+Sample,93743,0,"Keysound/Ensemble String/Ensemble String_A#5S_Bb5S.wav",54
+Sample,93743,0,"Keysound/Piano/A#6S_Bb6S.wav",30
+Sample,94646,0,"Keysound/Piano/F8S_s.wav",16
+Sample,94669,0,"Keysound/Piano/E8S_s.wav",16
+Sample,94692,0,"Keysound/Piano/D8S_s.wav",16
+Sample,94714,0,"Keysound/Piano/C8S_s.wav",16
+Sample,94737,0,"Keysound/Piano/B7S_s.wav",16
+Sample,94759,0,"Keysound/Piano/A7S_s.wav",16
+Sample,94782,0,"Keysound/Piano/G7S_s.wav",16
+Sample,94804,0,"Keysound/Piano/F#7S_Gb7S_s.wav",16
+Sample,94827,0,"Keysound/Piano/E7S_s.wav",16
+Sample,94850,0,"Keysound/Piano/D7S_s.wav",16
+Sample,94872,0,"Keysound/Piano/C7S_s.wav",16
+Sample,94895,0,"Keysound/Piano/B6S_s.wav",16
+Sample,94917,0,"Keysound/Piano/A6S_s.wav",16
+Sample,94940,0,"Keysound/Piano/G6S_s.wav",16
+Sample,94963,0,"Keysound/Piano/F#6S_Gb6S_s.wav",16
+Sample,94985,0,"Keysound/Piano/E6S_s.wav",16
+Sample,95008,0,"Keysound/Piano/D6S_s.wav",16
+Sample,95030,0,"Keysound/Piano/C6S_s.wav",16
+Sample,95053,0,"Keysound/Piano/B5S_s.wav",16
+Sample,95076,0,"Keysound/Piano/A5S_s.wav",16
+Sample,95098,0,"Keysound/Piano/G5S_s.wav",16
+Sample,95121,0,"Keysound/Piano/F#5S_Gb5S_s.wav",16
+Sample,95143,0,"Keysound/Piano/E5S_s.wav",16
+Sample,95166,0,"Keysound/Piano/D5S_s.wav",16
+Sample,95189,0,"Keysound/Piano/C5S_s.wav",16
+Sample,95211,0,"Keysound/Piano/B4S_s.wav",16
+Sample,95234,0,"Keysound/Piano/A4S_s.wav",16
+Sample,95731,0,"Keysound/Piano/A#4S_Bb4S_s.wav",35
+Sample,96092,0,"Keysound/Piano/F5S.wav",35
+Sample,96092,0,"Keysound/Piano/F6S_s.wav",38
+Sample,96634,0,"Keysound/Piano/D#6S_Eb6S_s.wav",38
+Sample,96634,0,"Keysound/Piano/G#5S_Ab5S_s.wav",38
+Sample,96634,0,"Keysound/Piano/D#5S_Eb5S.wav",35
+Sample,97538,0,"Keysound/Piano/G#5S_Ab5S_s.wav",35
+Sample,97538,0,"Keysound/Piano/D#5S_Eb5S_s.wav",35
+Sample,97538,0,"Keysound/Piano/D#6S_Eb6S_s.wav",35
+Sample,97899,0,"Keysound/Piano/F5S_s.wav",35
+Sample,97899,0,"Keysound/Piano/F6S_s.wav",35
+Sample,98261,0,"Keysound/Piano/G6S_s.wav",35
+Sample,98261,0,"Keysound/Piano/G5S_s.wav",35
+Sample,98261,0,"Keysound/Piano/A#5S_Bb5S_s.wav",38
+Sample,98622,0,"Keysound/Piano/G#6S_Ab6S_s.wav",38
+Sample,98803,0,"Keysound/Piano/F5S_s.wav",35
+Sample,98803,0,"Keysound/Piano/F6S_s.wav",35
+Sample,98803,0,"Keysound/Piano/G#5S_Ab5S_s.wav",38
+Sample,99164,0,"Keysound/Piano/D#5S_Eb5S_s.wav",35
+Sample,99164,0,"Keysound/Piano/D#6S_Eb6S_s.wav",35
+Sample,99526,0,"Keysound/Piano/G5S.wav",35
+Sample,99526,0,"Keysound/Piano/G6S.wav",35
+Sample,101514,0,"Keysound/Piano/A#4S_Bb4S_s.wav",35
+Sample,101875,0,"Keysound/Piano/F5S_s.wav",35
+Sample,101875,0,"Keysound/Piano/A#5S_Bb5S_s.wav",35
+Sample,101875,0,"Keysound/Piano/F6S_s.wav",35
+Sample,102237,0,"Keysound/Piano/D5S_s.wav",35
+Sample,102417,0,"Keysound/Piano/G#5S_Ab5S.wav",35
+Sample,102417,0,"Keysound/Piano/D#5S_Eb5S.wav",35
+Sample,102417,0,"Keysound/Piano/D#6S_Eb6S.wav",35
+Sample,103321,0,"Keysound/Piano/D5S_s.wav",35
+Sample,103321,0,"Keysound/Piano/D6S_s.wav",35
+Sample,103683,0,"Keysound/Piano/D#5S_Eb5S_s.wav",35
+Sample,103683,0,"Keysound/Piano/D#6S_Eb6S_s.wav",35
+Sample,104044,0,"Keysound/Piano/C6S_s.wav",35
+Sample,104044,0,"Keysound/Piano/C5S_s.wav",35
+Sample,104044,0,"Keysound/Piano/C7S_s.wav",35
+Sample,104405,0,"Keysound/Piano/A#5S_Bb5S_s.wav",35
+Sample,104586,0,"Keysound/Piano/A#4S_Bb4S.wav",35
+Sample,104586,0,"Keysound/Piano/A#5S_Bb5S.wav",35
+Sample,105128,0,"Keysound/Piano/D#6S_Eb6S_s.wav",35
+Sample,105219,0,"Keysound/Piano/F6S_s.wav",35
+Sample,105309,0,"Keysound/Piano/G6S_s.wav",35
+Sample,105399,0,"Keysound/Piano/G#6S_Ab6S_s.wav",35
+Sample,105490,0,"Keysound/Piano/A#6S_Bb6S_s.wav",35
+Sample,106032,0,"Keysound/Piano/D6S_s.wav",35
+Sample,106393,0,"Keysound/Piano/C6S_s.wav",35
+Sample,106574,0,"Keysound/Piano/A#5S_Bb5S_s.wav",35
+Sample,106755,0,"Keysound/Piano/A#5S_Bb5S_s.wav",35
+Sample,107297,0,"Keysound/Piano/A#5S_Bb5S_s.wav",35
+Sample,107658,0,"Keysound/Piano/F5S_s.wav",35
+Sample,107658,0,"Keysound/Piano/F6S_s.wav",35
+Sample,108020,0,"Keysound/Piano/D#6S_Eb6S_s.wav",35
+Sample,108201,0,"Keysound/Piano/D#6S_Eb6S.wav",35
+Sample,108201,0,"Keysound/Piano/D#5S_Eb5S.wav",35
+Sample,109104,0,"Keysound/Piano/D#5S_Eb5S_s.wav",35
+Sample,109104,0,"Keysound/Piano/D#6S_Eb6S_s.wav",35
+Sample,109466,0,"Keysound/Piano/F5S.wav",35
+Sample,109466,0,"Keysound/Piano/F6S_s.wav",35
+Sample,109827,0,"Keysound/Piano/A#5S_Bb5S_s.wav",35
+Sample,109827,0,"Keysound/Piano/G6S_s.wav",35
+Sample,109827,0,"Keysound/Piano/G5S_s.wav",35
+Sample,110189,0,"Keysound/Piano/G#6S_Ab6S_s.wav",35
+Sample,110369,0,"Keysound/Piano/F5S_s.wav",35
+Sample,110369,0,"Keysound/Piano/G#5S_Ab5S_s.wav",35
+Sample,110369,0,"Keysound/Piano/F6S_s.wav",35
+Sample,110731,0,"Keysound/Piano/D#6S_Eb6S_s.wav",35
+Sample,110731,0,"Keysound/Piano/D#5S_Eb5S.wav",35
+Sample,111092,0,"Keysound/Piano/G6S.wav",35
+Sample,111092,0,"Keysound/Piano/G5S.wav",35
+Sample,111092,0,"Keysound/Piano/A#5S_Bb5S.wav",35
+Sample,111996,0,"Keysound/Piano/G5S_s.wav",35
+Sample,111996,0,"Keysound/Piano/G6S_s.wav",35
+Sample,112357,0,"Keysound/Piano/G#6S_Ab6S_s.wav",35
+Sample,112357,0,"Keysound/Piano/G#5S_Ab5S_s.wav",35
+Sample,112719,0,"Keysound/Piano/A#6S_Bb6S_s.wav",35
+Sample,112719,0,"Keysound/Piano/A#5S_Bb5S_s.wav",35
+Sample,112899,0,"Keysound/Piano/G6S_s.wav",35
+Sample,113080,0,"Keysound/Piano/A#6S_Bb6S_s.wav",35
+Sample,113080,0,"Keysound/Piano/A#5S_Bb5S_s.wav",35
+Sample,113261,0,"Keysound/Piano/G6S_s.wav",35
+Sample,113442,0,"Keysound/Piano/A#5S_Bb5S_s.wav",35
+Sample,113442,0,"Keysound/Piano/A#6S_Bb6S_s.wav",35
+Sample,113803,0,"Keysound/Piano/C7S_s.wav",35
+Sample,113984,0,"Keysound/Piano/D#6S_Eb6S_s.wav",35
+Sample,113984,0,"Keysound/Piano/A#6S_Bb6S_s.wav",35
+Sample,113984,0,"Keysound/Piano/A#5S_Bb5S_s.wav",35
+Sample,114345,0,"Keysound/Piano/D#6S_Eb6S.wav",35
+Sample,114707,0,"Keysound/Piano/G6S_s.wav",35
+Sample,114707,0,"Keysound/Piano/G5S_s.wav",35
+Sample,115068,0,"Keysound/Piano/A#5S_Bb5S_s.wav",35
+Sample,115068,0,"Keysound/Piano/G6S_s.wav",35
+Sample,115249,0,"Keysound/Piano/D#6S_Eb6S_s.wav",35
+Sample,115429,0,"Keysound/Piano/F6S_s.wav",35
+Sample,115610,0,"Keysound/Piano/G6S_s.wav",35
+Sample,115610,0,"Keysound/Piano/A#5S_Bb5S_s.wav",35
+Sample,115610,0,"Keysound/Piano/G5S_s.wav",35
+Sample,115972,0,"Keysound/Piano/F6S_s.wav",35
+Sample,116152,0,"Keysound/Piano/G#5S_Ab5S_s.wav",35
+Sample,116152,0,"Keysound/Piano/G#6S_Ab6S_s.wav",35
+Sample,116514,0,"Keysound/Piano/G6S_s.wav",35
+Sample,116514,0,"Keysound/Piano/G5S_s.wav",35
+Sample,116875,0,"Keysound/Piano/D#5S_Eb5S.wav",35
+Sample,116875,0,"Keysound/Piano/D#6S_Eb6S.wav",35
+Sample,116875,0,"Keysound/Piano/D#7S_Eb7S.wav",35
+Sample,117327,0,"Keysound/Piano/F6S_s.wav",35
+Sample,117327,0,"Keysound/Short String/Short String_F6S_s.wav",54
+Sample,117598,0,"Keysound/Piano/G6S_s.wav",35
+Sample,117598,0,"Keysound/Short String/Short String_G6S_s.wav",54
+Sample,117960,0,"Keysound/Piano/F6S_s.wav",35
+Sample,117960,0,"Keysound/Short String/Short String_F6S_s.wav",54
+Sample,117960,0,"Keysound/Piano/F5S_s.wav",35
+Sample,118140,0,"Keysound/Short String/Short String_G6S_s.wav",54
+Sample,118140,0,"Keysound/Piano/G6S_s.wav",35
+Sample,118502,0,"Keysound/Piano/D#6S_Eb6S_s.wav",35
+Sample,118502,0,"Keysound/Piano/D#5S_Eb5S_s.wav",35
+Sample,118502,0,"Keysound/Piano/G#5S_Ab5S_s.wav",37
+Sample,118683,0,"Keysound/Piano/C6S_s.wav",35
+Sample,118863,0,"Keysound/Piano/G#5S_Ab5S_s.wav",37
+Sample,118863,0,"Keysound/Piano/D#6S_Eb6S_s.wav",35
+Sample,118863,0,"Keysound/Piano/D#5S_Eb5S_s.wav",35
+Sample,119044,0,"Keysound/Piano/C6S_s.wav",35
+Sample,119225,0,"Keysound/Piano/G#5S_Ab5S_s.wav",38
+Sample,119225,0,"Keysound/Piano/D#6S_Eb6S_s.wav",35
+Sample,119225,0,"Keysound/Piano/D#5S_Eb5S_s.wav",35
+Sample,119586,0,"Keysound/Piano/G5S_s.wav",38
+Sample,119586,0,"Keysound/Piano/G6S_s.wav",35
+Sample,119767,0,"Keysound/Piano/F6S_s.wav",35
+Sample,119767,0,"Keysound/Piano/F5S_s.wav",35
+Sample,119767,0,"Keysound/Piano/A#5S_Bb5S_s.wav",35
+Sample,120128,0,"Keysound/Piano/D#6S_Eb6S_s.wav",37
+Sample,120128,0,"Keysound/Piano/D#5S_Eb5S_s.wav",37
+Sample,120490,0,"Keysound/Piano/D5S_s.wav",35
+Sample,120490,0,"Keysound/Piano/D6S_s.wav",35
+Sample,120851,0,"Keysound/Short String/Short String_D#6S_Eb6S_s.wav",54
+Sample,120851,0,"Keysound/Piano/D#6S_Eb6S_s.wav",35
+Sample,121032,0,"Keysound/Piano/G6S_s.wav",35
+Sample,121032,0,"Keysound/Short String/Short String_G6S_s.wav",54
+Sample,121213,0,"Keysound/Piano/G#6S_Ab6S_s.wav",35
+Sample,121213,0,"Keysound/Short String/Short String_G#6S_Ab6S_s.wav",54
+Sample,121393,0,"Keysound/Piano/D5S_s.wav",35
+Sample,121393,0,"Keysound/Piano/D6S_s.wav",35
+Sample,121393,0,"Keysound/Piano/G5S_s.wav",37
+Sample,121574,0,"Keysound/Piano/A#5S_Bb5S_s.wav",35
+Sample,121755,0,"Keysound/Piano/G5S_s.wav",37
+Sample,121755,0,"Keysound/Piano/D5S_s.wav",35
+Sample,121755,0,"Keysound/Piano/D6S_s.wav",35
+Sample,121936,0,"Keysound/Piano/A#5S_Bb5S_s.wav",35
+Sample,122116,0,"Keysound/Piano/D5S_s.wav",35
+Sample,122116,0,"Keysound/Piano/D6S_s.wav",35
+Sample,122116,0,"Keysound/Piano/F5S_s.wav",38
+Sample,122478,0,"Keysound/Piano/G6S_s.wav",35
+Sample,122478,0,"Keysound/Piano/G5S_s.wav",38
+Sample,122658,0,"Keysound/Piano/A#5S_Bb5S_s.wav",38
+Sample,122658,0,"Keysound/Piano/F6S_s.wav",35
+Sample,122658,0,"Keysound/Piano/F5S_s.wav",37
+Sample,123020,0,"Keysound/Piano/D#6S_Eb6S_s.wav",35
+Sample,123020,0,"Keysound/Piano/D#5S_Eb5S_s.wav",37
+Sample,123381,0,"Keysound/Piano/C6S_s.wav",35
+Sample,123743,0,"Keysound/Piano/D#6S_Eb6S_s.wav",35
+Sample,123743,0,"Keysound/Piano/D#5S_Eb5S_s.wav",37
+Sample,123923,0,"Keysound/Piano/D#6S_Eb6S_s.wav",37
+Sample,123923,0,"Keysound/Piano/D#5S_Eb5S_s.wav",37
+Sample,124285,0,"Keysound/Piano/G#5S_Ab5S.wav",37
+Sample,124285,0,"Keysound/Piano/F5S.wav",35
+Sample,124285,0,"Keysound/Piano/F6S.wav",35
+Sample,124827,0,"Keysound/Piano/D6S_s.wav",35
+Sample,125008,0,"Keysound/Piano/D5S.wav",37
+Sample,125008,0,"Keysound/Piano/D6S.wav",35
+Sample,125731,0,"Keysound/Piano/D5S_s.wav",53
+Sample,125911,0,"Keysound/Piano/D5S_s.wav",53
+Sample,126092,0,"Keysound/Piano/D5S_s.wav",53
+Sample,126454,0,"Keysound/Piano/C6S_s.wav",35
+Sample,126454,0,"Keysound/Piano/C5S_s.wav",35
+Sample,126815,0,"Keysound/Piano/D#6S_Eb6S_s.wav",35
+Sample,126815,0,"Keysound/Piano/D#5S_Eb5S_s.wav",35
+Sample,127176,0,"Keysound/Piano/F5S.wav",35
+Sample,127176,0,"Keysound/Piano/F6S.wav",35
+Sample,127176,0,"Keysound/Piano/A#5S_Bb5S.wav",35
+Sample,127719,0,"Keysound/Piano/G6S_s.wav",35
+Sample,127719,0,"Keysound/Piano/G5S_s.wav",35
+Sample,127899,0,"Keysound/Piano/G5S.wav",35
+Sample,127899,0,"Keysound/Piano/G6S.wav",35
+Sample,128622,0,"Keysound/Piano/D#7S_Eb7S_s.wav",35
+Sample,128622,0,"Keysound/Short String/Short String_D#7S_Eb7S_s.wav",54
+Sample,128863,0,"Keysound/Short String/Short String_F6S_s.wav",54
+Sample,128863,0,"Keysound/Short String/Short String_F7S_s.wav",54
+Sample,128871,0,"Keysound/Piano/F7S_s.wav",35
+Sample,128871,0,"Keysound/Piano/F6S_s.wav",35
+Sample,129104,0,"Keysound/Short String/Short String_G7S_s.wav",54
+Sample,129119,0,"Keysound/Piano/G7S_s.wav",35
+Sample,129345,0,"Keysound/Piano/G7S_s.wav",35
+Sample,129345,0,"Keysound/Piano/G6S_s.wav",35
+Sample,129345,0,"Keysound/Short String/Short String_G6S_s.wav",54
+Sample,129345,0,"Keysound/Short String/Short String_G7S_s.wav",54
+Sample,129586,0,"Keysound/Short String/Short String_F7S_s.wav",54
+Sample,129586,0,"Keysound/Short String/Short String_F6S_s.wav",54
+Sample,129594,0,"Keysound/Piano/F6S_s.wav",35
+Sample,129594,0,"Keysound/Piano/F7S_s.wav",35
+Sample,129827,0,"Keysound/Short String/Short String_D7S_s.wav",54
+Sample,129842,0,"Keysound/Piano/D7S_s.wav",35
+Sample,129842,0,"Keysound/Piano/D6S_s.wav",35
+Sample,130068,0,"Keysound/Piano/D#6S_Eb6S_s.wav",35
+Sample,130068,0,"Keysound/Piano/D#5S_Eb5S_s.wav",35
+Sample,130249,0,"Keysound/Piano/D#6S_Eb6S_s.wav",35
+Sample,130249,0,"Keysound/Piano/D#5S_Eb5S_s.wav",35
+Sample,130430,0,"Keysound/Piano/D#5S_Eb5S_s.wav",35
+Sample,130430,0,"Keysound/Piano/D#6S_Eb6S_s.wav",35
+Sample,130610,0,"Keysound/Piano/C6S_s.wav",35
+Sample,130791,0,"Keysound/Piano/D#6S_Eb6S_s.wav",35
+Sample,130791,0,"Keysound/Piano/D#5S_Eb5S_s.wav",35
+Sample,131152,0,"Keysound/Piano/G6S_s.wav",35
+Sample,131333,0,"Keysound/Piano/F6S_s.wav",35
+Sample,131333,0,"Keysound/Piano/G#5S_Ab5S_s.wav",35
+Sample,131333,0,"Keysound/Piano/F5S_s.wav",35
+Sample,131695,0,"Keysound/Piano/D#6S_Eb6S_s.wav",35
+Sample,132056,0,"Keysound/Piano/D6S_s.wav",35
+Sample,132417,0,"Keysound/Piano/A#5S_Bb5S.wav",35
+Sample,132417,0,"Keysound/Piano/F5S.wav",35
+Sample,132417,0,"Keysound/Piano/F6S.wav",35
+Sample,132960,0,"Keysound/Piano/D6S_s.wav",35
+Sample,132960,0,"Keysound/Piano/D5S_s.wav",35
+Sample,133140,0,"Keysound/Piano/D6S_s.wav",35
+Sample,133140,0,"Keysound/Piano/D5S_s.wav",35
+Sample,133502,0,"Keysound/Piano/A#5S_Bb5S_s.wav",35
+Sample,133683,0,"Keysound/Piano/D6S_s.wav",35
+Sample,133683,0,"Keysound/Piano/D5S_s.wav",35
+Sample,134044,0,"Keysound/Piano/G6S_s.wav",35
+Sample,134225,0,"Keysound/Piano/A#5S_Bb5S_s.wav",38
+Sample,134225,0,"Keysound/Piano/F5S_s.wav",35
+Sample,134225,0,"Keysound/Piano/F6S_s.wav",35
+Sample,134586,0,"Keysound/Piano/D#5S_Eb5S_s.wav",35
+Sample,134586,0,"Keysound/Piano/D#6S_Eb6S_s.wav",35
+Sample,134586,0,"Keysound/Piano/A#5S_Bb5S_s.wav",38
+Sample,134948,0,"Keysound/Piano/C5S_s.wav",35
+Sample,134948,0,"Keysound/Piano/C6S_s.wav",35
+Sample,135309,0,"Keysound/Piano/D#5S_Eb5S_s.wav",35
+Sample,135309,0,"Keysound/Piano/D#6S_Eb6S_s.wav",35
+Sample,135490,0,"Keysound/Piano/F8S_s.wav",16
+Sample,135512,0,"Keysound/Piano/E8S_s.wav",16
+Sample,135535,0,"Keysound/Piano/D8S_s.wav",16
+Sample,135558,0,"Keysound/Piano/C8S_s.wav",16
+Sample,135580,0,"Keysound/Piano/B7S_s.wav",16
+Sample,135603,0,"Keysound/Piano/A7S_s.wav",16
+Sample,135625,0,"Keysound/Piano/G7S_s.wav",16
+Sample,135648,0,"Keysound/Piano/F#7S_Gb7S_s.wav",16
+Sample,135670,0,"Keysound/Piano/E7S_s.wav",16
+Sample,135693,0,"Keysound/Piano/D7S_s.wav",16
+Sample,135716,0,"Keysound/Piano/C7S_s.wav",16
+Sample,135738,0,"Keysound/Piano/B6S_s.wav",16
+Sample,135761,0,"Keysound/Piano/A6S_s.wav",16
+Sample,135783,0,"Keysound/Piano/G6S_s.wav",16
+Sample,135806,0,"Keysound/Piano/F#6S_Gb6S_s.wav",16
+Sample,135829,0,"Keysound/Piano/E6S_s.wav",16
+Sample,135851,0,"Keysound/Short String/Short String_D#6S_Eb6S_s.wav",54
+Sample,135851,0,"Keysound/Piano/D#5S_Eb5S.wav",38
+Sample,135851,0,"Keysound/Piano/D#6S_Eb6S.wav",38
+Sample,136213,0,"Keysound/Short String/Short String_D#6S_Eb6S_s.wav",54
+Sample,136393,0,"Keysound/Short String/Short String_C6S_s.wav",54
+Sample,136393,0,"Keysound/Piano/C6S_s.wav",38
+Sample,136574,0,"Keysound/Piano/F5S.wav",38
+Sample,136574,0,"Keysound/Piano/C5S.wav",38
+Sample,136574,0,"Keysound/Piano/C6S.wav",38
+Sample,136574,0,"Keysound/Short String/Short String_C6S_s.wav",54
+Sample,136936,0,"Keysound/Short String/Short String_C6S_s.wav",54
+Sample,137297,0,"Keysound/Short String/Short String_C6S_s.wav",54
+Sample,137658,0,"Keysound/Short String/Short String_C6S_s.wav",54
+Sample,137839,0,"Keysound/Piano/C6S_s.wav",38
+Sample,138020,0,"Keysound/Short String/Short String_C6S_s.wav",54
+Sample,138020,0,"Keysound/Piano/C6S.wav",38
+Sample,138381,0,"Keysound/Piano/D#5S_Eb5S_s.wav",38
+Sample,138381,0,"Keysound/Piano/D#6S_Eb6S_s.wav",38
+Sample,138381,0,"Keysound/Short String/Short String_D#6S_Eb6S_s.wav",54
+Sample,138743,0,"Keysound/Piano/G6S.wav",38
+Sample,138743,0,"Keysound/Piano/A#5S_Bb5S.wav",38
+Sample,138743,0,"Keysound/Piano/G5S.wav",38
+Sample,138743,0,"Keysound/Short String/Short String_G6S_s.wav",54
+Sample,139104,0,"Keysound/Short String/Short String_G6S_s.wav",54
+Sample,139466,0,"Keysound/Short String/Short String_G6S_s.wav",54
+Sample,139646,0,"Keysound/Piano/G#6S_Ab6S.wav",38
+Sample,139827,0,"Keysound/Short String/Short String_G#6S_Ab6S_s.wav",54
+Sample,140008,0,"Keysound/Short String/Short String_F6S_s.wav",54
+Sample,140008,0,"Keysound/Piano/F6S_s.wav",38
+Sample,140189,0,"Keysound/Piano/A#6S_Bb6S_s.wav",38
+Sample,140189,0,"Keysound/Short String/Short String_A#6S_Bb6S_s.wav",54
+Sample,140189,0,"Keysound/Piano/A#5S_Bb5S_s.wav",38
+Sample,140369,0,"Keysound/Short String/Short String_A#6S_Bb6S_s.wav",54
+Sample,140369,0,"Keysound/Piano/A#6S_Bb6S_s.wav",38
+Sample,140550,0,"Keysound/Short String/Short String_C7S_s.wav",54
+Sample,140550,0,"Keysound/Short String/Short String_C6S_s.wav",54
+Sample,140550,0,"Keysound/Piano/C6S_s.wav",38
+Sample,140550,0,"Keysound/Piano/C7S_s.wav",38
+Sample,140911,0,"Keysound/Piano/D6S_s.wav",38
+Sample,140911,0,"Keysound/Short String/Short String_D6S_s.wav",54
+Sample,140911,0,"Keysound/Piano/D7S_s.wav",38
+Sample,140911,0,"Keysound/Short String/Short String_D7S_s.wav",54
+Sample,141183,0,"Keysound/Piano/D#6S_Eb6S_s.wav",38
+Sample,141183,0,"Keysound/Short String/Short String_D#7S_Eb7S_s.wav",54
+Sample,141183,0,"Keysound/Piano/D#7S_Eb7S_s.wav",38
+Sample,141183,0,"Keysound/Short String/Short String_D#6S_Eb6S_s.wav",54
+Sample,141454,0,"Keysound/Piano/F6S_s.wav",38
+Sample,141454,0,"Keysound/Short String/Short String_F7S_s.wav",54
+Sample,141454,0,"Keysound/Piano/F7S_s.wav",38
+Sample,141454,0,"Keysound/Short String/Short String_F6S_s.wav",54
+Sample,141589,0,"Keysound/Piano/A#6S_Bb6S_s.wav",38
+Sample,141634,0,"Keysound/Piano/D7S_s.wav",38
+Sample,141680,0,"Keysound/Piano/A#7S_Bb7S_s.wav",38
+Sample,141996,0,"Keysound/Piano/D#6S_Eb6S_s.wav",38
+Sample,142357,0,"Keysound/Piano/C6S.wav",38
+Sample,142357,0,"Keysound/Piano/C7S.wav",38
+Sample,143080,0,"Keysound/Piano/D#5S_Eb5S.wav",38
+Sample,143080,0,"Keysound/Short String/Short String_D#5S_Eb5S.wav",54
+Sample,143080,0,"Keysound/Piano/A#6S_Bb6S.wav",38
+Sample,143080,0,"Keysound/Short String/Short String_A#5S_Bb5S.wav",54
+Sample,143080,0,"Keysound/Piano/A#5S_Bb5S.wav",38
+Sample,143080,0,"Keysound/Short String/Short String_A#6S_Bb6S.wav",54
+Sample,143803,0,"Keysound/Short String/Short String_A#5S_Bb5S_s.wav",54
+Sample,143803,0,"Keysound/Piano/A#6S_Bb6S_s.wav",38
+Sample,143803,0,"Keysound/Piano/A#5S_Bb5S_s.wav",38
+Sample,143803,0,"Keysound/Short String/Short String_A#6S_Bb6S_s.wav",54
+Sample,144164,0,"Keysound/Short String/Short String_C7S_s.wav",54
+Sample,144164,0,"Keysound/Short String/Short String_C6S_s.wav",54
+Sample,144164,0,"Keysound/Piano/C6S_s.wav",38
+Sample,144164,0,"Keysound/Piano/C7S_s.wav",38
+Sample,144345,0,"Keysound/Piano/A#6S_Bb6S_s.wav",38
+Sample,144345,0,"Keysound/Short String/Short String_A#6S_Bb6S_s.wav",54
+Sample,144345,0,"Keysound/Short String/Short String_A#5S_Bb5S_s.wav",54
+Sample,144345,0,"Keysound/Piano/A#5S_Bb5S_s.wav",38
+Sample,144707,0,"Keysound/Piano/F5S_s.wav",38
+Sample,144707,0,"Keysound/Piano/F6S_s.wav",38
+Sample,144707,0,"Keysound/Short String/Short String_F5S_s.wav",54
+Sample,144707,0,"Keysound/Short String/Short String_F6S_s.wav",54
+Sample,144887,0,"Keysound/Piano/F6S_s.wav",38
+Sample,144887,0,"Keysound/Ensemble String/Ensemble String_F6S_s.wav",54
+Sample,144887,0,"Keysound/Piano/F5S_s.wav",38
+Sample,144887,0,"Keysound/Piano/A#5S_Bb5S_s.wav",38
+Sample,144887,0,"Keysound/Ensemble String/Ensemble String_F5S_s.wav",54
+Sample,144887,0,"Keysound/Ensemble String/Ensemble String_A#5S_Bb5S_s.wav",54
+Sample,145610,0,"Keysound/Piano/D#6S_Eb6S_s.wav",38
+Sample,145610,0,"Keysound/Short String/Short String_D#6S_Eb6S_s.wav",54
+Sample,145791,0,"Keysound/Short String/Short String_F6S_s.wav",54
+Sample,145791,0,"Keysound/Piano/F6S_s.wav",38
+Sample,145972,0,"Keysound/Piano/G5S_s.wav",38
+Sample,145972,0,"Keysound/Piano/G6S_s.wav",38
+Sample,145972,0,"Keysound/Short String/Short String_A#5S_Bb5S_s.wav",54
+Sample,145972,0,"Keysound/Short String/Short String_G6S_s.wav",54
+Sample,145972,0,"Keysound/Short String/Short String_G5S_s.wav",54
+Sample,145972,0,"Keysound/Piano/A#5S_Bb5S_s.wav",38
+Sample,146152,0,"Keysound/Piano/F6S_s.wav",38
+Sample,146152,0,"Keysound/Short String/Short String_F6S_s.wav",54
+Sample,146333,0,"Keysound/Piano/G6S_s.wav",38
+Sample,146333,0,"Keysound/Short String/Short String_G6S_s.wav",54
+Sample,146514,0,"Keysound/Short String/Short String_A#6S_Bb6S_s.wav",54
+Sample,146514,0,"Keysound/Piano/A#6S_Bb6S_s.wav",38
+Sample,146695,0,"Keysound/Short String/Short String_D#7S_Eb7S_s.wav",54
+Sample,146695,0,"Keysound/Piano/D#6S_Eb6S_s.wav",38
+Sample,146695,0,"Keysound/Piano/G6S_s.wav",38
+Sample,146695,0,"Keysound/Piano/D#7S_Eb7S_s.wav",38
+Sample,146695,0,"Keysound/Short String/Short String_G6S_s.wav",54
+Sample,146695,0,"Keysound/Short String/Short String_D#6S_Eb6S_s.wav",54
+Sample,147056,0,"Keysound/Piano/G6S_s.wav",38
+Sample,147056,0,"Keysound/Short String/Short String_G6S_s.wav",54
+Sample,147056,0,"Keysound/Piano/G5S_s.wav",38
+Sample,147056,0,"Keysound/Short String/Short String_G5S_s.wav",54
+Sample,147237,0,"Keysound/Piano/F5S_s.wav",38
+Sample,147237,0,"Keysound/Piano/F6S_s.wav",38
+Sample,147237,0,"Keysound/Short String/Short String_F5S_s.wav",54
+Sample,147237,0,"Keysound/Short String/Short String_F6S_s.wav",54
+Sample,147598,0,"Keysound/Short String/Short String_D#6S_Eb6S_s.wav",54
+Sample,147598,0,"Keysound/Piano/D#6S_Eb6S_s.wav",38
+Sample,147598,0,"Keysound/Piano/D#5S_Eb5S_s.wav",38
+Sample,147598,0,"Keysound/Short String/Short String_D#5S_Eb5S_s.wav",54
+Sample,147779,0,"Keysound/Piano/D#5S_Eb5S_s.wav",38
+Sample,147779,0,"Keysound/Ensemble String/Ensemble String_D#5S_Eb5S_s.wav",54
+Sample,147779,0,"Keysound/Ensemble String/Ensemble String_D#6S_Eb6S_s.wav",54
+Sample,147779,0,"Keysound/Piano/D#6S_Eb6S_s.wav",38
+Sample,148502,0,"Keysound/Piano/D#5S_Eb5S_s.wav",38
+Sample,148502,0,"Keysound/Short String/Short String_D#5S_Eb5S_s.wav",54
+Sample,148502,0,"Keysound/Short String/Short String_D#6S_Eb6S_s.wav",54
+Sample,148502,0,"Keysound/Piano/D#6S_Eb6S_s.wav",38
+Sample,148863,0,"Keysound/Short String/Short String_F6S_s.wav",54
+Sample,148863,0,"Keysound/Piano/F5S_s.wav",38
+Sample,148863,0,"Keysound/Piano/F6S_s.wav",38
+Sample,148863,0,"Keysound/Short String/Short String_F5S_s.wav",54
+Sample,149225,0,"Keysound/Piano/G6S_s.wav",38
+Sample,149225,0,"Keysound/Piano/G5S_s.wav",38
+Sample,149225,0,"Keysound/Short String/Short String_G6S_s.wav",54
+Sample,149225,0,"Keysound/Short String/Short String_G5S_s.wav",54
+Sample,149405,0,"Keysound/Piano/G5S_s.wav",38
+Sample,149405,0,"Keysound/Short String/Short String_G5S_s.wav",54
+Sample,149405,0,"Keysound/Short String/Short String_G6S_s.wav",54
+Sample,149405,0,"Keysound/Piano/G6S_s.wav",38
+Sample,149767,0,"Keysound/Short String/Short String_G#6S_Ab6S_s.wav",54
+Sample,149767,0,"Keysound/Piano/G#6S_Ab6S_s.wav",38
+Sample,149767,0,"Keysound/Piano/G#5S_Ab5S_s.wav",38
+Sample,149767,0,"Keysound/Short String/Short String_G#5S_Ab5S_s.wav",54
+Sample,150128,0,"Keysound/Short String/Short String_G6S_s.wav",54
+Sample,150128,0,"Keysound/Piano/G6S_s.wav",38
+Sample,150128,0,"Keysound/Piano/G5S_s.wav",38
+Sample,150128,0,"Keysound/Short String/Short String_G5S_s.wav",54
+Sample,150490,0,"Keysound/Piano/F6S_s.wav",38
+Sample,150490,0,"Keysound/Short String/Short String_F5S_s.wav",54
+Sample,150490,0,"Keysound/Short String/Short String_F6S_s.wav",54
+Sample,150490,0,"Keysound/Piano/F5S_s.wav",38
+Sample,150851,0,"Keysound/Piano/D#6S_Eb6S_s.wav",38
+Sample,150851,0,"Keysound/Short String/Short String_D#6S_Eb6S_s.wav",54
+Sample,150851,0,"Keysound/Piano/D#5S_Eb5S_s.wav",38
+Sample,150851,0,"Keysound/Short String/Short String_D#5S_Eb5S_s.wav",54
+Sample,151213,0,"Keysound/Short String/Short String_F6S_s.wav",54
+Sample,151213,0,"Keysound/Short String/Short String_F5S_s.wav",54
+Sample,151213,0,"Keysound/Piano/F5S_s.wav",38
+Sample,151213,0,"Keysound/Piano/F6S_s.wav",38
+Sample,151574,0,"Keysound/Piano/G5S.wav",35
+Sample,151574,0,"Keysound/Piano/G6S.wav",38
+Sample,151755,0,"Keysound/Short String/Short String_G5S.wav",54
+Sample,151755,0,"Keysound/Short String/Short String_G6S.wav",54
+Sample,152116,0,"Keysound/Short String/Short String_G5S_s.wav",54
+Sample,152116,0,"Keysound/Short String/Short String_G6S_s.wav",54
+Sample,152297,0,"Keysound/Short String/Short String_G5S.wav",54
+Sample,152297,0,"Keysound/Short String/Short String_G6S.wav",54
+Sample,152658,0,"Keysound/Short String/Short String_F#6S_Gb6S.wav",54
+Sample,152658,0,"Keysound/Short String/Short String_F#5S_Gb5S.wav",54
+Sample,153020,0,"Keysound/Short String/Short String_F5S.wav",54
+Sample,153020,0,"Keysound/Short String/Short String_F6S.wav",54
+Sample,153562,0,"Keysound/Piano/D#5S_Eb5S_s.wav",38
+Sample,153562,0,"Keysound/Short String/Short String_D#5S_Eb5S_s.wav",54
+Sample,153923,0,"Keysound/Piano/C6S.wav",38
+Sample,153923,0,"Keysound/Short String/Short String_C7S.wav",54
+Sample,153923,0,"Keysound/Short String/Short String_C6S.wav",54
+Sample,153923,0,"Keysound/Piano/C7S.wav",38
+Sample,154646,0,"Keysound/Piano/A#6S_Bb6S.wav",38
+Sample,154646,0,"Keysound/Short String/Short String_D#5S_Eb5S.wav",54
+Sample,154646,0,"Keysound/Short String/Short String_A#6S_Bb6S.wav",54
+Sample,154646,0,"Keysound/Short String/Short String_A#5S_Bb5S.wav",54
+Sample,154646,0,"Keysound/Piano/A#5S_Bb5S.wav",38
+Sample,154646,0,"Keysound/Piano/D#5S_Eb5S.wav",38
+Sample,155369,0,"Keysound/Short String/Short String_A#5S_Bb5S_s.wav",54
+Sample,155369,0,"Keysound/Piano/A#5S_Bb5S_s.wav",38
+Sample,155369,0,"Keysound/Piano/A#6S_Bb6S_s.wav",38
+Sample,155369,0,"Keysound/Short String/Short String_A#6S_Bb6S_s.wav",54
+Sample,155731,0,"Keysound/Piano/C7S_s.wav",38
+Sample,155731,0,"Keysound/Short String/Short String_C7S_s.wav",54
+Sample,155731,0,"Keysound/Piano/C6S_s.wav",38
+Sample,155731,0,"Keysound/Short String/Short String_C6S_s.wav",54
+Sample,155911,0,"Keysound/Short String/Short String_A#5S_Bb5S_s.wav",54
+Sample,155911,0,"Keysound/Short String/Short String_A#6S_Bb6S_s.wav",54
+Sample,155911,0,"Keysound/Piano/A#5S_Bb5S_s.wav",38
+Sample,155911,0,"Keysound/Piano/A#6S_Bb6S_s.wav",38
+Sample,156273,0,"Keysound/Piano/F5S_s.wav",38
+Sample,156273,0,"Keysound/Piano/F6S_s.wav",38
+Sample,156273,0,"Keysound/Short String/Short String_F6S_s.wav",54
+Sample,156273,0,"Keysound/Short String/Short String_F5S_s.wav",54
+Sample,156454,0,"Keysound/Ensemble String/Ensemble String_F6S_s.wav",54
+Sample,156454,0,"Keysound/Piano/F5S_s.wav",38
+Sample,156454,0,"Keysound/Piano/F6S_s.wav",38
+Sample,156454,0,"Keysound/Ensemble String/Ensemble String_A#5S_Bb5S_s.wav",54
+Sample,156454,0,"Keysound/Piano/A#5S_Bb5S_s.wav",38
+Sample,156454,0,"Keysound/Ensemble String/Ensemble String_F5S_s.wav",54
+Sample,157177,0,"Keysound/Short String/Short String_D#6S_Eb6S_s.wav",54
+Sample,157177,0,"Keysound/Piano/D#6S_Eb6S_s.wav",38
+Sample,157357,0,"Keysound/Short String/Short String_F6S_s.wav",54
+Sample,157357,0,"Keysound/Piano/F6S_s.wav",38
+Sample,157538,0,"Keysound/Piano/G6S_s.wav",38
+Sample,157538,0,"Keysound/Short String/Short String_G5S_s.wav",54
+Sample,157538,0,"Keysound/Piano/A#5S_Bb5S_s.wav",38
+Sample,157538,0,"Keysound/Piano/G5S_s.wav",38
+Sample,157538,0,"Keysound/Short String/Short String_A#5S_Bb5S_s.wav",54
+Sample,157538,0,"Keysound/Short String/Short String_G6S_s.wav",54
+Sample,157719,0,"Keysound/Short String/Short String_F6S_s.wav",54
+Sample,157719,0,"Keysound/Piano/F6S_s.wav",38
+Sample,157899,0,"Keysound/Short String/Short String_G6S_s.wav",54
+Sample,157899,0,"Keysound/Piano/G6S_s.wav",38
+Sample,158080,0,"Keysound/Short String/Short String_A#6S_Bb6S_s.wav",54
+Sample,158080,0,"Keysound/Piano/A#6S_Bb6S_s.wav",38
+Sample,158261,0,"Keysound/Piano/B6S_s.wav",38
+Sample,158261,0,"Keysound/Short String/Short String_B5S_s.wav",54
+Sample,158261,0,"Keysound/Piano/B5S_s.wav",38
+Sample,158261,0,"Keysound/Short String/Short String_B6S_s.wav",54
+Sample,158622,0,"Keysound/Piano/G6S_s.wav",38
+Sample,158622,0,"Keysound/Short String/Short String_G6S_s.wav",54
+Sample,158803,0,"Keysound/Short String/Short String_D#6S_Eb6S_s.wav",54
+Sample,158803,0,"Keysound/Short String/Short String_G6S.wav",54
+Sample,158803,0,"Keysound/Piano/D#6S_Eb6S_s.wav",38
+Sample,158803,0,"Keysound/Short String/Short String_D#7S_Eb7S_s.wav",54
+Sample,158803,0,"Keysound/Piano/D#7S_Eb7S_s.wav",38
+Sample,158803,0,"Keysound/Piano/G6S.wav",37
+Sample,159164,0,"Keysound/Short String/Short String_D7S_s.wav",54
+Sample,159164,0,"Keysound/Piano/D7S_s.wav",38
+Sample,159345,0,"Keysound/Piano/C6S_s.wav",38
+Sample,159345,0,"Keysound/Piano/C7S_s.wav",38
+Sample,159345,0,"Keysound/Ensemble String/C6&C7.wav",54
+Sample,160068,0,"Keysound/Piano/D#6S_Eb6S_s.wav",38
+Sample,160068,0,"Keysound/Piano/D#5S_Eb5S.wav",38
+Sample,160068,0,"Keysound/Short String/Short String_D#6S_Eb6S_s.wav",54
+Sample,160068,0,"Keysound/Short String/Short String_D#5S_Eb5S.wav",54
+Sample,160430,0,"Keysound/Short String/Short String_F5S_s.wav",54
+Sample,160430,0,"Keysound/Short String/Short String_F6S_s.wav",54
+Sample,160430,0,"Keysound/Piano/F5S_s.wav",38
+Sample,160430,0,"Keysound/Piano/F6S_s.wav",38
+Sample,160791,0,"Keysound/Piano/D#6S_Eb6S_s.wav",38
+Sample,160791,0,"Keysound/Short String/Short String_D#5S_Eb5S_s.wav",54
+Sample,160791,0,"Keysound/Piano/D#5S_Eb5S_s.wav",38
+Sample,160791,0,"Keysound/Short String/Short String_D#6S_Eb6S_s.wav",54
+Sample,160972,0,"Keysound/Short String/Short String_D#6S_Eb6S_s.wav",54
+Sample,160972,0,"Keysound/Short String/Short String_D#5S_Eb5S_s.wav",54
+Sample,160972,0,"Keysound/Piano/D#5S_Eb5S_s.wav",38
+Sample,160972,0,"Keysound/Piano/D#6S_Eb6S_s.wav",38
+Sample,161333,0,"Keysound/Piano/G5S_s.wav",38
+Sample,161333,0,"Keysound/Piano/G6S_s.wav",38
+Sample,161333,0,"Keysound/Short String/Short String_G6S_s.wav",54
+Sample,161333,0,"Keysound/Short String/Short String_G5S_s.wav",54
+Sample,161695,0,"Keysound/Short String/Short String_F5S_s.wav",54
+Sample,161695,0,"Keysound/Piano/F6S_s.wav",38
+Sample,161695,0,"Keysound/Piano/F5S_s.wav",38
+Sample,161695,0,"Keysound/Short String/Short String_F6S_s.wav",54
+Sample,162056,0,"Keysound/Short String/Short String_D#6S_Eb6S_s.wav",54
+Sample,162056,0,"Keysound/Piano/D#6S_Eb6S_s.wav",38
+Sample,162056,0,"Keysound/Piano/D#5S_Eb5S_s.wav",38
+Sample,162056,0,"Keysound/Short String/Short String_D#5S_Eb5S_s.wav",54
+Sample,162417,0,"Keysound/Piano/C6S_s.wav",38
+Sample,162417,0,"Keysound/Short String/Short String_C5S_s.wav",54
+Sample,162417,0,"Keysound/Short String/Short String_C6S_s.wav",54
+Sample,162417,0,"Keysound/Piano/C5S_s.wav",38
+Sample,162779,0,"Keysound/Short String/Short String_D#5S_Eb5S_s.wav",54
+Sample,162779,0,"Keysound/Piano/D#5S_Eb5S_s.wav",38
+Sample,162779,0,"Keysound/Piano/D#6S_Eb6S_s.wav",38
+Sample,162779,0,"Keysound/Short String/Short String_D#6S_Eb6S_s.wav",54
+Sample,163140,0,"Keysound/Piano/D#5S_Eb5S.wav",38
+Sample,163140,0,"Keysound/Piano/D#6S_Eb6S.wav",38
+Sample,164405,0,"Keysound/Short String/Short String_C5S_s.wav",54
+Sample,164405,0,"Keysound/Piano/C5S_s.wav",38
+Sample,164767,0,"Keysound/Piano/G5S_s.wav",38
+Sample,164767,0,"Keysound/Short String/Short String_G5S_s.wav",54
+Sample,164767,0,"Keysound/Short String/Short String_G6S_s.wav",54
+Sample,164767,0,"Keysound/Piano/G6S_s.wav",38
+Sample,165128,0,"Keysound/Piano/F5S_s.wav",38
+Sample,165128,0,"Keysound/Short String/Short String_F5S_s.wav",54
+Sample,165309,0,"Keysound/Short String/Short String_F5S_s.wav",54
+Sample,165309,0,"Keysound/Piano/F5S_s.wav",38
+Sample,165670,0,"Keysound/Short String/Short String_D#5S_Eb5S_s.wav",54
+Sample,165670,0,"Keysound/Piano/D#5S_Eb5S_s.wav",38
+Sample,166032,0,"Keysound/Piano/D#6S_Eb6S.wav",38
+Sample,166032,0,"Keysound/Piano/D#5S_Eb5S.wav",38
+Sample,166032,0,"Keysound/Ensemble String/D#5&D#4_s.wav",54
+Sample,166213,0,"Keysound/Short String/Short String_A#6S_Bb6S_s.wav",54
+Sample,166574,0,"Keysound/Short String/Short String_F6S_s.wav",54
+Sample,166755,0,"Keysound/Short String/Short String_D#6S_Eb6S_s.wav",54
+Sample,166936,0,"Keysound/Short String/Short String_A#6S_Bb6S_s.wav",54
+Sample,167297,0,"Keysound/Piano/A#4S_Bb4S_s.wav",35
+Sample,167297,0,"Keysound/Short String/Short String_F6S_s.wav",54
+Sample,167478,0,"Keysound/Short String/Short String_D#6S_Eb6S_s.wav",54
+Sample,167658,0,"Keysound/Piano/F5S_s.wav",35
+Sample,167658,0,"Keysound/Short String/Short String_A#6S_Bb6S_s.wav",54
+Sample,167658,0,"Keysound/Piano/A#5S_Bb5S_s.wav",38
+Sample,167658,0,"Keysound/Piano/F6S_s.wav",35
+Sample,168020,0,"Keysound/Short String/Short String_F6S_s.wav",54
+Sample,168020,0,"Keysound/Piano/D#5S_Eb5S_s.wav",35
+Sample,168020,0,"Keysound/Piano/D#6S_Eb6S_s.wav",35
+Sample,168201,0,"Keysound/Piano/F5S_s.wav",35
+Sample,168201,0,"Keysound/Piano/F6S_s.wav",35
+Sample,168201,0,"Keysound/Short String/Short String_D#6S_Eb6S_s.wav",54
+Sample,168381,0,"Keysound/Short String/Short String_A#6S_Bb6S_s.wav",54
+Sample,168562,0,"Keysound/Piano/G#6S_Ab6S_s.wav",35
+Sample,168562,0,"Keysound/Piano/G#5S_Ab5S_s.wav",35
+Sample,168743,0,"Keysound/Short String/Short String_F6S_s.wav",54
+Sample,168924,0,"Keysound/Piano/G#5S_Ab5S_s.wav",35
+Sample,168924,0,"Keysound/Short String/Short String_D#6S_Eb6S_s.wav",54
+Sample,168924,0,"Keysound/Piano/G#6S_Ab6S_s.wav",35
+Sample,169104,0,"Keysound/Piano/G6S.wav",38
+Sample,169104,0,"Keysound/Piano/D#6S_Eb6S.wav",38
+Sample,169104,0,"Keysound/Piano/A#5S_Bb5S.wav",35
+Sample,169104,0,"Keysound/Short String/Short String_A#6S_Bb6S_s.wav",54
+Sample,169104,0,"Keysound/Piano/A#6S_Bb6S.wav",35
+Sample,169285,0,"Keysound/Short String/Short String_D#6S_Eb6S_s.wav",54
+Sample,169466,0,"Keysound/Short String/Short String_F6S_s.wav",54
+Sample,169646,0,"Keysound/Piano/G#5S_Ab5S_s.wav",35
+Sample,169646,0,"Keysound/Short String/Short String_D#6S_Eb6S_s.wav",54
+Sample,169646,0,"Keysound/Piano/G#6S_Ab6S_s.wav",35
+Sample,169827,0,"Keysound/Short String/Short String_A#6S_Bb6S_s.wav",54
+Sample,169827,0,"Keysound/Piano/G6S.wav",35
+Sample,169827,0,"Keysound/Piano/G5S.wav",35
+Sample,170189,0,"Keysound/Short String/Short String_F6S_s.wav",54
+Sample,170369,0,"Keysound/Short String/Short String_D#6S_Eb6S_s.wav",54
+Sample,170731,0,"Keysound/Short String/Short String_D#6S_Eb6S_s.wav",54
+Sample,170550,0,"Keysound/Short String/Short String_A#6S_Bb6S_s.wav",54
+Sample,170911,0,"Keysound/Short String/Short String_F6S_s.wav",54
+Sample,171092,0,"Keysound/Short String/Short String_D#6S_Eb6S_s.wav",54
+Sample,171273,0,"Keysound/Short String/Short String_A#6S_Bb6S_s.wav",54
+Sample,171634,0,"Keysound/Piano/G5S_s.wav",35
+Sample,171634,0,"Keysound/Short String/Short String_F6S_s.wav",54
+Sample,171634,0,"Keysound/Piano/G6S_s.wav",35
+Sample,171815,0,"Keysound/Piano/G#5S_Ab5S_s.wav",35
+Sample,171815,0,"Keysound/Piano/G#6S_Ab6S_s.wav",35
+Sample,171815,0,"Keysound/Short String/Short String_D#6S_Eb6S_s.wav",54
+Sample,171996,0,"Keysound/Short String/Short String_A#6S_Bb6S_s.wav",54
+Sample,171996,0,"Keysound/Piano/A#6S_Bb6S_s.wav",35
+Sample,171996,0,"Keysound/Piano/A#5S_Bb5S_s.wav",35
+Sample,172177,0,"Keysound/Short String/Short String_D#6S_Eb6S_s.wav",54
+Sample,172357,0,"Keysound/Short String/Short String_F6S_s.wav",54
+Sample,172538,0,"Keysound/Piano/D#6S_Eb6S_s.wav",35
+Sample,172538,0,"Keysound/Piano/D#5S_Eb5S_s.wav",35
+Sample,172538,0,"Keysound/Short String/Short String_D#6S_Eb6S_s.wav",54
+Sample,172719,0,"Keysound/Piano/D#5S_Eb5S.wav",35
+Sample,172719,0,"Keysound/Piano/D#6S_Eb6S.wav",35
+Sample,172719,0,"Keysound/Short String/Short String_A#6S_Bb6S_s.wav",54
+Sample,173080,0,"Keysound/Short String/Short String_F6S_s.wav",54
+Sample,173261,0,"Keysound/Piano/D#6S_Eb6S_s.wav",35
+Sample,173261,0,"Keysound/Short String/Short String_D#6S_Eb6S_s.wav",54
+Sample,173261,0,"Keysound/Piano/D#5S_Eb5S_s.wav",35
+Sample,173442,0,"Keysound/Piano/D#5S_Eb5S_s.wav",35
+Sample,173442,0,"Keysound/Short String/Short String_A#6S_Bb6S_s.wav",54
+Sample,173442,0,"Keysound/Piano/D#6S_Eb6S_s.wav",35
+Sample,173803,0,"Keysound/Short String/Short String_F6S_s.wav",54
+Sample,173803,0,"Keysound/Piano/C5S_s.wav",35
+Sample,173803,0,"Keysound/Piano/C6S_s.wav",35
+Sample,173984,0,"Keysound/Short String/Short String_D#6S_Eb6S_s.wav",54
+Sample,174164,0,"Keysound/Piano/D#5S_Eb5S_s.wav",35
+Sample,174164,0,"Keysound/Short String/Short String_A#6S_Bb6S_s.wav",54
+Sample,174164,0,"Keysound/Piano/D#6S_Eb6S_s.wav",35
+Sample,174526,0,"Keysound/Piano/G5S_s.wav",35
+Sample,174526,0,"Keysound/Piano/G6S_s.wav",35
+Sample,174526,0,"Keysound/Short String/Short String_F6S_s.wav",54
+Sample,174707,0,"Keysound/Piano/G#6S_Ab6S_s.wav",35
+Sample,174707,0,"Keysound/Short String/Short String_D#6S_Eb6S_s.wav",54
+Sample,174707,0,"Keysound/Piano/G#5S_Ab5S_s.wav",35
+Sample,174887,0,"Keysound/Short String/Short String_A#6S_Bb6S_s.wav",54
+Sample,175068,0,"Keysound/Short String/Short String_D#6S_Eb6S_s.wav",54
+Sample,175068,0,"Keysound/Piano/G5S_s.wav",35
+Sample,175068,0,"Keysound/Piano/G6S_s.wav",35
+Sample,175249,0,"Keysound/Piano/F5S.wav",35
+Sample,175249,0,"Keysound/Piano/F6S.wav",35
+Sample,175249,0,"Keysound/Short String/Short String_F6S_s.wav",54
+Sample,175430,0,"Keysound/Short String/Short String_D#6S_Eb6S_s.wav",54
+Sample,175610,0,"Keysound/Short String/Short String_A#6S_Bb6S_s.wav",54
+Sample,175972,0,"Keysound/Short String/Short String_F6S_s.wav",54
+Sample,176152,0,"Keysound/Short String/Short String_D#6S_Eb6S_s.wav",54
+Sample,176333,0,"Keysound/Short String/Short String_F6S_s.wav",54
+Sample,176514,0,"Keysound/Short String/Short String_D#6S_Eb6S_s.wav",54
+Sample,176695,0,"Keysound/Short String/Short String_F6S_s.wav",54
+Sample,176875,0,"Keysound/Short String/Short String_G6S_s.wav",54
+Sample,177056,0,"Keysound/Short String/Short String_G#6S_Ab6S_s.wav",54
+Sample,177237,0,"Keysound/Short String/Short String_G6S_s.wav",54
+Sample,177417,0,"Keysound/Piano/F6S_s.wav",35
+Sample,177417,0,"Keysound/Piano/F5S_s.wav",35
+Sample,177417,0,"Keysound/Short String/Short String_F6S_s.wav",54
+Sample,177598,0,"Keysound/Piano/G5S_s.wav",35
+Sample,177598,0,"Keysound/Short String/Short String_D#6S_Eb6S_s.wav",54
+Sample,177598,0,"Keysound/Piano/G6S_s.wav",35
+Sample,177779,0,"Keysound/Piano/G#5S_Ab5S_s.wav",35
+Sample,177779,0,"Keysound/Piano/G#6S_Ab6S_s.wav",35
+Sample,177779,0,"Keysound/Ensemble String/G#6.wav",54
+Sample,177960,0,"Keysound/Piano/G#6S_Ab6S_s.wav",35
+Sample,177960,0,"Keysound/Piano/G#5S_Ab5S_s.wav",35
+Sample,178321,0,"Keysound/Piano/G#5S_Ab5S_s.wav",35
+Sample,178321,0,"Keysound/Piano/G#6S_Ab6S_s.wav",35
+Sample,178683,0,"Keysound/Piano/G6S_s.wav",35
+Sample,178683,0,"Keysound/Piano/G5S_s.wav",35
+Sample,178683,0,"Keysound/Short String/Short String_G5S_s.wav",54
+Sample,178683,0,"Keysound/Short String/Short String_G6S_s.wav",54
+Sample,178863,0,"Keysound/Short String/Short String_G#5S_Ab5S_s.wav",54
+Sample,178863,0,"Keysound/Short String/Short String_G#6S_Ab6S_s.wav",54
+Sample,178863,0,"Keysound/Piano/G#6S_Ab6S_s.wav",35
+Sample,178863,0,"Keysound/Piano/G#5S_Ab5S_s.wav",35
+Sample,179044,0,"Keysound/Piano/A#5S_Bb5S_s.wav",35
+Sample,179044,0,"Keysound/Short String/Short String_A#5S_Bb5S_s.wav",54
+Sample,179044,0,"Keysound/Piano/A#6S_Bb6S_s.wav",35
+Sample,179044,0,"Keysound/Short String/Short String_A#6S_Bb6S_s.wav",54
+Sample,179225,0,"Keysound/Ensemble String/F6m.wav",54
+Sample,179225,0,"Keysound/Piano/G#6S_Ab6S.wav",35
+Sample,179225,0,"Keysound/Piano/C7S.wav",35
+Sample,179225,0,"Keysound/Piano/C6S.wav",35
+Sample,179225,0,"Keysound/Piano/F6S.wav",35
+Sample,179767,0,"Keysound/Piano/A#6S_Bb6S_s.wav",35
+Sample,179767,0,"Keysound/Short String/Short String_A#6S_Bb6S_s.wav",54
+Sample,179767,0,"Keysound/Short String/Short String_A#5S_Bb5S_s.wav",54
+Sample,179767,0,"Keysound/Piano/A#5S_Bb5S_s.wav",35
+Sample,179948,0,"Keysound/Piano/A#6S_Bb6S.wav",35
+Sample,179948,0,"Keysound/Ensemble String/D#6.wav",54
+Sample,179948,0,"Keysound/Piano/A#5S_Bb5S.wav",35
+Sample,180671,0,"Keysound/Piano/A#6S_Bb6S_s.wav",35
+Sample,180671,0,"Keysound/Piano/A#5S_Bb5S_s.wav",35
+Sample,180851,0,"Keysound/Piano/A#5S_Bb5S_s.wav",35
+Sample,180851,0,"Keysound/Piano/A#6S_Bb6S_s.wav",35
+Sample,181213,0,"Keysound/Piano/A#5S_Bb5S_s.wav",35
+Sample,181213,0,"Keysound/Piano/A#6S_Bb6S_s.wav",35
+Sample,181574,0,"Keysound/Piano/G6S_s.wav",35
+Sample,181574,0,"Keysound/Short String/Short String_G5S_s.wav",54
+Sample,181574,0,"Keysound/Short String/Short String_G6S_s.wav",54
+Sample,181574,0,"Keysound/Piano/G5S_s.wav",35
+Sample,181755,0,"Keysound/Piano/G#6S_Ab6S_s.wav",35
+Sample,181755,0,"Keysound/Short String/Short String_G#6S_Ab6S_s.wav",54
+Sample,181755,0,"Keysound/Piano/G#5S_Ab5S_s.wav",35
+Sample,181755,0,"Keysound/Short String/Short String_G#5S_Ab5S_s.wav",54
+Sample,181936,0,"Keysound/Piano/A#6S_Bb6S_s.wav",35
+Sample,181936,0,"Keysound/Short String/Short String_A#6S_Bb6S_s.wav",54
+Sample,181936,0,"Keysound/Piano/A#5S_Bb5S_s.wav",35
+Sample,181936,0,"Keysound/Short String/Short String_A#5S_Bb5S_s.wav",54
+Sample,182116,0,"Keysound/Piano/C#6S_Db6S.wav",35
+Sample,182116,0,"Keysound/Ensemble String/F6maj.wav",54
+Sample,182116,0,"Keysound/Piano/F#6S_Gb6S.wav",35
+Sample,182116,0,"Keysound/Piano/A#6S_Bb6S.wav",35
+Sample,182116,0,"Keysound/Piano/C#7S_Db7S.wav",35
+Sample,182658,0,"Keysound/Piano/C7S_s.wav",35
+Sample,182658,0,"Keysound/Piano/C6S_s.wav",35
+Sample,182658,0,"Keysound/Short String/Short String_C7S_s.wav",54
+Sample,182749,0,"Keysound/Short String/Short String_C#7S_Db7S_s.wav",54
+Sample,182839,0,"Keysound/Piano/G#5S_Ab5S_s.wav",35
+Sample,182839,0,"Keysound/Ensemble String/Ab6maj.wav",54
+Sample,182839,0,"Keysound/Piano/G#6S_Ab6S_s.wav",35
+Sample,183381,0,"Keysound/Short String/Short String_D#7S_Eb7S_s.wav",54
+Sample,183472,0,"Keysound/Short String/Short String_C#7S_Db7S_s.wav",54
+Sample,183562,0,"Keysound/Piano/G#5S_Ab5S_s.wav",35
+Sample,183562,0,"Keysound/Short String/Short String_G#6S_Ab6S_s.wav",54
+Sample,183562,0,"Keysound/Piano/G#6S_Ab6S_s.wav",35
+Sample,183924,0,"Keysound/Short String/Short String_G#6S_Ab6S_s.wav",54
+Sample,183924,0,"Keysound/Piano/G5S_s.wav",35
+Sample,183924,0,"Keysound/Piano/G6S_s.wav",35
+Sample,184104,0,"Keysound/Piano/G#5S_Ab5S_s.wav",35
+Sample,184104,0,"Keysound/Piano/G#6S_Ab6S_s.wav",35
+Sample,184285,0,"Keysound/Short String/Short String_G#6S_Ab6S_s.wav",54
+Sample,184466,0,"Keysound/Piano/D#6S_Eb6S_s.wav",35
+Sample,184466,0,"Keysound/Piano/D#7S_Eb7S_s.wav",35
+Sample,184646,0,"Keysound/Short String/Short String_G#6S_Ab6S_s.wav",54
+Sample,184827,0,"Keysound/Piano/G5S_s.wav",35
+Sample,184827,0,"Keysound/Piano/G6S_s.wav",35
+Sample,185008,0,"Keysound/Piano/G#6S_Ab6S_s.wav",35
+Sample,185008,0,"Keysound/Short String/Short String_A#6S_Bb6S_s.wav",54
+Sample,185008,0,"Keysound/Piano/G#5S_Ab5S_s.wav",35
+Sample,185369,0,"Keysound/Piano/G6S_s.wav",35
+Sample,185369,0,"Keysound/Piano/G5S_s.wav",35
+Sample,185369,0,"Keysound/Short String/Short String_A#6S_Bb6S_s.wav",54
+Sample,185550,0,"Keysound/Piano/G#6S_Ab6S_s.wav",35
+Sample,185550,0,"Keysound/Piano/G#5S_Ab5S_s.wav",35
+Sample,185731,0,"Keysound/Short String/Short String_A#6S_Bb6S_s.wav",54
+Sample,185911,0,"Keysound/Piano/D#6S_Eb6S_s.wav",35
+Sample,185911,0,"Keysound/Piano/D#7S_Eb7S_s.wav",35
+Sample,186092,0,"Keysound/Short String/Short String_A#6S_Bb6S_s.wav",54
+Sample,186273,0,"Keysound/Piano/G#6S_Ab6S_s.wav",35
+Sample,186273,0,"Keysound/Piano/G#5S_Ab5S_s.wav",35
+Sample,186454,0,"Keysound/Piano/C#6S_Db6S_s.wav",35
+Sample,186454,0,"Keysound/Short String/Short String_C7S_s.wav",54
+Sample,186454,0,"Keysound/Piano/C#7S_Db7S_s.wav",35
+Sample,186815,0,"Keysound/Piano/C6S_s.wav",35
+Sample,186815,0,"Keysound/Short String/Short String_C7S_s.wav",54
+Sample,186815,0,"Keysound/Piano/C7S_s.wav",35
+Sample,186996,0,"Keysound/Piano/A#5S_Bb5S_s.wav",35
+Sample,186996,0,"Keysound/Piano/A#6S_Bb6S_s.wav",35
+Sample,187177,0,"Keysound/Short String/Short String_C7S_s.wav",54
+Sample,187357,0,"Keysound/Piano/G#6S_Ab6S_s.wav",35
+Sample,187357,0,"Keysound/Piano/G#5S_Ab5S_s.wav",35
+Sample,187538,0,"Keysound/Short String/Short String_C7S_s.wav",54
+Sample,187719,0,"Keysound/Piano/A#5S_Bb5S.wav",35
+Sample,187719,0,"Keysound/Piano/A#6S_Bb6S.wav",35
+Sample,187899,0,"Keysound/Short String/Short String_C#7S_Db7S_s.wav",54
+Sample,188261,0,"Keysound/Short String/Short String_C#7S_Db7S_s.wav",54
+Sample,188442,0,"Keysound/Piano/G#6S_Ab6S_s.wav",35
+Sample,188442,0,"Keysound/Piano/G#5S_Ab5S_s.wav",35
+Sample,188622,0,"Keysound/Short String/Short String_C#7S_Db7S_s.wav",54
+Sample,188622,0,"Keysound/Piano/A#6S_Bb6S_s.wav",35
+Sample,188622,0,"Keysound/Piano/A#5S_Bb5S_s.wav",35
+Sample,188984,0,"Keysound/Short String/Short String_C#7S_Db7S_s.wav",54
+Sample,188984,0,"Keysound/Piano/C7S_s.wav",35
+Sample,188984,0,"Keysound/Piano/C6S_s.wav",35
+Sample,189164,0,"Keysound/Piano/A#5S_Bb5S_s.wav",35
+Sample,189345,0,"Keysound/Short String/Short String_A#6S_Bb6S_s.wav",54
+Sample,189345,0,"Keysound/Piano/A#6S_Bb6S_s.wav",35
+Sample,189436,0,"Keysound/Short String/Short String_G#6S_Ab6S_s.wav",54
+Sample,189436,0,"Keysound/Piano/G#6S_Ab6S_s.wav",35
+Sample,189526,0,"Keysound/Piano/G6S_s.wav",35
+Sample,189526,0,"Keysound/Short String/Short String_G6S_s.wav",54
+Sample,189616,0,"Keysound/Piano/G#6S_Ab6S_s.wav",35
+Sample,189616,0,"Keysound/Short String/Short String_G#6S_Ab6S_s.wav",54
+Sample,189707,0,"Keysound/Short String/Short String_A#6S_Bb6S_s.wav",54
+Sample,189707,0,"Keysound/Piano/A#6S_Bb6S_s.wav",35
+Sample,189797,0,"Keysound/Short String/Short String_C7S_s.wav",54
+Sample,189797,0,"Keysound/Piano/C7S_s.wav",35
+Sample,189887,0,"Keysound/Short String/Short String_A#6S_Bb6S_s.wav",54
+Sample,189887,0,"Keysound/Piano/A#6S_Bb6S_s.wav",35
+Sample,189978,0,"Keysound/Piano/G#6S_Ab6S_s.wav",35
+Sample,189978,0,"Keysound/Short String/Short String_G#6S_Ab6S_s.wav",54
+Sample,190068,0,"Keysound/Short String/Short String_G6S_s.wav",54
+Sample,190068,0,"Keysound/Piano/G6S_s.wav",35
+Sample,190158,0,"Keysound/Piano/G#6S_Ab6S_s.wav",35
+Sample,190158,0,"Keysound/Short String/Short String_G#6S_Ab6S_s.wav",54
+Sample,190249,0,"Keysound/Piano/A#6S_Bb6S_s.wav",35
+Sample,190249,0,"Keysound/Short String/Short String_A#6S_Bb6S_s.wav",54
+Sample,190339,0,"Keysound/Short String/Short String_C7S_s.wav",54
+Sample,190339,0,"Keysound/Piano/C7S_s.wav",35
+Sample,190430,0,"Keysound/Piano/A#6S_Bb6S_s.wav",35
+Sample,190430,0,"Keysound/Short String/Short String_A#6S_Bb6S_s.wav",54
+Sample,190520,0,"Keysound/Piano/C7S_s.wav",35
+Sample,190520,0,"Keysound/Short String/Short String_C7S_s.wav",54
+Sample,190610,0,"Keysound/Short String/Short String_C#7S_Db7S_s.wav",54
+Sample,190610,0,"Keysound/Piano/C#7S_Db7S_s.wav",35
+Sample,190701,0,"Keysound/Short String/Short String_D#7S_Eb7S_s.wav",54
+Sample,190701,0,"Keysound/Piano/D#7S_Eb7S_s.wav",35
+Sample,190701,0,"Keysound/Piano/D#6S_Eb6S_s.wav",35
+Sample,190972,0,"Keysound/Piano/G#5S_Ab5S_s.wav",35
+Sample,190972,0,"Keysound/Piano/G#6S_Ab6S_s.wav",35
+Sample,191152,0,"Keysound/Piano/G#6S_Ab6S_s.wav",35
+Sample,191152,0,"Keysound/Piano/G#5S_Ab5S_s.wav",35
+Sample,191333,0,"Keysound/Piano/G6S_s.wav",35
+Sample,191333,0,"Keysound/Piano/G5S_s.wav",35
+Sample,191695,0,"Keysound/Piano/G#6S_Ab6S_s.wav",35
+Sample,191695,0,"Keysound/Piano/G#5S_Ab5S_s.wav",35
+Sample,192056,0,"Keysound/Piano/C7S.wav",35
+Sample,192056,0,"Keysound/Piano/D#6S_Eb6S.wav",35
+Sample,192056,0,"Keysound/Piano/D#7S_Eb7S.wav",35
+Sample,192056,0,"Keysound/Piano/G#6S_Ab6S.wav",35
+Sample,192779,0,"Keysound/Piano/C#7S_Db7S_s.wav",35
+Sample,193140,0,"Keysound/Piano/C7S_s.wav",35
+Sample,193321,0,"Keysound/Piano/C#7S_Db7S_s.wav",35
+Sample,193502,0,"Keysound/Piano/D#6S_Eb6S_s.wav",35
+Sample,193863,0,"Keysound/Piano/C7S_s.wav",35
+Sample,194225,0,"Keysound/Piano/D#6S_Eb6S_s.wav",35
+Sample,194225,0,"Keysound/Piano/D#7S_Eb7S_s.wav",35
+Sample,194767,0,"Keysound/Piano/F6S.wav",35
+Sample,195580,0,"Keysound/Piano/A#6S_Bb6S_s.wav",35
+Sample,195625,0,"Keysound/Piano/A#6S_Bb6S_s.wav",35
+Sample,195648,0,"Keysound/Piano/A#6S_Bb6S_s.wav",35
+Sample,195671,0,"Keysound/Piano/C7S.wav",35
+Sample,196393,0,"Keysound/Piano/A#6S_Bb6S_s.wav",35
+Sample,196755,0,"Keysound/Piano/G6S_s.wav",35
+Sample,197116,0,"Keysound/Piano/G#5S_Ab5S_s.wav",35
+Sample,197116,0,"Keysound/Piano/G#6S_Ab6S_s.wav",35
+Sample,197478,0,"Keysound/Piano/F6S_s.wav",35
+Sample,197839,0,"Keysound/Piano/A#6S_Bb6S_s.wav",35
+Sample,197862,0,"Keysound/Piano/A#6S_Bb6S_s.wav",35
+Sample,197884,0,"Keysound/Piano/A#6S_Bb6S_s.wav",35
+Sample,198020,0,"Keysound/Piano/C7S_s.wav",35
+Sample,198291,0,"Keysound/Piano/D#6S_Eb6S_s.wav",35
+Sample,198562,0,"Keysound/Piano/C7S_s.wav",35
+Sample,198924,0,"Keysound/Piano/A#6S_Bb6S_s.wav",35
+Sample,199195,0,"Keysound/Piano/C7S_s.wav",35
+Sample,199466,0,"Keysound/Piano/A#6S_Bb6S_s.wav",35
+Sample,199737,0,"Keysound/Piano/C7S_s.wav",35
+Sample,200008,0,"Keysound/Piano/A#6S_Bb6S_s.wav",35
+Sample,200098,0,"Keysound/Piano/G#6S_Ab6S_s.wav",35
+Sample,200279,0,"Keysound/Piano/C7S_s.wav",35
+Sample,200550,0,"Keysound/Piano/A#6S_Bb6S_s.wav",35
+Sample,200640,0,"Keysound/Piano/G#6S_Ab6S_s.wav",35
+Sample,200731,0,"Keysound/Piano/D#6S_Eb6S_s.wav",35
+Sample,200911,0,"Keysound/Piano/G#5S_Ab5S.wav",35
+Sample,200911,0,"Keysound/Piano/G#4S_Ab4S.wav",35
+Sample,201273,0,"Keysound/Piano/C5S_s.wav",35
+Sample,201363,0,"Keysound/Piano/C#5S_Db5S_s.wav",35
+Sample,201454,0,"Keysound/Piano/D#5S_Eb5S_s.wav",35
+Sample,201544,0,"Keysound/Piano/F5S_s.wav",35
+Sample,201634,0,"Keysound/Piano/G#5S_Ab5S_s.wav",35
+Sample,201725,0,"Keysound/Piano/A#5S_Bb5S_s.wav",35
+Sample,201815,0,"Keysound/Piano/C6S_s.wav",35
+Sample,201905,0,"Keysound/Piano/C#6S_Db6S_s.wav",35
+Sample,201996,0,"Keysound/Piano/D#6S_Eb6S_s.wav",35
+Sample,202086,0,"Keysound/Piano/F6S_s.wav",35
+Sample,202177,0,"Keysound/Piano/G#6S_Ab6S_s.wav",35
+Sample,202267,0,"Keysound/Piano/A#6S_Bb6S_s.wav",35
+Sample,202357,0,"Keysound/Piano/C7S_s.wav",35
+Sample,202448,0,"Keysound/Piano/C#7S_Db7S_s.wav",35
+Sample,202538,0,"Keysound/Piano/C7S_s.wav",35
+Sample,202628,0,"Keysound/Piano/C#7S_Db7S_s.wav",35
+Sample,202719,0,"Keysound/Piano/C7S_s.wav",35
+Sample,202899,0,"Keysound/Piano/C6S_s.wav",35
+Sample,202899,0,"Keysound/Piano/C7S_s.wav",35
+Sample,202990,0,"Keysound/Piano/C#6S_Db6S_s.wav",35
+Sample,202990,0,"Keysound/Piano/C#7S_Db7S_s.wav",35
+Sample,203080,0,"Keysound/Piano/C7S_s.wav",35
+Sample,203080,0,"Keysound/Piano/C6S_s.wav",35
+Sample,203442,0,"Keysound/Piano/E8S_s.wav",16
+Sample,203464,0,"Keysound/Piano/D#8S_Eb8S_s.wav",16
+Sample,203487,0,"Keysound/Piano/C#8S_Db8S_s.wav",16
+Sample,203509,0,"Keysound/Piano/B7S_s.wav",16
+Sample,203532,0,"Keysound/Piano/A#7S_Bb7S_s.wav",16
+Sample,203555,0,"Keysound/Piano/G#7S_Ab7S_s.wav",16
+Sample,203577,0,"Keysound/Piano/F#7S_Gb7S_s.wav",16
+Sample,203600,0,"Keysound/Piano/F7S_s.wav",16
+Sample,203622,0,"Keysound/Piano/D#7S_Eb7S_s.wav",16
+Sample,203645,0,"Keysound/Piano/C#7S_Db7S_s.wav",16
+Sample,203668,0,"Keysound/Piano/B6S_s.wav",16
+Sample,203690,0,"Keysound/Piano/A#6S_Bb6S_s.wav",16
+Sample,203713,0,"Keysound/Piano/G#6S_Ab6S_s.wav",16
+Sample,203735,0,"Keysound/Piano/F#6S_Gb6S_s.wav",16
+Sample,203758,0,"Keysound/Piano/F6S_s.wav",16
+Sample,203780,0,"Keysound/Piano/D#6S_Eb6S_s.wav",16
+Sample,203803,0,"Keysound/Piano/D#6S_Eb6S.wav",38
+Sample,204707,0,"Keysound/Piano/D#6S_Eb6S_s.wav",38
+Sample,204887,0,"Keysound/Piano/G#6S_Ab6S_s.wav",38
+Sample,205068,0,"Keysound/Piano/F6S_s.wav",38
+Sample,205249,0,"Keysound/Ensemble String/G#6Long.wav",54
+Sample,205430,0,"Keysound/Piano/F6S_s.wav",38
+Sample,205610,0,"Keysound/Piano/C7S_s.wav",38
+Sample,205791,0,"Keysound/Piano/G#6S_Ab6S_s.wav",38
+Sample,207960,0,"Keysound/Piano/G6S_s.wav",38
+Sample,207960,0,"Keysound/Piano/G7S_s.wav",38
+Sample,207960,0,"Keysound/Ensemble String/G6.wav",54
+Sample,208502,0,"Keysound/Piano/C7S_s.wav",38
+Sample,208502,0,"Keysound/Piano/G7S_s.wav",38
+Sample,208502,0,"Keysound/Piano/D#7S_Eb7S_s.wav",38
+Sample,208683,0,"Keysound/Piano/G6S.wav",38
+Sample,208683,0,"Keysound/Piano/G5S.wav",38
+Sample,208683,0,"Keysound/Piano/C6S.wav",38
+Sample,208683,0,"Keysound/Piano/D#6S_Eb6S.wav",38
+Sample,209586,0,"Keysound/Piano/G6S.wav",38
+Sample,209586,0,"Keysound/Piano/G5S.wav",38
+Sample,209586,0,"Keysound/Ensemble String/G6.wav",54
+Sample,210490,0,"Keysound/Piano/F6S_s.wav",38
+Sample,210490,0,"Keysound/Piano/F5S_s.wav",38
+Sample,210671,0,"Keysound/Piano/G6S_s.wav",38
+Sample,210671,0,"Keysound/Piano/G5S_s.wav",38
+Sample,210851,0,"Keysound/Piano/G#6S_Ab6S_s.wav",38
+Sample,210851,0,"Keysound/Ensemble String/G#6Long.wav",54
+Sample,210851,0,"Keysound/Piano/G#5S_Ab5S_s.wav",38
+Sample,211213,0,"Keysound/Piano/G#6S_Ab6S_s.wav",38
+Sample,211303,0,"Keysound/Piano/G6S_s.wav",38
+Sample,211393,0,"Keysound/Piano/F6S_s.wav",38
+Sample,211484,0,"Keysound/Piano/E6S_s.wav",38
+Sample,211574,0,"Keysound/Piano/F6S_s.wav",38
+Sample,211664,0,"Keysound/Piano/E6S_s.wav",38
+Sample,211755,0,"Keysound/Piano/F6S.wav",38
+Sample,212478,0,"Keysound/Piano/F6S_s.wav",38
+Sample,212658,0,"Keysound/Piano/F6S_s.wav",38
+Sample,212839,0,"Keysound/Piano/F6S_s.wav",38
+Sample,213201,0,"Keysound/Piano/G#5S_Ab5S_s.wav",38
+Sample,213201,0,"Keysound/Piano/G#6S_Ab6S_s.wav",38
+Sample,213562,0,"Keysound/Piano/G5S_s.wav",38
+Sample,213562,0,"Keysound/Piano/G6S_s.wav",38
+Sample,213743,0,"Keysound/Piano/D#6S_Eb6S_s.wav",38
+Sample,213743,0,"Keysound/Ensemble String/D#6.wav",54
+Sample,213743,0,"Keysound/Piano/D#7S_Eb7S_s.wav",38
+Sample,214104,0,"Keysound/Piano/C#6S_Db6S_s.wav",38
+Sample,214104,0,"Keysound/Piano/C#7S_Db7S_s.wav",38
+Sample,214466,0,"Keysound/Piano/A#5S_Bb5S_s.wav",38
+Sample,214466,0,"Keysound/Piano/A#6S_Bb6S_s.wav",38
+Sample,214466,0,"Keysound/Ensemble String/A#6.wav",54
+Sample,214827,0,"Keysound/Piano/G6S_s.wav",38
+Sample,214827,0,"Keysound/Piano/G5S_s.wav",38
+Sample,215189,0,"Keysound/Piano/D#6S_Eb6S_s.wav",38
+Sample,215189,0,"Keysound/Piano/D#5S_Eb5S_s.wav",38
+Sample,215731,0,"Keysound/Piano/D#6S_Eb6S_s.wav",30
+Sample,216092,0,"Keysound/Piano/C7S.wav",30
+Sample,216815,0,"Keysound/Piano/A#6S_Bb6S.wav",30
+Sample,217538,0,"Keysound/Piano/A#6S_Bb6S_s.wav",30
+Sample,217899,0,"Keysound/Piano/C7S_s.wav",30
+Sample,218080,0,"Keysound/Piano/A#6S_Bb6S_s.wav",30
+Sample,218442,0,"Keysound/Piano/F6S_s.wav",30
+Sample,218622,0,"Keysound/Piano/F6S.wav",30
+Sample,219345,0,"Keysound/Piano/D#6S_Eb6S_s.wav",30
+Sample,219526,0,"Keysound/Piano/F6S_s.wav",30
+Sample,219707,0,"Keysound/Piano/G6S_s.wav",30
+Sample,219887,0,"Keysound/Piano/F6S_s.wav",30
+Sample,220068,0,"Keysound/Piano/G6S_s.wav",30
+Sample,220249,0,"Keysound/Piano/A#6S_Bb6S_s.wav",30
+Sample,220430,0,"Keysound/Piano/D#7S_Eb7S_s.wav",30
+Sample,220791,0,"Keysound/Piano/G6S_s.wav",30
+Sample,220972,0,"Keysound/Piano/F6S_s.wav",30
+Sample,221333,0,"Keysound/Piano/D#6S_Eb6S_s.wav",30
+Sample,221514,0,"Keysound/Piano/D#6S_Eb6S.wav",30
+Sample,222237,0,"Keysound/Piano/D#6S_Eb6S_s.wav",30
+Sample,222598,0,"Keysound/Piano/F6S_s.wav",30
+Sample,222960,0,"Keysound/Piano/G6S_s.wav",30
+Sample,223140,0,"Keysound/Piano/G6S_s.wav",30
+Sample,223502,0,"Keysound/Piano/G#6S_Ab6S_s.wav",30
+Sample,223863,0,"Keysound/Piano/G6S_s.wav",30
+Sample,224225,0,"Keysound/Piano/F6S_s.wav",30
+Sample,224586,0,"Keysound/Piano/D#6S_Eb6S_s.wav",30
+Sample,224948,0,"Keysound/Piano/F6S_s.wav",30
+Sample,225309,0,"Keysound/Piano/G6S_s.wav",30
+Sample,225490,0,"Keysound/Short String/Short String_G6S_s.wav",54
+Sample,225490,0,"Keysound/Piano/G5S_s.wav",38
+Sample,225490,0,"Keysound/Piano/G6S_s.wav",38
+Sample,225490,0,"Keysound/Short String/Short String_G5S_s.wav",54
+Sample,225851,0,"Keysound/Piano/G6S_s.wav",38
+Sample,225851,0,"Keysound/Piano/G5S_s.wav",38
+Sample,225851,0,"Keysound/Short String/Short String_G6S_s.wav",54
+Sample,225851,0,"Keysound/Short String/Short String_G5S_s.wav",54
+Sample,226032,0,"Keysound/Piano/G6S_s.wav",38
+Sample,226032,0,"Keysound/Short String/Short String_G5S_s.wav",54
+Sample,226032,0,"Keysound/Short String/Short String_G6S_s.wav",54
+Sample,226032,0,"Keysound/Piano/G5S_s.wav",38
+Sample,226393,0,"Keysound/Short String/Short String_F#6S_Gb6S_s.wav",54
+Sample,226393,0,"Keysound/Short String/Short String_D6S_s.wav",54
+Sample,226393,0,"Keysound/Piano/D6S_s.wav",38
+Sample,226393,0,"Keysound/Piano/B5S_s.wav",38
+Sample,226393,0,"Keysound/Piano/F#6S_Gb6S_s.wav",38
+Sample,226393,0,"Keysound/Short String/Short String_B5S_s.wav",54
+Sample,226393,0,"Keysound/Piano/F#5S_Gb5S_s.wav",38
+Sample,226393,0,"Keysound/Short String/Short String_F#5S_Gb5S_s.wav",54
+Sample,226755,0,"Keysound/Piano/F5S.wav",38
+Sample,226755,0,"Keysound/Piano/D6S.wav",38
+Sample,226755,0,"Keysound/Short String/Short String_A#5S_Bb5S.wav",54
+Sample,226755,0,"Keysound/Piano/A#5S_Bb5S.wav",38
+Sample,226755,0,"Keysound/Short String/Short String_D6S.wav",54
+Sample,226755,0,"Keysound/Short String/Short String_F6S.wav",54
+Sample,226755,0,"Keysound/Short String/Short String_F5S.wav",54
+Sample,226755,0,"Keysound/Piano/F6S.wav",38
+Sample,227297,0,"Keysound/Short String/Short String_D#5S_Eb5S_s.wav",54
+Sample,227297,0,"Keysound/Piano/D#5S_Eb5S_s.wav",38
+Sample,227658,0,"Keysound/Piano/C7S.wav",38
+Sample,227658,0,"Keysound/Piano/C6S.wav",38
+Sample,227658,0,"Keysound/Ensemble String/C6&C7.wav",54
+Sample,228381,0,"Keysound/Short String/Short String_A#6S_Bb6S.wav",54
+Sample,228381,0,"Keysound/Short String/Short String_D#5S_Eb5S.wav",54
+Sample,228381,0,"Keysound/Piano/A#6S_Bb6S.wav",38
+Sample,228381,0,"Keysound/Short String/Short String_A#5S_Bb5S.wav",54
+Sample,228381,0,"Keysound/Piano/A#5S_Bb5S.wav",38
+Sample,228381,0,"Keysound/Piano/D#5S_Eb5S.wav",38
+Sample,229104,0,"Keysound/Piano/A#6S_Bb6S_s.wav",38
+Sample,229104,0,"Keysound/Piano/A#5S_Bb5S_s.wav",38
+Sample,229104,0,"Keysound/Short String/Short String_A#5S_Bb5S_s.wav",54
+Sample,229104,0,"Keysound/Short String/Short String_A#6S_Bb6S_s.wav",54
+Sample,229466,0,"Keysound/Short String/Short String_C7S_s.wav",54
+Sample,229466,0,"Keysound/Piano/C6S_s.wav",38
+Sample,229466,0,"Keysound/Short String/Short String_C6S_s.wav",54
+Sample,229466,0,"Keysound/Piano/C7S_s.wav",38
+Sample,229646,0,"Keysound/Short String/Short String_A#5S_Bb5S_s.wav",54
+Sample,229646,0,"Keysound/Piano/A#5S_Bb5S_s.wav",38
+Sample,229646,0,"Keysound/Piano/A#6S_Bb6S_s.wav",38
+Sample,229646,0,"Keysound/Short String/Short String_A#6S_Bb6S_s.wav",54
+Sample,230008,0,"Keysound/Short String/Short String_F6S_s.wav",54
+Sample,230008,0,"Keysound/Piano/F6S_s.wav",38
+Sample,230008,0,"Keysound/Short String/Short String_F5S_s.wav",54
+Sample,230008,0,"Keysound/Piano/F5S_s.wav",38
+Sample,230189,0,"Keysound/Piano/F6S_s.wav",38
+Sample,230189,0,"Keysound/Piano/F5S_s.wav",38
+Sample,230189,0,"Keysound/Ensemble String/Ensemble String_F5S_s.wav",54
+Sample,230189,0,"Keysound/Ensemble String/Ensemble String_F6S_s.wav",54
+Sample,230189,0,"Keysound/Ensemble String/Ensemble String_A#5S_Bb5S_s.wav",54
+Sample,230189,0,"Keysound/Piano/A#5S_Bb5S_s.wav",38
+Sample,230911,0,"Keysound/Piano/D#6S_Eb6S_s.wav",38
+Sample,230911,0,"Keysound/Short String/Short String_D#6S_Eb6S_s.wav",54
+Sample,231092,0,"Keysound/Short String/Short String_F6S_s.wav",54
+Sample,231092,0,"Keysound/Piano/F6S_s.wav",38
+Sample,231273,0,"Keysound/Piano/G6S_s.wav",38
+Sample,231273,0,"Keysound/Piano/A#5S_Bb5S_s.wav",38
+Sample,231273,0,"Keysound/Short String/Short String_G6S_s.wav",54
+Sample,231273,0,"Keysound/Short String/Short String_G5S_s.wav",54
+Sample,231273,0,"Keysound/Short String/Short String_A#5S_Bb5S_s.wav",54
+Sample,231273,0,"Keysound/Piano/G5S_s.wav",38
+Sample,231454,0,"Keysound/Short String/Short String_F6S_s.wav",54
+Sample,231454,0,"Keysound/Piano/F6S_s.wav",38
+Sample,231634,0,"Keysound/Piano/G6S_s.wav",38
+Sample,231634,0,"Keysound/Short String/Short String_G6S_s.wav",54
+Sample,231815,0,"Keysound/Short String/Short String_A#6S_Bb6S_s.wav",54
+Sample,231815,0,"Keysound/Piano/A#6S_Bb6S_s.wav",38
+Sample,231996,0,"Keysound/Piano/B6S_s.wav",38
+Sample,231996,0,"Keysound/Short String/Short String_B5S_s.wav",54
+Sample,231996,0,"Keysound/Short String/Short String_B6S_s.wav",54
+Sample,231996,0,"Keysound/Piano/B5S_s.wav",38
+Sample,232357,0,"Keysound/Short String/Short String_G6S_s.wav",54
+Sample,232357,0,"Keysound/Piano/G6S_s.wav",38
+Sample,232538,0,"Keysound/Short String/Short String_G6S.wav",54
+Sample,232538,0,"Keysound/Piano/G6S.wav",37
+Sample,232538,0,"Keysound/Piano/D#6S_Eb6S_s.wav",38
+Sample,232538,0,"Keysound/Short String/Short String_D#7S_Eb7S_s.wav",54
+Sample,232538,0,"Keysound/Short String/Short String_D#6S_Eb6S_s.wav",54
+Sample,232538,0,"Keysound/Piano/D#7S_Eb7S_s.wav",38
+Sample,232899,0,"Keysound/Piano/D7S_s.wav",38
+Sample,232899,0,"Keysound/Short String/Short String_D7S_s.wav",54
+Sample,233080,0,"Keysound/Piano/C6S_s.wav",38
+Sample,233080,0,"Keysound/Ensemble String/C6&C7.wav",54
+Sample,233080,0,"Keysound/Piano/C7S_s.wav",38
+Sample,233803,0,"Keysound/Piano/D#5S_Eb5S.wav",38
+Sample,233803,0,"Keysound/Short String/Short String_D#5S_Eb5S.wav",54
+Sample,233803,0,"Keysound/Short String/Short String_D#6S_Eb6S_s.wav",54
+Sample,233803,0,"Keysound/Piano/D#6S_Eb6S_s.wav",38
+Sample,234165,0,"Keysound/Short String/Short String_F5S_s.wav",54
+Sample,234165,0,"Keysound/Piano/F6S_s.wav",38
+Sample,234165,0,"Keysound/Piano/F5S_s.wav",38
+Sample,234165,0,"Keysound/Short String/Short String_F6S_s.wav",54
+Sample,234526,0,"Keysound/Piano/D#5S_Eb5S_s.wav",38
+Sample,234526,0,"Keysound/Short String/Short String_D#6S_Eb6S_s.wav",54
+Sample,234526,0,"Keysound/Piano/D#6S_Eb6S_s.wav",38
+Sample,234526,0,"Keysound/Short String/Short String_D#5S_Eb5S_s.wav",54
+Sample,234707,0,"Keysound/Short String/Short String_D#5S_Eb5S_s.wav",54
+Sample,234707,0,"Keysound/Short String/Short String_D#6S_Eb6S_s.wav",54
+Sample,234707,0,"Keysound/Piano/D#5S_Eb5S_s.wav",38
+Sample,234707,0,"Keysound/Piano/D#6S_Eb6S_s.wav",38
+Sample,235068,0,"Keysound/Short String/Short String_G5S_s.wav",54
+Sample,235068,0,"Keysound/Piano/G5S_s.wav",38
+Sample,235068,0,"Keysound/Piano/G6S_s.wav",38
+Sample,235068,0,"Keysound/Short String/Short String_G6S_s.wav",54
+Sample,235430,0,"Keysound/Piano/F6S_s.wav",38
+Sample,235430,0,"Keysound/Piano/F5S_s.wav",38
+Sample,235430,0,"Keysound/Short String/Short String_F5S_s.wav",54
+Sample,235430,0,"Keysound/Short String/Short String_F6S_s.wav",54
+Sample,235791,0,"Keysound/Short String/Short String_D#5S_Eb5S_s.wav",54
+Sample,235791,0,"Keysound/Short String/Short String_D#6S_Eb6S_s.wav",54
+Sample,235791,0,"Keysound/Piano/D#5S_Eb5S_s.wav",38
+Sample,235791,0,"Keysound/Piano/D#6S_Eb6S_s.wav",38
+Sample,236152,0,"Keysound/Short String/Short String_C6S_s.wav",54
+Sample,236152,0,"Keysound/Piano/C5S_s.wav",38
+Sample,236152,0,"Keysound/Piano/C6S_s.wav",38
+Sample,236152,0,"Keysound/Short String/Short String_C5S_s.wav",54
+Sample,236514,0,"Keysound/Piano/D#6S_Eb6S_s.wav",38
+Sample,236514,0,"Keysound/Piano/D#5S_Eb5S_s.wav",38
+Sample,236514,0,"Keysound/Short String/Short String_D#5S_Eb5S_s.wav",54
+Sample,236514,0,"Keysound/Short String/Short String_D#6S_Eb6S_s.wav",54
+Sample,236875,0,"Keysound/Piano/D#5S_Eb5S.wav",38
+Sample,236875,0,"Keysound/Piano/D#6S_Eb6S.wav",38
+Sample,236875,0,"Keysound/Ensemble String/D#5&D#4.wav",54
+Sample,238140,0,"Keysound/Short String/Short String_C5S_s.wav",54
+Sample,238140,0,"Keysound/Piano/C5S_s.wav",38
+Sample,238502,0,"Keysound/Short String/Short String_G6S_s.wav",54
+Sample,238502,0,"Keysound/Piano/G5S_s.wav",38
+Sample,238502,0,"Keysound/Piano/G6S_s.wav",38
+Sample,238502,0,"Keysound/Short String/Short String_G5S_s.wav",54
+Sample,238863,0,"Keysound/Short String/Short String_F5S_s.wav",54
+Sample,238863,0,"Keysound/Piano/F5S_s.wav",38
+Sample,239044,0,"Keysound/Short String/Short String_F5S_s.wav",54
+Sample,239044,0,"Keysound/Piano/F5S_s.wav",38
+Sample,239405,0,"Keysound/Piano/D#5S_Eb5S_s.wav",38
+Sample,239405,0,"Keysound/Short String/Short String_D#5S_Eb5S_s.wav",54
+Sample,239767,0,"Keysound/Short String/Short String_D#6S_Eb6S_s.wav",54
+Sample,239767,0,"Keysound/Piano/D#6S_Eb6S_s.wav",38
+Sample,239767,0,"Keysound/Piano/D#5S_Eb5S_s.wav",38
+Sample,239767,0,"Keysound/Short String/Short String_D#5S_Eb5S_s.wav",54
+Sample,241393,0,"Keysound/Ensemble String/Ensemble String_A#6S_Bb6S.wav",54
+Sample,241393,0,"Keysound/Piano/G6S_s.wav",30
+Sample,241393,0,"Keysound/Piano/A#6S_Bb6S_s.wav",30
+Sample,241393,0,"Keysound/Piano/D#6S_Eb6S_s.wav",30
+Sample,241393,0,"Keysound/Piano/A#5S_Bb5S_s.wav",30
+Sample,241755,0,"Keysound/Piano/D7S_s.wav",30
+Sample,241936,0,"Keysound/Piano/D#6S_Eb6S_s.wav",30
+Sample,241936,0,"Keysound/Piano/D#7S_Eb7S_s.wav",30
+Sample,242297,0,"Keysound/Piano/D7S_s.wav",30
+Sample,242478,0,"Keysound/Piano/D#6S_Eb6S_s.wav",30
+Sample,242478,0,"Keysound/Piano/D#7S_Eb7S_s.wav",30
+Sample,242658,0,"Keysound/Piano/F7S_s.wav",30
+Sample,242658,0,"Keysound/Piano/F6S_s.wav",30
+Sample,243020,0,"Keysound/Piano/D#6S_Eb6S_s.wav",30
+Sample,243020,0,"Keysound/Piano/D#7S_Eb7S_s.wav",30
+Sample,243381,0,"Keysound/Piano/A#6S_Bb6S.wav",30
+Sample,243381,0,"Keysound/Piano/A#5S_Bb5S.wav",30
+Sample,243924,0,"Keysound/Piano/C7S_s.wav",30
+Sample,243924,0,"Keysound/Short String/Short String_C7S_s.wav",54
+Sample,243924,0,"Keysound/Piano/C6S_s.wav",30
+Sample,244285,0,"Keysound/Piano/A#6S_Bb6S_s.wav",30
+Sample,244285,0,"Keysound/Piano/D#6S_Eb6S_s.wav",30
+Sample,244285,0,"Keysound/Piano/G6S_s.wav",30
+Sample,244285,0,"Keysound/Piano/A#5S_Bb5S_s.wav",30
+Sample,244285,0,"Keysound/Ensemble String/Ensemble String_A#6S_Bb6S.wav",54
+Sample,244646,0,"Keysound/Piano/D7S_s.wav",30
+Sample,244827,0,"Keysound/Piano/D#6S_Eb6S_s.wav",30
+Sample,244827,0,"Keysound/Piano/D#7S_Eb7S_s.wav",30
+Sample,245189,0,"Keysound/Piano/D7S_s.wav",30
+Sample,245369,0,"Keysound/Piano/D#7S_Eb7S_s.wav",30
+Sample,245369,0,"Keysound/Piano/D#6S_Eb6S_s.wav",30
+Sample,245550,0,"Keysound/Piano/F6S_s.wav",30
+Sample,245550,0,"Keysound/Piano/F7S_s.wav",30
+Sample,245912,0,"Keysound/Piano/D#6S_Eb6S_s.wav",30
+Sample,245912,0,"Keysound/Piano/D#7S_Eb7S_s.wav",30
+Sample,246273,0,"Keysound/Piano/A#5S_Bb5S.wav",30
+Sample,246273,0,"Keysound/Piano/A#6S_Bb6S.wav",30
+Sample,246815,0,"Keysound/Short String/Short String_D#6S_Eb6S_s.wav",54
+Sample,246815,0,"Keysound/Piano/D#6S_Eb6S_s.wav",30
+Sample,246905,0,"Keysound/Short String/Short String_F6S_s.wav",54
+Sample,246905,0,"Keysound/Piano/F6S_s.wav",30
+Sample,246996,0,"Keysound/Piano/G6S_s.wav",30
+Sample,246996,0,"Keysound/Short String/Short String_G6S_s.wav",54
+Sample,247086,0,"Keysound/Short String/Short String_G#6S_Ab6S_s.wav",54
+Sample,247086,0,"Keysound/Piano/G#6S_Ab6S_s.wav",30
+Sample,247177,0,"Keysound/Piano/G6S_s.wav",30
+Sample,247177,0,"Keysound/Piano/D#6S_Eb6S_s.wav",30
+Sample,247177,0,"Keysound/Piano/A#6S_Bb6S_s.wav",30
+Sample,247177,0,"Keysound/Piano/A#5S_Bb5S_s.wav",30
+Sample,247177,0,"Keysound/Ensemble String/Ensemble String_A#6S_Bb6S.wav",54
+Sample,247538,0,"Keysound/Piano/D7S_s.wav",30
+Sample,247719,0,"Keysound/Piano/D#7S_Eb7S_s.wav",30
+Sample,247719,0,"Keysound/Piano/D#6S_Eb6S_s.wav",30
+Sample,248080,0,"Keysound/Piano/D7S_s.wav",30
+Sample,248261,0,"Keysound/Piano/D#7S_Eb7S_s.wav",30
+Sample,248261,0,"Keysound/Piano/D#6S_Eb6S_s.wav",30
+Sample,248442,0,"Keysound/Piano/F7S_s.wav",30
+Sample,248442,0,"Keysound/Piano/F6S_s.wav",30
+Sample,248803,0,"Keysound/Piano/D#6S_Eb6S_s.wav",30
+Sample,248803,0,"Keysound/Piano/D#7S_Eb7S_s.wav",30
+Sample,249165,0,"Keysound/Piano/A#5S_Bb5S.wav",30
+Sample,249165,0,"Keysound/Piano/A#6S_Bb6S.wav",30
+Sample,249165,0,"Keysound/Piano/G6S.wav",30
+Sample,249165,0,"Keysound/Piano/D#6S_Eb6S.wav",30
+Sample,249707,0,"Keysound/Piano/D#7S_Eb7S_s.wav",30
+Sample,249707,0,"Keysound/Short String/Short String_D#7S_Eb7S_s.wav",54
+Sample,249887,0,"Keysound/Short String/Short String_F7S_s.wav",54
+Sample,249887,0,"Keysound/Piano/F7S_s.wav",30
+Sample,250068,0,"Keysound/Short String/Short String_G6S_s.wav",54
+Sample,250068,0,"Keysound/Piano/G7S_s.wav",30
+Sample,250068,0,"Keysound/Piano/G6S_s.wav",30
+Sample,250068,0,"Keysound/Short String/Short String_G7S_s.wav",54
+Sample,250430,0,"Keysound/Short String/Short String_G#7S_Ab7S_s.wav",54
+Sample,250430,0,"Keysound/Piano/G#7S_Ab7S_s.wav",30
+Sample,250610,0,"Keysound/Piano/G7S_s.wav",30
+Sample,250610,0,"Keysound/Piano/G6S_s.wav",30
+Sample,250610,0,"Keysound/Short String/Short String_G6S_s.wav",54
+Sample,250610,0,"Keysound/Short String/Short String_G7S_s.wav",54
+Sample,250972,0,"Keysound/Piano/D#6S_Eb6S_s.wav",30
+Sample,250972,0,"Keysound/Short String/Short String_D#7S_Eb7S_s.wav",54
+Sample,250972,0,"Keysound/Piano/D#7S_Eb7S_s.wav",30
+Sample,250972,0,"Keysound/Short String/Short String_D#6S_Eb6S_s.wav",54
+Sample,251333,0,"Keysound/Piano/A#4S_Bb4S.wav",30
+Sample,251333,0,"Keysound/Piano/A#6S_Bb6S.wav",30
+Sample,251333,0,"Keysound/Piano/A#5S_Bb5S_s.wav",30
+Sample,251333,0,"Keysound/Ensemble String/A#5&A#6.wav",54
+Sample,252237,0,"Keysound/Piano/F8S_s.wav",16
+Sample,252259,0,"Keysound/Piano/E8S_s.wav",16
+Sample,252282,0,"Keysound/Piano/D8S_s.wav",16
+Sample,252305,0,"Keysound/Piano/C8S_s.wav",16
+Sample,252327,0,"Keysound/Piano/B7S_s.wav",16
+Sample,252350,0,"Keysound/Piano/A7S_s.wav",16
+Sample,252372,0,"Keysound/Piano/G7S_s.wav",16
+Sample,252395,0,"Keysound/Piano/F#7S_Gb7S_s.wav",16
+Sample,252418,0,"Keysound/Piano/E7S_s.wav",16
+Sample,252440,0,"Keysound/Piano/D7S_s.wav",16
+Sample,252463,0,"Keysound/Piano/C7S_s.wav",16
+Sample,252485,0,"Keysound/Piano/B6S_s.wav",16
+Sample,252508,0,"Keysound/Piano/A6S_s.wav",16
+Sample,252530,0,"Keysound/Piano/G6S_s.wav",16
+Sample,252553,0,"Keysound/Piano/F#6S_Gb6S_s.wav",16
+Sample,252576,0,"Keysound/Piano/E6S_s.wav",16
+Sample,252598,0,"Keysound/Piano/D6S_s.wav",16
+Sample,252621,0,"Keysound/Piano/C6S_s.wav",16
+Sample,252643,0,"Keysound/Piano/B5S_s.wav",16
+Sample,252666,0,"Keysound/Piano/A5S_s.wav",16
+Sample,252689,0,"Keysound/Piano/G5S_s.wav",16
+Sample,252711,0,"Keysound/Piano/F#5S_Gb5S_s.wav",16
+Sample,252734,0,"Keysound/Piano/E5S_s.wav",16
+Sample,252756,0,"Keysound/Piano/D5S_s.wav",16
+Sample,252779,0,"Keysound/Piano/C5S_s.wav",16
+Sample,252802,0,"Keysound/Piano/B4S_s.wav",16
+Sample,252824,0,"Keysound/Piano/A4S_s.wav",16
+Sample,252960,0,"Keysound/Piano/D7S_s.wav",35
+Sample,253140,0,"Keysound/Piano/D#7S_Eb7S_s.wav",35
+Sample,253321,0,"Keysound/Piano/A#6S_Bb6S_s.wav",35
+Sample,253502,0,"Keysound/Piano/G6S_s.wav",35
+Sample,253863,0,"Keysound/Piano/G6S_s.wav",35
+Sample,254044,0,"Keysound/Piano/D#6S_Eb6S_s.wav",35
+Sample,254405,0,"Keysound/Piano/D7S_s.wav",35
+Sample,254767,0,"Keysound/Piano/D7S_s.wav",35
+Sample,254948,0,"Keysound/Piano/D#7S_Eb7S_s.wav",35
+Sample,255128,0,"Keysound/Piano/A#6S_Bb6S_s.wav",35
+Sample,255309,0,"Keysound/Piano/G#6S_Ab6S_s.wav",35
+Sample,255490,0,"Keysound/Piano/F6S_s.wav",35
+Sample,255671,0,"Keysound/Piano/D#7S_Eb7S_s.wav",35
+Sample,255851,0,"Keysound/Piano/D7S_s.wav",35
+Sample,256032,0,"Keysound/Piano/D#7S_Eb7S_s.wav",35
+Sample,256213,0,"Keysound/Piano/A#6S_Bb6S_s.wav",35
+Sample,256393,0,"Keysound/Piano/F6S_s.wav",35
+Sample,256755,0,"Keysound/Piano/C7S_s.wav",35
+Sample,256936,0,"Keysound/Piano/D7S_s.wav",35
+Sample,257116,0,"Keysound/Piano/D#7S_Eb7S.wav",35
+
+[TimingPoints]
+-52,361.44578313253,4,2,1,85,1,0
+12960,-125,4,2,1,85,0,0
+13321,-125,4,2,1,65,0,0
+21634,-125,4,2,1,85,0,0
+21815,-125,4,2,1,35,0,0
+21996,-125,4,2,1,45,0,0
+22357,-125,4,2,1,65,0,0
+22719,-125,4,2,1,75,0,0
+23080,-125,4,2,1,85,0,0
+23622,-100,4,2,1,85,0,0
+24526,-111.111111111111,4,2,1,85,0,0
+27417,-100,4,2,1,85,0,0
+36092,-125,4,2,1,85,0,0
+40610,-100,4,2,1,85,0,0
+42056,-125,4,2,1,85,0,0
+53441,-100,4,2,22,85,0,0
+53621,-100,4,2,1,85,0,0
+56333,-100,4,2,22,85,0,0
+56514,-100,4,2,1,85,0,0
+60490,-100,4,2,1,15,0,0
+60670,-100,4,2,11,85,0,1
+60851,-100,4,2,1,85,0,1
+61032,-83.3333333333333,4,2,1,85,0,1
+61393,-100,4,2,1,85,0,1
+67086,-100,4,2,1,70,0,1
+67176,-100,4,2,1,85,0,1
+67809,-100,4,2,1,70,0,1
+67899,-100,4,2,1,85,0,1
+69707,-100,4,2,99,85,0,1
+69887,-100,4,2,1,85,0,1
+70068,-100,4,2,99,85,0,1
+70249,-100,4,2,1,85,0,1
+70429,-100,4,2,99,85,0,1
+70610,-100,4,2,1,85,0,1
+72237,-100,4,2,11,85,0,1
+72417,-100,4,2,1,85,0,1
+72598,-83.3333333333333,4,2,1,85,0,1
+72960,-100,4,2,1,85,0,1
+78201,-111.111111111111,4,2,1,85,0,1
+81454,-100,4,2,1,85,0,1
+83803,-100,4,2,1,85,0,0
+96092,-117.647058823529,4,2,1,85,0,0
+106032,-100,4,2,1,85,0,0
+118502,-125,4,2,1,85,0,0
+123020,-100,4,2,1,85,0,0
+124466,-125,4,2,1,85,0,0
+138743,-125,4,2,22,85,0,0
+138923,-125,4,2,1,85,0,0
+140550,-100,4,2,1,85,0,0
+142899,-100,4,2,1,15,0,0
+143080,-100,4,2,11,85,0,1
+143261,-100,4,2,1,85,0,1
+143441,-83.3333333333333,4,2,1,85,0,1
+143803,-100,4,2,1,85,0,1
+149496,-100,4,2,1,70,0,1
+149586,-100,4,2,1,85,0,1
+150219,-100,4,2,1,70,0,1
+150309,-100,4,2,1,85,0,1
+152116,-100,4,2,99,85,0,1
+152297,-100,4,2,1,85,0,1
+152478,-100,4,2,99,85,0,1
+152658,-100,4,2,1,85,0,1
+152838,-100,4,2,99,85,0,1
+153020,-100,4,2,1,85,0,1
+154646,-100,4,2,11,85,0,1
+154827,-100,4,2,1,85,0,1
+155008,-83.3333333333333,4,2,1,85,0,1
+155369,-100,4,2,1,85,0,1
+159345,-100,4,2,3,85,0,1
+159526,-100,4,2,1,85,0,1
+160610,-111.111111111111,4,2,1,85,0,1
+163863,-99.9999999999999,4,2,1,85,0,1
+166213,-99.9999999999999,4,2,11,85,0,0
+166393,-111.111111111111,4,2,1,85,0,0
+177779,-125,4,2,1,85,0,0
+189345,-125,4,2,1,45,0,0
+189526,-111.111111111111,4,2,1,45,0,0
+189707,-99.9999999999999,4,2,1,55,0,0
+189887,-90.9090909090909,4,2,1,55,0,0
+190068,-90.9090909090909,4,2,1,65,0,0
+190429,-90.9090909090909,4,2,1,75,0,0
+190791,-90.9090909090909,4,2,1,85,0,0
+192056,-100,4,2,11,85,0,0
+192146,-100,4,2,1,85,0,0
+203984,-100,4,2,3,85,0,0
+206694,-100,4,2,1,85,0,0
+206875,-100,4,2,3,85,0,0
+209586,-100,4,2,1,85,0,0
+209767,-100,4,2,3,85,0,0
+212478,-100,4,2,1,85,0,0
+222598,-166.666666666667,4,2,1,55,0,0
+224044,-166.666666666667,4,2,3,55,0,0
+225490,-100,4,2,1,85,0,0
+225851,-100,4,2,3,85,0,0
+226393,-100,4,2,1,85,0,0
+228201,-166.666666666667,4,2,1,85,0,0
+228743,-83.3333333333333,4,2,11,85,0,1
+228833,-83.3333333333333,4,2,1,85,0,1
+229104,-100,4,2,1,85,0,1
+233080,-100,4,2,3,85,0,1
+233261,-100,4,2,1,85,0,1
+234164,-100,4,2,1,40,0,1
+234526,-100,4,2,1,45,0,1
+234887,-100,4,2,1,55,0,1
+235249,-100,4,2,1,60,0,1
+235610,-100,4,2,1,55,0,1
+235701,-100,4,2,1,60,0,1
+235791,-100,4,2,1,65,0,1
+235972,-100,4,2,1,70,0,1
+236333,-100,4,2,1,75,0,1
+236694,-100,4,2,1,80,0,1
+237055,-100,4,2,1,85,0,1
+238502,-100,4,2,3,85,0,1
+238863,-100,4,2,1,85,0,1
+241393,-100,4,2,1,85,0,0
+257116,-100,4,2,1,45,0,0
+
+
+[Colours]
+Combo1 : 214,176,234
+Combo2 : 160,193,233
+Combo3 : 191,151,240
+Combo4 : 174,181,238
+
+[HitObjects]
+80,266,128,5,8,2:3:0:0:
+109,55,309,1,8,2:1:0:0:
+84,174,580,5,8,2:1:0:0:
+100,154,670,1,8,2:1:0:0:
+80,266,851,5,0,1:0:0:0:
+109,55,1032,1,8,2:0:0:0:
+103,31,1122,1,8,2:0:0:0:
+97,8,1212,1,0,1:0:0:0:
+197,129,1393,6,0,L|217:303,1,142.5,4|0,1:0|2:0,2:0:0:0:
+203,304,1755,1,8,2:0:0:0:
+343,363,1935,2,0,P|348:310|356:256,1,95,2|0,2:1|1:0,2:0:0:0:
+380,245,2207,1,8,2:0:0:0:
+380,245,2297,1,2,2:1:0:0:
+259,374,2478,1,8,2:0:0:0:
+208,223,2658,6,0,P|203:176|197:129,1,95,2|0,2:1|1:0,2:0:0:0:
+321,40,3020,2,0,P|314:87|309:134,1,95,2|8,2:1|2:0,2:0:0:0:
+224,35,3381,1,2,2:1:0:0:
+109,148,3562,1,0,1:0:0:0:
+109,148,3652,1,8,2:0:0:0:
+109,148,3743,1,2,2:1:0:0:
+297,222,3923,6,0,P|361:209|394:131,1,142.5,8|0,2:0|2:0,2:0:0:0:
+387,286,4285,6,0,P|398:337|406:381,1,95,4|2,1:0|2:1,2:0:0:0:
+206,336,4646,1,8,2:0:0:0:
+247,144,4827,1,2,2:1:0:0:
+307,340,5008,1,0,1:0:0:0:
+307,340,5098,1,8,2:0:0:0:
+307,340,5188,1,2,2:1:0:0:
+330,109,5369,1,8,2:0:0:0:
+127,193,5550,6,0,P|70:175|28:153,1,95,2|0,2:1|1:0,2:0:0:0:
+223,42,5911,2,0,L|217:160,1,95,2|8,2:1|2:0,2:0:0:0:
+369,267,6273,1,2,2:1:0:0:
+415,75,6454,1,0,1:0:0:0:
+415,75,6544,1,8,2:0:0:0:
+415,75,6634,1,2,2:1:0:0:
+272,224,6815,2,0,P|281:286|285:303,1,47.5,8|0,2:0|2:0,2:0:0:0:
+435,208,6996,2,0,P|438:184|441:160,1,47.5,2|0,2:1|2:0,2:0:0:0:
+312,352,7176,6,0,P|276:314|158:299,1,142.5,4|0,1:0|2:0,2:0:0:0:
+163,315,7538,1,8,2:0:0:0:
+36,179,7719,2,0,P|50:250|54:281,1,95,2|0,2:1|1:0,2:0:0:0:
+41,306,7990,1,8,2:0:0:0:
+41,306,8080,1,2,2:1:0:0:
+182,204,8261,1,8,2:0:0:0:
+40,85,8441,6,0,P|91:98|172:109,1,95,2|0,2:1|1:0,2:0:0:0:
+310,169,8803,2,0,P|263:177|217:189,1,95,2|8,2:1|2:0,2:0:0:0:
+306,43,9164,1,2,2:1:0:0:
+414,182,9345,1,0,1:0:0:0:
+414,182,9435,1,8,2:0:0:0:
+414,182,9526,1,2,2:1:0:0:
+227,96,9707,5,8,2:0:0:0:
+498,171,9887,1,2,2:1:0:0:
+205,279,10068,5,8,2:0:0:0:
+371,107,10249,1,0,1:0:0:0:
+495,344,10429,2,0,P|448:352|414:358,1,47.5,8|0,2:0|2:0,2:0:0:0:
+217,189,10610,5,4,1:0:0:0:
+496,49,10972,5,6,1:3:0:0:
+495,344,11333,5,4,1:0:0:0:
+495,344,11694,5,8,2:1:0:0:
+355,266,11875,1,8,2:0:0:0:
+246,341,12056,1,8,2:0:0:0:
+251,355,12146,1,8,2:1:0:0:
+251,355,12417,5,8,2:0:0:0:
+348,178,12598,1,8,2:0:0:0:
+239,16,12779,1,8,2:0:0:0:
+226,28,12869,1,8,2:0:0:0:
+225,49,12960,6,0,P|283:44|329:39,1,76,4|2,1:0|2:0,2:0:0:0:
+435,160,13321,2,0,P|397:156|359:153,1,76,2|2,1:2|2:0,2:0:0:0:
+253,142,13682,2,0,P|315:169|332:254,1,152,2|2,1:2|1:2,2:0:0:0:
+284,317,14225,1,2,2:0:0:0:
+200,211,14405,6,0,P|139:205|21:199,1,152,2|2,1:2|1:2,2:0:0:0:
+48,199,15128,2,0,P|57:256|64:299,1,76,2|2,1:2|2:0,2:0:0:0:
+135,123,15490,2,0,P|141:85|146:47,1,76,2|2,1:2|2:0,2:0:0:0:
+211,214,15851,6,0,P|252:238|363:211,1,152,2|2,1:2|1:2,2:0:0:0:
+386,139,16393,2,0,P|379:101|374:63,1,76,2|2,2:0|1:2,2:0:0:0:
+468,178,16755,2,0,P|462:215|456:253,1,76,2|2,2:0|1:2,2:0:0:0:
+435,342,17116,1,2,2:0:0:0:
+281,282,17297,6,0,B|188:265|231:325|114:300,2,152,2|2|2,1:2|1:2|1:2,2:0:0:0:
+422,347,18201,1,2,2:1:0:0:
+391,196,18381,1,2,1:2:0:0:
+407,339,18562,1,2,2:1:0:0:
+308,202,18743,6,0,P|312:156|315:109,1,76,4|2,1:0|2:0,2:0:0:0:
+194,12,19104,2,0,P|196:49|200:87,1,76,2|2,1:2|2:0,2:0:0:0:
+219,177,19466,2,0,P|191:126|75:118,1,152,2|2,1:2|1:2,2:0:0:0:
+52,173,20008,1,2,2:0:0:0:
+158,277,20188,6,0,P|235:262|312:249,1,152,2|2,1:2|1:2,2:0:0:0:
+307,249,20911,2,0,P|302:292|296:339,1,76,2|2,1:2|2:1,2:0:0:0:
+453,269,21273,2,0,P|448:231|443:193,1,76,2|2,1:2|2:0,2:0:0:0:
+425,47,21634,5,0,1:0:0:0:
+278,123,21815,2,0,L|327:121,1,38,8|8,2:1|2:1,2:0:0:0:
+432,119,21996,2,0,L|383:121,1,38,8|8,1:0|2:1,2:0:0:0:
+266,202,22176,2,0,L|306:199,1,38,8|8,2:1|2:1,2:0:0:0:
+443,193,22357,2,0,L|401:197,1,38,8|8,1:2|2:0,2:0:0:0:
+256,279,22538,2,0,L|296:276,1,38,8|8,2:0|2:0,2:0:0:0:
+453,268,22719,2,0,L|411:272,1,38,8|8,2:0|2:0,2:0:0:0:
+247,357,22899,2,0,L|287:354,1,38,8|8,2:0|2:0,2:0:0:0:
+464,342,23080,5,4,1:0:0:0:
+397,304,23261,1,0,2:0:0:0:
+366,375,23441,1,0,2:0:0:0:
+237,149,23622,6,0,P|250:210|259:258,1,95,8|0,2:1|1:0,2:0:0:0:
+249,273,23893,1,8,2:1:0:0:
+249,273,23984,1,0,1:0:0:0:
+324,58,24164,1,8,2:0:0:0:
+101,112,24345,1,8,2:0:0:0:
+101,112,24435,1,8,2:0:0:0:
+101,112,24526,6,0,P|87:198|85:217,1,85.4999973907472,4|0,1:0|2:0,2:0:0:0:
+182,78,24887,1,0,1:0:0:0:
+9,233,25068,1,8,2:0:0:0:
+99,208,25249,2,0,P|170:203|274:194,1,170.999994781494,0|8,2:0|2:0,2:0:0:0:
+340,243,25791,1,0,2:0:0:0:
+453,144,25972,6,0,P|463:98|474:52,1,85.4999973907472,0|0,1:0|1:0,2:0:0:0:
+412,0,26333,1,0,2:0:0:0:
+504,215,26514,1,8,2:0:0:0:
+440,156,26694,2,0,P|403:137|322:140,1,85.4999973907472,0|0,2:0|1:0,2:0:0:0:
+267,276,27056,1,8,2:0:0:0:
+293,86,27237,1,0,1:0:0:0:
+482,341,27417,6,0,B|453:321|453:321|340:337,1,142.5,4|0,1:0|2:0,2:0:0:0:
+270,343,27779,2,0,L|280:283,1,47.5,8|0,2:0|2:0,2:0:0:0:
+390,212,27960,2,0,B|361:232|361:232|248:216,1,142.5,2|0,1:3|2:0,2:0:0:0:
+203,159,28321,2,0,B|242:135|242:135|298:147,1,95,2|8,1:3|2:0,2:0:0:0:
+87,345,28682,6,0,P|94:267|101:183,1,142.5,4|0,1:0|2:0,2:0:0:0:
+86,168,29044,1,0,1:0:0:0:
+205,361,29225,2,0,P|253:345|306:334,1,95,8|0,2:0|2:0,2:0:0:0:
+430,240,29586,2,0,P|383:229|338:214,1,95,0|0,1:0|1:0,2:0:0:0:
+251,113,29947,1,8,2:0:0:0:
+374,307,30128,1,8,2:0:0:0:
+479,95,30309,6,0,P|492:38|506:-22,1,95,4|0,1:0|2:0,2:0:0:0:
+339,188,30670,1,8,2:0:0:0:
+278,24,30851,1,0,2:0:0:0:
+154,210,31032,2,0,P|164:256|175:302,1,95,0|0,1:0|1:0,2:0:0:0:
+306,108,31393,1,8,2:0:0:0:
+479,302,31574,6,0,B|447:270|447:270|324:299,1,142.5,4|0,1:0|2:0,2:0:0:0:
+322,315,31935,2,0,L|330:260,1,47.5,0|0,1:0|2:0,2:0:0:0:
+339,188,32116,1,8,2:0:0:0:
+186,0,32297,2,0,B|151:28|151:28|177:129,1,142.5,2|0,1:3|2:0,2:0:0:0:
+228,182,32658,2,0,B|263:154|263:154|237:53,1,142.5,2|0,1:3|2:0,2:0:0:0:
+186,0,33020,1,0,1:0:0:0:
+153,199,33201,5,12,1:0:0:0:
+418,151,33381,1,8,2:3:0:0:
+418,151,33472,1,8,2:3:0:0:
+418,151,33562,1,8,2:0:0:0:
+332,340,33743,2,0,B|283:329|283:329|256:340|256:340|161:312,1,142.5,2|0,1:3|2:0,2:0:0:0:
+164,323,34104,2,0,L|156:251,1,47.5,2|0,1:3|2:0,2:0:0:0:
+153,199,34285,1,8,2:0:0:0:
+351,370,34466,6,0,L|369:206,1,142.5,4|0,1:0|2:0,2:0:0:0:
+350,199,34827,2,0,L|341:138,1,47.5,0|8,1:0|2:1,2:0:0:0:
+325,23,35008,5,0,2:0:0:0:
+142,199,35188,5,8,2:0:0:0:
+157,298,35460,5,8,2:1:0:0:
+166,309,35550,1,8,2:1:0:0:
+237,158,35731,1,8,2:0:0:0:
+135,46,35911,1,8,2:0:0:0:
+114,33,36002,1,8,2:0:0:0:
+88,33,36092,6,0,P|96:81|102:130,1,76,4|0,1:0|2:0,2:0:0:0:
+224,149,36454,2,0,P|216:197|210:246,1,76,0|8,1:0|2:3,2:0:0:0:
+16,153,36815,2,0,P|29:236|40:321,1,152,0|4,1:0|1:3,2:0:0:0:
+211,249,37357,6,0,P|265:236|307:231,1,76,0|0,2:0|1:0,2:0:0:0:
+294,345,37719,2,0,P|348:358|390:363,1,76,8|4,2:3|1:3,2:0:0:0:
+411,266,38080,2,0,P|396:222|388:184,1,76,8|0,2:3|1:0,2:0:0:0:
+512,297,38441,2,0,P|503:333|490:369,1,76,4|8,1:3|1:3,2:0:0:0:
+496,174,38803,2,0,L|503:143,2,25.3333333333333,0|0|0,3:0|3:0|3:0,3:0:0:0:
+510,125,38984,6,0,P|464:115|425:109,1,76,4|0,1:0|2:0,2:0:0:0:
+376,12,39345,2,0,P|330:22|291:28,1,76,0|8,1:0|2:3,2:0:0:0:
+369,201,39707,2,0,P|273:180|192:167,1,152,0|4,1:0|1:3,2:0:0:0:
+81,79,40249,6,0,P|92:127|99:174,1,76,0|0,2:0|1:0,2:0:0:0:
+195,367,40610,2,0,B|170:325|170:325|188:262,1,95,8|0,2:0|1:0,2:0:0:0:
+241,83,40972,5,8,2:3:0:0:
+395,43,41152,1,0,1:0:0:0:
+498,159,41333,5,8,2:3:0:0:
+335,118,41514,1,8,2:3:0:0:
+335,118,41875,5,4,1:0:0:0:
+459,245,42056,2,0,P|415:248|329:265,1,114,0|0,2:0|2:0,2:0:0:0:
+332,294,42417,1,8,2:1:0:0:
+242,180,42598,2,0,B|251:98,1,76,0|0,1:0|2:0,2:0:0:0:
+79,212,42960,2,0,P|88:271|99:348,1,114,4|0,1:3|2:0,2:0:0:0:
+82,354,43321,5,0,1:0:0:0:
+154,159,43502,2,0,B|145:77,1,76,4|0,2:3|1:0,2:0:0:0:
+297,241,43863,1,8,2:3:0:0:
+336,78,44044,5,0,1:0:0:0:
+232,189,44225,1,4,2:3:0:0:
+285,334,44405,1,4,1:3:0:0:
+307,253,44586,6,0,L|313:215,2,25.3333333333333,0|0|0,3:0|3:0|3:0,3:0:0:0:
+315,203,44767,5,4,1:0:0:0:
+201,324,44947,2,0,P|152:328|105:334,1,76,0|0,2:0|1:0,2:0:0:0:
+320,173,45309,1,8,2:3:0:0:
+167,239,45490,5,0,1:0:0:0:
+285,334,45670,1,4,2:3:0:0:
+428,288,45851,1,4,1:3:0:0:
+428,288,46213,5,0,1:0:0:0:
+365,97,46454,5,8,2:3:0:0:
+183,76,46694,5,4,2:3:0:0:
+367,115,46935,5,0,1:0:0:0:
+168,60,47176,5,4,2:3:0:0:
+29,215,47417,5,4,1:3:0:0:
+153,364,47658,6,0,P|203:353|240:341,1,76,4|0,1:0|1:0,2:0:0:0:
+274,200,48020,2,0,P|324:211|361:223,1,76,0|0,2:0|1:0,2:0:0:0:
+512,344,48381,2,0,B|454:342|454:342|430:358|430:358|345:352,1,152,8|0,1:0|1:0,2:0:0:0:
+468,203,48923,6,0,B|494:172|494:172|462:46,1,152,4|4,1:0|2:3,2:0:0:0:
+291,20,49466,1,4,2:3:0:0:
+346,193,49646,2,0,P|353:149|364:95,1,76,2|0,1:3|2:0,2:0:0:0:
+195,24,50008,1,10,1:3:0:0:
+384,26,50188,1,0,1:0:0:0:
+247,170,50369,1,4,2:3:0:0:
+247,170,50460,1,0,2:0:0:0:
+247,170,50550,6,0,P|212:165|145:137,1,76,4|0,1:0|1:0,2:0:0:0:
+166,330,50911,2,0,P|131:335|64:363,1,76,0|0,2:0|1:0,2:0:0:0:
+96,228,51182,1,0,1:0:0:0:
+115,228,51273,2,0,B|175:235|175:235|198:256|198:256|274:262,1,152,8|0,2:0|1:0,2:0:0:0:
+423,347,51815,6,0,B|386:334|386:334|411:197,1,152,4|8,1:0|2:3,2:0:0:0:
+457,43,52357,1,0,1:0:0:0:
+316,159,52538,6,0,L|326:227,1,38,2|0,1:3|2:0,2:0:0:0:
+484,64,52899,2,0,L|474:132,1,38,2|0,1:3|2:0,2:0:0:0:
+348,30,53080,6,0,L|315:33,6,19,0|0|0|0|0|0|0,2:0|2:0|2:0|2:0|2:0|2:0|2:0,2:0:0:0:
+317,55,53441,6,0,P|257:43|222:37,1,95,12|0,2:0|1:0,2:0:0:0:
+56,205,53803,2,0,P|102:196|149:187,1,95,8|0,2:0|1:0,2:0:0:0:
+265,158,54164,2,0,P|246:217|230:284,1,95,8|0,2:0|1:0,2:0:0:0:
+142,90,54526,2,0,P|129:44|114:0,1,95,8|0,2:0|1:0,2:0:0:0:
+377,146,54887,6,0,P|435:132|482:117,1,95,8|0,2:0|1:0,2:0:0:0:
+498,333,55249,2,0,P|452:319|406:308,1,95,8|0,2:0|1:0,2:0:0:0:
+265,158,55610,2,0,P|274:220|284:274,1,95,8|0,2:0|1:0,2:0:0:0:
+135,356,55972,2,0,P|143:309|149:262,1,95,8|0,2:0|1:0,2:0:0:0:
+110,56,56333,5,12,2:0:0:0:
+279,138,56514,1,0,1:0:0:0:
+93,187,56694,2,0,P|42:199|-2:208,1,95,8|0,2:0|1:0,2:0:0:0:
+211,57,57056,1,8,2:0:0:0:
+248,239,57237,1,0,1:0:0:0:
+25,101,57417,2,0,P|32:49|36:0,1,95,8|0,2:0|1:0,2:0:0:0:
+305,145,57779,5,8,2:0:0:0:
+120,270,57960,1,8,2:1:0:0:
+304,54,58140,2,0,P|314:27|317:17,3,31.6666666666667,8|0|0|0,2:3|1:0|1:0|1:0,2:0:0:0:
+409,337,58502,6,0,P|374:300|295:298,1,95,8|0,2:1|1:0,2:0:0:0:
+170,330,58773,6,0,P|219:318|260:250,1,95,8|0,2:1|1:0,2:0:0:0:
+300,165,59044,6,0,P|290:201|298:249,1,47.5,8|0,2:1|1:0,2:0:0:0:
+416,214,59179,6,0,P|415:191|410:176,2,23.75,0|2|0,2:0|2:0|2:0,2:0:0:0:
+256,192,59315,12,0,60490,2:0:0:0:
+103,265,60670,6,0,P|44:285|33:381,1,142.5,6|0,1:0|2:0,2:0:0:0:
+45,374,61032,6,0,L|61:240,1,113.999996520996,8|0,2:0|1:0,2:0:0:0:
+201,190,61393,2,0,P|193:141|185:56,1,95,0|0,1:0|1:0,2:0:0:0:
+67,62,61755,1,8,2:0:0:0:
+195,282,61935,6,0,P|272:266|307:262,1,95,0|0,1:0|1:0,2:0:0:0:
+460,328,62297,1,0,1:0:0:0:
+424,134,62478,2,0,P|403:187|403:258,1,95,8|0,2:0|1:0,2:0:0:0:
+312,354,62839,2,0,P|305:307|287:263,1,95,0|0,1:0|1:0,2:0:0:0:
+89,153,63201,1,8,2:0:0:0:
+163,260,63381,1,0,1:0:0:0:
+123,50,63562,5,0,1:0:0:0:
+65,253,63743,1,0,1:0:0:0:
+224,146,63923,1,8,2:0:0:0:
+18,75,64104,1,0,1:0:0:0:
+179,273,64285,2,0,P|253:259|311:246,1,95,0|0,1:0|1:0,2:0:0:0:
+457,308,64646,1,8,2:0:0:0:
+364,130,64827,6,0,P|374:190|384:239,1,95,0|0,1:0|1:0,2:0:0:0:
+281,358,65188,1,0,1:0:0:0:
+462,289,65369,1,8,2:0:0:0:
+234,142,65550,2,0,B|121:137|193:204|43:197,1,190,0|0,1:0|1:0,2:0:0:0:
+287,52,66092,1,8,2:0:0:0:
+287,52,66182,1,8,2:1:0:0:
+287,52,66273,1,0,1:0:0:0:
+225,237,66454,5,4,1:0:0:0:
+179,53,66634,1,0,1:0:0:0:
+360,106,66815,1,8,2:0:0:0:
+160,165,66996,2,0,P|124:151|88:142,2,47.5,0|8|0,1:0|2:1|1:0,2:0:0:0:
+299,289,67357,1,0,1:0:0:0:
+239,125,67538,1,8,2:0:0:0:
+112,276,67719,2,0,P|134:268|156:259,2,47.5,0|8|0,1:0|2:1|1:0,2:0:0:0:
+255,140,68080,5,0,1:0:0:0:
+214,343,68261,1,8,2:0:0:0:
+50,206,68441,1,0,1:0:0:0:
+268,157,68622,1,0,1:0:0:0:
+119,376,68803,2,0,P|59:348|8:340,1,95,0|8,1:0|2:0,2:0:0:0:
+150,148,69164,1,2,1:2:0:0:
+349,344,69345,5,2,1:0:0:0:
+112,276,69526,1,2,1:2:0:0:
+363,251,69707,5,10,2:1:0:0:
+119,376,69887,1,2,1:2:0:0:
+440,308,70068,5,10,2:1:0:0:
+110,176,70249,2,0,P|56:166|-2:152,1,95,2|10,1:2|2:1,2:0:0:0:
+379,20,70610,6,0,P|364:94|349:207,1,190,4|0,1:0|1:0,2:0:0:0:
+381,234,71062,1,0,1:0:0:0:
+381,234,71152,1,8,2:0:0:0:
+302,0,71333,1,8,2:0:0:0:
+291,272,71514,5,0,1:0:0:0:
+457,4,71694,1,4,1:3:0:0:
+214,202,71875,2,0,P|274:190|297:187,1,47.5,8|8,2:0|2:1,2:0:0:0:
+489,148,72056,1,0,1:0:0:0:
+180,68,72237,6,0,P|120:57|35:44,1,142.5,4|0,1:0|2:0,2:0:0:0:
+6,9,72598,6,0,L|33:153,1,113.999996520996,8|0,2:0|1:0,2:0:0:0:
+214,202,72960,2,0,L|192:318,1,95,0|0,1:0|1:0,2:0:0:0:
+79,322,73321,1,8,2:0:0:0:
+132,87,73502,6,0,P|187:103|257:112,1,95,0|0,1:0|1:0,2:0:0:0:
+429,43,73863,1,0,1:0:0:0:
+361,218,74044,2,0,L|343:124,1,95,8|0,2:0|1:0,2:0:0:0:
+243,17,74405,2,0,L|225:110,1,95,0|0,1:0|1:0,2:0:0:0:
+196,295,74767,1,8,2:0:0:0:
+134,89,74947,1,0,1:0:0:0:
+287,275,75128,5,0,1:0:0:0:
+113,182,75309,2,0,P|159:171|186:165,1,47.5,0|0,1:0|2:0,2:0:0:0:
+343,124,75490,1,8,2:1:0:0:
+196,295,75670,1,8,2:3:0:0:
+121,92,75851,2,0,P|126:45|144:-15,1,95,8|0,2:0|1:0,2:0:0:0:
+228,215,76213,1,4,1:3:0:0:
+305,0,76393,6,0,B|388:8|339:54|465:54,1,142.5,4|0,1:0|2:0,2:0:0:0:
+511,96,76755,2,0,P|519:52|523:28,1,47.5,8|0,2:0|2:0,2:0:0:0:
+328,219,76935,2,0,P|347:291|366:376,1,142.5,4|0,1:0|2:0,2:0:0:0:
+282,372,77297,1,8,2:0:0:0:
+394,166,77478,2,0,P|439:182|472:187,1,47.5,0|0,1:0|1:0,2:0:0:0:
+266,355,77658,1,8,2:0:0:0:
+243,361,77748,1,8,2:0:0:0:
+221,370,77838,1,0,1:0:0:0:
+110,169,78020,5,4,1:0:0:0:
+47,267,78201,2,0,P|110:250|163:240,1,85.4999973907472,0|0,1:0|3:0,2:0:0:0:
+247,270,78562,2,0,P|255:225|259:205,1,42.7499986953736,0|0,1:0|1:0,2:0:0:0:
+293,29,78743,1,8,2:0:0:0:
+236,89,78923,2,0,P|276:108|373:45,1,170.999994781494,0|0,2:0|2:0,2:0:0:0:
+504,194,79466,6,0,P|475:168|373:182,2,128.249996086121,0|0|0,1:0|1:0|1:0,2:0:0:0:
+491,375,80188,1,8,2:0:0:0:
+395,251,80369,2,0,P|398:279|405:325,1,42.7499986953736,0|0,1:0|1:0,2:0:0:0:
+408,370,80550,1,8,2:0:0:0:
+313,156,80731,2,0,P|310:184|303:230,1,42.7499986953736,0|0,1:0|1:0,2:0:0:0:
+285,328,80911,5,4,1:0:0:0:
+235,140,81092,1,0,1:0:0:0:
+207,374,81273,5,8,2:0:0:0:
+290,76,81454,2,0,P|294:33|296:0,1,71.25,0|8,1:0|2:1,2:0:0:0:
+275,2,81634,2,0,L|208:13,1,47.5,8|8,2:0|2:0,2:0:0:0:
+111,33,81815,1,0,1:0:0:0:
+369,91,81996,2,0,P|411:103|422:107,1,47.5,8|8,2:0|2:1,2:0:0:0:
+148,161,82176,2,0,P|125:168|102:174,1,47.5,0|0,1:0|2:0,2:0:0:0:
+366,276,82357,5,12,2:1:0:0:
+366,276,82447,1,0,2:0:0:0:
+366,276,82538,1,0,1:0:0:0:
+187,235,82719,1,0,1:0:0:0:
+264,353,82899,2,0,L|282:187,1,142.5,2|0,1:3|2:0,2:0:0:0:
+187,235,83261,2,0,L|169:401,1,142.5,2|0,1:3|2:0,2:0:0:0:
+360,323,83622,2,0,L|369:240,1,47.5,0|0,1:0|2:0,2:0:0:0:
+392,102,83803,6,0,P|333:119|252:125,1,142.5,4|0,1:0|2:0,2:0:0:0:
+228,98,84164,1,8,2:0:0:0:
+88,180,84345,2,0,P|89:140|117:86,1,95,2|0,2:1|1:0,2:0:0:0:
+148,72,84616,1,8,2:0:0:0:
+148,72,84707,1,2,2:1:0:0:
+191,203,84887,1,8,2:0:0:0:
+88,304,85068,6,0,P|38:287|-10:277,1,95,2|0,2:1|1:0,2:0:0:0:
+194,373,85429,2,0,P|240:362|285:347,1,95,2|8,2:1|2:0,2:0:0:0:
+399,191,85791,2,0,P|376:235|367:293,1,95,2|0,2:1|1:0,2:0:0:0:
+387,317,86062,1,8,2:0:0:0:
+387,317,86152,1,2,2:1:0:0:
+458,118,86333,2,0,P|404:145|298:137,1,142.5,8|0,2:0|2:0,2:0:0:0:
+230,23,86694,6,0,P|238:80|245:134,1,95,4|2,1:0|2:1,2:0:0:0:
+176,259,87056,1,8,2:0:0:0:
+32,161,87237,2,0,P|97:150|143:142,1,95,2|0,2:1|1:0,2:0:0:0:
+161,167,87508,1,8,2:0:0:0:
+161,167,87598,1,2,2:1:0:0:
+86,290,87779,1,8,2:0:0:0:
+257,312,87960,6,0,P|322:323|368:331,1,95,2|0,2:1|1:0,2:0:0:0:
+474,199,88321,2,0,P|427:207|380:214,1,95,2|8,2:1|2:0,2:0:0:0:
+290,49,88682,2,0,P|265:102|280:161,1,95,2|0,2:1|1:0,2:0:0:0:
+289,174,88954,1,8,2:0:0:0:
+289,174,89044,1,2,2:1:0:0:
+382,33,89225,2,0,P|406:37|429:43,1,47.5,8|0,2:0|2:0,2:0:0:0:
+188,73,89405,2,0,P|165:78|141:82,1,47.5,2|0,2:1|2:0,2:0:0:0:
+380,214,89586,6,0,P|367:277|359:370,1,142.5,4|0,1:0|2:0,2:0:0:0:
+385,379,89947,1,8,2:0:0:0:
+236,255,90128,2,0,P|192:264|150:313,1,95,2|0,2:1|1:0,2:0:0:0:
+159,343,90399,1,8,2:0:0:0:
+159,343,90490,1,2,2:1:0:0:
+302,192,90670,1,8,2:0:0:0:
+98,137,90851,6,0,P|54:145|-10:172,1,95,2|0,2:1|1:0,2:0:0:0:
+188,73,91213,2,0,P|232:90|278:98,1,95,2|8,2:1|2:0,2:0:0:0:
+440,19,91574,2,0,P|405:47|386:125,1,95,2|0,2:1|1:0,2:0:0:0:
+384,134,91845,1,8,2:0:0:0:
+384,134,91935,1,2,2:1:0:0:
+471,309,92116,1,8,2:0:0:0:
+476,103,92297,1,2,2:1:0:0:
+226,229,92478,5,8,2:0:0:0:
+471,309,92658,1,0,1:0:0:0:
+278,98,92839,2,0,L|287:169,1,47.5,8|0,2:0|2:0,2:0:0:0:
+305,337,93020,5,4,1:0:0:0:
+508,187,93381,5,6,1:3:0:0:
+278,98,93743,5,4,1:0:0:0:
+278,98,94104,5,8,2:0:0:0:
+118,176,94285,1,8,2:1:0:0:
+12,52,94466,1,8,2:0:0:0:
+114,195,94646,1,8,2:1:0:0:
+117,218,94736,1,8,2:1:0:0:
+120,242,94826,1,8,2:0:0:0:
+287,113,95008,1,8,2:0:0:0:
+283,136,95098,1,8,2:1:0:0:
+280,160,95188,1,8,2:0:0:0:
+252,336,95369,5,4,1:0:0:0:
+465,250,95550,1,0,2:0:0:0:
+465,250,95911,1,8,2:0:0:0:
+357,347,96092,2,0,P|365:288|371:253,1,80.750001540184,0|0,2:0|1:0,2:0:0:0:
+417,134,96454,1,8,2:0:0:0:
+286,244,96634,1,0,2:0:0:0:
+286,244,96725,1,0,2:0:0:0:
+286,244,96815,5,0,1:0:0:0:
+230,47,96996,1,0,1:0:0:0:
+230,47,97357,1,8,2:0:0:0:
+197,162,97538,2,0,P|247:145|300:133,1,80.750001540184,0|0,2:0|1:0,2:0:0:0:
+208,38,97899,1,8,2:0:0:0:
+131,96,98080,1,0,1:0:0:0:
+31,36,98261,5,0,1:0:0:0:
+72,278,98441,1,0,2:0:0:0:
+72,278,98803,1,8,2:0:0:0:
+29,201,98984,2,0,P|46:147|59:103,1,80.750001540184,0|0,2:0|1:0,2:0:0:0:
+97,367,99345,1,8,2:0:0:0:
+159,254,99526,1,0,2:0:0:0:
+159,254,99616,1,0,2:0:0:0:
+159,254,99707,5,0,1:0:0:0:
+360,303,99887,1,0,1:0:0:0:
+360,303,100249,2,0,P|317:283|217:341,1,161.500003080368,8|0,2:0|1:0,2:0:0:0:
+423,368,100791,1,8,2:0:0:0:
+331,201,100972,1,0,1:0:0:0:
+486,123,101152,6,0,P|469:187|446:287,1,161.500003080368,4|0,1:0|1:0,2:0:0:0:
+366,106,101694,2,0,P|321:100|238:177,1,161.500003080368,8|0,2:0|1:0,2:0:0:0:
+314,279,102237,2,0,P|324:225|343:166,1,80.750001540184,8|0,2:0|2:0,2:0:0:0:
+151,80,102598,5,0,1:0:0:0:
+188,291,102779,1,0,1:0:0:0:
+188,291,103140,2,0,P|164:254|212:149,1,161.500003080368,8|0,2:0|1:0,2:0:0:0:
+338,236,103682,2,0,P|294:230|250:224,1,80.750001540184,8|0,2:0|1:0,2:0:0:0:
+151,80,104044,5,0,1:0:0:0:
+225,45,104225,1,0,1:0:0:0:
+287,100,104405,1,0,2:0:0:0:
+414,16,104586,2,0,P|427:76|437:130,1,80.750001540184,8|0,2:0|2:0,2:0:0:0:
+336,31,104947,1,0,1:0:0:0:
+494,193,105128,1,8,2:0:0:0:
+472,159,105218,1,0,2:0:0:0:
+438,138,105308,1,0,1:0:0:0:
+398,133,105399,1,0,2:0:0:0:
+360,144,105489,5,0,1:0:0:0:
+360,144,105851,2,0,P|366:192|369:215,1,40.375000770092,0|0,1:0|2:0,2:0:0:0:
+470,363,106032,2,0,B|439:337|439:337|337:363,1,142.5,8|0,2:0|2:0,2:0:0:0:
+306,376,106393,1,0,1:0:0:0:
+426,250,106574,1,8,2:0:0:0:
+226,161,106755,1,8,2:0:0:0:
+226,161,106845,1,8,2:1:0:0:
+226,161,106935,5,4,1:0:0:0:
+313,271,107116,1,0,1:0:0:0:
+366,137,107297,2,0,P|357:79|348:23,1,95,8|0,2:0|2:0,2:0:0:0:
+218,175,107658,2,0,P|210:221|203:268,1,95,0|0,1:0|1:0,2:0:0:0:
+261,80,108020,1,8,2:0:0:0:
+122,168,108201,1,0,2:0:0:0:
+327,241,108381,5,0,1:0:0:0:
+327,241,108562,1,0,1:0:0:0:
+166,382,108743,2,0,P|121:359|53:359,1,95,8|0,2:0|1:0,2:0:0:0:
+208,209,109104,2,0,P|215:273|221:330,1,95,0|0,2:0|1:0,2:0:0:0:
+319,348,109466,2,0,P|324:300|329:253,1,95,8|0,2:0|1:0,2:0:0:0:
+355,62,109827,5,4,1:0:0:0:
+355,62,110008,1,0,2:0:0:0:
+449,289,110188,2,0,L|386:303,1,47.5,8|0,2:0|2:0,2:0:0:0:
+315,131,110369,2,0,B|354:103|354:103|454:130,1,142.5,2|0,1:3|2:0,2:0:0:0:
+498,185,110731,2,0,B|458:210|458:210|407:196,1,95,2|8,1:3|2:0,2:0:0:0:
+222,24,111092,6,0,P|228:96|236:203,1,142.5,4|0,1:0|2:0,2:0:0:0:
+222,197,111454,1,0,1:0:0:0:
+47,153,111634,2,0,P|115:145|149:141,1,95,8|0,2:0|2:0,2:0:0:0:
+169,283,111996,2,0,P|237:291|271:295,1,95,0|0,1:0|1:0,2:0:0:0:
+354,117,112357,1,8,2:0:0:0:
+475,320,112538,1,8,2:0:0:0:
+475,320,112628,1,8,2:0:0:0:
+475,320,112719,5,4,1:0:0:0:
+498,144,112899,1,0,2:0:0:0:
+333,207,113080,1,8,2:0:0:0:
+310,31,113260,1,0,1:0:0:0:
+436,218,113441,2,0,P|426:277|423:333,1,95,0|0,1:0|1:0,2:0:0:0:
+481,61,113803,1,8,2:0:0:0:
+268,126,113984,6,0,B|234:98|234:98|103:126,1,142.5,4|0,1:0|2:0,2:0:0:0:
+104,148,114345,2,0,L|108:29,1,95,0|8,1:0|2:0,2:0:0:0:
+7,251,114707,2,0,B|59:238|59:238|90:245|90:245|165:224,1,142.5,2|0,1:3|2:0,2:0:0:0:
+222,247,115068,2,0,L|208:350,1,95,2|8,1:3|2:0,2:0:0:0:
+104,148,115429,1,0,1:0:0:0:
+297,223,115610,5,4,1:0:0:0:
+61,323,115791,1,0,1:0:0:0:
+61,323,115881,1,0,1:0:0:0:
+61,323,115972,1,8,2:0:0:0:
+87,59,116152,2,0,B|151:68|151:68|161:83|161:83|251:91,1,142.5,2|0,1:3|2:0,2:0:0:0:
+303,12,116514,2,0,L|296:83,1,47.5,2|0,1:3|2:0,2:0:0:0:
+290,136,116694,1,8,2:0:0:0:
+512,201,116875,6,0,B|458:209|458:209|443:235|443:235|351:254,1,142.5,4|0,1:0|2:0,2:0:0:0:
+351,318,117237,2,0,L|286:301,1,47.5,0|8,1:0|2:1,2:0:0:0:
+230,285,117417,5,0,2:0:0:0:
+67,353,117598,1,8,2:0:0:0:
+0,301,117869,5,8,2:1:0:0:
+4,279,117960,1,8,2:1:0:0:
+96,190,118140,1,8,2:0:0:0:
+23,26,118321,2,0,P|31:68|36:85,1,47.5,8|8,2:0|2:0,2:0:0:0:
+118,103,118502,6,0,P|158:97|213:88,1,76,4|0,1:0|2:0,2:0:0:0:
+202,221,118863,2,0,P|241:226|296:235,1,76,0|8,1:0|2:3,2:0:0:0:
+285,73,119225,2,0,P|341:65|420:51,1,114,0|0,1:0|2:0,2:0:0:0:
+447,56,119586,2,0,L|435:115,1,38,4|0,1:3|2:0,2:0:0:0:
+354,186,119767,6,0,P|364:234|368:290,1,76,0|0,2:0|1:0,2:0:0:0:
+455,272,120128,2,0,P|445:320|441:376,1,76,8|4,2:3|1:3,2:0:0:0:
+326,332,120490,2,0,P|287:315|246:315,1,76,8|0,2:3|1:0,2:0:0:0:
+175,350,120851,1,4,1:3:0:0:
+46,244,121032,1,8,1:3:0:0:
+167,323,121213,2,0,L|176:286,2,25.3333333333333,0|0|0,3:0|3:0|3:0,3:0:0:0:
+175,350,121393,6,0,P|122:339|81:339,1,76,4|0,1:0|2:0,2:0:0:0:
+120,232,121755,2,0,P|67:243|26:243,1,76,0|8,1:0|2:3,2:0:0:0:
+205,127,122116,2,0,P|140:113|90:113,1,114,0|0,1:0|2:0,2:0:0:0:
+70,136,122478,1,4,1:3:0:0:
+288,176,122658,6,0,P|300:110|309:66,1,76,0|0,2:0|1:0,2:0:0:0:
+491,260,123020,2,0,B|474:305|474:305|499:360,1,95,8|0,2:0|1:0,2:0:0:0:
+501,163,123381,5,8,2:3:0:0:
+365,257,123562,1,0,1:0:0:0:
+209,208,123743,5,8,2:3:0:0:
+412,179,123923,1,8,2:3:0:0:
+412,179,124285,5,4,1:0:0:0:
+313,345,124466,2,0,P|254:332|128:326,1,152,0|8,2:0|2:1,2:0:0:0:
+26,285,125008,2,0,P|40:332|46:386,1,76,0|0,1:0|2:0,2:0:0:0:
+194,213,125369,2,0,P|204:170|229:89,1,114,4|0,1:3|2:0,2:0:0:0:
+252,84,125731,5,0,1:0:0:0:
+8,175,125911,2,0,P|75:166|110:162,1,76,4|0,2:3|1:0,2:0:0:0:
+277,69,126273,1,8,2:3:0:0:
+67,77,126454,5,0,1:0:0:0:
+194,213,126634,1,4,2:3:0:0:
+375,153,126815,1,4,1:3:0:0:
+293,217,126996,2,0,L|286:266,2,25.3333333333333,0|0|0,3:0|3:0|3:0,3:0:0:0:
+296,194,127176,5,4,1:0:0:0:
+470,273,127357,2,0,P|452:212|446:180,1,76,0|0,2:0|1:0,2:0:0:0:
+280,321,127719,1,8,2:3:0:0:
+375,153,127899,5,0,1:0:0:0:
+280,336,128080,1,4,2:3:0:0:
+98,280,128261,1,4,1:3:0:0:
+99,300,128622,5,0,1:0:0:0:
+74,132,128863,5,8,2:3:0:0:
+232,40,129104,5,4,2:3:0:0:
+60,132,129345,5,0,1:0:0:0:
+223,28,129586,5,4,2:3:0:0:
+373,66,129827,5,4,1:3:0:0:
+309,306,130068,5,4,1:0:0:0:
+373,66,130249,1,0,1:0:0:0:
+373,66,130610,1,0,1:0:0:0:
+376,92,130701,1,0,2:0:0:0:
+366,113,130791,2,0,B|315:101|315:101|294:113|294:113|212:93,1,152,8|0,1:0|1:0,2:0:0:0:
+14,57,131333,6,0,B|40:29|40:29|58:164,1,152,4|4,1:0|2:3,2:0:0:0:
+79,318,131875,1,4,2:3:0:0:
+203,200,132056,2,0,B|169:181|169:181|122:188,1,76,2|0,1:3|2:0,2:0:0:0:
+2,343,132417,1,10,1:3:0:0:
+155,290,132598,1,0,1:0:0:0:
+0,205,132779,2,0,P|10:246|13:261,1,38,4|0,2:3|2:0,2:0:0:0:
+155,290,132960,5,4,1:0:0:0:
+213,80,133140,2,0,P|202:32|191:-4,1,76,0|0,1:0|2:0,2:0:0:0:
+126,104,133502,1,0,1:0:0:0:
+235,333,133682,2,0,B|294:317|294:317|315:327|315:327|395:307,1,152,8|0,2:0|1:0,2:0:0:0:
+494,137,134225,6,0,B|465:157|465:157|349:124,1,152,4|8,1:0|2:3,2:0:0:0:
+186,63,134767,1,0,1:0:0:0:
+296,186,134947,6,0,P|301:222|304:256,1,38,2|0,1:3|2:0,2:0:0:0:
+170,80,135309,2,0,P|165:116|162:150,1,38,2|0,1:3|2:0,2:0:0:0:
+86,203,135490,6,0,L|60:197,6,19,0|0|0|0|0|0|0,2:0|2:0|2:0|2:0|2:0|2:0|2:0,2:0:0:0:
+49,194,135851,5,4,1:0:0:0:
+33,191,136213,1,0,2:0:0:0:
+17,188,136574,1,0,2:0:0:0:
+1,185,136935,1,0,2:0:0:0:
+127,320,137297,5,4,1:0:0:0:
+143,317,137658,1,0,2:0:0:0:
+159,314,138019,1,0,2:0:0:0:
+175,311,138381,1,0,2:0:0:0:
+311,90,138743,5,12,2:0:0:0:
+92,165,138923,1,0,1:0:0:0:
+376,159,139104,5,8,2:0:0:0:
+123,82,139285,1,0,1:0:0:0:
+406,70,139466,5,8,2:0:0:0:
+180,150,139646,1,0,1:0:0:0:
+463,137,139827,5,8,2:0:0:0:
+217,70,140008,1,0,1:0:0:0:
+443,225,140188,5,8,2:0:0:0:
+221,56,140369,1,8,2:1:0:0:
+199,309,140550,2,0,P|204:340|212:357,3,31.6666666666667,8|0|0|0,2:3|1:0|1:0|1:0,2:0:0:0:
+386,84,140911,6,0,P|350:111|340:161,1,95,8|0,2:1|1:0,2:0:0:0:
+344,322,141182,6,0,P|338:277|300:243,1,95,8|0,2:1|1:0,2:0:0:0:
+202,168,141454,6,0,P|235:176|272:169,1,47.5,8|0,2:1|2:0,2:0:0:0:
+293,46,141589,6,0,P|277:47|253:57,2,23.75,0|2|0,2:0|2:0|2:0,2:0:0:0:
+256,192,141725,12,0,142899,2:0:0:0:
+390,251,143080,6,0,P|438:260|476:347,1,142.5,6|0,1:0|2:0,2:0:0:0:
+365,277,143441,6,0,L|383:152,1,113.999996520996,8|0,2:0|1:0,2:0:0:0:
+184,132,143803,2,0,P|173:67|166:17,1,95,0|0,1:0|1:0,2:0:0:0:
+332,93,144164,1,8,2:0:0:0:
+164,222,144345,2,0,P|114:208|29:197,1,95,0|0,1:0|1:0,2:0:0:0:
+261,37,144707,1,0,1:0:0:0:
+240,265,144887,2,0,P|229:330|222:380,1,95,8|0,2:0|1:0,2:0:0:0:
+415,266,145249,2,0,P|365:252|280:241,1,95,0|0,1:0|1:0,2:0:0:0:
+170,129,145610,1,8,2:0:0:0:
+135,316,145791,1,0,1:0:0:0:
+250,94,145972,5,0,1:0:0:0:
+56,281,146152,1,0,1:0:0:0:
+268,179,146333,1,8,2:0:0:0:
+50,53,146514,1,0,1:0:0:0:
+213,300,146694,2,0,P|258:278|324:262,1,95,0|0,1:0|1:0,2:0:0:0:
+477,321,147056,1,8,2:0:0:0:
+431,110,147237,6,0,P|414:161|410:227,1,95,0|0,1:0|1:0,2:0:0:0:
+234,13,147598,1,0,1:0:0:0:
+488,37,147779,1,8,2:0:0:0:
+211,197,147960,2,0,B|98:213|164:128|21:143,1,190,0|0,1:0|1:0,2:0:0:0:
+250,24,148502,1,8,2:0:0:0:
+254,47,148592,1,8,2:1:0:0:
+258,70,148682,1,0,1:0:0:0:
+39,141,148863,5,4,1:0:0:0:
+234,13,149044,1,0,1:0:0:0:
+239,243,149225,1,8,2:0:0:0:
+120,44,149405,1,0,1:0:0:0:
+120,44,149496,1,8,2:1:0:0:
+120,44,149586,1,0,1:0:0:0:
+151,277,149767,1,0,1:0:0:0:
+334,128,149947,1,8,2:0:0:0:
+93,214,150128,1,0,1:0:0:0:
+93,214,150219,1,8,2:1:0:0:
+93,214,150309,5,0,1:0:0:0:
+284,356,150490,1,0,1:0:0:0:
+191,139,150670,1,8,2:0:0:0:
+54,338,150851,1,0,1:0:0:0:
+291,336,151032,1,0,1:0:0:0:
+176,107,151213,2,0,P|139:116|69:128,1,95,0|8,1:0|2:0,2:0:0:0:
+45,384,151574,1,2,1:2:0:0:
+272,62,151755,5,2,1:0:0:0:
+234,269,151935,1,2,1:2:0:0:
+195,18,152116,5,10,2:1:0:0:
+327,247,152297,1,2,1:2:0:0:
+338,0,152478,5,10,2:1:0:0:
+145,294,152658,2,0,P|96:277|44:262,1,95,2|10,1:2|2:1,2:0:0:0:
+426,296,153020,6,0,B|474:188|391:222|437:104,1,190,4|0,1:0|1:0,2:0:0:0:
+512,302,153562,1,8,2:0:0:0:
+344,131,153743,1,8,2:0:0:0:
+348,290,153923,1,0,1:0:0:0:
+512,99,154104,1,4,1:3:0:0:
+265,287,154285,1,8,2:0:0:0:
+265,287,154375,1,8,2:1:0:0:
+265,287,154466,1,0,1:0:0:0:
+181,68,154646,6,0,P|98:47|13:31,1,142.5,4|0,1:0|2:0,2:0:0:0:
+207,35,155008,6,0,L|215:176,1,113.999996520996,8|0,2:0|1:0,2:0:0:0:
+425,227,155369,2,0,P|415:292|411:362,1,95,0|0,1:0|1:0,2:0:0:0:
+290,198,155731,1,8,2:0:0:0:
+458,106,155911,2,0,P|396:128|336:137,1,95,0|0,1:0|1:0,2:0:0:0:
+292,215,156273,1,0,1:0:0:0:
+410,346,156454,2,0,P|348:324|288:315,1,95,8|0,2:0|1:0,2:0:0:0:
+206,258,156815,2,0,P|252:247|296:230,1,95,0|0,1:0|1:0,2:0:0:0:
+173,90,157176,1,8,2:0:0:0:
+119,286,157357,1,0,1:0:0:0:
+249,44,157538,5,0,1:0:0:0:
+53,231,157719,1,0,1:0:0:0:
+258,126,157899,1,8,2:1:0:0:
+1,171,158080,1,8,2:3:0:0:
+266,212,158261,2,0,P|325:228|378:250,1,95,8|0,2:0|1:0,2:0:0:0:
+171,4,158622,1,4,1:3:0:0:
+74,318,158803,6,0,B|168:307|114:277|213:272,1,142.5,4|0,1:0|2:0,2:0:0:0:
+254,360,159164,2,0,P|208:351|171:351,1,47.5,0|0,1:0|2:0,2:0:0:0:
+77,229,159345,2,0,P|93:163|106:81,1,142.5,12|0,2:0|2:0,2:0:0:0:
+93,63,159707,1,0,1:0:0:0:
+176,191,159887,1,0,1:0:0:0:
+79,40,160068,1,8,2:0:0:0:
+83,16,160158,1,8,2:0:0:0:
+88,0,160248,1,0,1:0:0:0:
+184,207,160429,5,4,1:0:0:0:
+404,135,160610,2,0,P|362:129|308:120,1,85.4999973907472,0|0,1:0|3:0,2:0:0:0:
+188,37,160972,2,0,P|189:73|189:99,1,42.7499986953736,0|0,1:0|1:0,2:0:0:0:
+171,291,161152,1,8,2:0:0:0:
+83,308,161333,2,0,P|105:229|183:206,1,170.999994781494,0|0,2:0|2:0,2:0:0:0:
+418,304,161875,5,0,1:0:0:0:
+262,331,162146,5,0,1:0:0:0:
+316,176,162417,5,0,1:0:0:0:
+337,372,162598,2,0,P|342:301|347:250,1,85.4999973907472,8|0,2:0|1:0,2:0:0:0:
+400,73,162869,1,0,1:0:0:0:
+400,73,162960,2,0,P|403:115|406:158,1,85.4999973907472,8|0,2:0|1:0,2:0:0:0:
+472,233,163231,1,0,1:0:0:0:
+472,233,163321,5,0,1:0:0:0:
+190,181,163502,1,0,1:0:0:0:
+494,148,163682,5,8,2:0:0:0:
+176,265,163863,2,0,P|112:249|96:248,1,71.25,0|8,1:0|2:1,2:0:0:0:
+83,263,164044,2,0,P|91:304|96:320,1,47.5,8|8,2:0|2:0,2:0:0:0:
+57,104,164225,1,0,1:0:0:0:
+264,278,164405,2,0,P|257:303|254:328,1,47.5,8|8,2:0|2:1,2:0:0:0:
+292,91,164586,2,0,P|286:66|282:42,1,47.5,0|0,1:0|2:0,2:0:0:0:
+363,284,164767,5,12,2:1:0:0:
+396,293,164857,1,0,2:0:0:0:
+431,288,164947,1,0,1:0:0:0:
+460,268,165038,1,0,1:0:0:0:
+478,237,165128,1,0,1:0:0:0:
+416,59,165309,2,0,L|394:235,1,142.5,2|0,1:3|2:0,2:0:0:0:
+478,237,165670,2,0,L|500:61,1,142.5,2|0,1:3|2:0,2:0:0:0:
+336,26,166032,2,0,L|324:114,1,47.5,0|0,1:0|2:0,2:0:0:0:
+310,274,166213,5,4,1:0:0:0:
+241,70,166393,2,0,P|254:138|266:201,1,128.249996086121,0|0,1:0|2:0,2:0:0:0:
+248,223,166755,1,0,1:0:0:0:
+336,26,166935,2,0,P|380:33|426:45,1,85.4999973907472,8|0,2:0|2:0,2:0:0:0:
+233,34,167297,1,0,1:0:0:0:
+233,34,167478,1,0,1:0:0:0:
+351,212,167658,6,0,P|356:160|367:114,1,85.4999973907472,0|0,2:0|1:0,2:0:0:0:
+457,275,168020,2,0,P|465:316|469:359,1,85.4999973907472,0|0,1:0|2:0,2:0:0:0:
+471,131,168381,1,8,2:0:0:0:
+372,324,168562,2,0,P|329:290|215:296,1,170.999994781494,0|4,1:0|2:3,2:0:0:0:
+34,338,169104,5,0,1:0:0:0:
+144,140,169285,2,0,P|133:209|119:289,1,128.249996086121,0|0,1:0|2:0,2:0:0:0:
+115,296,169646,1,0,1:0:0:0:
+85,73,169827,2,0,P|57:82|-5:90,1,85.4999973907472,8|0,2:0|2:0,2:0:0:0:
+159,4,170188,1,0,1:0:0:0:
+159,4,170369,1,0,1:0:0:0:
+228,134,170550,6,0,P|238:86|243:30,1,85.4999973907472,0|8,2:0|2:1,2:0:0:0:
+386,195,170911,2,0,P|391:237|400:279,1,85.4999973907472,0|0,1:0|2:0,2:0:0:0:
+335,69,171273,1,8,2:0:0:0:
+285,248,171454,1,0,1:0:0:0:
+427,102,171634,1,8,2:0:0:0:
+199,216,171815,1,0,1:0:0:0:
+199,216,171905,1,0,1:0:0:0:
+199,216,171996,5,4,1:0:0:0:
+393,344,172176,2,0,P|375:266|368:190,1,128.249996086121,0|0,1:3|2:0,2:0:0:0:
+386,195,172538,1,0,1:0:0:0:
+176,305,172719,2,0,P|127:279|84:266,1,85.4999973907472,8|0,2:0|2:0,2:0:0:0:
+285,248,173080,1,0,1:0:0:0:
+285,248,173261,1,0,1:0:0:0:
+175,134,173441,6,0,P|195:190|198:245,1,85.4999973907472,0|0,2:0|1:0,2:0:0:0:
+355,330,173803,2,0,P|362:287|378:248,1,85.4999973907472,0|0,1:0|2:0,2:0:0:0:
+491,98,174164,1,8,2:0:0:0:
+496,223,174345,2,0,P|448:180|340:160,1,170.999994781494,0|0,1:0|2:0,2:0:0:0:
+161,116,174887,5,0,1:0:0:0:
+355,33,175068,2,0,P|305:45|220:46,1,128.249996086121,0|0,1:0|2:0,2:0:0:0:
+203,29,175429,1,0,1:0:0:0:
+345,159,175610,2,0,P|356:215|367:275,1,85.4999973907472,8|0,2:0|2:0,2:0:0:0:
+422,103,175972,1,0,1:0:0:0:
+422,103,176152,1,0,1:0:0:0:
+271,219,176333,5,0,2:0:0:0:
+499,146,176514,1,8,2:0:0:0:
+443,265,176694,2,0,P|380:247|322:236,1,85.4999973907472,0|0,1:0|2:0,2:0:0:0:
+497,58,177056,5,8,2:0:0:0:
+446,245,177237,1,0,1:0:0:0:
+359,31,177417,2,0,P|296:49|238:60,1,85.4999973907472,8|0,2:0|1:0,2:0:0:0:
+203,12,177688,1,0,1:0:0:0:
+203,12,177779,6,0,L|194:106,1,76,4|0,1:0|2:0,2:0:0:0:
+120,33,178140,2,0,L|111:127,1,76,0|0,1:0|2:0,2:0:0:0:
+198,104,178502,2,0,L|207:198,1,76,0|0,1:0|2:0,2:0:0:0:
+281,125,178863,2,0,L|290:219,1,76,0|0,1:0|2:0,2:0:0:0:
+360,314,179225,6,0,P|325:288|199:287,1,152,4|0,1:0|1:0,2:0:0:0:
+49,332,179767,1,0,2:0:0:0:
+132,368,179947,2,0,L|146:215,1,152,0|0,1:0|1:0,2:0:0:0:
+411,43,180670,6,0,P|424:76|424:121,1,76,4|0,1:0|2:0,2:0:0:0:
+501,155,181032,2,0,P|478:182|439:205,1,76,0|0,1:0|2:0,2:0:0:0:
+344,95,181393,2,0,P|311:76|273:70,1,76,0|0,1:0|2:0,2:0:0:0:
+278,155,181755,2,0,P|245:174|221:203,1,76,0|0,1:0|2:0,2:0:0:0:
+311,372,182116,6,0,P|336:327|289:236,1,152,4|0,1:0|1:0,2:0:0:0:
+108,283,182658,1,0,2:0:0:0:
+180,329,182839,2,0,P|236:315|277:309,1,76,0|0,1:0|2:0,2:0:0:0:
+103,157,183201,2,0,P|100:179|93:224,1,38,0|0,1:0|2:0,2:0:0:0:
+226,241,183381,2,0,P|223:222|220:203,1,38,0|0,2:0|2:0,2:0:0:0:
+264,56,183562,5,8,2:3:0:0:
+264,56,183743,1,0,1:0:0:0:
+329,117,183923,1,8,2:3:0:0:
+329,117,184104,1,0,1:0:0:0:
+215,182,184285,1,8,2:3:0:0:
+215,182,184466,1,0,1:0:0:0:
+338,266,184646,1,8,2:3:0:0:
+338,266,184827,1,0,1:0:0:0:
+197,355,185008,5,8,2:3:0:0:
+223,350,185188,1,0,1:0:0:0:
+364,271,185369,5,8,2:3:0:0:
+338,266,185549,1,0,1:0:0:0:
+159,191,185731,5,8,2:3:0:0:
+185,186,185911,1,0,1:0:0:0:
+395,124,186092,5,8,2:3:0:0:
+369,119,186273,1,0,1:0:0:0:
+130,25,186454,5,8,2:3:0:0:
+222,48,186634,1,0,1:0:0:0:
+121,240,186815,5,8,2:3:0:0:
+137,150,186996,1,0,1:0:0:0:
+346,219,187176,5,8,2:3:0:0:
+250,254,187357,1,0,1:0:0:0:
+323,26,187538,5,8,2:3:0:0:
+364,108,187719,1,0,1:0:0:0:
+73,88,187899,5,8,2:3:0:0:
+284,135,188080,1,0,1:0:0:0:
+104,330,188261,5,8,2:3:0:0:
+137,150,188441,1,0,1:0:0:0:
+346,322,188622,5,8,2:3:0:0:
+121,240,188803,1,0,1:0:0:0:
+323,26,188984,5,8,2:3:0:0:
+250,254,189164,1,0,1:0:0:0:
+150,67,189345,6,0,P|189:63|219:57,1,38,8|8,1:0|2:1,2:0:0:0:
+326,139,189526,2,0,P|301:135|276:134,1,42.7499986953736,8|8,2:1|2:1,2:0:0:0:
+73,168,189707,2,0,P|112:164|142:158,1,47.5,8|8,1:0|2:1,2:0:0:0:
+301,260,189887,2,0,P|269:255|238:253,1,52.2500015945435,8|8,2:1|2:1,2:0:0:0:
+0,339,190068,5,8,1:2:0:0:
+30,313,190158,1,8,2:0:0:0:
+67,305,190248,1,8,2:0:0:0:
+105,313,190339,1,8,2:0:0:0:
+136,336,190429,1,8,1:2:0:0:
+166,360,190520,1,8,2:0:0:0:
+204,368,190611,1,8,2:0:0:0:
+242,359,190701,1,8,2:0:0:0:
+272,334,190791,5,0,1:0:0:0:
+244,43,190972,5,8,2:0:0:0:
+2,208,191152,1,8,2:0:0:0:
+272,334,191333,2,0,P|345:319|423:309,1,104.500003189087,2|0,1:3|2:0,2:0:0:0:
+128,86,191694,2,0,P|104:156|74:229,1,104.500003189087,2|0,1:3|2:0,2:0:0:0:
+460,347,192056,6,0,P|418:314|433:180,1,190,4|2,1:0|2:1,2:0:0:0:
+316,26,192598,1,8,2:0:0:0:
+438,80,192779,2,0,P|399:99|336:126,1,95,2|0,2:1|1:0,2:0:0:0:
+310,121,193050,1,8,2:0:0:0:
+310,121,193140,1,2,2:1:0:0:
+132,31,193321,1,8,2:0:0:0:
+205,163,193502,6,0,P|218:82|231:38,1,95,2|0,2:1|1:0,2:0:0:0:
+52,164,193863,2,0,P|62:210|68:257,1,95,2|8,2:1|2:0,2:0:0:0:
+252,381,194225,2,0,P|265:300|278:256,1,95,2|0,2:1|1:0,2:0:0:0:
+297,261,194496,1,8,2:0:0:0:
+297,261,194586,1,2,2:1:0:0:
+150,380,194767,2,0,P|86:352|41:353,1,95,8|2,2:0|2:1,2:0:0:0:
+29,139,195128,6,0,B|141:139|87:204|243:197,1,190,4|8,1:0|2:0,2:0:0:0:
+242,177,195580,1,0,2:0:0:0:
+242,177,195670,2,0,P|234:109|230:66,1,95,2|0,2:1|1:0,2:0:0:0:
+253,49,195941,1,8,2:0:0:0:
+253,49,196032,1,2,2:1:0:0:
+49,226,196213,1,8,2:0:0:0:
+103,44,196393,6,0,P|120:104|124:154,1,95,2|0,2:1|1:0,2:0:0:0:
+221,269,196755,2,0,P|227:221|241:176,1,95,2|8,2:1|2:0,2:0:0:0:
+49,226,197116,2,0,P|66:286|70:336,1,95,2|0,2:1|1:0,2:0:0:0:
+59,361,197387,1,8,2:0:0:0:
+59,361,197478,1,2,2:1:0:0:
+209,303,197658,2,0,P|270:312|319:326,1,95,8|2,2:0|2:1,2:0:0:0:
+456,191,198020,6,0,P|460:239|464:273,2,47.5,4|0|2,1:0|2:0|2:1,2:0:0:0:
+345,25,198381,1,8,2:0:0:0:
+371,174,198562,2,0,P|308:137|251:130,1,95,2|0,2:1|1:0,2:0:0:0:
+253,158,198833,1,8,2:0:0:0:
+253,158,198923,1,2,2:1:0:0:
+156,13,199104,2,0,P|169:84|172:135,1,95,8|2,2:0|2:1,2:0:0:0:
+21,228,199466,6,0,P|84:191|141:184,1,95,0|2,1:0|2:1,2:0:0:0:
+142,209,199737,1,0,2:0:0:0:
+142,209,199827,1,8,2:0:0:0:
+258,322,200008,1,2,2:1:0:0:
+258,322,200098,2,0,P|254:356|252:393,1,47.5,0|0,2:0|1:0,2:0:0:0:
+349,229,200279,2,0,P|290:236|229:239,1,95,8|0,2:0|2:0,2:0:0:0:
+224,223,200550,2,0,P|224:185|215:146,2,47.5,8|0|2,2:0|2:0|2:1,2:0:0:0:
+456,369,200911,6,0,P|463:319|482:183,1,142.5,4|0,1:0|2:0,2:0:0:0:
+482,199,201273,2,0,P|479:162|476:137,3,47.5,8|0|2|0,2:0|2:0|2:1|2:0,2:0:0:0:
+419,47,201634,2,0,L|415:73,6,23.75,0|0|8|0|2|0|0,1:0|2:0|2:0|2:0|2:1|2:0|2:0,2:0:0:0:
+344,128,201996,1,8,2:0:0:0:
+317,104,202086,1,0,2:0:0:0:
+285,90,202176,1,2,2:1:0:0:
+249,87,202267,1,0,2:0:0:0:
+215,96,202357,6,0,P|222:145|229:184,1,47.5,0|0,1:0|2:0,2:0:0:0:
+64,177,202538,2,0,P|57:225|50:264,1,47.5,2|0,2:1|2:0,2:0:0:0:
+250,313,202719,1,8,2:0:0:0:
+27,339,202899,1,8,2:0:0:0:
+27,339,202990,1,8,2:0:0:0:
+27,339,203080,1,8,2:0:0:0:
+62,333,203170,1,8,2:0:0:0:
+97,327,203260,1,8,2:0:0:0:
+132,322,203351,1,8,2:0:0:0:
+167,316,203441,2,0,L|175:283,1,23.75,8|0,2:0|2:0,2:0:0:0:
+207,336,203532,2,0,L|215:369,1,23.75,8|0,2:0|2:0,2:0:0:0:
+250,313,203622,1,0,2:0:0:0:
+442,345,203803,6,0,P|426:282|416:152,1,190,4|8,1:0|2:0,2:0:0:0:
+454,63,204345,1,2,2:1:0:0:
+333,192,204526,1,0,1:0:0:0:
+333,192,204616,1,8,2:0:0:0:
+333,192,204706,1,2,2:1:0:0:
+294,4,204887,1,8,2:0:0:0:
+241,216,205068,6,0,P|185:194|130:184,1,95,2|0,2:1|1:0,2:0:0:0:
+3,100,205429,1,2,2:1:0:0:
+137,286,205610,1,8,2:0:0:0:
+92,100,205791,2,0,P|75:152|51:228,1,95,2|0,2:1|1:0,2:0:0:0:
+66,227,206062,1,8,2:0:0:0:
+66,227,206152,1,2,2:1:0:0:
+185,27,206333,1,8,2:0:0:0:
+185,27,206694,6,0,B|280:27|224:71|339:67,1,142.5,4|0,1:0|2:0,2:0:0:0:
+394,26,207056,1,8,2:0:0:0:
+366,48,207146,1,0,1:0:0:0:
+350,79,207236,1,2,1:0:0:0:
+348,114,207327,1,8,2:1:0:0:
+362,147,207417,2,0,P|395:144|447:141,1,47.5,0|8,1:0|2:0,2:0:0:0:
+493,131,207598,1,2,2:1:0:0:
+323,226,207779,1,8,2:0:0:0:
+506,372,207960,6,0,P|468:348|301:348,1,190,2|0,2:1|2:0,2:0:0:0:
+144,268,208502,1,8,2:0:0:0:
+245,380,208682,1,2,2:1:0:0:
+260,169,208863,1,0,1:0:0:0:
+260,169,208954,1,8,2:0:0:0:
+260,169,209044,1,2,2:1:0:0:
+150,367,209225,1,8,2:0:0:0:
+98,110,209405,2,0,P|103:148|105:167,1,47.5,2|0,2:1|2:0,2:0:0:0:
+0,201,209586,6,0,P|63:243|177:212,1,190,4|8,1:0|2:0,2:0:0:0:
+342,13,210128,1,2,2:1:0:0:
+259,193,210309,1,0,1:0:0:0:
+259,193,210399,1,8,2:0:0:0:
+259,193,210490,1,2,2:1:0:0:
+202,0,210670,1,8,2:0:0:0:
+356,178,210851,6,0,P|418:157|485:157,1,95,2|0,2:1|1:0,2:0:0:0:
+509,229,211213,1,2,2:1:0:0:
+425,361,211393,2,0,P|418:323|416:301,1,47.5,8|0,2:0|2:0,2:0:0:0:
+336,267,211574,2,0,P|332:290|328:313,1,47.5,2|8,2:1|2:1,2:0:0:0:
+262,377,211755,1,0,1:0:0:0:
+262,377,211845,1,8,2:0:0:0:
+262,377,211935,1,2,2:1:0:0:
+164,245,212116,2,0,P|172:304|180:351,1,95,8|2,2:0|2:1,2:0:0:0:
+137,32,212478,5,4,1:0:0:0:
+342,57,212658,2,0,P|316:63|278:70,1,47.5,0|0,1:0|1:0,2:0:0:0:
+111,111,212839,1,8,2:0:0:0:
+111,111,213020,2,0,P|137:117|175:124,1,47.5,0|0,1:0|1:0,2:0:0:0:
+379,131,213201,2,0,P|353:137|315:144,1,47.5,8|0,2:0|1:0,2:0:0:0:
+86,194,213381,2,0,P|109:199|132:204,1,47.5,0|0,1:0|1:0,2:0:0:0:
+416,205,213562,1,8,2:0:0:0:
+12,318,213743,6,0,B|93:330|60:272|171:290,1,142.5,12|0,2:0|2:0,2:0:0:0:
+236,321,214104,2,0,P|247:362|254:400,1,47.5,8|0,2:0|2:0,2:0:0:0:
+416,205,214285,2,0,P|421:181|428:159,1,47.5,8|0,2:1|2:0,2:0:0:0:
+164,42,214466,2,0,P|175:83|182:121,3,47.5,8|8|0|0,2:0|2:0|1:0|2:0,2:0:0:0:
+174,131,214827,6,0,L|108:115,1,47.5,8|8,2:0|2:1,2:0:0:0:
+416,205,215008,2,0,L|482:189,1,47.5,8|8,2:0|2:1,2:0:0:0:
+47,379,215188,2,0,L|-19:363,1,47.5,8|8,2:0|2:1,2:0:0:0:
+40,174,222598,6,0,B|-12:102|63:3|226:98|88:266,1,341.999989562989,0|0,2:0|2:0,2:0:0:0:
+31,333,224044,2,0,P|77:295|198:284,1,170.999994781494,2|0,2:1|2:0,2:0:0:0:
+256,339,224767,2,0,P|294:324|326:312,1,56.9999982604981,0|0,2:0|2:0,2:0:0:0:
+475,274,225128,2,0,P|416:258|383:246,1,85.4999973907472,0|0,2:0|2:0,2:0:0:0:
+393,249,225490,6,0,P|410:116|414:78,1,142.5,4|0,1:0|2:0,2:0:0:0:
+404,80,225851,1,12,2:0:0:0:
+306,320,226032,6,0,L|253:312,1,47.5,12|0,2:0|2:0,2:0:0:0:
+232,42,226393,2,0,L|179:50,1,47.5,4|0,1:0|2:0,2:0:0:0:
+9,315,226755,6,0,P|48:275|181:259,1,190,4|0,1:0|1:0,2:0:0:0:
+203,284,227207,1,0,1:0:0:0:
+203,284,227297,2,0,P|197:323|195:365,1,47.5,8|8,2:0|2:0,2:0:0:0:
+85,150,227478,1,8,2:0:0:0:
+317,223,227658,5,0,1:0:0:0:
+70,384,227839,1,4,1:0:0:0:
+295,45,228020,2,0,P|304:95|311:129,1,47.5,8|8,2:0|2:0,2:0:0:0:
+364,153,228201,6,0,P|418:142|443:132,1,56.9999982604981,0|0,2:0|1:0,2:0:0:0:
+419,141,228743,6,0,P|390:92|483:11,1,170.999994781494,6|0,1:0|2:0,2:0:0:0:
+429,168,229104,6,0,P|353:161|302:156,1,95,0|0,1:0|1:0,2:0:0:0:
+149,196,229466,1,8,2:0:0:0:
+195,37,229646,2,0,P|217:82|229:160,1,95,0|0,1:0|1:0,2:0:0:0:
+200,288,230008,1,0,1:0:0:0:
+20,99,230188,2,0,P|95:107|135:115,1,95,8|0,2:0|1:0,2:0:0:0:
+271,219,230550,1,0,1:0:0:0:
+271,219,230731,1,0,1:0:0:0:
+94,288,230911,1,8,2:0:0:0:
+227,125,231092,1,0,1:0:0:0:
+238,378,231273,5,0,1:0:0:0:
+60,193,231454,1,0,1:0:0:0:
+331,147,231634,1,8,2:1:0:0:
+79,289,231815,1,8,2:3:0:0:
+353,349,231996,2,0,P|403:334|477:317,1,95,8|0,2:0|1:0,2:0:0:0:
+89,375,232357,1,4,1:3:0:0:
+454,201,232538,6,0,B|366:194|417:245|291:237,1,142.5,4|0,1:0|2:0,2:0:0:0:
+213,182,232899,2,0,P|223:233|225:263,1,47.5,0|0,1:0|2:0,2:0:0:0:
+444,323,233080,1,12,2:0:0:0:
+262,308,233261,2,0,P|214:266|115:268,1,142.5,0|0,1:0|2:0,2:0:0:0:
+54,297,233622,1,0,1:0:0:0:
+58,320,233712,1,0,1:0:0:0:
+63,343,233802,1,8,2:0:0:0:
+140,178,233984,1,0,1:0:0:0:
+25,26,234164,6,0,P|83:40|143:43,1,95,8|8,1:0|2:1,2:0:0:0:
+137,259,234526,2,0,P|195:245|255:242,1,95,8|8,1:0|2:1,2:0:0:0:
+326,23,234887,2,0,P|366:33|402:34,3,47.5,8|8|8|8,1:0|2:1|2:1|2:1,2:0:0:0:
+428,280,235249,2,0,P|468:270|504:269,3,47.5,8|8|8|8,1:0|2:1|2:1|2:1,2:0:0:0:
+487,186,235610,5,8,1:2:0:0:
+487,186,235701,1,8,2:0:0:0:
+487,186,235791,2,0,P|494:140|500:120,1,47.5,8|8,2:0|2:0,2:0:0:0:
+325,312,235972,1,8,1:2:0:0:
+325,312,236063,1,8,2:0:0:0:
+325,312,236153,2,0,P|332:358|338:378,1,47.5,8|8,2:0|2:0,2:0:0:0:
+200,172,236333,5,8,1:2:0:0:
+160,146,236423,1,8,2:0:0:0:
+113,144,236513,1,8,2:0:0:0:
+71,165,236604,1,8,2:0:0:0:
+46,205,236694,1,8,1:2:0:0:
+89,185,236784,1,8,2:0:0:0:
+113,145,236874,1,8,2:0:0:0:
+112,98,236965,1,8,2:0:0:0:
+86,60,237055,5,0,1:0:0:0:
+171,360,237237,2,0,P|180:308|184:284,1,47.5,0|0,1:0|1:0,2:0:0:0:
+242,34,237417,1,8,2:0:0:0:
+322,352,237598,2,0,P|309:299|305:262,1,47.5,0|0,1:0|1:0,2:0:0:0:
+324,18,237779,5,8,2:0:0:0:
+345,59,237869,1,0,1:0:0:0:
+340,106,237959,1,0,1:0:0:0:
+310,142,238050,1,0,1:0:0:0:
+265,155,238141,1,8,2:0:0:0:
+220,170,238231,1,0,1:0:0:0:
+190,206,238322,1,0,1:0:0:0:
+185,252,238412,1,0,1:0:0:0:
+206,295,238502,5,12,2:0:0:0:
+451,161,238682,1,12,2:0:0:0:
+145,7,238863,1,0,1:0:0:0:
+295,349,239044,6,0,B|346:337|346:337|379:351|379:351|451:335,1,142.5,4|0,1:0|2:0,2:0:0:0:
+512,197,239405,2,0,B|459:185|459:185|426:199|426:199|375:187,1,142.5,2|0,1:3|2:0,2:0:0:0:
+272,244,239767,2,0,P|309:247|335:249,1,47.5,4|0,1:0|2:0,2:0:0:0:
+409,105,239947,5,0,1:0:0:0:
+111,139,240128,5,8,2:3:0:0:
+375,187,240309,1,8,2:1:0:0:
+231,175,240580,5,8,2:1:0:0:
+263,164,240670,1,8,2:1:0:0:
+111,139,240851,5,0,1:0:0:0:
+375,187,241032,1,8,2:0:0:0:
+398,191,241122,1,8,2:0:0:0:
+421,198,241212,1,0,1:0:0:0:
+82,216,241393,6,0,P|72:147|55:42,1,142.5,4|0,1:0|2:0,2:0:0:0:
+43,53,241755,1,8,2:0:0:0:
+167,239,241935,2,0,P|218:224|263:218,1,95,2|0,2:1|1:0,2:0:0:0:
+296,240,242207,1,8,2:0:0:0:
+296,240,242297,1,2,2:1:0:0:
+159,140,242478,1,8,2:0:0:0:
+310,24,242658,6,0,P|299:74|293:127,1,95,2|0,2:1|1:0,2:0:0:0:
+501,195,243020,2,0,P|495:147|484:101,1,95,2|8,2:1|2:0,2:0:0:0:
+296,240,243381,2,0,P|285:290|279:343,1,95,2|0,2:1|1:0,2:0:0:0:
+299,371,243652,1,8,2:0:0:0:
+299,371,243743,1,2,2:1:0:0:
+500,315,243923,2,0,P|460:280|346:303,1,142.5,8|0,2:0|2:0,2:0:0:0:
+189,231,244285,6,0,P|296:216|308:214,1,95,4|2,1:0|2:1,2:0:0:0:
+450,161,244646,1,8,2:0:0:0:
+352,4,244827,2,0,P|331:54|344:128,1,95,2|0,2:1|1:0,2:0:0:0:
+349,134,245098,1,8,2:0:0:0:
+349,134,245188,1,2,2:1:0:0:
+471,25,245369,1,8,2:0:0:0:
+245,50,245550,6,0,P|205:41|145:34,1,95,2|0,2:1|1:0,2:0:0:0:
+26,176,245911,2,0,P|73:170|119:160,1,95,2|8,2:1|2:0,2:0:0:0:
+294,265,246273,2,0,P|241:246|172:256,1,95,2|0,2:1|1:0,2:0:0:0:
+169,284,246544,1,8,2:0:0:0:
+169,284,246634,1,2,2:1:0:0:
+364,355,246815,2,0,P|374:310|379:296,1,47.5,8|0,2:0|2:0,2:0:0:0:
+444,220,246996,2,0,P|450:242|454:266,1,47.5,2|0,2:1|2:0,2:0:0:0:
+266,378,247176,6,0,P|186:372|98:362,1,142.5,4|0,1:0|2:0,2:0:0:0:
+86,378,247538,1,8,2:0:0:0:
+17,175,247719,2,0,P|26:234|31:282,1,95,2|0,2:1|1:0,2:0:0:0:
+24,305,247990,1,8,2:0:0:0:
+24,305,248080,1,2,2:1:0:0:
+37,83,248261,1,8,2:0:0:0:
+213,193,248441,6,0,P|268:180|326:153,1,95,2|0,2:1|1:0,2:0:0:0:
+417,305,248803,2,0,P|372:287|326:277,1,95,2|8,2:1|2:0,2:0:0:0:
+272,74,249164,2,0,P|327:61|385:34,1,95,2|0,2:1|1:0,2:0:0:0:
+394,19,249435,1,8,2:0:0:0:
+394,19,249526,1,2,2:1:0:0:
+137,147,249707,1,8,2:0:0:0:
+420,189,249887,1,2,2:1:0:0:
+125,32,250068,5,8,2:0:0:0:
+232,318,250249,2,0,P|263:272|272:254,1,47.5,0|0,1:0|2:0,2:0:0:0:
+419,69,250429,1,8,2:0:0:0:
+59,189,250610,5,4,1:0:0:0:
+378,370,250972,5,6,1:3:0:0:
+389,13,251333,6,0,B|305:17|345:67|245:66,1,142.5,4|0,1:0|2:0,2:0:0:0:
+228,43,251694,5,8,2:1:0:0:
+79,195,251875,1,8,2:0:0:0:
+151,366,252056,1,8,2:0:0:0:
+165,359,252146,1,8,2:1:0:0:
+165,359,252417,5,8,2:0:0:0:
+302,231,252598,1,8,2:0:0:0:
+486,316,252779,1,8,2:0:0:0:
+483,339,252869,1,8,2:0:0:0:
+480,363,252960,5,4,1:0:0:0:
+256,192,253050,12,0,257116,2:0:0:0:
