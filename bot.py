@@ -73,7 +73,7 @@ async def on_message(message):
 
         # parse input
         try:
-            map_id = msg[:msg.index(' ')]
+            map_id = msg[:msg.index(' ')] if ' ' in msg else msg
             if '/' in map_id:
                 map_id = map_id[map_id.strip('/').rindex('/')+1:]
             map_id = ''.join(c for c in map_id if '0' <= c <= '9')
@@ -81,6 +81,9 @@ async def on_message(message):
             page = 1
             if ' ' in msg:
                 page = int(msg[msg.index(' ')+1:])
+
+            if not (1 <= page <= 10):
+                raise Exception
 
             await get_similar_maps(ch, map_id, page)
         except:
