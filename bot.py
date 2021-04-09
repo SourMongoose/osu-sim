@@ -1,3 +1,5 @@
+# https://discord.com/api/oauth2/authorize?client_id=829860591405498419&permissions=51200&scope=bot
+
 import discord
 
 import similarity_buckets
@@ -11,7 +13,10 @@ async def invalid_input(ch):
     embed = discord.Embed(description=description, color=color)
     await ch.send(embed=embed)
 
-async def get_similar_maps(ch, map_id, n=10):
+async def get_similar_maps(ch, map_id, page=1):
+    perpage = 10
+    n = page * perpage
+
     color = discord.Color.from_rgb(255, 255, 100)
     description = 'Calculating...'
     footer = 'This should take about 30 seconds.'
@@ -28,7 +33,7 @@ async def get_similar_maps(ch, map_id, n=10):
 
     color = discord.Color.from_rgb(100, 255, 100)
     title = f'Maps similar to {map_id}:'
-    description = '\n'.join(f'**{i+1})** {sim[i][0].replace(".osu.dist","")}' for i in range(len(sim)))
+    description = '\n'.join(f'**{i+1})** {sim[i][0].replace(".osu.dist","")}' for i in range((page-1)*perpage, page*perpage))
     embed = discord.Embed(title=title, description=description, color=color)
     await calc_msg.edit(embed=embed)
 
@@ -56,7 +61,7 @@ async def on_message(message):
     if msg == C+'help' or msg == C+'h':
         title = 'Command List'
         color = discord.Color.from_rgb(150,150,150)
-        description = f'**{C}s**im `<beatmap id/link>`\nFind similar maps\n\n' \
+        description = f'**{C}s**im `<beatmap id/link>` `[page]`\nFind similar maps\n\n' \
                       f'**{C}h**elp\nView commands'
         embed = discord.Embed(title=title, description=description, color=color)
         embed.set_footer(text="Omit brackets. Square brackets ([]) indicate optional parameters.")
@@ -64,12 +69,21 @@ async def on_message(message):
 
     # find similar maps
     if any(msg.startswith(C+s+' ') for s in ['s', 'sim', 'similar']):
-        # parse input
-        map_id = msg[msg.index(' ')+1:]
-        if '/' in map_id:
-            map_id = map_id[map_id.strip('/').rindex('/')+1:]
-        map_id = ''.join(c for c in map_id if '0' <= c <= '9')
+        msg = msg[msg.index(' ')+1:]
 
-        await get_similar_maps(ch, map_id)
+        # parse input
+        try:
+            map_id = msg[:msg.index(' ')]
+            if '/' in map_id:
+                map_id = map_id[map_id.strip('/').rindex('/')+1:]
+            map_id = ''.join(c for c in map_id if '0' <= c <= '9')
+
+            page = 1
+            if ' ' in msg:
+                page = int(msg[msg.index(' ')+1:])
+
+            await get_similar_maps(ch, map_id, page)
+        except:
+            await invalid_input(ch)
 
 client.run(tokens.token)
