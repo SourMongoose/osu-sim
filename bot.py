@@ -35,6 +35,7 @@ async def get_similar_maps(ch, map_id, page=1):
     title = f'Maps similar to {map_id}:'
     description = '\n'.join(f'**{i+1})** {sim[i][0].replace(".osu.dist","")}' for i in range((page-1)*perpage, page*perpage))
     embed = discord.Embed(title=title, description=description, color=color)
+    embed.set_footer(text=f'Page {page} of 10')
     await calc_msg.edit(embed=embed)
 
 # command starter
