@@ -39,7 +39,7 @@ async def get_similar_maps(ch, map_id, page=1):
     await calc_msg.edit(embed=embed)
 
 # command starter
-C = '!'
+C = '.'
 
 @client.event
 async def on_ready():
