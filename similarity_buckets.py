@@ -55,18 +55,27 @@ def get_similar(id, n=50):
 
     similarities = []
 
-    bkts_dir = 'buckets'
-    cnt = 0
-    for entry in os.scandir(bkts_dir):
-        if entry.is_file() and not entry.name.startswith(filename):
-            temp_bkts = get_buckets(entry.path)
-            similarities.append((entry.name, get_similarity(bkts, temp_bkts)))
-            cnt += 1
-            # if cnt % 100 == 0:
-            #     print(cnt)
+    for file in all_buckets:
+        if file.startswith(filename):
+            continue
+
+        similarities.append((file, get_similarity(bkts, all_buckets[file])))
 
     similarities.sort(key=lambda s: -s[1])
     return similarities[:n]
+
+def get_all_buckets():
+    buckets = {}
+
+    bkts_dir = 'buckets'
+    for entry in os.scandir(bkts_dir):
+        if entry.is_file():
+            temp_bkts = get_buckets(entry.path)
+            buckets[entry.name] = temp_bkts
+
+    return buckets
+
+all_buckets = get_all_buckets()
 
 if __name__ == '__main__':
     get_similar(771858)

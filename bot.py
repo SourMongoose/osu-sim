@@ -19,7 +19,7 @@ async def get_similar_maps(ch, map_id, page=1):
 
     color = discord.Color.from_rgb(255, 255, 100)
     description = 'Calculating...'
-    footer = 'This should take about 30 seconds.'
+    footer = 'This should take about 5 seconds.'
     embed = discord.Embed(description=description, color=color)
     embed.set_footer(text=footer)
     calc_msg = await ch.send(embed=embed)
@@ -38,7 +38,7 @@ async def get_similar_maps(ch, map_id, page=1):
     await calc_msg.edit(embed=embed)
 
 # command starter
-C = '.'
+C = '!'
 
 @client.event
 async def on_ready():
