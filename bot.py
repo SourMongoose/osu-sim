@@ -1,4 +1,4 @@
-# https://discord.com/api/oauth2/authorize?client_id=829860591405498419&permissions=51200&scope=bot
+# https://discord.com/api/oauth2/authorize?client_id=829860591405498419&permissions=18432&scope=bot
 
 import discord
 
@@ -75,9 +75,18 @@ async def on_message(message):
         title = 'Command List'
         color = discord.Color.from_rgb(150,150,150)
         description = f'**{C}s**im `<beatmap id/link>` `[page]`\nFind similar maps\n\n' \
+                      f'**{C}i**nvite\nGet this bot\'s invite link\n\n' \
                       f'**{C}h**elp\nView commands'
         embed = discord.Embed(title=title, description=description, color=color)
         embed.set_footer(text="Omit brackets. Square brackets ([]) indicate optional parameters.")
+        await ch.send(embed=embed)
+
+    # invite link
+    if msg == C+'invite' or msg == C+'i':
+        title = 'Invite this bot to your server:'
+        color = discord.Color.from_rgb(150, 150, 150)
+        description = 'https://discord.com/api/oauth2/authorize?client_id=829860591405498419&permissions=18432&scope=bot'
+        embed = discord.Embed(title=title, description=description, color=color)
         await ch.send(embed=embed)
 
     # find similar maps
