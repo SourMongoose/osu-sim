@@ -33,10 +33,24 @@ async def get_similar_maps(ch, map_id, page=1):
 
     color = discord.Color.from_rgb(100, 255, 100)
     title = f'Maps similar to {map_id}:'
-    description = '\n'.join(f'**{i+1})** {sim[i][0].replace(".osu.dist","")}' for i in range((page-1)*perpage, page*perpage))
+    file_to_link = lambda f: f'https://osu.ppy.sh/b/{map_ids[f.replace(".dist", "")]}' if f.replace(".dist", "") in map_ids else ''
+    description = '\n'.join(f'**{i+1})** {sim[i][0].replace(".osu.dist","")}\n{file_to_link(sim[i][0])}' for i in range((page-1)*perpage, page*perpage))
     embed = discord.Embed(title=title, description=description, color=color)
     embed.set_footer(text=f'Page {page} of 10')
     await calc_msg.edit(embed=embed)
+
+def get_map_ids():
+    map_ids = {}
+
+    with open('filenames.txt', 'r') as f:
+        lines = f.readlines()
+
+    for i in range(0, len(lines), 2):
+        map_ids[lines[i + 1].strip()] = lines[i].strip()
+
+    return map_ids
+
+map_ids = get_map_ids()
 
 # command starter
 C = '.'
@@ -48,8 +62,6 @@ async def on_ready():
 
 @client.event
 async def on_message(message):
-    global trading_enabled
-
     msg = message.content.lower()
     ch = message.channel
     au = message.author
