@@ -27,10 +27,10 @@ def get_similar(id, n=50):
 
         similarities.append((file, manhattan(sr, srs[file])))
 
-    similarities.sort(key=lambda s: -s[1])
+    similarities.sort(key=lambda s: s[1])
     return similarities[:n]
 
 srs = getsrs.get_srs()
 
 if __name__ == '__main__':
-    get_similar(2659369)
+    print(get_similar(2118443))

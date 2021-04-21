@@ -1,6 +1,8 @@
+from osu_sr_calculator.osu_sr_calculator import calculateStarRating
+
 def get_sr(map):
-    # TODO: get sr of map file
-    return (0, 0)
+    rating = calculateStarRating(returnAllDifficultyValues=True, filepath=map)
+    return rating['nomod']['aim'], rating['nomod']['speed']
 
 def get_srs(srs_file='srs.txt'):
     srs = {}
