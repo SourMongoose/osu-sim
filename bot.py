@@ -33,7 +33,7 @@ async def get_similar_maps(ch, map_id, page=1):
         return
 
     color = discord.Color.from_rgb(100, 255, 100)
-    title = f'Maps similar to {map_id}:'
+    title = f'Maps similar in structure to {map_id}:'
     file_to_link = lambda f: f'https://osu.ppy.sh/b/{map_ids[f.replace(".dist", "")]}' if f.replace(".dist", "") in map_ids else ''
     description = '\n'.join(f'**{i+1})** {sim[i][0].replace(".osu.dist","")}\n{file_to_link(sim[i][0])}' for i in range((page-1)*perpage, page*perpage))
     embed = discord.Embed(title=title, description=description, color=color)
@@ -51,7 +51,7 @@ async def get_rating_maps(ch, map_id, page=1):
         return
 
     color = discord.Color.from_rgb(100, 255, 100)
-    title = f'Maps similar to {map_id}:'
+    title = f'Maps similar in star rating to {map_id}:'
     file_to_link = lambda f: f'https://osu.ppy.sh/b/{map_ids[f+".osu"]}' if f+".osu" in map_ids else ''
     description = '\n'.join(f'**{i+1})** {sim[i][0].replace(".osu.dist","")}\n{file_to_link(sim[i][0])}' for i in range((page-1)*perpage, page*perpage))
     embed = discord.Embed(title=title, description=description, color=color)
