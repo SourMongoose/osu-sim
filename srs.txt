@@ -128,9 +128,9 @@
 3.23,2.71
 38BEETS - platinum platonic (Leorda) [Platinum]
 1.95,2.11
-3L - Be Happy* (cRyo[iceeicee]) [Happy!!!]
+3L - Be Happy (cRyo[iceeicee]) [Happy!!!]
 2.07,2.09
-3L - Be Happy* (moonlightleaf) [Happy!]
+3L - Be Happy (moonlightleaf) [Happy!]
 2.41,2.25
 3L - Endless night (sjoy) [Eternal]
 2.36,2.18
@@ -274,7 +274,7 @@
 2.03,1.97
 777minus111 - bonus level 2 (Kert) [Midnight]
 2.14,1.98
-7TH SISTERS - Star*Glitter (-Nya-) [Insane]
+7TH SISTERS - StarGlitter (-Nya-) [Insane]
 2.31,2.18
 7UPPERCUTS x CAM - [WAVE ALPHA] (Asaiga) [Extra]
 3.1,2.32
@@ -504,13 +504,13 @@ Aether Realm - The Sun, The Moon, The Star (ItsWinter) [Mourning Those Things I'
 3.71,3.75
 AFI - Miss Murder (Mashley) [Insane]
 2.49,2.16
-Afilia Saga - Neptune*Sagashite (Gear) [Insane]
+Afilia Saga - NeptuneSagashite (Gear) [Insane]
 2.13,1.79
-Afilia Saga - Neptune*Sagashite (Hanasaka Yui) [New Game!!]
+Afilia Saga - NeptuneSagashite (Hanasaka Yui) [New Game!!]
 2.37,1.78
-Afilia Saga - Neptune*Sagashite (TV Size) (Log Off Now) [Insane]
+Afilia Saga - NeptuneSagashite (TV Size) (Log Off Now) [Insane]
 2.3,1.74
-Afilia Saga - Neptune*Sagashite (TV Size) (Log Off Now) [My Sweet Heart!]
+Afilia Saga - NeptuneSagashite (TV Size) (Log Off Now) [My Sweet Heart!]
 2.61,1.79
 Afilia Saga - Never say Never (Kibbleru) [Insane]
 2.64,2.33
@@ -520,11 +520,11 @@ Afilia Saga - S.M.L (Tari) [Insane]
 2.8,2.35
 Afilia Saga - S.M.L (TV size ver.) (Chaoslitz) [Insane]
 2.59,2.21
-Afilia Saga - S.M.L* (TV size ver.) (Kanau) [-lolist-'s Insane]
+Afilia Saga - S.M.L (TV size ver.) (Kanau) [-lolist-'s Insane]
 2.49,2.37
-Afilia Saga - S.M.L* (TV size ver.) (Kanau) [Meg's Extra]
+Afilia Saga - S.M.L (TV size ver.) (Kanau) [Meg's Extra]
 2.84,2.64
-Afilia Saga - S.M.L* (TV size ver.) (Kanau) [Melty Extra]
+Afilia Saga - S.M.L (TV size ver.) (Kanau) [Melty Extra]
 2.94,2.51
 Afilia Saga - S.M.L (TV Size) (Fycho) [Insane]
 2.72,2.51
@@ -692,7 +692,7 @@ Aimi - Link (TV Size) (smallboat) [wkyik's Extra]
 2.82,2.22
 Aimi - LIVE for LIFE ~Ookamitachi no Yoru~ (TV Size) (eiri-) [Trynna's Insane]
 2.3,2.15
-Aimi, Sakura Ayane, Maeshima Ami, Aiba Aina, Itou Miku - Picotto! Papitto!! GARUPA*PICO!!! (TV Size) (-Aqua) [Yonaka's Hard]
+Aimi, Sakura Ayane, Maeshima Ami, Aiba Aina, Itou Miku - Picotto! Papitto!! GARUPAPICO!!! (TV Size) (-Aqua) [Yonaka's Hard]
 1.96,1.77
 Aiobahn & Yunomi - Ginga Tetsudou no Penguin ft. nicamoq (Stripe.P Remix) (Mentai) [Left's Galaxy Express]
 3.06,2.64
@@ -744,17 +744,17 @@ Aitsuki Nakuru - Monochrome Butterfly (Sotarks) [NiNo's Insane]
 2.26,2.19
 Aitsuki Nakuru - Monochrome Butterfly (Sotarks) [Uniform]
 3.31,2.25
-Aitsuki Nakuru - Presenter* (Hanazawa Kana) [Eirna's Extra]
+Aitsuki Nakuru - Presenter (Hanazawa Kana) [Eirna's Extra]
 3.17,2.86
-Aitsuki Nakuru - Presenter* (Hanazawa Kana) [Gift]
+Aitsuki Nakuru - Presenter (Hanazawa Kana) [Gift]
 4.1,3.42
-Aitsuki Nakuru - Presenter* (Hanazawa Kana) [Tsumia's Extra]
+Aitsuki Nakuru - Presenter (Hanazawa Kana) [Tsumia's Extra]
 3.38,3.38
-Aitsuki Nakuru - Presenter* (toybot) [Flask's Extreme]
+Aitsuki Nakuru - Presenter (toybot) [Flask's Extreme]
 3.53,2.95
-Aitsuki Nakuru - Presenter* (toybot) [Lasse's Extra]
+Aitsuki Nakuru - Presenter (toybot) [Lasse's Extra]
 2.99,2.57
-Aitsuki Nakuru - Presenter* (toybot) [Noel]
+Aitsuki Nakuru - Presenter (toybot) [Noel]
 3.8,3.26
 Aitsuki Nakuru - Qualia no Rinkaku (Fushimi Rio) [Parallelogram]
 3.17,2.8
@@ -762,13 +762,13 @@ Aitsuki Nakuru - Qualia no Rinkaku (Fushimi Rio) [PinkHeart's Extra]
 2.84,2.11
 Aitsuki Nakuru - Qualia no Rinkaku (Fushimi Rio) [SB's Insane]
 2.31,1.91
-Aiurabu - Kani*Do-Luck! (TV Size) (Azunyan-) [A I U R A !]
+Aiurabu - KaniDo-Luck! (TV Size) (Azunyan-) [A I U R A !]
 3.53,2.45
-Aiurabu - Kani*Do-Luck! (TV Size) (Azunyan-) [Extra!]
+Aiurabu - KaniDo-Luck! (TV Size) (Azunyan-) [Extra!]
 2.98,2.38
-Aiurabu - Kani*Do-Luck! (TV Size) (Azunyan-) [Extreme!]
+Aiurabu - KaniDo-Luck! (TV Size) (Azunyan-) [Extreme!]
 3.25,2.38
-Aiurabu - Kani*Do-Luck! (TV Size) (Azunyan-) [Insane!]
+Aiurabu - KaniDo-Luck! (TV Size) (Azunyan-) [Insane!]
 2.33,2.23
 Aizawa - Flutter Girl (Shinxyn) [Insane]
 2.13,2.02
@@ -904,9 +904,9 @@ AKI AKANE - Hankyou no Barrier Seed (Milan-) [Saut's Extra]
 2.95,2.62
 AKI AKANE - Kanashimi no Nami ni Oboreru (Milan-) [pishi's Extra]
 2.77,2.29
-AKI AKANE - Kando*Reduction (Milan-) [Pho's Elimination]
+AKI AKANE - KandoReduction (Milan-) [Pho's Elimination]
 3.27,2.89
-AKI AKANE - Kando*Reduction (Milan-) [pishi's Extra]
+AKI AKANE - KandoReduction (Milan-) [pishi's Extra]
 2.98,2.83
 AKI AKANE - Lost Story (Milan-) [Insane]
 2.27,2.23
@@ -1552,9 +1552,9 @@ angela - DEAD OR ALIVE (kunka) [Gobain]
 2.69,2.71
 angela - Otome no Route wa Hitotsu Janai! (TV Size) (kanpakyin) [Uta's Insane]
 2.39,2.01
-angela - Zenryoku*Summer! TV Size (AngelSnow) [buhei's *Banana*]
+angela - ZenryokuSummer! TV Size (AngelSnow) [buhei's Banana]
 2.68,2.23
-angela - Zenryoku*Summer! TV Size (AngelSnow) [Insane]
+angela - ZenryokuSummer! TV Size (AngelSnow) [Insane]
 2.47,2.02
 Angela Chang - Aurora (Rizen) [Celestial]
 2.17,1.92
@@ -1594,7 +1594,7 @@ anNina - ombre (Lasse) [twilight]
 2.66,2.13
 Annyy - Pick Me Up In The Dance Hall (lovhin456) [Mix710]
 2.14,2.18
-Another Infinity feat. Mayumi Morinaga - COME BACK TO MY HEART (Ryu* Remix) (CSY the corrupt) [Extreme]
+Another Infinity feat. Mayumi Morinaga - COME BACK TO MY HEART (Ryu Remix) (CSY the corrupt) [Extreme]
 2.8,2.36
 Another Infinity feat. Mayumi Morinaga - Glitter (Starving Trancer Remix) (wmtokok) [Insane]
 2.03,1.9
@@ -1868,23 +1868,23 @@ Aqours - Mirai no Bokura wa Shitteru yo (StarrStyx) [Underdogs's Insane]
 2.4,2.16
 Aqours - Mitaiken HORIZON (Sotarks) [Sunshine]
 3.2,2.47
-Aqours - MY Mai*TONIGHT (Doormat) [Gaia's Insane]
+Aqours - MY MaiTONIGHT (Doormat) [Gaia's Insane]
 2.68,2.39
-Aqours - MY Mai*TONIGHT (Doormat) [Little's Insane]
+Aqours - MY MaiTONIGHT (Doormat) [Little's Insane]
 2.43,2.29
-Aqours - MY Mai*TONIGHT (Doormat) [Meg's Extra]
+Aqours - MY MaiTONIGHT (Doormat) [Meg's Extra]
 2.82,2.48
-Aqours - MY Mai*TONIGHT (Doormat) [Odore]
+Aqours - MY MaiTONIGHT (Doormat) [Odore]
 3.2,2.5
-Aqours - MY Mai*TONIGHT (lit120) [Passion Dance]
+Aqours - MY MaiTONIGHT (lit120) [Passion Dance]
 3.35,2.44
-Aqours - MY Mai*TONIGHT (lit120) [Regraz's Light Insane]
+Aqours - MY MaiTONIGHT (lit120) [Regraz's Light Insane]
 2.26,2.24
-Aqours - MY Mai*TONIGHT (My Angel Kanan) [Kotori's Insane]
+Aqours - MY MaiTONIGHT (My Angel Kanan) [Kotori's Insane]
 2.33,2.2
-Aqours - MY Mai*TONIGHT (My Angel Kanan) [newton's Insane]
+Aqours - MY MaiTONIGHT (My Angel Kanan) [newton's Insane]
 2.63,2.23
-Aqours - MY Mai*TONIGHT (My Angel Kanan) [sdafsf's Odore]
+Aqours - MY MaiTONIGHT (My Angel Kanan) [sdafsf's Odore]
 2.97,2.49
 Aqours - Omoi yo Hitotsu ni Nare (Sakurauchi Riko) [Walao's Insane]
 2.48,2.1
@@ -2006,13 +2006,13 @@ Arizona Zervas - ROXANNE (wafer) [Insane]
 2.26,1.89
 Arizona Zervas - ROXANNE (wafer) [Rock Sand]
 2.74,2.09
-ARM feat. Nanahira - Bakunana*Testroyer (intoon) [-Yuzuriha's Insane]
+ARM feat. Nanahira - BakunanaTestroyer (intoon) [-Yuzuriha's Insane]
 2.38,2.13
-ARM feat. Nanahira - Bakunana*Testroyer (intoon) [Expert]
+ARM feat. Nanahira - BakunanaTestroyer (intoon) [Expert]
 2.72,2.74
-ARM feat. Nanahira - Bakunana*Testroyer (intoon) [Kami's Another]
+ARM feat. Nanahira - BakunanaTestroyer (intoon) [Kami's Another]
 2.65,2.59
-ARM feat. Nanahira - Bakunana*Testroyer (intoon) [Nana]
+ARM feat. Nanahira - BakunanaTestroyer (intoon) [Nana]
 3.28,2.98
 ARM x Komso feat. Nanahira - Onegai! Kon kon Oinarisama (ColdTooth) [Expert]
 2.54,2.45
@@ -2024,9 +2024,9 @@ ArsMagna - Himitsu o Choudai (Kyubey) [Insane]
 2.65,2.07
 ArsMagna - Himitsu o Choudai (Kyubey) [Seikatu's Insane]
 2.3,1.95
-a*ru - Kizuato (Halfslashed) [Extra Stage]
+aru - Kizuato (Halfslashed) [Extra Stage]
 2.83,2.35
-a*ru - Kizuato (Halfslashed) [MrSergio's Lunatic]
+aru - Kizuato (Halfslashed) [MrSergio's Lunatic]
 2.52,2.32
 Asaba Kanae - Endless Starlight ~Inochi no Kirameki~ (Full ver.) (Xayah) [Xtrah]
 3.25,2.28
@@ -2166,11 +2166,11 @@ Ata - Euphoria (Ciyus Miapah) [Ultimate Power]
 4.3,3.84
 ATC - Around The World (Nightcore Mix) (Tonoicutzu) [Insane]
 1.98,2.05
-A*Teens - Gimme! Gimme! Gimme! (Nightcore Mix) (Piscis) [D.N.Angel]
+ATeens - Gimme! Gimme! Gimme! (Nightcore Mix) (Piscis) [D.N.Angel]
 2.31,2.02
-A*Teens - Gimme! Gimme! Gimme! (Nightcore Mix) (ShadowSoul) [CDFGimme!]
+ATeens - Gimme! Gimme! Gimme! (Nightcore Mix) (ShadowSoul) [CDFGimme!]
 2.47,2.63
-A*Teens - Gimme! Gimme! Gimme! (Nightcore Mix) (ShadowSoul) [Gimme! Gimme! Gimme!]
+ATeens - Gimme! Gimme! Gimme! (Nightcore Mix) (ShadowSoul) [Gimme! Gimme! Gimme!]
 2.2,2.01
 ATL - Magic people (Ksardas) [Maruoko's Extra]
 3.07,2.43
@@ -2214,7 +2214,7 @@ ave;new - Songs Compilation (Laurier) [Extra]
 3.08,2.7
 ave;new feat. Avenew Project - Lovely Angel!! (Astom) [Angel Arrow]
 2.15,2.08
-ave;new feat. Sakura Saori & Shirasawa Rie - Love Doki Suki Angel * Paradise!! (DarknessAngel) [D.N.Angel]
+ave;new feat. Sakura Saori & Shirasawa Rie - Love Doki Suki Angel  Paradise!! (DarknessAngel) [D.N.Angel]
 2.26,1.93
 ave;new feat. Sakura Saori - Graceful Anomaly (alacat) [Insane]
 2.25,1.9
@@ -2306,7 +2306,7 @@ Ayaka Ohashi - Wagamama MIRROR HEART (Rizia) [Insane]
 2.66,2.36
 Ayaka Ohashi - Wagamama MIRROR HEART (Rizia) [Kisses' Extra]
 2.83,2.47
-Ayakura Mei + mican* - Saigetsu (James) [Hard]
+Ayakura Mei + mican - Saigetsu (James) [Hard]
 2.23,1.88
 Ayakura Mei - Puzzle Maker (moonlightleaf) [Lunatic]
 2.11,1.84
@@ -2360,19 +2360,19 @@ Ayane - FaV (Short Ver.) (SMOKELIND) [Kowari's Extra]
 3.05,2.29
 Ayane - FaV (Short Ver.) (SMOKELIND) [Reform's Insane]
 2.4,2.08
-Ayane - FaV -F*** and Vanguard- (Corinn) [-lolitoshi-'s Insane]
+Ayane - FaV -F and Vanguard- (Corinn) [-lolitoshi-'s Insane]
 2.5,2.24
-Ayane - FaV -F*** and Vanguard- (Corinn) [Expert]
+Ayane - FaV -F and Vanguard- (Corinn) [Expert]
 2.89,2.45
-Ayane - FaV -F*** and Vanguard- (Corinn) [Happiness]
+Ayane - FaV -F and Vanguard- (Corinn) [Happiness]
 3.14,2.56
-Ayane - FaV -F*** and Vanguard- (Corinn) [Hard]
+Ayane - FaV -F and Vanguard- (Corinn) [Hard]
 1.89,1.83
-Ayane - FaV -F*** and Vanguard- (Xexxar) [Extra]
+Ayane - FaV -F and Vanguard- (Xexxar) [Extra]
 2.94,2.43
-Ayane - FaV -F*** and Vanguard- (Xexxar) [Insane]
+Ayane - FaV -F and Vanguard- (Xexxar) [Insane]
 2.52,2.23
-Ayane - FaV -F*** and Vanguard- (Xexxar) [Lamune War!]
+Ayane - FaV -F and Vanguard- (Xexxar) [Lamune War!]
 3.3,2.74
 Ayane - Genjutsu no Crossroad (Bellicose) [Mind's Insane]
 2.44,2.34
@@ -2414,37 +2414,37 @@ Ayano Mashiro - ideal white (TV size) (xChippy) [CXu's Insane]
 2.14,2.13
 Ayano Mashiro - ideal white (TV size) (xChippy) [Divine]
 2.63,2.25
-ayaponzu* - Haikei Doppelganger (Stack) [Who Are You?]
+ayaponzu - Haikei Doppelganger (Stack) [Who Are You?]
 3.28,3.31
-ayaponzu* - Otsukimi Recital (captin1) [Broccoly's Extra]
+ayaponzu - Otsukimi Recital (captin1) [Broccoly's Extra]
 2.91,2.47
-ayaponzu* - Otsukimi Recital (captin1) [Fang's Insane]
+ayaponzu - Otsukimi Recital (captin1) [Fang's Insane]
 2.49,2.4
-ayaponzu* - Six trillion years and overnight story (Gottagof4st) [Disappearing Sunset]
+ayaponzu - Six trillion years and overnight story (Gottagof4st) [Disappearing Sunset]
 3.51,2.94
-ayaponzu* - Six trillion years and overnight story (Gottagof4st) [Yugu's Extra]
+ayaponzu - Six trillion years and overnight story (Gottagof4st) [Yugu's Extra]
 2.95,3.03
-Ayaponzu* - Streaming Heart (Lasse) [Ambiguity]
+Ayaponzu - Streaming Heart (Lasse) [Ambiguity]
 3.58,2.87
-Ayaponzu* - Streaming Heart (Lasse) [Expert]
+Ayaponzu - Streaming Heart (Lasse) [Expert]
 2.82,2.55
-Ayaponzu* - Streaming Heart (Lasse) [Extra]
+Ayaponzu - Streaming Heart (Lasse) [Extra]
 3.21,2.85
-Ayaponzu* - Streaming Heart (Lasse) [Insane]
+Ayaponzu - Streaming Heart (Lasse) [Insane]
 2.57,2.25
-Ayaponzu* - Streaming Heart (Lasse) [Karen's Extra]
+Ayaponzu - Streaming Heart (Lasse) [Karen's Extra]
 3.1,2.98
-ayaponzu* - Yakubyougami (Pho) [Collab Extra]
+ayaponzu - Yakubyougami (Pho) [Collab Extra]
 3.1,2.75
-ayaponzu* - Yakubyougami (Pho) [cRyo's Extra]
+ayaponzu - Yakubyougami (Pho) [cRyo's Extra]
 3.42,3.31
-ayaponzu* - Yakubyougami (Pho) [Elimination]
+ayaponzu - Yakubyougami (Pho) [Elimination]
 3.73,3.25
-ayaponzu* - Yakubyougami (Pho) [Insane]
+ayaponzu - Yakubyougami (Pho) [Insane]
 2.7,2.4
-ayaponzu* - Yakubyougami (Pho) [LMT's Hard]
+ayaponzu - Yakubyougami (Pho) [LMT's Hard]
 2.16,1.87
-ayaponzu* - Yakubyougami (Pho) [momoko's Extra]
+ayaponzu - Yakubyougami (Pho) [momoko's Extra]
 3.42,3.13
 Ayase Eli (CV.Nanjou Yoshino) & Tojo Nozomi (CV.Kusuda Aina) - Garasu no Hanazono (-Aqua) [Akitoshi's Insane]
 2.24,2.05
@@ -2464,21 +2464,21 @@ Ayase Rie - Hijitsuzaikei Joshitachi wa Dou Surya Ii Desu ka? (Left) [Mitsuna's 
 2.4,2.4
 Ayase Rie - Hijitsuzaikei Joshitachi wa Dou Surya Ii Desu ka? (Left) [Utopia?]
 3.36,3.21
-ayase rie - yuima-ru*world (Linada) [Extra]
+ayase rie - yuima-ruworld (Linada) [Extra]
 3.05,2.39
-ayase rie - yuima-ru*world (Linada) [Real's Insane]
+ayase rie - yuima-ruworld (Linada) [Real's Insane]
 2.21,2.19
-Ayase Rie - Yuima-ru*World TVver. (Fycho) [Extra]
+Ayase Rie - Yuima-ruWorld TVver. (Fycho) [Extra]
 2.89,2.11
-Ayase Rie - Yuima-ru*World TVver. (Fycho) [Insane]
+Ayase Rie - Yuima-ruWorld TVver. (Fycho) [Insane]
 2.25,1.97
-Ayase Rie - Yuima-ru*World TVver. (Fycho) [Ultimate]
+Ayase Rie - Yuima-ruWorld TVver. (Fycho) [Ultimate]
 3.38,2.18
-Ayase Rie feat. Hata-tan - Yuima-ru*World TVver. (Hey lululu) [Insane]
+Ayase Rie feat. Hata-tan - Yuima-ruWorld TVver. (Hey lululu) [Insane]
 2.35,2.04
-Ayase Rie feat. Hata-tan - Yuima-ru*World TVver. (Hey lululu) [Laura's Extra]
+Ayase Rie feat. Hata-tan - Yuima-ruWorld TVver. (Hey lululu) [Laura's Extra]
 3.05,2.13
-Ayase Rie feat. Hata-tan - Yuima-ru*World TVver. (Hey lululu) [Ultimate]
+Ayase Rie feat. Hata-tan - Yuima-ruWorld TVver. (Hey lululu) [Ultimate]
 3.31,2.23
 Ayumi Hamasaki - Evolution (Time Is Pop) (Aqua92) [Aqua's Expert]
 2.35,2.28
@@ -3636,7 +3636,7 @@ capsule - dreamin dreamin (Irreversible) [Insane]
 2.04,1.72
 Carach Angren - Once upon a Time... / There's No Place Like Home (TheKingHenry) [Hideous Fairytale]
 3.31,3.66
-Caramell - Caramelldansen (Ryu* Remix) (Nightcore Mix) (Star Stream) [Collab]
+Caramell - Caramelldansen (Ryu Remix) (Nightcore Mix) (Star Stream) [Collab]
 2.77,2.84
 Caramell - Caramelldansen (Speedycake Remix) (0_o) [LESJUH DIFFICULTY!!]
 2.23,2.17
@@ -3674,7 +3674,7 @@ Casandra - Freaks Romanticism (kwk) [Insane]
 2.69,2.35
 Casandra - Freaks Romanticism (Ohwow) [Extra]
 2.92,2.35
-Casandra - Junpaku*study time (Xexxar) [Semi Little Girl!]
+Casandra - Junpakustudy time (Xexxar) [Semi Little Girl!]
 3.15,3.18
 Cascada - Bad Boy (Nightcore Mix) (-Bakari-) [Insane]
 2.19,2.06
@@ -3810,21 +3810,21 @@ Ceui - Hana ni Natta Shounen no Shinwa (Ryuusei Aika) [Eisai I Kalentoula Mou]
 3.1,2.95
 Ceui - Hana ni Natta Shounen no Shinwa (_MiaoFUuU_) [Calendula]
 3.02,2.55
-Ceui - Haruoto*Veil (Dored) [Alice Gram]
+Ceui - HaruotoVeil (Dored) [Alice Gram]
 2.86,2.36
-Ceui - Haruoto*Veil (Dored) [koko's Insane]
+Ceui - HaruotoVeil (Dored) [koko's Insane]
 2.31,2.32
-Ceui - Haruoto*Veil (Dored) [Oiso's Insane]
+Ceui - HaruotoVeil (Dored) [Oiso's Insane]
 2.61,2.45
-Ceui - Haruoto*Veil (GodKei) [Koe]
+Ceui - HaruotoVeil (GodKei) [Koe]
 3.05,2.45
-Ceui - Haruoto*Veil (Kazato Asa) [Silzuku's Expert]
+Ceui - HaruotoVeil (Kazato Asa) [Silzuku's Expert]
 2.97,2.52
-Ceui - Haruoto*Veil (Lasse) [Bloom]
+Ceui - HaruotoVeil (Lasse) [Bloom]
 2.82,2.54
-Ceui - Haruoto*Veil (Lasse) [Insane]
+Ceui - HaruotoVeil (Lasse) [Insane]
 2.23,2.17
-Ceui - Haruoto*Veil (Lasse) [_83's Expert]
+Ceui - HaruotoVeil (Lasse) [_83's Expert]
 2.81,2.41
 Ceui - Have a live day (Dored) [Sakura Gram]
 2.94,2.2
@@ -4518,11 +4518,11 @@ cillia feat. Namine Ritsu - -ERROR 2018ver. (Bashe) [Nao's Insane]
 2.51,2.4
 CINDERELLA GIRLS!! - Onegai! Cinderella (M@STER VERSION) (Andrea) [Insane]
 2.29,1.92
-CINDERELLA PROJECT - M@GIC* (Lami) [hvick225's Ins@ne]
+CINDERELLA PROJECT - M@GIC (Lami) [hvick225's Ins@ne]
 2.53,2.26
-CINDERELLA PROJECT - M@GIC* (Lami) [Ins@ne]
+CINDERELLA PROJECT - M@GIC (Lami) [Ins@ne]
 2.4,2.09
-CINDERELLA PROJECT - M@GIC* (Lami) [M@gic]
+CINDERELLA PROJECT - M@GIC (Lami) [M@gic]
 2.92,2.48
 CINDERELLA PROJECT - Shine!! (Karen) [Insane]
 2.53,2.25
@@ -4892,17 +4892,17 @@ coldrain - MAYDAY (feat. Ryo from Crystal Lake) (AirinCat) [Extra]
 3.09,2.44
 coldrain - Vena (Sharkie) [Insane]
 2.52,1.87
-Colors*Slash - Colors Power ni Omakasero! (Log Off Now) [browiec & Kuki's Extra]
+ColorsSlash - Colors Power ni Omakasero! (Log Off Now) [browiec & Kuki's Extra]
 3.09,2.37
-Colors*Slash - Colors Power ni Omakasero! (Log Off Now) [Mitsuboshi Jump!]
+ColorsSlash - Colors Power ni Omakasero! (Log Off Now) [Mitsuboshi Jump!]
 3.33,2.39
-Colors*Slash - Colors Power ni Omakasero! (Sotarks) [Expert]
+ColorsSlash - Colors Power ni Omakasero! (Sotarks) [Expert]
 2.82,2.19
-Colors*Slash - Colors Power ni Omakasero! (Sotarks) [Irohas' Insane]
+ColorsSlash - Colors Power ni Omakasero! (Sotarks) [Irohas' Insane]
 2.44,2.09
-Colors*Slash - Colors Power ni Omakasero! (Sotarks) [Lasse's Extra]
+ColorsSlash - Colors Power ni Omakasero! (Sotarks) [Lasse's Extra]
 3.12,2.29
-Colors*Slash - Colors Power ni Omakasero! (Sotarks) [Rainbows]
+ColorsSlash - Colors Power ni Omakasero! (Sotarks) [Rainbows]
 3.29,2.31
 Comedian Harmonists - Perpetuum Mobile (Bonsai) [Expertum]
 2.95,2.49
@@ -5332,97 +5332,97 @@ Dear Jane - Lost (Kencho) [Days Gone By]
 2.18,1.72
 Debby Ryan - Hey Jessie (TV Size) (AJT) [Hey]
 2.3,1.62
-DECO*27 - Ai Kotoba III feat. Hatsune Miku (_lai) [Daisuki]
+DECO27 - Ai Kotoba III feat. Hatsune Miku (_lai) [Daisuki]
 2.26,1.9
-DECO*27 - Android Girl feat. Hatsune Miku (Rage Quit) [Necho&_lai's Extra]
+DECO27 - Android Girl feat. Hatsune Miku (Rage Quit) [Necho&_lai's Extra]
 2.96,2.63
-DECO*27 - Android Girl feat. Hatsune Miku (Rage Quit) [Power On]
+DECO27 - Android Girl feat. Hatsune Miku (Rage Quit) [Power On]
 3.29,3.06
-DECO*27 - Android Girl feat. Hatsune Miku (SMOKELIND) [Beyond the Artificial Feelings]
+DECO27 - Android Girl feat. Hatsune Miku (SMOKELIND) [Beyond the Artificial Feelings]
 3.23,2.58
-DECO*27 - Android Girl feat. Hatsune Miku (SMOKELIND) [Extra]
+DECO27 - Android Girl feat. Hatsune Miku (SMOKELIND) [Extra]
 2.88,2.48
-DECO*27 - First Storm -Japanese Version- (RepL4y) [Asami's Expert]
+DECO27 - First Storm -Japanese Version- (RepL4y) [Asami's Expert]
 3.06,2.6
-DECO*27 - First Storm -Japanese Version- (RepL4y) [Confidence]
+DECO27 - First Storm -Japanese Version- (RepL4y) [Confidence]
 3.32,3.03
-DECO*27 - First Storm -Japanese Version- (RepL4y) [Little's Insane]
+DECO27 - First Storm -Japanese Version- (RepL4y) [Little's Insane]
 2.46,2.31
-DECO*27 - First Storm -Japanese Version- (SkyFlame) [Arigatou]
+DECO27 - First Storm -Japanese Version- (SkyFlame) [Arigatou]
 3.58,3.35
-DECO*27 - First Storm -Japanese Version- (SkyFlame) [Asuka_-'s Expert]
+DECO27 - First Storm -Japanese Version- (SkyFlame) [Asuka_-'s Expert]
 2.99,2.39
-DECO*27 - First Storm -Japanese Version- (SkyFlame) [Dakini's Insane]
+DECO27 - First Storm -Japanese Version- (SkyFlame) [Dakini's Insane]
 2.46,2.38
-DECO*27 - First Storm -Japanese Version- (SkyFlame) [eINess' Extra]
+DECO27 - First Storm -Japanese Version- (SkyFlame) [eINess' Extra]
 3.36,2.86
-DECO*27 - First Storm -Japanese Version- (SkyFlame) [Reillia's Extra]
+DECO27 - First Storm -Japanese Version- (SkyFlame) [Reillia's Extra]
 3.03,2.96
-DECO*27 - First Storm feat. Hatsune Miku (Asaiga) [Akitoshi's Insane]
+DECO27 - First Storm feat. Hatsune Miku (Asaiga) [Akitoshi's Insane]
 2.26,2.36
-DECO*27 - First Storm feat. Hatsune Miku (Asaiga) [my Drops of Tears I'll turn to Sparks of Fire]
+DECO27 - First Storm feat. Hatsune Miku (Asaiga) [my Drops of Tears I'll turn to Sparks of Fire]
 3.4,3.19
-DECO*27 - First Storm feat. Hatsune Miku (Asaiga) [rui's Extra]
+DECO27 - First Storm feat. Hatsune Miku (Asaiga) [rui's Extra]
 3.2,3.13
-DECO*27 - First Storm feat. Hatsune Miku (Asaiga) [Rumi's Expert]
+DECO27 - First Storm feat. Hatsune Miku (Asaiga) [Rumi's Expert]
 2.89,2.76
-DECO*27 - Ghost Rule (Awaken) [CRN's Extra]
+DECO27 - Ghost Rule (Awaken) [CRN's Extra]
 4.47,2.75
-DECO*27 - Ghost Rule (Awaken) [Extra]
+DECO27 - Ghost Rule (Awaken) [Extra]
 2.84,2.52
-DECO*27 - Ghost Rule (Awaken) [Flask's Extra]
+DECO27 - Ghost Rule (Awaken) [Flask's Extra]
 3.28,2.7
-DECO*27 - Ghost Rule (Awaken) [Mayday]
+DECO27 - Ghost Rule (Awaken) [Mayday]
 4.4,3.17
-DECO*27 - Ghost Rule (Awaken) [N a s y a's Extra]
+DECO27 - Ghost Rule (Awaken) [N a s y a's Extra]
 3.82,2.66
-DECO*27 - Ghost Rule (Awaken) [z1085684963's Extra]
+DECO27 - Ghost Rule (Awaken) [z1085684963's Extra]
 3.68,2.79
-DECO*27 - HIBANA feat. Hatsune Miku (Pho) [Extra]
+DECO27 - HIBANA feat. Hatsune Miku (Pho) [Extra]
 3.07,2.73
-DECO*27 - HIBANA feat. Hatsune Miku (Pho) [Lock On]
+DECO27 - HIBANA feat. Hatsune Miku (Pho) [Lock On]
 3.94,3.29
-DECO*27 - HIBANA feat. Hatsune Miku (Pho) [neonat's Extra]
+DECO27 - HIBANA feat. Hatsune Miku (Pho) [neonat's Extra]
 2.86,2.54
-DECO*27 - Kisou Honnou feat. Yuuki Aoi (Kibbleru) [Insane]
+DECO27 - Kisou Honnou feat. Yuuki Aoi (Kibbleru) [Insane]
 2.11,1.77
-DECO*27 - Relationship Scramble feat. Hatsune Miku (Asaiga) [404's Extra]
+DECO27 - Relationship Scramble feat. Hatsune Miku (Asaiga) [404's Extra]
 2.85,2.74
-DECO*27 - Relationship Scramble feat. Hatsune Miku (Asaiga) [I was jealous.]
+DECO27 - Relationship Scramble feat. Hatsune Miku (Asaiga) [I was jealous.]
 3.49,2.78
-DECO*27 - Relationship Scramble feat. Hatsune Miku (Asaiga) [Insane]
+DECO27 - Relationship Scramble feat. Hatsune Miku (Asaiga) [Insane]
 2.43,2.14
-DECO*27 - Relationship Scramble feat. Hatsune Miku (Asaiga) [rui's Extra]
+DECO27 - Relationship Scramble feat. Hatsune Miku (Asaiga) [rui's Extra]
 3.33,2.76
-DECO*27 - Reversible Campaign (tutuhaha) [Extra]
+DECO27 - Reversible Campaign (tutuhaha) [Extra]
 3.11,2.38
-DECO*27 - Streaming Heart feat. Hatsune Miku (Tsumetaku) [0108's Extra]
+DECO27 - Streaming Heart feat. Hatsune Miku (Tsumetaku) [0108's Extra]
 3.21,2.53
-DECO*27 - Streaming Heart feat. Hatsune Miku (Tsumetaku) [0920's Insane]
+DECO27 - Streaming Heart feat. Hatsune Miku (Tsumetaku) [0920's Insane]
 2.4,2.16
-DECO*27 - Streaming Heart feat. Hatsune Miku (Tsumetaku) [Extra]
+DECO27 - Streaming Heart feat. Hatsune Miku (Tsumetaku) [Extra]
 2.9,2.6
-DECO*27 - Streaming Heart feat. Hatsune Miku (Tsumetaku) [Xinchii's Insane]
+DECO27 - Streaming Heart feat. Hatsune Miku (Tsumetaku) [Xinchii's Insane]
 2.76,2.46
-DECO*27 feat. Hatsune Miku - AI (Nao Tomori) [Akitoshi's Insane]
+DECO27 feat. Hatsune Miku - AI (Nao Tomori) [Akitoshi's Insane]
 2.48,2.18
-DECO*27 feat. Hatsune Miku - AI (Nao Tomori) [Yuki no Hanabira]
+DECO27 feat. Hatsune Miku - AI (Nao Tomori) [Yuki no Hanabira]
 3.29,2.82
-DECO*27 feat. marina - Aimai Elegy (Nevo) [Aakki's Hard]
+DECO27 feat. marina - Aimai Elegy (Nevo) [Aakki's Hard]
 1.93,1.85
-DECO*27 feat. marina - Aimai Elegy (Nevo) [Polarize]
+DECO27 feat. marina - Aimai Elegy (Nevo) [Polarize]
 3.02,2.35
-DECO*27 feat. marina - Aimai Elegy (Nevo) [Yudragen's Expert]
+DECO27 feat. marina - Aimai Elegy (Nevo) [Yudragen's Expert]
 2.93,2.51
-DECO*27 feat. marina - Aimai Elegy (val0108) [0108]
+DECO27 feat. marina - Aimai Elegy (val0108) [0108]
 2.97,2.37
-DECO*27 feat. marina - Aimai Elegy (val0108) [Insane]
+DECO27 feat. marina - Aimai Elegy (val0108) [Insane]
 2.67,2.16
-DECO*27 feat. Topi - Light Lag (SakiK) [Insane]
+DECO27 feat. Topi - Light Lag (SakiK) [Insane]
 2.42,2.19
-DECO*27 feat. Topi - Love Distance Long Affair (Blove) [1100KM]
+DECO27 feat. Topi - Love Distance Long Affair (Blove) [1100KM]
 1.79,1.67
-DECO*27*40mP - HOME (Kibbleru) [Reside]
+DECO2740mP - HOME (Kibbleru) [Reside]
 2.11,1.82
 Dee! feat. Nomiya Ayumi - Hito Ayumishi Unmei ni Yosete (Mixagji) [Lunatic]
 2.52,2.29
@@ -5890,11 +5890,11 @@ DJ Mikesh - Be Free (Nightcore Mix) (Kazuya) [Another]
 2.45,2.44
 DJ MURASAME vs dj Killer - SHADE (Niva) [Another]
 2.01,2.11
-DJ NAGAI feat. a*ru - Benibotan (Uberzolik) [Insane]
+DJ NAGAI feat. aru - Benibotan (Uberzolik) [Insane]
 2.67,2.77
-DJ NAGAI feat. a*ru - Benibotan (yf_bmp) [Another]
+DJ NAGAI feat. aru - Benibotan (yf_bmp) [Another]
 2.97,2.37
-DJ NAGAI feat. a*ru - Benibotan (yf_bmp) [Koiyuki's Extra]
+DJ NAGAI feat. aru - Benibotan (yf_bmp) [Koiyuki's Extra]
 2.99,2.71
 DJ NAGAI feat. Ayumi Nomiya - Mono Logic (Narcissu) [Extra]
 3.02,2.61
@@ -6126,23 +6126,23 @@ DJ TOTTO feat. 3L - Youkakushi -Ayakashi Kakushi- (Halfslashed) [cocona's Extra 
 2.7,2.44
 DJ TOTTO feat. 3L - Youkakushi -Ayakashi Kakushi- (Halfslashed) [Phantasm]
 3.03,2.54
-DJ TOTTO feat. Enako - Precious * Star (Nao Tomori) [Expert]
+DJ TOTTO feat. Enako - Precious  Star (Nao Tomori) [Expert]
 2.88,2.41
-DJ TOTTO feat. *spiLa* - illumina (handsome) [asphyxia's extra]
+DJ TOTTO feat. spiLa - illumina (handsome) [asphyxia's extra]
 2.74,2.66
-DJ TOTTO feat. *spiLa* - illumina (handsome) [bearizm's insane]
+DJ TOTTO feat. spiLa - illumina (handsome) [bearizm's insane]
 2.54,2.53
-DJ TOTTO feat. *spiLa* - illumina (handsome) [byfar's extra]
+DJ TOTTO feat. spiLa - illumina (handsome) [byfar's extra]
 2.9,2.7
-DJ TOTTO feat. *spiLa* - illumina (handsome) [insane]
+DJ TOTTO feat. spiLa - illumina (handsome) [insane]
 2.25,2.31
-DJ TOTTO feat. *spiLa* - illumina (handsome) [radiance]
+DJ TOTTO feat. spiLa - illumina (handsome) [radiance]
 2.95,3.01
-DJ TOTTO feat. *spiLa* - illumina (Toyosaki Aki) [expert*]
+DJ TOTTO feat. spiLa - illumina (Toyosaki Aki) [expert]
 2.66,2.66
-DJ TOTTO feat. *spiLa* - illumina (Toyosaki Aki) [meg's insane*]
+DJ TOTTO feat. spiLa - illumina (Toyosaki Aki) [meg's insane]
 2.44,2.39
-DJ TOTTO feat. *spiLa* - illumina (Toyosaki Aki) [[ -scarlet- ]'s expert*]
+DJ TOTTO feat. spiLa - illumina (Toyosaki Aki) [[ -scarlet- ]'s expert]
 3.08,2.95
 DJ TOTTO feat. Sunao Yoshikawa - Arousing (m1223961117) [Extreme]
 2.49,2.27
@@ -6198,11 +6198,11 @@ DJ YOSHITAKA feat. Hoshino Kanako - MAX LOVE (Mythol) [Insane]
 2.58,2.36
 DJ YOSHITAKA feat. Hoshino Kanako - MAX LOVE (Startrick) [Another]
 2.93,2.53
-DJ'TEKINA//SOMETHING - Internet bitch P*Light Remix (Priti) [Frey's Insane]
+DJ'TEKINA//SOMETHING - Internet bitch PLight Remix (Priti) [Frey's Insane]
 2.45,2.18
-DJ'TEKINA//SOMETHING - Internet bitch P*Light Remix (Priti) [Penguinversible's Extra]
+DJ'TEKINA//SOMETHING - Internet bitch PLight Remix (Priti) [Penguinversible's Extra]
 2.92,2.91
-DJ'TEKINA//SOMETHING - Internet bitch P*Light Remix (Priti) [Ultra]
+DJ'TEKINA//SOMETHING - Internet bitch PLight Remix (Priti) [Ultra]
 3.08,3.0
 dj-Nate - Electrodynamics (CookieBite) [Extra]
 2.54,2.37
@@ -6260,13 +6260,13 @@ Dollscythe - Flashes (Extended) (handsome) [Rohit's Hard]
 1.94,1.88
 Dollscythe - Flashes (Extended) (handsome) [Spark]
 3.07,2.72
-Doma Umaru (CV.Tanaka Aimi) - Nimensei*Uraomote Life! (handsome) [Delis' Insane]
+Doma Umaru (CV.Tanaka Aimi) - NimenseiUraomote Life! (handsome) [Delis' Insane]
 2.07,2.26
-Doma Umaru (CV.Tanaka Aimi) - Nimensei*Uraomote Life! (handsome) [ProBox's Insane]
+Doma Umaru (CV.Tanaka Aimi) - NimenseiUraomote Life! (handsome) [ProBox's Insane]
 2.76,2.22
-Doma Umaru [CV.Tanaka Aimi] - Kakushinteki*Metamaruphose! (Crystal) [Extra]
+Doma Umaru [CV.Tanaka Aimi] - KakushintekiMetamaruphose! (Crystal) [Extra]
 3.35,2.76
-Doma Umaru [CV.Tanaka Aimi] - Kakushinteki*Metamaruphose! (Crystal) [Skystar's Laziness]
+Doma Umaru [CV.Tanaka Aimi] - KakushintekiMetamaruphose! (Crystal) [Skystar's Laziness]
 3.8,3.0
 Domino Brothers - Just 4 You (Nightcore Mix) (MkGuh) [FCL's Insane]
 2.26,2.06
@@ -6658,9 +6658,9 @@ Duca - Passion (Dored) [Light Extra.]
 2.69,2.2
 Duca - Precious (Short Ver.) (Riana) [Insane]
 2.47,1.84
-Duca - Rocket*Ride (Misure) [Sora]
+Duca - RocketRide (Misure) [Sora]
 2.82,2.37
-Duca - Rocket*Ride (Misure) [wkyik's Insane]
+Duca - RocketRide (Misure) [wkyik's Insane]
 2.53,2.29
 Duca - Shiawase no Basho short ver. (Oyatsu) [Shiawase]
 2.27,1.97
@@ -8092,15 +8092,15 @@ Fotzu - POTOMIRU PINERA (TheShadowOfDark) [Marepoto]
 2.98,2.79
 Fotzu - POTOMIRU PINERA (TheShadowOfDark) [Tatan's Expert]
 2.66,2.63
-fourfolium - Gugutto Work* (Short Ver.) (Doormat) [Curi's Insane]
+fourfolium - Gugutto Work (Short Ver.) (Doormat) [Curi's Insane]
 2.5,2.05
-fourfolium - Gugutto Work* (Short Ver.) (Doormat) [Evanescent's Extra]
+fourfolium - Gugutto Work (Short Ver.) (Doormat) [Evanescent's Extra]
 2.78,2.26
-fourfolium - Gugutto Work* (Short Ver.) (Doormat) [Extra]
+fourfolium - Gugutto Work (Short Ver.) (Doormat) [Extra]
 2.89,2.31
-fourfolium - Gugutto Work* (Short Ver.) (Doormat) [Irohas' Insane]
+fourfolium - Gugutto Work (Short Ver.) (Doormat) [Irohas' Insane]
 2.61,2.21
-fourfolium - Gugutto Work* (Short Ver.) (Doormat) [Pentori's Insane]
+fourfolium - Gugutto Work (Short Ver.) (Doormat) [Pentori's Insane]
 2.34,1.94
 fourfolium - Hosshii no! (Kisses) [Kalibe's Extra!]
 2.74,2.71
@@ -8298,7 +8298,7 @@ Friends - Kitakaze (miccoliasms) [Hard]
 2.28,1.94
 fripSide - an evening calm (pappl e 104) [Sunset]
 2.68,2.25
-fripSide - Assemble*LOVEsemble (Natteke) [Natteke]
+fripSide - AssembleLOVEsemble (Natteke) [Natteke]
 2.32,2.06
 fripSide - black bullet (Cyndere) [insane: initiator]
 2.41,2.11
@@ -9582,11 +9582,11 @@ hapi - NTD03 ''26ROAD'' (Full Edit) ([Takuya]) [Insane]
 2.28,2.41
 hapi - THE MEDLEY OF POKEMON RGBY+GSC -3PBs- (Kenterz) [Marathon]
 2.89,2.74
-Happy Clover - PUNCH*MIND*HAPPINESS (Binguo) [Happy]
+Happy Clover - PUNCHMINDHAPPINESS (Binguo) [Happy]
 2.3,2.02
-Happy Clover - PUNCH*MIND*HAPPINESS (DreaM117er) [Karen's Insane]
+Happy Clover - PUNCHMINDHAPPINESS (DreaM117er) [Karen's Insane]
 2.24,2.04
-Happy Clover - PUNCH*MIND*HAPPINESS (DreaM117er) [Kodora's Insane]
+Happy Clover - PUNCHMINDHAPPINESS (DreaM117er) [Kodora's Insane]
 2.43,2.08
 happy30 - As the wind blows (happy30) [Storm]
 2.87,2.67
@@ -10418,13 +10418,13 @@ HO-KAGO TEA TIME - U&I (TV Size) (DJPop) [Insane]
 2.04,1.78
 HO-KAGO TEA TIME - Utauyo!! MIRACLE (TV Size) (Gladi) [Lesjuh]
 2.15,1.75
-holic - Shihunomi *Higanbana* Daini ~ Kuukyogishin ~ Akabeni (AngelHoney) [Insane]
+holic - Shihunomi Higanbana Daini ~ Kuukyogishin ~ Akabeni (AngelHoney) [Insane]
 2.38,2.58
 hololive IDOL PROJECT - Hyakka Ryouran Hanafubuki (Hojo Karen) [Flower Storm]
 3.03,2.45
-hololive IDOL PROJECT - Kirameki Rider* (Amateurre) [Meyrink's Insane]
+hololive IDOL PROJECT - Kirameki Rider (Amateurre) [Meyrink's Insane]
 2.53,2.3
-hololive IDOL PROJECT - Kirameki Rider* (Amateurre) [Shining Stars]
+hololive IDOL PROJECT - Kirameki Rider (Amateurre) [Shining Stars]
 3.01,2.56
 hololive IDOL PROJECT - Shiny Smily Story (Amateurre) [Shining Stars]
 2.94,2.29
@@ -10668,11 +10668,11 @@ Houkago Rakuenbu - Houkago Kakumei (Pho) [Revolution!]
 3.22,2.59
 Houkiboshi Hikari (CV: Moka Choko), Amanogawa Saya (CV: Yukina Meguri) - Summer Triangle Short version (BeatofIke) [Insane]
 2.06,2.1
-Houshou Marine - Ahoy!! Warera Houshou Kaizokudan* (Amateurre) [Shukkou!]
+Houshou Marine - Ahoy!! Warera Houshou Kaizokudan (Amateurre) [Shukkou!]
 3.11,2.76
-Houshou Marine with Holoism Fantasy - Hoihoi*Gensou Holoism (Amateurre) [Moete's Lunatic]
+Houshou Marine with Holoism Fantasy - HoihoiGensou Holoism (Amateurre) [Moete's Lunatic]
 2.46,2.48
-Houshou Marine with Holoism Fantasy - Hoihoi*Gensou Holoism (Amateurre) [Raging Torrents]
+Houshou Marine with Holoism Fantasy - HoihoiGensou Holoism (Amateurre) [Raging Torrents]
 3.14,3.09
 HTT - Houkago Tea Time (indyinyou) [regenz's Insane]
 2.19,2.02
@@ -11234,7 +11234,7 @@ Innocent Key - Lunatic Red Eyes (termerys) [Lunatic]
 2.44,2.21
 Innocent Key - Lunatic Red Eyes (termerys) [Rox's Diff]
 1.85,2.21
-Innocent Key - Rabucchu * Chireiden (orioncomet) [Insane]
+Innocent Key - Rabucchu  Chireiden (orioncomet) [Insane]
 2.34,2.15
 Innocent Key - Touhou Holy Water Festival (Mafiamaster) [Insane]
 2.25,2.32
@@ -11442,11 +11442,11 @@ IOSYS feat. NJK Record - Miracle-Hinacle (Hinacle) [Collab]
 2.17,2.15
 Iria Hosizaki - Private Sky (Log Off Now) [Winter Break]
 2.42,1.97
-i*Ris - Changing Point (TV Size) (DendyHere) [Hocok's Extra]
+iRis - Changing Point (TV Size) (DendyHere) [Hocok's Extra]
 3.01,2.26
-i*Ris - Ultimate*MAGIC (TV Size) (iWaifu) [Magi]
+iRis - UltimateMAGIC (TV Size) (iWaifu) [Magi]
 3.09,2.3
-i*Ris - Ultimate*MAGIC (TV Size) (iWaifu) [Riana's Extra]
+iRis - UltimateMAGIC (TV Size) (iWaifu) [Riana's Extra]
 2.82,2.32
 Iris December Uncry (Hanazono Mei), Noel the Nextseason (Ameba Tsukasa) - Crying Heart (Asuka_-) [Insane]
 2.6,2.26
@@ -11644,7 +11644,7 @@ Itou Kanako - Skyclad no Kansokusha -Remix- (Takos) [taka]
 2.51,2.29
 Itou Masumi - Yume no Naka no Watashi no Yume (RLC) [Coda]
 2.12,2.05
-Itou Miku, Waki Azumi, Komaki Miyu, Naganawa Maria, Takao Kanon - Vital*Exercise (Takekii) [Undou]
+Itou Miku, Waki Azumi, Komaki Miyu, Naganawa Maria, Takao Kanon - VitalExercise (Takekii) [Undou]
 2.77,1.78
 Itou Shizuka - Honjitsu Mankai Watashi iro! Hina ver. (S i R i R u) [miccoli's Stream]
 2.19,2.51
@@ -11756,9 +11756,9 @@ Jan Wayne Vs. Raindropz - Numb (Nightcore Ver.) (KIA) [Teke]
 2.05,2.18
 Jashin-chan (CV: Suzuki Aina) - Jinbouchou Aika (Firika) [Love]
 2.4,1.97
-Jashin*Girls - Anoko ni Drop Kick (TV Size) (Nozhomi) [Destruction]
+JashinGirls - Anoko ni Drop Kick (TV Size) (Nozhomi) [Destruction]
 3.33,2.93
-Jashin*Girls - Anoko ni Drop Kick (TV Size) (Nozhomi) [Nozhomii-'s Extra]
+JashinGirls - Anoko ni Drop Kick (TV Size) (Nozhomi) [Nozhomii-'s Extra]
 2.99,2.82
 Jason Hayes - Enchanted Forest (Fatfan Kolek) [Insane]
 2.09,1.64
@@ -11932,15 +11932,15 @@ Joji - YEAH RIGHT (Mortem) [KITTYADVENTURE'S TRAGIC LOVE STORY]
 2.21,1.95
 Jon Sudano - BRING ME TO LIFE VOCAL COVER 2016 (OFFICIAL) (Seto Kousuke) [Bring Mismagius to Life (OFFICIAL)]
 2.51,1.9
-JO*STARS ~TOMMY, Coda, JIN~ - JoJo Sono Chi no Kioku ~end of THE WORLD~ (TV Size) (Yudragen) [STAR PLATINUM]
+JOSTARS ~TOMMY, Coda, JIN~ - JoJo Sono Chi no Kioku ~end of THE WORLD~ (TV Size) (Yudragen) [STAR PLATINUM]
 3.76,2.71
-JO*STARS ~TOMMY, Coda, JIN~ - JoJo Sono Chi no Kioku ~end of THE WORLD~ (TV Size) (Yudragen) [Ultra]
+JOSTARS ~TOMMY, Coda, JIN~ - JoJo Sono Chi no Kioku ~end of THE WORLD~ (TV Size) (Yudragen) [Ultra]
 3.32,2.7
-JO*STARS ~TOMMY, Coda, JIN~ - JoJo Sono Chi no Kioku~end of THE WORLD~ (Atsuro) [deetz' EXTRA]
+JOSTARS ~TOMMY, Coda, JIN~ - JoJo Sono Chi no Kioku~end of THE WORLD~ (Atsuro) [deetz' EXTRA]
 3.11,2.58
-JO*STARS ~TOMMY, Coda, JIN~ - JoJo Sono Chi no Kioku~end of THE WORLD~ (Atsuro) [Insane]
+JOSTARS ~TOMMY, Coda, JIN~ - JoJo Sono Chi no Kioku~end of THE WORLD~ (Atsuro) [Insane]
 2.57,2.21
-JO*STARS ~TOMMY, Coda, JIN~ - JoJo Sono Chi no Kioku~end of THE WORLD~ (Atsuro) [STAR PLATINUM]
+JOSTARS ~TOMMY, Coda, JIN~ - JoJo Sono Chi no Kioku~end of THE WORLD~ (Atsuro) [STAR PLATINUM]
 3.6,2.7
 Jouhou Shoribu (Ookubo Rumi, Tsuda Minami, Taneda Risa) - Se-no! (TV Size) (alacat) [Insane]
 2.29,1.99
@@ -12606,7 +12606,7 @@ Kanon Wakeshima - Tsukinami (Kagetsu) [pkhg's Insane]
 2.16,2.21
 Kanon Wakeshima - World's End, Girl's Rondo(Asterisk DnB Remix) (Venax) [My Wish is That You End This World]
 2.97,2.68
-kanon*kanon - Calendula Requiem -Shiki TV size- (smallboat) [wkyik's Extra]
+kanonkanon - Calendula Requiem -Shiki TV size- (smallboat) [wkyik's Extra]
 2.83,2.35
 kanonxkanon - Calendula Requiem (smallboat) [Shiki Revive]
 2.73,2.24
@@ -12734,11 +12734,11 @@ Kato Megumi (CV.Yasuno Kiyono) - M flat (Momoka) [Anais' Insane]
 2.16,2.08
 Kato Megumi (CV.Yasuno Kiyono) - M flat (Momoka) [Insane]
 2.61,2.24
-Kato*Fuku - You Gotta Love Me! (Fycho) [Insane]
+KatoFuku - You Gotta Love Me! (Fycho) [Insane]
 2.54,2.2
-Kato*Fuku - You Gotta Love Me! (Fycho) [Kanto's Insane]
+KatoFuku - You Gotta Love Me! (Fycho) [Kanto's Insane]
 2.33,2.06
-Kato*Fuku - You Gotta Love Me! (Fycho) [Skystar's Insane]
+KatoFuku - You Gotta Love Me! (Fycho) [Skystar's Insane]
 2.61,2.34
 Katou Emiri - Kaerimichi (TV Size) (Hinacle) [Insane]
 2.24,2.16
@@ -12962,7 +12962,7 @@ Kicco - Lucky Monster (Momovely) [Relation]
 2.47,2.2
 Kicco - Lucky Monster (Shioi) [Insane]
 2.59,2.22
-Kicco - Miracle * Feel Free (sahuang) [Happy Ending]
+Kicco - Miracle  Feel Free (sahuang) [Happy Ending]
 2.3,2.05
 Kicks N Licks Feat. Nicole Millar - Own The Night (MitiS DnB Remix) (Ami) [Irre's Insane]
 2.32,2.09
@@ -13348,7 +13348,7 @@ Koizumi Hanayo(CV.Kubo Yurika) - Kodoku na Heaven (Lily Bread) [Another]
 2.17,1.9
 Koizumi Hanayo(CV.Kubo Yurika) - Kodoku na Heaven (Lily Bread) [Extreme]
 2.35,2.03
-Koji Kondo - Lost Woods (Sir Minelli) [Escape The Woods *Challenge*]
+Koji Kondo - Lost Woods (Sir Minelli) [Escape The Woods Challenge]
 2.13,1.69
 Koji Wada - re-fly (kanor) [Insane]
 2.34,2.25
@@ -13472,7 +13472,7 @@ Korpiklaani - A Man With A Plan (Nao Tomori) [Yuii-'s Insane]
 2.27,2.35
 Korpiklaani - Vodka (Charles445) [Insane]
 2.21,2.16
-kors k & REDALiCE - S2TBTANO*C Anthem feat. Yukacco (MrSergio) [Insane]
+kors k & REDALiCE - S2TBTANOC Anthem feat. Yukacco (MrSergio) [Insane]
 2.5,2.21
 kors k - Dot (Reiji-RJ) [korzhik]
 2.43,2.19
@@ -13596,7 +13596,7 @@ KOTOKO - Loop-the-loop (TV Size) (osuplayer111) [Insane]
 2.18,1.89
 KOTOKO - Mighty Heart ~Aru Hi no Kenka, Itsumo no Koigokoro~ (DarknessAngel) [Tsuyokiss]
 2.19,1.94
-KOTOKO - Miracle*Milkyway (osuplayer111) [Collab]
+KOTOKO - MiracleMilkyway (osuplayer111) [Collab]
 2.13,2.1
 KOTOKO - Oboetete Ii yo (cRyo[iceeicee]) [Insane]
 2.51,2.38
@@ -13644,7 +13644,7 @@ KOTOKO - Wing my Way (Nekomiya Nono) [v2b]
 2.33,2.3
 KOTOKO - WING OF ZERO (baldrace) [BALDRHEAD]
 2.18,1.92
-KOTOKO - Yumemiboshi * boom!boom! (Short Ver.) (R a i n) [D.N.Angel]
+KOTOKO - Yumemiboshi  boom!boom! (Short Ver.) (R a i n) [D.N.Angel]
 2.34,2.02
 KOTOKO - bumpy-Jumpy! (MeLLoN) [Cyborg's Insane]
 2.3,2.41
@@ -13812,9 +13812,9 @@ Kuraki Mai - Your Best Friend (Xinely) [Together]
 2.21,1.93
 Kuribayashi Minami - Anata ga... Inai (Shad0w1and) [Inai Sekai]
 2.15,1.67
-Kuribayashi Minami - Super*Affection (Thite) [Insane]
+Kuribayashi Minami - SuperAffection (Thite) [Insane]
 2.17,2.26
-Kuribayashi Minami - Super*Affection (TV Size) (Sallad4ever) [Vicho's Insane]
+Kuribayashi Minami - SuperAffection (TV Size) (Sallad4ever) [Vicho's Insane]
 2.17,2.14
 Kuribayashi Minami - Tsubasa wa Pleasure Line (Kibbleru) [Tsubasa]
 2.58,2.35
@@ -13922,9 +13922,9 @@ Kylee - Daisukinanoni [TV Size] (Kyuukai) [Kin's Hard]
 1.57,1.66
 Kylee - Daisukinanoni [TV Size] (Kyuukai) [Left's Insane]
 2.47,2.13
-KyoKa - Kirameki*Chocolaterie (Left) [Cafe Setaria]
+KyoKa - KiramekiChocolaterie (Left) [Cafe Setaria]
 3.03,2.67
-l ACE l - Fuck Her Right in the Pu**y (#Selfie & Freaks Remix) (Euny) [But first!!]
+l ACE l - Fuck Her Right in the Puy (#Selfie & Freaks Remix) (Euny) [But first!!]
 2.28,1.94
 L i z z - Answer (Garven) [Hard]
 2.06,1.53
@@ -14824,7 +14824,7 @@ Loos - Koi Yomi Zakura (NatsumeRin) [Rin]
 2.41,2.17
 Loos - Koi Yomi Zakura (Princess Kisses) [Insane]
 2.5,2.11
-Loos - Love * Beam (Natteke) [Hard]
+Loos - Love  Beam (Natteke) [Hard]
 2.41,2.07
 Los Prisioneros - Tren Al Sur (Zekeyache) [Al Sur!]
 2.5,2.07
@@ -14846,7 +14846,7 @@ Lucas Fader - Main Theme - Dubstep Remix (Strategas) [Expert: Neo Cortex]
 3.07,2.25
 Luce Twinkle Wink - 1st Love Story (Meyrink) [Insane]
 2.11,1.76
-Luce Twinkle Wink* - Symphony (Gordon123) [Insane]
+Luce Twinkle Wink - Symphony (Gordon123) [Insane]
 2.3,2.11
 Luck Life - Kawaranai Sora (TV-version) (Battle) [Hatsukoi]
 2.98,2.39
@@ -15618,7 +15618,7 @@ MatrixMarioX & MowtenDoo - Hoangpungnyuga (Sonnyc) [Expert]
 2.85,2.67
 MatrixMarioX & MowtenDoo - Hoangpungnyuga (Sonnyc) [Insane]
 2.3,2.21
-Matsuda Arisa (CV: Murakawa Rie) - Chou Jou Genki Show*Idol ch@ng! (_Star) [Ins@ne]
+Matsuda Arisa (CV: Murakawa Rie) - Chou Jou Genki ShowIdol ch@ng! (_Star) [Ins@ne]
 2.32,2.19
 Matsumoto Sara - Ito Hakanaki Hikari no Gotoku (Mixagji) [Lunatic]
 2.43,2.23
@@ -15708,7 +15708,7 @@ May'n - Scarlet Ballet (TV-SIZE MIX) (Chloe) [Irre's Extra]
 2.41,2.05
 May'n - Scarlet Ballet (TV-SIZE MIX) (Chloe) [Scarlet Ballet]
 2.34,2.33
-Maya (CV: Tokui Sora), Megu (CV: Murakawa Rie) - Little * Treasure * Hunt (UjiMatcha) [Insane]
+Maya (CV: Tokui Sora), Megu (CV: Murakawa Rie) - Little  Treasure  Hunt (UjiMatcha) [Insane]
 2.63,2.19
 Maya(CV.Minase Inori) & Erika(CV.Inami Anju) - Anime o Katare! ~Animegatari Doukoukai no Thema~ (Sotarks) [Dai dai dai... Daisuki!]
 3.08,2.51
@@ -16012,7 +16012,7 @@ Merengue - "Ano Hero to" Bokura ni Tsuite -noitamina ver.- (Rizen) [Rebound]
 2.21,1.67
 merry-san - Venom (Houshou Hari) [Insane]
 2.22,2.04
-MERURU (Tamura Yukari) - Meteor*Impact (Doyak) [Insane]
+MERURU (Tamura Yukari) - MeteorImpact (Doyak) [Insane]
 2.3,1.98
 Mestre3224 - Caramelo da desgraca (Mismagius) [Extra]
 3.27,2.93
@@ -16108,7 +16108,7 @@ Mikakuning! - Tomadoi Recipe (TV Size) (Fycho) [Insane]
 2.38,2.17
 Mikakuning! - Tomadoi Recipe (TV size) (koreapenguin) [Insane]
 2.36,2.16
-Mikakuning! - Tomadoi*Recipe (No Dap) [Insane]
+Mikakuning! - TomadoiRecipe (No Dap) [Insane]
 2.37,2.24
 Mikami Shiori - Shiawase Gift (Setz206) [Akariiin!]
 2.61,2.45
@@ -16346,7 +16346,7 @@ Minami Kotori (CV: Uchida Aya) - Snow halation (KOTORI MIX) (Andrea) [Merry Chri
 2.57,2.11
 Minamotoya feat. 3L - Hagetsu (Asphyxia) [Lunatic]
 2.14,1.84
-Minamotoya feat. Kuroa* - Hana Kagerou (DreaM117er) [Extreme]
+Minamotoya feat. Kuroa - Hana Kagerou (DreaM117er) [Extreme]
 2.41,2.19
 Minase Inori - Bokura wa Ima (Andrea) [Heart to Heart]
 3.12,2.72
@@ -17544,81 +17544,81 @@ nameless x toa - Patchwork Staccato (Taeyang) [Memories of Love]
 2.67,1.84
 Namie Amuro - Hope (iYiyo) [Atsuro's All Blue]
 2.36,1.97
-*namirin & ChouCho - Yasashisa no Riyuu (Sotarks) [Eli's Insane]
+namirin & ChouCho - Yasashisa no Riyuu (Sotarks) [Eli's Insane]
 2.3,1.9
-*namirin & ChouCho - Yasashisa no Riyuu (Sotarks) [Expert]
+namirin & ChouCho - Yasashisa no Riyuu (Sotarks) [Expert]
 2.6,2.22
-*namirin - Amatsu Kitsune (assassincread) [Extra]
+namirin - Amatsu Kitsune (assassincread) [Extra]
 2.97,2.49
-*namirin - Amatsu Kitsune (assassincread) [Insane]
+namirin - Amatsu Kitsune (assassincread) [Insane]
 2.43,2.22
-*namirin - Daidai Genome (Sotarks) [Collab Insane]
+namirin - Daidai Genome (Sotarks) [Collab Insane]
 2.05,1.91
-*namirin - Daidai Genome (Sotarks) [DavidEd's Hard]
+namirin - Daidai Genome (Sotarks) [DavidEd's Hard]
 1.48,1.57
-*namirin - Daidai Genome (Sotarks) [Tights]
+namirin - Daidai Genome (Sotarks) [Tights]
 2.36,1.88
-*namirin - Hitokoto no Kyori (Kroytz) [A Single Word Apart]
+namirin - Hitokoto no Kyori (Kroytz) [A Single Word Apart]
 3.18,2.3
-*namirin - Hitokoto no Kyori (Kroytz) [Doormat's Extra]
+namirin - Hitokoto no Kyori (Kroytz) [Doormat's Extra]
 2.94,2.21
-*namirin - Hitokoto no Kyori (Kroytz) [Gaia's Insane]
+namirin - Hitokoto no Kyori (Kroytz) [Gaia's Insane]
 2.36,2.03
-*namirin - Hitokoto no Kyori (Kroytz) [Haruto's Insane]
+namirin - Hitokoto no Kyori (Kroytz) [Haruto's Insane]
 2.55,2.1
-*namirin - Hitokoto no Kyori (Kroytz) [Sotarks' Expert]
+namirin - Hitokoto no Kyori (Kroytz) [Sotarks' Expert]
 2.8,2.16
-*namirin - Hitokoto no Kyori (sahuang) [Expert]
+namirin - Hitokoto no Kyori (sahuang) [Expert]
 2.66,2.37
-*namirin - Hitokoto no Kyori (sahuang) [Slayed's Extra]
+namirin - Hitokoto no Kyori (sahuang) [Slayed's Extra]
 2.95,2.33
-*namirin - Hitokoto no Kyori (sahuang) [Sotarks' Sympathy]
+namirin - Hitokoto no Kyori (sahuang) [Sotarks' Sympathy]
 3.04,2.38
-*namirin - Kanzen Shouri*Esper Girl (Left) [AF's Insane]
+namirin - Kanzen ShouriEsper Girl (Left) [AF's Insane]
 2.58,2.04
-*namirin - Kanzen Shouri*Esper Girl (Left) [Ex]
+namirin - Kanzen ShouriEsper Girl (Left) [Ex]
 3.12,2.55
-*namirin - Koi no Hime Hime Pettanko (sahuang) [Curi's Extra]
+namirin - Koi no Hime Hime Pettanko (sahuang) [Curi's Extra]
 2.89,2.27
-*namirin - Koi no Hime Hime Pettanko (sahuang) [Sweet Sweet Angel]
+namirin - Koi no Hime Hime Pettanko (sahuang) [Sweet Sweet Angel]
 3.02,2.27
-*namirin - Koi no Hime Hime Pettanko ([C u r i]) [Extra]
+namirin - Koi no Hime Hime Pettanko ([C u r i]) [Extra]
 2.84,2.26
-*namirin - Koi no Hime Hime Pettanko ([C u r i]) [Insane]
+namirin - Koi no Hime Hime Pettanko ([C u r i]) [Insane]
 2.35,2.11
-*namirin - Koi no Hime Hime Pettanko ([C u r i]) [Taeyang's Ultra Princess]
+namirin - Koi no Hime Hime Pettanko ([C u r i]) [Taeyang's Ultra Princess]
 3.12,2.22
-*namirin - Koishiteiku Planet (Trynna) [Insane]
+namirin - Koishiteiku Planet (Trynna) [Insane]
 2.43,2.18
-*namirin - Mata Futari Koi o Suru (Rumia-) [Aishita]
+namirin - Mata Futari Koi o Suru (Rumia-) [Aishita]
 2.43,1.99
-*namirin - Mizutamari Tobikoete (with Nanahira) (eiri-) [Ayynna's Insane]
+namirin - Mizutamari Tobikoete (with Nanahira) (eiri-) [Ayynna's Insane]
 2.29,2.14
-*namirin - Mizutamari Tobikoete (with Nanahira) (eiri-) [Puddle]
+namirin - Mizutamari Tobikoete (with Nanahira) (eiri-) [Puddle]
 2.72,2.47
-*namirin - Sakurairo Time Capsule (Fuccho) [A Mystery's Insane]
+namirin - Sakurairo Time Capsule (Fuccho) [A Mystery's Insane]
 2.3,2.29
-*namirin - Sakurairo Time Capsule (Fuccho) [Petal]
+namirin - Sakurairo Time Capsule (Fuccho) [Petal]
 3.04,2.25
-*namirin - Sakurairo Time Capsule (Stack) [Extra]
+namirin - Sakurairo Time Capsule (Stack) [Extra]
 2.96,2.21
-*namirin - Sakurairo Time Capsule (Stack) [Sotarks' Rewritten Feelings]
+namirin - Sakurairo Time Capsule (Stack) [Sotarks' Rewritten Feelings]
 3.06,2.19
-*namirin - Senaka Awase no Kuukyo (with Kakichoco) (jonathanlfj) [Extra]
+namirin - Senaka Awase no Kuukyo (with Kakichoco) (jonathanlfj) [Extra]
 3.11,2.38
-*namirin - Songs Compilation ([C u r i]) [Princess]
+namirin - Songs Compilation ([C u r i]) [Princess]
 2.87,2.38
-*namirin - The Noise of Rain (Sotarks) [Expert]
+namirin - The Noise of Rain (Sotarks) [Expert]
 3.16,2.48
-*namirin - The Noise of Rain (Sotarks) [NiNo's Insane]
+namirin - The Noise of Rain (Sotarks) [NiNo's Insane]
 2.25,2.32
-*namirin - Yasashisa no Riyuu (BaAR_Vendel) [Insane]
+namirin - Yasashisa no Riyuu (BaAR_Vendel) [Insane]
 2.45,2.02
-*Namirin - Yasashisa no Riyuu (Kibbleru) [Happiness]
+Namirin - Yasashisa no Riyuu (Kibbleru) [Happiness]
 3.0,2.31
-*Namirin - Yasashisa no Riyuu (Kibbleru) [Rumi's Insane]
+Namirin - Yasashisa no Riyuu (Kibbleru) [Rumi's Insane]
 2.52,2.23
-*namirin - Yasashisa no Riyuu (Tomadoi) [Insane]
+namirin - Yasashisa no Riyuu (Tomadoi) [Insane]
 2.47,1.93
 NANA - Concerto Note (ElxBeta) [Aenna]
 2.22,2.02
@@ -17652,7 +17652,7 @@ nana(Sevencolors) - chameleon (RVMathew) [Ojou]
 2.83,2.35
 Nanahira & Mameko & Riko & Mega - Straight LOVE (intoon) [Insane]
 2.28,2.35
-Nanahira & *namirin - Egao ni Naru (Uta) [Insane]
+Nanahira & namirin - Egao ni Naru (Uta) [Insane]
 2.2,2.01
 Nanahira - Bassdrop Freaks (Long Ver.) (yf_bmp) [BASSDROP!!]
 2.97,2.96
@@ -17700,9 +17700,9 @@ Nanahira - Petals (Kalibe) [Flower]
 3.25,3.02
 Nanahira - Petals (toybot) [Blossom]
 3.01,2.86
-Nanahira - Shikinkyori * Lover (Snowy Dream) [Insane]
+Nanahira - Shikinkyori  Lover (Snowy Dream) [Insane]
 2.22,2.35
-Nanahira - Tobidase! Sweet Sweet Magic* (cRyo[iceeicee]) [Insane]
+Nanahira - Tobidase! Sweet Sweet Magic (cRyo[iceeicee]) [Insane]
 2.39,2.3
 Nanahira - Viva Happy (Frey) [Chaoz's Another]
 2.29,2.16
@@ -17716,7 +17716,7 @@ Nanahira x Camellia - INFINITI MOFULITY short ver. (My Angel RangE) [Insane]
 2.48,2.18
 Nanahira x Camellia - INFINITI MOFULITY short ver. (My Angel RangE) [Mofu Mofu Happiness]
 2.72,2.49
-Nanahira x Camellia - Mofucchatte*Summer! Summer!! Summer!!! (My Angel RangE) [Summer! Summer!! Summer!!!]
+Nanahira x Camellia - MofucchatteSummer! Summer!! Summer!!! (My Angel RangE) [Summer! Summer!! Summer!!!]
 2.23,1.86
 Nanahoshi Kangengakudan - anoko dokonoko (kwk) [Extra]
 2.91,2.89
@@ -17752,125 +17752,125 @@ Nanako - Ura mo Karada mo Rakkamijin (Megurine Luka) [Extreme]
 2.41,2.36
 Nanako - Who floats (wring) [Extreme]
 2.71,2.51
-Nanamori Chu * Goraku Bu - Yuriyurarararayuruyuri Daijiken (TV Size) (kanpakyin) [Insane]
+Nanamori Chu  Goraku Bu - Yuriyurarararayuruyuri Daijiken (TV Size) (kanpakyin) [Insane]
 2.63,2.14
-Nanamori-chu * Goraku-bu - Acchu~ma Seishun! (TV Size) (eiri-) [A r M i N's Extra]
+Nanamori-chu  Goraku-bu - Acchu~ma Seishun! (TV Size) (eiri-) [A r M i N's Extra]
 3.17,2.31
-Nanamori-chu * Goraku-bu - Acchu~ma Seishun! (TV Size) (eiri-) [Alex's Extra]
+Nanamori-chu  Goraku-bu - Acchu~ma Seishun! (TV Size) (eiri-) [Alex's Extra]
 3.18,2.32
-Nanamori-chu * Goraku-bu - Acchu~ma Seishun! (TV Size) (eiri-) [Expert]
+Nanamori-chu  Goraku-bu - Acchu~ma Seishun! (TV Size) (eiri-) [Expert]
 2.98,2.35
-Nanamori-chu * Goraku-bu - Acchu~ma Seishun! (TV Size) (eiri-) [hyper's Hyper]
+Nanamori-chu  Goraku-bu - Acchu~ma Seishun! (TV Size) (eiri-) [hyper's Hyper]
 2.02,2.11
-Nanamori-chu * Goraku-bu - Acchu~ma Seishun! (TV Size) (eiri-) [Irohas' Insane]
+Nanamori-chu  Goraku-bu - Acchu~ma Seishun! (TV Size) (eiri-) [Irohas' Insane]
 2.67,2.17
-Nanamori-chu * Goraku-bu - Acchu~ma Seishun! (TV Size) (eiri-) [Kowari's Extra]
+Nanamori-chu  Goraku-bu - Acchu~ma Seishun! (TV Size) (eiri-) [Kowari's Extra]
 2.86,2.08
-Nanamori-chu * Goraku-bu - Acchu~ma Seishun! (TV Size) (eiri-) [Reform's Extra]
+Nanamori-chu  Goraku-bu - Acchu~ma Seishun! (TV Size) (eiri-) [Reform's Extra]
 2.83,2.2
-Nanamori-chu * Goraku-bu - Acchu~ma Seishun! (TV Size) (eiri-) [Rolniczy's Extreme]
+Nanamori-chu  Goraku-bu - Acchu~ma Seishun! (TV Size) (eiri-) [Rolniczy's Extreme]
 3.27,2.39
-Nanamori-chu * Goraku-bu - Acchu~ma Seishun! (TV Size) (eiri-) [SMOKELIND's Insane]
+Nanamori-chu  Goraku-bu - Acchu~ma Seishun! (TV Size) (eiri-) [SMOKELIND's Insane]
 2.49,2.17
-Nanamori-chu * Goraku-bu - Acchu~ma Seishun! (TV Size) (eiri-) [Sotarks' Peace of Mind]
+Nanamori-chu  Goraku-bu - Acchu~ma Seishun! (TV Size) (eiri-) [Sotarks' Peace of Mind]
 3.38,2.31
-Nanamori-chu * Goraku-bu - Acchu~ma Seishun! (TV Size) (eiri-) [Trynna's Insane]
+Nanamori-chu  Goraku-bu - Acchu~ma Seishun! (TV Size) (eiri-) [Trynna's Insane]
 2.58,2.28
-Nanamori-chu * Goraku-bu - After School Days (Setz) [Memory]
+Nanamori-chu  Goraku-bu - After School Days (Setz) [Memory]
 2.73,2.42
-Nanamori-chu * Goraku-bu - After School Days (Setz) [No Dap's Insane]
+Nanamori-chu  Goraku-bu - After School Days (Setz) [No Dap's Insane]
 2.27,2.17
-Nanamori-chu * Goraku-bu - Happy Time wa Owaranai (Cut Ver.) (-Keitaro) [Insane]
+Nanamori-chu  Goraku-bu - Happy Time wa Owaranai (Cut Ver.) (-Keitaro) [Insane]
 2.48,2.4
-Nanamori-chu * Goraku-bu - Happy Time wa Owaranai (deadcode) [Expert]
+Nanamori-chu  Goraku-bu - Happy Time wa Owaranai (deadcode) [Expert]
 3.58,2.46
-Nanamori-chu * Goraku-bu - Happy Time wa Owaranai (deadcode) [Extra]
+Nanamori-chu  Goraku-bu - Happy Time wa Owaranai (deadcode) [Extra]
 3.12,2.45
-Nanamori-chu * Goraku-bu - Happy Time wa Owaranai (deadcode) [Insane]
+Nanamori-chu  Goraku-bu - Happy Time wa Owaranai (deadcode) [Insane]
 2.68,2.31
-Nanamori-chu * Goraku-bu - Happy Time wa Owaranai (eiri-) [AyyLazy's Expert]
+Nanamori-chu  Goraku-bu - Happy Time wa Owaranai (eiri-) [AyyLazy's Expert]
 3.09,2.41
-Nanamori-chu * Goraku-bu - Happy Time wa Owaranai (eiri-) [Dash's Extra]
+Nanamori-chu  Goraku-bu - Happy Time wa Owaranai (eiri-) [Dash's Extra]
 2.82,2.32
-Nanamori-chu * Goraku-bu - Happy Time wa Owaranai (eiri-) [hyper's Hyper]
+Nanamori-chu  Goraku-bu - Happy Time wa Owaranai (eiri-) [hyper's Hyper]
 2.07,2.03
-Nanamori-chu * Goraku-bu - Happy Time wa Owaranai (eiri-) [Shiinoha's Insane]
+Nanamori-chu  Goraku-bu - Happy Time wa Owaranai (eiri-) [Shiinoha's Insane]
 2.3,2.4
-Nanamori-chu * Goraku-bu - Happy Time wa Owaranai (eiri-) [Sotarks' Peace of Mind]
+Nanamori-chu  Goraku-bu - Happy Time wa Owaranai (eiri-) [Sotarks' Peace of Mind]
 3.5,2.39
-Nanamori-chu * Goraku-bu - Happy Time wa Owaranai (Setz) [A Mystery's Insane]
+Nanamori-chu  Goraku-bu - Happy Time wa Owaranai (Setz) [A Mystery's Insane]
 2.47,2.28
-Nanamori-chu * Goraku-bu - Happy Time wa Owaranai (Setz) [Eternal Happiness]
+Nanamori-chu  Goraku-bu - Happy Time wa Owaranai (Setz) [Eternal Happiness]
 3.06,2.51
-Nanamori-chu * Goraku-bu - Kimi ga Kureta Shiny Story (Irohas) [Endless Yuri]
+Nanamori-chu  Goraku-bu - Kimi ga Kureta Shiny Story (Irohas) [Endless Yuri]
 2.06,1.78
-Nanamori-chu * Goraku-bu - My Pace de Ikimashou (bakabaka) [Yuri]
+Nanamori-chu  Goraku-bu - My Pace de Ikimashou (bakabaka) [Yuri]
 2.89,2.57
-Nanamori-chu * Goraku-bu - My Pace de Ikimashou (Lasse) [Insane]
+Nanamori-chu  Goraku-bu - My Pace de Ikimashou (Lasse) [Insane]
 2.48,2.23
-Nanamori-chu * Goraku-bu - My Pace de Ikimashou (Lasse) [Mirakuru]
+Nanamori-chu  Goraku-bu - My Pace de Ikimashou (Lasse) [Mirakuru]
 2.88,2.44
-Nanamori-chu * Goraku-bu - My Pace de Ikimashou (TV Size) (biwako) [Insane]
+Nanamori-chu  Goraku-bu - My Pace de Ikimashou (TV Size) (biwako) [Insane]
 2.66,2.33
-Nanamori-chu * Goraku-bu - My Pace de Ikimashou (TV Size) (eiri-) [Onlybiscuit's Extra]
+Nanamori-chu  Goraku-bu - My Pace de Ikimashou (TV Size) (eiri-) [Onlybiscuit's Extra]
 2.93,2.3
-Nanamori-chu * Goraku-bu - My Pace de Ikimashou (TV Size) (eiri-) [Seto's Insane]
+Nanamori-chu  Goraku-bu - My Pace de Ikimashou (TV Size) (eiri-) [Seto's Insane]
 2.58,2.09
-Nanamori-chu * Goraku-bu - My Pace de Ikimashou (TV Size) (eiri-) [Sotarks' Peace of Mind]
+Nanamori-chu  Goraku-bu - My Pace de Ikimashou (TV Size) (eiri-) [Sotarks' Peace of Mind]
 3.33,2.31
-Nanamori-chu * Goraku-bu - My Pace de Ikimashou (TV Size) (wcx19911123) [Sumisola's Insane]
+Nanamori-chu  Goraku-bu - My Pace de Ikimashou (TV Size) (wcx19911123) [Sumisola's Insane]
 2.23,2.15
-Nanamori-chu * Goraku-bu - My Pace de Ikimashou (TV Size) (wcx19911123) [Yuru YurI]
+Nanamori-chu  Goraku-bu - My Pace de Ikimashou (TV Size) (wcx19911123) [Yuru YurI]
 2.83,2.39
-Nanamori-chu * Goraku-bu - My Pace de Ikimashou (yf_bmp) [bread's Insane]
+Nanamori-chu  Goraku-bu - My Pace de Ikimashou (yf_bmp) [bread's Insane]
 2.51,2.16
-Nanamori-chu * Goraku-bu - My Pace de Ikimashou (yf_bmp) [Yuru Yuri]
+Nanamori-chu  Goraku-bu - My Pace de Ikimashou (yf_bmp) [Yuru Yuri]
 2.98,2.54
-Nanamori-chu * Goraku-bu - MY SWEET MEMORY (Setz) [Reminisce]
+Nanamori-chu  Goraku-bu - MY SWEET MEMORY (Setz) [Reminisce]
 2.49,2.05
-Nanamori-chu * Goraku-bu - Precious Friends (Setz206) [Insane]
+Nanamori-chu  Goraku-bu - Precious Friends (Setz206) [Insane]
 2.19,1.96
-Nanamori-chu * Goraku-bu - Yes! Yuyuyu * Yuruyuri (TV Size) (eiri-) [hyper's Hyper]
+Nanamori-chu  Goraku-bu - Yes! Yuyuyu  Yuruyuri (TV Size) (eiri-) [hyper's Hyper]
 2.13,1.97
-Nanamori-chu * Goraku-bu - Yes! Yuyuyu * Yuruyuri (TV Size) (eiri-) [Sotarks' Peace of Mind]
+Nanamori-chu  Goraku-bu - Yes! Yuyuyu  Yuruyuri (TV Size) (eiri-) [Sotarks' Peace of Mind]
 3.14,2.23
-Nanamori-chu * Goraku-bu - Yes! YuYuYu*YuruYuri (TV Size) (LKs) [Insane]
+Nanamori-chu  Goraku-bu - Yes! YuYuYuYuruYuri (TV Size) (LKs) [Insane]
 2.51,2.23
-Nanamori-chu * Goraku-bu - Yurishurashushushu (TV Size) (Lunala) [Insane!!]
+Nanamori-chu  Goraku-bu - Yurishurashushushu (TV Size) (Lunala) [Insane!!]
 2.34,2.01
-Nanamori-chu * Goraku-bu - Yuriyurarararayuruyuri Daijiken (TV Size) (eiri-) [Expert]
+Nanamori-chu  Goraku-bu - Yuriyurarararayuruyuri Daijiken (TV Size) (eiri-) [Expert]
 2.73,2.15
-Nanamori-chu * Goraku-bu - Yuriyurarararayuruyuri Daijiken (TV Size) (eiri-) [IOException's Extra]
+Nanamori-chu  Goraku-bu - Yuriyurarararayuruyuri Daijiken (TV Size) (eiri-) [IOException's Extra]
 2.79,2.33
-Nanamori-chu * Goraku-bu - Yuriyurarararayuruyuri Daijiken (TV Size) (eiri-) [Onlybiscuit's Extra]
+Nanamori-chu  Goraku-bu - Yuriyurarararayuruyuri Daijiken (TV Size) (eiri-) [Onlybiscuit's Extra]
 2.99,2.14
-Nanamori-chu * Goraku-bu - Yuriyurarararayuruyuri Daijiken (TV Size) (eiri-) [Seto's Insane]
+Nanamori-chu  Goraku-bu - Yuriyurarararayuruyuri Daijiken (TV Size) (eiri-) [Seto's Insane]
 2.49,2.26
-Nanamori-chu * Goraku-bu - Yuriyurarararayuruyuri Daijiken (TV Size) (eiri-) [Sotarks' Peace of Mind]
+Nanamori-chu  Goraku-bu - Yuriyurarararayuruyuri Daijiken (TV Size) (eiri-) [Sotarks' Peace of Mind]
 3.08,2.33
-Nanamori-chu * Goraku-bu - Yuru Yurinrinrinrinrin (Setz) [A Mystery's Insane]
+Nanamori-chu  Goraku-bu - Yuru Yurinrinrinrinrin (Setz) [A Mystery's Insane]
 2.47,2.06
-Nanamori-chu * Goraku-bu - Yuru Yurinrinrinrinrin (Setz) [Summer Vacation]
+Nanamori-chu  Goraku-bu - Yuru Yurinrinrinrinrin (Setz) [Summer Vacation]
 2.76,2.25
-Nanamori-chu*Goraku-bu - Yuru Yurinrinrinrinrin (Haruru) [Insane]
+Nanamori-chuGoraku-bu - Yuru Yurinrinrinrinrin (Haruru) [Insane]
 2.51,2.21
-Nanamori-chu*Goraku-bu - Yuru Yurinrinrinrinrin (Karia) [Eternal Yuri]
+Nanamori-chuGoraku-bu - Yuru Yurinrinrinrinrin (Karia) [Eternal Yuri]
 3.19,2.35
-Nanamori-chu*Goraku-bu - Yuru Yurinrinrinrinrin (Karia) [Insane]
+Nanamori-chuGoraku-bu - Yuru Yurinrinrinrinrin (Karia) [Insane]
 2.62,2.26
-Nanamori-chu*Gorakubu - Acchu~ma Seishun! (Pata-Mon) [Fycho's Seishun]
+Nanamori-chuGorakubu - Acchu~ma Seishun! (Pata-Mon) [Fycho's Seishun]
 3.2,2.29
-Nanamori-chu*Gorakubu - Acchu~ma Seishun! (Pata-Mon) [Insane]
+Nanamori-chuGorakubu - Acchu~ma Seishun! (Pata-Mon) [Insane]
 2.67,2.14
-Nanamori-chu*Gorakubu - Acchu~ma Seishun! (Pata-Mon) [Karen's Insane]
+Nanamori-chuGorakubu - Acchu~ma Seishun! (Pata-Mon) [Karen's Insane]
 2.28,2.17
-Nanamori-chu*Gorakubu - Yuriyurarararayuruyuri Daijiken (Pata-Mon) [Doormat's Insane]
+Nanamori-chuGorakubu - Yuriyurarararayuruyuri Daijiken (Pata-Mon) [Doormat's Insane]
 2.54,2.23
-Nanamori-chu*Gorakubu - Yuriyurarararayuruyuri Daijiken (Pata-Mon) [Kencho's Insane]
+Nanamori-chuGorakubu - Yuriyurarararayuruyuri Daijiken (Pata-Mon) [Kencho's Insane]
 2.59,2.09
-Nanamori-chu*Gorakubu - Yuriyurarararayuruyuri Daijiken (Pata-Mon) [wkyik's Insane]
+Nanamori-chuGorakubu - Yuriyurarararayuruyuri Daijiken (Pata-Mon) [wkyik's Insane]
 2.62,2.12
-Nanamori-chu*Gorakubu - Yuriyurarararayuruyuri Daijiken (Pata-Mon) [xxdeathx's Yuri]
+Nanamori-chuGorakubu - Yuriyurarararayuruyuri Daijiken (Pata-Mon) [xxdeathx's Yuri]
 2.84,2.23
 Nanawo Akari - Dadadada Tenshi (Cut Ver.) (Ryuusei Aika) [Doya!]
 2.65,2.41
@@ -18150,15 +18150,15 @@ nao - Dimension tripper!!!! ([Sc4v4ng3r]) [Gear's Insane]
 2.33,2.13
 nao - Dimension tripper!!!! ([Sc4v4ng3r]) [Walao's Insane]
 2.49,2.26
-nao - Kirihirake! Gracie*Star (Tari) [Sinful Stars]
+nao - Kirihirake! GracieStar (Tari) [Sinful Stars]
 2.33,2.02
-nao - Kirihirake! Roleplay*Star Girl (Tari) [captin's Insane]
+nao - Kirihirake! RoleplayStar Girl (Tari) [captin's Insane]
 2.62,2.3
-nao - Kirihirake! Roleplay*Star Girl (Tari) [Insane]
+nao - Kirihirake! RoleplayStar Girl (Tari) [Insane]
 2.6,2.24
 nao - Lunatic Delusion (PSPDS Eddie) [Insane]
 2.09,2.14
-nao - Miracle!Portable*Mission (Minakami Yuki) [Insane]
+nao - Miracle!PortableMission (Minakami Yuki) [Insane]
 2.58,2.44
 nao - Pastel Chime (Short Ver.) (ykcarrot) [Insane]
 2.43,2.17
@@ -18436,11 +18436,11 @@ Nekomata Master feat. Shimotsuki Haruka - Element of SPADA (handsome) [Valor]
 2.59,2.44
 Nekomata Master feat. Shimotsuki Haruka - Element of SPADA (Strawberry) [Another]
 2.62,2.44
-Nekomata Master feat. *spiLa* - Clumsy thoughts (Gibune) [Insane]
+Nekomata Master feat. spiLa - Clumsy thoughts (Gibune) [Insane]
 2.31,1.95
-Nekomata Master feat. *spiLa* - Clumsy thoughts (Kawaiwkyik) [Awaken's Insane]
+Nekomata Master feat. spiLa - Clumsy thoughts (Kawaiwkyik) [Awaken's Insane]
 2.11,1.84
-Nekomata Master feat. *spiLa* - Clumsy thoughts (Kawaiwkyik) [Insane]
+Nekomata Master feat. spiLa - Clumsy thoughts (Kawaiwkyik) [Insane]
 2.64,1.96
 Nekomata Master feat.Joelle Strother - Infinity of Our Love (moph) [Ambient's Insane]
 2.74,2.23
@@ -18614,7 +18614,7 @@ Nico Nico Douga - Second Subway (Lunah) [Insane]
 2.44,2.17
 Nico Nico Douga - VS Misaka Mikototo (DJPop) [Insane]
 1.93,2.38
-Nico Nico Douga feat. Mizuhu - Merry * Xex Mas (-Chata-) [L i a's X Mas]
+Nico Nico Douga feat. Mizuhu - Merry  Xex Mas (-Chata-) [L i a's X Mas]
 2.5,2.22
 NICO Touches the Walls - Diver (-Sh1n1-) [Habi's Insane]
 2.22,1.94
@@ -18948,9 +18948,9 @@ NOMA - LOUDER MACHINE (Skystar) [Extra]
 3.19,2.57
 NOMA - LOUDER MACHINE (Skystar) [ProBox's Extra]
 3.16,2.6
-NOMA - PEPSI * MAN (Seto Kousuke) [ANOTHER]
+NOMA - PEPSI  MAN (Seto Kousuke) [ANOTHER]
 2.22,2.36
-NOMA - PEPSI * MAN (Seto Kousuke) [I AM THE PEPSI MAN]
+NOMA - PEPSI  MAN (Seto Kousuke) [I AM THE PEPSI MAN]
 3.13,2.95
 nomico - Hoshikaze no Horoscope (TV Size) (KanaRin) [MeLLoN]
 2.09,2.18
@@ -18966,7 +18966,7 @@ nomico - Natsukoi Escalation (Short Ver.) (Melophobia) [Insane]
 2.26,2.04
 Nomiya Ayumi - Colors (xierbaliti) [Ex Boy's Colors XD]
 2.14,2.15
-Nomizu Iori - *** Passionate (TV Size) (Kawayi Rika) [Rika]
+Nomizu Iori -  Passionate (TV Size) (Kawayi Rika) [Rika]
 2.08,1.8
 Nomizu Iori - Black + White (TV Size) (Testo) [Gray]
 3.05,2.37
@@ -19002,9 +19002,9 @@ nonoc - Reloaded (SpokenAway) [Insane]
 2.52,1.96
 nonoc - Reloaded (SpokenAway) [Lost in Memories]
 3.19,2.27
-Nonohara Yuzuko(CV:Okubo Rumi) - HappyDays* (Setz) [kakifly's Insane]
+Nonohara Yuzuko(CV:Okubo Rumi) - HappyDays (Setz) [kakifly's Insane]
 2.46,2.14
-Nonohara Yuzuko(CV:Okubo Rumi) - HappyDays* (Setz) [Ohayo~!]
+Nonohara Yuzuko(CV:Okubo Rumi) - HappyDays (Setz) [Ohayo~!]
 2.72,2.28
 No:R - JuDGMENT/SHADoW ~T06481T0~ (Lasse) [RESoLVE/PeTAL ~T89661T3~]
 3.14,2.46
@@ -19048,9 +19048,9 @@ nowisee - Koinu (-MikanMyMommy) [waji's Affection]
 3.25,2.76
 NOX - Firesong (Shiro) [NOX]
 2.96,2.4
-*NSYNC - Bye Bye Bye (0_o) [0_o]
+NSYNC - Bye Bye Bye (0_o) [0_o]
 2.24,1.87
-*NSYNC - Pop (RemmyX25) [Metroid's Mix]
+NSYNC - Pop (RemmyX25) [Metroid's Mix]
 1.86,1.79
 NU-KO - Pochiko no Shiawase na Nichijou (Enon) [A_cu's Expert]
 2.54,2.58
@@ -19094,7 +19094,7 @@ Numtack05 - Ooki na Hane de! (Cut Ver.) (Mafumafu) [Tsubasa]
 2.11,1.87
 Numtack05 - Oshimai da ze! (Arphimigon) [The End!]
 2.37,2.05
-Nya~tan(CV: Murakawa Rie) - Retry*Rendezvous[TVsize ver.] (DreaM117er) [Insane]
+Nya~tan(CV: Murakawa Rie) - RetryRendezvous[TVsize ver.] (DreaM117er) [Insane]
 2.39,2.1
 O-Life Japan - Yakujinsama no Couple Dance (AngelHoney) [Insane]
 2.62,2.74
@@ -19170,11 +19170,11 @@ Ogura Yui - Future Strike (TV Size) (Yuuma) [Insane]
 2.32,2.1
 Ogura Yui - Future Strike (TV Size) (Yuuma) [Rinne]
 2.73,2.27
-Ogura Yui - Happiness * Sensation (TV Size) (Yuuma) [Everlasting]
+Ogura Yui - Happiness  Sensation (TV Size) (Yuuma) [Everlasting]
 2.77,2.1
-Ogura Yui - Happiness * Sensation (TV Size) (Yuuma) [Insane]
+Ogura Yui - Happiness  Sensation (TV Size) (Yuuma) [Insane]
 2.34,1.96
-Ogura Yui - High-Touch * Memory (shardex) [High-Touch * Summer]
+Ogura Yui - High-Touch  Memory (shardex) [High-Touch  Summer]
 3.09,2.28
 Ogura Yui - Honey Come!! (Doormat) [Bloom]
 2.51,2.42
@@ -19214,7 +19214,7 @@ Ohara Rinne (CV: Tamura Yukari) - Lasting Memories (TV Size) (Riana) [Taeyang's 
 2.78,1.95
 Ohara Yuiko - Only (TV Size) (Kujinn) [Insane]
 2.38,1.82
-Ohara Yuiko - Zero Centimeter (TV Size) (Nao Tomori) [/)>w<)/*\(>w<(\!!!!!]
+Ohara Yuiko - Zero Centimeter (TV Size) (Nao Tomori) [/)>w<)/\(>w<(\!!!!!]
 2.29,1.92
 Ohara Yuiko - Zero Centimeters (TV Size) (-Mikan) [Jouzu]
 2.47,1.91
@@ -19610,9 +19610,9 @@ Oomori Seiko - JUSTadICE (TV Size) (xChorse) [Extra]
 2.81,2.51
 Opeth - Ghost of Perdition (CircleChu) [Eternal Damnation]
 2.51,2.63
-OR3O - Doki Doki Forever (ft. rachie, Chi-chi, Kathy-chan*) (DTM9 Nowa) [Monika's Insane]
+OR3O - Doki Doki Forever (ft. rachie, Chi-chi, Kathy-chan) (DTM9 Nowa) [Monika's Insane]
 2.27,2.08
-OR3O - Doki Doki Forever (ft. rachie, Chi-chi, Kathy-chan*) (DTM9 Nowa) [Tragic Love Story]
+OR3O - Doki Doki Forever (ft. rachie, Chi-chi, Kathy-chan) (DTM9 Nowa) [Tragic Love Story]
 2.63,2.21
 Orange Caramel - Shanghai Romance (Kurai) [Insane]
 2.19,2.28
@@ -19910,19 +19910,19 @@ paraoka - Manima ni (Short Ver.) (NatsumeRin) [Rin]
 2.66,2.28
 paraoka - monolithize phases (happy30) [Monolithic]
 2.29,2.14
-paraoka feat. haru*nya - Manimani (Yales) [Yamazakura]
+paraoka feat. harunya - Manimani (Yales) [Yamazakura]
 3.15,2.59
-paraoka feat. haru*nya - Rampage (Irreversible) [Another]
+paraoka feat. harunya - Rampage (Irreversible) [Another]
 2.57,2.22
-paraoka feat. haru*nya - Rampage (Irreversible) [Kawabunga!]
+paraoka feat. harunya - Rampage (Irreversible) [Kawabunga!]
 4.67,3.11
-paraoka feat. haru*nya - Rampage (Irreversible) [Kyshiro's Ultra]
+paraoka feat. harunya - Rampage (Irreversible) [Kyshiro's Ultra]
 3.55,3.07
-paraoka feat. haru*nya - Rampage (Irreversible) [Kyversible's Extra]
+paraoka feat. harunya - Rampage (Irreversible) [Kyversible's Extra]
 2.99,2.79
-paraoka feat. haru*nya - Rampage (Irreversible) [Kyversible's Insane]
+paraoka feat. harunya - Rampage (Irreversible) [Kyversible's Insane]
 2.08,2.15
-paraoka feat. haru*nya - secret garden (Xilver15) [Ascending Current]
+paraoka feat. harunya - secret garden (Xilver15) [Ascending Current]
 3.24,2.67
 Parkway Drive - Carrion (DavidEd) [Extra]
 2.53,2.22
@@ -19996,61 +19996,61 @@ PassCode - STARRY SKY (Akitoshi) [Insane]
 2.45,2.23
 PassCode - STARRY SKY (Akitoshi) [Starfall]
 3.19,2.66
-Pastel*Palettes - Attsu Atsu Tokonatsu Love*Summer! (Hikan) [Eli's Special]
+PastelPalettes - Attsu Atsu Tokonatsu LoveSummer! (Hikan) [Eli's Special]
 2.73,2.08
-Pastel*Palettes - Attsu Atsu Tokonatsu Love*Summer! (Hikan) [Lost's Expert]
+PastelPalettes - Attsu Atsu Tokonatsu LoveSummer! (Hikan) [Lost's Expert]
 2.47,2.14
-Pastel*Palettes - Baby Sweet Berry Love (-Mikan) [Shizuku's Insane]
+PastelPalettes - Baby Sweet Berry Love (-Mikan) [Shizuku's Insane]
 2.32,2.28
-Pastel*Palettes - Fantastic future (-Mikan) [Akitoshi's Insane]
+PastelPalettes - Fantastic future (-Mikan) [Akitoshi's Insane]
 2.4,2.19
-Pastel*Palettes - Fantastic future (-Mikan) [Djulus' Expert]
+PastelPalettes - Fantastic future (-Mikan) [Djulus' Expert]
 2.75,2.25
-Pastel*Palettes - Fantastic future (-Mikan) [Pervert]
+PastelPalettes - Fantastic future (-Mikan) [Pervert]
 2.89,2.46
-Pastel*Palettes - Gyu DAYS (Shizuku-) [Expert]
+PastelPalettes - Gyu DAYS (Shizuku-) [Expert]
 2.71,2.27
-Pastel*Palettes - Gyu DAYS (Shizuku-) [Hug]
+PastelPalettes - Gyu DAYS (Shizuku-) [Hug]
 3.18,2.48
-Pastel*Palettes - Gyu DAYS (Shizuku-) [Insane]
+PastelPalettes - Gyu DAYS (Shizuku-) [Insane]
 2.34,2.14
-Pastel*Palettes - Happy Synthesizer (ktgster) [Insane]
+PastelPalettes - Happy Synthesizer (ktgster) [Insane]
 1.88,2.28
-Pastel*Palettes - Happy Synthesizer (ktgster) [Special]
+PastelPalettes - Happy Synthesizer (ktgster) [Special]
 2.9,3.3
-Pastel*Palettes - Harumodoki (-Mikan) [Dendy's Extra]
+PastelPalettes - Harumodoki (-Mikan) [Dendy's Extra]
 2.76,2.45
-Pastel*Palettes - Harumodoki (-Mikan) [iljaaz's Insane]
+PastelPalettes - Harumodoki (-Mikan) [iljaaz's Insane]
 2.46,2.14
-Pastel*Palettes - Harumodoki (-Mikan) [Romance]
+PastelPalettes - Harumodoki (-Mikan) [Romance]
 3.21,2.86
-Pastel*Palettes - Harumodoki (-Mikan) [Shizuku's Special]
+PastelPalettes - Harumodoki (-Mikan) [Shizuku's Special]
 3.08,2.58
-Pastel*Palettes - Harumodoki (Asterisk DnB Remix) [Rakakun- Edit] (-Mikan) [Sunshine]
+PastelPalettes - Harumodoki (Asterisk DnB Remix) [Rakakun- Edit] (-Mikan) [Sunshine]
 3.12,2.7
-Pastel*Palettes - Harumodoki (Asterisk DnB Remix) [Rakakun- Edit] (-Mikan) [Xenon's Insane]
+PastelPalettes - Harumodoki (Asterisk DnB Remix) [Rakakun- Edit] (-Mikan) [Xenon's Insane]
 2.35,2.26
-Pastel*Palettes - Kyu~mai*flower (Petal) [Petals]
+PastelPalettes - Kyu~maiflower (Petal) [Petals]
 3.05,2.57
-Pastel*Palettes - Pasupa Revolutions* (Shizuku-) [Expert]
+PastelPalettes - Pasupa Revolutions (Shizuku-) [Expert]
 3.13,2.24
-Pastel*Palettes - Pasupa Revolutions* (Shizuku-) [Insane]
+PastelPalettes - Pasupa Revolutions (Shizuku-) [Insane]
 2.46,2.18
-Pastel*Palettes - Q&A Recital! (-Mikan) [Precious for you]
+PastelPalettes - Q&A Recital! (-Mikan) [Precious for you]
 3.25,2.25
-Pastel*Palettes - Q&A Recital! (-Mikan) [Taeyang's Special]
+PastelPalettes - Q&A Recital! (-Mikan) [Taeyang's Special]
 3.06,2.32
-Pastel*Palettes - Shuwarin*Drea~ming (ailv) [Insane]
+PastelPalettes - ShuwarinDrea~ming (ailv) [Insane]
 2.49,2.2
-Pastel*Palettes - Shuwarin*Drea~ming (ailv) [Lafa's Expert]
+PastelPalettes - ShuwarinDrea~ming (ailv) [Lafa's Expert]
 2.86,2.31
-Pastel*Palettes - Shuwarin*Drea~ming (ailv) [Bubbling Love]
+PastelPalettes - ShuwarinDrea~ming (ailv) [Bubbling Love]
 3.05,2.09
-Pastel*Palettes - Zettai Sengen ~Recital~ (-Mikan) [Trick or Escape!]
+PastelPalettes - Zettai Sengen ~Recital~ (-Mikan) [Trick or Escape!]
 3.06,2.98
-Pastel*Palettes - Zettai Sengen ~Recital~ (-Mikan) [Xenon's Insane]
+PastelPalettes - Zettai Sengen ~Recital~ (-Mikan) [Xenon's Insane]
 2.55,2.25
-Pastel*Palettes - Zettai Sengen ~Recital~ (Doormat) [Spooky]
+PastelPalettes - Zettai Sengen ~Recital~ (Doormat) [Spooky]
 2.94,2.68
 Pastry - Goblin Girl (osuplayer111) [Lunatic]
 2.14,2.15
@@ -20388,73 +20388,73 @@ Plasmagica - Have a nice MUSIC!! (AsakuraNe) [XiMerx' Insane]
 2.34,2.11
 Plasmagica - Have a nice MUSIC!!(TVedit) (ErunamoJAZZ) [pkhg's Insane]
 2.16,1.95
-P*Light - 2 MINUTES FIGHTERS (Flask) [Delis' EXHAUST]
+PLight - 2 MINUTES FIGHTERS (Flask) [Delis' EXHAUST]
 2.72,2.99
-P*Light - 2 MINUTES FIGHTERS (Regraz) [GRAVITY]
+PLight - 2 MINUTES FIGHTERS (Regraz) [GRAVITY]
 3.53,3.33
-P*Light - BUBBLE RAVER (Asphyxia) [INFINITE]
+PLight - BUBBLE RAVER (Asphyxia) [INFINITE]
 2.52,2.62
-P*Light - Deadliner (xDarxen) [Extremity]
+PLight - Deadliner (xDarxen) [Extremity]
 2.94,2.49
-P*Light - Deadliner (xDarxen) [eze's Extra]
+PLight - Deadliner (xDarxen) [eze's Extra]
 2.75,2.56
-P*Light - FUNKY SUMMER BEACH (Priti) [K.Penguin's Extra]
+PLight - FUNKY SUMMER BEACH (Priti) [K.Penguin's Extra]
 2.97,2.77
-P*Light - FUNKY SUMMER BEACH (Priti) [Prinelyversible's Insane]
+PLight - FUNKY SUMMER BEACH (Priti) [Prinelyversible's Insane]
 2.43,2.26
-P*Light - FUNKY SUMMER BEACH (Priti) [Ultra]
+PLight - FUNKY SUMMER BEACH (Priti) [Ultra]
 3.14,3.02
-P*Light - NINJA (Kyubey) [Insane]
+PLight - NINJA (Kyubey) [Insane]
 2.43,2.66
-P*Light - Poppin' Shower (Reisen Udongein) [Another]
+PLight - Poppin' Shower (Reisen Udongein) [Another]
 2.62,2.5
-P*Light - SAY BAY (yf_bmp) [1112's Leggendaria Expert]
+PLight - SAY BAY (yf_bmp) [1112's Leggendaria Expert]
 3.38,3.18
-P*Light - SAY BAY (yf_bmp) [Firika's Expert (Winner!)]
+PLight - SAY BAY (yf_bmp) [Firika's Expert (Winner!)]
 2.88,2.58
-P*Light - SAY BAY (yf_bmp) [how2miss' Expert]
+PLight - SAY BAY (yf_bmp) [how2miss' Expert]
 2.97,3.09
-P*Light - SAY BAY (yf_bmp) [IOException's Expert]
+PLight - SAY BAY (yf_bmp) [IOException's Expert]
 3.24,3.22
-P*Light - SAY BAY (yf_bmp) [Kayano'S B]
+PLight - SAY BAY (yf_bmp) [Kayano'S B]
 3.23,3.41
-P*Light - SAY BAY (yf_bmp) [papapa's Insane]
+PLight - SAY BAY (yf_bmp) [papapa's Insane]
 2.34,2.56
-P*Light - SAY BAY (yf_bmp) [Pata-Mon's Insane]
+PLight - SAY BAY (yf_bmp) [Pata-Mon's Insane]
 2.56,2.28
-P*Light - SAY BAY (yf_bmp) [SB]
+PLight - SAY BAY (yf_bmp) [SB]
 3.33,3.38
-P*Light - SAY BAY (yf_bmp) [XLT's Expert]
+PLight - SAY BAY (yf_bmp) [XLT's Expert]
 2.87,2.77
-P*Light - SAY BAY (yf_bmp) [Yugu's Expert]
+PLight - SAY BAY (yf_bmp) [Yugu's Expert]
 3.35,3.09
-P*Light - TRIGGER*HAPPY (Asphyxia) [Extra]
+PLight - TRIGGERHAPPY (Asphyxia) [Extra]
 2.72,2.4
-P*Light - TRIGGER*HAPPY (Kyubey) [INFINITE]
+PLight - TRIGGERHAPPY (Kyubey) [INFINITE]
 2.74,2.57
-P*Light - TRIGGER*HAPPY (MineC24) [EXHAUST]
+PLight - TRIGGERHAPPY (MineC24) [EXHAUST]
 2.82,2.44
-P*Light - YELLOW SPLASH!! (Chaoslitz) [DSE Summertime 2016]
+PLight - YELLOW SPLASH!! (Chaoslitz) [DSE Summertime 2016]
 2.9,2.9
-P*Light - YELLOW SPLASH!! (Chaoslitz) [Insane]
+PLight - YELLOW SPLASH!! (Chaoslitz) [Insane]
 2.27,2.46
-P*Light - YELLOW SPLASH!! (Minakami Yuki) [Guy's Extra]
+PLight - YELLOW SPLASH!! (Minakami Yuki) [Guy's Extra]
 2.68,2.77
-P*Light - YELLOW SPLASH!! (Minakami Yuki) [Special Splash!!]
+PLight - YELLOW SPLASH!! (Minakami Yuki) [Special Splash!!]
 3.02,2.84
-P*Light - YELLOW SPLASH!! (Minakami Yuki) [StarR's Another]
+PLight - YELLOW SPLASH!! (Minakami Yuki) [StarR's Another]
 2.5,2.47
-P*Light - YELLOW SPLASH!! (Minakami Yuki) [wkyik's Extra]
+PLight - YELLOW SPLASH!! (Minakami Yuki) [wkyik's Extra]
 2.87,2.65
-P*Light feat. Yukacco - Stargazer (DJ Shimamura D&B Remix) (Affirmation) [Star Lazer!]
+PLight feat. Yukacco - Stargazer (DJ Shimamura D&B Remix) (Affirmation) [Star Lazer!]
 2.82,2.26
-P*Light feat. yukacco - Stargazer (DJ Shimamura Remix) (Mishima Yurara) [ProBox's Insane]
+PLight feat. yukacco - Stargazer (DJ Shimamura Remix) (Mishima Yurara) [ProBox's Insane]
 2.53,2.27
-P*Light feat. yukacco - Stargazer (DJ Shimamura Remix) (Mishima Yurara) [RLC's Constellation]
+PLight feat. yukacco - Stargazer (DJ Shimamura Remix) (Mishima Yurara) [RLC's Constellation]
 2.79,2.15
-P*Light feat. yukacco - Stargazer (DJ Shimamura Remix) (Spaghetti) [Chasing]
+PLight feat. yukacco - Stargazer (DJ Shimamura Remix) (Spaghetti) [Chasing]
 2.7,2.58
-P*Light feat. yukacco - Stargazer (DJ Shimamura Remix) (Strategas) [Galaxy of Dreams]
+PLight feat. yukacco - Stargazer (DJ Shimamura Remix) (Strategas) [Galaxy of Dreams]
 2.9,2.37
 pocotan - Dear Jewel (Meg) [Jewelry Box]
 2.88,2.71
@@ -20684,7 +20684,7 @@ Powerwolf - Resurrection By Erection (Xayah) [Insane]
 2.23,2.24
 PRASTIK DANCEFLOOR - Session 1 -Genesis- (Niva) [Another]
 2.19,2.29
-Prim - Koisuru*Uchuu Sensou!! (-Chata-) [Another]
+Prim - KoisuruUchuu Sensou!! (-Chata-) [Another]
 2.39,2.52
 Primary - Awake (xChippy) [Goodbye]
 3.12,2.49
@@ -21546,25 +21546,25 @@ Rhapsody - Epicus Furor / Emerald Sword (greenhue) [Collab Glory]
 2.96,3.05
 Rhapsody Of Fire - Master Of Peace (Chanci) [Nephilim]
 3.44,3.82
-Rhodanthe* - Jumping!! (TV Size) (CloudSplash16) [Zero's Insane]
+Rhodanthe - Jumping!! (TV Size) (CloudSplash16) [Zero's Insane]
 2.3,2.0
-Rhodanthe* - Jumping!! (yf_bmp) [Insane]
+Rhodanthe - Jumping!! (yf_bmp) [Insane]
 2.6,2.2
-Rhodanthe* - Yumeiro Parade (CloudSplash16) [Jumping!!]
+Rhodanthe - Yumeiro Parade (CloudSplash16) [Jumping!!]
 2.44,2.03
-Rhodanthe* - Yumeiro Parade (Crystal) [Chloe's iNsAnE]
+Rhodanthe - Yumeiro Parade (Crystal) [Chloe's iNsAnE]
 2.72,2.22
-Rhodanthe* - Yumeiro Parade (Crystal) [Insane]
+Rhodanthe - Yumeiro Parade (Crystal) [Insane]
 2.5,2.04
-Rhodanthe* - Yumeiro Parade (Crystal) [Skystar's Insane]
+Rhodanthe - Yumeiro Parade (Crystal) [Skystar's Insane]
 2.65,2.26
-Rhodanthe* - Yumeiro Parade (Doormat) [Cloud's Hard]
+Rhodanthe - Yumeiro Parade (Doormat) [Cloud's Hard]
 1.92,1.76
-Rhodanthe* - Yumeiro Parade (Doormat) [Fycho's Insane]
+Rhodanthe - Yumeiro Parade (Doormat) [Fycho's Insane]
 2.59,2.25
-Rhodanthe* - Yumeiro Parade (Doormat) [Mosaic]
+Rhodanthe - Yumeiro Parade (Doormat) [Mosaic]
 2.97,2.37
-Rhodanthe* - Yumeiro Parade (Neoskylove) [-Neipezi's Insane]
+Rhodanthe - Yumeiro Parade (Neoskylove) [-Neipezi's Insane]
 2.44,2.09
 Rhythmics & Cat Like Thief - Summer Wars (XinCrin) [Insane]
 2.13,2.13
@@ -22212,85 +22212,85 @@ Ryokuoushoku Shakai - Shout Baby (TV Size) (HakuYT) [frozz's Insane]
 2.3,2.06
 Ryokuoushoku Shakai - Shout Baby (TV Size) (HakuYT) [Plus Ultra]
 2.75,2.24
-Ryu* - AGEHA (Matrix) [Insane]
+Ryu - AGEHA (Matrix) [Insane]
 2.53,2.53
-Ryu* - AGEHA (Matrix) [THORWAVE's Hard]
+Ryu - AGEHA (Matrix) [THORWAVE's Hard]
 1.72,1.78
-Ryu* - AGEHA (yeahyeahyeahhh) [Another]
+Ryu - AGEHA (yeahyeahyeahhh) [Another]
 2.09,2.18
-Ryu* - Bass 2 Bass (yangzd88) [Another]
+Ryu - Bass 2 Bass (yangzd88) [Another]
 2.14,2.11
-Ryu* - bloomin' feeling (Nakagawa-Kanon) [Another]
+Ryu - bloomin' feeling (Nakagawa-Kanon) [Another]
 2.3,2.3
-Ryu* - China Express (yeahyeahyeahhh) [Another]
+Ryu - China Express (yeahyeahyeahhh) [Another]
 2.64,2.19
-Ryu* - I'm so Happy (-HaRuNa-) [D.N.Angel]
+Ryu - I'm so Happy (-HaRuNa-) [D.N.Angel]
 2.76,2.39
 Ryu - I'm so Happy (tsuka) [Another]
 2.24,2.16
-Ryu* - I'm so Happy (Yauxo) [Collab Insane]
+Ryu - I'm so Happy (Yauxo) [Collab Insane]
 2.23,2.26
-Ryu* - KOROBUSHKA (Ryu*Remix) (MineC24) [HARD]
+Ryu - KOROBUSHKA (RyuRemix) (MineC24) [HARD]
 1.99,2.37
-Ryu* - Mind Mapping (kors k mix) (wring) [EXTRA]
+Ryu - Mind Mapping (kors k mix) (wring) [EXTRA]
 2.93,2.47
-Ryu* - Mind Mapping (kors k mix) (wring) [HARD]
+Ryu - Mind Mapping (kors k mix) (wring) [HARD]
 2.21,2.07
-Ryu* - Rondo Alla Turca (Ryu* Remix) (yeahyeahyeahhh) [Challenging]
+Ryu - Rondo Alla Turca (Ryu Remix) (yeahyeahyeahhh) [Challenging]
 2.24,2.13
-Ryu* - Sakura Mirage (MYTK Remix) (Leader) [Extra]
+Ryu - Sakura Mirage (MYTK Remix) (Leader) [Extra]
 2.76,2.68
-Ryu* - Sakura Mirage (Priti) [LEADER'S INFINITE]
+Ryu - Sakura Mirage (Priti) [LEADER'S INFINITE]
 2.76,2.87
-Ryu* - Sakura Mirage (Priti) [PRIZZY'S HYPER]
+Ryu - Sakura Mirage (Priti) [PRIZZY'S HYPER]
 2.15,2.11
-Ryu* - Sakura Mirage (Priti) [ULTRA]
+Ryu - Sakura Mirage (Priti) [ULTRA]
 3.3,3.07
-Ryu* - Sakura Mirage (STARLiGHT Mix) (Jean-Michel Jr) [Azzedd's Extra]
+Ryu - Sakura Mirage (STARLiGHT Mix) (Jean-Michel Jr) [Azzedd's Extra]
 2.96,2.93
-Ryu* - Sakura Mirage (STARLiGHT Mix) (Jean-Michel Jr) [gtfo's Light Insane]
+Ryu - Sakura Mirage (STARLiGHT Mix) (Jean-Michel Jr) [gtfo's Light Insane]
 2.05,2.2
-Ryu* - Sakura Mirage (STARLiGHT Mix) (Jean-Michel Jr) [Illusion]
+Ryu - Sakura Mirage (STARLiGHT Mix) (Jean-Michel Jr) [Illusion]
 3.33,3.14
-Ryu* - Sakura Mirage (STARLiGHT Mix) (Jean-Michel Jr) [Zizou's Insane]
+Ryu - Sakura Mirage (STARLiGHT Mix) (Jean-Michel Jr) [Zizou's Insane]
 2.32,2.45
-Ryu* - Sakura Reflection (MYTK Remix) (Leader) [Gamu's Another]
+Ryu - Sakura Reflection (MYTK Remix) (Leader) [Gamu's Another]
 2.11,1.99
-Ryu* - Sakura Reflection (yongtw123) [Hard]
+Ryu - Sakura Reflection (yongtw123) [Hard]
 2.51,2.1
-Ryu* - Sakura Storm (ouranhshc) [Alazy]
+Ryu - Sakura Storm (ouranhshc) [Alazy]
 2.31,2.11
 Ryu - Sakura Sunrise (ouranhshc) [Insane]
 2.34,2.25
 Ryu - Sakura Sunrise (ouranhshc) [Mina's Insane]
 2.45,2.14
-Ryu* - Second Heaven (dksslqj) [Another]
+Ryu - Second Heaven (dksslqj) [Another]
 2.1,2.15
-Ryu* - We're so Happy (Yauxo) [Kyshiro's Extra]
+Ryu - We're so Happy (Yauxo) [Kyshiro's Extra]
 2.91,2.63
-Ryu* feat. moimoi - OOO (Yales) [O+O+O]
+Ryu feat. moimoi - OOO (Yales) [O+O+O]
 2.35,1.96
-Ryu* feat.Mayumi Morinaga - Din Don Dan (moonlightleaf) [Din Don Dan]
+Ryu feat.Mayumi Morinaga - Din Don Dan (moonlightleaf) [Din Don Dan]
 2.26,2.23
-Ryu* vs. kors k - Force of Wind (Jenny) [Extra]
+Ryu vs. kors k - Force of Wind (Jenny) [Extra]
 3.19,2.56
-Ryu* vs. kors k - Force of Wind (Jenny) [Hyper]
+Ryu vs. kors k - Force of Wind (Jenny) [Hyper]
 2.32,2.05
-Ryu* Vs. L.E.D.-G - PARADISE LOST (Katty Pie) [Another]
+Ryu Vs. L.E.D.-G - PARADISE LOST (Katty Pie) [Another]
 2.54,2.72
-Ryu* vs. L.E.D.-G vs. ZUN - PARADISE GHOST (Leader) [Extra Stage]
+Ryu vs. L.E.D.-G vs. ZUN - PARADISE GHOST (Leader) [Extra Stage]
 3.31,3.52
-Ryu* Vs. L.E.D.-G Vs. ZUN - PARADISE GHOST (Pokie) [Extra]
+Ryu Vs. L.E.D.-G Vs. ZUN - PARADISE GHOST (Pokie) [Extra]
 2.75,2.95
-Ryu* vs. Sota - Go Beyond!! (Anto) [Expert!!]
+Ryu vs. Sota - Go Beyond!! (Anto) [Expert!!]
 2.76,2.73
-Ryu* vs. Sota - Go Beyond!! (Anto) [Insane!!]
+Ryu vs. Sota - Go Beyond!! (Anto) [Insane!!]
 2.43,2.3
-Ryu* vs. Sota - Go Beyond!! (Anto) [Nuvolina's Expert!!]
+Ryu vs. Sota - Go Beyond!! (Anto) [Nuvolina's Expert!!]
 3.04,2.97
-Ryu* vs. Sota - Go Beyond!! (Anto) [Transcension!!]
+Ryu vs. Sota - Go Beyond!! (Anto) [Transcension!!]
 3.4,3.6
-Ryu* Vs. Sota - Go Beyond!! (yongtw123) [Sp's Darkness]
+Ryu Vs. Sota - Go Beyond!! (yongtw123) [Sp's Darkness]
 2.9,2.95
 ryu5150 - Louder than steel (Sotarks) [NiNo's Extreme]
 3.25,3.54
@@ -22512,9 +22512,9 @@ Sakakibara Yui - Koi no Honoo (quintitem) [ignore's Slider Madness]
 2.62,2.17
 Sakakibara Yui - Love Comp! (Short Ver.) (merchat7) [Insane]
 2.21,1.94
-Sakakibara Yui - Mecha Koi Ranman* (MeLLoN) [Cyborg's Hard]
+Sakakibara Yui - Mecha Koi Ranman (MeLLoN) [Cyborg's Hard]
 1.97,1.91
-Sakakibara Yui - Mecha Koi Ranman* (MeLLoN) [Insane]
+Sakakibara Yui - Mecha Koi Ranman (MeLLoN) [Insane]
 1.99,2.02
 Sakakibara Yui - Scarlet (Game Ver.) (tomatas95) [Mimari's Insane]
 2.37,2.13
@@ -22594,9 +22594,9 @@ sakuraburst - skyshifter vip (ScubDomino) [fragments]
 2.95,2.58
 sakuraburst - skyshifter vip (Shiirn) [stentorium]
 2.61,2.3
-Sakurae Yusura(CV:Shimoda Asami) & Kitaki Renko(CV:Horie Yui) - Fantastic*Schooldays (Sekai-nyan) [No Dap's Insane]
+Sakurae Yusura(CV:Shimoda Asami) & Kitaki Renko(CV:Horie Yui) - FantasticSchooldays (Sekai-nyan) [No Dap's Insane]
 2.21,1.99
-Sakurae Yusura(CV:Shimoda Asami) & Kitaki Renko(CV:Horie Yui) - Fantastic*Schooldays (Sekai-nyan) [Woow..YeahYeah!!]
+Sakurae Yusura(CV:Shimoda Asami) & Kitaki Renko(CV:Horie Yui) - FantasticSchooldays (Sekai-nyan) [Woow..YeahYeah!!]
 2.39,2.19
 Sakuragawa Megu - Love Synchronicity (Dored) [Abnormal]
 3.32,2.49
@@ -22622,11 +22622,11 @@ SAKURAKOU K-ON BU - Happy!? Sorry!! (pkhg) [Insane]
 2.45,2.3
 SAKURAKOU K-ON BU - Happy!? Sorry!! (pkhg) [Kagetsu's Extra]
 2.86,2.28
-SAKURA*TRICK - Won(*3*)Chu KissMe! (TV Size) (alacat) [Insane (*3*)]
+SAKURATRICK - Won(3)Chu KissMe! (TV Size) (alacat) [Insane (3)]
 2.26,1.96
-SAKURA*TRICK - Won(*3*)Chu KissMe! (TV Size) (Sekai-nyan) [Insane]
+SAKURATRICK - Won(3)Chu KissMe! (TV Size) (Sekai-nyan) [Insane]
 2.23,2.04
-SAKURA*TRICK - Won(*3*)Chu KissMe! [TV Size] (OniJAM) [Kiss]
+SAKURATRICK - Won(3)Chu KissMe! [TV Size] (OniJAM) [Kiss]
 2.35,2.2
 sakuzyo - Altale (toybot) [Bonzi's Extra]
 2.2,2.74
@@ -22648,7 +22648,7 @@ sakuzyo - AXION (Kloyd) [Rin's Insane]
 2.38,2.43
 sakuzyo - AXION (rrtyui) [QUEEN]
 2.06,2.14
-sakuzyo - AXION (Star* Remix 2016 Update) (Ryuusei Aika) [gary00737's Insane]
+sakuzyo - AXION (Star Remix 2016 Update) (Ryuusei Aika) [gary00737's Insane]
 2.31,2.24
 sakuzyo - diving (Shiirn) [Another]
 2.09,2.05
@@ -22714,7 +22714,7 @@ samfree - Chicken's Theme (Naotoshi) [Kisses' Insane]
 2.19,1.79
 samfree - Chicken's Theme (Naotoshi) [Norma Check]
 2.28,1.9
-samfree - Luka Luka*Night Fever (Yooh) [Kalindraz's Insane]
+samfree - Luka LukaNight Fever (Yooh) [Kalindraz's Insane]
 2.2,1.86
 Sammi Cheng - Mei Fei Se Wu (Sushi971) [Hard]
 1.79,1.91
@@ -22722,11 +22722,11 @@ Sammi Cheng - Mei Fei Se Wu (Sushi971) [Insane]
 2.5,2.23
 Samoto Fuuri - motto~ (alacat) [Insane]
 2.1,1.98
-San Diego (CV: Itou Asuka) - Wa ta shi wa * No.1! (Shurelia) [I'm not sure what I'm doing, but I'm doing it~!]
+San Diego (CV: Itou Asuka) - Wa ta shi wa  No.1! (Shurelia) [I'm not sure what I'm doing, but I'm doing it~!]
 3.17,2.79
-San Diego (CV: Itou Asuka) - Wa ta shi wa * No.1! (Shurelia) [Onegaku!]
+San Diego (CV: Itou Asuka) - Wa ta shi wa  No.1! (Shurelia) [Onegaku!]
 2.96,2.67
-San Diego (CV: Itou Asuka) - Wa ta shi wa * No.1! (Shurelia) [Hinsvar's Insane!]
+San Diego (CV: Itou Asuka) - Wa ta shi wa  No.1! (Shurelia) [Hinsvar's Insane!]
 2.57,2.21
 sana / HoneyWorks - Akatsuki Zukuyo (-zabijak) [Unstoppable Love]
 3.08,2.58
@@ -23054,17 +23054,17 @@ sasakure.UK - Spider Thread Monopoly feat. Hatsune Miku (Mishima Yurara) [RLC's 
 2.53,2.51
 sasakure.UK - Spider Thread Monopoly feat. Hatsune Miku (Mishima Yurara) [toybot's Insane]
 2.4,2.2
-sasakure.UK feat. Hatsune Miku - *Hello,Planet. (Faust) [MULTIPLAYER]
+sasakure.UK feat. Hatsune Miku - Hello,Planet. (Faust) [MULTIPLAYER]
 2.15,2.11
-sasakure.UK feat. Hatsune Miku - *Hello,Planet. (Faust) [SOLO MISSION]
+sasakure.UK feat. Hatsune Miku - Hello,Planet. (Faust) [SOLO MISSION]
 2.1,2.13
 sasakure.UK feat. Hatsune Miku - SeventH-HeaveN (Loli -[Koinuri]) [Complex]
 2.35,2.26
-sasakure.UK x DECO*27 - 39 (Finshie) [Chekito's Insane]
+sasakure.UK x DECO27 - 39 (Finshie) [Chekito's Insane]
 2.21,2.09
-sasakure.UK x DECO*27 - 39 (Finshie) [Insane]
+sasakure.UK x DECO27 - 39 (Finshie) [Insane]
 2.74,2.26
-sasakure.UK x DECO*27 - 39 (Raose) [Insane]
+sasakure.UK x DECO27 - 39 (Raose) [Insane]
 2.55,2.08
 Sati Akura - Chikatto Chika Chika (-Mikan) [Deca's Another]
 2.84,2.18
@@ -23226,11 +23226,11 @@ SawanoHiroyuki[nZk]:Tielle - Into the Sky (TV size) (TT Mouse) [Kencho's Mobile 
 2.64,2.08
 SawanoHiroyuki[nZk]:Uru - Binary Star (TV Size) (toybot) [Eternal]
 2.42,1.74
-Sawawa - kirakira TIME* (Priti) [EXHAUST]
+Sawawa - kirakira TIME (Priti) [EXHAUST]
 2.47,2.23
-Sawawa - kirakira TIME* (Priti) [GAMU'S GRAVITY]
+Sawawa - kirakira TIME (Priti) [GAMU'S GRAVITY]
 3.0,2.79
-Sawawa - kirakira TIME* (Priti) [ULTRA]
+Sawawa - kirakira TIME (Priti) [ULTRA]
 3.43,2.94
 saya - Haru ka Tooku (handsome) [Insane]
 2.66,2.11
@@ -23966,7 +23966,7 @@ Shikishima Mirei (CV: Iguchi Yuka) & Tokonome Mamori (CV: Izawa Mikako) - Super 
 2.83,2.73
 Shikishima Ritsu (CV: Sawashiro Chiharu), Satake Shogo (CV: Takeuchi Shunsuke) - Paradigm Box (TV Size) (eiri-) [Catharsis]
 3.05,2.4
-Shimoda Asami & Horie Yui - Fantastic*Schooldays (h3k1ru) [Collab]
+Shimoda Asami & Horie Yui - FantasticSchooldays (h3k1ru) [Collab]
 2.33,2.17
 Shimoji Shino - God Save The Girls (TV Size) (rosario wknd) [Insane]
 2.51,2.2
@@ -24390,7 +24390,7 @@ Silent Siren - Soukai Rock (Shad0w1and) [SMASH!]
 3.37,2.53
 Silent Siren - Soukai Rock (Shad0w1and) [VINXIS' Extra]
 3.09,2.45
-Silent Siren - stella* (captin1) [Insane]
+Silent Siren - stella (captin1) [Insane]
 2.31,1.89
 Silent Spica - Anhedonia (Muya) [Another]
 2.23,2.82
@@ -24418,9 +24418,9 @@ Silver Forest - Kero (9) Destiny (Yes) [Delicious]
 2.33,2.31
 Silver Forest - Kero (9) Revolution Final Battle (Kalypso) [Lunatic]
 2.16,2.43
-Silver Forest - Marisa*Quest ~Otakara Sagashi Daisakusen~ (mochi) [Insane]
+Silver Forest - MarisaQuest ~Otakara Sagashi Daisakusen~ (mochi) [Insane]
 2.11,2.06
-Silver Forest - Sakase * Sakase (Mixagji) [Lunatic]
+Silver Forest - Sakase  Sakase (Mixagji) [Lunatic]
 2.64,2.28
 Silver Forest - Soukuu ni Mae, Sumizome no Sakura (osuplayer111) [Collab]
 2.18,2.33
@@ -24966,9 +24966,9 @@ Starlight Kukugumi - You are a ghost, I am a ghost ~Gekijou no Ghost~ (Gaia) [At
 2.5,2.19
 Starset - Unbecoming (Shurelia) [Revolution]
 2.5,1.96
-STARTails* - ne! ne! ne! (Firis Mistlud) [Shiawase]
+STARTails - ne! ne! ne! (Firis Mistlud) [Shiawase]
 2.51,2.03
-STARTails* - ne! ne! ne! (Nitrous) [Insane]
+STARTails - ne! ne! ne! (Nitrous) [Insane]
 2.24,1.99
 Starving Trancer - New Gravity (fanzhen0019) [Expert]
 2.56,2.48
@@ -25382,9 +25382,9 @@ supercell feat. Hatsune Miku - BLACK ROCK SHOOTER (-Nya-) [Milan-'s Insane]
 2.31,2.25
 supercell feat. Hatsune Miku - Black Rock Shooter (TV Size) (wcx19911123) [Insane]
 2.03,2.15
-supercell feat. Hatsune Miku - Black*Rock Shooter (TV Size) (NotEnough) [Insane]
+supercell feat. Hatsune Miku - BlackRock Shooter (TV Size) (NotEnough) [Insane]
 2.46,2.26
-supercell feat. Hatsune Miku - Black*Rock Shooter (TV Size) (NotEnough) [Yukiyo's Extra]
+supercell feat. Hatsune Miku - BlackRock Shooter (TV Size) (NotEnough) [Yukiyo's Extra]
 2.76,2.47
 supercell feat. Hatsune Miku - Sono Ichi Byou Slow Motion (S o r d a) [JoJo's Insane]
 2.34,2.03
@@ -26042,7 +26042,7 @@ Takagi-san (CV: Rie Takahashi) - Kimagure Romantic (_kotachi_) [Affection]
 2.58,2.13
 Takagi-san (CV: Rie Takahashi) - Kimagure Romantic (_kotachi_) [Yasai's Insane]
 2.21,1.9
-Takahashi Chiaki, Hara Yumi, Asakura Azumi, Hasegawa Akiko - GOODNIGHT*STARS (Startrick) [Ins@ne]
+Takahashi Chiaki, Hara Yumi, Asakura Azumi, Hasegawa Akiko - GOODNIGHTSTARS (Startrick) [Ins@ne]
 2.21,2.04
 Takahashi Hitomi - Aozora no Namida (TV Size) (bossandy) [Insane]
 2.29,2.17
@@ -26050,7 +26050,7 @@ Takahashi Yu - Hikari no Hahen (handsome) [Extra]
 2.6,2.28
 Takaki Moriya - Ciao carina (LMT) [Tragedy]
 2.37,2.11
-Takakura Yuka, Hirose Yuuki, Kayano Ai, Ogura Yui, Harada Sayaka, Kito Akari - Happy*Material (Yasaija 714) [Kibb's Insane]
+Takakura Yuka, Hirose Yuuki, Kayano Ai, Ogura Yui, Harada Sayaka, Kito Akari - HappyMaterial (Yasaija 714) [Kibb's Insane]
 2.32,2.06
 Takamitsu Yoko - Angel Dream (Ra-s) [Insane]
 2.38,2.03
@@ -26060,7 +26060,7 @@ Takamori Natsumi, Sendai Eri, Asakawa Yuu, Tanezaki Atsumi - Ne! Ko! (Underfores
 2.4,2.18
 Takamori Natsumi, Sendai Eri, Asakawa Yuu, Tanezaki Atsumi - Ne! Ko! (Underforest) [Extra]
 2.8,2.47
-Takamori Natsumi, Takada Yuuki, Takahashi Karin, Hanamori Yumiri, Harada Sayaka - Take me*Take you (Yamicchi) [MASTER+]
+Takamori Natsumi, Takada Yuuki, Takahashi Karin, Hanamori Yumiri, Harada Sayaka - Take meTake you (Yamicchi) [MASTER+]
 2.79,2.26
 Takanashi Yasuharu - Doku Ryuu no Kobura (_Kiva) [Extra]
 2.95,2.53
@@ -26130,7 +26130,7 @@ Tamiyasu ROCK - Dreaming! (Short Ver.) (regenz) [Insane]
 2.6,2.16
 Tamiyasu Tomoe - Dakko Shite Gyu! (Vicho-kun) [Aenna]
 2.19,2.25
-Tamura Yukari & Hanazawa Kana - Mogitate * Fruit Girls (Raisa12) [kami's Insane]
+Tamura Yukari & Hanazawa Kana - Mogitate  Fruit Girls (Raisa12) [kami's Insane]
 2.57,2.16
 Tamura Yukari & Hanazawa Kana - Mogitate Fruit Girls (TV Size) (Guy) [Insane]
 2.61,2.29
@@ -26704,9 +26704,9 @@ The Ghost Of 3.13 - Forgotten (Blue Dragon) [Afterlife]
 2.61,3.28
 The Herb Shop - Sage (SaltyLucario) [Salvia Officinalis]
 3.16,3.22
-THE IDOLM@STER CINDERELLA GIRLS!! - Take me * Take you (Fycho) [Collab]
+THE IDOLM@STER CINDERELLA GIRLS!! - Take me  Take you (Fycho) [Collab]
 2.76,2.14
-THE IDOLM@STER CINDERELLA GIRLS!! - Take me * Take you (Fycho) [Insane]
+THE IDOLM@STER CINDERELLA GIRLS!! - Take me  Take you (Fycho) [Insane]
 2.37,2.03
 The Immortals - Techno Syndrome (beatmastermap) [Insane]
 2.01,1.91
@@ -27386,7 +27386,7 @@ tomatomerde - Brave Shine (Mir) [Insane]
 2.46,2.27
 tomatomerde - Brave Shine (Mir) [Reflection]
 2.81,2.31
-tomatomerde - SHINING LINE* (DreaM117er) [Frey's Insane]
+tomatomerde - SHINING LINE (DreaM117er) [Frey's Insane]
 2.57,2.27
 Tomatsu Haruka & Iguchi Yuka - Kiss(and)Love (TV Size) (Fycho) [Insane]
 2.29,2.08
@@ -27446,19 +27446,19 @@ Tomita Miyu, Onishi Saori, Ohzora Naomi, Hanazawa Kana - Gabriel Drop Kick (Okor
 2.46,2.29
 Tomita Miyu, Onishi Saori, Ohzora Naomi, Hanazawa Kana - Gabriel Drop Kick (Okoratu) [Extra]
 3.0,2.57
-Tomita Miyu, Onishi Saori, Ohzora Naomi, Hanazawa Kana - Hallelujah*Essaim (Doormat) [Akitoshi's Light Insane]
+Tomita Miyu, Onishi Saori, Ohzora Naomi, Hanazawa Kana - HallelujahEssaim (Doormat) [Akitoshi's Light Insane]
 2.31,2.01
-Tomita Miyu, Onishi Saori, Ohzora Naomi, Hanazawa Kana - Hallelujah*Essaim (Doormat) [Extra]
+Tomita Miyu, Onishi Saori, Ohzora Naomi, Hanazawa Kana - HallelujahEssaim (Doormat) [Extra]
 3.25,2.37
-Tomita Miyu, Onishi Saori, Ohzora Naomi, Hanazawa Kana - Hallelujah*Essaim (Doormat) [Kalibe's Insane]
+Tomita Miyu, Onishi Saori, Ohzora Naomi, Hanazawa Kana - HallelujahEssaim (Doormat) [Kalibe's Insane]
 2.5,2.12
-Tomita Miyu, Onishi Saori, Ohzora Naomi, Hanazawa Kana - Hallelujah*Essaim (Doormat) [Kibb's Insane]
+Tomita Miyu, Onishi Saori, Ohzora Naomi, Hanazawa Kana - HallelujahEssaim (Doormat) [Kibb's Insane]
 2.65,2.11
-Tomita Miyu, Onishi Saori, Ohzora Naomi, Hanazawa Kana - Hallelujah*Essaim (Doormat) [[ -Scarlet- ]'s Extra]
+Tomita Miyu, Onishi Saori, Ohzora Naomi, Hanazawa Kana - HallelujahEssaim (Doormat) [[ -Scarlet- ]'s Extra]
 3.04,2.37
-Tomita Miyu, Onishi Saori, Ohzora Naomi, Hanazawa Kana - Hallelujah*Essaim (Doyak) [Hard]
+Tomita Miyu, Onishi Saori, Ohzora Naomi, Hanazawa Kana - HallelujahEssaim (Doyak) [Hard]
 1.93,1.69
-Tomita Miyu, Onishi Saori, Ohzora Naomi, Hanazawa Kana - Hallelujah*Essaim (Doyak) [Ultra]
+Tomita Miyu, Onishi Saori, Ohzora Naomi, Hanazawa Kana - HallelujahEssaim (Doyak) [Ultra]
 3.69,2.44
 Tommy heavenly6 - PAPERMOON (Jounzan) [Insane]
 2.74,2.27
@@ -27586,11 +27586,11 @@ Toyama Nao - Gunjou Infinity ([Karcher]) [My Angel Jeremy's Extra]
 3.09,2.7
 Toyama Nao - Natsuiro Surprise (Short Ver.) (DJPop) [Insane]
 2.09,1.94
-Toy*GunGun - The Bravest Destiny (Flask) [Insane]
+ToyGunGun - The Bravest Destiny (Flask) [Insane]
 2.38,2.05
-Toy*GunGun - The Bravest Destiny (Flask) [Survival]
+ToyGunGun - The Bravest Destiny (Flask) [Survival]
 2.79,2.14
-Toy*GunGun - The Bravest Destiny (tutuhaha) [Extra]
+ToyGunGun - The Bravest Destiny (tutuhaha) [Extra]
 2.52,1.96
 Toyosaki Aki - Diamond (Fycho) [Hard]
 1.78,1.75
@@ -27650,9 +27650,9 @@ Treyarch Sound - Pareidolia (Raiden) [pishi's Extra]
 2.86,2.42
 Triad Primus - Trancing Pulse (Ayalis) [Coll@b]
 2.33,2.31
-Trial & Error - DAI*TAN SENSATION feat. Nanahira, Mii, Aitsuki Nakuru (Short Ver.) (Gero) [SENSATION OF REVOLUTION]
+Trial & Error - DAITAN SENSATION feat. Nanahira, Mii, Aitsuki Nakuru (Short Ver.) (Gero) [SENSATION OF REVOLUTION]
 3.12,2.4
-Trial & Error - DAI*TAN SENSATION feat. Nanahira, Mii, Aitsuki Nakuru (Short Ver.) (Gero) [Sh1n1's Insane]
+Trial & Error - DAITAN SENSATION feat. Nanahira, Mii, Aitsuki Nakuru (Short Ver.) (Gero) [Sh1n1's Insane]
 2.59,2.19
 Trial & Error - Sore ga Zenbu, Yume ni Tsunagaru (Short Ver.) (Agatsu) [Insane]
 2.42,1.84
@@ -27670,7 +27670,7 @@ Triodust - M.R. (Nozhomi) [Bunny Extinction]
 2.85,2.9
 Triodust - M.R. (Nozhomi) [Doyak's Insane]
 2.32,2.25
-TRIPLE BOOKING - HANASAKU * SAIKYO LEGEND DAYS (-Maruk-) [Insane]
+TRIPLE BOOKING - HANASAKU  SAIKYO LEGEND DAYS (-Maruk-) [Insane]
 2.05,1.95
 Triple Booking - Yamato Nadeshiko Education (TV Size) (Kenezz) [Vicho's Insane]
 2.18,2.18
@@ -28342,7 +28342,7 @@ u's - SUNNY DAY SONG (Saggin) [SUNNY DAY LIFE]
 2.69,2.21
 u's - Super LOVE=Super LIVE! (Toshino Kyoko) [We are u's!]
 2.84,2.54
-u's - Susume*Tomorrow (TV Size) (Atsuro) [Insane]
+u's - SusumeTomorrow (TV Size) (Atsuro) [Insane]
 2.6,2.3
 u's - Wonder zone(TV Size) ([Crz]Sword) [Happy Zone]
 2.33,1.91
@@ -28454,7 +28454,7 @@ ULTRA TOWER - Kibou no Uta (TV Size) (Nevo) [Insane]
 2.16,1.9
 ULTRA TOWER - Kibou no Uta(TV anime Ver.) (eINess) [Insane]
 2.19,1.74
-ULTRA-PRISM with Ikamusume - Shinryaku no Susume* (TV Size) (Muya) [Insane]
+ULTRA-PRISM with Ikamusume - Shinryaku no Susume (TV Size) (Muya) [Insane]
 2.34,2.35
 ULYTAU - Teriskakpai (Sieg) [Insane]
 2.3,2.06
@@ -29282,11 +29282,11 @@ Warriyo - Venom (Yamicchi) [Cool's Insane]
 2.5,2.22
 Warriyo - Venom (Yamicchi) [Neurotoxin]
 2.95,2.26
-Wasuta - Pretty*Channel (TV Size) (Lami) [AF's Insane]
+Wasuta - PrettyChannel (TV Size) (Lami) [AF's Insane]
 2.4,2.05
-Wasuta - Pretty*Channel (TV Size) (Lami) [Idol]
+Wasuta - PrettyChannel (TV Size) (Lami) [Idol]
 2.82,2.19
-Wasuta - Pretty*Channel (TV Size) (Lami) [Silky's Insane]
+Wasuta - PrettyChannel (TV Size) (Lami) [Silky's Insane]
 2.63,2.07
 Watanabe You (CV: Saito Shuka) - Beginner's Sailing (Sotarks) [Maestro's Insane]
 2.41,2.06
@@ -29326,7 +29326,7 @@ wavforme x Annabel - own phrases (Mordred) [Silence]
 3.86,3.01
 Wayne Lytle - Pipe Dream (Tanmak) [Insane]
 2.03,2.44
-wazgul - Po Pi Po (Ryu* Remix) + TF2 [MaD] feat. Ippon Manzoku. (BigEarsMau) [Baraatje123's Juicer]
+wazgul - Po Pi Po (Ryu Remix) + TF2 [MaD] feat. Ippon Manzoku. (BigEarsMau) [Baraatje123's Juicer]
 2.28,2.09
 WEAVER - Dakara Boku wa Boku o Tebanasu (TV Size) (Firika) [Insane]
 2.24,2.06
@@ -30570,13 +30570,13 @@ Yousei Teikoku - Zetsubou plantation (Saten) [Shiro's Extreme]
 3.65,2.91
 Yousei Teikoku - Zetsubou plantation (Saten) [Zetsubou!]
 3.52,2.9
-yozuca* - Ima o Wasurenai (H-Scene) [Affection]
+yozuca - Ima o Wasurenai (H-Scene) [Affection]
 3.38,2.56
-yozuca* - Ima o Wasurenai (H-Scene) [Karen's Expert]
+yozuca - Ima o Wasurenai (H-Scene) [Karen's Expert]
 2.94,2.56
-yozuca* - LOVING TRIP (KaedekaShizuru) [im'otome]
+yozuca - LOVING TRIP (KaedekaShizuru) [im'otome]
 2.36,2.05
-yozurino* - Mirai Melody (Left) [Insane]
+yozurino - Mirai Melody (Left) [Insane]
 2.05,1.76
 Yu Tokiwa - Shounen Ripples (Sotarks) [Nevo's Expert]
 3.22,2.59
@@ -30698,27 +30698,27 @@ yuiko - petit bonheur (Lasse) [Karen's Insane]
 2.55,2.26
 yuiko - petit bonheur (Lasse) [Mir's Insane]
 2.3,2.19
-yuikonnu & ayaponzu* - Kunoichi demo Koi ga Shitai (alacat) [Insane]
+yuikonnu & ayaponzu - Kunoichi demo Koi ga Shitai (alacat) [Insane]
 2.73,2.48
-yuikonnu & ayaponzu* - Kunoichi demo Koi ga Shitai (alacat) [iyasine's Insane]
+yuikonnu & ayaponzu - Kunoichi demo Koi ga Shitai (alacat) [iyasine's Insane]
 2.75,2.49
-yuikonnu & ayaponzu* - Kunoichi demo Koi ga Shitai (alacat) [Skystar's Extra]
+yuikonnu & ayaponzu - Kunoichi demo Koi ga Shitai (alacat) [Skystar's Extra]
 2.97,2.46
-yuikonnu & ayaponzu* - Okochama Sensou (Len) [Frobe's Insane]
+yuikonnu & ayaponzu - Okochama Sensou (Len) [Frobe's Insane]
 2.09,2.09
-yuikonnu & ayaponzu* - Okochama Sensou (Len) [RLC's Extra]
+yuikonnu & ayaponzu - Okochama Sensou (Len) [RLC's Extra]
 2.66,2.51
-yuikonnu & ayaponzu* - Okochama Sensou (Len) [SCV's Expert]
+yuikonnu & ayaponzu - Okochama Sensou (Len) [SCV's Expert]
 2.42,2.43
-yuikonnu & ayaponzu* - Shinde Shimau towa Nasakenai! (Frey) [Continue? < Yes / No >]
+yuikonnu & ayaponzu - Shinde Shimau towa Nasakenai! (Frey) [Continue? < Yes / No >]
 2.91,2.51
-yuikonnu & ayaponzu* - Shinde Shimau towa Nasakenai! (Frey) [Insane]
+yuikonnu & ayaponzu - Shinde Shimau towa Nasakenai! (Frey) [Insane]
 2.63,2.48
-yuikonnu & ayaponzu* - Shinde Shimau towa Nasakenai! (Frey) [Testo's Insane]
+yuikonnu & ayaponzu - Shinde Shimau towa Nasakenai! (Frey) [Testo's Insane]
 2.41,2.22
-yuikonnu & ayaponzu* - Super Nuko World (AllStar12) [Guy's Extra]
+yuikonnu & ayaponzu - Super Nuko World (AllStar12) [Guy's Extra]
 2.77,2.82
-yuikonnu & ayaponzu* - Super Nuko World (AllStar12) [Insane]
+yuikonnu & ayaponzu - Super Nuko World (AllStar12) [Insane]
 2.44,2.44
 yuikonnu & CHiCO with HoneyWorks - Ai no Scenario (Aerous) [-Yuzuriha's Insane]
 2.33,2.14
@@ -31016,11 +31016,11 @@ Yuna (CV: Kanda Sayaka) - delete (Kalibe) [Grief]
 2.69,2.08
 YuNa - Torawarebito (Short Ver.) (7odoa) [Killer Queen]
 2.76,2.22
-Yun*chi - Your song* (Beomsan) [Doyak's Insane*]
+Yunchi - Your song (Beomsan) [Doyak's Insane]
 2.02,1.76
-Yun*chi - Your song* (Beomsan) [eINess' Insane*]
+Yunchi - Your song (Beomsan) [eINess' Insane]
 1.94,1.82
-Yun*chi - Your song* (Beomsan) [Your song*]
+Yunchi - Your song (Beomsan) [Your song]
 2.28,1.92
 Yunomi & nicamoq - Indoor Kei Nara Trackmaker (curryrice Remix) (toybot) [MIDI]
 3.17,2.45
@@ -31170,7 +31170,7 @@ Yuuki Aoi - Platinum (Mythol) [Collab]
 2.39,2.3
 Yuuki Aoi - Platinum (Short Ver.) (Sekai-nyan) [Hinacle's Insane]
 2.12,2.0
-Yuuki, Ayana & Risa - happy*lucky (Short Ver.) (osuplayer111) [cRyo's Extreme]
+Yuuki, Ayana & Risa - happylucky (Short Ver.) (osuplayer111) [cRyo's Extreme]
 1.92,1.83
 Yuuna Kamishiro - Shrill False (vivicat) [Lunatic]
 2.49,2.21
@@ -31480,9 +31480,9 @@ zts - worldenddominator (Natteke desu) [The Grand Escape]
 2.25,2.13
 Zu Hai - Hao Yun Lai (kanor) [My turn, draw!!!!!!]
 2.44,2.28
-ZUN & Ryu* - Second Darkside (banvi) [Lunatic]
+ZUN & Ryu - Second Darkside (banvi) [Lunatic]
 2.42,2.32
-ZUN & Ryu* - Second Darkside (banvi) [Prism Another]
+ZUN & Ryu - Second Darkside (banvi) [Prism Another]
 2.28,2.26
 ZUN - A Drunkard's Lemuria (Retro Ver.) (Itachi_Uchiha) [Insane]
 1.76,2.18
