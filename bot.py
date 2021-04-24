@@ -40,18 +40,18 @@ async def get_similar_maps(ch, map_id, page=1):
     embed.set_footer(text=f'Page {page} of 10')
     await calc_msg.edit(embed=embed)
 
-async def get_rating_maps(ch, map_id, page=1):
+async def get_rating_maps(ch, map_id, page=1, dt=False):
     perpage = 10
     n = page * perpage
 
     try:
-        sim = similarity_srs.get_similar(map_id, n)
+        sim = similarity_srs.get_similar(map_id, n, dt)
     except:
         await invalid_input(ch)
         return
 
     color = discord.Color.from_rgb(100, 255, 100)
-    title = f'Maps similar in star rating to {map_id}:'
+    title = f'Maps similar in star rating to {map_id}' + (' (+DT)' if dt else '') + ':'
     file_to_link = lambda f: f'https://osu.ppy.sh/b/{map_ids[f+".osu"]}' if f+".osu" in map_ids else ''
     description = '\n'.join(f'**{i+1})** {sim[i][0].replace(".osu.dist","")}\n{file_to_link(sim[i][0])}' for i in range((page-1)*perpage, page*perpage))
     embed = discord.Embed(title=title, description=description, color=color)
@@ -93,8 +93,8 @@ async def on_message(message):
     if msg == C+'help' or msg == C+'h':
         title = 'Command List'
         color = discord.Color.from_rgb(150,150,150)
-        description = f'**{C}s**im `<beatmap id/link>` `[page]`\nFind similar maps (based on map structure)\n\n' \
-                      f'**{C}r**ating `<beatmap id/link>` `[page]`\nFind similar maps (based on star rating)\n\n' \
+        description = f'**{C}s**im `<beatmap id/link>` `[<page>]`\nFind similar maps (based on map structure)\n\n' \
+                      f'**{C}r**ating `<beatmap id/link>` `[dt]` `[<page>]`\nFind similar maps (based on star rating)\n\n' \
                       f'**{C}i**nvite\nGet this bot\'s invite link\n\n' \
                       f'**{C}h**elp\nView commands'
         embed = discord.Embed(title=title, description=description, color=color)
@@ -134,22 +134,27 @@ async def on_message(message):
     # find similar maps (star rating)
     if any(msg.startswith(C + s + ' ') for s in ['r', 'rating']):
         msg = msg[msg.index(' ') + 1:]
+        args = msg.split(' ')
 
         # parse input
         try:
-            map_id = msg[:msg.index(' ')] if ' ' in msg else msg
+            map_id = args[0]
             if '/' in map_id:
                 map_id = map_id[map_id.strip('/').rindex('/') + 1:]
             map_id = ''.join(c for c in map_id if '0' <= c <= '9')
 
-            page = 1
-            if ' ' in msg:
-                page = int(msg[msg.index(' ') + 1:])
+            dt = 'dt' in args
 
-            if not (1 <= page <= 10):
+            page = -1
+            for p in range(1, 11):
+                if str(p) in args:
+                    page = p
+                    break
+
+            if page == -1:
                 raise Exception
 
-            await get_rating_maps(ch, map_id, page)
+            await get_rating_maps(ch, map_id, page, dt)
         except:
             await invalid_input(ch)
 

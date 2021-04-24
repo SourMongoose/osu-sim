@@ -1,8 +1,9 @@
 from osu_sr_calculator.osu_sr_calculator import calculateStarRating
 
-def get_sr(map):
-    rating = calculateStarRating(returnAllDifficultyValues=True, filepath=map)
-    return rating['nomod']['aim'], rating['nomod']['speed']
+def get_sr(map, dt=False):
+    rating = calculateStarRating(returnAllDifficultyValues=True, filepath=map, mods=['DT']) if dt else calculateStarRating(returnAllDifficultyValues=True, filepath=map)
+    mod = 'DT' if dt else 'nomod'
+    return rating[mod]['aim'], rating[mod]['speed']
 
 def get_srs(srs_file='srs.txt'):
     srs = {}
@@ -17,7 +18,7 @@ def get_srs(srs_file='srs.txt'):
     return srs
 
 if __name__ == '__main__':
-    raw = 'srs_raw.txt'
+    raw = 'srs_dt_raw.txt'
     start_line = 5
     end_line = 31613
     line_step = 2
@@ -25,7 +26,7 @@ if __name__ == '__main__':
     with open(raw, 'r', encoding='utf8') as f:
         lines = f.readlines()
 
-    with open('srs.txt', 'w', encoding='utf8') as f:
+    with open('srs_dt.txt', 'w', encoding='utf8') as f:
         for i in range(start_line, end_line, line_step):
             line = lines[i]
             song = line[:160]
