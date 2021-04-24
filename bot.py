@@ -145,14 +145,11 @@ async def on_message(message):
 
             dt = 'dt' in args
 
-            page = -1
+            page = 1
             for p in range(1, 11):
                 if str(p) in args:
                     page = p
                     break
-
-            if page == -1:
-                raise Exception
 
             await get_rating_maps(ch, map_id, page, dt)
         except:
