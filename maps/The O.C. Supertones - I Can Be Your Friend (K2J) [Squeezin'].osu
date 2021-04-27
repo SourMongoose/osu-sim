@@ -1,0 +1,1205 @@
+osu file format v8
+
+[General]
+AudioFilename: I Can Be Your Friend.mp3
+AudioLeadIn: 0
+PreviewTime: 48278
+Countdown: 0
+SampleSet: Normal
+StackLeniency: 0.7
+Mode: 0
+LetterboxInBreaks: 0
+SkinPreference:Default
+
+[Editor]
+Bookmarks: 22192,35025,61470,74700,101161,117699,130929,144160,157390
+DistanceSpacing: 1
+BeatDivisor: 2
+GridSize: 8
+
+[Metadata]
+Title:I Can Be Your Friend
+Artist:The O.C. Supertones
+Creator:K2J
+Version:Squeezin'
+Source:VeggieTales
+Tags:0_o veggierocks rocks veggie tales talking vegetables icbyf larry bob junior pseudoauthentic fruit m980 iNiS EBA Ouendan elite beat agents osuland space meteor
+
+[Difficulty]
+HPDrainRate:4
+CircleSize:3
+OverallDifficulty:4
+ApproachRate:4
+SliderMultiplier:2
+SliderTickRate:2
+
+[Events]
+//Background and Video events
+0,0,"Preview.png"
+//Break Periods
+2,34829,46622
+2,61312,73105
+2,101036,116140
+//Storyboard Layer 0 (Background)
+Sprite,Background,TopLeft,"Backgrounds\Space.png",320,240
+ M,0,-100,1933,0,0
+Sprite,Background,BottomLeft,"Other\Play4\FlamingMeteor.png",440,140
+ M,0,-100,1933,440,140,420,160
+ S,0,-100,1933,0.2
+Sprite,Background,TopLeft,"Backgrounds\Light.png",320,240
+ M,0,19312,20553,0,0
+Sprite,Background,BottomRight,"Panels\Cut0-AreYouReadyJ.png",320,240
+ M,0,19312,19519,0,480,640,480
+ M,0,19519,20553,640,480
+Sprite,Background,BottomLeft,"Panels\Cut0-AreYouReadyRyuuta.png",320,240
+ M,0,19312,19519,-640,480,0,480
+ M,0,19519,20553,0,480
+Sprite,Background,Centre,"Backgrounds\totalwhite.png",320,240
+ C,0,21381,22209,64,128,232
+Sprite,Background,CentreRight,"Backgrounds\Battlefield.png",320,240
+ M,0,21795,22209,365,720,365,240
+ P,0,21795,34839,H
+ M,0,22209,34839,365,240,278,240
+Sprite,Background,CentreLeft,"Backgrounds\Battlefield.png",320,240
+ M,0,21795,22209,365,720,365,240
+ M,0,22209,34839,365,240,278,240
+Sprite,Background,Centre,"Other\Play1\Red Tank.png",320,240
+ M,0,21795,22209,224,614,224,134
+ M,0,22209,34839,224,134,145,134
+Sprite,Background,Centre,"Other\Play1\Red Rockets.png",320,240
+ M,0,21795,22209,169,656,169,176
+ M,0,22209,34839,169,176,90,176
+Sprite,Background,Centre,"Other\Play1\Blue Tank.png",320,240
+ M,0,21795,22209,544,652,544,172
+ M,0,22209,34839,544,172,455,172
+Sprite,Background,Centre,"Other\Play1\Blue Rockets.png",320,240
+ M,0,21795,22209,601,611,601,131
+ M,0,22209,34839,601,131,512,131
+Sprite,Background,BottomCentre,"People\Shadow.png",320,240
+ L,22209,7
+  M,0,0,1579,726,338,-86,338
+ S,0,22209,34839,0.58
+Sprite,Background,Centre,"People\Tanks\K2J.png",320,240
+ S,0,28525,,0.56
+ M,0,28525,30104,726,233,-86,233
+Sprite,Background,CentreRight,"Backgrounds\Hangar.png",320,240
+ M,0,74760,101036,320,240
+ P,0,74760,101036,H
+Sprite,Background,CentreLeft,"Backgrounds\Hangar.png",320,240
+ M,0,74760,101036,320,240
+Sprite,Background,CentreRight,"People\Platform\Zerostarry.png",320,240
+ L,74760,16
+  R,0,0,410,0
+  R,0,410,820,0,-0.5
+  R,0,820,1230,-0.5
+  R,0,1230,1640,-0.5,0
+ M,0,74760,101036,310,45
+ S,0,74760,101036,0.25
+Sprite,Background,Centre,"Backgrounds\totalwhite.png",320,240
+ C,0,111174,113243,112,208,248,12,0,246
+ M,0,111174,113450,320,240
+Sprite,Background,Centre,"Other\Cut0\CloudCover.png",320,240
+ L,111174,5
+  M,0,0,207,960,-240,-320,720
+  M,0,207,414,-320,720
+Sprite,Background,Centre,"Backgrounds\Space.png",320,240
+ M,0,117795,137657,960,240,320,240
+Sprite,Background,Centre,"Other\Play4\FlamingMeteor.png",320,240
+ M,0,117795,137657,960,-333,454,173
+ S,0,117795,137657,0.2
+Sprite,Background,Centre,"Backgrounds\totalwhite.png",320,240
+ M,0,155657,157519,320,240
+Sprite,Background,Centre,"Backgrounds\Space.png",320,240
+ M,0,156485,157312,320,-240,320,240
+ M,0,157312,165308,320,240
+Sprite,Background,Centre,"Other\Play4\FlamingMeteor.png",320,240
+ M,0,156485,157312,440,-380,440,100
+ M,0,157312,163520,440,100,360,180
+ S,0,157312,165308,0.2
+Sprite,Background,Centre,"Backgrounds\HangarClose1.png",320,240
+ M,0,101036,102898,320,240
+Sprite,Background,Centre,"Backgrounds\HangarClose2.png",320,240
+ M,0,102898,106209,320,240
+Sprite,Background,Centre,"Backgrounds\HangarClose3.png",320,240
+ L,107450,10
+  M,0,0,93,320,240,310,240
+  M,0,93,186,310,240,320,240
+  M,0,186,279,320,240,330,240
+  M,0,279,372,330,240,320,240
+ M,0,106209,107450,320,240
+ S,0,106209,111174,1
+Sprite,Background,Centre,"People\Platform\Zerostarry.png",430,75
+ S,0,102898,106209,0.2
+ R,0,102898,106209,0.5
+ P,0,102898,106209,H
+//Storyboard Layer 1 (Fail)
+Sprite,Fail,Centre,"Other\Play1\Big Tank.png",320,240
+ M,0,22209,34839,479,276
+ S,0,22209,34839,0.672
+Sprite,Fail,Centre,"Text\Play1-SpeakCommanderE.png",265,200
+ L,22209,4
+  F,0,0,1656,1
+  F,0,1656,3312,0
+Sprite,Fail,Centre,"Text\Play1-ShutUpE.png",320,240
+ L,22209,3
+  F,0,0,1656,0
+  F,0,1656,3312,1
+ M,0,22209,32140,417,222
+Sprite,Fail,Centre,"Protag\cheer_fwd.png",320,240
+ M,0,36071,36371,250,360,-140,360
+ S,0,36071,36371,0.35
+ R,0,36071,36371,-1.2
+Sprite,Fail,TopLeft,"Other\Etc\FishJoke.png",320,240
+ M,0,35771,36071,640,280,250,280
+ M,0,36071,36371,250,280,-140,280
+Sprite,Fail,Centre,"People\Shadow.png",320,240
+ L,48278,31
+  V,0,0,207,1.75,1.5,1.25,1
+  V,0,207,413,1.25,1,1.75,1.5
+ M,0,48278,61312,405,195
+Sprite,Fail,Centre,"People\Shadow.png",320,240
+ L,48278,31
+  V,0,0,207,1.25,1,1.75,1.5
+  V,0,207,413,1.75,1.5,1.25,1
+ M,0,48278,61312,327,295
+ V,0,61112,61312,1.25,1,1.75,1.5
+Sprite,Fail,Centre,"People\Crowd\LH.png",320,240
+ L,48278,31
+  M,0,0,207,400,128,400,88
+  M,0,207,413,400,88,400,128
+ S,0,48278,61312,0.375
+Sprite,Fail,Centre,"People\Crowd\Crowd2.png",320,240
+ L,48278,31
+  M,0,0,207,405,131,405,91
+  M,0,207,413,405,91,405,131
+ S,0,48278,61312,0.75
+Sprite,Fail,Centre,"People\Crowd\Crowd1.png",320,240
+ L,48278,31
+  M,0,0,207,327,194,327,234
+  M,0,207,413,327,234,327,194
+ S,0,48278,61312,0.75
+ M,0,61112,61312,327,194,327,234
+Sprite,Fail,Centre,"Protag\stand_bck.png",320,240
+ M,0,48278,61312,80,464
+ R,0,48278,61312,0.45
+Sprite,Fail,Centre,"Text\Play2-Hate.png",320,240
+ L,48278,16
+  M,0,0,814,736,83,-96,83
+Sprite,Fail,Centre,"Text\Play2-Hate.png",320,240
+ L,48278,16
+  M,0,0,814,-96,397,736,397
+Sprite,Fail,Centre,"Text\Play2-Hate.png",320,240
+ L,48278,16
+  S,0,0,407,0.5,1
+  S,0,407,814,1,0.5
+ M,0,48278,61312,480,240
+Sprite,Fail,Centre,"Text\Play2-QuitWhiningE.png",320,240
+ M,0,54794,58052,700,-62,-60,542
+Sprite,Fail,Centre,"Backgrounds\totalwhite.png",320,240
+ C,0,62967,64829,200,0,0
+Sprite,Fail,BottomLeft,"Other\Play4\FlamingMeteor.png",400,180
+ M,0,62967,64829,400,180,380,200
+ S,0,62967,64829,0.25
+Sprite,Fail,Centre,"People\COs\Amy-No.png",185,280
+ M,0,62967,63167,-320,280,185,280
+ M,0,63167,64829,185,280
+Sprite,Fail,Centre,"Text\Cut2-HolyCrap.png",320,240
+ M,0,62967,64829,220,265
+Sprite,Fail,Centre,"Text\Intro-GiantMeteor.png",320,240
+ M,0,63567,64829,460,320
+Sprite,Fail,BottomCentre,"Other\Play3\BlueprintFailE.png",320,240
+ M,0,74760,101036,220,275
+Sprite,Fail,Centre,"Backgrounds\totalwhite.png",320,240
+ L,137657,9
+  F,0,0,1000,0,0.35
+  F,0,1000,1999,0.35,0
+ M,0,137657,155657,320,240
+ C,0,137657,155657,200,0,0
+Sprite,Fail,Centre,"Text\PlayK-NeverStopE.png",320,240
+ L,139105,1
+  S,0,0,1000,0.1,1
+  M,0,0,3311,320,150
+  F,0,1655,3311,1,0
+Sprite,Fail,TopLeft,"Backgrounds\Space.png",320,240
+ M,0,172132,177879,640,0,540,100
+Sprite,Fail,BottomLeft,"Backgrounds\Space.png",320,240
+ M,0,172132,177879,640,0,540,100
+Sprite,Fail,BottomRight,"Backgrounds\Space.png",320,240
+ M,0,172132,177879,640,0,540,100
+Sprite,Fail,Centre,"Backgrounds\space.png",320,240
+ M,0,172132,177879,320,240,220,340
+ F,0,172132,177879,1
+ F,0,177879,186160,0
+ M,0,177880,191340,320,240
+ F,0,186160,191340,1,0
+Sprite,Fail,Centre,"Other\Play4\osuland.png",320,240
+ M,0,172132,177879,0,480,-50,530
+ F,0,172132,177879,1
+ S,0,172132,177879,0.8
+Sprite,Fail,Centre,"Other\Play4\Rocket.png",240,320
+ S,0,172132,176321,0.6
+ R,0,172132,176421,1
+Sprite,Fail,Centre,"Text\EndB-SelfCentered.png",320,240
+ M,0,172132,172632,308,355,520,300
+ S,0,172132,172632,0,0.7
+ S,0,172632,176321,0.7
+ F,0,176321,176431,1,0
+Sprite,Fail,Centre,"Text\EndB-Facade.png",320,240
+ M,0,173132,173632,266,231,475,178
+ S,0,173132,173632,0,0.7
+ S,0,173632,176321,0.7
+ F,0,176321,176431,1,0
+Sprite,Fail,Centre,"Text\EndB-Nerd.png",320,240
+ M,0,174132,174632,266,231,316,101
+ S,0,174132,174632,0,0.7
+ S,0,174632,176321,0.7
+ F,0,176321,176431,1,0
+Sprite,Fail,Centre,"Text\EndB-CantBelieve.png",320,240
+ M,0,175132,175632,308,355,124,128
+ S,0,175132,175632,0,0.7
+ S,0,175632,176321,0.7
+ F,0,176321,176431,1,0
+Sprite,Fail,BottomLeft,"Other\Play4\FlamingMeteor.png",320,240
+ M,0,176021,176321,640,0,128,446
+ S,0,176021,176621,1.44
+ F,0,176621,176721,1,0
+Sprite,Fail,TopRight,"Backgrounds\Battlefield.png",320,240
+ M,0,177879,179000,640,40
+ S,0,177879,186160,2
+ M,0,179000,179847,640,40,640,-200
+Sprite,Fail,Centre,"Cheerleaders\Cheer3L.png",320,240
+ M,0,179000,179847,120,670,120,270
+ M,0,179847,186160,120,270
+ S,0,179847,186160,0.8
+ C,0,179847,186160,0,0,0
+Sprite,Fail,Centre,"Cheerleaders\Cheer3R.png",320,240
+ M,0,179000,179847,280,670,280,270
+ M,0,179847,186160,280,270
+ S,0,179847,186160,0.8
+ C,0,179847,186160,0,0,0
+Sprite,Fail,Centre,"Cheerleaders\Cheer1.png",320,240
+ M,0,179000,179847,220,700,220,300
+ M,0,179847,186160,220,300
+ S,0,179847,186160,1.5
+ C,0,179847,186160,0,0,0
+Sprite,Fail,Centre,"People\Crowd\Crowd1.png",320,240
+ M,0,179000,179847,200,800,200,400
+ M,0,179847,186160,200,400
+ S,0,179847,186160,1.5
+ C,0,179847,186160,0,0,0
+Sprite,Fail,Centre,"People\Crowd\Crowd2.png",320,240
+ M,0,179000,179847,400,750,400,350
+ M,0,179847,186160,400,350
+ S,0,179847,186160,1.5
+ C,0,179847,186160,0,0,0
+Sprite,Fail,Centre,"Text\EndB-ToArms.png",142,207
+ S,0,184030,186160,0.9
+Sprite,Fail,Centre,"Text\EndB-GetEm.png",390,127
+ S,0,184599,186160,0.9
+Sprite,Fail,Centre,"Backgrounds\totalwhite.png",320,240
+ F,0,186160,186360,1
+ C,0,186160,191340,0,0,0
+ F,0,191140,191340,1,0
+Sprite,Fail,Centre,"Panels\EndB-TryAgain.png",320,240
+ F,0,186160,186360,0,1
+ F,0,191140,191340,1,0
+Sprite,Fail,TopLeft,"Text\EndB-DifferentDiffH.png",90,130
+ F,0,186160,186360,0,1
+ F,0,191140,191340,1,0
+Sprite,Fail,TopLeft,"Text\EndB-Skip.png",254,357
+ F,0,186160,186360,0,1
+ F,0,191140,191340,1,0
+Sprite,Fail,BottomRight,"Other\skip.png",640,480
+ S,0,163520,179657,0.6
+ F,0,186160,186360,0,1
+ F,0,191140,191340,1,0
+//Storyboard Layer 2 (Pass)
+Sprite,Pass,Centre,"Text\Play1-WarnThemE.png",320,240
+ L,22209,3
+  F,0,0,1656,1
+  F,0,1656,3312,0
+ M,0,22209,34839,151,300,724,300
+Sprite,Pass,Centre,"People\Shadow.png",320,240
+ L,48278,16
+  M,0,0,407,405,195,415,195
+  M,0,407,814,415,195,405,195
+ V,0,48278,61312,1.75,1.5
+Sprite,Pass,Centre,"People\Shadow.png",320,240
+ L,48278,16
+  M,0,0,407,327,297,317,297
+  M,0,407,814,317,297,327,297
+ V,0,48278,61312,1.75,1.5
+Sprite,Pass,Centre,"People\Crowd\LH.png",320,240
+ L,48278,16
+  M,0,0,407,400,128,410,128
+  M,0,407,814,410,128,400,128
+ S,0,48278,61312,0.375
+Sprite,Pass,Centre,"People\Crowd\Crowd2.png",320,240
+ L,48278,16
+  M,0,0,407,405,131,415,131
+  M,0,407,814,415,131,405,131
+ S,0,48278,61312,0.75
+Sprite,Pass,Centre,"People\Crowd\Crowd1.png",320,240
+ L,48278,16
+  M,0,0,407,327,234,317,234
+  M,0,407,814,317,234,327,234
+ S,0,48278,61312,0.75
+Sprite,Pass,Centre,"Protag\cheer_bck.png",320,240
+ L,48278,31
+  M,0,0,207,100,464,100,434
+  M,0,207,414,100,434,100,464
+ R,0,48278,61312,0.2
+Sprite,Pass,Centre,"Text\Play2-Love.png",320,240
+ L,48278,16
+  M,0,0,814,144,502,144,-22
+Sprite,Pass,Centre,"Text\Play2-Love.png",320,240
+ L,48278,16
+  M,0,0,407,496,240,496,-22
+  M,0,407,814,496,502,496,240
+Sprite,Pass,Centre,"Text\Play2-Love.png",320,240
+ L,48278,16
+  S,0,0,407,0.5,1
+  S,0,407,814,1,0.5
+ M,0,48278,61312,320,360
+Sprite,Pass,Centre,"Text\Play2-HaveFunE.png",320,240
+ M,0,51536,54794,-60,542,700,-62
+Sprite,Pass,Centre,"Backgrounds\totalwhite.png",320,240
+ C,0,62967,64829,220,220,0
+Sprite,Pass,Centre,"People\Crowd\LH.png",320,240
+ M,0,62967,63467,310,140,120,300
+ S,0,62967,63467,0.15,0.55
+ M,0,62967,64829,120,300
+Sprite,Pass,BottomCentre,"Other\Play3\BlueprintPassE.png",320,240
+ M,0,74760,101036,220,275
+Sprite,Pass,Centre,"Text\PlayK-MusicLivesE.png",320,240
+ L,142416,1
+  S,0,0,1000,0.1,0.9
+  M,0,0,3311,320,150
+  F,0,1655,3311,1,0
+Sprite,Pass,Centre,"Backgrounds\Space.png",320,240
+ F,0,164479,,1,0
+ F,0,166420,166421,0,1
+ M,0,166421,174111,320,240,420,140
+ S,0,166421,174111,1
+Sprite,Pass,Centre,"Backgrounds\Space.png",320,240
+ M,0,166421,174111,-320,240,-220,140
+Sprite,Pass,Centre,"Backgrounds\Space.png",320,240
+ M,0,166421,174111,320,720,420,620
+Sprite,Pass,Centre,"Other\Play4\osuland.png",0,480
+ M,0,166421,174111,0,480,50,430
+ S,0,166421,174111,1.2
+Sprite,Pass,TopRight,"Backgrounds\totalwhite.png",640,180
+ S,0,163520,164480,0.5
+ C,0,163520,164480,0,0,0
+Sprite,Pass,BottomCentre,"Other\Play4\DashboardH.png",350,445
+ S,0,163520,164480,2
+Sprite,Pass,TopLeft,"Other\Play4\Numbers0.png",502,337
+ S,0,163520,164480,2
+Sprite,Pass,TopLeft,"Other\Play4\Numbers1.png",598,337
+ S,0,163520,164480,2
+Sprite,Pass,Centre,"Protag\cheer_bck.png",60,350
+ R,0,163520,163980,0,0.6
+ S,0,163520,164480,2
+Sprite,Pass,Centre,"Backgrounds\totalwhite.png",320,240
+ C,0,164480,166421,0,0,0
+Sprite,Pass,CentreLeft,"Backgrounds\totalwhite.png",0,240
+ C,0,164480,166421,230,0,0
+ V,0,164480,166421,0.49,1
+Sprite,Pass,CentreRight,"Backgrounds\totalwhite.png",640,240
+ C,0,164480,166421,0,0,230
+ V,0,164480,166421,0.49,1
+Sprite,Pass,CentreRight,"People\COs\Will-OK.png",640,350
+ M,0,164480,164780,640,550,640,350
+ S,0,164480,166421,0.8
+ P,0,164480,166421,H
+Sprite,Pass,CentreLeft,"People\COs\Amy-OK.png",0,350
+ M,0,164480,164780,0,550,0,350
+ S,0,164480,166421,0.8
+Sprite,Pass,Centre,"Text\EndG-ReadyB.png",280,250
+ S,0,164780,166421,0.7
+Sprite,Pass,Centre,"Text\EndG-ReadyR.png",360,115
+ S,0,164780,166421,0.7
+Sprite,Pass,Centre,"Other\Play4\Rocket.png",125,370
+ S,0,166421,174111,0.5
+ R,0,166421,174111,1
+Sprite,Pass,BottomLeft,"Other\Play4\FlamingMeteor.png",300,328
+ L,168742,9
+  M,0,0,100,300,328,290,328
+  M,0,100,200,290,328,300,328
+ L,170261,9
+  M,0,0,100,300,328,290,338
+  M,0,100,200,290,338,300,328
+ S,0,166421,172170,1.2
+Sprite,Pass,Centre,"Text\EndG-FireP.png",320,240
+ M,0,166421,166721,148,351,390,200
+ S,0,166421,166721,0,0.8
+ F,0,166421,168362,1
+Sprite,Pass,Centre,"Text\EndG-FireB.png",320,240
+ M,0,166421,166721,113,297,450,345
+ S,0,166421,166721,0,0.8
+ F,0,166421,168362,1
+Sprite,Pass,Centre,"Text\EndG-FireR.png",320,240
+ M,0,166421,166721,182,401,184,130
+ S,0,166421,166721,0,0.8
+ F,0,166421,168362,1
+Sprite,Pass,Centre,"Text\EndG-Beam.png",320,240
+ L,168362,8
+  S,0,0,237,0.75,1
+  S,0,237,474,1,0.75
+ M,0,168362,172170,128,200
+ R,0,168362,172170,0.4
+Sprite,Pass,Centre,"Text\EndG-Beam.png",320,240
+ L,168362,8
+  S,0,0,237,1,0.75
+  S,0,237,474,0.75,1
+ M,0,168362,172170,300,400
+ R,0,168362,172170,-0.3
+Sprite,Pass,Centre,"Other\EndG\Beam Blue.png",320,240
+ L,168362,10
+  S,0,0,190,0,1.5
+  M,0,0,380,143,236,418,108
+  S,0,190,380,1.5
+ R,0,168362,172170,-0.2
+Sprite,Pass,Centre,"Other\EndG\Beam Red.png",320,240
+ L,168362,10
+  S,0,0,190,0,1.5
+  M,0,0,380,253,401,492,174
+  S,0,190,380,1.5
+ R,0,168362,172170,-0.6
+Sprite,Pass,Centre,"Other\EndG\Beam Blue.png",320,240
+ L,168552,9
+  S,0,0,190,0,1.5
+  M,0,0,380,143,236,455,55
+  S,0,190,380,1.5
+ R,0,168362,171980,-0.2
+Sprite,Pass,Centre,"Other\EndG\Beam Red.png",320,240
+ L,168552,9
+  S,0,0,190,0,1.5
+  M,0,0,380,253,401,402,202
+  S,0,190,380,1.5
+ R,0,168362,171980,-0.6
+Sprite,Pass,Centre,"Other\EndG\Meteor Split LL.png",475,142
+ M,0,172170,172850,475,142,550,300
+ S,0,172170,172850,1.2
+ F,0,172850,173141,1,0
+Sprite,Pass,Centre,"Other\EndG\Meteor Split LR.png",475,142
+ M,0,172170,172850,475,142,625,125
+ S,0,172170,172850,1.2
+ F,0,172850,173141,1,0
+Sprite,Pass,Centre,"Other\EndG\Meteor Split UL.png",475,142
+ M,0,172170,172850,475,142,325,175
+ S,0,172170,172850,1.2
+ F,0,172850,173141,1,0
+Sprite,Pass,Centre,"Other\EndG\Meteor Split UR.png",475,142
+ M,0,172170,172850,475,142,500,0
+ S,0,172170,172850,1.2
+ F,0,172850,173141,1,0
+Sprite,Pass,Centre,"Other\EndG\Beam Red.png",253,401
+ S,0,172650,172750,0,2
+ M,0,172650,172850,253,401,220,103
+ R,0,172650,172850,-1.5
+Sprite,Pass,Centre,"Other\EndG\Beam Blue.png",253,401
+ S,0,172650,172750,0,2
+ M,0,172650,172850,143,236,510,378
+ R,0,172650,172850,0.7
+Animation,Pass,BottomCentre,"Other\Play3\explosion.png",418,108,12,31,LoopForever
+ S,0,168742,172550,1.4
+ F,0,172550,172850,1,0
+Animation,Pass,BottomCentre,"Other\Play3\explosion.png",492,174,12,31,LoopForever
+ S,0,168742,172550,1.4
+ F,0,172550,172850,1,0
+Animation,Pass,BottomCentre,"Other\Play3\explosion.png",455,55,12,31,LoopForever
+ S,0,168932,172550,1.4
+ F,0,172550,172850,1,0
+Animation,Pass,BottomCentre,"Other\Play3\explosion.png",402,202,12,31,LoopForever
+ S,0,168932,172550,1.4
+ F,0,172550,172850,1,0
+Animation,Pass,Centre,"Other\Etc\BigExplosion.png",546,180,10,60,LoopForever
+ S,0,170261,172550,2
+ F,0,172550,172850,1,0
+Animation,Pass,Centre,"Other\Etc\BigExplosion.png",345,106,10,60,LoopForever
+ S,0,170451,172550,2
+ F,0,172550,172850,1,0
+Animation,Pass,Centre,"Other\Etc\BigExplosion.png",540,58,10,60,LoopForever
+ S,0,170641,172550,2
+ F,0,172550,172850,1,0
+Animation,Pass,Centre,"Other\Etc\BigExplosion.png",430,138,10,60,LoopForever
+ S,0,170831,172550,2
+ F,0,172550,172850,1,0
+Animation,Pass,Centre,"Other\Etc\BigExplosion.png",444,262,10,60,LoopForever
+ S,0,171021,172550,2
+ F,0,172550,172850,1,0
+Animation,Pass,Centre,"Other\Etc\BigExplosion.png",630,110,10,60,LoopForever
+ S,0,171211,172550,2.25
+ F,0,172550,172850,1,0
+Animation,Pass,Centre,"Other\Etc\BigExplosion.png",390,48,10,60,LoopForever
+ S,0,171401,172550,2.5
+ F,0,172550,172850,1,0
+Animation,Pass,Centre,"Other\Etc\BigExplosion.png",350,221,10,60,LoopForever
+ S,0,171781,172550,2.75
+ F,0,172550,172850,1,0
+Animation,Pass,Centre,"Other\Etc\BigExplosion.png",558,278,10,60,LoopForever
+ S,0,171591,172550,3
+ F,0,172550,172850,1,0
+Animation,Pass,Centre,"Other\Etc\BigExplosion.png",490,183,10,60,LoopForever
+ S,0,171971,172550,3
+ F,0,172550,172850,1,0
+Animation,Pass,Centre,"Other\Etc\BigExplosion.png",475,142,10,38,LoopOnce
+ S,0,172170,172550,6,8
+ F,0,172550,172850,1,0
+Animation,Pass,Centre,"Other\Etc\BigExplosion.png",220,103,10,38,LoopOnce
+ S,0,172850,173141,4,6
+ F,0,173141,173441,1,0
+Animation,Pass,Centre,"Other\Etc\BigExplosion.png",510,378,10,38,LoopOnce
+ S,0,172850,173141,5,7
+ F,0,173141,173441,1,0
+Sprite,Pass,Centre,"Text\EndG-ShaBlam.png",475,142
+ M,0,172170,172550,475,142,425,162
+ S,0,172170,172550,0,0.8
+ S,0,172550,174111,0.8
+Sprite,Pass,TopRight,"Backgrounds\Battlefield.png",320,240
+ M,0,174111,175983,640,40,640,-100
+ S,0,174111,180863,2
+Sprite,Pass,Centre,"People\Shadow.png",320,240
+ M,0,174111,175983,320,484,320,344
+ V,0,174111,180863,3,2
+Sprite,Pass,Centre,"People\COs\Will-OK.png",320,240
+ M,0,174111,175983,150,356,150,216
+ S,0,174111,177882,0.35
+Sprite,Pass,Centre,"People\COs\Will-Yes.png",150,216
+ S,0,177882,180863,0.35
+Sprite,Pass,Centre,"People\COs\Amy-OK.png",320,240
+ M,0,174111,175983,270,356,270,216
+ S,0,174111,177882,0.35
+Sprite,Pass,Centre,"People\COs\Amy-Yes.png",270,216
+ S,0,177882,180863,0.35
+Sprite,Pass,Centre,"Protag\wave.png",320,240
+ M,0,174111,175983,474,376,474,236
+ S,0,174111,177882,0.5
+Sprite,Pass,Centre,"Protag\stand.png",474,236
+ S,0,177882,180863,0.5
+Sprite,Pass,TopCentre,"Other\EndG\Peace Table.png",320,240
+ M,0,174111,175983,320,380,320,240
+ S,0,174111,180863,0.8
+Sprite,Pass,Centre,"Other\EndG\Peace Banner.png",320,240
+ M,0,174111,175983,320,250,320,-50
+ S,0,174111,175983,1
+Sprite,Pass,Centre,"Cheerleaders\Cheer3L.png",320,240
+ M,0,174111,175983,120,670,120,370
+ S,0,174111,180863,0.8
+ C,0,174111,180863,0,0,0
+ M,0,177882,178182,120,370,120,340
+Sprite,Pass,Centre,"Cheerleaders\Cheer3R.png",320,240
+ M,0,174111,175983,280,670,280,370
+ S,0,174111,180863,0.8
+ C,0,174111,180863,0,0,0
+ M,0,177882,178182,280,370,280,340
+Sprite,Pass,Centre,"Cheerleaders\Cheer1.png",320,240
+ M,0,174111,175983,220,700,220,400
+ S,0,174111,180863,1.5
+ C,0,174111,180863,0,0,0
+ M,0,177882,178182,220,400,220,350
+Sprite,Pass,Centre,"People\Crowd\Crowd1.png",320,240
+ M,0,174111,175983,200,800,200,500
+ S,0,174111,180863,1.5
+ C,0,174111,180863,0,0,0
+ M,0,177882,178182,200,500,200,450
+Sprite,Pass,Centre,"People\Crowd\Crowd2.png",320,240
+ M,0,174111,175983,400,750,400,450
+ S,0,174111,180863,1.5
+ C,0,174111,180863,0,0,0
+ M,0,177882,178182,400,450,400,400
+Sprite,Pass,Centre,"Text\EndG-KeepOpen.png",376,100
+ S,0,175983,177882,0.7
+Sprite,Pass,Centre,"Text\Cut2-Yeah.png",320,340
+ F,0,177882,178182,1
+ S,0,177882,180863,1
+ F,0,178182,178382,0
+ F,0,178382,180863,1
+Sprite,Pass,Centre,"Backgrounds\totalwhite.png",320,240
+ F,0,172170,172570,0.5,0
+ F,0,173141,174111,0,1
+ F,0,174111,174611,1,0
+Sprite,Pass,TopLeft,"Backgrounds\Letterbox.png",0,0
+ M,0,163520,180863,0,0
+Sprite,Pass,BottomLeft,"Backgrounds\Letterbox.png",0,480
+ M,0,163520,180863,0,480
+Sprite,Pass,TopLeft,"Text\EndG-MarkN.png",320,240
+ M,0,173141,173341,640,80,25,80
+ M,0,173341,174611,25,80
+Sprite,Pass,TopLeft,"Backgrounds\space.png",0,-480
+ M,0,182802,183991,0,-480,0,0
+ M,0,183991,189544,0,0
+ F,0,189544,190692,1,0
+Sprite,Pass,TopLeft,"Backgrounds\space.png",0,-480
+ M,0,180863,182802,0,0
+ M,0,182802,183991,0,0,0,480
+Sprite,Pass,Centre,"Backgrounds\totalwhite.png",320,240
+ F,0,180863,189544,0.5
+ C,0,180863,189544,72,24,152
+ F,0,189544,190692,0.5,1
+ F,0,191658,191858,1,0
+Sprite,Pass,Centre,"Other\Play4\osuland.png",100,380
+ S,0,180863,183991,2.5
+ M,0,182802,183991,100,380,100,860
+Sprite,Pass,Centre,"People\COs\Will-Yes.png",400,200
+ M,0,180863,182802,373,70
+ S,0,180863,182802,0.18
+ R,0,180863,182802,-0.4
+ M,0,182802,183991,373,70,373,550
+Sprite,Pass,Centre,"Panels\EndG-Helmet.png",400,200
+ M,0,180863,182802,360,45
+ S,0,180863,182802,0.25
+ R,0,180863,182802,-0.4
+ M,0,182802,183991,360,45,360,525
+Sprite,Pass,Centre,"People\COs\Amy-Yes.png",400,200
+ M,0,180863,182802,413,45
+ S,0,180863,182802,0.15
+ R,0,180863,182802,-0.4
+ P,0,180863,183991,H
+ M,0,182802,183991,413,45,413,520
+Sprite,Pass,Centre,"Panels\EndG-Helmet.png",400,200
+ M,0,180863,182802,415,25
+ S,0,180863,182802,0.2
+ R,0,180863,182802,-0.4
+ M,0,182802,183991,415,25,415,505
+Sprite,Pass,Centre,"Other\Cut3\Complete.png",400,200
+ M,0,180863,182802,420,240
+ S,0,180863,182802,0.8
+ R,0,180863,182802,0.3
+ M,0,182802,183991,420,240,420,720
+Sprite,Pass,Centre,"Protag\wave.png",320,480
+ M,0,180863,182802,242,258
+ R,0,180863,182802,-0.5
+ M,0,182802,183991,242,258,242,738
+Sprite,Pass,Centre,"Panels\EndG-Helmet.png",320,480
+ M,0,180863,182802,170,140
+ M,0,182802,183991,170,140,170,620
+Sprite,Pass,Centre,"Panels\EndG-PicLower.png",320,480
+ M,0,180863,182802,320,480
+ M,0,182802,183991,320,480,320,960
+Sprite,Pass,Centre,"People\Crowd\LH.png",320,480
+ M,0,180863,182802,0,460
+ S,0,180863,183991,0.35
+ R,0,180863,183991,0.79
+ M,0,182802,183991,0,460,0,940
+Sprite,Pass,Centre,"People\Platform\Zerostarry.png",320,480
+ M,0,180863,182802,640,450
+ S,0,180863,183991,0.35
+ R,0,180863,183991,-0.79
+ M,0,182802,183991,640,450,640,930
+Sprite,Pass,Centre,"Panels\EndG-PicLeft.png",320,480
+ M,0,180863,182802,0,0
+ M,0,182802,183991,0,0,0,480
+ M,0,183991,189544,0,480
+ F,0,189544,190692,1,0
+Sprite,Pass,Centre,"Panels\EndG-PicRight.png",320,480
+ M,0,180863,182802,640,50
+ M,0,182802,183991,640,50,640,530
+ M,0,183991,189544,640,530
+ F,0,189544,190692,1,0
+Sprite,Pass,Centre,"Backgrounds\totalwhite.png",320,240
+ F,0,179863,180863,0,1
+ F,0,180863,181163,1,0
+Sprite,Pass,Centre,"People\Crowd\Strager.png",320,480
+ M,0,182802,183991,600,-320,600,160
+ S,0,182802,190692,0.5
+ R,0,182802,190692,-1.57
+ M,0,183991,189544,600,160
+ F,0,189544,190692,1,0
+Sprite,Pass,Centre,"People\Tanks\K2J.png",320,480
+ M,0,182802,183991,20,-460,20,20
+ S,0,182802,190692,0.35
+ R,0,182802,190692,2.35
+ M,0,183991,189544,20,20
+ F,0,189544,190692,1,0
+Sprite,Pass,Centre,"Cheerleaders\BanchoBot.png",320,480
+ M,0,182802,183991,620,-390,620,90
+ S,0,182802,190692,0.2
+ R,0,182802,190692,-1.57
+ M,0,183991,189544,620,90
+ F,0,189544,190692,1,0
+Sprite,Pass,Centre,"Cheerleaders\peppy.png",320,480
+ M,0,182802,183991,590,-460,590,20
+ S,0,182802,190692,0.5
+ R,0,182802,190692,-2.35
+ M,0,183991,189544,590,20
+ F,0,189544,190692,1,0
+Sprite,Pass,Centre,"Panels\EndG-PicUpper.png",320,270
+ M,0,182802,183991,320,-480,320,0
+ M,0,183991,190692,320,0
+ F,0,189544,190692,1,0
+Sprite,Pass,Centre,"Cheerleaders\chibij-mid.png",320,240
+ M,0,182802,183991,185,-190,185,290
+ F,0,182802,183991,0.3
+ R,0,182802,190692,-0.4
+ S,0,182802,190759,0.6
+ F,0,183991,190692,0.3,1
+ M,0,183991,191658,185,290
+ S,0,190759,191658,0.8
+ F,0,191658,191858,1,0
+Sprite,Pass,Centre,"Cheerleaders\chibiryuuta-mid.png",320,240
+ M,0,182802,183991,485,-230,485,250
+ F,0,182802,183991,0.3
+ S,0,182802,190692,0.6
+ F,0,183991,190692,0.3,1
+ M,0,183991,191658,485,250
+ S,0,191359,191658,0.8
+ F,0,191658,191858,1,0
+Sprite,Pass,Centre,"Cheerleaders\chibipippi-mid.png",320,240
+ M,0,182802,183991,340,-210,340,270
+ F,0,182802,183991,0.3
+ R,0,182802,190692,-0.2
+ S,0,182802,191055,0.7
+ F,0,183991,190692,0.3,1
+ M,0,183991,191658,340,270
+ S,0,191055,191658,0.9
+ F,0,191658,191858,1,0
+Sprite,Pass,Centre,"Backgrounds\totalwhite.png",320,240
+ C,0,182991,190692,0,0,0
+ F,0,183991,184191,0,0.4
+ F,0,189544,190692,0.4,0
+Sprite,Pass,Centre,"Panels\Credits.png",322,242
+ F,0,183991,184191,0,1
+ C,0,183991,190692,0,0,0
+ F,0,189544,190692,1,0
+Sprite,Pass,Centre,"Panels\Credits.png",320,240
+ F,0,183991,184191,0,1
+ F,0,189544,190692,1,0
+//Storyboard Layer 3 (Foreground)
+Sprite,Foreground,BottomLeft,"Other\Play4\FlamingMeteor.png",320,240
+ M,0,-29030,-24867,340,240,320,260
+ S,0,-29030,-24867,0.5
+ M,0,-24867,-24055,180,-380,180,100
+ S,0,-24867,-11540,0.15
+ M,0,-24055,-14294,180,100,160,120
+ M,0,-14294,-11540,160,120
+Sprite,Foreground,Centre,"Text\Intro-HolyCrap.png",320,240
+ M,0,-29030,-24867,135,195
+Sprite,Foreground,Centre,"Text\Intro-GiantMeteor.png",320,240
+ L,-27328,2
+  S,0,0,615,0.8,1
+  S,0,615,1230,1,0.8
+ M,0,-27328,-24867,320,370
+Sprite,Foreground,TopCentre,"Cheerleaders\BanchoBot.png",320,240
+ M,0,-4848,-4348,90,480,90,200
+ C,0,-4848,-3094,0,0,0
+ P,0,-4848,-3094,H
+ M,0,-3094,-100,550,150
+ C,0,-3094,-100,255,255,255
+Sprite,Foreground,BottomLeft,"Panels\Int-GoTableE.png",320,240
+ M,0,-3094,-100,0,480
+Animation,Foreground,Centre,"Other\Cut0\star.png",320,240,2,50,LoopForever
+ M,0,-100,1105,220,-100,430,580
+ S,0,-100,1105,0.75,1.5
+ R,0,-100,1105,0,6.28
+ M,0,1105,1519,320,580,320,480
+ S,0,1105,1519,5
+ M,0,1519,1933,320,480
+ S,0,1519,1933,5,7
+Sprite,Foreground,Centre,"Other\Cut0\star0.png",320,480
+ S,0,1933,8553,7
+Sprite,Foreground,Centre,"Cheerleaders\chibipippi-mid.png",320,240
+ S,0,1933,,0.72
+ M,0,1933,2140,320,689,320,273
+ M,0,2140,8553,320,273
+Sprite,Foreground,Centre,"Cheerleaders\chibij-mid.png",320,240
+ S,0,1933,,0.552
+ M,0,1933,2140,320,573,165,365
+ M,0,2140,8553,165,365
+Sprite,Foreground,Centre,"Cheerleaders\chibiryuuta-mid.png",320,240
+ S,0,1933,,0.552
+ M,0,1933,2140,320,573,475,365
+ M,0,2140,8553,475,365
+Sprite,Foreground,TopLeft,"Text\Cut0-CAT.png",320,240
+ M,0,3381,5243,30,60
+Sprite,Foreground,TopLeft,"Text\Cut0-PippiIntro.png",320,240
+ M,0,3381,5243,415,160
+Sprite,Foreground,TopLeft,"Text\Cut0-RyuutaIntro.png",320,240
+ M,0,3381,5243,400,375
+Sprite,Foreground,TopLeft,"Text\Cut0-JIntro.png",320,240
+ M,0,3381,5243,40,380
+Sprite,Foreground,Centre,"Panels\Cut0-oneE.png",320,240
+ M,0,20967,21381,320,240
+Sprite,Foreground,TopCentre,"Cheerleaders\chibiryuuta-mid.png",100,180
+ S,0,20140,21381,1
+Sprite,Foreground,TopCentre,"Cheerleaders\chibij-mid.png",590,180
+ S,0,20553,21381,1
+Sprite,Foreground,Centre,"People\shadow.png",320,240
+ L,44967,4
+  S,0,0,621,0.25
+  S,0,621,724,0.25,0.15
+  S,0,724,828,0.15,0.25
+ M,0,44347,44967,-320,187,320,187
+ S,0,44347,44967,0.25
+Sprite,Foreground,Centre,"People\Tanks\K2J.png",320,240
+ L,44967,4
+  M,0,0,621,320,145
+  M,0,621,724,320,145,320,105
+  M,0,724,828,320,105,320,145
+ M,0,44347,44967,-320,145,320,145
+ S,0,44347,48278,0.25
+Sprite,Foreground,Centre,"Protag\stand_bck",320,240
+ M,0,67312,67933,360,600,250,350
+ S,0,67312,71036,0.8
+ M,0,67933,71036,250,350
+Sprite,Foreground,Centre,"Text\Cut2-BuildRocketE.png",400,140
+ F,0,67933,68133,1
+ F,0,68133,68333,0
+ F,0,68333,71036,1
+Sprite,Foreground,Centre,"People\shadow.png",320,240
+ L,71470,5
+  S,0,0,621,0.25
+  S,0,621,724,0.25,0.15
+  S,0,724,828,0.15,0.25
+ M,0,71036,74760,160,187
+ F,0,74760,74761,1,0
+Sprite,Foreground,Centre,"People\Tanks\K2J.png",320,240
+ L,71470,5
+  M,0,0,621,160,145
+  M,0,621,724,160,145,160,105
+  M,0,724,828,160,105,160,145
+ S,0,71036,74760,0.25
+ F,0,74760,74761,1,0
+Sprite,Foreground,Centre,"People\shadow.png",320,240
+ L,71470,5
+  S,0,0,621,0.25
+  S,0,621,724,0.25,0.15
+  S,0,724,828,0.15,0.25
+ M,0,71036,71450,1120,187,480,187
+ F,0,74760,74761,1,0
+Sprite,Foreground,Centre,"People\Crowd\LH.png",320,240
+ L,71470,5
+  M,0,0,621,480,145
+  M,0,621,724,480,145,480,105
+  M,0,724,828,480,105,480,145
+ M,0,71036,71450,1120,145,480,145
+ S,0,71036,74760,0.25
+ F,0,74760,74761,1,0
+Sprite,Foreground,Centre,"People\shadow.png",320,240
+ L,115312,3
+  S,0,0,621,0.25
+  S,0,621,724,0.25,0.15
+  S,0,724,828,0.15,0.25
+ M,0,114485,117795,320,187
+ F,0,117795,117796,1,0
+Sprite,Foreground,Centre,"People\Tanks\K2J.png",320,240
+ L,115312,3
+  M,0,0,621,320,145
+  M,0,621,724,320,145,320,105
+  M,0,724,828,320,105,320,145
+ S,0,114485,117795,0.25
+ F,0,117795,117796,1,0
+Sprite,Foreground,Centre,"People\shadow.png",320,240
+ L,115312,3
+  S,0,0,621,0.25
+  S,0,621,724,0.25,0.15
+  S,0,724,828,0.15,0.25
+ M,0,114485,114691,-480,187,160,187
+ F,0,117795,117796,1,0
+Sprite,Foreground,Centre,"People\Platform\Zerostarry.png",320,240
+ L,115312,3
+  M,0,0,621,160,145
+  M,0,621,724,160,145,160,105
+  M,0,724,828,160,105,160,145
+ M,0,114485,114691,-480,145,160,145
+ S,0,114485,117795,0.25
+ F,0,117795,117796,1,0
+Sprite,Foreground,Centre,"People\shadow.png",320,240
+ L,115312,3
+  S,0,0,621,0.25
+  S,0,621,724,0.25,0.15
+  S,0,724,828,0.15,0.25
+ M,0,114485,117795,480,187
+ S,0,114485,117795,0.25
+ F,0,117795,117796,1,0
+Sprite,Foreground,Centre,"People\Crowd\LH.png",320,240
+ L,115312,3
+  M,0,0,621,480,145
+  M,0,621,724,480,145,480,105
+  M,0,724,828,480,105,480,145
+ S,0,114485,117795,0.25
+ F,0,117795,117796,1,0
+Sprite,Foreground,BottomLeft,"Other\Play4\DashboardH.png",320,240
+ M,0,117795,137657,0,480
+Animation,Foreground,TopCentre,"Other\Play3\Fire.png",320,240,2,60,LoopForever
+ P,0,150898,154622,V
+ M,0,152140,152347,294,881,294,420
+ M,0,152347,154209,294,420
+ M,0,154209,154622,294,420,294,-81
+Animation,Foreground,TopCentre,"Other\Play3\Fire.png",320,240,2,60,LoopForever
+ P,0,150898,154622,V
+ M,0,152140,152347,366,884,366,423
+ M,0,152347,154209,366,423
+ M,0,154209,154622,366,423,366,-78
+Sprite,Foreground,TopCentre,"Cheerleaders\chibipippi-mid.png",320,240
+ M,0,152140,152347,320,481,320,20
+ S,0,152140,154622,0.75
+ M,0,152347,154209,320,20
+ M,0,154209,154622,320,20,320,-481
+Animation,Foreground,TopCentre,"Other\Play3\Fire.png",320,240,2,60,LoopForever
+ M,0,152553,152760,466,910,466,449
+ S,0,152553,154622,0.75
+ P,0,152553,154622,V
+ M,0,152760,154209,466,449
+ M,0,154209,154622,466,449,466,-52
+Animation,Foreground,TopCentre,"Other\Play3\Fire.png",320,240,2,60,LoopForever
+ M,0,152553,152760,535,910,535,449
+ S,0,152553,154622,0.75
+ P,0,152553,154622,V
+ M,0,152760,154209,535,449
+ M,0,154209,154622,535,449,535,-52
+Sprite,Foreground,TopCentre,"Cheerleaders\chibiryuuta-mid.png",320,240
+ M,0,152553,152760,500,621,500,160
+ S,0,152553,154622,0.75
+ M,0,152760,154209,500,160
+ M,0,154209,154622,500,160,500,-341
+Animation,Foreground,TopCentre,"Other\Play3\Fire.png",320,240,2,60,LoopForever
+ S,0,152553,154622,0.75
+ P,0,152553,154622,V
+ M,0,152967,153174,57,907,57,446
+ M,0,153174,154209,57,446
+ M,0,154209,154622,57,446,57,-55
+Animation,Foreground,TopCentre,"Other\Play3\Fire.png",320,240,2,60,LoopForever
+ S,0,152553,154622,0.6
+ P,0,152553,154622,V
+ M,0,152967,153174,220,907,220,446
+ M,0,153174,154209,220,446
+ M,0,154209,154622,220,446,220,-55
+Sprite,Foreground,TopCentre,"Cheerleaders\chibij-mid.png",320,240
+ M,0,152967,153174,140,621,140,160
+ S,0,152967,154622,0.75
+ M,0,153174,154209,140,160
+ M,0,154209,154622,140,160,140,-341
+Sprite,Foreground,BottomRight,"Other\skip.png",640,480
+ S,0,163520,179657,0.6
+ F,0,179657,179864,1,0
+//Storyboard Sound Samples
+Sample,2040,3,"Audio\sfx\Cut0-HeyE.wav",80
+Sample,5243,3,"Audio\sfx\Cut0-MissionE.wav",80
+Sample,62967,2,"Audio\sfx\Cut2-Cheer.wav",40
+Sample,163520,2,"Audio\Good End.mp3",80
+Sample,163980,2,"Audio\sfx\EndG-Button.wav",100
+Sample,168362,2,"Audio\sfx\EndG-Laser.wav",90
+Sample,168742,2,"Audio\sfx\EndG-Laser.wav",90
+Sample,169122,2,"Audio\sfx\EndG-Laser.wav",90
+Sample,169502,2,"Audio\sfx\EndG-Laser.wav",90
+Sample,169882,2,"Audio\sfx\EndG-Laser.wav",90
+Sample,170262,2,"Audio\sfx\EndG-Laser.wav",90
+Sample,170642,2,"Audio\sfx\EndG-Laser.wav",90
+Sample,171022,2,"Audio\sfx\EndG-Laser.wav",90
+Sample,171402,2,"Audio\sfx\EndG-Laser.wav",90
+Sample,171782,2,"Audio\sfx\EndG-Laser.wav",90
+Sample,172162,2,"Audio\sfx\EndG-Laser.wav",90
+Sample,172170,2,"Audio\sfx\EndG-Explosion.wav",100
+Sample,172650,2,"Audio\sfx\EndG-Laser.wav",90
+Sample,172850,2,"Audio\sfx\EndG-SmallExplosion.wav",100
+Sample,177882,2,"Audio\sfx\Cut2-Cheer.wav",100
+Sample,180863,2,"Audio\sfx\EndG-Pic.wav",100
+Sample,190692,2,"Audio\Applause.mp3",80
+//Background Colour Transformations
+3,100,163,162,255
+
+[TimingPoints]
+1933.30210522272,413.793103448276,4,1,0,100,1,0
+22186,-100,4,1,0,61,0,0
+48239,-100,4,1,0,81,0,0
+117699,-100,4,1,0,49,0,0
+137140,-100,4,1,0,81,0,1
+157518,-100,4,1,0,81,0,0
+157519,-100,4,1,0,81,0,1
+158760,-100,4,1,0,81,0,0
+
+[Colours]
+Combo1 : 255,255,128
+Combo2 : 255,89,89
+Combo3 : 0,128,255
+Combo4 : 36,255,36
+
+[HitObjects]
+168,56,22209,2,0,B|376:56,1,200,8|0
+448,56,22829,1,4
+432,136,23036,1,0
+416,216,23243,2,0,B|416:352|264:352,1,200
+216,347,23864,2,0,B|96:344|96:216,1,200
+256,272,24898,5,0
+256,272,25105,1,4
+256,192,25312,1,0
+192,136,25519,2,0,B|8:24,2,200,0|0|8
+256,88,26553,1,0
+320,136,26760,2,0,B|504:24,2,200,0|0|4
+88,328,28416,5,0
+88,328,28622,1,0
+160,296,28829,1,0
+232,328,29036,1,0
+304,296,29243,2,0,B|432:296|432:96,1,200,4|0
+424,56,30071,5,0
+424,56,30278,1,0
+352,88,30485,1,0
+280,56,30691,1,0
+208,88,30898,1,4
+344,240,31519,5,0
+383,312,31726,2,2,B|304:384|208:384|112:304,1,300,2|2
+168,240,32553,1,0
+344,144,32967,5,0
+344,144,33174,1,0
+383,71,33381,2,4,B|304:0|208:0|112:80,1,300,4|12
+168,96,48278,5,4
+344,96,48691,1,4
+256,232,49105,1,8
+256,232,49312,1,8
+32,192,49726,2,0,B|32:352|168:352,1,200,4|0
+208,352,50347,1,4
+384,347,50760,2,0,B|480:344|480:192,1,200,0|8
+408,152,51381,1,0
+344,96,51588,5,4
+168,96,52002,1,4
+256,232,52416,1,8
+256,232,52622,1,8
+480,192,53036,2,0,B|480:352|344:352,1,200,4|0
+304,352,53657,1,4
+128,347,54071,2,0,B|32:344|32:192,1,200,0|8
+48,112,54691,1,0
+112,168,54898,5,4
+160,96,55105,2,0,B|256:56|384:104,1,200,0|0
+440,224,55933,1,0
+352,328,56347,2,2,B|296:296|216:360|128:328,1,200
+152,176,57174,2,2,B|208:208|288:144|376:176,1,200,2|4
+160,48,58209,5,0
+160,48,58416,1,0
+160,48,58622,1,0
+56,144,59036,1,4
+160,248,59450,1,0
+160,328,59657,2,4,B|216:296|296:360|384:328,1,200,4|0
+360,176,60485,2,4,B|304:208|224:144|136:176,1,200,4|4
+344,288,74760,5,4
+168,288,75174,1,4
+256,152,75588,1,8
+256,152,75795,1,8
+480,192,76209,2,0,B|480:32|344:32,1,200,4|0
+304,32,76829,1,4
+128,37,77243,2,0,B|32:40|32:192,1,200,0|8
+104,232,77864,1,0
+168,288,78071,5,4
+344,288,78485,1,4
+256,152,78898,1,8
+256,152,79105,1,8
+32,192,79519,2,0,B|32:32|168:32,1,200,4|0
+208,32,80140,1,4
+384,37,80553,2,0,B|480:40|480:192,1,200,0|8
+464,272,81174,1,0
+400,216,81381,5,4
+352,288,81588,2,0,B|256:328|128:280,1,200,0|0
+72,160,82416,1,0
+160,56,82829,2,2,B|216:88|296:24|384:56,1,200
+360,208,83657,2,2,B|304:176|224:240|136:208,1,200,2|4
+352,336,84691,5,0
+352,336,84898,1,0
+352,336,85105,1,0
+456,240,85519,1,4
+360,128,85933,1,0
+360,208,86140,2,4,B|304:240|224:176|136:208,1,200,4|0
+160,360,86967,2,4,B|216:328|296:392|384:360,1,200,4|4
+344,96,88002,5,4
+168,96,88416,1,4
+256,232,88829,1,8
+256,232,89036,1,8
+480,192,89450,2,0,B|480:352|344:352,1,200,4|0
+304,352,90071,1,4
+128,347,90485,2,0,B|32:344|32:192,1,200,0|8
+104,152,91105,1,0
+168,96,91312,5,4
+344,96,91726,1,4
+256,232,92140,1,8
+256,232,92347,1,8
+32,192,92760,2,0,B|32:352|168:352,1,200,4|0
+208,352,93381,1,4
+384,347,93795,2,0,B|480:344|480:192,1,200,0|8
+416,152,94416,1,0
+352,200,94622,6,0,B|256:232|128:200,1,200,4|0
+152,128,95243,1,0
+304,80,95657,1,0
+456,24,96071,2,2,B|512:136|448:240,3,200
+296,352,97933,5,0
+216,352,98140,1,0
+256,280,98347,1,0
+256,128,98760,1,4
+136,24,99174,1,0
+56,24,99381,2,2,B|0:136|64:240,3,200,2|2|2|4
+256,96,117795,5,4
+360,240,118209,1,4
+152,240,118622,1,8
+112,312,118829,1,4
+336,368,119243,2,0,B|472:333|544:181|456:29|299:1,1,500,0|8
+256,288,121105,5,4
+152,144,121519,1,4
+360,144,121933,1,8
+400,72,122140,1,4
+176,16,122553,2,0,B|39:50|-32:202|55:354|212:382,1,500,0|8
+256,32,124416,5,0
+256,160,124829,1,0
+256,288,125243,1,0
+96,288,125657,1,8
+96,288,125864,1,4
+96,96,126278,1,0
+256,96,126691,1,4
+416,96,127105,1,0
+368,272,127726,5,0
+368,272,127933,1,0
+296,304,128140,1,0
+216,304,128347,1,0
+144,272,128553,1,4
+200,24,128967,1,0
+160,96,129174,2,2,B|264:120|376:88,1,200,6|2
+360,200,130002,2,2,B|258:167|162:199,1,200,6|2
+16,208,131036,6,0,B|104:16,1,200,4|0
+216,144,131864,1,8
+296,144,132071,1,0
+496,208,132485,2,0,B|408:16,3,200
+336,24,133933,1,8
+356,343,134347,6,0,B|108:343,1,200,4|0
+232,224,135174,1,8
+288,160,135381,1,8
+440,32,135795,2,0,B|16:32,2,400
+456,112,137657,5,4
+455,192,137864,2,0,B|392:240|392:288|323:341,1,200,0|0
+136,336,138691,1,0
+40,184,139105,2,2,B|120:176|176:208|264:184,1,200
+456,112,139933,2,2,B|393:130|337:98|257:106,1,200,2|6
+256,344,140967,5,0
+256,344,141174,1,0
+256,344,141381,1,0
+352,232,141795,1,4
+160,232,142209,1,0
+80,232,142416,2,4,B|88:152|56:96|80:8,1,200,4|4
+438,32,143243,2,4,B|456:96|424:152|432:232,1,200
+168,304,144278,5,4
+344,304,144691,1,4
+256,112,145105,1,8
+256,192,145312,1,8
+64,152,145726,2,0,B|84:65|216:37,1,200,4|0
+297,37,146347,2,0,B|428:65|448:152,1,200,4|0
+464,232,146967,1,0
+424,304,147174,1,8
+384,232,147381,1,0
+344,304,147588,5,4
+168,304,148002,1,4
+256,112,148416,1,8
+256,192,148622,1,8
+448,152,149036,2,0,B|428:65|296:37,1,200,4|0
+214,37,149657,2,0,B|84:65|64:152,1,200,4|0
+48,232,150278,1,0
+88,304,150485,1,8
+128,232,150691,1,0
+168,304,150898,5,4
+248,304,151105,2,0,B|320:256|384:360|488:272,1,200
+448,104,151933,1,0
+256,32,152347,1,4
+256,192,152760,1,0
+256,352,153174,1,4
+256,352,153588,1,0
+144,120,154209,5,0
+144,120,154416,1,0
+144,120,154622,1,0
+368,120,155036,1,0
+256,192,155450,12,4,158140

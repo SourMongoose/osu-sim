@@ -1,0 +1,99 @@
+osu file format v7
+
+[General]
+AudioFilename: Earthbound - New Retro Age Hippie.mp3
+AudioLeadIn: 993
+PreviewTime: 8
+Countdown: 0
+SampleSet: Soft
+StackLeniency: 0.8
+Mode: 0
+LetterboxInBreaks: 0
+
+[Editor]
+Bookmarks: 6197,32217,44856
+DistanceSpacing: 0.800000011920929
+BeatDivisor: 4
+GridSize: 8
+
+[Metadata]
+Title:New Age Retro Hippie
+Artist:Keiichi Suzuki
+Creator:NoHItter
+Version:Practice Fight
+Source:EarthBound
+Tags:Mother 2 Ness SNES Battle Theme Nintendo retro Hirokazu Tanaka
+
+[Difficulty]
+HPDrainRate:3
+CircleSize:4
+OverallDifficulty:3
+SliderMultiplier:1
+SliderTickRate:2
+
+[Events]
+//Background and Video events
+0,0,"ness.jpg"
+//Break Periods
+2,17646,18816
+2,33801,38498
+//Storyboard Layer 0 (Background)
+//Storyboard Layer 1 (Fail)
+//Storyboard Layer 2 (Pass)
+//Storyboard Layer 3 (Foreground)
+Sprite,Foreground,Centre,"battlesequence\crowenemy.png",320,240
+ S,0,6208,,1.57344
+ M,0,6208,51176,324,274
+ F,0,47138,48191,1,0
+//Storyboard Sound Samples
+//Background Colour Transformations
+3,100,163,162,255
+
+[TimingPoints]
+590,351.185250219491,4,2,0,80,1,0
+34320,351.185250219491,4,2,0,80,1,0
+44767,-100,4,2,1,80,0,0
+44943,-100,4,2,0,80,0,0
+
+[Colours]
+Combo1 : 215,121,17
+Combo2 : 0,20,159
+Combo3 : 186,1,1
+
+[HitObjects]
+256,88,6208,1,4
+136,192,6911,1,8
+256,296,7613,1,0
+376,192,8316,1,8
+256,88,9018,6,0,B|40:88,2,200,0|8|0
+256,168,10774,2,0,B|256:272,2,100,0|8|0
+336,168,11827,5,0
+176,168,12530,1,8
+256,304,13232,1,0
+256,144,13935,2,0,B|424:128|40:96|336:32,1,200,8|0
+256,192,14988,12,6,17446
+256,288,20256,5,4
+128,192,20958,1,8
+256,88,21661,1,2
+384,192,22363,1,8
+256,288,23065,5,4
+256,128,23768,1,8
+192,272,24470,1,2
+312,160,25172,1,8
+160,104,25875,5,4
+96,256,26577,1,8
+232,168,27280,1,2
+168,312,27982,1,8
+328,312,28684,6,0,B|432:312|408:144,1,200,4|8
+256,200,30089,2,0,B|152:200|176:32,1,200,4|8
+336,56,31494,2,0,B|408:144|264:176|400:304,3,200,4|8|2|8
+416,192,39938,5,0
+256,192,40641,1,8
+96,192,41343,1,0
+256,192,42046,1,8
+120,280,42748,6,0,B|8:208|120:72,2,200,0|8|0
+200,280,44504,2,0,B|280:160|384:256,1,200
+432,200,45557,5,0
+368,152,45909,1,0
+288,144,46260,2,0,B|200:120|80:144,3,200,8|0|8|0
+256,192,48718,12,4,51176

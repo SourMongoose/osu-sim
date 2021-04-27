@@ -1,0 +1,91 @@
+osu file format v14
+
+[General]
+AudioFilename: How Much.mp3
+AudioLeadIn: 0
+PreviewTime:1761
+Countdown: 0
+SampleSet: Soft
+StackLeniency: 0.7
+Mode: 0
+LetterboxInBreaks: 0
+WidescreenStoryboard: 1
+
+[Editor]
+DistanceSpacing: 1
+BeatDivisor: 2
+GridSize: 32
+TimelineZoom: 1
+
+[Metadata]
+Title:How much?
+TitleUnicode:How much?
+Artist:Meguro Shoji
+ArtistUnicode:目黒将司
+Creator:reiSevia
+Version:Easy?
+Source:Persona 4
+Tags:shin megami tensei golden atlus ultimate japanese video game shop theme instrumental loop
+BeatmapID:2516343
+BeatmapSetID:1208396
+
+[Difficulty]
+HPDrainRate:2.5
+CircleSize:3.2
+OverallDifficulty:2.5
+ApproachRate:4
+SliderMultiplier:1
+SliderTickRate:1
+
+[Events]
+//Background and Video events
+0,0,"BG.png"
+//Break Periods
+//Storyboard Layer 0 (Background)
+//Storyboard Layer 1 (Fail)
+//Storyboard Layer 2 (Pass)
+//Storyboard Layer 3 (Foreground)
+//Storyboard Layer 4 (Overlay)
+//Storyboard Sound Samples
+
+[TimingPoints]
+555,535.714285714285,4,2,1,55,1,0
+1895,535.714285714285,4,2,1,55,1,0
+
+
+[Colours]
+Combo1 : 235,192,45
+Combo2 : 161,40,17
+Combo3 : 198,199,103
+Combo4 : 64,83,96
+Combo5 : 152,135,128
+SliderBorder : 199,184,167
+SliderTrackOverride : 39,27,16
+
+[HitObjects]
+52,93,1895,6,0,P|90:67|192:118,1,150,6|2,3:2|3:2,2:0:0:0:
+260,225,3502,1,8,2:0:0:0:
+188,290,4037,2,0,B|133:281|133:281|88:297|88:297|31:284,2,150,2|2|8,3:2|3:2|2:0,2:0:0:0:
+259,360,6180,6,0,P|327:324|407:344,1,150,2|2,3:2|3:2,2:0:0:0:
+510,240,7787,1,8,2:0:0:0:
+423,191,8323,2,0,L|259:174,2,150,2|2|8,3:2|3:2|2:0,2:0:0:0:
+466,101,10466,6,0,P|431:53|330:53,1,150,6|2,3:2|3:2,2:0:0:0:
+205,98,12073,1,8,2:0:0:0:
+169,191,12609,2,0,L|21:217,2,150,2|2|8,3:2|2:0|2:0,2:0:0:0:
+255,239,14752,6,0,B|302:249|329:238|329:238|349:260|396:271,2,150,2|2|10,3:2|3:2|2:0,2:0:0:0:
+214,268,16627,1,2,3:2:0:0:
+464,112,19037,6,0,L|256:96,1,200,6|2,3:2|2:0,2:0:0:0:
+164,88,20644,1,10,2:0:0:0:
+64,80,21180,2,0,B|48:160|48:160|64:208|64:208|48:288,1,200,2|2,3:2|2:0,2:0:0:0:
+109,355,22787,1,10,2:0:0:0:
+197,308,23323,6,0,P|251:277|354:328,2,150,2|2|8,3:2|3:2|2:0,2:0:0:0:
+109,355,25466,2,0,P|113:294|126:143,1,200,2|2,3:2|2:0,2:0:0:0:
+139,56,27073,1,10,2:0:0:0:
+216,119,27609,6,0,B|328:151|296:71|424:103,1,200,6|2,3:2|2:0,2:0:0:0:
+461,184,29216,1,10,2:0:0:0:
+426,277,29752,2,0,P|365:254|252:334,1,200,2|2,3:2|2:0,2:0:0:0:
+170,368,31359,1,10,2:0:0:0:
+76,332,31894,6,0,P|39:283|88:147,1,200,2|2,3:2|2:0,2:0:0:0:
+147,92,33502,1,10,2:0:0:0:
+217,162,34037,2,0,P|266:185|328:168,2,100,0|10|2,3:2|2:0|2:0,2:0:0:0:
+256,192,36180,12,4,40466,3:2:0:0:

@@ -1,0 +1,2935 @@
+osu file format v14
+
+[General]
+AudioFilename: audio.mp3
+AudioLeadIn: 0
+PreviewTime: 63933
+Countdown: 0
+SampleSet: Soft
+StackLeniency: 0.7
+Mode: 0
+LetterboxInBreaks: 0
+EpilepsyWarning: 1
+WidescreenStoryboard: 1
+
+[Editor]
+DistanceSpacing: 1.5
+BeatDivisor: 4
+GridSize: 8
+TimelineZoom: 1.7
+
+[Metadata]
+Title:Sakura no Uta
+TitleUnicode:櫻ノ詩
+Artist:Hana
+ArtistUnicode:はな
+Creator:Nevo
+Version:Shunao's Hard
+Source:サクラノ詩 －櫻の森の上を舞う－
+Tags:- no mori ue o mau Metrowing Makura 枕 Sotarks Noffy Takekii Shunao cococolaco sdafsf Marcuddles Lowaccuracyss mordred naotoshi lasse shogunmoon armin a_r_m_i_n nifty chekito b00 nao tomori Hanasaka Yui Lafayla
+BeatmapID:1559740
+BeatmapSetID:738656
+
+[Difficulty]
+HPDrainRate:5
+CircleSize:3.7
+OverallDifficulty:6
+ApproachRate:8
+SliderMultiplier:1.4
+SliderTickRate:1
+
+[Events]
+//Background and Video events
+0,0,"BG.jpg",0,0
+//Break Periods
+//Storyboard Layer 0 (Background)
+//Storyboard Layer 1 (Fail)
+//Storyboard Layer 2 (Pass)
+//Storyboard Layer 3 (Foreground)
+Sprite,Foreground,Centre,"sb\ring.png",200,316
+ F,2,1350,2883,0.1,0
+ S,2,1350,2883,0.5,1.5
+Sprite,Foreground,Centre,"sb\ring.png",171,98
+ F,2,2849,4049,0.1,0
+ S,2,2849,4049,0.5,1.5
+Sprite,Foreground,Centre,"sb\ring.png",180,425
+ F,2,4016,5549,0.1,0
+ S,2,4016,5549,0.5,1.5
+Sprite,Foreground,Centre,"sb\ring.png",430,248
+ F,2,5016,6216,0.1,0
+ S,2,5016,6216,0.5,1.5
+Sprite,Foreground,Centre,"sb\ring.png",208,313
+ F,2,6016,7382,0.1,0
+ S,2,6016,7382,0.5,1.5
+Sprite,Foreground,Centre,"sb\ring.png",505,269
+ F,2,7183,8716,0.1,0
+ S,2,7183,8716,0.5,1.5
+Sprite,Foreground,Centre,"sb\ring.png",320,414
+ F,2,8183,9383,0.1,0
+ S,2,8183,9383,0.5,1.5
+Sprite,Foreground,Centre,"sb\ring.png",247,100
+ F,2,9349,10882,0.1,0
+ S,2,9349,10882,0.5,1.5
+Sprite,Foreground,Centre,"sb\ring.png",434,359
+ F,2,10349,11549,0.1,0
+ S,2,10349,11549,0.5,1.5
+Sprite,Foreground,Centre,"sb\ring.png",243,210
+ F,2,11349,12715,0.1,0
+ S,2,11349,12715,0.5,1.5
+Sprite,Foreground,Centre,"sb\ring.png",430,334
+ F,2,12516,13716,0.1,0
+ S,2,12516,13716,0.5,1.5
+Sprite,Foreground,Centre,"sb\ring.png",135,197
+ F,2,13683,15049,0.1,0
+ S,2,13683,15049,0.5,1.5
+Sprite,Foreground,Centre,"sb\ring.png",454,158
+ F,2,14683,16216,0.1,0
+ S,2,14683,16216,0.5,1.5
+Sprite,Foreground,Centre,"sb\ring.png",284,417
+ F,2,15683,16883,0.1,0
+ S,2,15683,16883,0.5,1.5
+Sprite,Foreground,Centre,"sb\ring.png",223,96
+ F,2,16683,18049,0.1,0
+ S,2,16683,18049,0.5,1.5
+Sprite,Foreground,Centre,"sb\ring.png",180,231
+ F,2,17849,19382,0.1,0
+ S,2,17849,19382,0.5,1.5
+Sprite,Foreground,Centre,"sb\ring.png",488,263
+ F,2,18849,20215,0.1,0
+ S,2,18849,20215,0.5,1.5
+Sprite,Foreground,Centre,"sb\ring.png",81,337
+ F,2,20016,21549,0.1,0
+ S,2,20016,21549,0.5,1.5
+Sprite,Foreground,Centre,"sb\ring.png",436,301
+ F,2,21016,22382,0.1,0
+ S,2,21016,22382,0.5,1.5
+Sprite,Foreground,Centre,"sb\ring.png",405,98
+ F,2,22183,23383,0.1,0
+ S,2,22183,23383,0.5,1.5
+Sprite,Foreground,Centre,"sb\ring.png",342,211
+ F,2,23183,24383,0.1,0
+ S,2,23183,24383,0.5,1.5
+Sprite,Foreground,Centre,"sb\ring.png",223,198
+ F,2,24516,25716,0.1,0
+ S,2,24516,25716,0.5,1.5
+Sprite,Foreground,Centre,"sb\ring.png",555,201
+ F,2,25849,27049,0.1,0
+ S,2,25849,27049,0.5,1.5
+Sprite,Foreground,Centre,"sb\ring.png",120,209
+ F,2,27183,28383,0.1,0
+ S,2,27183,28383,0.5,1.5
+Sprite,Foreground,Centre,"sb\ring.png",562,86
+ F,2,28516,29716,0.1,0
+ S,2,28516,29716,0.5,1.5
+Sprite,Foreground,Centre,"sb\ring.png",80,302
+ F,2,29849,31049,0.1,0
+ S,2,29849,31049,0.5,1.5
+Sprite,Foreground,Centre,"sb\ring.png",473,430
+ F,2,30849,32049,0.1,0
+ S,2,30849,32049,0.5,1.5
+Sprite,Foreground,Centre,"sb\ring.png",437,123
+ F,2,31849,33049,0.1,0
+ S,2,31849,33049,0.5,1.5
+Sprite,Foreground,Centre,"sb\ring.png",330,419
+ F,2,33016,34216,0.1,0
+ S,2,33016,34216,0.5,1.5
+Sprite,Foreground,Centre,"sb\ring.png",117,344
+ F,2,34183,35383,0.1,0
+ S,2,34183,35383,0.5,1.5
+Sprite,Foreground,Centre,"sb\ring.png",436,288
+ F,2,35183,36383,0.1,0
+ S,2,35183,36383,0.5,1.5
+Sprite,Foreground,Centre,"sb\ring.png",206,101
+ F,2,36516,37716,0.1,0
+ S,2,36516,37716,0.5,1.5
+Sprite,Foreground,Centre,"sb\ring.png",166,389
+ F,2,37849,39049,0.1,0
+ S,2,37849,39049,0.5,1.5
+Sprite,Foreground,Centre,"sb\ring.png",459,132
+ F,2,39183,40383,0.1,0
+ S,2,39183,40383,0.5,1.5
+Sprite,Foreground,Centre,"sb\ring.png",229,366
+ F,2,40516,42049,0.1,0
+ S,2,40516,42049,0.5,1.5
+Sprite,Foreground,Centre,"sb\ring.png",443,182
+ F,2,41849,43382,0.1,0
+ S,2,41849,43382,0.5,1.5
+Sprite,Foreground,Centre,"sb\ring.png",91,310
+ F,2,43183,44716,0.1,0
+ S,2,43183,44716,0.5,1.5
+Sprite,Foreground,Centre,"sb\ring.png",415,411
+ F,2,44349,45715,0.1,0
+ S,2,44349,45715,0.5,1.5
+Sprite,Foreground,Centre,"sb\ring.png",461,141
+ F,2,45349,46715,0.1,0
+ S,2,45349,46715,0.5,1.5
+Sprite,Foreground,Centre,"sb\ring.png",170,253
+ F,2,46349,47715,0.1,0
+ S,2,46349,47715,0.5,1.5
+Sprite,Foreground,Centre,"sb\ring.png",347,303
+ F,2,47349,48715,0.1,0
+ S,2,47349,48715,0.5,1.5
+Sprite,Foreground,Centre,"sb\ring.png",504,282
+ F,2,48516,50049,0.1,0
+ S,2,48516,50049,0.5,1.5
+Sprite,Foreground,Centre,"sb\ring.png",189,220
+ F,2,49683,51049,0.1,0
+ S,2,49683,51049,0.5,1.5
+Sprite,Foreground,Centre,"sb\ring.png",79,283
+ F,2,50683,52216,0.1,0
+ S,2,50683,52216,0.5,1.5
+Sprite,Foreground,Centre,"sb\ring.png",435,78
+ F,2,51683,52883,0.1,0
+ S,2,51683,52883,0.5,1.5
+Sprite,Foreground,Centre,"sb\ring.png",386,390
+ F,2,52683,54049,0.1,0
+ S,2,52683,54049,0.5,1.5
+Sprite,Foreground,Centre,"sb\ring.png",233,102
+ F,2,53849,55049,0.1,0
+ S,2,53849,55049,0.5,1.5
+Sprite,Foreground,Centre,"sb\ring.png",520,433
+ F,2,55183,56383,0.1,0
+ S,2,55183,56383,0.5,1.5
+Sprite,Foreground,Centre,"sb\ring.png",324,142
+ F,2,56516,58049,0.1,0
+ S,2,56516,58049,0.5,1.5
+Sprite,Foreground,Centre,"sb\ring.png",133,334
+ F,2,57516,58716,0.1,0
+ S,2,57516,58716,0.5,1.5
+Sprite,Foreground,Centre,"sb\ring.png",453,404
+ F,2,58683,60216,0.1,0
+ S,2,58683,60216,0.5,1.5
+Sprite,Foreground,Centre,"sb\ring.png",441,91
+ F,2,59683,60883,0.1,0
+ S,2,59683,60883,0.5,1.5
+Sprite,Foreground,Centre,"sb\ring.png",79,185
+ F,2,60683,62049,0.1,0
+ S,2,60683,62049,0.5,1.5
+Sprite,Foreground,Centre,"sb\ring.png",289,250
+ F,2,61849,63382,0.1,0
+ S,2,61849,63382,0.5,1.5
+Sprite,Foreground,Centre,"sb\ring.png",482,285
+ F,2,63183,64716,0.1,0
+ S,2,63183,64716,0.5,1.5
+Sprite,Foreground,Centre,"sb\ring.png",172,390
+ F,2,64349,65549,0.1,0
+ S,2,64349,65549,0.5,1.5
+Sprite,Foreground,Centre,"sb\ring.png",137,158
+ F,2,65349,66715,0.1,0
+ S,2,65349,66715,0.5,1.5
+Sprite,Foreground,Centre,"sb\splash.png",0,0
+ M,0,66683,,456,319
+ F,2,66683,67216,1,0
+ S,2,66683,67216,1,0.2
+ P,0,66683,67216,A
+Sprite,Foreground,BottomCentre,"sb\splash.png",0,0
+ M,0,66683,,456,319,447,321
+ F,2,66683,67216,1,0
+ S,2,66683,67216,1,0.2
+ P,0,66683,67216,A
+Sprite,Foreground,12,"sb\splash.png",0,0
+ M,0,66683,,456,319,452,351
+ F,2,66683,67216,1,0
+ S,2,66683,67216,1,0.2
+ P,0,66683,67216,A
+Sprite,Foreground,10,"sb\splash.png",0,0
+ M,0,66683,,456,319,435,289
+ F,2,66683,67216,1,0
+ S,2,66683,67216,1,0.2
+ P,0,66683,67216,A
+Sprite,Foreground,Centre,"sb\splash.png",0,0
+ M,0,67183,,366,120
+ F,2,67183,67383,1,0
+ S,2,67183,67383,1,0.2
+ P,0,67183,67383,A
+Sprite,Foreground,BottomRight,"sb\splash.png",0,0
+ M,0,67183,,366,120,376,101
+ F,2,67183,67383,1,0
+ S,2,67183,67383,1,0.2
+ P,0,67183,67383,A
+Sprite,Foreground,12,"sb\splash.png",0,0
+ M,0,67183,,366,120,354,134
+ F,2,67183,67383,1,0
+ S,2,67183,67383,1,0.2
+ P,0,67183,67383,A
+Sprite,Foreground,BottomCentre,"sb\splash.png",0,0
+ M,0,67183,,366,120,408,159
+ F,2,67183,67383,1,0
+ S,2,67183,67383,1,0.2
+ P,0,67183,67383,A
+Sprite,Foreground,Centre,"sb\splash.png",0,0
+ M,0,67349,,270,161
+ F,2,67349,67715,1,0
+ S,2,67349,67715,1,0.2
+ P,0,67349,67715,A
+Sprite,Foreground,CentreRight,"sb\splash.png",0,0
+ M,0,67349,,270,161,271,168
+ F,2,67349,67715,1,0
+ S,2,67349,67715,1,0.2
+ P,0,67349,67715,A
+Sprite,Foreground,BottomRight,"sb\splash.png",0,0
+ M,0,67349,,270,161,266,135
+ F,2,67349,67715,1,0
+ S,2,67349,67715,1,0.2
+ P,0,67349,67715,A
+Sprite,Foreground,16,"sb\splash.png",0,0
+ M,0,67349,,270,161,282,218
+ F,2,67349,67715,1,0
+ S,2,67349,67715,1,0.2
+ P,0,67349,67715,A
+Sprite,Foreground,Centre,"sb\splash.png",0,0
+ M,0,67683,,161,256
+ F,2,67683,68049,1,0
+ S,2,67683,68049,1,0.2
+ P,0,67683,68049,A
+Sprite,Foreground,BottomCentre,"sb\splash.png",0,0
+ M,0,67683,,161,256,161,274
+ F,2,67683,68049,1,0
+ S,2,67683,68049,1,0.2
+ P,0,67683,68049,A
+Sprite,Foreground,12,"sb\splash.png",0,0
+ M,0,67683,,161,256,147,224
+ F,2,67683,68049,1,0
+ S,2,67683,68049,1,0.2
+ P,0,67683,68049,A
+Sprite,Foreground,10,"sb\splash.png",0,0
+ M,0,67683,,161,256,146,289
+ F,2,67683,68049,1,0
+ S,2,67683,68049,1,0.2
+ P,0,67683,68049,A
+Sprite,Foreground,Centre,"sb\splash.png",0,0
+ M,0,68016,,344,264
+ F,2,68016,68549,1,0
+ S,2,68016,68549,1,0.2
+ P,0,68016,68549,A
+Sprite,Foreground,BottomLeft,"sb\splash.png",0,0
+ M,0,68016,,344,264,347,272
+ F,2,68016,68549,1,0
+ S,2,68016,68549,1,0.2
+ P,0,68016,68549,A
+Sprite,Foreground,12,"sb\splash.png",0,0
+ M,0,68016,,344,264,366,238
+ F,2,68016,68549,1,0
+ S,2,68016,68549,1,0.2
+ P,0,68016,68549,A
+Sprite,Foreground,13,"sb\splash.png",0,0
+ M,0,68016,,344,264,374,291
+ F,2,68016,68549,1,0
+ S,2,68016,68549,1,0.2
+ P,0,68016,68549,A
+Sprite,Foreground,Centre,"sb\splash.png",0,0
+ M,0,68516,,245,432
+ F,2,68516,68716,1,0
+ S,2,68516,68716,1,0.2
+ P,0,68516,68716,A
+Sprite,Foreground,BottomRight,"sb\splash.png",0,0
+ M,0,68516,,245,432,232,447
+ F,2,68516,68716,1,0
+ S,2,68516,68716,1,0.2
+ P,0,68516,68716,A
+Sprite,Foreground,12,"sb\splash.png",0,0
+ M,0,68516,,245,432,253,404
+ F,2,68516,68716,1,0
+ S,2,68516,68716,1,0.2
+ P,0,68516,68716,A
+Sprite,Foreground,10,"sb\splash.png",0,0
+ M,0,68516,,245,432,287,396
+ F,2,68516,68716,1,0
+ S,2,68516,68716,1,0.2
+ P,0,68516,68716,A
+Sprite,Foreground,Centre,"sb\splash.png",0,0
+ M,0,68683,,161,368
+ F,2,68683,69049,1,0
+ S,2,68683,69049,1,0.2
+ P,0,68683,69049,A
+Sprite,Foreground,BottomCentre,"sb\splash.png",0,0
+ M,0,68683,,161,368,167,352
+ F,2,68683,69049,1,0
+ S,2,68683,69049,1,0.2
+ P,0,68683,69049,A
+Sprite,Foreground,BottomLeft,"sb\splash.png",0,0
+ M,0,68683,,161,368,185,338
+ F,2,68683,69049,1,0
+ S,2,68683,69049,1,0.2
+ P,0,68683,69049,A
+Sprite,Foreground,10,"sb\splash.png",0,0
+ M,0,68683,,161,368,164,365
+ F,2,68683,69049,1,0
+ S,2,68683,69049,1,0.2
+ P,0,68683,69049,A
+Sprite,Foreground,Centre,"sb\splash.png",0,0
+ M,0,69016,,71,269
+ F,2,69016,69382,1,0
+ S,2,69016,69382,1,0.2
+ P,0,69016,69382,A
+Sprite,Foreground,BottomRight,"sb\splash.png",0,0
+ M,0,69016,,71,269,79,281
+ F,2,69016,69382,1,0
+ S,2,69016,69382,1,0.2
+ P,0,69016,69382,A
+Sprite,Foreground,10,"sb\splash.png",0,0
+ M,0,69016,,71,269,57,303
+ F,2,69016,69382,1,0
+ S,2,69016,69382,1,0.2
+ P,0,69016,69382,A
+Sprite,Foreground,10,"sb\splash.png",0,0
+ M,0,69016,,71,269,53,287
+ F,2,69016,69382,1,0
+ S,2,69016,69382,1,0.2
+ P,0,69016,69382,A
+Sprite,Foreground,Centre,"sb\splash.png",0,0
+ M,0,69349,,177,125
+ F,2,69349,69882,1,0
+ S,2,69349,69882,1,0.2
+ P,0,69349,69882,A
+Sprite,Foreground,BottomCentre,"sb\splash.png",0,0
+ M,0,69349,,177,125,180,107
+ F,2,69349,69882,1,0
+ S,2,69349,69882,1,0.2
+ P,0,69349,69882,A
+Sprite,Foreground,BottomLeft,"sb\splash.png",0,0
+ M,0,69349,,177,125,201,135
+ F,2,69349,69882,1,0
+ S,2,69349,69882,1,0.2
+ P,0,69349,69882,A
+Sprite,Foreground,16,"sb\splash.png",0,0
+ M,0,69349,,177,125,135,176
+ F,2,69349,69882,1,0
+ S,2,69349,69882,1,0.2
+ P,0,69349,69882,A
+Sprite,Foreground,Centre,"sb\splash.png",0,0
+ M,0,69849,,431,103
+ F,2,69849,70382,1,0
+ S,2,69849,70382,1,0.2
+ P,0,69849,70382,A
+Sprite,Foreground,BottomRight,"sb\splash.png",0,0
+ M,0,69849,,431,103,434,87
+ F,2,69849,70382,1,0
+ S,2,69849,70382,1,0.2
+ P,0,69849,70382,A
+Sprite,Foreground,10,"sb\splash.png",0,0
+ M,0,69849,,431,103,409,101
+ F,2,69849,70382,1,0
+ S,2,69849,70382,1,0.2
+ P,0,69849,70382,A
+Sprite,Foreground,13,"sb\splash.png",0,0
+ M,0,69849,,431,103,404,109
+ F,2,69849,70382,1,0
+ S,2,69849,70382,1,0.2
+ P,0,69849,70382,A
+Sprite,Foreground,Centre,"sb\splash.png",0,0
+ M,0,70349,,480,289
+ F,2,70349,70549,1,0
+ S,2,70349,70549,1,0.2
+ P,0,70349,70549,A
+Sprite,Foreground,BottomCentre,"sb\splash.png",0,0
+ M,0,70349,,480,289,473,271
+ F,2,70349,70549,1,0
+ S,2,70349,70549,1,0.2
+ P,0,70349,70549,A
+Sprite,Foreground,BottomRight,"sb\splash.png",0,0
+ M,0,70349,,480,289,508,325
+ F,2,70349,70549,1,0
+ S,2,70349,70549,1,0.2
+ P,0,70349,70549,A
+Sprite,Foreground,13,"sb\splash.png",0,0
+ M,0,70349,,480,289,459,289
+ F,2,70349,70549,1,0
+ S,2,70349,70549,1,0.2
+ P,0,70349,70549,A
+Sprite,Foreground,Centre,"sb\splash.png",0,0
+ M,0,70516,,480,289
+ F,2,70516,70716,1,0
+ S,2,70516,70716,1,0.2
+ P,0,70516,70716,A
+Sprite,Foreground,BottomCentre,"sb\splash.png",0,0
+ M,0,70516,,480,289,490,288
+ F,2,70516,70716,1,0
+ S,2,70516,70716,1,0.2
+ P,0,70516,70716,A
+Sprite,Foreground,BottomRight,"sb\splash.png",0,0
+ M,0,70516,,480,289,494,257
+ F,2,70516,70716,1,0
+ S,2,70516,70716,1,0.2
+ P,0,70516,70716,A
+Sprite,Foreground,13,"sb\splash.png",0,0
+ M,0,70516,,480,289,444,340
+ F,2,70516,70716,1,0
+ S,2,70516,70716,1,0.2
+ P,0,70516,70716,A
+Sprite,Foreground,Centre,"sb\splash.png",0,0
+ M,0,70683,,390,237
+ F,2,70683,71049,1,0
+ S,2,70683,71049,1,0.2
+ P,0,70683,71049,A
+Sprite,Foreground,CentreRight,"sb\splash.png",0,0
+ M,0,70683,,390,237,380,239
+ F,2,70683,71049,1,0
+ S,2,70683,71049,1,0.2
+ P,0,70683,71049,A
+Sprite,Foreground,12,"sb\splash.png",0,0
+ M,0,70683,,390,237,374,245
+ F,2,70683,71049,1,0
+ S,2,70683,71049,1,0.2
+ P,0,70683,71049,A
+Sprite,Foreground,10,"sb\splash.png",0,0
+ M,0,70683,,390,237,348,243
+ F,2,70683,71049,1,0
+ S,2,70683,71049,1,0.2
+ P,0,70683,71049,A
+Sprite,Foreground,Centre,"sb\splash.png",0,0
+ M,0,71016,,247,327
+ F,2,71016,71549,1,0
+ S,2,71016,71549,1,0.2
+ P,0,71016,71549,A
+Sprite,Foreground,CentreRight,"sb\splash.png",0,0
+ M,0,71016,,247,327,261,327
+ F,2,71016,71549,1,0
+ S,2,71016,71549,1,0.2
+ P,0,71016,71549,A
+Sprite,Foreground,12,"sb\splash.png",0,0
+ M,0,71016,,247,327,225,327
+ F,2,71016,71549,1,0
+ S,2,71016,71549,1,0.2
+ P,0,71016,71549,A
+Sprite,Foreground,13,"sb\splash.png",0,0
+ M,0,71016,,247,327,253,342
+ F,2,71016,71549,1,0
+ S,2,71016,71549,1,0.2
+ P,0,71016,71549,A
+Sprite,Foreground,Centre,"sb\splash.png",0,0
+ M,0,71516,,69,210
+ F,2,71516,71716,1,0
+ S,2,71516,71716,1,0.2
+ P,0,71516,71716,A
+Sprite,Foreground,BottomLeft,"sb\splash.png",0,0
+ M,0,71516,,69,210,67,192
+ F,2,71516,71716,1,0
+ S,2,71516,71716,1,0.2
+ P,0,71516,71716,A
+Sprite,Foreground,BottomLeft,"sb\splash.png",0,0
+ M,0,71516,,69,210,43,186
+ F,2,71516,71716,1,0
+ S,2,71516,71716,1,0.2
+ P,0,71516,71716,A
+Sprite,Foreground,10,"sb\splash.png",0,0
+ M,0,71516,,69,210,63,168
+ F,2,71516,71716,1,0
+ S,2,71516,71716,1,0.2
+ P,0,71516,71716,A
+Sprite,Foreground,Centre,"sb\splash.png",0,0
+ M,0,71683,,142,135
+ F,2,71683,72049,1,0
+ S,2,71683,72049,1,0.2
+ P,0,71683,72049,A
+Sprite,Foreground,CentreRight,"sb\splash.png",0,0
+ M,0,71683,,142,135,154,123
+ F,2,71683,72049,1,0
+ S,2,71683,72049,1,0.2
+ P,0,71683,72049,A
+Sprite,Foreground,12,"sb\splash.png",0,0
+ M,0,71683,,142,135,168,135
+ F,2,71683,72049,1,0
+ S,2,71683,72049,1,0.2
+ P,0,71683,72049,A
+Sprite,Foreground,10,"sb\splash.png",0,0
+ M,0,71683,,142,135,154,75
+ F,2,71683,72049,1,0
+ S,2,71683,72049,1,0.2
+ P,0,71683,72049,A
+Sprite,Foreground,Centre,"sb\splash.png",0,0
+ M,0,72016,,316,82
+ F,2,72016,72549,1,0
+ S,2,72016,72549,1,0.2
+ P,0,72016,72549,A
+Sprite,Foreground,BottomRight,"sb\splash.png",0,0
+ M,0,72016,,316,82,313,74
+ F,2,72016,72549,1,0
+ S,2,72016,72549,1,0.2
+ P,0,72016,72549,A
+Sprite,Foreground,BottomRight,"sb\splash.png",0,0
+ M,0,72016,,316,82,344,112
+ F,2,72016,72549,1,0
+ S,2,72016,72549,1,0.2
+ P,0,72016,72549,A
+Sprite,Foreground,BottomCentre,"sb\splash.png",0,0
+ M,0,72016,,316,82,349,37
+ F,2,72016,72549,1,0
+ S,2,72016,72549,1,0.2
+ P,0,72016,72549,A
+Sprite,Foreground,Centre,"sb\splash.png",0,0
+ M,0,72516,,561,156
+ F,2,72516,72882,1,0
+ S,2,72516,72882,1,0.2
+ P,0,72516,72882,A
+Sprite,Foreground,BottomRight,"sb\splash.png",0,0
+ M,0,72516,,561,156,556,156
+ F,2,72516,72882,1,0
+ S,2,72516,72882,1,0.2
+ P,0,72516,72882,A
+Sprite,Foreground,BottomLeft,"sb\splash.png",0,0
+ M,0,72516,,561,156,571,118
+ F,2,72516,72882,1,0
+ S,2,72516,72882,1,0.2
+ P,0,72516,72882,A
+Sprite,Foreground,13,"sb\splash.png",0,0
+ M,0,72516,,561,156,558,117
+ F,2,72516,72882,1,0
+ S,2,72516,72882,1,0.2
+ P,0,72516,72882,A
+Sprite,Foreground,Centre,"sb\splash.png",0,0
+ M,0,72849,,451,289
+ F,2,72849,73215,1,0
+ S,2,72849,73215,1,0.2
+ P,0,72849,73215,A
+Sprite,Foreground,BottomCentre,"sb\splash.png",0,0
+ M,0,72849,,451,289,439,300
+ F,2,72849,73215,1,0
+ S,2,72849,73215,1,0.2
+ P,0,72849,73215,A
+Sprite,Foreground,BottomRight,"sb\splash.png",0,0
+ M,0,72849,,451,289,459,293
+ F,2,72849,73215,1,0
+ S,2,72849,73215,1,0.2
+ P,0,72849,73215,A
+Sprite,Foreground,16,"sb\splash.png",0,0
+ M,0,72849,,451,289,412,229
+ F,2,72849,73215,1,0
+ S,2,72849,73215,1,0.2
+ P,0,72849,73215,A
+Sprite,Foreground,Centre,"sb\splash.png",0,0
+ M,0,73183,,377,425
+ F,2,73183,73383,1,0
+ S,2,73183,73383,1,0.2
+ P,0,73183,73383,A
+Sprite,Foreground,BottomLeft,"sb\splash.png",0,0
+ M,0,73183,,377,425,369,415
+ F,2,73183,73383,1,0
+ S,2,73183,73383,1,0.2
+ P,0,73183,73383,A
+Sprite,Foreground,BottomRight,"sb\splash.png",0,0
+ M,0,73183,,377,425,399,399
+ F,2,73183,73383,1,0
+ S,2,73183,73383,1,0.2
+ P,0,73183,73383,A
+Sprite,Foreground,10,"sb\splash.png",0,0
+ M,0,73183,,377,425,359,440
+ F,2,73183,73383,1,0
+ S,2,73183,73383,1,0.2
+ P,0,73183,73383,A
+Sprite,Foreground,Centre,"sb\splash.png",0,0
+ M,0,73349,,283,379
+ F,2,73349,73882,1,0
+ S,2,73349,73882,1,0.2
+ P,0,73349,73882,A
+Sprite,Foreground,BottomRight,"sb\splash.png",0,0
+ M,0,73349,,283,379,297,359
+ F,2,73349,73882,1,0
+ S,2,73349,73882,1,0.2
+ P,0,73349,73882,A
+Sprite,Foreground,BottomLeft,"sb\splash.png",0,0
+ M,0,73349,,283,379,299,351
+ F,2,73349,73882,1,0
+ S,2,73349,73882,1,0.2
+ P,0,73349,73882,A
+Sprite,Foreground,BottomCentre,"sb\splash.png",0,0
+ M,0,73349,,283,379,241,340
+ F,2,73349,73882,1,0
+ S,2,73349,73882,1,0.2
+ P,0,73349,73882,A
+Sprite,Foreground,Centre,"sb\splash.png",0,0
+ M,0,73849,,336,289
+ F,2,73849,74382,1,0
+ S,2,73849,74382,1,0.2
+ P,0,73849,74382,A
+Sprite,Foreground,CentreRight,"sb\splash.png",0,0
+ M,0,73849,,336,289,338,294
+ F,2,73849,74382,1,0
+ S,2,73849,74382,1,0.2
+ P,0,73849,74382,A
+Sprite,Foreground,BottomRight,"sb\splash.png",0,0
+ M,0,73849,,336,289,356,315
+ F,2,73849,74382,1,0
+ S,2,73849,74382,1,0.2
+ P,0,73849,74382,A
+Sprite,Foreground,10,"sb\splash.png",0,0
+ M,0,73849,,336,289,363,337
+ F,2,73849,74382,1,0
+ S,2,73849,74382,1,0.2
+ P,0,73849,74382,A
+Sprite,Foreground,Centre,"sb\splash.png",0,0
+ M,0,74349,,234,85
+ F,2,74349,74549,1,0
+ S,2,74349,74549,1,0.2
+ P,0,74349,74549,A
+Sprite,Foreground,BottomCentre,"sb\splash.png",0,0
+ M,0,74349,,234,85,248,90
+ F,2,74349,74549,1,0
+ S,2,74349,74549,1,0.2
+ P,0,74349,74549,A
+Sprite,Foreground,12,"sb\splash.png",0,0
+ M,0,74349,,234,85,240,51
+ F,2,74349,74549,1,0
+ S,2,74349,74549,1,0.2
+ P,0,74349,74549,A
+Sprite,Foreground,BottomCentre,"sb\splash.png",0,0
+ M,0,74349,,234,85,237,127
+ F,2,74349,74549,1,0
+ S,2,74349,74549,1,0.2
+ P,0,74349,74549,A
+Sprite,Foreground,Centre,"sb\splash.png",0,0
+ M,0,74516,,234,85
+ F,2,74516,74716,1,0
+ S,2,74516,74716,1,0.2
+ P,0,74516,74716,A
+Sprite,Foreground,BottomLeft,"sb\splash.png",0,0
+ M,0,74516,,234,85,244,80
+ F,2,74516,74716,1,0
+ S,2,74516,74716,1,0.2
+ P,0,74516,74716,A
+Sprite,Foreground,12,"sb\splash.png",0,0
+ M,0,74516,,234,85,234,107
+ F,2,74516,74716,1,0
+ S,2,74516,74716,1,0.2
+ P,0,74516,74716,A
+Sprite,Foreground,BottomCentre,"sb\splash.png",0,0
+ M,0,74516,,234,85,234,88
+ F,2,74516,74716,1,0
+ S,2,74516,74716,1,0.2
+ P,0,74516,74716,A
+Sprite,Foreground,Centre,"sb\splash.png",0,0
+ M,0,74683,,140,132
+ F,2,74683,75216,1,0
+ S,2,74683,75216,1,0.2
+ P,0,74683,75216,A
+Sprite,Foreground,BottomLeft,"sb\splash.png",0,0
+ M,0,74683,,140,132,149,121
+ F,2,74683,75216,1,0
+ S,2,74683,75216,1,0.2
+ P,0,74683,75216,A
+Sprite,Foreground,BottomLeft,"sb\splash.png",0,0
+ M,0,74683,,140,132,130,164
+ F,2,74683,75216,1,0
+ S,2,74683,75216,1,0.2
+ P,0,74683,75216,A
+Sprite,Foreground,BottomCentre,"sb\splash.png",0,0
+ M,0,74683,,140,132,152,90
+ F,2,74683,75216,1,0
+ S,2,74683,75216,1,0.2
+ P,0,74683,75216,A
+Sprite,Foreground,Centre,"sb\splash.png",0,0
+ M,0,75183,,143,377
+ F,2,75183,75716,1,0
+ S,2,75183,75716,1,0.2
+ P,0,75183,75716,A
+Sprite,Foreground,BottomLeft,"sb\splash.png",0,0
+ M,0,75183,,143,377,131,376
+ F,2,75183,75716,1,0
+ S,2,75183,75716,1,0.2
+ P,0,75183,75716,A
+Sprite,Foreground,10,"sb\splash.png",0,0
+ M,0,75183,,143,377,163,345
+ F,2,75183,75716,1,0
+ S,2,75183,75716,1,0.2
+ P,0,75183,75716,A
+Sprite,Foreground,BottomCentre,"sb\splash.png",0,0
+ M,0,75183,,143,377,155,401
+ F,2,75183,75716,1,0
+ S,2,75183,75716,1,0.2
+ P,0,75183,75716,A
+Sprite,Foreground,Centre,"sb\splash.png",0,0
+ M,0,75683,,404,356
+ F,2,75683,75883,1,0
+ S,2,75683,75883,1,0.2
+ P,0,75683,75883,A
+Sprite,Foreground,BottomLeft,"sb\splash.png",0,0
+ M,0,75683,,404,356,392,340
+ F,2,75683,75883,1,0
+ S,2,75683,75883,1,0.2
+ P,0,75683,75883,A
+Sprite,Foreground,BottomRight,"sb\splash.png",0,0
+ M,0,75683,,404,356,420,366
+ F,2,75683,75883,1,0
+ S,2,75683,75883,1,0.2
+ P,0,75683,75883,A
+Sprite,Foreground,10,"sb\splash.png",0,0
+ M,0,75683,,404,356,359,326
+ F,2,75683,75883,1,0
+ S,2,75683,75883,1,0.2
+ P,0,75683,75883,A
+Sprite,Foreground,Centre,"sb\splash.png",0,0
+ M,0,75849,,404,356
+ F,2,75849,76049,1,0
+ S,2,75849,76049,1,0.2
+ P,0,75849,76049,A
+Sprite,Foreground,CentreRight,"sb\splash.png",0,0
+ M,0,75849,,404,356,417,357
+ F,2,75849,76049,1,0
+ S,2,75849,76049,1,0.2
+ P,0,75849,76049,A
+Sprite,Foreground,12,"sb\splash.png",0,0
+ M,0,75849,,404,356,424,390
+ F,2,75849,76049,1,0
+ S,2,75849,76049,1,0.2
+ P,0,75849,76049,A
+Sprite,Foreground,10,"sb\splash.png",0,0
+ M,0,75849,,404,356,434,350
+ F,2,75849,76049,1,0
+ S,2,75849,76049,1,0.2
+ P,0,75849,76049,A
+Sprite,Foreground,Centre,"sb\splash.png",0,0
+ M,0,76016,,348,267
+ F,2,76016,76382,1,0
+ S,2,76016,76382,1,0.2
+ P,0,76016,76382,A
+Sprite,Foreground,BottomCentre,"sb\splash.png",0,0
+ M,0,76016,,348,267,345,262
+ F,2,76016,76382,1,0
+ S,2,76016,76382,1,0.2
+ P,0,76016,76382,A
+Sprite,Foreground,12,"sb\splash.png",0,0
+ M,0,76016,,348,267,372,275
+ F,2,76016,76382,1,0
+ S,2,76016,76382,1,0.2
+ P,0,76016,76382,A
+Sprite,Foreground,10,"sb\splash.png",0,0
+ M,0,76016,,348,267,363,240
+ F,2,76016,76382,1,0
+ S,2,76016,76382,1,0.2
+ P,0,76016,76382,A
+Sprite,Foreground,Centre,"sb\splash.png",0,0
+ M,0,76349,,428,131
+ F,2,76349,76715,1,0
+ S,2,76349,76715,1,0.2
+ P,0,76349,76715,A
+Sprite,Foreground,BottomRight,"sb\splash.png",0,0
+ M,0,76349,,428,131,428,147
+ F,2,76349,76715,1,0
+ S,2,76349,76715,1,0.2
+ P,0,76349,76715,A
+Sprite,Foreground,BottomRight,"sb\splash.png",0,0
+ M,0,76349,,428,131,414,165
+ F,2,76349,76715,1,0
+ S,2,76349,76715,1,0.2
+ P,0,76349,76715,A
+Sprite,Foreground,10,"sb\splash.png",0,0
+ M,0,76349,,428,131,398,110
+ F,2,76349,76715,1,0
+ S,2,76349,76715,1,0.2
+ P,0,76349,76715,A
+Sprite,Foreground,Centre,"sb\splash.png",0,0
+ M,0,76683,,534,184
+ F,2,76683,77049,1,0
+ S,2,76683,77049,1,0.2
+ P,0,76683,77049,A
+Sprite,Foreground,BottomRight,"sb\splash.png",0,0
+ M,0,76683,,534,184,541,178
+ F,2,76683,77049,1,0
+ S,2,76683,77049,1,0.2
+ P,0,76683,77049,A
+Sprite,Foreground,10,"sb\splash.png",0,0
+ M,0,76683,,534,184,510,152
+ F,2,76683,77049,1,0
+ S,2,76683,77049,1,0.2
+ P,0,76683,77049,A
+Sprite,Foreground,16,"sb\splash.png",0,0
+ M,0,76683,,534,184,540,199
+ F,2,76683,77049,1,0
+ S,2,76683,77049,1,0.2
+ P,0,76683,77049,A
+Sprite,Foreground,Centre,"sb\splash.png",0,0
+ M,0,77016,,428,131
+ F,2,77016,77216,1,0
+ S,2,77016,77216,1,0.2
+ P,0,77016,77216,A
+Sprite,Foreground,CentreRight,"sb\splash.png",0,0
+ M,0,77016,,428,131,432,134
+ F,2,77016,77216,1,0
+ S,2,77016,77216,1,0.2
+ P,0,77016,77216,A
+Sprite,Foreground,BottomLeft,"sb\splash.png",0,0
+ M,0,77016,,428,131,456,133
+ F,2,77016,77216,1,0
+ S,2,77016,77216,1,0.2
+ P,0,77016,77216,A
+Sprite,Foreground,BottomCentre,"sb\splash.png",0,0
+ M,0,77016,,428,131,386,128
+ F,2,77016,77216,1,0
+ S,2,77016,77216,1,0.2
+ P,0,77016,77216,A
+Sprite,Foreground,Centre,"sb\splash.png",0,0
+ M,0,77183,,428,131
+ F,2,77183,77383,1,0
+ S,2,77183,77383,1,0.2
+ P,0,77183,77383,A
+Sprite,Foreground,BottomCentre,"sb\splash.png",0,0
+ M,0,77183,,428,131,428,112
+ F,2,77183,77383,1,0
+ S,2,77183,77383,1,0.2
+ P,0,77183,77383,A
+Sprite,Foreground,BottomLeft,"sb\splash.png",0,0
+ M,0,77183,,428,131,410,159
+ F,2,77183,77383,1,0
+ S,2,77183,77383,1,0.2
+ P,0,77183,77383,A
+Sprite,Foreground,16,"sb\splash.png",0,0
+ M,0,77183,,428,131,452,89
+ F,2,77183,77383,1,0
+ S,2,77183,77383,1,0.2
+ P,0,77183,77383,A
+Sprite,Foreground,Centre,"sb\splash.png",0,0
+ M,0,77349,,330,94
+ F,2,77349,77882,1,0
+ S,2,77349,77882,1,0.2
+ P,0,77349,77882,A
+Sprite,Foreground,BottomCentre,"sb\splash.png",0,0
+ M,0,77349,,330,94,320,78
+ F,2,77349,77882,1,0
+ S,2,77349,77882,1,0.2
+ P,0,77349,77882,A
+Sprite,Foreground,BottomLeft,"sb\splash.png",0,0
+ M,0,77349,,330,94,348,112
+ F,2,77349,77882,1,0
+ S,2,77349,77882,1,0.2
+ P,0,77349,77882,A
+Sprite,Foreground,10,"sb\splash.png",0,0
+ M,0,77349,,330,94,288,82
+ F,2,77349,77882,1,0
+ S,2,77349,77882,1,0.2
+ P,0,77349,77882,A
+Sprite,Foreground,Centre,"sb\splash.png",0,0
+ M,0,77849,,428,131
+ F,2,77849,78382,1,0
+ S,2,77849,78382,1,0.2
+ P,0,77849,78382,A
+Sprite,Foreground,CentreRight,"sb\splash.png",0,0
+ M,0,77849,,428,131,436,127
+ F,2,77849,78382,1,0
+ S,2,77849,78382,1,0.2
+ P,0,77849,78382,A
+Sprite,Foreground,10,"sb\splash.png",0,0
+ M,0,77849,,428,131,406,99
+ F,2,77849,78382,1,0
+ S,2,77849,78382,1,0.2
+ P,0,77849,78382,A
+Sprite,Foreground,13,"sb\splash.png",0,0
+ M,0,77849,,428,131,416,161
+ F,2,77849,78382,1,0
+ S,2,77849,78382,1,0.2
+ P,0,77849,78382,A
+Sprite,Foreground,Centre,"sb\splash.png",0,0
+ M,0,78349,,298,298
+ F,2,78349,78715,1,0
+ S,2,78349,78715,1,0.2
+ P,0,78349,78715,A
+Sprite,Foreground,BottomLeft,"sb\splash.png",0,0
+ M,0,78349,,298,298,306,279
+ F,2,78349,78715,1,0
+ S,2,78349,78715,1,0.2
+ P,0,78349,78715,A
+Sprite,Foreground,BottomRight,"sb\splash.png",0,0
+ M,0,78349,,298,298,310,312
+ F,2,78349,78715,1,0
+ S,2,78349,78715,1,0.2
+ P,0,78349,78715,A
+Sprite,Foreground,10,"sb\splash.png",0,0
+ M,0,78349,,298,298,328,301
+ F,2,78349,78715,1,0
+ S,2,78349,78715,1,0.2
+ P,0,78349,78715,A
+Sprite,Foreground,Centre,"sb\splash.png",0,0
+ M,0,78683,,209,417
+ F,2,78683,79216,1,0
+ S,2,78683,79216,1,0.2
+ P,0,78683,79216,A
+Sprite,Foreground,CentreRight,"sb\splash.png",0,0
+ M,0,78683,,209,417,216,420
+ F,2,78683,79216,1,0
+ S,2,78683,79216,1,0.2
+ P,0,78683,79216,A
+Sprite,Foreground,12,"sb\splash.png",0,0
+ M,0,78683,,209,417,213,449
+ F,2,78683,79216,1,0
+ S,2,78683,79216,1,0.2
+ P,0,78683,79216,A
+Sprite,Foreground,BottomCentre,"sb\splash.png",0,0
+ M,0,78683,,209,417,212,363
+ F,2,78683,79216,1,0
+ S,2,78683,79216,1,0.2
+ P,0,78683,79216,A
+Sprite,Foreground,Centre,"sb\splash.png",0,0
+ M,0,79183,,74,247
+ F,2,79183,79383,1,0
+ S,2,79183,79383,1,0.2
+ P,0,79183,79383,A
+Sprite,Foreground,BottomCentre,"sb\splash.png",0,0
+ M,0,79183,,74,247,60,263
+ F,2,79183,79383,1,0
+ S,2,79183,79383,1,0.2
+ P,0,79183,79383,A
+Sprite,Foreground,12,"sb\splash.png",0,0
+ M,0,79183,,74,247,102,231
+ F,2,79183,79383,1,0
+ S,2,79183,79383,1,0.2
+ P,0,79183,79383,A
+Sprite,Foreground,BottomCentre,"sb\splash.png",0,0
+ M,0,79183,,74,247,89,241
+ F,2,79183,79383,1,0
+ S,2,79183,79383,1,0.2
+ P,0,79183,79383,A
+Sprite,Foreground,Centre,"sb\splash.png",0,0
+ M,0,79349,,150,175
+ F,2,79349,79715,1,0
+ S,2,79349,79715,1,0.2
+ P,0,79349,79715,A
+Sprite,Foreground,BottomLeft,"sb\splash.png",0,0
+ M,0,79349,,150,175,156,190
+ F,2,79349,79715,1,0
+ S,2,79349,79715,1,0.2
+ P,0,79349,79715,A
+Sprite,Foreground,10,"sb\splash.png",0,0
+ M,0,79349,,150,175,176,199
+ F,2,79349,79715,1,0
+ S,2,79349,79715,1,0.2
+ P,0,79349,79715,A
+Sprite,Foreground,10,"sb\splash.png",0,0
+ M,0,79349,,150,175,150,136
+ F,2,79349,79715,1,0
+ S,2,79349,79715,1,0.2
+ P,0,79349,79715,A
+Sprite,Foreground,Centre,"sb\splash.png",0,0
+ M,0,79683,,317,230
+ F,2,79683,80049,1,0
+ S,2,79683,80049,1,0.2
+ P,0,79683,80049,A
+Sprite,Foreground,BottomRight,"sb\splash.png",0,0
+ M,0,79683,,317,230,326,221
+ F,2,79683,80049,1,0
+ S,2,79683,80049,1,0.2
+ P,0,79683,80049,A
+Sprite,Foreground,10,"sb\splash.png",0,0
+ M,0,79683,,317,230,311,248
+ F,2,79683,80049,1,0
+ S,2,79683,80049,1,0.2
+ P,0,79683,80049,A
+Sprite,Foreground,10,"sb\splash.png",0,0
+ M,0,79683,,317,230,278,218
+ F,2,79683,80049,1,0
+ S,2,79683,80049,1,0.2
+ P,0,79683,80049,A
+Sprite,Foreground,Centre,"sb\splash.png",0,0
+ M,0,80016,,477,167
+ F,2,80016,80549,1,0
+ S,2,80016,80549,1,0.2
+ P,0,80016,80549,A
+Sprite,Foreground,BottomRight,"sb\splash.png",0,0
+ M,0,80016,,477,167,469,179
+ F,2,80016,80549,1,0
+ S,2,80016,80549,1,0.2
+ P,0,80016,80549,A
+Sprite,Foreground,10,"sb\splash.png",0,0
+ M,0,80016,,477,167,473,171
+ F,2,80016,80549,1,0
+ S,2,80016,80549,1,0.2
+ P,0,80016,80549,A
+Sprite,Foreground,BottomCentre,"sb\splash.png",0,0
+ M,0,80016,,477,167,483,191
+ F,2,80016,80549,1,0
+ S,2,80016,80549,1,0.2
+ P,0,80016,80549,A
+Sprite,Foreground,Centre,"sb\splash.png",0,0
+ M,0,80516,,542,326
+ F,2,80516,80882,1,0
+ S,2,80516,80882,1,0.2
+ P,0,80516,80882,A
+Sprite,Foreground,BottomCentre,"sb\splash.png",0,0
+ M,0,80516,,542,326,534,332
+ F,2,80516,80882,1,0
+ S,2,80516,80882,1,0.2
+ P,0,80516,80882,A
+Sprite,Foreground,12,"sb\splash.png",0,0
+ M,0,80516,,542,326,558,336
+ F,2,80516,80882,1,0
+ S,2,80516,80882,1,0.2
+ P,0,80516,80882,A
+Sprite,Foreground,13,"sb\splash.png",0,0
+ M,0,80516,,542,326,545,269
+ F,2,80516,80882,1,0
+ S,2,80516,80882,1,0.2
+ P,0,80516,80882,A
+Sprite,Foreground,Centre,"sb\splash.png",0,0
+ M,0,80849,,436,430
+ F,2,80849,81049,1,0
+ S,2,80849,81049,1,0.2
+ P,0,80849,81049,A
+Sprite,Foreground,BottomLeft,"sb\splash.png",0,0
+ M,0,80849,,436,430,442,412
+ F,2,80849,81049,1,0
+ S,2,80849,81049,1,0.2
+ P,0,80849,81049,A
+Sprite,Foreground,10,"sb\splash.png",0,0
+ M,0,80849,,436,430,440,434
+ F,2,80849,81049,1,0
+ S,2,80849,81049,1,0.2
+ P,0,80849,81049,A
+Sprite,Foreground,16,"sb\splash.png",0,0
+ M,0,80849,,436,430,475,454
+ F,2,80849,81049,1,0
+ S,2,80849,81049,1,0.2
+ P,0,80849,81049,A
+Sprite,Foreground,Centre,"sb\splash.png",0,0
+ M,0,81016,,350,369
+ F,2,81016,81382,1,0
+ S,2,81016,81382,1,0.2
+ P,0,81016,81382,A
+Sprite,Foreground,CentreRight,"sb\splash.png",0,0
+ M,0,81016,,350,369,353,376
+ F,2,81016,81382,1,0
+ S,2,81016,81382,1,0.2
+ P,0,81016,81382,A
+Sprite,Foreground,12,"sb\splash.png",0,0
+ M,0,81016,,350,369,358,379
+ F,2,81016,81382,1,0
+ S,2,81016,81382,1,0.2
+ P,0,81016,81382,A
+Sprite,Foreground,16,"sb\splash.png",0,0
+ M,0,81016,,350,369,314,345
+ F,2,81016,81382,1,0
+ S,2,81016,81382,1,0.2
+ P,0,81016,81382,A
+Sprite,Foreground,Centre,"sb\splash.png",0,0
+ M,0,81349,,167,383
+ F,2,81349,81715,1,0
+ S,2,81349,81715,1,0.2
+ P,0,81349,81715,A
+Sprite,Foreground,BottomLeft,"sb\splash.png",0,0
+ M,0,81349,,167,383,175,400
+ F,2,81349,81715,1,0
+ S,2,81349,81715,1,0.2
+ P,0,81349,81715,A
+Sprite,Foreground,BottomLeft,"sb\splash.png",0,0
+ M,0,81349,,167,383,189,375
+ F,2,81349,81715,1,0
+ S,2,81349,81715,1,0.2
+ P,0,81349,81715,A
+Sprite,Foreground,BottomCentre,"sb\splash.png",0,0
+ M,0,81349,,167,383,170,335
+ F,2,81349,81715,1,0
+ S,2,81349,81715,1,0.2
+ P,0,81349,81715,A
+Sprite,Foreground,Centre,"sb\splash.png",0,0
+ M,0,81683,,79,232
+ F,2,81683,82216,1,0
+ S,2,81683,82216,1,0.2
+ P,0,81683,82216,A
+Sprite,Foreground,CentreRight,"sb\splash.png",0,0
+ M,0,81683,,79,232,68,231
+ F,2,81683,82216,1,0
+ S,2,81683,82216,1,0.2
+ P,0,81683,82216,A
+Sprite,Foreground,BottomLeft,"sb\splash.png",0,0
+ M,0,81683,,79,232,75,226
+ F,2,81683,82216,1,0
+ S,2,81683,82216,1,0.2
+ P,0,81683,82216,A
+Sprite,Foreground,BottomCentre,"sb\splash.png",0,0
+ M,0,81683,,79,232,121,286
+ F,2,81683,82216,1,0
+ S,2,81683,82216,1,0.2
+ P,0,81683,82216,A
+Sprite,Foreground,Centre,"sb\splash.png",0,0
+ M,0,82183,,318,268
+ F,2,82183,82383,1,0
+ S,2,82183,82383,1,0.2
+ P,0,82183,82383,A
+Sprite,Foreground,BottomRight,"sb\splash.png",0,0
+ M,0,82183,,318,268,315,282
+ F,2,82183,82383,1,0
+ S,2,82183,82383,1,0.2
+ P,0,82183,82383,A
+Sprite,Foreground,12,"sb\splash.png",0,0
+ M,0,82183,,318,268,344,276
+ F,2,82183,82383,1,0
+ S,2,82183,82383,1,0.2
+ P,0,82183,82383,A
+Sprite,Foreground,13,"sb\splash.png",0,0
+ M,0,82183,,318,268,288,253
+ F,2,82183,82383,1,0
+ S,2,82183,82383,1,0.2
+ P,0,82183,82383,A
+Sprite,Foreground,Centre,"sb\splash.png",0,0
+ M,0,82349,,407,215
+ F,2,82349,82715,1,0
+ S,2,82349,82715,1,0.2
+ P,0,82349,82715,A
+Sprite,Foreground,CentreRight,"sb\splash.png",0,0
+ M,0,82349,,407,215,401,207
+ F,2,82349,82715,1,0
+ S,2,82349,82715,1,0.2
+ P,0,82349,82715,A
+Sprite,Foreground,BottomRight,"sb\splash.png",0,0
+ M,0,82349,,407,215,411,229
+ F,2,82349,82715,1,0
+ S,2,82349,82715,1,0.2
+ P,0,82349,82715,A
+Sprite,Foreground,BottomCentre,"sb\splash.png",0,0
+ M,0,82349,,407,215,362,212
+ F,2,82349,82715,1,0
+ S,2,82349,82715,1,0.2
+ P,0,82349,82715,A
+Sprite,Foreground,Centre,"sb\splash.png",0,0
+ M,0,82683,,301,100
+ F,2,82683,83216,1,0
+ S,2,82683,83216,1,0.2
+ P,0,82683,83216,A
+Sprite,Foreground,BottomCentre,"sb\splash.png",0,0
+ M,0,82683,,301,100,312,116
+ F,2,82683,83216,1,0
+ S,2,82683,83216,1,0.2
+ P,0,82683,83216,A
+Sprite,Foreground,BottomLeft,"sb\splash.png",0,0
+ M,0,82683,,301,100,327,116
+ F,2,82683,83216,1,0
+ S,2,82683,83216,1,0.2
+ P,0,82683,83216,A
+Sprite,Foreground,16,"sb\splash.png",0,0
+ M,0,82683,,301,100,256,148
+ F,2,82683,83216,1,0
+ S,2,82683,83216,1,0.2
+ P,0,82683,83216,A
+Sprite,Foreground,Centre,"sb\splash.png",0,0
+ M,0,83183,,401,134
+ F,2,83183,83716,1,0
+ S,2,83183,83716,1,0.2
+ P,0,83183,83716,A
+Sprite,Foreground,BottomCentre,"sb\splash.png",0,0
+ M,0,83183,,401,134,401,127
+ F,2,83183,83716,1,0
+ S,2,83183,83716,1,0.2
+ P,0,83183,83716,A
+Sprite,Foreground,BottomRight,"sb\splash.png",0,0
+ M,0,83183,,401,134,387,118
+ F,2,83183,83716,1,0
+ S,2,83183,83716,1,0.2
+ P,0,83183,83716,A
+Sprite,Foreground,13,"sb\splash.png",0,0
+ M,0,83183,,401,134,389,80
+ F,2,83183,83716,1,0
+ S,2,83183,83716,1,0.2
+ P,0,83183,83716,A
+Sprite,Foreground,Centre,"sb\splash.png",0,0
+ M,0,83683,,549,285
+ F,2,83683,83883,1,0
+ S,2,83683,83883,1,0.2
+ P,0,83683,83883,A
+Sprite,Foreground,BottomLeft,"sb\splash.png",0,0
+ M,0,83683,,549,285,541,304
+ F,2,83683,83883,1,0
+ S,2,83683,83883,1,0.2
+ P,0,83683,83883,A
+Sprite,Foreground,12,"sb\splash.png",0,0
+ M,0,83683,,549,285,543,309
+ F,2,83683,83883,1,0
+ S,2,83683,83883,1,0.2
+ P,0,83683,83883,A
+Sprite,Foreground,BottomCentre,"sb\splash.png",0,0
+ M,0,83683,,549,285,552,225
+ F,2,83683,83883,1,0
+ S,2,83683,83883,1,0.2
+ P,0,83683,83883,A
+Sprite,Foreground,Centre,"sb\splash.png",0,0
+ M,0,83849,,549,285
+ F,2,83849,84049,1,0
+ S,2,83849,84049,1,0.2
+ P,0,83849,84049,A
+Sprite,Foreground,CentreRight,"sb\splash.png",0,0
+ M,0,83849,,549,285,553,275
+ F,2,83849,84049,1,0
+ S,2,83849,84049,1,0.2
+ P,0,83849,84049,A
+Sprite,Foreground,10,"sb\splash.png",0,0
+ M,0,83849,,549,285,529,287
+ F,2,83849,84049,1,0
+ S,2,83849,84049,1,0.2
+ P,0,83849,84049,A
+Sprite,Foreground,16,"sb\splash.png",0,0
+ M,0,83849,,549,285,519,339
+ F,2,83849,84049,1,0
+ S,2,83849,84049,1,0.2
+ P,0,83849,84049,A
+Sprite,Foreground,Centre,"sb\splash.png",0,0
+ M,0,84016,,470,354
+ F,2,84016,84382,1,0
+ S,2,84016,84382,1,0.2
+ P,0,84016,84382,A
+Sprite,Foreground,BottomCentre,"sb\splash.png",0,0
+ M,0,84016,,470,354,460,365
+ F,2,84016,84382,1,0
+ S,2,84016,84382,1,0.2
+ P,0,84016,84382,A
+Sprite,Foreground,12,"sb\splash.png",0,0
+ M,0,84016,,470,354,454,380
+ F,2,84016,84382,1,0
+ S,2,84016,84382,1,0.2
+ P,0,84016,84382,A
+Sprite,Foreground,13,"sb\splash.png",0,0
+ M,0,84016,,470,354,485,408
+ F,2,84016,84382,1,0
+ S,2,84016,84382,1,0.2
+ P,0,84016,84382,A
+Sprite,Foreground,Centre,"sb\splash.png",0,0
+ M,0,84349,,304,287
+ F,2,84349,84882,1,0
+ S,2,84349,84882,1,0.2
+ P,0,84349,84882,A
+Sprite,Foreground,BottomCentre,"sb\splash.png",0,0
+ M,0,84349,,304,287,292,295
+ F,2,84349,84882,1,0
+ S,2,84349,84882,1,0.2
+ P,0,84349,84882,A
+Sprite,Foreground,12,"sb\splash.png",0,0
+ M,0,84349,,304,287,280,315
+ F,2,84349,84882,1,0
+ S,2,84349,84882,1,0.2
+ P,0,84349,84882,A
+Sprite,Foreground,16,"sb\splash.png",0,0
+ M,0,84349,,304,287,343,251
+ F,2,84349,84882,1,0
+ S,2,84349,84882,1,0.2
+ P,0,84349,84882,A
+Sprite,Foreground,Centre,"sb\splash.png",0,0
+ M,0,84849,,74,218
+ F,2,84849,85049,1,0
+ S,2,84849,85049,1,0.2
+ P,0,84849,85049,A
+Sprite,Foreground,CentreRight,"sb\splash.png",0,0
+ M,0,84849,,74,218,74,201
+ F,2,84849,85049,1,0
+ S,2,84849,85049,1,0.2
+ P,0,84849,85049,A
+Sprite,Foreground,12,"sb\splash.png",0,0
+ M,0,84849,,74,218,60,250
+ F,2,84849,85049,1,0
+ S,2,84849,85049,1,0.2
+ P,0,84849,85049,A
+Sprite,Foreground,16,"sb\splash.png",0,0
+ M,0,84849,,74,218,59,200
+ F,2,84849,85049,1,0
+ S,2,84849,85049,1,0.2
+ P,0,84849,85049,A
+Sprite,Foreground,Centre,"sb\splash.png",0,0
+ M,0,85016,,147,294
+ F,2,85016,85382,1,0
+ S,2,85016,85382,1,0.2
+ P,0,85016,85382,A
+Sprite,Foreground,BottomLeft,"sb\splash.png",0,0
+ M,0,85016,,147,294,137,283
+ F,2,85016,85382,1,0
+ S,2,85016,85382,1,0.2
+ P,0,85016,85382,A
+Sprite,Foreground,BottomLeft,"sb\splash.png",0,0
+ M,0,85016,,147,294,141,290
+ F,2,85016,85382,1,0
+ S,2,85016,85382,1,0.2
+ P,0,85016,85382,A
+Sprite,Foreground,16,"sb\splash.png",0,0
+ M,0,85016,,147,294,171,270
+ F,2,85016,85382,1,0
+ S,2,85016,85382,1,0.2
+ P,0,85016,85382,A
+Sprite,Foreground,Centre,"sb\splash.png",0,0
+ M,0,85349,,254,417
+ F,2,85349,85882,1,0
+ S,2,85349,85882,1,0.2
+ P,0,85349,85882,A
+Sprite,Foreground,CentreRight,"sb\splash.png",0,0
+ M,0,85349,,254,417,241,397
+ F,2,85349,85882,1,0
+ S,2,85349,85882,1,0.2
+ P,0,85349,85882,A
+Sprite,Foreground,BottomRight,"sb\splash.png",0,0
+ M,0,85349,,254,417,248,439
+ F,2,85349,85882,1,0
+ S,2,85349,85882,1,0.2
+ P,0,85349,85882,A
+Sprite,Foreground,BottomCentre,"sb\splash.png",0,0
+ M,0,85349,,254,417,227,384
+ F,2,85349,85882,1,0
+ S,2,85349,85882,1,0.2
+ P,0,85349,85882,A
+Sprite,Foreground,Centre,"sb\splash.png",0,0
+ M,0,85849,,503,406
+ F,2,85849,86382,1,0
+ S,2,85849,86382,1,0.2
+ P,0,85849,86382,A
+Sprite,Foreground,BottomLeft,"sb\splash.png",0,0
+ M,0,85849,,503,406,489,408
+ F,2,85849,86382,1,0
+ S,2,85849,86382,1,0.2
+ P,0,85849,86382,A
+Sprite,Foreground,BottomRight,"sb\splash.png",0,0
+ M,0,85849,,503,406,479,430
+ F,2,85849,86382,1,0
+ S,2,85849,86382,1,0.2
+ P,0,85849,86382,A
+Sprite,Foreground,BottomCentre,"sb\splash.png",0,0
+ M,0,85849,,503,406,488,436
+ F,2,85849,86382,1,0
+ S,2,85849,86382,1,0.2
+ P,0,85849,86382,A
+Sprite,Foreground,Centre,"sb\splash.png",0,0
+ M,0,86349,,479,162
+ F,2,86349,86549,1,0
+ S,2,86349,86549,1,0.2
+ P,0,86349,86549,A
+Sprite,Foreground,BottomCentre,"sb\splash.png",0,0
+ M,0,86349,,479,162,486,170
+ F,2,86349,86549,1,0
+ S,2,86349,86549,1,0.2
+ P,0,86349,86549,A
+Sprite,Foreground,BottomRight,"sb\splash.png",0,0
+ M,0,86349,,479,162,463,186
+ F,2,86349,86549,1,0
+ S,2,86349,86549,1,0.2
+ P,0,86349,86549,A
+Sprite,Foreground,13,"sb\splash.png",0,0
+ M,0,86349,,479,162,482,186
+ F,2,86349,86549,1,0
+ S,2,86349,86549,1,0.2
+ P,0,86349,86549,A
+Sprite,Foreground,Centre,"sb\splash.png",0,0
+ M,0,86516,,479,162
+ F,2,86516,86716,1,0
+ S,2,86516,86716,1,0.2
+ P,0,86516,86716,A
+Sprite,Foreground,BottomRight,"sb\splash.png",0,0
+ M,0,86516,,479,162,480,177
+ F,2,86516,86716,1,0
+ S,2,86516,86716,1,0.2
+ P,0,86516,86716,A
+Sprite,Foreground,12,"sb\splash.png",0,0
+ M,0,86516,,479,162,455,162
+ F,2,86516,86716,1,0
+ S,2,86516,86716,1,0.2
+ P,0,86516,86716,A
+Sprite,Foreground,10,"sb\splash.png",0,0
+ M,0,86516,,479,162,446,114
+ F,2,86516,86716,1,0
+ S,2,86516,86716,1,0.2
+ P,0,86516,86716,A
+Sprite,Foreground,Centre,"sb\splash.png",0,0
+ M,0,86683,,390,217
+ F,2,86683,87049,1,0
+ S,2,86683,87049,1,0.2
+ P,0,86683,87049,A
+Sprite,Foreground,BottomCentre,"sb\splash.png",0,0
+ M,0,86683,,390,217,390,221
+ F,2,86683,87049,1,0
+ S,2,86683,87049,1,0.2
+ P,0,86683,87049,A
+Sprite,Foreground,BottomRight,"sb\splash.png",0,0
+ M,0,86683,,390,217,406,219
+ F,2,86683,87049,1,0
+ S,2,86683,87049,1,0.2
+ P,0,86683,87049,A
+Sprite,Foreground,10,"sb\splash.png",0,0
+ M,0,86683,,390,217,405,274
+ F,2,86683,87049,1,0
+ S,2,86683,87049,1,0.2
+ P,0,86683,87049,A
+Sprite,Foreground,Centre,"sb\splash.png",0,0
+ M,0,87016,,307,116
+ F,2,87016,87382,1,0
+ S,2,87016,87382,1,0.2
+ P,0,87016,87382,A
+Sprite,Foreground,BottomRight,"sb\splash.png",0,0
+ M,0,87016,,307,116,304,131
+ F,2,87016,87382,1,0
+ S,2,87016,87382,1,0.2
+ P,0,87016,87382,A
+Sprite,Foreground,BottomLeft,"sb\splash.png",0,0
+ M,0,87016,,307,116,297,144
+ F,2,87016,87382,1,0
+ S,2,87016,87382,1,0.2
+ P,0,87016,87382,A
+Sprite,Foreground,BottomCentre,"sb\splash.png",0,0
+ M,0,87016,,307,116,295,59
+ F,2,87016,87382,1,0
+ S,2,87016,87382,1,0.2
+ P,0,87016,87382,A
+Sprite,Foreground,Centre,"sb\splash.png",0,0
+ M,0,87349,,479,162
+ F,2,87349,87715,1,0
+ S,2,87349,87715,1,0.2
+ P,0,87349,87715,A
+Sprite,Foreground,CentreRight,"sb\splash.png",0,0
+ M,0,87349,,479,162,472,159
+ F,2,87349,87715,1,0
+ S,2,87349,87715,1,0.2
+ P,0,87349,87715,A
+Sprite,Foreground,BottomRight,"sb\splash.png",0,0
+ M,0,87349,,479,162,461,144
+ F,2,87349,87715,1,0
+ S,2,87349,87715,1,0.2
+ P,0,87349,87715,A
+Sprite,Foreground,16,"sb\splash.png",0,0
+ M,0,87349,,479,162,446,159
+ F,2,87349,87715,1,0
+ S,2,87349,87715,1,0.2
+ P,0,87349,87715,A
+Sprite,Foreground,Centre,"sb\splash.png",0,0
+ M,0,87683,,459,346
+ F,2,87683,87883,1,0
+ S,2,87683,87883,1,0.2
+ P,0,87683,87883,A
+Sprite,Foreground,BottomRight,"sb\splash.png",0,0
+ M,0,87683,,459,346,449,350
+ F,2,87683,87883,1,0
+ S,2,87683,87883,1,0.2
+ P,0,87683,87883,A
+Sprite,Foreground,BottomLeft,"sb\splash.png",0,0
+ M,0,87683,,459,346,439,320
+ F,2,87683,87883,1,0
+ S,2,87683,87883,1,0.2
+ P,0,87683,87883,A
+Sprite,Foreground,10,"sb\splash.png",0,0
+ M,0,87683,,459,346,480,370
+ F,2,87683,87883,1,0
+ S,2,87683,87883,1,0.2
+ P,0,87683,87883,A
+Sprite,Foreground,Centre,"sb\splash.png",0,0
+ M,0,87849,,459,346
+ F,2,87849,88049,1,0
+ S,2,87849,88049,1,0.2
+ P,0,87849,88049,A
+Sprite,Foreground,BottomRight,"sb\splash.png",0,0
+ M,0,87849,,459,346,451,358
+ F,2,87849,88049,1,0
+ S,2,87849,88049,1,0.2
+ P,0,87849,88049,A
+Sprite,Foreground,10,"sb\splash.png",0,0
+ M,0,87849,,459,346,457,326
+ F,2,87849,88049,1,0
+ S,2,87849,88049,1,0.2
+ P,0,87849,88049,A
+Sprite,Foreground,13,"sb\splash.png",0,0
+ M,0,87849,,459,346,450,313
+ F,2,87849,88049,1,0
+ S,2,87849,88049,1,0.2
+ P,0,87849,88049,A
+Sprite,Foreground,Centre,"sb\splash.png",0,0
+ M,0,88016,,371,403
+ F,2,88016,88549,1,0
+ S,2,88016,88549,1,0.2
+ P,0,88016,88549,A
+Sprite,Foreground,BottomLeft,"sb\splash.png",0,0
+ M,0,88016,,371,403,376,393
+ F,2,88016,88549,1,0
+ S,2,88016,88549,1,0.2
+ P,0,88016,88549,A
+Sprite,Foreground,12,"sb\splash.png",0,0
+ M,0,88016,,371,403,377,363
+ F,2,88016,88549,1,0
+ S,2,88016,88549,1,0.2
+ P,0,88016,88549,A
+Sprite,Foreground,BottomCentre,"sb\splash.png",0,0
+ M,0,88016,,371,403,395,439
+ F,2,88016,88549,1,0
+ S,2,88016,88549,1,0.2
+ P,0,88016,88549,A
+Sprite,Foreground,Centre,"sb\splash.png",0,0
+ M,0,88516,,332,305
+ F,2,88516,89049,1,0
+ S,2,88516,89049,1,0.2
+ P,0,88516,89049,A
+Sprite,Foreground,CentreRight,"sb\splash.png",0,0
+ M,0,88516,,332,305,342,300
+ F,2,88516,89049,1,0
+ S,2,88516,89049,1,0.2
+ P,0,88516,89049,A
+Sprite,Foreground,BottomLeft,"sb\splash.png",0,0
+ M,0,88516,,332,305,330,337
+ F,2,88516,89049,1,0
+ S,2,88516,89049,1,0.2
+ P,0,88516,89049,A
+Sprite,Foreground,13,"sb\splash.png",0,0
+ M,0,88516,,332,305,299,254
+ F,2,88516,89049,1,0
+ S,2,88516,89049,1,0.2
+ P,0,88516,89049,A
+Sprite,Foreground,Centre,"sb\splash.png",0,0
+ M,0,89016,,112,420
+ F,2,89016,89216,1,0
+ S,2,89016,89216,1,0.2
+ P,0,89016,89216,A
+Sprite,Foreground,BottomCentre,"sb\splash.png",0,0
+ M,0,89016,,112,420,103,426
+ F,2,89016,89216,1,0
+ S,2,89016,89216,1,0.2
+ P,0,89016,89216,A
+Sprite,Foreground,12,"sb\splash.png",0,0
+ M,0,89016,,112,420,134,404
+ F,2,89016,89216,1,0
+ S,2,89016,89216,1,0.2
+ P,0,89016,89216,A
+Sprite,Foreground,BottomCentre,"sb\splash.png",0,0
+ M,0,89016,,112,420,112,378
+ F,2,89016,89216,1,0
+ S,2,89016,89216,1,0.2
+ P,0,89016,89216,A
+Sprite,Foreground,Centre,"sb\splash.png",0,0
+ M,0,89183,,85,318
+ F,2,89183,89716,1,0
+ S,2,89183,89716,1,0.2
+ P,0,89183,89716,A
+Sprite,Foreground,CentreRight,"sb\splash.png",0,0
+ M,0,89183,,85,318,91,329
+ F,2,89183,89716,1,0
+ S,2,89183,89716,1,0.2
+ P,0,89183,89716,A
+Sprite,Foreground,12,"sb\splash.png",0,0
+ M,0,89183,,85,318,83,320
+ F,2,89183,89716,1,0
+ S,2,89183,89716,1,0.2
+ P,0,89183,89716,A
+Sprite,Foreground,BottomCentre,"sb\splash.png",0,0
+ M,0,89183,,85,318,91,315
+ F,2,89183,89716,1,0
+ S,2,89183,89716,1,0.2
+ P,0,89183,89716,A
+Sprite,Foreground,Centre,"sb\splash.png",0,0
+ M,0,89683,,200,102
+ F,2,89683,90216,1,0
+ S,2,89683,90216,1,0.2
+ P,0,89683,90216,A
+Sprite,Foreground,BottomRight,"sb\splash.png",0,0
+ M,0,89683,,200,102,195,94
+ F,2,89683,90216,1,0
+ S,2,89683,90216,1,0.2
+ P,0,89683,90216,A
+Sprite,Foreground,12,"sb\splash.png",0,0
+ M,0,89683,,200,102,170,96
+ F,2,89683,90216,1,0
+ S,2,89683,90216,1,0.2
+ P,0,89683,90216,A
+Sprite,Foreground,BottomCentre,"sb\splash.png",0,0
+ M,0,89683,,200,102,221,141
+ F,2,89683,90216,1,0
+ S,2,89683,90216,1,0.2
+ P,0,89683,90216,A
+Sprite,Foreground,Centre,"sb\splash.png",0,0
+ M,0,90183,,195,356
+ F,2,90183,90383,1,0
+ S,2,90183,90383,1,0.2
+ P,0,90183,90383,A
+Sprite,Foreground,BottomRight,"sb\splash.png",0,0
+ M,0,90183,,195,356,194,346
+ F,2,90183,90383,1,0
+ S,2,90183,90383,1,0.2
+ P,0,90183,90383,A
+Sprite,Foreground,10,"sb\splash.png",0,0
+ M,0,90183,,195,356,169,350
+ F,2,90183,90383,1,0
+ S,2,90183,90383,1,0.2
+ P,0,90183,90383,A
+Sprite,Foreground,16,"sb\splash.png",0,0
+ M,0,90183,,195,356,159,308
+ F,2,90183,90383,1,0
+ S,2,90183,90383,1,0.2
+ P,0,90183,90383,A
+Sprite,Foreground,Centre,"sb\splash.png",0,0
+ M,0,90349,,277,419
+ F,2,90349,90715,1,0
+ S,2,90349,90715,1,0.2
+ P,0,90349,90715,A
+Sprite,Foreground,BottomCentre,"sb\splash.png",0,0
+ M,0,90349,,277,419,278,399
+ F,2,90349,90715,1,0
+ S,2,90349,90715,1,0.2
+ P,0,90349,90715,A
+Sprite,Foreground,12,"sb\splash.png",0,0
+ M,0,90349,,277,419,249,445
+ F,2,90349,90715,1,0
+ S,2,90349,90715,1,0.2
+ P,0,90349,90715,A
+Sprite,Foreground,10,"sb\splash.png",0,0
+ M,0,90349,,277,419,235,470
+ F,2,90349,90715,1,0
+ S,2,90349,90715,1,0.2
+ P,0,90349,90715,A
+Sprite,Foreground,Centre,"sb\splash.png",0,0
+ M,0,90683,,436,342
+ F,2,90683,91216,1,0
+ S,2,90683,91216,1,0.2
+ P,0,90683,91216,A
+Sprite,Foreground,BottomCentre,"sb\splash.png",0,0
+ M,0,90683,,436,342,442,357
+ F,2,90683,91216,1,0
+ S,2,90683,91216,1,0.2
+ P,0,90683,91216,A
+Sprite,Foreground,BottomLeft,"sb\splash.png",0,0
+ M,0,90683,,436,342,432,310
+ F,2,90683,91216,1,0
+ S,2,90683,91216,1,0.2
+ P,0,90683,91216,A
+Sprite,Foreground,10,"sb\splash.png",0,0
+ M,0,90683,,436,342,418,318
+ F,2,90683,91216,1,0
+ S,2,90683,91216,1,0.2
+ P,0,90683,91216,A
+Sprite,Foreground,Centre,"sb\splash.png",0,0
+ M,0,91183,,350,282
+ F,2,91183,91716,1,0
+ S,2,91183,91716,1,0.2
+ P,0,91183,91716,A
+Sprite,Foreground,BottomLeft,"sb\splash.png",0,0
+ M,0,91183,,350,282,336,299
+ F,2,91183,91716,1,0
+ S,2,91183,91716,1,0.2
+ P,0,91183,91716,A
+Sprite,Foreground,12,"sb\splash.png",0,0
+ M,0,91183,,350,282,348,266
+ F,2,91183,91716,1,0
+ S,2,91183,91716,1,0.2
+ P,0,91183,91716,A
+Sprite,Foreground,BottomCentre,"sb\splash.png",0,0
+ M,0,91183,,350,282,356,309
+ F,2,91183,91716,1,0
+ S,2,91183,91716,1,0.2
+ P,0,91183,91716,A
+Sprite,Foreground,Centre,"sb\splash.png",0,0
+ M,0,91683,,440,79
+ F,2,91683,91883,1,0
+ S,2,91683,91883,1,0.2
+ P,0,91683,91883,A
+Sprite,Foreground,BottomCentre,"sb\splash.png",0,0
+ M,0,91683,,440,79,425,72
+ F,2,91683,91883,1,0
+ S,2,91683,91883,1,0.2
+ P,0,91683,91883,A
+Sprite,Foreground,BottomRight,"sb\splash.png",0,0
+ M,0,91683,,440,79,440,61
+ F,2,91683,91883,1,0
+ S,2,91683,91883,1,0.2
+ P,0,91683,91883,A
+Sprite,Foreground,10,"sb\splash.png",0,0
+ M,0,91683,,440,79,416,22
+ F,2,91683,91883,1,0
+ S,2,91683,91883,1,0.2
+ P,0,91683,91883,A
+Sprite,Foreground,Centre,"sb\splash.png",0,0
+ M,0,91849,,440,79
+ F,2,91849,92049,1,0
+ S,2,91849,92049,1,0.2
+ P,0,91849,92049,A
+Sprite,Foreground,BottomCentre,"sb\splash.png",0,0
+ M,0,91849,,440,79,425,66
+ F,2,91849,92049,1,0
+ S,2,91849,92049,1,0.2
+ P,0,91849,92049,A
+Sprite,Foreground,12,"sb\splash.png",0,0
+ M,0,91849,,440,79,434,95
+ F,2,91849,92049,1,0
+ S,2,91849,92049,1,0.2
+ P,0,91849,92049,A
+Sprite,Foreground,BottomCentre,"sb\splash.png",0,0
+ M,0,91849,,440,79,416,67
+ F,2,91849,92049,1,0
+ S,2,91849,92049,1,0.2
+ P,0,91849,92049,A
+Sprite,Foreground,Centre,"sb\splash.png",0,0
+ M,0,92016,,534,124
+ F,2,92016,92382,1,0
+ S,2,92016,92382,1,0.2
+ P,0,92016,92382,A
+Sprite,Foreground,BottomCentre,"sb\splash.png",0,0
+ M,0,92016,,534,124,538,121
+ F,2,92016,92382,1,0
+ S,2,92016,92382,1,0.2
+ P,0,92016,92382,A
+Sprite,Foreground,BottomRight,"sb\splash.png",0,0
+ M,0,92016,,534,124,520,132
+ F,2,92016,92382,1,0
+ S,2,92016,92382,1,0.2
+ P,0,92016,92382,A
+Sprite,Foreground,10,"sb\splash.png",0,0
+ M,0,92016,,534,124,555,100
+ F,2,92016,92382,1,0
+ S,2,92016,92382,1,0.2
+ P,0,92016,92382,A
+Sprite,Foreground,Centre,"sb\splash.png",0,0
+ M,0,92349,,442,266
+ F,2,92349,92715,1,0
+ S,2,92349,92715,1,0.2
+ P,0,92349,92715,A
+Sprite,Foreground,BottomRight,"sb\splash.png",0,0
+ M,0,92349,,442,266,427,265
+ F,2,92349,92715,1,0
+ S,2,92349,92715,1,0.2
+ P,0,92349,92715,A
+Sprite,Foreground,BottomLeft,"sb\splash.png",0,0
+ M,0,92349,,442,266,454,232
+ F,2,92349,92715,1,0
+ S,2,92349,92715,1,0.2
+ P,0,92349,92715,A
+Sprite,Foreground,13,"sb\splash.png",0,0
+ M,0,92349,,442,266,448,272
+ F,2,92349,92715,1,0
+ S,2,92349,92715,1,0.2
+ P,0,92349,92715,A
+Sprite,Foreground,Centre,"sb\splash.png",0,0
+ M,0,92683,,343,132
+ F,2,92683,93133,1,0
+ S,2,92683,93133,1,0.2
+ P,0,92683,93133,A
+Sprite,Foreground,CentreRight,"sb\splash.png",0,0
+ M,0,92683,,343,132,328,115
+ F,2,92683,93133,1,0
+ S,2,92683,93133,1,0.2
+ P,0,92683,93133,A
+Sprite,Foreground,BottomLeft,"sb\splash.png",0,0
+ M,0,92683,,343,132,355,126
+ F,2,92683,93133,1,0
+ S,2,92683,93133,1,0.2
+ P,0,92683,93133,A
+Sprite,Foreground,BottomCentre,"sb\splash.png",0,0
+ M,0,92683,,343,132,361,96
+ F,2,92683,93133,1,0
+ S,2,92683,93133,1,0.2
+ P,0,92683,93133,A
+Sprite,Foreground,Centre,"sb\splash.png",0,0
+ M,0,93016,,256,102
+ F,2,93016,93382,1,0
+ S,2,93016,93382,1,0.2
+ P,0,93016,93382,A
+Sprite,Foreground,BottomRight,"sb\splash.png",0,0
+ M,0,93016,,256,102,253,111
+ F,2,93016,93382,1,0
+ S,2,93016,93382,1,0.2
+ P,0,93016,93382,A
+Sprite,Foreground,12,"sb\splash.png",0,0
+ M,0,93016,,256,102,228,64
+ F,2,93016,93382,1,0
+ S,2,93016,93382,1,0.2
+ P,0,93016,93382,A
+Sprite,Foreground,10,"sb\splash.png",0,0
+ M,0,93016,,256,102,220,45
+ F,2,93016,93382,1,0
+ S,2,93016,93382,1,0.2
+ P,0,93016,93382,A
+Sprite,Foreground,Centre,"sb\splash.png",0,0
+ M,0,93349,,112,191
+ F,2,93349,93715,1,0
+ S,2,93349,93715,1,0.2
+ P,0,93349,93715,A
+Sprite,Foreground,BottomCentre,"sb\splash.png",0,0
+ M,0,93349,,112,191,106,171
+ F,2,93349,93715,1,0
+ S,2,93349,93715,1,0.2
+ P,0,93349,93715,A
+Sprite,Foreground,BottomRight,"sb\splash.png",0,0
+ M,0,93349,,112,191,86,165
+ F,2,93349,93715,1,0
+ S,2,93349,93715,1,0.2
+ P,0,93349,93715,A
+Sprite,Foreground,13,"sb\splash.png",0,0
+ M,0,93349,,112,191,94,185
+ F,2,93349,93715,1,0
+ S,2,93349,93715,1,0.2
+ P,0,93349,93715,A
+Sprite,Foreground,Centre,"sb\splash.png",0,0
+ M,0,93683,,158,361
+ F,2,93683,93883,1,0
+ S,2,93683,93883,1,0.2
+ P,0,93683,93883,A
+Sprite,Foreground,CentreRight,"sb\splash.png",0,0
+ M,0,93683,,158,361,169,350
+ F,2,93683,93883,1,0
+ S,2,93683,93883,1,0.2
+ P,0,93683,93883,A
+Sprite,Foreground,BottomLeft,"sb\splash.png",0,0
+ M,0,93683,,158,361,178,333
+ F,2,93683,93883,1,0
+ S,2,93683,93883,1,0.2
+ P,0,93683,93883,A
+Sprite,Foreground,BottomCentre,"sb\splash.png",0,0
+ M,0,93683,,158,361,182,343
+ F,2,93683,93883,1,0
+ S,2,93683,93883,1,0.2
+ P,0,93683,93883,A
+Sprite,Foreground,Centre,"sb\splash.png",0,0
+ M,0,93849,,246,305
+ F,2,93849,94382,1,0
+ S,2,93849,94382,1,0.2
+ P,0,93849,94382,A
+Sprite,Foreground,BottomCentre,"sb\splash.png",0,0
+ M,0,93849,,246,305,246,289
+ F,2,93849,94382,1,0
+ S,2,93849,94382,1,0.2
+ P,0,93849,94382,A
+Sprite,Foreground,BottomLeft,"sb\splash.png",0,0
+ M,0,93849,,246,305,220,323
+ F,2,93849,94382,1,0
+ S,2,93849,94382,1,0.2
+ P,0,93849,94382,A
+Sprite,Foreground,16,"sb\splash.png",0,0
+ M,0,93849,,246,305,276,269
+ F,2,93849,94382,1,0
+ S,2,93849,94382,1,0.2
+ P,0,93849,94382,A
+Sprite,Foreground,Centre,"sb\splash.png",0,0
+ M,0,94349,,158,361
+ F,2,94349,94549,1,0
+ S,2,94349,94549,1,0.2
+ P,0,94349,94549,A
+Sprite,Foreground,BottomCentre,"sb\splash.png",0,0
+ M,0,94349,,158,361,143,365
+ F,2,94349,94549,1,0
+ S,2,94349,94549,1,0.2
+ P,0,94349,94549,A
+Sprite,Foreground,10,"sb\splash.png",0,0
+ M,0,94349,,158,361,142,379
+ F,2,94349,94549,1,0
+ S,2,94349,94549,1,0.2
+ P,0,94349,94549,A
+Sprite,Foreground,16,"sb\splash.png",0,0
+ M,0,94349,,158,361,170,343
+ F,2,94349,94549,1,0
+ S,2,94349,94549,1,0.2
+ P,0,94349,94549,A
+Sprite,Foreground,Centre,"sb\splash.png",0,0
+ M,0,94516,,158,361
+ F,2,94516,94716,1,0
+ S,2,94516,94716,1,0.2
+ P,0,94516,94716,A
+Sprite,Foreground,BottomLeft,"sb\splash.png",0,0
+ M,0,94516,,158,361,169,370
+ F,2,94516,94716,1,0
+ S,2,94516,94716,1,0.2
+ P,0,94516,94716,A
+Sprite,Foreground,BottomRight,"sb\splash.png",0,0
+ M,0,94516,,158,361,180,335
+ F,2,94516,94716,1,0
+ S,2,94516,94716,1,0.2
+ P,0,94516,94716,A
+Sprite,Foreground,16,"sb\splash.png",0,0
+ M,0,94516,,158,361,119,331
+ F,2,94516,94716,1,0
+ S,2,94516,94716,1,0.2
+ P,0,94516,94716,A
+Sprite,Foreground,Centre,"sb\splash.png",0,0
+ M,0,94683,,251,408
+ F,2,94683,95049,1,0
+ S,2,94683,95049,1,0.2
+ P,0,94683,95049,A
+Sprite,Foreground,CentreRight,"sb\splash.png",0,0
+ M,0,94683,,251,408,258,420
+ F,2,94683,95049,1,0
+ S,2,94683,95049,1,0.2
+ P,0,94683,95049,A
+Sprite,Foreground,10,"sb\splash.png",0,0
+ M,0,94683,,251,408,271,408
+ F,2,94683,95049,1,0
+ S,2,94683,95049,1,0.2
+ P,0,94683,95049,A
+Sprite,Foreground,10,"sb\splash.png",0,0
+ M,0,94683,,251,408,248,405
+ F,2,94683,95049,1,0
+ S,2,94683,95049,1,0.2
+ P,0,94683,95049,A
+Sprite,Foreground,Centre,"sb\splash.png",0,0
+ M,0,95016,,415,349
+ F,2,95016,95216,1,0
+ S,2,95016,95216,1,0.2
+ P,0,95016,95216,A
+Sprite,Foreground,BottomCentre,"sb\splash.png",0,0
+ M,0,95016,,415,349,418,346
+ F,2,95016,95216,1,0
+ S,2,95016,95216,1,0.2
+ P,0,95016,95216,A
+Sprite,Foreground,10,"sb\splash.png",0,0
+ M,0,95016,,415,349,417,355
+ F,2,95016,95216,1,0
+ S,2,95016,95216,1,0.2
+ P,0,95016,95216,A
+Sprite,Foreground,13,"sb\splash.png",0,0
+ M,0,95016,,415,349,409,334
+ F,2,95016,95216,1,0
+ S,2,95016,95216,1,0.2
+ P,0,95016,95216,A
+Sprite,Foreground,Centre,"sb\splash.png",0,0
+ M,0,95183,,493,278
+ F,2,95183,95549,1,0
+ S,2,95183,95549,1,0.2
+ P,0,95183,95549,A
+Sprite,Foreground,BottomRight,"sb\splash.png",0,0
+ M,0,95183,,493,278,478,287
+ F,2,95183,95549,1,0
+ S,2,95183,95549,1,0.2
+ P,0,95183,95549,A
+Sprite,Foreground,BottomRight,"sb\splash.png",0,0
+ M,0,95183,,493,278,493,266
+ F,2,95183,95549,1,0
+ S,2,95183,95549,1,0.2
+ P,0,95183,95549,A
+Sprite,Foreground,16,"sb\splash.png",0,0
+ M,0,95183,,493,278,478,269
+ F,2,95183,95549,1,0
+ S,2,95183,95549,1,0.2
+ P,0,95183,95549,A
+Sprite,Foreground,Centre,"sb\splash.png",0,0
+ M,0,95516,,412,123
+ F,2,95516,95716,1,0
+ S,2,95516,95716,1,0.2
+ P,0,95516,95716,A
+Sprite,Foreground,BottomRight,"sb\splash.png",0,0
+ M,0,95516,,412,123,422,116
+ F,2,95516,95716,1,0
+ S,2,95516,95716,1,0.2
+ P,0,95516,95716,A
+Sprite,Foreground,BottomRight,"sb\splash.png",0,0
+ M,0,95516,,412,123,392,99
+ F,2,95516,95716,1,0
+ S,2,95516,95716,1,0.2
+ P,0,95516,95716,A
+Sprite,Foreground,10,"sb\splash.png",0,0
+ M,0,95516,,412,123,373,144
+ F,2,95516,95716,1,0
+ S,2,95516,95716,1,0.2
+ P,0,95516,95716,A
+Sprite,Foreground,Centre,"sb\splash.png",0,0
+ M,0,95599,,412,123
+ F,2,95599,95799,1,0
+ S,2,95599,95799,1,0.2
+ P,0,95599,95799,A
+Sprite,Foreground,BottomCentre,"sb\splash.png",0,0
+ M,0,95599,,412,123,417,138
+ F,2,95599,95799,1,0
+ S,2,95599,95799,1,0.2
+ P,0,95599,95799,A
+Sprite,Foreground,10,"sb\splash.png",0,0
+ M,0,95599,,412,123,432,105
+ F,2,95599,95799,1,0
+ S,2,95599,95799,1,0.2
+ P,0,95599,95799,A
+Sprite,Foreground,13,"sb\splash.png",0,0
+ M,0,95599,,412,123,406,162
+ F,2,95599,95799,1,0
+ S,2,95599,95799,1,0.2
+ P,0,95599,95799,A
+Sprite,Foreground,Centre,"sb\splash.png",0,0
+ M,0,95683,,412,123
+ F,2,95683,96049,1,0
+ S,2,95683,96049,1,0.2
+ P,0,95683,96049,A
+Sprite,Foreground,BottomRight,"sb\splash.png",0,0
+ M,0,95683,,412,123,400,130
+ F,2,95683,96049,1,0
+ S,2,95683,96049,1,0.2
+ P,0,95683,96049,A
+Sprite,Foreground,BottomLeft,"sb\splash.png",0,0
+ M,0,95683,,412,123,394,93
+ F,2,95683,96049,1,0
+ S,2,95683,96049,1,0.2
+ P,0,95683,96049,A
+Sprite,Foreground,13,"sb\splash.png",0,0
+ M,0,95683,,412,123,397,171
+ F,2,95683,96049,1,0
+ S,2,95683,96049,1,0.2
+ P,0,95683,96049,A
+Sprite,Foreground,Centre,"sb\splash.png",0,0
+ M,0,96016,,250,174
+ F,2,96016,96382,1,0
+ S,2,96016,96382,1,0.2
+ P,0,96016,96382,A
+Sprite,Foreground,BottomLeft,"sb\splash.png",0,0
+ M,0,96016,,250,174,240,190
+ F,2,96016,96382,1,0
+ S,2,96016,96382,1,0.2
+ P,0,96016,96382,A
+Sprite,Foreground,12,"sb\splash.png",0,0
+ M,0,96016,,250,174,260,166
+ F,2,96016,96382,1,0
+ S,2,96016,96382,1,0.2
+ P,0,96016,96382,A
+Sprite,Foreground,10,"sb\splash.png",0,0
+ M,0,96016,,250,174,232,216
+ F,2,96016,96382,1,0
+ S,2,96016,96382,1,0.2
+ P,0,96016,96382,A
+Sprite,Foreground,Centre,"sb\splash.png",0,0
+ M,0,96349,,320,252
+ F,2,96349,96882,1,0
+ S,2,96349,96882,1,0.2
+ P,0,96349,96882,A
+Sprite,Foreground,BottomCentre,"sb\splash.png",0,0
+ M,0,96349,,320,252,309,263
+ F,2,96349,96882,1,0
+ S,2,96349,96882,1,0.2
+ P,0,96349,96882,A
+Sprite,Foreground,BottomRight,"sb\splash.png",0,0
+ M,0,96349,,320,252,304,236
+ F,2,96349,96882,1,0
+ S,2,96349,96882,1,0.2
+ P,0,96349,96882,A
+Sprite,Foreground,BottomCentre,"sb\splash.png",0,0
+ M,0,96349,,320,252,299,282
+ F,2,96349,96882,1,0
+ S,2,96349,96882,1,0.2
+ P,0,96349,96882,A
+Sprite,Foreground,Centre,"sb\splash.png",0,0
+ M,0,96849,,410,305
+ F,2,96849,97382,1,0
+ S,2,96849,97382,1,0.2
+ P,0,96849,97382,A
+Sprite,Foreground,BottomRight,"sb\splash.png",0,0
+ M,0,96849,,410,305,411,299
+ F,2,96849,97382,1,0
+ S,2,96849,97382,1,0.2
+ P,0,96849,97382,A
+Sprite,Foreground,BottomRight,"sb\splash.png",0,0
+ M,0,96849,,410,305,410,273
+ F,2,96849,97382,1,0
+ S,2,96849,97382,1,0.2
+ P,0,96849,97382,A
+Sprite,Foreground,10,"sb\splash.png",0,0
+ M,0,96849,,410,305,440,317
+ F,2,96849,97382,1,0
+ S,2,96849,97382,1,0.2
+ P,0,96849,97382,A
+Sprite,Foreground,Centre,"sb\splash.png",0,0
+ M,0,97349,,462,214
+ F,2,97349,97882,1,0
+ S,2,97349,97882,1,0.2
+ P,0,97349,97882,A
+Sprite,Foreground,BottomRight,"sb\splash.png",0,0
+ M,0,97349,,462,214,459,208
+ F,2,97349,97882,1,0
+ S,2,97349,97882,1,0.2
+ P,0,97349,97882,A
+Sprite,Foreground,BottomRight,"sb\splash.png",0,0
+ M,0,97349,,462,214,442,238
+ F,2,97349,97882,1,0
+ S,2,97349,97882,1,0.2
+ P,0,97349,97882,A
+Sprite,Foreground,13,"sb\splash.png",0,0
+ M,0,97349,,462,214,504,220
+ F,2,97349,97882,1,0
+ S,2,97349,97882,1,0.2
+ P,0,97349,97882,A
+Sprite,Foreground,Centre,"sb\splash.png",0,0
+ M,0,97849,,382,164
+ F,2,97849,98049,1,0
+ S,2,97849,98049,1,0.2
+ P,0,97849,98049,A
+Sprite,Foreground,CentreRight,"sb\splash.png",0,0
+ M,0,97849,,382,164,385,172
+ F,2,97849,98049,1,0
+ S,2,97849,98049,1,0.2
+ P,0,97849,98049,A
+Sprite,Foreground,12,"sb\splash.png",0,0
+ M,0,97849,,382,164,368,138
+ F,2,97849,98049,1,0
+ S,2,97849,98049,1,0.2
+ P,0,97849,98049,A
+Sprite,Foreground,13,"sb\splash.png",0,0
+ M,0,97849,,382,164,421,179
+ F,2,97849,98049,1,0
+ S,2,97849,98049,1,0.2
+ P,0,97849,98049,A
+Sprite,Foreground,Centre,"sb\splash.png",0,0
+ M,0,97933,,382,164
+ F,2,97933,98133,1,0
+ S,2,97933,98133,1,0.2
+ P,0,97933,98133,A
+Sprite,Foreground,BottomRight,"sb\splash.png",0,0
+ M,0,97933,,382,164,389,146
+ F,2,97933,98133,1,0
+ S,2,97933,98133,1,0.2
+ P,0,97933,98133,A
+Sprite,Foreground,10,"sb\splash.png",0,0
+ M,0,97933,,382,164,358,192
+ F,2,97933,98133,1,0
+ S,2,97933,98133,1,0.2
+ P,0,97933,98133,A
+Sprite,Foreground,16,"sb\splash.png",0,0
+ M,0,97933,,382,164,421,155
+ F,2,97933,98133,1,0
+ S,2,97933,98133,1,0.2
+ P,0,97933,98133,A
+Sprite,Foreground,Centre,"sb\splash.png",0,0
+ M,0,98016,,382,164
+ F,2,98016,98382,1,0
+ S,2,98016,98382,1,0.2
+ P,0,98016,98382,A
+Sprite,Foreground,CentreRight,"sb\splash.png",0,0
+ M,0,98016,,382,164,395,171
+ F,2,98016,98382,1,0
+ S,2,98016,98382,1,0.2
+ P,0,98016,98382,A
+Sprite,Foreground,10,"sb\splash.png",0,0
+ M,0,98016,,382,164,376,174
+ F,2,98016,98382,1,0
+ S,2,98016,98382,1,0.2
+ P,0,98016,98382,A
+Sprite,Foreground,BottomCentre,"sb\splash.png",0,0
+ M,0,98016,,382,164,358,155
+ F,2,98016,98382,1,0
+ S,2,98016,98382,1,0.2
+ P,0,98016,98382,A
+Sprite,Foreground,Centre,"sb\splash.png",0,0
+ M,0,98349,,209,118
+ F,2,98349,98549,1,0
+ S,2,98349,98549,1,0.2
+ P,0,98349,98549,A
+Sprite,Foreground,BottomCentre,"sb\splash.png",0,0
+ M,0,98349,,209,118,206,110
+ F,2,98349,98549,1,0
+ S,2,98349,98549,1,0.2
+ P,0,98349,98549,A
+Sprite,Foreground,BottomRight,"sb\splash.png",0,0
+ M,0,98349,,209,118,189,114
+ F,2,98349,98549,1,0
+ S,2,98349,98549,1,0.2
+ P,0,98349,98549,A
+Sprite,Foreground,10,"sb\splash.png",0,0
+ M,0,98349,,209,118,176,58
+ F,2,98349,98549,1,0
+ S,2,98349,98549,1,0.2
+ P,0,98349,98549,A
+Sprite,Foreground,Centre,"sb\splash.png",0,0
+ M,0,98516,,123,178
+ F,2,98516,98716,1,0
+ S,2,98516,98716,1,0.2
+ P,0,98516,98716,A
+Sprite,Foreground,BottomRight,"sb\splash.png",0,0
+ M,0,98516,,123,178,129,183
+ F,2,98516,98716,1,0
+ S,2,98516,98716,1,0.2
+ P,0,98516,98716,A
+Sprite,Foreground,BottomRight,"sb\splash.png",0,0
+ M,0,98516,,123,178,133,138
+ F,2,98516,98716,1,0
+ S,2,98516,98716,1,0.2
+ P,0,98516,98716,A
+Sprite,Foreground,13,"sb\splash.png",0,0
+ M,0,98516,,123,178,156,151
+ F,2,98516,98716,1,0
+ S,2,98516,98716,1,0.2
+ P,0,98516,98716,A
+Sprite,Foreground,Centre,"sb\splash.png",0,0
+ M,0,98599,,320,248
+ F,2,98599,102883,1,0
+ S,2,98599,102883,1,0.2
+ P,0,98599,102883,A
+Sprite,Foreground,BottomCentre,"sb\splash.png",0,0
+ M,0,98599,,320,248,305,261
+ F,2,98599,102883,1,0
+ S,2,98599,102883,1,0.2
+ P,0,98599,102883,A
+Sprite,Foreground,12,"sb\splash.png",0,0
+ M,0,98599,,320,248,336,218
+ F,2,98599,102883,1,0
+ S,2,98599,102883,1,0.2
+ P,0,98599,102883,A
+Sprite,Foreground,10,"sb\splash.png",0,0
+ M,0,98599,,320,248,299,302
+ F,2,98599,102883,1,0
+ S,2,98599,102883,1,0.2
+ P,0,98599,102883,A
+Sprite,Foreground,Centre,"sb\text\bar.png",0,0
+ M,0,0,,540,400
+ S,0,0,,0.4444444
+ R,17,0,1350,-0.4
+ F,0,0,12052,0,0.65
+ R,17,1350,4016,-0.4
+ R,17,4016,6683,-0.4
+ R,17,6683,9349,-0.4
+ R,17,9349,12016,-0.4
+ R,17,12016,14683,-0.4
+ R,17,14683,17349,-0.4
+ R,17,17349,20016,-0.4
+ R,17,20016,22683,-0.4
+ R,17,22683,25349,-0.4
+ R,17,25349,28016,-0.4
+ R,17,28016,30683,-0.4
+ R,17,30683,33349,-0.4
+ R,17,33349,36016,-0.4
+ R,17,36016,38683,-0.4
+ R,17,38683,41349,-0.4
+ R,17,41349,44016,-0.4
+ R,17,44016,46683,-0.4
+ R,17,46683,49350,-0.4
+ R,17,49350,52016,-0.4
+ R,17,52016,54683,-0.4
+ R,17,54683,57350,-0.4
+ R,17,57350,60016,-0.4
+ R,17,60016,62683,-0.4
+ R,17,62683,65350,-0.4
+ R,17,65350,68016,-0.4
+ F,0,65783,66583,0.7,0
+ F,0,66645,,0,0.7
+ R,17,68016,70683,-0.4
+ R,17,70683,73350,-0.4
+ R,17,73350,76016,-0.4
+ R,17,76016,78683,-0.4
+ R,17,78683,81349,-0.4
+ R,17,81349,84016,-0.4
+ R,17,84016,86683,-0.4
+ R,17,86683,89349,-0.4
+ R,17,89349,92016,-0.4
+ R,17,92016,94683,-0.4
+ R,17,94683,97349,-0.4
+ R,17,97349,100016,-0.4
+ F,0,98662,102933,0.7,0
+ R,17,100016,102683,-0.4
+ F,0,103933,,0
+Sprite,Foreground,Centre,"sb\text\shunao.png",0,0
+ M,0,0,,570,372
+ S,0,0,,0.1333333
+ C,0,0,,50,50,50
+ R,17,0,1350,-0.4
+ F,0,0,12052,0,0.8
+ R,17,1350,4016,-0.4
+ R,17,4016,6683,-0.4
+ R,17,6683,9349,-0.4
+ R,17,9349,12016,-0.4
+ R,17,12016,14683,-0.4
+ R,17,14683,17349,-0.4
+ R,17,17349,20016,-0.4
+ R,17,20016,22683,-0.4
+ R,17,22683,25349,-0.4
+ R,17,25349,28016,-0.4
+ R,17,28016,30683,-0.4
+ R,17,30683,33349,-0.4
+ R,17,33349,36016,-0.4
+ R,17,36016,38683,-0.4
+ R,17,38683,41349,-0.4
+ R,17,41349,44016,-0.4
+ R,17,44016,46683,-0.4
+ R,17,46683,49350,-0.4
+ R,17,49350,52016,-0.4
+ R,17,52016,54683,-0.4
+ R,17,54683,57350,-0.4
+ R,17,57350,60016,-0.4
+ R,17,60016,62683,-0.4
+ R,17,62683,65350,-0.4
+ R,17,65350,68016,-0.4
+ F,0,65783,66583,0.8,0
+ F,0,66645,,0,0.8
+ R,17,68016,70683,-0.4
+ R,17,70683,73350,-0.4
+ R,17,73350,76016,-0.4
+ R,17,76016,78683,-0.4
+ R,17,78683,81349,-0.4
+ R,17,81349,84016,-0.4
+ R,17,84016,86683,-0.4
+ R,17,86683,89349,-0.4
+ R,17,89349,92016,-0.4
+ R,17,92016,94683,-0.4
+ R,17,94683,97349,-0.4
+ R,17,97349,100016,-0.4
+ F,0,98662,102933,0.9,0
+ R,17,100016,102683,-0.4
+ F,0,103933,,0
+Sprite,Foreground,Centre,"sb\text\b00.png",0,0
+ M,0,0,,586,402
+ S,0,0,,0.05555556
+ C,0,0,,50,50,50
+ R,17,0,1350,-0.4
+ F,0,0,12052,0,0.8
+ R,17,1350,4016,-0.4
+ R,17,4016,6683,-0.4
+ R,17,6683,9349,-0.4
+ R,17,9349,12016,-0.4
+ R,17,12016,14683,-0.4
+ R,17,14683,17349,-0.4
+ R,17,17349,20016,-0.4
+ R,17,20016,22683,-0.4
+ R,17,22683,25349,-0.4
+ R,17,25349,28016,-0.4
+ R,17,28016,30683,-0.4
+ R,17,30683,33349,-0.4
+ R,17,33349,36016,-0.4
+ R,17,36016,38683,-0.4
+ R,17,38683,41349,-0.4
+ R,17,41349,44016,-0.4
+ R,17,44016,46683,-0.4
+ R,17,46683,49350,-0.4
+ R,17,49350,52016,-0.4
+ R,17,52016,54683,-0.4
+ R,17,54683,57350,-0.4
+ R,17,57350,60016,-0.4
+ R,17,60016,62683,-0.4
+ R,17,62683,65350,-0.4
+ R,17,65350,68016,-0.4
+ F,0,65783,66583,0.8,0
+ F,0,66645,,0,0.8
+ R,17,68016,70683,-0.4
+ R,17,70683,73350,-0.4
+ R,17,73350,76016,-0.4
+ R,17,76016,78683,-0.4
+ R,17,78683,81349,-0.4
+ R,17,81349,84016,-0.4
+ R,17,84016,86683,-0.4
+ R,17,86683,89349,-0.4
+ R,17,89349,92016,-0.4
+ R,17,92016,94683,-0.4
+ R,17,94683,97349,-0.4
+ R,17,97349,100016,-0.4
+ F,0,98662,102933,0.9,0
+ R,17,100016,102683,-0.4
+ F,0,103933,,0
+//Storyboard Sound Samples
+
+[TimingPoints]
+1350,333.333333333333,4,2,1,60,1,0
+1350,-125,4,2,1,60,0,0
+1683,-125,4,2,1,60,0,0
+1849,-125,4,2,1,60,0,0
+2016,-125,4,2,1,60,0,0
+2183,-125,4,2,1,60,0,0
+2349,-125,4,2,1,60,0,0
+2849,-125,4,2,1,60,0,0
+3016,-125,4,2,1,60,0,0
+3183,-125,4,2,1,60,0,0
+3349,-125,4,2,1,60,0,0
+3516,-125,4,2,1,60,0,0
+3683,-125,4,2,1,60,0,0
+3849,-125,4,2,1,60,0,0
+4016,-125,4,2,1,60,0,0
+4349,-125,4,2,1,60,0,0
+4516,-125,4,2,1,60,0,0
+4849,-125,4,2,1,60,0,0
+5016,-125,4,2,1,60,0,0
+5849,-125,4,2,1,60,0,0
+6016,-125,4,2,1,60,0,0
+6183,-125,4,2,1,60,0,0
+6349,-125,4,2,1,60,0,0
+6516,-125,4,2,1,60,0,0
+6683,-125,4,2,1,60,0,0
+6849,-125,4,2,1,60,0,0
+7016,-125,4,2,1,60,0,0
+7183,-125,4,2,1,60,0,0
+7349,-125,4,2,1,60,0,0
+7516,-125,4,2,1,60,0,0
+7683,-125,4,2,1,60,0,0
+8183,-125,4,2,1,60,0,0
+8349,-125,4,2,1,60,0,0
+8683,-125,4,2,1,60,0,0
+8849,-125,4,2,1,60,0,0
+9016,-125,4,2,1,60,0,0
+9349,-125,4,2,1,60,0,0
+9683,-125,4,2,1,60,0,0
+9849,-125,4,2,1,60,0,0
+10183,-100,4,2,1,60,0,0
+10349,-100,4,2,0,60,0,0
+10516,-100,4,2,1,60,0,0
+10683,-100,4,2,2,60,0,0
+10849,-100,4,2,1,60,0,0
+11516,-100,4,2,1,60,0,0
+11683,-100,4,2,1,60,0,0
+11849,-100,4,2,1,60,0,0
+12016,-100,4,2,1,70,0,0
+12266,-100,4,2,1,70,0,0
+12349,-100,4,2,1,70,0,0
+12683,-100,4,2,1,70,0,0
+12849,-100,4,2,1,70,0,0
+13016,-100,4,2,1,70,0,0
+14016,-100,4,2,1,70,0,0
+14183,-100,4,2,1,70,0,0
+14683,-100,4,2,1,70,0,0
+14933,-100,4,2,1,70,0,0
+15016,-100,4,2,1,70,0,0
+15183,-100,4,2,1,70,0,0
+15349,-100,4,2,1,70,0,0
+15683,-100,4,2,1,70,0,0
+15849,-100,4,2,1,70,0,0
+16016,-100,4,2,1,70,0,0
+16349,-100,4,2,1,70,0,0
+16599,-100,4,2,1,70,0,0
+16683,-100,4,2,1,70,0,0
+16849,-100,4,2,1,70,0,0
+17016,-100,4,2,1,70,0,0
+17183,-100,4,2,1,70,0,0
+17349,-100,4,2,1,70,0,0
+17516,-100,4,2,1,70,0,0
+17683,-100,4,2,1,70,0,0
+17849,-100,4,2,1,70,0,0
+18016,-100,4,2,1,70,0,0
+18183,-100,4,2,1,70,0,0
+18516,-100,4,2,1,70,0,0
+18683,-100,4,2,1,70,0,0
+18849,-100,4,2,1,70,0,0
+19016,-100,4,2,1,70,0,0
+19183,-100,4,2,0,70,0,0
+19349,-100,4,2,1,70,0,0
+19516,-100,4,2,1,70,0,0
+19683,-100,4,2,1,70,0,0
+19849,-100,4,2,1,70,0,0
+20016,-100,4,2,1,70,0,0
+20349,-100,4,2,1,70,0,0
+20516,-100,4,2,0,70,0,0
+20683,-100,4,2,1,70,0,0
+20849,-100,4,2,1,70,0,0
+21016,-100,4,2,1,70,0,0
+21183,-100,4,2,0,70,0,0
+21349,-100,4,2,1,70,0,0
+21683,-100,4,2,1,70,0,0
+21849,-100,4,2,0,70,0,0
+21933,-100,4,2,1,70,0,0
+22349,-100,4,2,1,70,0,0
+22516,-100,4,2,1,70,0,0
+22683,-100,4,2,1,60,0,0
+22849,-100,4,2,1,60,0,0
+23016,-100,4,2,1,60,0,0
+23183,-100,4,2,1,60,0,0
+23349,-100,4,2,1,60,0,0
+23516,-100,4,2,1,60,0,0
+23683,-100,4,2,1,60,0,0
+23849,-100,4,2,0,60,0,0
+24016,-100,4,2,1,60,0,0
+28183,-100,4,2,0,60,0,0
+28349,-100,4,2,1,60,0,0
+32849,-100,4,2,0,60,0,0
+33016,-100,4,2,1,60,0,0
+33516,-100,4,2,0,60,0,0
+33683,-100,4,2,1,60,0,0
+33849,-100,4,2,0,60,0,0
+34016,-100,4,2,1,60,0,0
+37516,-100,4,2,0,60,0,0
+37683,-100,4,2,1,60,0,0
+38183,-100,4,2,0,60,0,0
+38349,-100,4,2,1,60,0,0
+38516,-100,4,2,1,60,0,0
+40516,-100,4,2,0,60,0,0
+40599,-100,4,2,1,60,0,0
+41183,-100,4,2,0,60,0,0
+41349,-100,4,2,1,60,0,0
+42349,-100,4,2,0,60,0,0
+42433,-100,4,2,1,60,0,0
+43183,-100,4,2,0,60,0,0
+43349,-100,4,2,1,60,0,0
+44516,-100,4,2,0,60,0,0
+44599,-100,4,2,1,60,0,0
+45349,-100,4,2,1,65,0,0
+45516,-100,4,2,0,65,0,0
+45849,-100,4,2,1,65,0,0
+46183,-100,4,2,0,65,0,0
+46349,-100,4,2,1,65,0,0
+47183,-100,4,2,0,65,0,0
+47349,-100,4,2,2,65,0,0
+47433,-100,4,2,1,65,0,0
+47683,-100,4,2,1,65,0,0
+47766,-100,4,2,1,65,0,0
+48016,-100,4,2,1,65,0,0
+48099,-100,4,2,1,65,0,0
+48516,-100,4,2,0,65,0,0
+48683,-100,4,2,1,65,0,0
+50183,-100,4,2,0,65,0,0
+50349,-100,4,2,1,65,0,0
+51016,-100,4,2,0,65,0,0
+51183,-100,4,2,1,65,0,0
+52516,-100,4,2,0,65,0,0
+52683,-100,4,2,1,65,0,0
+53016,-100,4,2,2,65,0,0
+53183,-100,4,2,1,65,0,0
+54349,-100,4,2,0,65,0,0
+54516,-100,4,2,1,65,0,0
+55016,-100,4,2,0,65,0,0
+55349,-100,4,2,1,65,0,0
+56849,-100,4,2,0,65,0,0
+57183,-100,4,2,1,65,0,0
+57516,-100,4,2,0,65,0,0
+57683,-100,4,2,1,65,0,0
+58016,-100,4,2,0,65,0,0
+58349,-100,4,2,1,65,0,0
+59183,-100,4,2,0,65,0,0
+59349,-100,4,2,1,65,0,0
+60016,-100,4,2,0,65,0,0
+60183,-100,4,2,1,65,0,0
+60683,-100,4,2,0,65,0,0
+60849,-100,4,2,1,65,0,0
+63516,-100,4,2,0,65,0,0
+63599,-100,4,2,1,65,0,0
+64683,-100,4,2,0,65,0,0
+64849,-100,4,2,1,65,0,0
+66016,-100,4,2,0,65,0,0
+66183,-100,4,2,1,65,0,0
+66516,-100,4,2,0,65,0,0
+66599,-100,4,2,1,65,0,0
+66683,-86.9565217391304,4,2,1,80,0,1
+67183,-86.9565217391304,4,2,1,80,0,1
+67266,-86.9565217391304,4,2,1,80,0,1
+67849,-86.9565217391304,4,2,0,80,0,1
+67933,-86.9565217391304,4,2,1,80,0,1
+71016,-86.9565217391304,4,2,0,80,0,1
+71099,-86.9565217391304,4,2,1,80,0,1
+71183,-86.9565217391304,4,2,0,80,0,1
+71266,-86.9565217391304,4,2,1,80,0,1
+77016,-86.9565217391304,4,2,0,80,0,1
+77266,-86.9565217391304,4,2,1,80,0,1
+78349,-86.9565217391304,4,2,0,80,0,1
+78516,-86.9565217391304,4,2,2,80,0,1
+78599,-86.9565217391304,4,2,1,80,0,1
+81016,-86.9565217391304,4,2,0,80,0,1
+81183,-86.9565217391304,4,2,2,80,0,1
+81266,-86.9565217391304,4,2,1,80,0,1
+83016,-86.9565217391304,4,2,0,80,0,1
+83266,-86.9565217391304,4,2,1,80,0,1
+83683,-86.9565217391304,4,2,0,80,0,1
+83849,-86.9565217391304,4,2,2,80,0,1
+83933,-86.9565217391304,4,2,1,80,0,1
+86349,-86.9565217391304,4,2,0,80,0,1
+86599,-86.9565217391304,4,2,1,80,0,1
+87016,-86.9565217391304,4,2,0,80,0,1
+87349,-86.9565217391304,4,2,1,80,0,1
+89099,-86.9565217391304,4,2,0,80,0,1
+89266,-86.9565217391304,4,2,1,80,0,1
+90349,-86.9565217391304,4,2,0,80,0,1
+90599,-86.9565217391304,4,2,1,80,0,1
+91849,-86.9565217391304,4,2,0,80,0,1
+91933,-86.9565217391304,4,2,1,80,0,1
+92516,-86.9565217391304,4,2,0,80,0,1
+92683,-86.9565217391304,4,2,1,80,0,1
+93016,-86.9565217391304,4,2,0,80,0,1
+93099,-86.9565217391304,4,2,1,80,0,1
+93849,-86.9565217391304,4,2,2,80,0,1
+94016,-86.9565217391304,4,2,1,80,0,1
+94349,-86.9565217391304,4,2,2,80,0,1
+94516,-86.9565217391304,4,2,1,80,0,1
+94849,-86.9565217391304,4,2,2,80,0,1
+95016,-86.9565217391304,4,2,1,80,0,1
+95349,-86.9565217391304,4,2,2,80,0,1
+95516,-86.9565217391304,4,2,1,80,0,1
+95683,-86.9565217391304,4,2,0,80,0,1
+95849,-86.9565217391304,4,2,2,80,0,1
+96016,-86.9565217391304,4,2,1,80,0,1
+96349,-86.9565217391304,4,2,2,80,0,1
+96516,-86.9565217391304,4,2,0,80,0,1
+96683,-86.9565217391304,4,2,1,80,0,1
+96849,-86.9565217391304,4,2,1,80,0,1
+97016,-86.9565217391304,4,2,0,80,0,1
+97183,-86.9565217391304,4,2,1,80,0,1
+97349,-86.9565217391304,4,2,2,80,0,1
+97516,-86.9565217391304,4,2,1,80,0,1
+97683,-86.9565217391304,4,2,2,80,0,1
+97849,-86.9565217391304,4,2,1,80,0,1
+98016,-86.9565217391304,4,2,0,80,0,1
+98099,-86.9565217391304,4,2,1,80,0,1
+98516,-100,4,2,1,80,0,0
+100016,-100,4,2,1,80,0,0
+101349,-100,4,2,1,80,0,0
+102683,-100,4,2,1,80,0,0
+
+
+[Colours]
+Combo1 : 215,208,215
+Combo2 : 255,166,210
+Combo3 : 167,227,254
+Combo4 : 237,167,124
+Combo5 : 226,135,224
+SliderBorder : 255,255,255
+SliderTrackOverride : 0,21,50
+
+[HitObjects]
+136,260,1350,6,0,P|175:298|244:293,1,112,2|0,0:0|0:0,0:0:0:0:
+308,270,1849,1,2,0:0:0:0:
+376,221,2016,2,0,L|385:147,1,56,2|2,0:0|0:0,0:0:0:0:
+356,86,2349,1,2,0:0:0:0:
+107,42,2849,5,0,0:0:0:0:
+31,78,3016,2,0,L|36:146,1,56,2|0,0:0|0:0,0:0:0:0:
+111,169,3349,2,0,L|106:238,1,56,2|0,0:0|0:0,0:0:0:0:
+38,274,3683,2,0,L|44:348,1,56,2|0,0:0|0:0,0:0:0:0:
+116,369,4016,6,0,P|151:348|237:369,1,112,2|0,0:0|0:0,0:0:0:0:
+302,368,4516,2,0,L|312:245,1,112,2|0,0:0|0:0,0:0:0:0:
+366,192,5016,1,2,0:0:0:0:
+154,54,5516,5,0,0:0:0:0:
+108,124,5683,2,0,L|115:203,1,56,2|0,0:0|0:0,0:0:0:0:
+144,257,6016,2,0,P|171:263|208:257,1,56,2|0,0:0|0:0,0:0:0:0:
+276,228,6349,2,0,P|308:225|342:232,1,56,2|0,0:0|0:0,0:0:0:0:
+395,284,6683,6,0,L|388:354,2,56,2|0|2,0:0|0:0|0:0,0:0:0:0:
+441,213,7183,2,0,L|433:143,2,56,0|2|0,0:0|0:0|0:0,0:0:0:0:
+495,277,7683,1,2,0:0:0:0:
+256,358,8183,5,0,0:0:0:0:
+180,321,8349,2,0,L|109:317,1,56,2|0,0:0|0:0,0:0:0:0:
+57,266,8683,2,0,P|53:235|62:201,1,56,2|0,0:0|0:0,0:0:0:0:
+121,155,9016,2,0,P|125:124|116:90,1,56,2|0,0:0|0:0,0:0:0:0:
+183,44,9349,6,0,P|239:34|286:62,1,112,2|0,0:0|0:0,0:0:0:0:
+347,116,9849,2,0,L|333:245,1,112,2|0,0:0|0:0,0:0:0:0:
+370,303,10349,1,2,3:0:0:0:
+370,303,10516,1,8,0:1:0:0:
+282,361,10683,6,0,L|205:354,1,70,6|10,3:3|0:1,0:0:0:0:
+138,301,11016,2,0,P|132:263|131:221,1,70,14|10,0:0|0:1,0:0:0:0:
+179,154,11349,2,0,P|216:151|256:127,1,70,10|8,0:0|0:0,0:0:0:0:
+296,60,11683,2,0,L|356:54,3,35,8|8|12|12,0:0|0:3|0:3|0:3,0:0:0:0:
+376,63,12016,6,0,B|404:95|404:95|396:200,1,140,14|10,0:0|0:0,0:0:0:0:
+366,278,12516,1,0,0:0:0:0:
+302,343,12683,2,0,P|265:331|222:326,1,70,10|10,0:0|0:1,0:0:0:0:
+143,336,13016,2,0,P|109:347|75:352,1,70,10|8,0:0|0:1,0:0:0:0:
+18,280,13349,6,0,L|10:199,1,70,8|8,0:0|0:1,0:0:0:0:
+71,141,13683,2,0,L|77:61,1,70,10|0,0:0|0:0,0:0:0:0:
+159,34,14016,2,0,P|194:28|241:30,1,70,10|8,0:0|0:1,0:0:0:0:
+316,50,14349,1,10,0:0:0:0:
+316,50,14516,1,8,0:1:0:0:
+390,102,14683,6,0,P|379:161|371:247,1,140,14|10,0:0|0:0,0:0:0:0:
+425,313,15183,2,0,P|368:288|291:320,1,140,10|8,0:1|0:1,0:0:0:0:
+220,361,15683,1,14,0:0:0:0:
+220,361,15849,1,0,0:0:0:0:
+171,283,16016,6,0,L|177:209,1,70,10|8,0:0|0:1,0:0:0:0:
+246,154,16349,2,0,L|238:66,1,70,10|0,0:0|0:0,0:0:0:0:
+159,40,16683,2,0,P|123:30|84:40,1,70,10|8,0:0|0:1,0:0:0:0:
+31,104,17016,2,0,L|23:189,1,70,10|8,0:0|0:1,0:0:0:0:
+69,253,17349,6,0,L|76:337,2,70,14|2|10,0:0|3:0|0:0,0:0:0:0:
+116,175,17849,2,0,L|122:91,2,70,6|10|10,0:3|0:0|0:3,0:0:0:0:
+201,207,18349,2,0,P|239:214|288:201,1,70,14|0,0:0|0:0,0:0:0:0:
+347,161,18683,5,8,0:0:0:0:
+424,207,18849,2,0,L|419:286,1,70,10|10,0:1|0:0,0:0:0:0:
+365,350,19183,2,0,P|332:344|291:348,1,70,2|10,3:0|0:0,0:0:0:0:
+205,355,19516,1,10,0:1:0:0:
+114,365,19683,2,0,P|77:372|32:364,1,70,14|8,0:0|0:1,0:0:0:0:
+17,281,20016,6,0,P|16:229|99:157,1,140,14|8,0:0|0:0,0:0:0:0:
+158,140,20516,1,2,3:0:0:0:
+236,187,20683,2,0,P|273:190|322:177,1,70,8|4,0:3|0:3,0:0:0:0:
+372,245,21016,2,0,P|379:289|381:332,1,70,10|10,3:2|3:3,0:0:0:0:
+465,349,21349,6,0,P|473:285|493:197,1,140,12|14,0:1|3:2,0:0:0:0:
+428,143,21849,2,0,P|423:104|411:62,1,70,2|10,3:0|0:0,0:0:0:0:
+341,42,22183,1,8,0:0:0:0:
+341,42,22266,1,8,0:0:0:0:
+341,42,22349,2,0,P|298:41|259:57,1,70,8|4,0:3|0:3,0:0:0:0:
+201,107,22683,6,0,P|158:108|119:92,2,70,14|2|2,0:0|0:0|0:0,0:0:0:0:
+278,155,23183,1,2,0:0:0:0:
+278,155,23349,2,0,L|270:234,1,70,2|0,0:0|0:0,0:0:0:0:
+250,314,23683,2,0,P|214:312|175:323,1,70,0|2,0:0|3:0,0:0:0:0:
+76,325,24016,6,0,B|59:280|59:280|82:190,1,140,12|8,0:1|0:1,0:0:0:0:
+159,142,24516,1,0,0:0:0:0:
+229,84,24683,2,0,L|220:-1,2,70,8|0|10,0:1|0:0|0:1,0:0:0:0:
+270,165,25183,1,0,0:0:0:0:
+320,240,25349,6,0,P|384:259|445:216,1,140,8|10,0:1|0:1,0:0:0:0:
+491,145,25849,1,0,0:0:0:0:
+414,88,26016,2,0,L|421:5,2,70,8|0|8,0:1|0:0|0:1,0:0:0:0:
+326,111,26516,1,0,0:0:0:0:
+246,66,26683,6,0,L|95:77,1,140,10|8,0:1|0:1,0:0:0:0:
+56,153,27183,1,0,0:0:0:0:
+132,203,27349,2,0,L|215:210,1,70,8|0,0:1|0:0,0:0:0:0:
+262,277,27683,2,0,L|339:270,1,70,10|0,0:1|0:0,0:0:0:0:
+419,245,28016,6,0,P|430:179|471:87,1,140,8|10,0:1|0:1,0:0:0:0:
+498,30,28516,1,0,0:0:0:0:
+407,43,28683,2,0,P|368:45|326:34,1,70,10|8,0:1|3:2,0:0:0:0:
+246,34,29016,2,0,L|251:127,1,70,8|0,0:3|0:0,0:0:0:0:
+184,167,29349,6,0,P|116:140|47:179,1,140,14|8,0:1|0:1,0:0:0:0:
+16,246,29849,1,0,0:0:0:0:
+97,287,30016,2,0,L|107:361,1,70,8|0,0:1|0:0,0:0:0:0:
+196,370,30349,6,0,P|248:337|327:362,1,140,10|8,0:1|0:1,0:0:0:0:
+409,374,30849,1,0,0:0:0:0:
+495,344,31016,2,0,L|501:268,1,70,10|0,0:1|0:0,0:0:0:0:
+449,198,31349,2,0,L|442:116,1,70,8|0,0:1|0:0,0:0:0:0:
+373,67,31683,1,10,0:1:0:0:
+373,67,31849,1,0,0:0:0:0:
+295,114,32016,6,0,L|206:106,2,70,14|2|8,0:1|0:0|0:1,0:0:0:0:
+350,186,32516,2,0,B|383:260|313:253|357:343,1,140,2|2,0:0|3:0,0:0:0:0:
+266,363,33016,1,10,0:1:0:0:
+192,308,33183,6,0,P|127:294|31:289,1,140,0|0,0:0|3:0,0:0:0:0:
+23,202,33683,2,0,P|16:169|15:116,2,70,10|2|8,0:1|3:0|0:3,0:0:0:0:
+53,288,34183,1,8,3:2:0:0:
+143,297,34349,1,8,0:3:0:0:
+185,216,34516,1,4,0:3:0:0:
+219,116,34683,6,0,P|223:176|283:224,1,140,12|10,0:1|0:1,0:0:0:0:
+372,232,35183,1,0,0:0:0:0:
+462,234,35349,2,0,L|454:318,2,70,10|0|10,0:1|0:0|0:1,0:0:0:0:
+420,152,35849,1,0,0:0:0:0:
+364,79,36016,6,0,B|288:55|297:104|212:76,1,140,8|10,0:1|0:1,0:0:0:0:
+142,45,36516,1,0,0:0:0:0:
+65,95,36683,2,0,L|71:169,2,70,8|0|8,0:1|0:0|0:1,0:0:0:0:
+142,45,37183,1,0,0:0:0:0:
+178,128,37349,6,0,L|165:272,1,140,10|8,0:1|0:3,0:0:0:0:
+102,333,37849,1,10,0:0:0:0:
+188,362,38016,2,0,P|227:366|266:361,1,70,10|2,0:3|3:0,0:0:0:0:
+331,309,38349,2,0,P|366:305|404:312,1,70,10|0,0:1|0:0,0:0:0:0:
+482,269,38683,6,0,B|491:220|491:220|459:105,1,140,8|10,0:1|0:1,0:0:0:0:
+395,76,39183,1,10,3:2:0:0:
+307,98,39349,2,0,P|266:107|224:91,1,70,8|8,0:3|0:0,0:0:0:0:
+151,73,39683,2,0,L|145:166,1,70,4|8,0:3|3:2,0:0:0:0:
+66,187,40016,6,0,L|76:332,1,140,14|8,0:1|0:1,0:0:0:0:
+165,310,40516,2,0,P|231:293|290:326,1,140,2|0,3:0|0:0,0:0:0:0:
+370,370,41016,1,10,0:0:0:0:
+370,370,41183,1,8,3:3:0:0:
+445,320,41349,6,0,L|453:176,1,140,14|10,0:1|0:1,0:0:0:0:
+379,126,41849,2,0,P|313:127|256:191,1,140,8|8,3:2|0:3,0:0:0:0:
+236,263,42349,1,2,1:3:0:0:
+236,263,42516,1,8,0:0:0:0:
+186,356,42683,6,0,L|37:343,1,140,14|8,0:1|0:0,0:0:0:0:
+27,254,43183,2,0,P|33:190|96:141,1,140,6|4,3:0|0:3,0:0:0:0:
+178,136,43683,1,12,3:2:0:0:
+266,157,43849,6,0,P|275:222|283:301,1,140,0|8,0:0|0:1,0:0:0:0:
+351,355,44349,2,0,P|385:347|425:348,1,70,8|2,3:2|1:3,0:0:0:0:
+482,280,44683,2,0,P|484:242|491:189,1,70,8|4,0:3|0:3,0:0:0:0:
+464,122,45016,2,0,L|405:116,3,35,8|8|8|8,0:0|0:0|0:0|0:0,0:0:0:0:
+397,85,45349,6,0,L|316:92,1,70,8|0,0:0|0:0,0:0:0:0:
+235,97,45683,1,4,3:3:0:0:
+235,97,45849,1,12,3:2:0:0:
+54,124,46183,1,6,3:3:0:0:
+106,197,46349,2,0,L|100:278,1,70,12|0,0:0|0:0,0:0:0:0:
+153,341,46683,5,8,0:3:0:0:
+153,341,46849,1,12,3:2:0:0:
+334,323,47183,1,6,3:3:0:0:
+283,247,47349,2,0,P|319:233|363:236,1,70,14|8,1:3|0:1,0:0:0:0:
+398,155,47683,2,0,P|355:152|322:136,1,70,14|8,1:3|0:1,0:0:0:0:
+386,69,48016,6,0,P|455:89|484:160,1,140,14|8,0:1|0:0,0:0:0:0:
+440,226,48516,2,0,P|420:289|406:367,1,140,2|8,3:3|0:1,0:0:0:0:
+315,371,49016,1,14,0:0:0:0:
+240,318,49183,6,0,P|230:249|213:171,1,140,2|14,0:0|0:1,0:0:0:0:
+125,164,49683,2,0,P|129:127|136:84,1,70,8|2,0:0|0:1,0:0:0:0:
+73,26,50016,2,0,P|33:31|1:52,1,70,12|10,0:1|3:3,0:0:0:0:
+12,136,50349,1,14,0:0:0:0:
+12,136,50516,1,0,0:0:0:0:
+15,227,50683,6,0,B|89:204|82:261|162:236,1,140,14|2,0:1|1:3,0:0:0:0:
+232,199,51183,2,0,P|267:146|304:57,1,140,8|8,0:1|0:1,0:0:0:0:
+371,22,51683,1,8,0:0:0:0:
+437,83,51849,6,0,P|464:147|502:205,1,140,12|8,0:1|0:1,0:0:0:0:
+473,292,52349,2,0,P|437:286|395:296,1,70,12|2,0:0|3:0,0:0:0:0:
+322,334,52683,2,0,P|285:338|247:333,1,70,2|8,0:0|0:1,0:0:0:0:
+170,295,53016,1,6,1:3:0:0:
+170,295,53183,1,0,0:0:0:0:
+93,246,53349,6,0,B|100:106,1,140,14|8,0:1|0:0,0:0:0:0:
+169,46,53849,1,0,0:0:0:0:
+241,101,54016,2,0,L|248:259,1,140,4|2,0:0|1:3,0:0:0:0:
+170,295,54516,1,0,0:0:0:0:
+243,349,54683,6,0,P|309:323|382:359,1,140,4|4,0:0|1:2,0:0:0:0:
+456,377,55183,1,2,3:0:0:0:
+498,297,55349,2,0,L|491:245,3,35,12|0|8|8,0:0|0:0|0:0|0:0,0:0:0:0:
+461,229,55683,2,0,L|468:180,3,35,8|8|8|8,0:0|0:0|0:0|0:0,0:0:0:0:
+465,148,56016,6,0,B|397:119|402:171|321:145,1,140,12|8,0:0|0:0,0:0:0:0:
+260,86,56516,2,0,P|208:53|120:82,1,140,4|14,3:2|3:3,0:0:0:0:
+58,118,57016,2,0,L|64:195,1,70,2|0,1:3|0:0,0:0:0:0:
+69,278,57349,5,8,0:3:0:0:
+69,278,57516,1,14,3:3:0:0:
+127,347,57683,2,0,P|162:354|200:344,1,70,12|0,0:0|0:0,0:0:0:0:
+270,295,58016,2,0,L|261:211,1,70,10|6,1:3|0:3,0:0:0:0:
+348,194,58349,2,0,L|357:275,1,70,14|0,0:0|0:0,0:0:0:0:
+389,348,58683,6,0,P|454:354|509:292,1,140,14|8,0:1|0:0,0:0:0:0:
+480,217,59183,2,0,P|465:157|457:67,1,140,2|8,3:0|0:1,0:0:0:0:
+377,35,59683,1,14,0:0:0:0:
+290,61,59849,6,0,B|236:54|236:54|203:68|203:68|142:59,1,140,2|14,0:0|0:1,0:0:0:0:
+63,52,60349,1,10,0:0:0:0:
+63,52,60516,1,8,0:3:0:0:
+15,129,60683,2,0,L|10:212,1,70,2|4,3:0|0:3,0:0:0:0:
+40,285,61016,2,0,P|72:270|115:276,1,70,14|0,0:0|0:0,0:0:0:0:
+209,284,61349,6,0,L|214:364,2,70,12|0|8,0:1|0:0|0:0,0:0:0:0:
+225,194,61849,2,0,P|282:155|354:178,1,140,6|10,0:0|0:1,0:0:0:0:
+418,229,62349,1,10,0:0:0:0:
+418,229,62516,1,2,0:0:0:0:
+484,166,62683,6,0,L|478:81,2,70,14|0|8,0:1|0:0|0:0,0:0:0:0:
+418,229,63183,2,0,L|409:374,1,140,6|2,0:0|1:3,0:0:0:0:
+318,370,63683,1,8,0:3:0:0:
+318,370,63849,1,4,0:3:0:0:
+254,287,64016,6,0,P|219:281|185:286,1,70,14|0,0:1|0:0,0:0:0:0:
+108,334,64349,1,8,0:1:0:0:
+108,334,64516,2,0,P|67:339|35:334,1,70,12|2,0:0|3:3,0:0:0:0:
+15,246,64849,1,8,0:1:0:0:
+15,246,65016,2,0,L|20:163,1,70,12|8,0:0|0:1,0:0:0:0:
+73,102,65349,6,0,P|111:90|152:95,1,70,12|8,0:0|0:1,0:0:0:0:
+218,140,65683,2,0,L|214:218,1,70,12|8,0:0|0:1,0:0:0:0:
+232,299,66016,2,0,L|287:292,3,35,2|0|8|8,1:3|0:0|0:0|0:0,0:0:0:0:
+308,276,66349,2,0,L|357:282,3,35,10|0|2|8,0:3|0:0|1:3|0:0,0:0:0:0:
+392,263,66683,6,0,P|418:197|391:106,1,161.000003070831,14|8,0:1|0:0,0:0:0:0:
+302,64,67183,1,4,0:0:0:0:
+206,105,67349,2,0,L|118:98,1,80.5000015354157,8|8,0:1|0:1,0:0:0:0:
+97,200,67683,2,0,L|186:192,1,80.5000015354157,14|10,0:0|0:3,0:0:0:0:
+280,208,68016,6,0,B|302:246|302:246|285:363,1,161.000003070831,14|10,0:1|0:0,0:0:0:0:
+181,376,68516,1,0,0:0:0:0:
+97,312,68683,2,0,L|9:318,1,80.5000015354157,8|8,0:1|0:1,0:0:0:0:
+7,213,69016,2,0,P|17:172|45:124,1,80.5000015354157,12|8,0:0|0:1,0:0:0:0:
+113,69,69349,6,0,B|191:47|180:110|269:81,1,161.000003070831,14|8,0:1|0:0,0:0:0:0:
+367,47,69849,2,0,P|321:88|326:181,1,161.000003070831,4|0,0:0|0:0,0:0:0:0:
+416,233,70349,1,14,0:0:0:0:
+416,233,70516,1,0,0:0:0:0:
+326,181,70683,6,0,L|231:188,1,80.5000015354157,14|8,0:1|0:1,0:0:0:0:
+183,271,71016,2,0,L|18:255,1,161.000003070831,2|10,1:3|0:1,0:0:0:0:
+5,154,71516,1,8,0:1:0:0:
+78,79,71683,2,0,L|169:71,1,80.5000015354157,12|0,0:0|0:0,0:0:0:0:
+252,26,72016,6,0,L|413:39,1,161.000003070831,14|8,0:1|0:0,0:0:0:0:
+497,100,72516,2,0,P|482:138|475:186,1,80.5000015354157,4|0,0:0|0:0,0:0:0:0:
+387,233,72849,2,0,P|397:276|403:327,1,80.5000015354157,8|8,0:1|0:0,0:0:0:0:
+313,369,73183,1,0,0:0:0:0:
+219,323,73349,6,0,L|139:329,2,80.5000015354157,12|0|8,0:1|0:0|0:0,0:0:0:0:
+272,233,73849,2,0,B|295:153|235:162|266:71,1,161.000003070831,4|8,0:0|0:1,0:0:0:0:
+170,29,74349,1,12,0:0:0:0:
+170,29,74516,1,0,0:0:0:0:
+76,76,74683,6,0,B|39:110|39:110|54:230,1,161.000003070831,12|8,0:1|0:0,0:0:0:0:
+79,321,75183,2,0,B|133:315|133:315|177:328|177:328|242:318,1,161.000003070831,0|8,0:0|0:1,0:0:0:0:
+340,300,75683,1,8,0:0:0:0:
+340,300,75849,1,8,0:1:0:0:
+284,211,76016,6,0,P|278:172|275:120,1,80.5000015354157,14|0,0:1|0:0,0:0:0:0:
+364,75,76349,2,0,P|370:114|373:166,1,80.5000015354157,8|0,0:0|0:0,0:0:0:0:
+470,128,76683,2,0,P|464:89|461:37,1,80.5000015354157,14|0,0:1|0:0,0:0:0:0:
+364,75,77016,1,2,1:3:0:0:
+364,75,77183,1,2,3:0:0:0:
+266,38,77349,6,0,P|224:32|184:38,2,80.5000015354157,14|0|8,0:1|0:0|0:0,0:0:0:0:
+364,75,77849,2,0,P|351:139|339:237,1,161.000003070831,0|8,0:0|0:1,0:0:0:0:
+234,242,78349,2,0,P|240:281|244:325,1,80.5000015354157,2|6,1:3|3:0,0:0:0:0:
+145,361,78683,6,0,P|71:360|19:282,1,161.000003070831,0|8,0:0|0:0,0:0:0:0:
+10,191,79183,1,0,0:0:0:0:
+86,119,79349,2,0,P|130:111|186:125,1,80.5000015354157,8|8,0:1|0:1,0:0:0:0:
+253,174,79683,2,0,P|299:183|355:164,1,80.5000015354157,12|0,0:0|0:0,0:0:0:0:
+413,111,80016,6,0,P|365:166|386:261,1,161.000003070831,14|10,0:1|0:0,0:0:0:0:
+478,270,80516,2,0,L|474:356,1,80.5000015354157,0|10,0:0|0:1,0:0:0:0:
+372,374,80849,1,8,0:1:0:0:
+286,313,81016,2,0,P|248:306|202:317,1,80.5000015354157,2|6,1:3|3:0,0:0:0:0:
+103,327,81349,6,0,L|93:232,1,80.5000015354157,0|0,0:0|0:0,0:0:0:0:
+15,176,81683,2,0,P|64:146|174:177,1,161.000003070831,8|14,0:0|0:1,0:0:0:0:
+254,212,82183,1,0,0:0:0:0:
+343,159,82349,2,0,L|336:59,1,80.5000015354157,8|8,0:0|0:1,0:0:0:0:
+237,44,82683,6,0,P|196:42|146:25,2,80.5000015354157,12|0|2,0:1|0:0|1:3,0:0:0:0:
+337,78,83183,2,0,P|419:72|473:139,1,161.000003070831,2|8,3:0|0:1,0:0:0:0:
+485,229,83683,1,2,1:3:0:0:
+485,229,83849,1,6,3:0:0:0:
+406,298,84016,6,0,L|315:292,1,80.5000015354157,0|8,0:0|0:1,0:0:0:0:
+240,231,84349,2,0,B|159:203|165:263|80:237,1,161.000003070831,8|10,0:0|0:1,0:0:0:0:
+10,162,84849,1,2,0:0:0:0:
+83,238,85016,2,0,P|90:278|97:333,1,80.5000015354157,14|2,0:0|0:0,0:0:0:0:
+190,361,85349,6,0,P|261:325|339:354,1,161.000003070831,12|8,0:1|0:0,0:0:0:0:
+439,350,85849,2,0,P|448:277|476:188,1,161.000003070831,0|8,0:0|0:1,0:0:0:0:
+415,106,86349,1,2,1:3:0:0:
+415,106,86516,1,2,3:0:0:0:
+326,161,86683,6,0,P|287:172|243:163,1,80.5000015354157,14|0,0:1|0:0,0:0:0:0:
+243,60,87016,2,0,P|283:53|326:61,1,80.5000015354157,2|0,1:3|1:3,0:0:0:0:
+415,106,87349,2,0,L|407:199,1,80.5000015354157,10|8,0:1|0:1,0:0:0:0:
+395,290,87683,1,2,1:3:0:0:
+395,290,87849,1,0,1:3:0:0:
+307,347,88016,6,0,P|270:354|221:345,2,80.5000015354157,12|0|8,0:1|0:0|0:0,0:0:0:0:
+268,249,88516,2,0,P|205:243|129:306,1,161.000003070831,0|8,0:0|0:1,0:0:0:0:
+48,364,89016,1,8,0:0:0:0:
+21,262,89183,6,0,P|23:201|56:89,1,161.000003070831,2|8,3:0|0:1,0:0:0:0:
+136,46,89683,2,0,P|158:122|163:203,1,161.000003070831,8|14,0:0|0:1,0:0:0:0:
+131,300,90183,1,0,0:0:0:0:
+213,363,90349,2,0,P|262:355|316:359,1,80.5000015354157,2|2,1:3|3:0,0:0:0:0:
+372,286,90683,6,0,P|412:285|451:278,2,80.5000015354157,14|0|8,0:1|0:0|0:0,0:0:0:0:
+286,226,91183,2,0,B|280:172|280:172|291:130|291:130|283:56,1,161.000003070831,2|8,0:0|0:1,0:0:0:0:
+376,23,91683,1,12,0:0:0:0:
+376,23,91849,1,14,3:3:0:0:
+470,68,92016,6,0,L|462:160,1,80.5000015354157,12|8,0:0|0:3,0:0:0:0:
+378,210,92349,2,0,L|370:115,1,80.5000015354157,12|6,0:0|3:3,0:0:0:0:
+279,76,92683,2,0,L|216:67,3,40.2500007677078,12|8|8|8,0:0|0:0|0:0|0:0,0:0:0:0:
+192,46,93016,2,0,L|99:53,1,80.5000015354157,10|0,3:0|0:0,0:0:0:0:
+48,135,93349,6,0,P|42:177|40:233,1,80.5000015354157,12|8,0:0|0:1,0:0:0:0:
+94,305,93683,1,8,0:1:0:0:
+182,249,93849,2,0,P|225:241|271:254,2,80.5000015354157,6|8|8,1:3|0:1|0:1,0:0:0:0:
+94,305,94349,1,6,1:3:0:0:
+94,305,94516,1,8,0:1:0:0:
+187,352,94683,6,0,P|230:360|276:347,1,80.5000015354157,8|6,0:1|1:3,0:0:0:0:
+351,293,95016,1,8,0:1:0:0:
+429,222,95183,2,0,L|421:126,1,80.5000015354157,8|6,0:1|1:3,0:0:0:0:
+348,67,95516,1,8,0:3:0:0:
+348,67,95599,1,0,0:0:0:0:
+348,67,95683,2,0,P|300:54|259:55,1,80.5000015354157,6|6,3:3|1:3,0:0:0:0:
+186,118,96016,6,0,L|126:122,2,40.2500007677078,8|0|4,0:3|0:0|0:3,0:0:0:0:
+256,196,96349,2,0,P|252:229|249:292,2,80.5000015354157,6|6|4,1:3|0:3|0:3,0:0:0:0:
+346,249,96849,2,0,P|352:285|354:342,2,80.5000015354157,12|6|4,0:0|3:3|0:3,0:0:0:0:
+398,158,97349,6,0,P|436:149|476:156,2,80.5000015354157,6|8|6,1:3|0:3|1:3,0:0:0:0:
+318,108,97849,1,4,0:3:0:0:
+318,108,97933,1,0,0:0:0:0:
+318,108,98016,2,0,P|275:117|232:106,1,80.5000015354157,2|10,1:3|0:3,0:0:0:0:
+145,62,98349,1,6,0:3:0:0:
+59,122,98516,1,14,0:0:0:0:
+256,192,98599,12,0,102683,0:0:0:0:

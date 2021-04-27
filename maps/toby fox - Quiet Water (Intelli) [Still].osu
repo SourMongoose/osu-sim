@@ -1,0 +1,79 @@
+osu file format v14
+
+[General]
+AudioFilename: asdf.mp3
+AudioLeadIn: 0
+PreviewTime: 6168
+Countdown: 0
+SampleSet: Normal
+StackLeniency: 0.7
+Mode: 0
+LetterboxInBreaks: 0
+WidescreenStoryboard: 0
+
+[Editor]
+DistanceSpacing: 1
+BeatDivisor: 4
+GridSize: 8
+TimelineZoom: 1
+
+[Metadata]
+Title:Quiet Water
+TitleUnicode:Quiet Water
+Artist:toby fox
+ArtistUnicode:toby fox
+Creator:Intelli
+Version:Still
+Source:UNDERTALE
+Tags:TheOnlyLeon TotallyTurtwig OST Original Soundtrack slow easy piano radiation 33 chiptune
+BeatmapID:857602
+BeatmapSetID:393995
+
+[Difficulty]
+HPDrainRate:2
+CircleSize:3.2
+OverallDifficulty:1
+ApproachRate:2
+SliderMultiplier:0.8
+SliderTickRate:1
+
+[Events]
+//Background and Video events
+0,0,"evening-lake-quiet-trees-water-reflection-sunset-wallpaper-1.jpg",0,0
+//Break Periods
+//Storyboard Layer 0 (Background)
+//Storyboard Layer 1 (Fail)
+//Storyboard Layer 2 (Pass)
+//Storyboard Layer 3 (Foreground)
+//Storyboard Sound Samples
+
+[TimingPoints]
+168,1000,3,1,1,25,1,0
+12418,-100,3,1,1,10,0,0
+15168,-100,3,1,1,25,0,0
+32168,-100,3,1,1,5,0,0
+
+
+[Colours]
+Combo1 : 128,255,255
+Combo2 : 128,128,255
+Combo3 : 192,192,192
+
+[HitObjects]
+256,192,168,5,4,0:0:0:0:
+256,192,3168,5,4,0:0:0:0:
+256,192,6168,6,0,P|256:160|231:114,1,80,2|0,0:0|0:0,0:0:0:0:
+176,175,8168,1,0,0:0:0:0:
+121,233,9168,1,2,0:0:0:0:
+188,276,10168,6,0,L|228:293,1,40
+258,270,11168,2,0,L|298:287,1,40
+330,264,12168,6,0,P|363:273|363:141,1,240,2|2,0:0|0:0,0:0:0:0:
+314,79,16168,6,0,L|258:88,1,40
+272,125,17168,2,0,L|216:134,1,40
+228,172,18168,6,0,P|183:183|152:220,1,80,2|0,0:0|0:0,0:0:0:0:
+224,252,20168,1,0,0:0:0:0:
+225,332,21168,2,0,P|265:322|295:290,1,80,2|0,0:0|0:0,0:0:0:0:
+330,224,23168,1,0,0:0:0:0:
+361,150,24168,5,4,0:0:0:0:
+361,150,27168,5,4,0:0:0:0:
+256,192,27668,12,0,32168,0:0:0:0:

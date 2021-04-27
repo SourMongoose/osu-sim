@@ -1,0 +1,81 @@
+osu file format v14
+
+[General]
+AudioFilename: audio.mp3
+AudioLeadIn: 0
+PreviewTime: 10747
+Countdown: 0
+SampleSet: Soft
+StackLeniency: 0.7
+Mode: 0
+LetterboxInBreaks: 0
+EpilepsyWarning: 1
+WidescreenStoryboard: 1
+
+[Editor]
+DistanceSpacing: 1
+BeatDivisor: 4
+GridSize: 4
+TimelineZoom: 1
+
+[Metadata]
+Title:Start Menu
+TitleUnicode:Start Menu
+Artist:toby fox
+ArtistUnicode:toby fox
+Creator:DaxMasterix
+Version:Easy
+Source:UNDERTALE
+Tags:radiaton chiptune ferret
+BeatmapID:935503
+BeatmapSetID:434096
+
+[Difficulty]
+HPDrainRate:2
+CircleSize:2
+OverallDifficulty:2
+ApproachRate:3
+SliderMultiplier:1.4
+SliderTickRate:1
+
+[Events]
+//Background and Video events
+0,0,"BG.jpg",0,0
+//Break Periods
+//Storyboard Layer 0 (Background)
+//Storyboard Layer 1 (Fail)
+//Storyboard Layer 2 (Pass)
+//Storyboard Layer 3 (Foreground)
+//Storyboard Sound Samples
+
+[TimingPoints]
+90,666.07460035524,4,2,1,40,1,0
+21737,-100,4,3,1,40,0,0
+30396,-100,4,3,1,20,0,0
+30562,-100,4,3,1,40,0,0
+
+
+[Colours]
+Combo1 : 255,255,128
+Combo2 : 128,255,128
+Combo3 : 128,255,255
+Combo4 : 255,128,128
+
+[HitObjects]
+52,56,90,6,0,B|192:56|192:56|224:108|192:156,1,245
+460,328,2754,2,0,B|320:328|320:328|288:276|320:228,1,245
+52,56,5418,6,0,B|192:56|192:56|224:108|192:156,1,245
+256,280,7250,1,2,0:0:0:0:
+356,136,8082,2,0,B|384:52|460:64|460:64|480:192,1,245,2|0,0:0|0:0,0:0:0:0:
+184,280,10747,6,0,B|108:256|76:196|76:196|88:148|72:88,1,245
+328,280,13411,2,0,B|404:256|436:196|436:196|424:148|440:88,1,245
+184,280,16075,6,0,B|108:256|76:196|76:196|88:148|72:88,1,245
+200,152,17907,1,2,0:0:0:0:
+356,76,18740,2,0,B|353:71|396:136|372:212|372:212|420:304,1,245,2|0,0:0|0:0,0:0:0:0:
+132,48,21737,6,0,L|276:52,1,140,2|2,0:2|0:2,0:0:0:0:
+380,144,23069,2,0,L|236:148,1,140,2|2,0:2|0:2,0:0:0:0:
+132,240,24401,2,0,L|276:244,1,140,2|2,0:2|0:2,0:0:0:0:
+380,336,25733,2,0,L|236:340,1,140,2|2,0:2|0:2,0:0:0:0:
+128,256,27066,6,0,P|116:176|144:128,2,140,2|2|2,0:2|0:2|0:2,0:0:0:0:
+256,312,29064,1,2,0:2:0:0:
+384,256,29730,2,0,B|420:184|368:128|368:128|336:144,1,175,2|2,0:2|0:2,0:0:0:0:

@@ -1,0 +1,92 @@
+osu file format v14
+
+[General]
+AudioFilename: audio.mp3
+AudioLeadIn: 0
+PreviewTime: 2930
+Countdown: 0
+SampleSet: Soft
+StackLeniency: 0.4
+Mode: 0
+LetterboxInBreaks: 0
+WidescreenStoryboard: 0
+
+[Editor]
+DistanceSpacing: 1
+BeatDivisor: 4
+GridSize: 4
+TimelineZoom: 0.7
+
+[Metadata]
+Title:Kawaiku Naritai (Short Ver.)
+TitleUnicode:可愛くなりたい (Short Ver.)
+Artist:HoneyWorks feat.sana
+ArtistUnicode:HoneyWorks feat.鎖那
+Creator:yaleufeu
+Version:Easy
+Source:
+Tags:cute utaite sharuresu shyotamaze
+BeatmapID:1154150
+BeatmapSetID:544647
+
+[Difficulty]
+HPDrainRate:2
+CircleSize:3
+OverallDifficulty:2
+ApproachRate:3
+SliderMultiplier:1.1
+SliderTickRate:1
+
+[Events]
+//Background and Video events
+0,0,"Kawaiku Naritai.png",0,0
+Video,2498,"video.avi"
+//Break Periods
+//Storyboard Layer 0 (Background)
+//Storyboard Layer 1 (Fail)
+//Storyboard Layer 2 (Pass)
+//Storyboard Layer 3 (Foreground)
+//Storyboard Sound Samples
+
+[TimingPoints]
+3112,545.454545454546,4,2,1,60,1,0
+33112,-100,4,2,1,5,0,0
+
+
+[Colours]
+Combo1 : 255,0,128
+Combo2 : 255,128,0
+Combo3 : 0,102,255
+Combo4 : 128,128,255
+
+[HitObjects]
+183,40,3112,6,0,P|155:141|226:220,1,220,4|0,0:0|0:0,0:0:0:0:
+260,117,4748,1,8,0:0:0:0:
+332,199,5293,2,0,P|332:236|294:306,1,110,2|8,0:0|0:0,0:0:0:0:
+196,337,6384,1,0,0:0:0:0:
+111,265,6930,1,8,0:0:0:0:
+188,188,7475,6,0,P|280:162|311:48,1,220,4|0,0:0|0:0,0:0:0:0:
+209,82,9112,1,8,0:0:0:0:
+105,119,9657,2,0,P|82:172|90:234,1,110,2|8,0:0|0:0,0:0:0:0:
+166,297,10748,1,8,0:0:0:0:
+274,317,11293,1,8,0:0:0:0:
+375,273,11839,6,0,P|373:162|459:107,1,220,4|0,0:0|0:0,0:0:0:0:
+466,216,13475,1,8,0:0:0:0:
+456,325,14021,2,0,P|421:357|344:365,1,110,2|8,0:0|0:0,0:0:0:0:
+252,351,15112,1,0,0:0:0:0:
+186,263,15657,1,8,0:0:0:0:
+289,226,16202,6,0,P|213:159|105:190,1,220,4|0,0:0|0:0,0:0:0:0:
+92,297,17839,1,8,0:0:0:0:
+15,217,18384,2,0,P|18:142|41:109,1,110,2|8,0:0|0:0,0:0:0:0:
+132,60,19475,1,8,0:0:0:0:
+241,48,20021,1,8,0:0:0:0:
+350,59,20566,6,0,P|368:162|289:231,1,220,4|2,0:0|0:0,0:0:0:0:
+266,126,22202,1,8,0:0:0:0:
+190,206,22748,2,0,P|193:264|223:311,1,110,4|8,0:0|0:0,0:0:0:0:
+328,308,23839,2,0,P|355:260|357:206,1,110,2|8,0:0|0:0,0:0:0:0:
+332,98,24930,6,0,P|241:47|146:101,1,220,4|0,0:0|0:0,0:0:0:0:
+241,154,26566,1,8,0:0:0:0:
+324,225,27112,2,0,P|271:257|218:259,1,110,4|8,0:0|0:0,0:0:0:0:
+115,239,28202,2,0,P|117:295|150:345,1,110,8|8,0:0|0:0,0:0:0:0:
+249,374,29293,5,4,0:0:0:0:
+256,192,29430,12,0,33112,0:0:0:0:

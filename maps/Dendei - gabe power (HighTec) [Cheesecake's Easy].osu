@@ -1,0 +1,100 @@
+osu file format v14
+
+[General]
+AudioFilename: gabe - gabe power.mp3
+AudioLeadIn: 0
+PreviewTime: 8702
+Countdown: 0
+SampleSet: Soft
+StackLeniency: 0.6
+Mode: 0
+LetterboxInBreaks: 0
+WidescreenStoryboard: 1
+
+[Editor]
+Bookmarks: 30896
+DistanceSpacing: 1.2
+BeatDivisor: 4
+GridSize: 8
+TimelineZoom: 1
+
+[Metadata]
+Title:gabe power
+TitleUnicode:gabe power
+Artist:Dendei
+ArtistUnicode:Dendei
+Creator:HighTec
+Version:Cheesecake's Easy
+Source:
+Tags:gero bara- cheesecake mazziv shizuku- hikaru rose hikarur arphimigon snownino_ gabe the dog brain power noma ノマ
+BeatmapID:951401
+BeatmapSetID:420765
+
+[Difficulty]
+HPDrainRate:2
+CircleSize:2.5
+OverallDifficulty:2
+ApproachRate:2
+SliderMultiplier:0.799999999999999
+SliderTickRate:2
+
+[Events]
+//Background and Video events
+0,0,"maxresdefault (1).jpg",0,0
+Video,0,"O-oooooooooo+AAAAE-A-A-I-A-U-+JO-oooooooooooo+AAE-O-A-A-U-U-A-+E-eee-ee-eee+AAAAE-A-E-I-E-A-.avi"
+//Break Periods
+//Storyboard Layer 0 (Background)
+//Storyboard Layer 1 (Fail)
+//Storyboard Layer 2 (Pass)
+//Storyboard Layer 3 (Foreground)
+//Storyboard Sound Samples
+
+[TimingPoints]
+298,350.877192982456,4,2,1,50,1,0
+5912,348.837209302326,4,2,1,70,1,0
+8702,346.820809248555,4,2,1,80,1,0
+19800,-100,4,2,1,80,0,1
+30898,-100,4,2,1,80,0,0
+31245,-100,4,2,1,75,0,0
+31592,-100,4,2,1,70,0,0
+31938,-100,4,2,1,65,0,0
+32285,-100,4,2,1,60,0,0
+32632,-100,4,2,1,55,0,0
+32979,-100,4,2,1,50,0,0
+33326,-100,4,2,1,45,0,0
+33673,-100,4,2,1,40,0,0
+34019,-100,4,2,1,35,0,0
+34366,-100,4,2,1,30,0,0
+34713,-100,4,2,1,25,0,0
+35060,-100,4,2,1,20,0,0
+35407,-100,4,2,1,15,0,0
+35754,-100,4,2,1,10,0,0
+36100,-100,4,2,1,5,0,0
+
+
+[Colours]
+Combo1 : 216,39,150
+Combo2 : 74,111,128
+Combo3 : 160,112,139
+Combo4 : 51,186,215
+
+[HitObjects]
+256,192,5912,12,0,7307,0:0:0:0:
+338,229,8702,6,0,B|260:156|257:95|257:95|224:148|116:160,1,320,4|0,0:3|0:0,0:0:0:0:
+179,341,10782,1,0,0:0:0:0:
+370,331,11476,2,0,B|426:311|467:250|447:195|432:155|384:133|384:133|360:104|351:69,1,320,4|0,0:3|0:0,0:0:0:0:
+216,210,13557,1,0,0:0:0:0:
+80,345,14251,6,0,B|57:272|90:189|90:189|123:106|99:32,1,320,4|0,0:3|0:0,0:0:0:0:
+289,56,16332,1,0,0:0:0:0:
+263,246,17025,2,0,B|284:279|296:319|296:319|333:310|368:285|368:285|405:310|439:319|439:319|454:279|472:246,1,320,4|0,0:3|0:0,0:0:0:0:
+325,121,19106,1,0,0:0:0:0:
+178,244,19800,6,0,B|128:168|133:94|133:94|61:152|51:231,1,320,4|0,0:3|0:0,0:0:0:0:
+218,322,21881,1,0,0:0:0:0:
+406,302,22574,2,0,B|423:225|423:225|305:244|244:194|228:124,1,320,4|0,0:3|0:0,0:0:0:0:
+51,54,24655,1,0,0:0:0:0:
+8,243,25349,6,0,B|52:260|121:246|160:213|160:213|185:251|224:290|286:304,1,320,4|0,0:3|0:0,0:0:0:0:
+315,120,27430,1,0,0:0:0:0:
+125,87,28123,2,0,P|17:141|78:23,1,320,4|0,0:3|0:0,0:0:0:0:
+250,44,30204,1,0,0:0:0:0:
+199,229,30898,5,4,0:0:0:0:
+256,192,31245,12,0,36100,0:0:0:0:

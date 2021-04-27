@@ -1,0 +1,103 @@
+osu file format v14
+
+[General]
+AudioFilename: audio.mp3
+AudioLeadIn: 0
+PreviewTime: 20392
+Countdown: 0
+SampleSet: Normal
+StackLeniency: 0.7
+Mode: 0
+LetterboxInBreaks: 0
+WidescreenStoryboard: 1
+
+[Editor]
+DistanceSpacing: 1
+BeatDivisor: 2
+GridSize: 4
+TimelineZoom: 1
+
+[Metadata]
+Title:Pokey's House
+TitleUnicode:Pokey's House
+Artist:Suzuki Keiichi, Tanaka Hirokazu
+ArtistUnicode:鈴木慶一, 田中宏和
+Creator:DaxMasterix
+Version:Easy
+Source:MOTHER 2 ギーグの逆襲
+Tags:VGM VideoGame Instrumental chiptune Porky Minch ポーキー・ミンチ Shigesato Itoi 糸井重里 Ape HAL Laboratory Earthbound Gyiyg no Gyakushū SNES Super Nintendo Famicom peace Entertainment System 大森暁生 上村律夫 Akio Ohmori Ritsuo Kamimura Satoru Iwata 岩田聡
+BeatmapID:2199301
+BeatmapSetID:1052383
+
+[Difficulty]
+HPDrainRate:2
+CircleSize:3
+OverallDifficulty:5
+ApproachRate:4
+SliderMultiplier:0.8
+SliderTickRate:1
+
+[Events]
+//Background and Video events
+0,0,"BG.png",0,0
+//Break Periods
+//Storyboard Layer 0 (Background)
+//Storyboard Layer 1 (Fail)
+//Storyboard Layer 2 (Pass)
+//Storyboard Layer 3 (Foreground)
+//Storyboard Layer 4 (Overlay)
+//Storyboard Sound Samples
+
+[TimingPoints]
+17,423.728813559322,4,1,1,80,1,0
+13576,397.350993377483,4,1,3,80,1,0
+16800,299.25187032419,3,1,1,80,1,0
+20392,423.728813559322,4,1,1,80,1,0
+33952,397.350993377483,4,1,3,80,1,0
+37172,300,3,1,1,80,1,0
+40772,-100,3,1,4,80,0,0
+
+
+[Colours]
+Combo1 : 255,255,128
+Combo2 : 128,128,255
+Combo3 : 255,128,255
+Combo4 : 0,128,128
+
+[HitObjects]
+64,248,17,6,0,P|132:284|200:248,1,160,0|2,0:0|0:0,0:0:0:0:
+312,136,1711,2,0,P|379:100|447:135,1,160,0|2,0:0|0:0,0:0:0:0:
+451,216,2983,1,0,0:0:0:0:
+448,296,3406,5,0,0:0:0:0:
+292,324,4254,1,8,0:0:0:0:
+256,168,5101,1,0,0:0:0:0:
+412,140,5949,1,8,0:0:0:0:
+448,296,6796,6,0,P|372:320|292:324,1,160,0|2,0:0|0:0,0:0:0:0:
+292,164,8491,2,0,P|371:168|447:192,1,160,0|2,0:0|0:0,0:0:0:0:
+405,260,9762,1,0,0:0:0:0:
+344,312,10186,5,0,0:0:0:0:
+184,316,11033,1,8,0:0:0:0:
+72,200,11881,1,0,0:0:0:0:
+72,40,12728,1,8,0:0:0:0:
+220,124,13576,6,0,P|300:172|512:124,1,320,8|0,0:0|0:0,0:0:0:0:
+360,72,15960,1,0,0:0:0:0:
+118,82,16800,6,0,P|83:195|120:308,1,240
+358,325,18595,1,0,0:0:0:0:
+256,112,19493,1,0,0:0:0:0:
+178,262,20392,6,0,P|255:282|331:259,1,160,0|2,0:0|0:0,0:0:0:0:
+319,99,22086,2,0,B|283:75|257:50|257:50|235:75|193:99,1,160,0|2,0:0|0:0,0:0:0:0:
+120,133,23358,1,0,0:0:0:0:
+47,166,23781,5,0,0:0:0:0:
+178,260,24629,1,8,0:0:0:0:
+194,99,25476,1,0,0:0:0:0:
+325,193,26324,1,8,0:0:0:0:
+341,32,27171,6,0,P|395:73|439:160,1,160,0|2,0:0|0:0,0:0:0:0:
+389,305,28866,2,0,P|313:330|234:322,1,160,0|2,0:0|0:0,0:0:0:0:
+155,307,30137,1,0,0:0:0:0:
+83,271,30561,5,0,0:0:0:0:
+27,120,31408,1,8,0:0:0:0:
+185,147,32256,1,0,0:0:0:0:
+287,23,33103,1,8,0:0:0:0:
+343,174,33952,6,0,B|413:279|413:279|421:314|403:348|403:348|336:360|323:329|323:329|280:275|280:275,1,320,8|0,0:0|0:0,0:0:0:0:
+216,168,36336,1,0,0:0:0:0:
+256,192,37172,12,0,40772,0:0:0:0:

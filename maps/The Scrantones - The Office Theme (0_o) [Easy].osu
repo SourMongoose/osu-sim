@@ -1,0 +1,96 @@
+osu file format v5
+
+[General]
+AudioFilename: The Office Theme Song.mp3
+AudioLeadIn: 1996
+PreviewTime: 5677
+Countdown: 1
+SampleSet: Soft
+StackLeniency: 0.7
+Mode: 0
+LetterboxInBreaks: 1
+
+[Metadata]
+Title:The Office Theme
+Artist:The Scrantones
+Creator:0_o
+Version:Easy
+Source:The Office (American)
+Tags:office theme
+
+[Difficulty]
+HPDrainRate:4
+CircleSize:4
+OverallDifficulty:2
+SliderMultiplier:1
+SliderTickRate:1
+
+[Events]
+//Background and Video events
+0,0,"theoffice.jpg"
+//Break Periods
+//Storyboard Layer 0 (Background)
+//Storyboard Layer 1 (Failing)
+//Storyboard Layer 2 (Passing)
+//Storyboard Layer 3 (Foreground)
+//Storyboard Sound Samples
+//Background Colour Transformations
+3,100,0,0,0
+
+[TimingPoints]
+30,352.941176470588,4,2,0,70,1
+17149,-100,4,1,0,65,0
+28796,-100,4,2,0,50,0
+
+[Colours]
+Combo1 : 130,115,157
+Combo2 : 209,209,209
+Combo3 : 149,149,149
+Combo4 : 255,176,98
+
+[HitObjects]
+64,320,30,1,0
+64,248,382,1,2
+136,128,1088,1,0
+192,80,1441,1,0
+264,80,1794,1,0
+392,136,2500,5,0
+440,192,2853,1,0
+392,248,3206,1,2
+256,88,4265,1,0
+376,152,4971,1,0
+256,224,5677,1,0
+256,224,6029,6,0,C|160:288|64:192|192:64,1,400,0|2
+216,56,7794,1,0
+280,24,8147,1,0
+344,56,8500,2,0,B|448:104|488:168|488:248|432:328|328:344,1,400,0|2
+192,336,10618,1,2
+96,232,11324,1,2
+48,176,11677,5,0
+48,176,12029,2,0,L|144:128|216:184|312:136,1,300,0|0
+440,96,13794,1,0
+440,168,14147,1,2
+416,296,14853,1,0
+368,344,15206,1,2
+320,296,15559,1,0
+248,296,15912,1,2
+248,296,16265,2,2,L|248:168,1,100
+248,128,16971,5,6
+248,128,17324,2,0,B|120:128,4,100,8|0|8|0|10
+312,112,19088,1,0
+376,88,19441,1,8
+440,64,19794,2,0,L|440:192,3,100,0|10|0|10
+440,232,21206,1,10
+408,368,21912,1,8
+272,344,22618,5,14
+272,344,22971,2,2,B|80:216|400:152|240:-8,1,400,8|10
+184,24,24735,1,0
+184,96,25088,1,8
+256,96,25441,1,10
+256,232,26147,5,10
+256,304,26500,1,10
+328,304,26853,1,0
+400,304,27206,1,10
+328,304,27559,2,0,B|328:176,1,100,0|10
+257,204,28265,1,14
+256,192,28794,12,4,31265

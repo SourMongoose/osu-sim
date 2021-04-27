@@ -1,0 +1,74 @@
+osu file format v6
+
+[General]
+AudioFilename: Silver Forest -  - 09 - .mp3
+AudioLeadIn: 0
+PreviewTime: 2857
+Countdown: 1
+SampleSet: Normal
+StackLeniency: 0.7
+Mode: 0
+LetterboxInBreaks: 1
+
+[Editor]
+Bookmarks: 1429,1696,1964,5357,5714,6964,7304,7483,19983,20340,20697,21054
+DistanceSpacing: 0.800000011920929
+BeatDivisor: 4
+GridSize: 16
+
+[Metadata]
+Title:Marisa Spark
+Artist:Silver Forest
+Creator:Alice Margatroid
+Version:Easy
+Source:Touhou Soutenka
+Tags:Imperishable Night Kirisame NYO
+
+[Difficulty]
+HPDrainRate:1
+CircleSize:3
+OverallDifficulty:3
+SliderMultiplier:0.699999999999999
+SliderTickRate:2
+
+[Events]
+//Background and Video events
+0,0,"Konachan.com - 50437 kirisame_marisa touhou.jpg"
+//Break Periods
+//Storyboard Layer 0 (Background)
+//Storyboard Layer 1 (Fail)
+//Storyboard Layer 2 (Pass)
+//Storyboard Layer 3 (Foreground)
+//Storyboard Sound Samples
+//Background Colour Transformations
+3,100,163,162,255
+
+[TimingPoints]
+1429,357.142857142857,4,1,0,80,1,0
+2143,-100,4,1,0,100,0,0
+24536,-100,4,1,0,0,0,0
+
+[HitObjects]
+256,192,1429,2,2,B|256:128,2,52.4999999999999,2|2|8
+256,192,2857,12,0,4821
+112,224,5179,5,0
+112,272,5357,2,0,B|64:272,8,35
+144,272,6964,2,0,B|256:272,1,105
+256,192,7857,5,8
+256,112,8214,1,8
+336,112,8571,2,0,B|336:192,1,69.9999999999999,0|8
+256,192,9286,1,0
+256,112,9643,1,8
+176,112,10000,2,0,B|176:192,1,69.9999999999999,0|8
+96,192,10714,2,0,B|96:272,1,69.9999999999999,0|8
+176,256,11428,2,0,B|256:256,1,69.9999999999999,0|8
+320,224,12143,2,0,B|352:208,3,35
+64,208,13928,6,0,B|224:48,1,210
+304,64,15536,2,8,B|432:192,1,175
+448,304,17143,2,0,B|192:304,1,245
+224,208,18928,5,0
+224,128,19286,1,8
+304,128,19643,1,0
+304,128,20000,6,0,B|304:80,2,35
+304,208,20714,2,0,B|304:256,2,35
+256,192,21250,12,0,24643

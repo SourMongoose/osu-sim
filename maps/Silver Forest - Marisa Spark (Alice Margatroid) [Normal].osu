@@ -1,0 +1,89 @@
+osu file format v6
+
+[General]
+AudioFilename: Silver Forest -  - 09 - .mp3
+AudioLeadIn: 0
+PreviewTime: 2857
+Countdown: 1
+SampleSet: Normal
+StackLeniency: 0.7
+Mode: 0
+LetterboxInBreaks: 1
+
+[Editor]
+Bookmarks: 5357,6428,6786,7857,8911,9626,12143,14107,16428,18393,18928
+DistanceSpacing: 0.800000011920929
+BeatDivisor: 4
+GridSize: 8
+
+[Metadata]
+Title:Marisa Spark
+Artist:Silver Forest
+Creator:Alice Margatroid
+Version:Normal
+Source:Touhou Soutenka
+Tags:Imperishable Night Kirisame NYO
+
+[Difficulty]
+HPDrainRate:2
+CircleSize:4
+OverallDifficulty:3
+SliderMultiplier:0.999999999999999
+SliderTickRate:0.5
+
+[Events]
+//Background and Video events
+0,0,"Konachan.com - 50437 kirisame_marisa touhou.jpg"
+//Break Periods
+//Storyboard Layer 0 (Background)
+//Storyboard Layer 1 (Fail)
+//Storyboard Layer 2 (Pass)
+//Storyboard Layer 3 (Foreground)
+//Storyboard Sound Samples
+//Background Colour Transformations
+3,100,163,162,255
+
+[TimingPoints]
+1429,357.142857142857,4,1,0,80,1,0
+2143,-100,4,1,0,100,0,0
+23571,-100,4,1,0,0,0,0
+
+[HitObjects]
+192,208,1429,1,2
+256,112,1696,1,2
+320,208,1964,1,8
+256,192,2857,12,0,4286
+256,192,4643,5,8
+192,272,5000,1,0
+128,192,5357,1,8
+192,112,5714,1,0
+256,192,6071,1,8
+320,112,6428,1,0
+392,192,6786,1,8
+384,256,6964,2,2,B|352:352|176:320|192:224,1,250
+256,176,8214,1,8
+192,112,8571,6,0,B|128:112,2,50,0|0|8
+288,96,9286,2,0,B|288:32,2,50,0|0|8
+384,112,10000,2,0,B|448:112,7,50,0|0|0|0|0|0|0|8
+408,168,11428,5,0
+320,208,11786,1,8
+232,192,12143,2,0,B|256:272|176:272|176:272,1,99.9999999999999,0|8
+144,192,12857,2,0,B|80:216|112:288,1,99.9999999999999,0|8
+16,224,13571,1,4
+80,152,13928,5,0
+120,64,14286,1,0
+208,112,14643,1,8
+264,32,15000,2,0,B|336:32,1,50,0|8
+376,32,15357,1,0
+440,32,15536,2,0,B|448:80|416:144|344:120|344:96|296:96,1,200,8|0
+208,128,16607,5,8
+200,224,16964,2,0,B|229:180,1,50
+240,248,17321,2,0,B|272:200,1,50
+328,272,17857,2,0,B|357:222,1,50
+400,184,18214,1,8
+335,160,18393,2,0,B|368:80|368:80|296:56,1,150,0|8
+224,64,19286,2,0,B|160:80|160:80|176:112|176:112|176:128,1,99.9999999999999,0|8
+248,192,20000,6,0,B|184:192,2,50
+256,104,20714,2,0,B|256:40,1,50
+320,72,21071,2,0,B|320:144,1,50,0|4
+256,192,21428,12,0,23749

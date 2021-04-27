@@ -1,0 +1,86 @@
+osu file format v14
+
+[General]
+AudioFilename: audio.mp3
+AudioLeadIn: 0
+PreviewTime: 276
+Countdown: 1
+SampleSet: Soft
+StackLeniency: 0.7
+Mode: 0
+LetterboxInBreaks: 0
+WidescreenStoryboard: 1
+
+[Editor]
+Bookmarks: 3026
+DistanceSpacing: 0.7
+BeatDivisor: 4
+GridSize: 4
+TimelineZoom: 1
+
+[Metadata]
+Title:Love
+TitleUnicode:らぁぶ
+Artist:Zerosiki Material
+ArtistUnicode:零式マテリアル
+Creator:Xexxar
+Version:Normal
+Source:もんむすくえすと！
+Tags:Monster Girl Quest H Scene Eroge Visual Novel Monsters ero1 Torotoro Resistance とろとろレジスタンス 愛のあるシーン用 for a love scene Ascendance raabu
+BeatmapID:1051358
+BeatmapSetID:493676
+
+[Difficulty]
+HPDrainRate:2
+CircleSize:2.5
+OverallDifficulty:2
+ApproachRate:0
+SliderMultiplier:1.4
+SliderTickRate:1
+
+[Events]
+//Background and Video events
+0,0,"Alice_Unconscious_waifu2x_art_noise1_scale_tta_1.jpg",0,0
+//Break Periods
+//Storyboard Layer 0 (Background)
+//Storyboard Layer 1 (Fail)
+//Storyboard Layer 2 (Pass)
+//Storyboard Layer 3 (Foreground)
+//Storyboard Sound Samples
+
+[TimingPoints]
+576,1200,4,2,1,50,1,0
+40176,-100,4,2,1,35,0,0
+41376,-100,4,2,1,20,0,0
+42576,-100,4,2,1,5,0,0
+
+
+[Colours]
+Combo1 : 250,214,5
+Combo2 : 128,0,255
+Combo3 : 240,142,145
+Combo4 : 128,128,255
+
+[HitObjects]
+89,300,576,5,2,0:0:0:0:
+161,234,1776,2,0,P|243:217|323:246,1,140
+368,297,4176,1,0,0:0:0:0:
+394,202,5376,5,2,0:0:0:0:
+482,157,6576,2,0,B|509:115|509:115|509:12,2,140
+401,101,10176,5,2,0:0:0:0:
+318,50,11376,2,0,P|242:38|161:60,1,140
+91,89,13776,1,0,0:0:0:0:
+172,144,14976,5,2,0:0:0:0:
+86,189,16176,2,0,B|57:231|57:231|58:338,2,140
+168,241,19776,5,2,0:0:0:0:
+247,183,20976,2,0,P|263:131|250:35,1,140
+161,17,23376,1,0,0:0:0:0:
+67,45,24576,5,2,0:0:0:0:
+139,110,25776,2,0,B|160:155|160:155|146:264,2,140
+47,144,29376,5,2,0:0:0:0:
+10,234,30576,2,0,P|0:292|19:382,1,140,0|0,0:0|0:0,0:0:0:0:
+105,335,32976,1,0,0:0:0:0:
+197,366,34176,5,2,0:0:0:0:
+285,323,35376,2,0,B|334:307|334:307|426:307,2,140
+205,264,38976,5,2,0:0:0:0:
+256,192,39276,12,0,42576,0:0:0:0:

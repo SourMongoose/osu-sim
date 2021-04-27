@@ -1,0 +1,104 @@
+osu file format v14
+
+[General]
+AudioFilename: audio.mp3
+AudioLeadIn: 0
+PreviewTime: 349
+Countdown: 0
+SampleSet: Soft
+StackLeniency: 0.7
+Mode: 0
+LetterboxInBreaks: 0
+WidescreenStoryboard: 1
+
+[Editor]
+DistanceSpacing: 1
+BeatDivisor: 4
+GridSize: 4
+TimelineZoom: 0.7999994
+
+[Metadata]
+Title:A Flash of Memory
+TitleUnicode:A Flash of Memory
+Artist:Suzuki Keiichi, Tanaka Hirokazu
+ArtistUnicode:鈴木慶一, 田中宏和
+Creator:DaxMasterix
+Version:Easy
+Source:MOTHER 2 ギーグの逆襲
+Tags:Shigesato Itoi 糸井 重里 Ape HAL Laboratory Earthbound Gyiyg no Gyakushū SNES Super Nintendo Famicom peace Entertainment System 大森暁生 上村律夫 Akio Ohmori Ritsuo Kamimura Satoru Iwata 岩田 聡 daru
+BeatmapID:1715258
+BeatmapSetID:818013
+
+[Difficulty]
+HPDrainRate:3
+CircleSize:2
+OverallDifficulty:3
+ApproachRate:4
+SliderMultiplier:1
+SliderTickRate:1
+
+[Events]
+//Background and Video events
+0,0,"BG.png",0,0
+//Break Periods
+//Storyboard Layer 0 (Background)
+//Storyboard Layer 1 (Fail)
+//Storyboard Layer 2 (Pass)
+//Storyboard Layer 3 (Foreground)
+//Storyboard Layer 4 (Overlay)
+//Storyboard Sound Samples
+
+[TimingPoints]
+349,767.754318618042,4,2,1,15,1,0
+2652,-100,4,2,1,20,0,0
+3420,-100,4,2,1,25,0,0
+3803,-100,4,2,1,30,0,0
+4187,-100,4,2,1,35,0,0
+6491,-100,4,2,1,40,0,0
+38736,-100,4,2,1,35,0,0
+39504,-100,4,2,1,30,0,0
+40272,-100,4,2,1,25,0,0
+41039,-100,4,2,1,20,0,0
+41807,-100,4,2,1,15,0,0
+42575,-100,4,2,1,10,0,0
+43343,-100,4,2,1,5,0,0
+
+
+[Colours]
+Combo1 : 0,128,192
+Combo2 : 128,128,192
+
+[HitObjects]
+176,108,349,6,0,B|175:141|176:200|112:252|156:300,1,200,0|8,0:0|0:0,0:0:0:0:
+256,344,2652,1,2,0:0:0:0:
+356,300,3420,2,0,B|400:252|336:200|337:141|336:108,1,200,0|8,0:0|0:0,0:0:0:0:
+408,40,5723,1,2,0:0:0:0:
+432,137,6491,6,0,P|360:200|264:176,1,200,0|8,0:0|0:0,0:0:0:0:
+236,80,8794,1,2,0:0:0:0:
+160,8,9562,1,0,0:0:0:0:
+128,104,10329,2,0,L|112:151,2,50,0|0|8,0:0|0:0|0:0,0:0:0:0:
+227,93,11865,1,2,0:0:0:0:
+321,44,12633,6,0,B|366:66|418:44|418:44|430:92|482:117,1,200,0|8,0:0|0:0,0:0:0:0:
+416,192,14936,1,2,0:0:0:0:
+482,267,15704,2,0,B|430:292|418:340|418:340|366:318|321:340,1,200,0|8,0:0|0:0,0:0:0:0:
+256,264,18007,1,2,0:0:0:0:
+242,164,18775,6,0,P|261:119|398:93,1,200,0|8,0:0|0:0,0:0:0:0:
+472,27,21078,1,2,0:0:0:0:
+491,126,21846,2,0,L|496:176,1,50
+497,225,22613,2,0,L|492:275,1,50
+401,317,23765,1,8,0:0:0:0:
+355,336,24149,1,2,0:0:0:0:
+262,322,24917,6,0,P|184:300|114:304,1,150
+68,319,26452,1,8,0:0:0:0:
+18,232,27220,1,2,0:0:0:0:
+46,136,27988,2,0,P|121:73|223:62,1,200,0|8,0:0|0:0,0:0:0:0:
+316,85,30291,1,2,0:0:0:0:
+363,101,30675,1,0,0:0:0:0:
+412,92,31059,6,0,P|445:160|449:238,1,150
+438,282,32594,1,8,0:0:0:0:
+351,331,33362,1,2,0:0:0:0:
+257,296,34130,2,0,L|207:301,1,50
+161,333,34897,2,0,L|111:338,1,50
+66,255,36049,1,8,0:0:0:0:
+80,206,36433,1,2,0:0:0:0:
+256,192,37201,12,0,43343,0:0:0:0:

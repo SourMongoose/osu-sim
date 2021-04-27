@@ -1,0 +1,78 @@
+osu file format v7
+
+[General]
+AudioFilename: disney channel - suite life on deck theme.mp3
+AudioLeadIn: 3000
+PreviewTime: 18352
+Countdown: 1
+SampleSet: Normal
+StackLeniency: 0.7
+Mode: 0
+LetterboxInBreaks: 1
+
+[Editor]
+Bookmarks: 14376
+DistanceSpacing: 0.5
+BeatDivisor: 1
+GridSize: 8
+
+[Metadata]
+Title:Livin' the Suite Life
+Artist:Steve Rushton
+Creator:Bassmaster
+Version:London
+Source:The Suite Life on Deck
+Tags:disney channel
+
+[Difficulty]
+HPDrainRate:3
+CircleSize:3
+OverallDifficulty:3
+SliderMultiplier:0.4
+SliderTickRate:0.5
+
+[Events]
+//Background and Video events
+0,0,"the_suite_life_on_deck_2.jpg"
+//Break Periods
+//Storyboard Layer 0 (Background)
+//Storyboard Layer 1 (Fail)
+//Storyboard Layer 2 (Pass)
+//Storyboard Layer 3 (Foreground)
+//Storyboard Sound Samples
+//Background Colour Transformations
+3,100,163,162,255
+
+[TimingPoints]
+632,279.06976744186,4,1,0,60,1,0
+27201,279.06976744186,4,1,0,60,1,0
+
+[Colours]
+Combo1 : 55,55,251
+Combo2 : 255,255,255
+
+[HitObjects]
+256,192,632,1,0
+416,192,2864,1,8
+416,32,5097,6,0,L|96:32,1,320,0|8
+88,112,8445,5,0
+88,192,9562,1,8
+88,272,10678,1,0
+168,272,11794,2,0,B|272:352|392:320|448:264|440:176,1,360,8|0
+304,144,16259,5,0
+224,144,17376,2,0,B|136:144,2,80,0|8|0
+224,224,19608,5,0
+280,280,20725,1,8
+336,224,21841,1,0
+392,280,22957,1,8
+392,120,25190,5,0
+248,120,27201,5,0
+168,120,28317,1,8
+88,120,29433,1,0
+88,200,30549,1,8
+88,280,31666,1,0
+248,280,33898,5,0
+328,280,35014,1,8
+408,280,36131,1,0
+416,160,37805,5,0
+256,192,40038,5,4

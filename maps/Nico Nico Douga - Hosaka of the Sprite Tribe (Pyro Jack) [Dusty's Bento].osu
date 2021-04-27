@@ -1,0 +1,88 @@
+osu file format v7
+
+[General]
+AudioFilename: Hosaka of the Sprite Tribe.mp3
+AudioLeadIn: 0
+PreviewTime: 31083
+Countdown: 1
+SampleSet: Soft
+StackLeniency: 0.7
+Mode: 0
+LetterboxInBreaks: 1
+
+[Editor]
+Bookmarks: 31115
+DistanceSpacing: 0.800000011920929
+BeatDivisor: 4
+GridSize: 8
+
+[Metadata]
+Title:Hosaka of the Sprite Tribe
+Artist:Nico Nico Douga
+Creator:Pyro Jack
+Version:Dusty's Bento
+Source:
+Tags:Minami-Ke CDFA Dusty Justin Bieber Teta
+
+[Difficulty]
+HPDrainRate:4
+CircleSize:3
+OverallDifficulty:5
+SliderMultiplier:1.4
+SliderTickRate:2
+
+[Events]
+//Background and Video events
+0,0,"n644673596_991431_7.jpg"
+Video,0,"Hosaka of the Sprite Tribe.avi"
+//Break Periods
+//Storyboard Layer 0 (Background)
+//Storyboard Layer 1 (Fail)
+//Storyboard Layer 2 (Pass)
+//Storyboard Layer 3 (Foreground)
+//Storyboard Sound Samples
+//Background Colour Transformations
+3,100,163,162,255
+
+[TimingPoints]
+15031,501.882057716437,4,2,0,100,1,0
+
+[HitObjects]
+216,336,15031,2,0,B|40:336|32:160,1,280,2|0
+152,192,16536,1,2
+120,72,17038,2,0,B|224:16|288:120|392:72|392:72|400:72,1,280,2|4
+296,336,19046,6,0,B|384:336|432:256,1,140,2|0
+448,168,20049,2,0,B|448:80|368:32,1,140,2|0
+326,139,21053,6,0,B|158:139,2,140,2|0|2
+80,48,23061,6,0,B|0:80|0:168,2,140,2|0|2
+112,160,24566,1,0
+112,264,25068,2,0,B|160:320|256:320,1,140,2|0
+275,200,26072,2,0,B|352:200|400:256,1,140,2|0
+448,352,27076,6,0,B|528:288|544:176|448:80,1,280,0|2
+368,64,28581,1,0
+256,40,29083,2,0,B|256:336,1,280,2|4
+88,344,31091,6,0,B|88:192,1,140,2|0
+200,224,32094,2,0,B|200:72,1,140
+312,300,33098,6,0,B|312:160,1,140,2|0
+424,180,34102,2,0,B|424:40,2,140,4|0|0
+424,296,35608,1,2
+312,160,36110,5,0
+312,48,36611,1,2
+88,204,37113,5,0
+88,88,37615,1,2
+200,224,38117,5,4
+200,336,38619,1,0
+312,336,39121,6,0,B|496:336|448:152|376:136,1,280,2|0
+312,224,40626,1,0
+200,48,41128,6,0,B|16:48|64:232|136:248,1,280,2|0
+200,160,42634,1,0
+256,256,43136,6,0,B|392:336,1,140,2|0
+256,256,44140,2,0,B|120:336,1,140,2|0
+256,128,45143,6,0,B|120:48,1,140,2|0
+256,128,46147,2,0,B|392:48,1,140,2|4
+256,192,47151,12,4,49158
+88,40,49660,6,0,B|88:192,1,140,2|0
+200,180,50664,1,0
+256,88,51166,6,0,B|440:88|392:272|320:288,1,280,2|2
+256,200,52672,1,2
+256,192,53174,12,4,54930

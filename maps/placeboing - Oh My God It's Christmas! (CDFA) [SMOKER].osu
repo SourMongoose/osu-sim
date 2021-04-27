@@ -1,0 +1,76 @@
+osu file format v7
+
+[General]
+AudioFilename: CheeseburgerApocalypse.mp3.mp3
+AudioLeadIn: 0
+PreviewTime: 8777
+Countdown: 1
+SampleSet: Normal
+StackLeniency: 0.7
+Mode: 0
+LetterboxInBreaks: 1
+
+[Editor]
+DistanceSpacing: 0.800000011920929
+BeatDivisor: 4
+GridSize: 8
+
+[Metadata]
+Title:Oh My God It's Christmas!
+Artist:placeboing
+Creator:CDFA
+Version:SMOKER
+Source:Left 4 Dead 2
+Tags:Nick Ellis Rochelle Coach One of those charging things auto-tune Davidz123
+
+[Difficulty]
+HPDrainRate:2
+CircleSize:3
+OverallDifficulty:2
+SliderMultiplier:1.6
+SliderTickRate:2
+
+[Events]
+//Background and Video events
+0,0,"Left4Dead2.jpg"
+//Break Periods
+2,27055,27659
+//Storyboard Layer 0 (Background)
+//Storyboard Layer 1 (Fail)
+//Storyboard Layer 2 (Pass)
+//Storyboard Layer 3 (Foreground)
+//Storyboard Sound Samples
+//Background Colour Transformations
+3,100,0,0,0
+
+[TimingPoints]
+99,540.540540540541,4,1,0,73,1,0
+29219,540.540540540541,4,1,0,82,1,0
+
+[HitObjects]
+128,112,8747,2,0,B|111:232|186:270,2,160,2|2|2
+256,112,10369,1,8
+384,112,10909,2,0,B|401:232|326:270,2,160,2|2|2
+256,112,12531,1,8
+256,192,13071,12,4,16315
+252,188,17396,6,0,B|224:144|176:152|152:208|96:128,1,160,4|8
+114,22,18477,2,2,B|187:80|272:16,1,160
+371,101,19558,6,0,B|372:199,2,80,0|8|8
+242,101,20639,1,2
+242,229,21180,1,2
+242,356,21720,6,0,B|384:264,1,160,0|8
+285,178,22801,2,0,B|144:272,1,160,0|8
+256,192,23612,12,0,26855
+256,84,29219,6,2,B|256:280,1,160,2|10
+176,160,30300,2,2,B|385:159,1,160,2|10
+415,242,31381,6,2,B|352:344|288:232,1,160,2|10
+294,115,32462,2,0,B|380:114,2,80,2|8|8
+203,205,33543,6,2,B|72:328,2,160,2|10|2
+293,114,35164,1,2
+256,192,35435,12,4,36786
+256,192,37867,6,0,B|232:136|200:192,2,80,0|8|8
+261,319,38948,2,2,B|484:319,1,160
+511,228,40029,2,2,B|480:216|464:208|480:184|520:176,2,80
+382,228,41110,1,2
+253,228,41651,1,10
+256,192,42191,12,4,45840

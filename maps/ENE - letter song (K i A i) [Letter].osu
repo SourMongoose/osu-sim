@@ -1,0 +1,4535 @@
+osu file format v14
+
+[General]
+AudioFilename: Doriko (ft. ENE) - letter song (korean).mp3
+AudioLeadIn: 0
+PreviewTime: 191266
+Countdown: 0
+SampleSet: None
+StackLeniency: 0.2
+Mode: 0
+LetterboxInBreaks: 0
+EpilepsyWarning: 1
+WidescreenStoryboard: 1
+
+[Editor]
+DistanceSpacing: 1
+BeatDivisor: 4
+GridSize: 8
+TimelineZoom: 1.15
+
+[Metadata]
+Title:letter song
+TitleUnicode:letter song
+Artist:ENE
+ArtistUnicode:ENE
+Creator:K i A i
+Version:Letter
+Source:
+Tags:Doriko, Cover
+BeatmapID:735636
+BeatmapSetID:332235
+
+[Difficulty]
+HPDrainRate:5.9
+CircleSize:3.6
+OverallDifficulty:5.8
+ApproachRate:7.7
+SliderMultiplier:1.9
+SliderTickRate:2
+
+[Events]
+//Background and Video events
+0,0,"BG.png",0,0
+//Break Periods
+2,35349,41990
+2,96873,110714
+//Storyboard Layer 0 (Background)
+Sprite,Background,Centre,"BG.png",320,240
+ M,0,1465,,320,240
+ S,0,1465,,0.625
+ F,0,2428,3388,0,1
+ F,0,6268,7228,1,0.7
+ F,0,13948,14908,0.7,1
+ F,0,33148,35149,1,0
+ F,0,35149,96673,0
+ F,0,96673,97153,0,0.3
+ F,0,126918,127400,0.3,0
+ F,0,127400,129362,0
+ F,0,129362,129838,0,1
+ F,0,129838,161742,1
+ F,0,161742,162219,1,0.3
+ F,0,162219,176951,0.3
+ F,0,176951,176981,0.3,1
+ F,2,176981,177933,1,0.3
+ F,0,177933,192189,0.3
+ F,0,192189,192219,0.3,1
+ F,0,192219,193171,1,0.3
+ F,0,193171,207427,0.3
+ F,0,207427,207457,0.3,1
+ F,2,207457,207933,1,0.3
+ F,0,207933,224600,0.3
+ F,0,224600,225076,0.3,1
+ F,0,225076,255076,1
+ F,0,255076,255552,1,0.3
+ F,0,255552,270284,0.3
+ F,0,270284,270314,0.3,1
+ F,2,270314,270790,1,0.3
+ F,0,270790,285552,0.3
+ F,0,285552,286028,0.3,1
+ F,0,286028,298885,1
+ F,0,298885,300790,1,0
+Sprite,Background,Centre,"sb\k.png",320,240
+ M,0,192219,,320,240
+ S,0,192219,,0.9174193
+ R,0,192219,224600,0,4.5
+ F,0,223647,224600,1,0
+Sprite,Background,Centre,"sb\k.png",320,240
+ M,0,255076,,320,240
+ S,0,255076,,0.9174193
+ F,0,255076,255552,0,1
+ R,0,255076,285552,4.5,0
+//Storyboard Layer 1 (Fail)
+//Storyboard Layer 2 (Pass)
+//Storyboard Layer 3 (Foreground)
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,129362,131266,320,240,58,-40
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,129362,131266,320,240,676,284
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,129362,131266,320,240,411,-13
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,129362,131266,320,240,678,459
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,129362,131266,320,240,-26,112
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,129362,131266,320,240,657,-16
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,129362,131266,320,240,230,525
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,129600,131504,320,240,621,-21
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,129600,131504,320,240,-18,388
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,129600,131504,320,240,694,445
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,129600,131504,320,240,707,192
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,129600,131504,320,240,11,491
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,129600,131504,320,240,388,-35
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,129600,131504,320,240,-20,198
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,129838,131742,320,240,283,-83
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,129838,131742,320,240,-14,94
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,129838,131742,320,240,708,228
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,129838,131742,320,240,705,463
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,129838,131742,320,240,-6,450
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,129838,131742,320,240,70,-15
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,129838,131742,320,240,687,314
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,129838,131742,320,240,585,507
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,129838,131742,320,240,529,-34
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,130076,131980,320,240,712,226
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,130076,131980,320,240,369,-45
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,130076,131980,320,240,0,505
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,130076,131981,320,240,-33,129
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,130076,131981,320,240,693,-29
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,130076,131981,320,240,708,462
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,130076,131980,320,240,-56,321
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,130076,131980,320,240,571,494
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,130314,132218,320,240,-40,499
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,130314,132218,320,240,-50,70
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,130314,132218,320,240,-35,309
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,130314,132218,320,240,346,512
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,130314,132218,320,240,696,481
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,130314,132218,320,240,552,-43
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,130552,132456,320,240,-28,435
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,130552,132456,320,240,-11,44
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,130552,132456,320,240,687,458
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,130552,132456,320,240,706,285
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,130552,132456,320,240,613,-38
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,130790,132694,320,240,441,-53
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,130790,132694,320,240,146,-60
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,130790,132694,320,240,147,510
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,130790,132694,320,240,693,461
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,130790,132694,320,240,622,-44
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,130790,132694,320,240,-15,297
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,130790,132694,320,240,-11,44
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,131028,132933,320,240,-75,131
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,131028,132933,320,240,5,525
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,131028,132933,320,240,311,-66
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,131028,132933,320,240,-43,257
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,131028,132933,320,240,-34,26
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,131028,132933,320,240,689,477
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,131028,132933,320,240,662,-37
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,131266,133170,320,240,563,-48
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,131266,133170,320,240,-37,483
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,131266,133170,320,240,163,-27
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,131266,133170,320,240,-19,181
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,131266,133170,320,240,607,-41
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,131266,133170,320,240,704,443
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,131504,133408,320,240,710,169
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,131504,133408,320,240,366,-65
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,131504,133408,320,240,89,568
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,131504,133408,320,240,-62,367
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,131504,133408,320,240,640,-64
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,131504,133408,320,240,-106,117
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,131504,133408,320,240,237,-88
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,131504,133408,320,240,678,471
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,131742,133646,320,240,711,473
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,131742,133646,320,240,556,567
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,131742,133646,320,240,111,598
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,131742,133646,320,240,149,-68
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,131742,133646,320,240,-54,38
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,131742,133646,320,240,-52,302
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,131742,133646,320,240,715,150
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,131742,133646,320,240,-57,221
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,131981,133885,320,240,-184,-62
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,131981,133885,320,240,502,601
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,131981,133885,320,240,466,-107
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,131981,133885,320,240,-226,240
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,131981,133885,320,240,102,538
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,131981,133885,320,240,763,127
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,131981,133885,320,240,99,-69
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,131981,133885,320,240,403,-52
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,132219,134123,320,240,976,252
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,132219,134123,320,240,897,65
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,132219,134123,320,240,-268,235
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,132219,134123,320,240,-303,98
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,132219,134123,320,240,-667,-509
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,132219,134123,320,240,444,-138
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,132219,134123,320,240,249,541
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,132219,134123,320,240,410,599
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,132457,134361,320,240,-265,288
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,132457,134361,320,240,843,619
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,132457,134361,320,240,48,580
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,132457,134361,320,240,281,596
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,132457,134361,320,240,168,-257
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,132695,134599,320,240,691,-259
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,132695,134599,320,240,379,-255
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,132695,134599,320,240,40,-260
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,132695,134599,320,240,-468,-256
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,132695,134599,320,240,-370,1
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,132933,134837,320,240,908,201
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,132933,134837,320,240,75,-148
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,132933,134837,320,240,423,-106
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,132933,134837,320,240,-472,193
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,132933,134837,320,240,-436,-184
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,132933,134837,320,240,-417,-52
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,132933,134837,320,240,910,301
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,132933,134837,320,240,872,111
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,133171,135075,320,240,-383,269
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,133171,135075,320,240,804,86
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,133171,135075,320,240,142,-247
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,133171,135075,320,240,574,-236
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,133171,135075,320,240,152,553
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,133171,135075,320,240,402,583
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,133171,135075,320,240,58,-40
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,133171,135075,320,240,676,284
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,133171,135075,320,240,411,-13
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,133171,135075,320,240,678,459
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,133171,135075,320,240,-26,112
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,133171,135075,320,240,657,-16
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,133171,135075,320,240,230,525
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,133409,135313,320,240,621,-21
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,133409,135313,320,240,-18,388
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,133409,135313,320,240,694,445
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,133409,135313,320,240,707,192
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,133409,135313,320,240,11,491
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,133409,135313,320,240,388,-35
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,133409,135313,320,240,-20,198
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,133647,135551,320,240,283,-83
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,133647,135551,320,240,-14,94
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,133647,135551,320,240,708,228
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,133647,135551,320,240,705,463
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,133647,135551,320,240,-6,450
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,133647,135551,320,240,70,-15
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,133647,135551,320,240,687,314
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,133647,135551,320,240,585,507
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,133647,135551,320,240,529,-34
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,133885,135789,320,240,712,226
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,133885,135789,320,240,369,-45
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,133885,135789,320,240,0,505
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,133885,135790,320,240,-33,129
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,133885,135790,320,240,693,-29
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,133885,135790,320,240,708,462
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,133885,135789,320,240,-56,321
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,133885,135789,320,240,571,494
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,134123,136027,320,240,-40,499
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,134123,136027,320,240,-50,70
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,134123,136027,320,240,-35,309
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,134123,136027,320,240,346,512
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,134123,136027,320,240,696,481
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,134123,136027,320,240,552,-43
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,134361,136265,320,240,-28,435
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,134361,136265,320,240,-11,44
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,134361,136265,320,240,687,458
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,134361,136265,320,240,706,285
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,134361,136265,320,240,613,-38
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,134599,136503,320,240,441,-53
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,134599,136503,320,240,146,-60
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,134599,136503,320,240,147,510
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,134599,136503,320,240,693,461
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,134599,136503,320,240,622,-44
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,134599,136503,320,240,-15,297
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,134599,136503,320,240,-11,44
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,134837,136742,320,240,-75,131
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,134837,136742,320,240,5,525
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,134837,136742,320,240,311,-66
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,134837,136742,320,240,-43,257
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,134837,136742,320,240,-34,26
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,134837,136742,320,240,689,477
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,134837,136742,320,240,662,-37
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,135075,136979,320,240,563,-48
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,135075,136979,320,240,-37,483
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,135075,136979,320,240,163,-27
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,135075,136979,320,240,-19,181
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,135075,136979,320,240,607,-41
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,135075,136979,320,240,704,443
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,135313,137217,320,240,710,169
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,135313,137217,320,240,366,-65
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,135313,137217,320,240,89,568
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,135313,137217,320,240,-62,367
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,135313,137217,320,240,640,-64
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,135313,137217,320,240,-106,117
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,135313,137217,320,240,237,-88
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,135313,137217,320,240,678,471
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,135551,137455,320,240,711,473
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,135551,137455,320,240,556,567
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,135551,137455,320,240,111,598
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,135551,137455,320,240,149,-68
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,135551,137455,320,240,-54,38
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,135551,137455,320,240,-52,302
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,135551,137455,320,240,715,150
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,135551,137455,320,240,-57,221
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,135790,137694,320,240,-184,-62
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,135790,137694,320,240,502,601
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,135790,137694,320,240,466,-107
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,135790,137694,320,240,-226,240
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,135790,137694,320,240,102,538
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,135790,137694,320,240,763,127
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,135790,137694,320,240,99,-69
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,135790,137694,320,240,403,-52
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,136028,137932,320,240,976,252
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,136028,137932,320,240,897,65
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,136028,137932,320,240,-268,235
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,136028,137932,320,240,-303,98
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,136028,137932,320,240,-667,-509
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,136028,137932,320,240,444,-138
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,136028,137932,320,240,249,541
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,136028,137932,320,240,410,599
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,136266,138170,320,240,-265,288
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,136266,138170,320,240,843,619
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,136266,138170,320,240,48,580
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,136266,138170,320,240,281,596
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,136266,138170,320,240,168,-257
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,136504,138408,320,240,691,-259
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,136504,138408,320,240,379,-255
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,136504,138408,320,240,40,-260
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,136504,138408,320,240,-468,-256
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,136504,138408,320,240,-370,1
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,136742,138646,320,240,908,201
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,136742,138646,320,240,75,-148
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,136742,138646,320,240,423,-106
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,136742,138646,320,240,-472,193
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,136742,138646,320,240,-436,-184
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,136742,138646,320,240,-417,-52
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,136742,138646,320,240,910,301
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,136742,138646,320,240,872,111
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,136980,138884,320,240,-383,269
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,136980,138884,320,240,804,86
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,136980,138884,320,240,142,-247
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,136980,138884,320,240,574,-236
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,136980,138884,320,240,152,553
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,136980,138884,320,240,402,583
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,136980,138884,320,240,58,-40
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,136980,138884,320,240,676,284
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,136980,138884,320,240,411,-13
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,136980,138884,320,240,678,459
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,136980,138884,320,240,-26,112
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,136980,138884,320,240,657,-16
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,136980,138884,320,240,230,525
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,137218,139122,320,240,621,-21
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,137218,139122,320,240,-18,388
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,137218,139122,320,240,694,445
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,137218,139122,320,240,707,192
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,137218,139122,320,240,11,491
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,137218,139122,320,240,388,-35
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,137218,139122,320,240,-20,198
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,137456,139360,320,240,283,-83
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,137456,139360,320,240,-14,94
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,137456,139360,320,240,708,228
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,137456,139360,320,240,705,463
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,137456,139360,320,240,-6,450
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,137456,139360,320,240,70,-15
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,137456,139360,320,240,687,314
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,137456,139360,320,240,585,507
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,137456,139360,320,240,529,-34
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,137694,139598,320,240,712,226
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,137694,139598,320,240,369,-45
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,137694,139598,320,240,0,505
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,137694,139599,320,240,-33,129
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,137694,139599,320,240,693,-29
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,137694,139599,320,240,708,462
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,137694,139598,320,240,-56,321
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,137694,139598,320,240,571,494
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,137932,139836,320,240,-40,499
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,137932,139836,320,240,-50,70
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,137932,139836,320,240,-35,309
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,137932,139836,320,240,346,512
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,137932,139836,320,240,696,481
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,137932,139836,320,240,552,-43
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,138170,140074,320,240,-28,435
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,138170,140074,320,240,-11,44
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,138170,140074,320,240,687,458
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,138170,140074,320,240,706,285
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,138170,140074,320,240,613,-38
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,138408,140312,320,240,441,-53
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,138408,140312,320,240,146,-60
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,138408,140312,320,240,147,510
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,138408,140312,320,240,693,461
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,138408,140312,320,240,622,-44
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,138408,140312,320,240,-15,297
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,138408,140312,320,240,-11,44
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,138646,140551,320,240,-75,131
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,138646,140551,320,240,5,525
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,138646,140551,320,240,311,-66
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,138646,140551,320,240,-43,257
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,138646,140551,320,240,-34,26
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,138646,140551,320,240,689,477
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,138646,140551,320,240,662,-37
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,138884,140788,320,240,563,-48
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,138884,140788,320,240,-37,483
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,138884,140788,320,240,163,-27
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,138884,140788,320,240,-19,181
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,138884,140788,320,240,607,-41
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,138884,140788,320,240,704,443
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,139122,141026,320,240,710,169
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,139122,141026,320,240,366,-65
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,139122,141026,320,240,89,568
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,139122,141026,320,240,-62,367
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,139122,141026,320,240,640,-64
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,139122,141026,320,240,-106,117
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,139122,141026,320,240,237,-88
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,139122,141026,320,240,678,471
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,139360,141264,320,240,711,473
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,139360,141264,320,240,556,567
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,139360,141264,320,240,111,598
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,139360,141264,320,240,149,-68
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,139360,141264,320,240,-54,38
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,139360,141264,320,240,-52,302
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,139360,141264,320,240,715,150
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,139360,141264,320,240,-57,221
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,139599,141503,320,240,-184,-62
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,139599,141503,320,240,502,601
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,139599,141503,320,240,466,-107
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,139599,141503,320,240,-226,240
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,139599,141503,320,240,102,538
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,139599,141503,320,240,763,127
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,139599,141503,320,240,99,-69
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,139599,141503,320,240,403,-52
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,139837,141741,320,240,976,252
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,139837,141741,320,240,897,65
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,139837,141741,320,240,-268,235
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,139837,141741,320,240,-303,98
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,139837,141741,320,240,-667,-509
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,139837,141741,320,240,444,-138
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,139837,141741,320,240,249,541
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,139837,141741,320,240,410,599
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,140075,141979,320,240,-265,288
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,140075,141979,320,240,843,619
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,140075,141979,320,240,48,580
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,140075,141979,320,240,281,596
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,140075,141979,320,240,168,-257
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,140313,142217,320,240,691,-259
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,140313,142217,320,240,379,-255
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,140313,142217,320,240,40,-260
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,140313,142217,320,240,-468,-256
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,140313,142217,320,240,-370,1
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,140551,142455,320,240,908,201
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,140551,142455,320,240,75,-148
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,140551,142455,320,240,423,-106
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,140551,142455,320,240,-472,193
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,140551,142455,320,240,-436,-184
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,140551,142455,320,240,-417,-52
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,140551,142455,320,240,910,301
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,140551,142455,320,240,872,111
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,140789,142693,320,240,-383,269
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,140789,142693,320,240,804,86
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,140789,142693,320,240,142,-247
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,140789,142693,320,240,574,-236
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,140789,142693,320,240,152,553
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,140789,142693,320,240,402,583
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,140789,142693,320,240,58,-40
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,140789,142693,320,240,676,284
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,140789,142693,320,240,411,-13
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,140789,142693,320,240,678,459
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,140789,142693,320,240,-26,112
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,140789,142693,320,240,657,-16
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,140789,142693,320,240,230,525
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,141027,142931,320,240,621,-21
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,141027,142931,320,240,-18,388
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,141027,142931,320,240,694,445
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,141027,142931,320,240,707,192
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,141027,142931,320,240,11,491
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,141027,142931,320,240,388,-35
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,141027,142931,320,240,-20,198
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,141265,143169,320,240,283,-83
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,141265,143169,320,240,-14,94
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,141265,143169,320,240,708,228
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,141265,143169,320,240,705,463
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,141265,143169,320,240,-6,450
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,141265,143169,320,240,70,-15
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,141265,143169,320,240,687,314
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,141265,143169,320,240,585,507
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,141265,143169,320,240,529,-34
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,141503,143407,320,240,712,226
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,141503,143407,320,240,369,-45
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,141503,143407,320,240,0,505
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,141503,143408,320,240,-33,129
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,141503,143408,320,240,693,-29
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,141503,143408,320,240,708,462
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,141503,143407,320,240,-56,321
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,141503,143407,320,240,571,494
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,141741,143645,320,240,-40,499
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,141741,143645,320,240,-50,70
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,141741,143645,320,240,-35,309
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,141741,143645,320,240,346,512
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,141741,143645,320,240,696,481
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,141741,143645,320,240,552,-43
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,141979,143883,320,240,-28,435
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,141979,143883,320,240,-11,44
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,141979,143883,320,240,687,458
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,141979,143883,320,240,706,285
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,141979,143883,320,240,613,-38
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,142217,144121,320,240,441,-53
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,142217,144121,320,240,146,-60
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,142217,144121,320,240,147,510
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,142217,144121,320,240,693,461
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,142217,144121,320,240,622,-44
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,142217,144121,320,240,-15,297
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,142217,144121,320,240,-11,44
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,142455,144360,320,240,-75,131
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,142455,144360,320,240,5,525
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,142455,144360,320,240,311,-66
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,142455,144360,320,240,-43,257
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,142455,144360,320,240,-34,26
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,142455,144360,320,240,689,477
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,142455,144360,320,240,662,-37
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,142693,144597,320,240,563,-48
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,142693,144597,320,240,-37,483
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,142693,144597,320,240,163,-27
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,142693,144597,320,240,-19,181
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,142693,144597,320,240,607,-41
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,142693,144597,320,240,704,443
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,142931,144835,320,240,710,169
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,142931,144835,320,240,366,-65
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,142931,144835,320,240,89,568
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,142931,144835,320,240,-62,367
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,142931,144835,320,240,640,-64
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,142931,144835,320,240,-106,117
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,142931,144835,320,240,237,-88
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,142931,144835,320,240,678,471
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,143169,145073,320,240,711,473
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,143169,145073,320,240,556,567
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,143169,145073,320,240,111,598
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,143169,145073,320,240,149,-68
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,143169,145073,320,240,-54,38
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,143169,145073,320,240,-52,302
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,143169,145073,320,240,715,150
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,143169,145073,320,240,-57,221
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,143408,145312,320,240,-184,-62
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,143408,145312,320,240,502,601
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,143408,145312,320,240,466,-107
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,143408,145312,320,240,-226,240
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,143408,145312,320,240,102,538
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,143408,145312,320,240,763,127
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,143408,145312,320,240,99,-69
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,143408,145312,320,240,403,-52
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,143646,145550,320,240,976,252
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,143646,145550,320,240,897,65
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,143646,145550,320,240,-268,235
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,143646,145550,320,240,-303,98
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,143646,145550,320,240,-667,-509
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,143646,145550,320,240,444,-138
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,143646,145550,320,240,249,541
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,143646,145550,320,240,410,599
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,143884,145788,320,240,-265,288
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,143884,145788,320,240,843,619
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,143884,145788,320,240,48,580
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,143884,145788,320,240,281,596
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,143884,145788,320,240,168,-257
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,144122,146026,320,240,691,-259
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,144122,146026,320,240,379,-255
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,144122,146026,320,240,40,-260
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,144122,146026,320,240,-468,-256
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,144122,146026,320,240,-370,1
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,144360,146264,320,240,908,201
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,144360,146264,320,240,75,-148
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,144360,146264,320,240,423,-106
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,144360,146264,320,240,-472,193
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,144360,146264,320,240,-436,-184
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,144360,146264,320,240,-417,-52
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,144360,146264,320,240,910,301
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,144360,146264,320,240,872,111
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,144598,146502,320,240,-383,269
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,144598,146502,320,240,804,86
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,144598,146502,320,240,142,-247
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,144598,146502,320,240,574,-236
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,144598,146502,320,240,152,553
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,144598,146502,320,240,402,583
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,144600,146504,320,240,58,-40
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,144600,146504,320,240,676,284
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,144600,146504,320,240,411,-13
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,144600,146504,320,240,678,459
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,144600,146504,320,240,-26,112
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,144600,146504,320,240,657,-16
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,144600,146504,320,240,230,525
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,144838,146742,320,240,621,-21
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,144838,146742,320,240,-18,388
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,144838,146742,320,240,694,445
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,144838,146742,320,240,707,192
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,144838,146742,320,240,11,491
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,144838,146742,320,240,388,-35
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,144838,146742,320,240,-20,198
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,145076,146980,320,240,283,-83
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,145076,146980,320,240,-14,94
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,145076,146980,320,240,708,228
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,145076,146980,320,240,705,463
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,145076,146980,320,240,-6,450
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,145076,146980,320,240,70,-15
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,145076,146980,320,240,687,314
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,145076,146980,320,240,585,507
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,145076,146980,320,240,529,-34
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,145314,147218,320,240,712,226
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,145314,147218,320,240,369,-45
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,145314,147218,320,240,0,505
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,145314,147219,320,240,-33,129
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,145314,147219,320,240,693,-29
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,145314,147219,320,240,708,462
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,145314,147218,320,240,-56,321
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,145314,147218,320,240,571,494
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,145552,147456,320,240,-40,499
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,145552,147456,320,240,-50,70
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,145552,147456,320,240,-35,309
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,145552,147456,320,240,346,512
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,145552,147456,320,240,696,481
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,145552,147456,320,240,552,-43
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,145790,147694,320,240,-28,435
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,145790,147694,320,240,-11,44
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,145790,147694,320,240,687,458
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,145790,147694,320,240,706,285
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,145790,147694,320,240,613,-38
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,146028,147932,320,240,441,-53
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,146028,147932,320,240,146,-60
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,146028,147932,320,240,147,510
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,146028,147932,320,240,693,461
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,146028,147932,320,240,622,-44
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,146028,147932,320,240,-15,297
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,146028,147932,320,240,-11,44
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,146266,148171,320,240,-75,131
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,146266,148171,320,240,5,525
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,146266,148171,320,240,311,-66
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,146266,148171,320,240,-43,257
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,146266,148171,320,240,-34,26
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,146266,148171,320,240,689,477
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,146266,148171,320,240,662,-37
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,146504,148408,320,240,563,-48
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,146504,148408,320,240,-37,483
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,146504,148408,320,240,163,-27
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,146504,148408,320,240,-19,181
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,146504,148408,320,240,607,-41
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,146504,148408,320,240,704,443
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,146742,148646,320,240,710,169
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,146742,148646,320,240,366,-65
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,146742,148646,320,240,89,568
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,146742,148646,320,240,-62,367
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,146742,148646,320,240,640,-64
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,146742,148646,320,240,-106,117
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,146742,148646,320,240,237,-88
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,146742,148646,320,240,678,471
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,146980,148884,320,240,711,473
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,146980,148884,320,240,556,567
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,146980,148884,320,240,111,598
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,146980,148884,320,240,149,-68
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,146980,148884,320,240,-54,38
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,146980,148884,320,240,-52,302
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,146980,148884,320,240,715,150
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,146980,148884,320,240,-57,221
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,147219,149123,320,240,-184,-62
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,147219,149123,320,240,502,601
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,147219,149123,320,240,466,-107
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,147219,149123,320,240,-226,240
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,147219,149123,320,240,102,538
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,147219,149123,320,240,763,127
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,147219,149123,320,240,99,-69
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,147219,149123,320,240,403,-52
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,147457,149361,320,240,976,252
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,147457,149361,320,240,897,65
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,147457,149361,320,240,-268,235
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,147457,149361,320,240,-303,98
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,147457,149361,320,240,-667,-509
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,147457,149361,320,240,444,-138
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,147457,149361,320,240,249,541
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,147457,149361,320,240,410,599
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,147695,149599,320,240,-265,288
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,147695,149599,320,240,843,619
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,147695,149599,320,240,48,580
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,147695,149599,320,240,281,596
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,147695,149599,320,240,168,-257
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,147933,149837,320,240,691,-259
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,147933,149837,320,240,379,-255
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,147933,149837,320,240,40,-260
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,147933,149837,320,240,-468,-256
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,147933,149837,320,240,-370,1
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,148171,150075,320,240,908,201
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,148171,150075,320,240,75,-148
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,148171,150075,320,240,423,-106
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,148171,150075,320,240,-472,193
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,148171,150075,320,240,-436,-184
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,148171,150075,320,240,-417,-52
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,148171,150075,320,240,910,301
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,148171,150075,320,240,872,111
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,148409,150313,320,240,-383,269
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,148409,150313,320,240,804,86
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,148409,150313,320,240,142,-247
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,148409,150313,320,240,574,-236
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,148409,150313,320,240,152,553
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,148409,150313,320,240,402,583
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,148409,150313,320,240,58,-40
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,148409,150313,320,240,676,284
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,148409,150313,320,240,411,-13
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,148409,150313,320,240,678,459
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,148409,150313,320,240,-26,112
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,148409,150313,320,240,657,-16
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,148409,150313,320,240,230,525
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,148647,150551,320,240,621,-21
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,148647,150551,320,240,-18,388
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,148647,150551,320,240,694,445
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,148647,150551,320,240,707,192
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,148647,150551,320,240,11,491
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,148647,150551,320,240,388,-35
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,148647,150551,320,240,-20,198
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,148885,150789,320,240,283,-83
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,148885,150789,320,240,-14,94
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,148885,150789,320,240,708,228
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,148885,150789,320,240,705,463
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,148885,150789,320,240,-6,450
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,148885,150789,320,240,70,-15
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,148885,150789,320,240,687,314
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,148885,150789,320,240,585,507
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,148885,150789,320,240,529,-34
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,149123,151027,320,240,712,226
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,149123,151027,320,240,369,-45
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,149123,151027,320,240,0,505
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,149123,151028,320,240,-33,129
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,149123,151028,320,240,693,-29
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,149123,151028,320,240,708,462
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,149123,151027,320,240,-56,321
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,149123,151027,320,240,571,494
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,149361,151265,320,240,-40,499
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,149361,151265,320,240,-50,70
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,149361,151265,320,240,-35,309
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,149361,151265,320,240,346,512
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,149361,151265,320,240,696,481
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,149361,151265,320,240,552,-43
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,149599,151503,320,240,-28,435
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,149599,151503,320,240,-11,44
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,149599,151503,320,240,687,458
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,149599,151503,320,240,706,285
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,149599,151503,320,240,613,-38
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,149837,151741,320,240,441,-53
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,149837,151741,320,240,146,-60
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,149837,151741,320,240,147,510
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,149837,151741,320,240,693,461
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,149837,151741,320,240,622,-44
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,149837,151741,320,240,-15,297
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,149837,151741,320,240,-11,44
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,150075,151980,320,240,-75,131
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,150075,151980,320,240,5,525
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,150075,151980,320,240,311,-66
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,150075,151980,320,240,-43,257
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,150075,151980,320,240,-34,26
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,150075,151980,320,240,689,477
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,150075,151980,320,240,662,-37
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,150313,152217,320,240,563,-48
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,150313,152217,320,240,-37,483
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,150313,152217,320,240,163,-27
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,150313,152217,320,240,-19,181
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,150313,152217,320,240,607,-41
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,150313,152217,320,240,704,443
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,150551,152455,320,240,710,169
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,150551,152455,320,240,366,-65
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,150551,152455,320,240,89,568
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,150551,152455,320,240,-62,367
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,150551,152455,320,240,640,-64
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,150551,152455,320,240,-106,117
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,150551,152455,320,240,237,-88
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,150551,152455,320,240,678,471
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,150789,152693,320,240,711,473
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,150789,152693,320,240,556,567
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,150789,152693,320,240,111,598
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,150789,152693,320,240,149,-68
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,150789,152693,320,240,-54,38
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,150789,152693,320,240,-52,302
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,150789,152693,320,240,715,150
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,150789,152693,320,240,-57,221
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,151028,152932,320,240,-184,-62
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,151028,152932,320,240,502,601
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,151028,152932,320,240,466,-107
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,151028,152932,320,240,-226,240
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,151028,152932,320,240,102,538
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,151028,152932,320,240,763,127
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,151028,152932,320,240,99,-69
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,151028,152932,320,240,403,-52
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,151266,153170,320,240,976,252
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,151266,153170,320,240,897,65
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,151266,153170,320,240,-268,235
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,151266,153170,320,240,-303,98
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,151266,153170,320,240,-667,-509
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,151266,153170,320,240,444,-138
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,151266,153170,320,240,249,541
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,151266,153170,320,240,410,599
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,151504,153408,320,240,-265,288
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,151504,153408,320,240,843,619
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,151504,153408,320,240,48,580
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,151504,153408,320,240,281,596
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,151504,153408,320,240,168,-257
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,151742,153646,320,240,691,-259
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,151742,153646,320,240,379,-255
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,151742,153646,320,240,40,-260
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,151742,153646,320,240,-468,-256
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,151742,153646,320,240,-370,1
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,151980,153884,320,240,908,201
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,151980,153884,320,240,75,-148
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,151980,153884,320,240,423,-106
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,151980,153884,320,240,-472,193
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,151980,153884,320,240,-436,-184
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,151980,153884,320,240,-417,-52
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,151980,153884,320,240,910,301
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,151980,153884,320,240,872,111
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,152218,154122,320,240,-383,269
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,152218,154122,320,240,804,86
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,152218,154122,320,240,142,-247
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,152218,154122,320,240,574,-236
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,152218,154122,320,240,152,553
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,152218,154122,320,240,402,583
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,152218,154122,320,240,58,-40
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,152218,154122,320,240,676,284
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,152218,154122,320,240,411,-13
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,152218,154122,320,240,678,459
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,152218,154122,320,240,-26,112
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,152218,154122,320,240,657,-16
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,152218,154122,320,240,230,525
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,152456,154360,320,240,621,-21
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,152456,154360,320,240,-18,388
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,152456,154360,320,240,694,445
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,152456,154360,320,240,707,192
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,152456,154360,320,240,11,491
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,152456,154360,320,240,388,-35
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,152456,154360,320,240,-20,198
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,152694,154598,320,240,283,-83
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,152694,154598,320,240,-14,94
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,152694,154598,320,240,708,228
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,152694,154598,320,240,705,463
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,152694,154598,320,240,-6,450
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,152694,154598,320,240,70,-15
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,152694,154598,320,240,687,314
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,152694,154598,320,240,585,507
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,152694,154598,320,240,529,-34
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,152932,154836,320,240,712,226
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,152932,154836,320,240,369,-45
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,152932,154836,320,240,0,505
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,152932,154837,320,240,-33,129
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,152932,154837,320,240,693,-29
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,152932,154837,320,240,708,462
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,152932,154836,320,240,-56,321
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,152932,154836,320,240,571,494
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,153170,155074,320,240,-40,499
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,153170,155074,320,240,-50,70
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,153170,155074,320,240,-35,309
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,153170,155074,320,240,346,512
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,153170,155074,320,240,696,481
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,153170,155074,320,240,552,-43
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,153408,155312,320,240,-28,435
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,153408,155312,320,240,-11,44
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,153408,155312,320,240,687,458
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,153408,155312,320,240,706,285
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,153408,155312,320,240,613,-38
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,153646,155550,320,240,441,-53
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,153646,155550,320,240,146,-60
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,153646,155550,320,240,147,510
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,153646,155550,320,240,693,461
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,153646,155550,320,240,622,-44
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,153646,155550,320,240,-15,297
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,153646,155550,320,240,-11,44
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,153884,155789,320,240,-75,131
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,153884,155789,320,240,5,525
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,153884,155789,320,240,311,-66
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,153884,155789,320,240,-43,257
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,153884,155789,320,240,-34,26
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,153884,155789,320,240,689,477
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,153884,155789,320,240,662,-37
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,154122,156026,320,240,563,-48
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,154122,156026,320,240,-37,483
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,154122,156026,320,240,163,-27
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,154122,156026,320,240,-19,181
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,154122,156026,320,240,607,-41
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,154122,156026,320,240,704,443
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,154360,156264,320,240,710,169
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,154360,156264,320,240,366,-65
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,154360,156264,320,240,89,568
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,154360,156264,320,240,-62,367
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,154360,156264,320,240,640,-64
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,154360,156264,320,240,-106,117
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,154360,156264,320,240,237,-88
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,154360,156264,320,240,678,471
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,154598,156502,320,240,711,473
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,154598,156502,320,240,556,567
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,154598,156502,320,240,111,598
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,154598,156502,320,240,149,-68
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,154598,156502,320,240,-54,38
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,154598,156502,320,240,-52,302
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,154598,156502,320,240,715,150
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,154598,156502,320,240,-57,221
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,154837,156741,320,240,-184,-62
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,154837,156741,320,240,502,601
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,154837,156741,320,240,466,-107
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,154837,156741,320,240,-226,240
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,154837,156741,320,240,102,538
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,154837,156741,320,240,763,127
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,154837,156741,320,240,99,-69
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,154837,156741,320,240,403,-52
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,155075,156979,320,240,976,252
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,155075,156979,320,240,897,65
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,155075,156979,320,240,-268,235
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,155075,156979,320,240,-303,98
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,155075,156979,320,240,-667,-509
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,155075,156979,320,240,444,-138
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,155075,156979,320,240,249,541
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,155075,156979,320,240,410,599
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,155313,157217,320,240,-265,288
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,155313,157217,320,240,843,619
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,155313,157217,320,240,48,580
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,155313,157217,320,240,281,596
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,155313,157217,320,240,168,-257
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,155551,157455,320,240,691,-259
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,155551,157455,320,240,379,-255
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,155551,157455,320,240,40,-260
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,155551,157455,320,240,-468,-256
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,155551,157455,320,240,-370,1
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,155789,157693,320,240,908,201
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,155789,157693,320,240,75,-148
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,155789,157693,320,240,423,-106
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,155789,157693,320,240,-472,193
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,155789,157693,320,240,-436,-184
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,155789,157693,320,240,-417,-52
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,155789,157693,320,240,910,301
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,155789,157693,320,240,872,111
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,156027,157931,320,240,-383,269
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,156027,157931,320,240,804,86
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,156027,157931,320,240,142,-247
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,156027,157931,320,240,574,-236
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,156027,157931,320,240,152,553
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,156027,157931,320,240,402,583
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,156027,157931,320,240,58,-40
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,156027,157931,320,240,676,284
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,156027,157931,320,240,411,-13
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,156027,157931,320,240,678,459
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,156027,157931,320,240,-26,112
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,156027,157931,320,240,657,-16
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,156027,157931,320,240,230,525
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,156265,158169,320,240,621,-21
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,156265,158169,320,240,-18,388
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,156265,158169,320,240,694,445
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,156265,158169,320,240,707,192
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,156265,158169,320,240,11,491
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,156265,158169,320,240,388,-35
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,156265,158169,320,240,-20,198
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,156503,158407,320,240,283,-83
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,156503,158407,320,240,-14,94
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,156503,158407,320,240,708,228
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,156503,158407,320,240,705,463
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,156503,158407,320,240,-6,450
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,156503,158407,320,240,70,-15
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,156503,158407,320,240,687,314
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,156503,158407,320,240,585,507
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,156503,158407,320,240,529,-34
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,156741,158645,320,240,712,226
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,156741,158645,320,240,369,-45
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,156741,158645,320,240,0,505
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,156741,158646,320,240,-33,129
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,156741,158646,320,240,693,-29
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,156741,158646,320,240,708,462
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,156741,158645,320,240,-56,321
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,156741,158645,320,240,571,494
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,156979,158883,320,240,-40,499
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,156979,158883,320,240,-50,70
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,156979,158883,320,240,-35,309
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,156979,158883,320,240,346,512
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,156979,158883,320,240,696,481
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,156979,158883,320,240,552,-43
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,157217,159121,320,240,-28,435
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,157217,159121,320,240,-11,44
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,157217,159121,320,240,687,458
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,157217,159121,320,240,706,285
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,157217,159121,320,240,613,-38
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,157455,159359,320,240,441,-53
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,157455,159359,320,240,146,-60
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,157455,159359,320,240,147,510
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,157455,159359,320,240,693,461
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,157455,159359,320,240,622,-44
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,157455,159359,320,240,-15,297
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,157455,159359,320,240,-11,44
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,157693,159598,320,240,-75,131
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,157693,159598,320,240,5,525
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,157693,159598,320,240,311,-66
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,157693,159598,320,240,-43,257
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,157693,159598,320,240,-34,26
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,157693,159598,320,240,689,477
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,157693,159598,320,240,662,-37
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,157931,159835,320,240,563,-48
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,157931,159835,320,240,-37,483
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,157931,159835,320,240,163,-27
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,157931,159835,320,240,-19,181
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,157931,159835,320,240,607,-41
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,157931,159835,320,240,704,443
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,158169,160073,320,240,710,169
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,158169,160073,320,240,366,-65
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,158169,160073,320,240,89,568
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,158169,160073,320,240,-62,367
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,158169,160073,320,240,640,-64
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,158169,160073,320,240,-106,117
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,158169,160073,320,240,237,-88
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,158169,160073,320,240,678,471
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,158407,160311,320,240,711,473
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,158407,160311,320,240,556,567
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,158407,160311,320,240,111,598
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,158407,160311,320,240,149,-68
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,158407,160311,320,240,-54,38
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,158407,160311,320,240,-52,302
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,158407,160311,320,240,715,150
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,158407,160311,320,240,-57,221
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,158646,160550,320,240,-184,-62
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,158646,160550,320,240,502,601
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,158646,160550,320,240,466,-107
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,158646,160550,320,240,-226,240
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,158646,160550,320,240,102,538
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,158646,160550,320,240,763,127
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,158646,160550,320,240,99,-69
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,158646,160550,320,240,403,-52
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,158884,160788,320,240,976,252
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,158884,160788,320,240,897,65
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,158884,160788,320,240,-268,235
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,158884,160788,320,240,-303,98
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,158884,160788,320,240,-667,-509
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,158884,160788,320,240,444,-138
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,158884,160788,320,240,249,541
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,158884,160788,320,240,410,599
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,159122,161026,320,240,-265,288
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,159122,161026,320,240,843,619
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,159122,161026,320,240,48,580
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,159122,161026,320,240,281,596
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,159122,161026,320,240,168,-257
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,159360,161264,320,240,691,-259
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,159360,161264,320,240,379,-255
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,159360,161264,320,240,40,-260
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,159360,161264,320,240,-468,-256
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,159360,161264,320,240,-370,1
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,159598,161502,320,240,908,201
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,159598,161502,320,240,75,-148
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,159598,161502,320,240,423,-106
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,159598,161502,320,240,-472,193
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,159598,161502,320,240,-436,-184
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,159598,161502,320,240,-417,-52
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,159598,161502,320,240,910,301
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,159598,161502,320,240,872,111
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,159836,161740,320,240,-383,269
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,159836,161740,320,240,804,86
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,159836,161740,320,240,142,-247
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,159836,161740,320,240,574,-236
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,159836,161740,320,240,152,553
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,159836,161740,320,240,402,583
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,285552,287457,878,-104,320,240
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,285552,287457,-326,165,320,240
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,285552,287457,319,-251,320,240
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,285552,287457,501,574,320,240
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,285552,287457,937,583,320,240
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,285552,287457,-66,599,320,240
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,285552,287457,111,-264,320,240
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,285552,287457,-476,-262,320,240
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,285552,287457,-462,246,320,240
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,285552,287457,1112,212,320,240
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,285790,287695,150,636,320,240
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,285790,287695,-104,628,320,240
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,285790,287695,-320,518,320,240
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,285790,287695,-470,241,320,240
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,285790,287695,-470,-112,320,240
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,285790,287695,-58,-260,320,240
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,285790,287695,446,-259,320,240
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,285790,287695,1069,196,320,240
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,286028,287933,295,-262,320,240
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,286028,287933,700,-268,320,240
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,286028,287933,1121,-256,320,240
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,286028,287933,1114,130,320,240
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,286028,287933,1105,546,320,240
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,286028,287933,1102,625,320,240
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,286028,287933,1112,632,320,240
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,286028,287933,648,636,320,240
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,286028,287933,359,623,320,240
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,286266,288171,530,-258,320,240
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,286266,288171,-476,-261,320,240
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,286266,288171,-28,-261,320,240
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,286266,288171,458,633,320,240
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,286266,288171,1015,636,320,240
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,286266,288171,300,-260,320,240
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,286266,288171,-457,475,320,240
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,286266,288171,1113,-3,320,240
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,286266,288171,-475,68,320,240
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,286504,288409,-476,549,320,240
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,286504,288409,472,-267,320,240
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,286504,288409,-226,-258,320,240
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,286504,288409,1109,633,320,240
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,286504,288409,1110,-34,320,240
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,286504,288409,-457,296,320,240
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,286742,288647,665,-258,320,240
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,286742,288647,1099,629,320,240
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,286742,288647,-477,-6,320,240
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,286742,288647,1113,-235,320,240
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,286981,288886,1112,632,320,240
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,286981,288886,-125,637,320,240
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,286981,288886,-474,366,320,240
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,286981,288886,155,-272,320,240
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,286981,288886,634,-264,320,240
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,286981,288886,1103,-179,320,240
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,286981,288886,-478,-267,320,240
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,287219,289124,1109,161,320,240
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,287219,289124,-474,24,320,240
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,287219,289124,282,-261,320,240
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,287219,289124,595,-264,320,240
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,287457,289362,125,-259,320,240
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,287457,289362,601,-262,320,240
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,287457,289362,725,627,320,240
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,287695,289600,1109,199,320,240
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,287695,289600,229,628,320,240
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,287695,289600,-468,451,320,240
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,287695,289600,-466,-262,320,240
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,287695,289600,200,-256,320,240
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,287695,289600,600,-264,320,240
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,287933,289838,-466,199,320,240
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,287933,289838,-155,-257,320,240
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,287933,289838,1110,103,320,240
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,287933,289838,457,-262,320,240
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,288171,290076,90,624,320,240
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,288171,290076,1114,-162,320,240
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,288171,290076,-484,628,320,240
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,288171,290076,-473,-265,320,240
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,288171,290076,-473,209,320,240
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,288171,290076,168,-259,320,240
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,288171,290076,792,625,320,240
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,288171,290076,1110,197,320,240
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,288409,290314,504,-204,320,240
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,288409,290314,-93,588,320,240
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,288409,290314,1116,-1,320,240
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,288409,290314,-467,198,320,240
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,288409,290314,-70,-262,320,240
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,288409,290314,523,-261,320,240
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,288647,290552,78,556,320,240
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,288647,290552,-476,476,320,240
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,288647,290552,-466,102,320,240
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,288647,290552,1116,2,320,240
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,288647,290552,-113,-266,320,240
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,288647,290552,367,-256,320,240
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,288885,290790,-466,578,320,240
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,288885,290790,1112,-188,320,240
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,288885,290790,-474,-121,320,240
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,289123,291028,672,632,320,240
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,289123,291028,1111,274,320,240
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,289123,291028,-476,632,320,240
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,289123,291028,-468,-101,320,240
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,289123,291028,574,-260,320,240
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,289361,291266,-232,149,320,240
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,289361,291266,674,634,320,240
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,289361,291266,1103,220,320,240
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,289361,291266,64,-257,320,240
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,289361,291266,485,-254,320,240
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,289361,291266,84,599,320,240
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,289361,291266,-478,359,320,240
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,289600,291505,1105,83,320,240
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,289600,291505,-467,-4,320,240
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,289600,291505,181,-256,320,240
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,289600,291505,504,-245,320,240
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,289600,291505,1110,23,320,240
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,289838,291743,-460,306,320,240
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,289838,291743,1116,68,320,240
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,290076,291981,87,545,320,240
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,290076,291981,269,630,320,240
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,290314,292219,937,52,320,240
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,290314,292219,-258,321,320,240
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,290314,292219,-285,64,320,240
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,290314,292219,504,-253,320,240
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,290314,292219,273,-256,320,240
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,290314,292219,604,620,320,240
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,290552,292457,-473,-204,320,240
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,290552,292457,1084,462,320,240
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,290552,292457,-338,405,320,240
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,290552,292457,955,163,320,240
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,290552,292457,340,631,320,240
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,290552,292457,170,552,320,240
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,290552,292457,511,620,320,240
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,290790,292695,-254,57,320,240
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,290790,292695,1045,638,320,240
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,290790,292695,1102,353,320,240
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,290790,292695,94,-255,320,240
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,290790,292695,507,-233,320,240
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,291028,292933,504,-267,320,240
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,291028,292933,-87,553,320,240
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,291028,292933,-316,338,320,240
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,291266,293171,1058,325,320,240
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,291504,293409,1106,34,320,240
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,291504,293409,-477,10,320,240
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,291504,293409,-15,-263,320,240
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,291504,293409,571,-252,320,240
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,291742,293647,57,-258,320,240
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,291742,293647,599,602,320,240
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,291742,293647,1106,627,320,240
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,291742,293647,643,-251,320,240
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,291742,293647,120,626,320,240
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,291742,293647,-469,530,320,240
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,291981,293886,951,-58,320,240
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,291981,293886,-196,305,320,240
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,291981,293886,615,622,320,240
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,291981,293886,-467,-3,320,240
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,291981,293886,485,-271,320,240
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,292219,294124,-474,263,320,240
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,292219,294124,-471,-267,320,240
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,292219,294124,116,-253,320,240
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,292219,294124,389,-256,320,240
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,292457,294362,-464,506,320,240
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,292457,294362,-474,198,320,240
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,292457,294362,1109,624,320,240
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,292457,294362,1102,527,320,240
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,292457,294362,1116,-134,320,240
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,292695,294600,129,624,320,240
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,292695,294600,-191,440,320,240
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,292695,294600,448,-266,320,240
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,292695,294600,-471,-9,320,240
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,292695,294600,-287,-268,320,240
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,292695,294600,-475,-267,320,240
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,293171,295076,878,-104,320,240
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,293171,295076,-326,165,320,240
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,293171,295076,319,-251,320,240
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,293171,295076,501,574,320,240
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,293171,295076,937,583,320,240
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,293171,295076,-66,599,320,240
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,293171,295076,111,-264,320,240
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,293171,295076,-476,-262,320,240
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,293171,295076,-462,246,320,240
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,293171,295076,1112,212,320,240
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,293409,295314,150,636,320,240
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,293409,295314,-104,628,320,240
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,293409,295314,-320,518,320,240
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,293409,295314,-470,241,320,240
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,293409,295314,-470,-112,320,240
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,293409,295314,-58,-260,320,240
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,293409,295314,446,-259,320,240
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,293409,295314,1069,196,320,240
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,293647,295552,295,-262,320,240
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,293647,295552,700,-268,320,240
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,293647,295552,1121,-256,320,240
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,293647,295552,1114,130,320,240
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,293647,295552,1105,546,320,240
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,293647,295552,1102,625,320,240
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,293647,295552,1112,632,320,240
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,293647,295552,648,636,320,240
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,293647,295552,359,623,320,240
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,293885,295790,530,-258,320,240
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,293885,295790,-476,-261,320,240
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,293885,295790,-28,-261,320,240
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,293885,295790,458,633,320,240
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,293885,295790,1015,636,320,240
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,293885,295790,300,-260,320,240
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,293885,295790,-457,475,320,240
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,293885,295790,1113,-3,320,240
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,293885,295790,-475,68,320,240
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,294123,296028,-476,549,320,240
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,294123,296028,472,-267,320,240
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,294123,296028,-226,-258,320,240
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,294123,296028,1109,633,320,240
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,294123,296028,1110,-34,320,240
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,294123,296028,-457,296,320,240
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,294361,296266,665,-258,320,240
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,294361,296266,1099,629,320,240
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,294361,296266,-477,-6,320,240
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,294361,296266,1113,-235,320,240
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,294600,296505,1112,632,320,240
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,294600,296505,-125,637,320,240
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,294600,296505,-474,366,320,240
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,294600,296505,155,-272,320,240
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,294600,296505,634,-264,320,240
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,294600,296505,1103,-179,320,240
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,294600,296505,-478,-267,320,240
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,294838,296743,1109,161,320,240
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,294838,296743,-474,24,320,240
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,294838,296743,282,-261,320,240
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,294838,296743,595,-264,320,240
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,295076,296981,125,-259,320,240
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,295076,296981,601,-262,320,240
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,295076,296981,725,627,320,240
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,295314,297219,1109,199,320,240
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,295314,297219,229,628,320,240
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,295314,297219,-468,451,320,240
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,295314,297219,-466,-262,320,240
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,295314,297219,200,-256,320,240
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,295314,297219,600,-264,320,240
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,295552,297457,-466,199,320,240
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,295552,297457,-155,-257,320,240
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,295552,297457,1110,103,320,240
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,295552,297457,457,-262,320,240
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,295790,297695,90,624,320,240
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,295790,297695,1114,-162,320,240
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,295790,297695,-484,628,320,240
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,295790,297695,-473,-265,320,240
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,295790,297695,-473,209,320,240
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,295790,297695,168,-259,320,240
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,295790,297695,792,625,320,240
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,295790,297695,1110,197,320,240
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,296028,297933,504,-204,320,240
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,296028,297933,-93,588,320,240
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,296028,297933,1116,-1,320,240
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,296028,297933,-467,198,320,240
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,296028,297933,-70,-262,320,240
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,296028,297933,523,-261,320,240
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,296266,298171,78,556,320,240
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,296266,298171,-476,476,320,240
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,296266,298171,-466,102,320,240
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,296266,298171,1116,2,320,240
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,296266,298171,-113,-266,320,240
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,296266,298171,367,-256,320,240
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,296504,298409,-466,578,320,240
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,296504,298409,1112,-188,320,240
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,296504,298409,-474,-121,320,240
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,296742,298647,672,632,320,240
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,296742,298647,1111,274,320,240
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,296742,298647,-476,632,320,240
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,296742,298647,-468,-101,320,240
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,296742,298647,574,-260,320,240
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,296980,298885,-232,149,320,240
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,296980,298885,674,634,320,240
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,296980,298885,1103,220,320,240
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,296980,298885,64,-257,320,240
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,296980,298885,485,-254,320,240
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,296980,298885,84,599,320,240
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,296980,298885,-478,359,320,240
+Sprite,Foreground,Centre,"sb\ss.png",320,240
+ S,0,224600,,0.1
+ M,0,224600,232219,456,-38,456,522
+Sprite,Foreground,Centre,"sb\ss.png",320,240
+ S,0,224600,,0.1
+ M,0,224600,231742,593,-35,593,638
+ M,0,231742,,593,638
+Sprite,Foreground,Centre,"sb\ss.png",320,240
+ S,0,224600,,0.1
+ M,0,224600,231742,183,-30,183,634
+ M,0,231742,,183,634
+Sprite,Foreground,Centre,"sb\ss.png",320,240
+ S,0,225076,,0.1
+ M,0,225076,230314,393,-44,393,555
+ M,0,230314,,393,555
+Sprite,Foreground,Centre,"sb\ss.png",320,240
+ S,0,225076,,0.1
+ M,0,225076,232219,538,-32,538,621
+Sprite,Foreground,Centre,"sb\ss.png",320,240
+ S,0,225076,,0.1
+ M,0,225076,231742,627,-41,627,623
+ M,0,231742,,627,623
+Sprite,Foreground,Centre,"sb\ss.png",320,240
+ S,0,225552,,0.1
+ M,0,225552,230314,457,-29,457,593
+ M,0,230314,,457,593
+Sprite,Foreground,Centre,"sb\ss.png",320,240
+ S,0,225552,,0.1
+ M,0,225552,232933,62,-26,62,635
+ M,0,229187,232933,62,298,62,635
+Sprite,Foreground,Centre,"sb\ss.png",320,240
+ S,0,226028,,0.1
+ M,0,226028,233647,182,-30,182,501
+Sprite,Foreground,Centre,"sb\ss.png",320,240
+ S,0,226028,,0.1
+ M,0,226028,232219,315,-36,315,625
+ M,0,232219,,315,625
+Sprite,Foreground,Centre,"sb\ss.png",320,240
+ S,0,226028,,0.1
+ M,0,226028,230314,106,-31,106,599
+ M,0,230314,,106,599
+Sprite,Foreground,Centre,"sb\ss.png",320,240
+ S,0,226504,,0.1
+ M,0,226504,233171,559,-40,559,621
+ M,0,233171,,559,621
+Sprite,Foreground,Centre,"sb\ss.png",320,240
+ S,0,226981,,0.1
+ M,0,226981,234600,320,-34,320,517
+Sprite,Foreground,Centre,"sb\ss.png",320,240
+ S,0,226981,,0.1
+ M,0,226981,234123,395,-36,395,634
+ M,0,234123,,395,634
+Sprite,Foreground,Centre,"sb\ss.png",320,240
+ S,0,226981,,0.1
+ M,0,226981,234123,66,-40,66,640
+ M,0,234123,,66,640
+Sprite,Foreground,Centre,"sb\ss.png",320,240
+ S,0,227457,,0.1
+ M,0,227457,235076,457,-29,457,503
+Sprite,Foreground,Centre,"sb\ss.png",320,240
+ S,0,227933,,0.1
+ M,0,227933,232219,323,-34,323,583
+ M,0,232219,,323,583
+Sprite,Foreground,Centre,"sb\ss.png",320,240
+ S,0,228409,,0.1
+ M,0,228409,235552,182,-30,182,618
+ M,0,235552,,182,618
+Sprite,Foreground,Centre,"sb\ss.png",320,240
+ S,0,228885,,0.1
+ M,0,228885,236504,472,-34,472,508
+Sprite,Foreground,Centre,"sb\ss.png",320,240
+ S,0,227933,,0.1
+ M,0,227933,234600,514,-44,514,618
+ M,0,234600,,514,618
+Sprite,Foreground,Centre,"sb\ss.png",320,240
+ S,0,229361,,0.1
+ M,0,229361,236028,355,-27,355,617
+ M,0,236028,,355,617
+Sprite,Foreground,Centre,"sb\ss.png",320,240
+ S,0,229838,,0.1
+ M,0,229838,237457,157,-35,157,604
+Sprite,Foreground,Centre,"sb\ss.png",320,240
+ S,0,230314,,0.1
+ M,0,230314,237933,310,-27,310,512
+Sprite,Foreground,Centre,"sb\ss.png",320,240
+ S,0,231266,,0.1
+ M,0,231266,237932,627,-41,627,623
+ M,0,237932,,627,623
+Sprite,Foreground,Centre,"sb\ss.png",320,240
+ S,0,231266,,0.1
+ M,0,231266,238885,456,-38,456,522
+Sprite,Foreground,Centre,"sb\ss.png",320,240
+ S,0,232219,,0.1
+ M,0,232219,239361,593,-35,593,638
+ M,0,239361,,593,638
+Sprite,Foreground,Centre,"sb\ss.png",320,240
+ S,0,232219,,0.1
+ M,0,232219,239361,183,-30,183,634
+ M,0,239361,,183,634
+Sprite,Foreground,Centre,"sb\ss.png",320,240
+ S,0,232695,,0.1
+ M,0,232695,237933,393,-44,393,555
+ M,0,237933,,393,555
+Sprite,Foreground,Centre,"sb\ss.png",320,240
+ S,0,232695,,0.1
+ M,0,232695,239361,627,-41,627,623
+ M,0,239361,,627,623
+Sprite,Foreground,Centre,"sb\ss.png",320,240
+ S,0,233171,,0.1
+ M,0,233171,240552,62,-26,62,635
+ M,0,240552,,62,635
+Sprite,Foreground,Centre,"sb\ss.png",320,240
+ S,0,233647,,0.1
+ M,0,233647,241266,182,-30,182,501
+Sprite,Foreground,Centre,"sb\ss.png",320,240
+ S,0,233647,,0.1
+ M,0,233647,239838,315,-36,315,625
+ M,0,239838,,315,625
+Sprite,Foreground,Centre,"sb\ss.png",320,240
+ S,0,233647,,0.1
+ M,0,233647,237933,106,-31,106,599
+ M,0,237933,,106,599
+Sprite,Foreground,Centre,"sb\ss.png",320,240
+ S,0,234123,,0.1
+ M,0,234123,240790,559,-40,559,621
+ M,0,240790,,559,621
+Sprite,Foreground,Centre,"sb\ss.png",320,240
+ S,0,234600,,0.1
+ M,0,234600,242219,320,-34,320,517
+Sprite,Foreground,Centre,"sb\ss.png",320,240
+ S,0,234600,,0.1
+ M,0,234600,241742,395,-36,395,634
+ M,0,241742,,395,634
+Sprite,Foreground,Centre,"sb\ss.png",320,240
+ S,0,234600,,0.1
+ M,0,234600,241742,66,-40,66,640
+ M,0,241742,,66,640
+Sprite,Foreground,Centre,"sb\ss.png",320,240
+ S,0,235076,,0.1
+ M,0,235076,242695,457,-29,457,503
+Sprite,Foreground,Centre,"sb\ss.png",320,240
+ S,0,235552,,0.1
+ M,0,235552,239838,323,-34,323,583
+ M,0,239838,,323,583
+Sprite,Foreground,Centre,"sb\ss.png",320,240
+ S,0,236028,,0.1
+ M,0,236028,243171,182,-30,182,618
+ M,0,243171,,182,618
+Sprite,Foreground,Centre,"sb\ss.png",320,240
+ S,0,236504,,0.1
+ M,0,236504,244123,472,-34,472,508
+Sprite,Foreground,Centre,"sb\ss.png",320,240
+ S,0,235552,,0.1
+ M,0,235552,242219,514,-44,514,618
+ M,0,242219,,514,618
+Sprite,Foreground,Centre,"sb\ss.png",320,240
+ S,0,236980,,0.1
+ M,0,236980,243647,355,-27,355,617
+ M,0,243647,,355,617
+Sprite,Foreground,Centre,"sb\ss.png",320,240
+ S,0,237457,,0.1
+ M,0,237457,245076,157,-35,157,604
+Sprite,Foreground,Centre,"sb\ss.png",320,240
+ S,0,237457,,0.1
+ M,0,237457,243647,67,-57,67,622
+ M,0,243647,,67,622
+Sprite,Foreground,Centre,"sb\ss.png",320,240
+ S,0,237933,,0.1
+ M,0,237933,245552,310,-27,310,512
+Sprite,Foreground,Centre,"sb\ss.png",320,240
+ S,0,238409,,0.1
+ M,0,238409,245552,254,-34,254,634
+ M,0,241768,245552,254,281,254,634
+Sprite,Foreground,Centre,"sb\ss.png",320,240
+ S,0,238647,,0.1
+ M,0,238647,242933,106,-31,106,599
+ M,0,242933,,106,599
+Sprite,Foreground,Centre,"sb\ss.png",320,240
+ S,0,238885,,0.1
+ M,0,238885,245551,627,-41,627,623
+ M,0,245551,,627,623
+Sprite,Foreground,Centre,"sb\ss.png",320,240
+ S,0,238885,,0.1
+ M,0,238885,246504,456,-38,456,522
+Sprite,Foreground,Centre,"sb\ss.png",320,240
+ S,0,239361,,0.1
+ M,0,239361,246504,538,-32,538,621
+Sprite,Foreground,Centre,"sb\ss.png",320,240
+ S,0,239838,,0.1
+ M,0,239838,246505,559,-40,559,621
+ M,0,246505,,559,621
+Sprite,Foreground,Centre,"sb\ss.png",320,240
+ M,1,240315,,320,-34
+ S,0,240315,,0.1
+Sprite,Foreground,Centre,"sb\ss.png",320,240
+ S,0,240315,,0.1
+ M,0,240315,247457,395,-36,395,634
+ M,0,247457,,395,634
+Sprite,Foreground,Centre,"sb\ss.png",320,240
+ S,0,240315,,0.1
+ M,0,240315,247457,66,-40,66,640
+ M,0,247457,,66,640
+Sprite,Foreground,Centre,"sb\ss.png",320,240
+ M,0,240790,240791,457,-20,457,-29
+ S,0,240791,,0.1
+ M,0,240791,246504,457,-29,457,369
+ M,1,246504,246981,457,369,457,384
+ M,0,246981,,457,384,457,408
+ M,2,246981,248885,457,384,457,-267
+Sprite,Foreground,Centre,"sb\ss.png",320,240
+ S,0,241267,,0.1
+ M,0,241267,245553,323,-34,323,583
+ M,0,245553,,323,583
+Sprite,Foreground,Centre,"sb\ss.png",320,240
+ M,0,242219,,472,-34
+ S,0,242219,,0.1
+ M,0,242219,246504,472,-34,472,270
+ M,1,246504,246981,472,270,472,288
+ M,2,246981,248885,472,288,472,-256
+Sprite,Foreground,Centre,"sb\ss.png",320,240
+ S,0,241267,,0.1
+ M,0,241267,247934,514,-44,514,618
+ M,0,247934,,514,618
+Sprite,Foreground,Centre,"sb\ss.png",320,240
+ M,0,243172,,157,-35
+ S,0,243172,,0.1
+ M,0,243172,246504,157,-35,157,244
+ M,1,246504,246981,157,244,157,265
+ M,2,246981,248885,157,265,157,-274
+Sprite,Foreground,Centre,"sb\ss.png",320,240
+ M,0,243171,,67,-41
+ M,0,243171,246504,67,-41,67,310
+ M,0,243172,,67,-57
+ S,0,243172,,0.1
+ M,1,246504,246981,67,310,67,335
+ M,2,246981,248885,67,335,67,-274
+Sprite,Foreground,Centre,"sb\ss.png",320,240
+ M,0,243648,,310,-27
+ S,0,243648,,0.1
+ M,0,243648,246504,310,-27,310,175
+ M,1,246504,246981,310,175,310,193
+ M,2,246981,248885,310,193,310,-273
+Sprite,Foreground,Centre,"sb\ss.png",320,240
+ M,0,244123,246504,254,-34,254,188
+ M,0,244124,,254,-34
+ S,0,244124,,0.1
+ M,1,246504,246981,254,188,254,210
+ M,2,246981,248885,254,210,254,-258
+Sprite,Foreground,Centre,"sb\ss.png",320,240
+ M,0,244361,,106,-13
+ M,0,244362,,106,-31
+ S,0,244362,,0.1
+ M,0,244362,246504,106,-31,106,283
+ M,1,246504,246981,106,283,106,315
+ M,2,246981,248885,106,315,106,-254
+Sprite,Foreground,Centre,"sb\ss.png",320,240
+ M,0,244600,,627,-41
+ S,0,244600,,0.1
+ M,0,244600,246504,627,-41,627,148
+ M,1,246504,246981,627,148,627,182
+ M,2,246981,248885,627,182,627,-255
+Sprite,Foreground,Centre,"sb\ss.png",320,240
+ M,0,244600,,456,-38
+ S,0,244600,,0.1
+ M,0,244600,246504,456,-38,456,101
+ M,1,246504,246981,456,101,456,128
+ M,2,246981,248885,456,128,456,-255
+Sprite,Foreground,Centre,"sb\ss.png",320,240
+ M,0,245076,,538,-32
+ S,0,245076,,0.1
+ M,0,245076,246504,538,-32,538,98
+ M,1,246504,246981,538,98,538,110
+ M,2,246981,248885,538,110,538,-274
+Sprite,Foreground,Centre,"sb\ss.png",320,240
+ M,0,245552,,67,-57
+ S,0,245552,,0.1
+ M,0,245552,246504,67,-57,67,47
+ M,1,246504,246981,67,47,67,73
+ M,2,246981,248885,67,73,67,-275
+Sprite,Foreground,Centre,"sb\ss.png",320,240
+ M,0,246028,,310,-27
+ S,0,246028,,0.1
+ M,0,246028,246504,310,-27,310,26
+ M,1,246504,246981,310,26,310,57
+ M,2,246981,248885,310,57,310,-269
+Sprite,Foreground,Centre,"sb\ss.png",320,240
+ S,0,246504,,0.1
+ M,1,246504,246981,472,-34,472,0
+ M,2,246981,248885,472,0,472,-269
+Sprite,Foreground,Centre,"sb\ss.png",320,240
+ S,0,228885,,0.1
+ M,0,228885,233171,106,-31,106,599
+ M,0,233171,,106,599
+Sprite,Foreground,Centre,"sb\ss.png",320,240
+ S,0,231742,,0.1
+ M,0,231742,236028,106,-31,106,599
+ M,0,236028,,106,599
+Sprite,Foreground,Centre,"sb\ss.png",320,240
+ S,0,230790,,0.1
+ M,0,230790,238171,62,-26,62,635
+ M,0,234425,238171,62,298,62,635
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,133674,135578,320,240,-56,321
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,132472,134376,320,240,-56,321
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,133203,135107,320,240,-56,321
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,136348,138252,320,240,-56,321
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,137231,139135,320,240,-56,321
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,138384,140288,320,240,-56,321
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,140093,141997,320,240,-56,321
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,141149,143053,320,240,-56,321
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,142203,144107,320,240,-56,321
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,143291,145195,320,240,-56,321
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,144540,146444,320,240,-56,321
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,145770,147674,320,240,-56,321
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,146843,148747,320,240,-56,321
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,147930,149834,320,240,-56,321
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,148955,150859,320,240,-56,321
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,150159,152063,320,240,-56,321
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,151116,153020,320,240,-56,321
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,152175,154079,320,240,-56,321
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,153309,155213,320,240,-56,321
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,154286,156190,320,240,-56,321
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,156635,158539,320,240,-56,321
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,154817,156721,320,240,-56,321
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,156111,158015,320,240,-56,321
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,157490,159394,320,240,-56,321
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,159073,160977,320,240,-56,321
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,132359,134264,320,240,-34,26
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,133528,135433,320,240,-34,26
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,134393,136298,320,240,-34,26
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,135351,137256,320,240,-34,26
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,136951,138856,320,240,-34,26
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,140913,142818,320,240,-34,26
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,141983,143888,320,240,-34,26
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,140120,142025,320,240,-34,26
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,141514,143419,320,240,-34,26
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,144755,146660,320,240,-34,26
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,145520,147425,320,240,-34,26
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,143726,145631,320,240,-34,26
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,144944,146849,320,240,-34,26
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,147412,149317,320,240,-34,26
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,148485,150390,320,240,-34,26
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,149492,151397,320,240,-34,26
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,150549,152454,320,240,-34,26
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,151585,153490,320,240,-34,26
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,152592,154497,320,240,-34,26
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,153475,155380,320,240,-34,26
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,154373,156278,320,240,-34,26
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,155253,157158,320,240,-34,26
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,156231,158136,320,240,-34,26
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,157268,159173,320,240,-34,26
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,158209,160114,320,240,-34,26
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,159044,160949,320,240,-34,26
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,131932,133836,320,240,-6,450
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,132970,134874,320,240,-6,450
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,133816,135720,320,240,-6,450
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,134652,136556,320,240,-6,450
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,135481,137385,320,240,-6,450
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,136330,138234,320,240,-6,450
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,137229,139133,320,240,-6,450
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,138025,139929,320,240,-6,450
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,138975,140879,320,240,-6,450
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,139866,141770,320,240,-6,450
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,140669,142573,320,240,-6,450
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,141420,143324,320,240,-6,450
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,142316,144220,320,240,-6,450
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,143082,144986,320,240,-6,450
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,143882,145786,320,240,-6,450
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,144651,146555,320,240,-6,450
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,145465,147369,320,240,-6,450
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,146344,148248,320,240,-6,450
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,147178,149082,320,240,-6,450
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,147991,149895,320,240,-6,450
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,148809,150713,320,240,-6,450
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,149742,151646,320,240,-6,450
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,150585,152489,320,240,-6,450
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,151436,153340,320,240,-6,450
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,152332,154236,320,240,-6,450
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,153182,155086,320,240,-6,450
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,154061,155965,320,240,-6,450
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,154874,156778,320,240,-6,450
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,155725,157629,320,240,-6,450
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,156493,158397,320,240,-6,450
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,157306,159210,320,240,-6,450
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,158141,160045,320,240,-6,450
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,158873,160777,320,240,-6,450
+Sprite,Foreground,Centre,"sb\character.png",320,240
+ F,0,192219,193171,0,1
+ S,0,192695,,0.692
+ M,0,193171,,314,254
+ F,0,193171,224600,1
+ F,0,224600,225076,1,0
+ F,0,225076,255076,0
+ F,0,255076,255552,0,1
+ F,0,255552,285552,1
+ F,0,285552,298885,1
+Sprite,Foreground,Centre,"sb\character.png",320,240
+ M,0,129362,,314,254
+ S,0,129362,,0.692
+ F,0,129362,161742,1
+Sprite,Foreground,Centre,"sb\white.png",320,240
+ S,0,2428,,0.625
+ F,0,2428,3388,1,0
+Sprite,Foreground,Centre,"sb\white.png",320,240
+ S,0,96673,,0.625
+ F,2,96673,97633,1,0
+Sprite,Foreground,Centre,"sb\white.png",320,240
+ S,0,129362,,0.625
+ F,2,129362,130322,1,0
+Sprite,Foreground,Centre,"sb\white.png",320,240
+ S,0,144600,,0.625
+ F,0,144600,145560,1,0
+Sprite,Foreground,Centre,"sb\white.png",320,240
+ S,0,161742,,0.625
+ F,0,161742,162702,1,0
+Sprite,Foreground,Centre,"sb\white.png",320,240
+ S,0,192219,,0.625
+ F,0,192219,193179,1,0
+Sprite,Foreground,Centre,"sb\white.png",320,240
+ S,0,224600,,0.625
+ F,0,224600,225560,1,0
+Sprite,Foreground,Centre,"sb\white.png",320,240
+ S,0,239838,,0.625
+ F,0,239838,240798,1,0
+Sprite,Foreground,Centre,"sb\white.png",320,240
+ F,0,255046,255076,0,1
+ S,0,255076,,0.625
+ F,2,255076,256036,1,0
+Sprite,Foreground,Centre,"sb\white.png",320,240
+ S,0,285552,,0.625
+ F,0,285552,286512,1,0
+Sprite,Foreground,Centre,"sb\white.png",320,240
+ S,0,298885,,0.625
+ F,0,298885,299845,1,0
+Sprite,Foreground,Centre,"sb\s1.png",320,240
+ M,0,95713,,320,240
+ F,2,95713,96673,0,1
+Sprite,Foreground,Centre,"sb\s2.png",320,240
+ F,2,95713,96673,0,1
+Sprite,Foreground,Centre,"sb\s1.png",320,240
+ F,2,128383,129362,0,1
+Sprite,Foreground,Centre,"sb\s2.png",320,240
+ F,1,128872,129362,0,1
+ M,0,129117,,320,240
+Sprite,Foreground,Centre,"sb\ss.png",320,240
+ M,0,129117,,320,240
+ F,2,129117,129362,0,1
+Sprite,Foreground,Centre,"sb\white.png",320,240
+ S,0,159838,,0.625
+ F,0,159838,160314,1,0
+ F,0,160314,,0
+Sprite,Foreground,Centre,"sb\white.png",320,240
+ S,0,296981,,0.625
+ F,0,296981,297457,1,0
+ F,0,297457,,0
+Sprite,Foreground,Centre,"sb\title\L.png",320,240
+ S,0,6268,,0.5375485
+ M,1,6268,6748,86,72,180,229
+ F,1,6268,6748,0,1
+ F,0,6748,8188,1
+ F,0,8188,13948,1
+ F,0,13948,,1
+ F,0,13948,15028,1
+ F,0,15028,15268,1,0
+Sprite,Foreground,Centre,"sb\title\e.png",320,240
+ S,0,6388,,0.5375485
+ M,1,6388,6868,119,80,204,238
+ F,1,6388,6868,0,1
+ F,0,6868,8188,1
+ F,0,8188,13948,1
+ F,0,13948,14908,1
+ F,0,14908,15148,1,0
+Sprite,Foreground,Centre,"sb\title\t.png",320,240
+ S,0,6508,,0.5375485
+ M,1,6508,6988,153,75,238,234
+ F,0,6508,6988,0,1
+ F,0,6988,8188,1
+ F,0,8188,13948,1
+ F,0,13948,14788,1
+ F,0,14788,15028,1,0
+Sprite,Foreground,Centre,"sb\title\t.png",320,240
+ S,0,6628,,0.5375485
+ M,1,6628,7108,188,75,270,234
+ F,1,6628,7108,0,1
+ F,0,7108,8188,1
+ F,0,8188,13948,1
+ F,0,13948,14668,1
+ F,0,14668,14908,1,0
+Sprite,Foreground,Centre,"sb\title\e.png",320,240
+ S,0,6748,,0.5375485
+ M,1,6748,7228,219,80,302,240
+ F,1,6748,7228,0,1
+ F,0,7228,8188,1,0.9999956
+ F,0,8188,13948,0.9999956,0.9999967
+ F,0,13948,14548,0.9999967
+ F,0,14548,14788,0.9999967,0
+Sprite,Foreground,Centre,"sb\title\r.png",320,240
+ S,0,6868,,0.5375485
+ M,1,6868,7348,253,79,333,240
+ F,1,6868,7348,0,1
+ F,0,7348,8188,1
+ F,0,8188,13948,1
+ F,0,13948,14428,1
+ F,0,14428,14668,1,0
+Sprite,Foreground,Centre,"sb\title\s.png",320,240
+ S,0,6988,,0.5375485
+ M,1,6988,7468,301,79,377,240
+ F,1,6988,7468,0,1
+ F,0,7468,8188,1
+ F,0,8188,13948,1
+ F,0,13948,14308,1
+ F,0,14308,14548,1,0
+Sprite,Foreground,Centre,"sb\title\o.png",320,240
+ S,0,7108,,0.5375485
+ M,1,7108,7588,333,79,408,240
+ F,1,7108,7588,0,1
+ F,0,7588,8188,1
+ F,0,8188,13948,1
+ F,0,13948,14188,1
+ F,0,14188,14428,1,0
+Sprite,Foreground,Centre,"sb\title\n.png",320,240
+ S,0,7228,,0.5375485
+ M,1,7228,7708,366,79,441,240
+ F,1,7228,7708,0,1
+ F,0,7708,8188,1
+ F,0,8188,13948,1
+ F,0,13948,14068,1
+ F,0,14068,14308,1,0
+Sprite,Foreground,Centre,"sb\title\g.png",320,240
+ S,0,7348,,0.5375485
+ M,1,7348,7828,401,82,476,246
+ F,1,7348,7828,0,1
+ F,0,7828,8188,1
+ F,0,8188,13948,1
+ F,0,13948,14188,1,0
+Sprite,Foreground,Centre,"sb\title\E(B).png",320,240
+ S,0,7588,,0.355871
+ M,1,7588,8068,295,287,295,297
+ F,1,7588,8068,0,1
+ F,0,8068,14908,1
+ F,0,14908,15028,1
+ F,0,15028,15268,1,0
+Sprite,Foreground,Centre,"sb\title\N(B).png",320,240
+ S,0,7708,,0.355871
+ M,0,7708,8188,322,287,322,297
+ F,1,7708,8188,0,1
+ F,0,8188,14908,1
+ F,0,14908,15148,1,0
+Sprite,Foreground,Centre,"sb\title\E(B).png",320,240
+ S,0,7828,,0.355871
+ M,1,7828,8308,350,287,350,297
+ F,1,7828,8308,0,1
+ F,0,8308,14908,1
+ F,0,14908,15028,1
+ F,0,15028,15268,1,0
+Sprite,Foreground,Centre,"sb\title\bar.png",320,240
+ F,0,7588,8068,0,1
+ M,0,8068,,381,297
+ S,0,8068,,0.4384516
+ F,0,8068,14908,1,0.9979166
+ F,0,14908,15388,0.9979166,0
+Sprite,Foreground,Centre,"sb\title\bar.png",320,240
+ F,0,7588,8068,0,1
+ M,0,8068,,264,297
+ S,0,8068,,0.4384516
+ F,0,8068,14908,1
+ F,0,14908,15388,1,0
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,17308,21148,320,-15,-11,459
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,17308,21148,320,-15,553,536
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,17308,21148,320,-15,332,553
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,17308,21148,320,-15,671,474
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,17308,21148,320,-15,714,449
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,17788,21628,320,-15,698,563
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,17788,21628,320,-15,505,560
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,17788,21628,320,-15,713,539
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,17788,21628,320,-15,31,567
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,18268,22108,320,-15,-27,440
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,18268,22108,320,-15,739,578
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,18268,22108,320,-15,295,548
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,18268,22108,320,-15,28,575
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,18748,22588,320,-15,39,590
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,18748,22588,320,-15,795,463
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,18748,22588,320,-15,-2,552
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,18748,22588,320,-15,676,628
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,19228,23068,320,-15,128,553
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,19228,23068,320,-15,788,517
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,19228,23068,320,-15,126,574
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,19708,23548,320,-15,53,568
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,19708,23548,320,-15,450,544
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,20188,24028,320,-15,617,553
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,20188,24028,320,-15,60,573
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,20188,24028,320,-15,263,565
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,20668,24508,320,-15,530,549
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,21148,24988,320,-15,20,557
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,21628,25468,320,-15,633,545
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,21628,25468,320,-15,-22,549
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,22108,25948,320,-15,-74,558
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,22108,25948,320,-15,131,568
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,22588,26428,320,-15,31,561
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,22588,26428,320,-15,259,569
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,23068,26908,320,-15,26,576
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,23548,27388,320,-15,409,548
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,24028,27868,320,-15,674,563
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,24028,27868,320,-15,77,582
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,24508,28348,320,-15,121,566
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,24988,28828,320,-15,-268,421
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,24988,28828,320,-15,-27,568
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,25468,29308,320,-15,11,567
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,25948,29788,320,-15,380,553
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,25948,29788,320,-15,412,558
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,26428,30268,320,-15,319,568
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,26428,30268,320,-15,342,566
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,26908,30748,320,-15,56,558
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,26908,30748,320,-15,-283,441
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,27388,31228,320,-15,532,540
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,27388,31228,320,-15,172,550
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,27868,31708,320,-15,205,583
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,27868,31708,320,-15,630,579
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,28348,32188,320,-15,-2,590
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,28348,32188,320,-15,568,564
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,28828,32668,320,-15,-27,440
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,28828,32668,320,-15,497,563
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,29308,33148,320,-15,934,506
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,29788,33628,320,-15,579,567
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,29788,33628,320,-15,-14,568
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,30268,34108,320,-15,161,549
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,30748,34588,320,-15,58,558
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,17548,21388,320,-15,670,434
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,17548,21388,320,-15,62,551
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,18028,21868,320,-15,336,542
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,18028,21868,320,-15,84,543
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,18508,22348,320,-15,755,489
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,18508,22348,320,-15,143,543
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,18508,22348,320,-15,556,536
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,18988,22828,320,-15,46,563
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,18988,22828,320,-15,356,561
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,18988,22828,320,-15,769,549
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,19468,23308,320,-15,571,557
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,19948,23788,320,-15,606,546
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,20428,24268,320,-15,641,535
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,20428,24268,320,-15,491,558
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,20908,24748,320,-15,665,552
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,20908,24748,320,-15,265,576
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,21388,25228,320,-15,607,558
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,21388,25228,320,-15,835,545
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,21868,25708,320,-15,13,539
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,22348,26188,320,-15,810,527
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,22348,26188,320,-15,598,587
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,22828,26668,320,-15,668,536
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,23308,27148,320,-15,772,539
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,23788,27628,320,-15,878,517
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,23788,27628,320,-15,-185,481
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,24268,28108,320,-15,560,576
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,24268,28108,320,-15,216,535
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,24748,28588,320,-15,774,535
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,25228,29068,320,-15,504,527
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,25228,29068,320,-14,178,567
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,25708,29548,320,-15,774,553
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,25468,29308,320,-15,790,559
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,25708,29548,320,-15,439,560
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,26188,30028,320,-15,494,569
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,26668,30508,320,-15,283,556
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,27148,30988,320,-15,464,563
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,27628,31468,320,-15,29,558
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,27148,30988,320,-15,978,440
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,28108,31948,320,-15,809,529
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,28108,31948,320,-15,945,476
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,28588,32428,320,-15,955,452
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,29068,32908,320,-15,234,589
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,29548,33388,320,-15,340,572
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,30028,33868,320,-15,713,568
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,30028,33868,320,-14,225,560
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,30508,34348,320,-15,608,559
+Sprite,Foreground,Centre,"sb\d.png",320,240
+ M,0,30988,34828,320,-15,848,442
+Sprite,Foreground,Centre,"sb\ss.png",320,240
+ S,0,247219,,0.1
+ M,2,247219,248885,63,507,63,-270
+Sprite,Foreground,Centre,"sb\ss.png",320,240
+ S,0,247219,,0.1
+ M,2,247219,248885,574,507,574,-262
+Sprite,Foreground,Centre,"sb\ss.png",320,240
+ S,0,247219,,0.1
+ M,2,247219,248885,315,507,315,-281
+ M,0,248885,,315,-281
+Sprite,Foreground,Centre,"sb\ss.png",320,240
+ M,0,248171,,7,507
+ S,0,248171,,0.1
+Sprite,Foreground,Centre,"sb\ss.png",320,240
+ M,2,246981,249123,446,609,446,-33
+ S,0,249123,,0.1
+Sprite,Foreground,Centre,"sb\ss.png",320,240
+ M,2,247457,249123,95,605,95,-35
+ S,0,249123,,0.1
+Sprite,Foreground,Centre,"sb\ss.png",320,240
+ M,2,247219,249123,21,611,21,-34
+ S,0,249123,,0.1
+Sprite,Foreground,Centre,"sb\ss.png",320,240
+ M,2,247695,249123,174,609,174,-39
+ S,0,249123,,0.1
+Sprite,Foreground,Centre,"sb\ss.png",320,240
+ M,2,246981,249123,346,612,346,-39
+ S,0,249123,,0.1
+Sprite,Foreground,Centre,"sb\ss.png",320,240
+ M,2,246742,249123,595,615,595,-52
+ S,0,249123,,0.1
+Sprite,Foreground,Centre,"sb\ss.png",320,240
+ M,2,247457,249361,579,624,579,-42
+ S,0,249361,,0.1
+Sprite,Foreground,Centre,"sb\ss.png",320,240
+ M,2,247457,249361,318,616,318,-33
+ S,0,249361,,0.1
+Sprite,Foreground,Centre,"sb\ss.png",320,240
+ M,2,247933,249361,489,621,489,-30
+ S,0,249361,,0.1
+Sprite,Foreground,Centre,"sb\ss.png",320,240
+ M,2,247933,249361,46,613,46,-32
+ S,0,249361,,0.1
+Sprite,Foreground,Centre,"sb\ss.png",320,240
+ M,2,248885,249838,574,634,574,-26
+ S,0,249838,,0.1
+Sprite,Foreground,Centre,"sb\ss.png",320,240
+ M,2,248885,249838,106,619,106,-25
+ S,0,249838,,0.1
+Sprite,Foreground,Centre,"sb\ss.png",320,240
+ M,2,247933,249600,318,614,318,-29
+ S,0,249600,,0.1
+Sprite,Foreground,Centre,"sb\ss.png",320,240
+ M,2,248409,249600,590,619,590,-35
+ S,0,249600,,0.1
+Sprite,Foreground,Centre,"sb\ss.png",320,240
+ M,2,248409,249600,90,617,90,-29
+ S,0,249600,,0.1
+Sprite,Foreground,Centre,"sb\ss.png",320,240
+ M,2,249123,250076,439,602,439,-34
+ S,0,250076,,0.1
+Sprite,Foreground,Centre,"sb\ss.png",320,240
+ M,2,249123,250076,90,611,90,-23
+ S,0,250076,,0.1
+Sprite,Foreground,Centre,"sb\ss.png",320,240
+ M,2,249361,250314,553,610,553,-27
+ S,0,250314,,0.1
+Sprite,Foreground,Centre,"sb\ss.png",320,240
+ M,2,249361,250314,91,611,91,-27
+ S,0,250314,,0.1
+Sprite,Foreground,Centre,"sb\ss.png",320,240
+ M,2,249600,250552,556,615,556,-41
+ S,0,250552,,0.1
+Sprite,Foreground,Centre,"sb\ss.png",320,240
+ M,2,249600,250552,57,611,57,-31
+ S,0,250552,,0.1
+Sprite,Foreground,Centre,"sb\ss.png",320,240
+ M,2,249838,250790,593,617,593,-34
+ S,0,250790,,0.1
+Sprite,Foreground,Centre,"sb\ss.png",320,240
+ M,2,250076,251028,312,616,312,-24
+ S,0,251028,,0.1
+Sprite,Foreground,Centre,"sb\ss.png",320,240
+ M,2,250076,251028,484,610,484,-43
+ S,0,251028,,0.1
+Sprite,Foreground,Centre,"sb\ss.png",320,240
+ M,2,250314,251266,566,613,566,-29
+ S,0,251266,,0.1
+Sprite,Foreground,Centre,"sb\ss.png",320,240
+ M,2,250314,251266,47,615,47,-35
+ S,0,251266,,0.1
+Sprite,Foreground,Centre,"sb\ss.png",320,240
+ M,2,250552,251504,402,623,402,-30
+ S,0,251504,,0.1
+Sprite,Foreground,Centre,"sb\ss.png",320,240
+ M,2,250790,251742,359,610,359,-32
+ S,0,251742,,0.1
+Sprite,Foreground,Centre,"sb\ss.png",320,240
+ M,2,250790,251742,592,614,592,-33
+ S,0,251742,,0.1
+Sprite,Foreground,Centre,"sb\ss.png",320,240
+ M,2,251028,251981,606,620,606,-28
+ S,0,251981,,0.1
+Sprite,Foreground,Centre,"sb\ss.png",320,240
+ M,2,251028,251981,72,610,72,-27
+ S,0,251981,,0.1
+Sprite,Foreground,Centre,"sb\ss.png",320,240
+ M,2,251266,252219,604,615,604,-33
+ S,0,252219,,0.1
+Sprite,Foreground,Centre,"sb\ss.png",320,240
+ M,2,251266,252219,61,602,61,-31
+ S,0,252219,,0.1
+Sprite,Foreground,Centre,"sb\ss.png",320,240
+ M,2,251504,252457,580,617,580,-28
+ S,0,252457,,0.1
+Sprite,Foreground,Centre,"sb\ss.png",320,240
+ M,2,251504,252457,60,609,60,-38
+ S,0,252457,,0.1
+Sprite,Foreground,Centre,"sb\ss.png",320,240
+ M,2,251742,252695,567,608,567,-33
+ S,0,252695,,0.1
+Sprite,Foreground,Centre,"sb\ss.png",320,240
+ M,2,251742,252695,71,616,71,-26
+ S,0,252695,,0.1
+Sprite,Foreground,Centre,"sb\ss.png",320,240
+ M,2,251981,252933,25,618,25,-29
+ S,0,252933,,0.1
+Sprite,Foreground,Centre,"sb\ss.png",320,240
+ M,2,251981,252933,544,616,544,-39
+ S,0,252933,,0.1
+Sprite,Foreground,Centre,"sb\ss.png",320,240
+ M,2,252219,253171,345,611,345,-27
+ S,0,253171,,0.1
+Sprite,Foreground,Centre,"sb\ss.png",320,240
+ M,2,252219,253171,507,621,507,-26
+ S,0,253171,,0.1
+Sprite,Foreground,Centre,"sb\ss.png",320,240
+ M,2,252457,253409,344,624,344,-28
+ S,0,253409,,0.1
+Sprite,Foreground,Centre,"sb\ss.png",320,240
+ M,2,252457,253409,56,607,56,-33
+ S,0,253409,,0.1
+Sprite,Foreground,Centre,"sb\ss.png",320,240
+ M,2,252695,253647,370,614,370,-30
+ S,0,253647,,0.1
+Sprite,Foreground,Centre,"sb\ss.png",320,240
+ M,2,252695,253647,144,611,144,-31
+ S,0,253647,,0.1
+Sprite,Foreground,Centre,"sb\ss.png",320,240
+ M,2,252933,253885,501,621,501,-30
+ S,0,253885,,0.1
+Sprite,Foreground,Centre,"sb\ss.png",320,240
+ M,2,252933,253885,99,609,99,-34
+ S,0,253885,,0.1
+Sprite,Foreground,Centre,"sb\ss.png",320,240
+ M,2,253171,254123,25,612,25,-24
+ S,0,254123,,0.1
+Sprite,Foreground,Centre,"sb\ss.png",320,240
+ M,2,253409,254361,355,610,355,-34
+ S,0,254361,,0.1
+Sprite,Foreground,Centre,"sb\ss.png",320,240
+ M,2,253409,254361,589,629,589,-29
+ S,0,254361,,0.1
+Sprite,Foreground,Centre,"sb\ss.png",320,240
+ M,2,253647,254600,186,611,186,-27
+ S,0,254600,,0.1
+Sprite,Foreground,Centre,"sb\ss.png",320,240
+ M,2,253647,254600,34,603,34,-25
+ S,0,254600,,0.1
+Sprite,Foreground,Centre,"sb\ss.png",320,240
+ M,2,253885,254838,449,624,449,-26
+ S,0,254838,,0.1
+Sprite,Foreground,Centre,"sb\ss.png",320,240
+ M,2,253885,254838,196,613,196,-31
+ S,0,254838,,0.1
+Sprite,Foreground,Centre,"sb\ss.png",320,240
+ M,2,248409,249361,376,622,376,-25
+ S,0,249361,,0.1
+Sprite,Foreground,Centre,"sb\ss.png",320,240
+ M,0,248409,249361,148,613,148,-57
+ S,0,249361,,0.1
+Sprite,Foreground,Centre,"sb\ss.png",320,240
+ M,0,248409,249361,444,626,444,610
+ S,0,249361,,0.1
+Sprite,Foreground,Centre,"sb\ss.png",320,240
+ M,2,249242,250195,303,620,303,-25
+ S,0,250195,,0.1
+Sprite,Foreground,Centre,"sb\ss.png",320,240
+ M,2,249242,250195,168,624,168,-33
+ S,0,250195,,0.1
+Sprite,Foreground,Centre,"sb\ss.png",320,240
+ M,2,249481,250433,317,608,317,-87
+ S,0,250433,,0.1
+Sprite,Foreground,Centre,"sb\ss.png",320,240
+ M,2,249719,250671,146,613,146,-29
+ S,0,250671,,0.1
+Sprite,Foreground,Centre,"sb\ss.png",320,240
+ M,2,249838,250790,177,614,177,-29
+ S,0,250790,,0.1
+Sprite,Foreground,Centre,"sb\ss.png",320,240
+ M,2,249957,250909,308,614,308,-34
+ S,0,250909,,0.1
+Sprite,Foreground,Centre,"sb\ss.png",320,240
+ M,2,249719,250671,371,614,371,-35
+ S,0,250671,,0.1
+Sprite,Foreground,Centre,"sb\ss.png",320,240
+ M,2,249481,250433,452,612,452,-36
+ S,0,250433,,0.1
+Sprite,Foreground,Centre,"sb\ss.png",320,240
+ M,2,249242,250194,542,614,542,-25
+ S,0,250194,,0.1
+Sprite,Foreground,Centre,"sb\ss.png",320,240
+ M,2,249957,250909,80,616,80,-30
+ S,0,250909,,0.1
+Sprite,Foreground,Centre,"sb\ss.png",320,240
+ M,2,250195,251147,167,613,167,-25
+ S,0,251147,,0.1
+Sprite,Foreground,Centre,"sb\ss.png",320,240
+ M,2,250552,251504,61,606,61,-28
+ S,0,251504,,0.1
+Sprite,Foreground,Centre,"sb\ss.png",320,240
+ M,2,250909,251861,127,616,127,-27
+ S,0,251861,,0.1
+Sprite,Foreground,Centre,"sb\ss.png",320,240
+ M,2,251147,252100,355,613,355,-38
+ S,0,252100,,0.1
+Sprite,Foreground,Centre,"sb\ss.png",320,240
+ M,2,251385,252338,355,609,355,-38
+ S,0,252338,,0.1
+Sprite,Foreground,Centre,"sb\ss.png",320,240
+ M,2,251623,252576,186,609,186,-33
+ S,0,252576,,0.1
+Sprite,Foreground,Centre,"sb\ss.png",320,240
+ M,2,252100,253052,426,614,426,-31
+ S,0,253052,,0.1
+Sprite,Foreground,Centre,"sb\ss.png",320,240
+ M,2,252338,253290,117,609,117,-31
+ S,0,253290,,0.1
+Sprite,Foreground,Centre,"sb\ss.png",320,240
+ M,2,252457,253528,473,614,473,-28
+ S,0,253528,,0.1
+Sprite,Foreground,Centre,"sb\ss.png",320,240
+ M,2,252814,253766,582,617,582,-25
+ S,0,253766,,0.1
+Sprite,Foreground,Centre,"sb\ss.png",320,240
+ M,2,253290,254242,190,608,190,-29
+ S,0,254242,,0.1
+Sprite,Foreground,Centre,"sb\ss.png",320,240
+ M,2,253528,254481,143,610,143,-27
+ S,0,254481,,0.1
+Sprite,Foreground,Centre,"sb\ss.png",320,240
+ M,2,253766,254719,549,616,549,-33
+ S,0,254719,,0.1
+Sprite,Foreground,Centre,"sb\ss.png",320,240
+ M,2,254004,254957,328,611,328,-34
+ S,0,254957,,0.1
+Sprite,Foreground,Centre,"sb\ss.png",320,240
+ M,2,250433,251385,310,616,310,-26
+ S,0,251385,,0.1
+Sprite,Foreground,Centre,"sb\ss.png",320,240
+ M,2,250433,251385,172,601,172,-49
+ S,0,251385,,0.1
+Sprite,Foreground,Centre,"sb\ss.png",320,240
+ M,2,250671,251623,583,625,583,-29
+ S,0,251623,,0.1
+Sprite,Foreground,Centre,"sb\ss.png",320,240
+ M,2,251147,252100,509,607,509,-32
+ S,0,252100,,0.1
+Sprite,Foreground,Centre,"sb\ss.png",320,240
+ M,2,251385,252338,118,611,118,-31
+ S,0,252338,,0.1
+Sprite,Foreground,Centre,"sb\ss.png",320,240
+ M,2,251266,252219,174,611,174,-33
+ S,0,252219,,0.1
+Sprite,Foreground,Centre,"sb\ss.png",320,240
+ M,2,251861,252814,319,617,319,-29
+ S,0,252814,,0.1
+Sprite,Foreground,Centre,"sb\ss.png",320,240
+ M,2,251861,252813,133,610,133,-37
+ S,0,252813,,0.1
+Sprite,Foreground,Centre,"sb\ss.png",320,240
+ M,2,248766,249719,355,611,355,-38
+ S,0,249719,,0.1
+Sprite,Foreground,Centre,"sb\ss.png",320,240
+ M,0,247933,248885,76,613,76,-26
+ S,0,248885,,0.1
+Sprite,Foreground,Centre,"sb\ss.png",320,240
+ S,0,247100,,0.1
+ M,2,247100,249242,391,507,391,-234
+Sprite,Foreground,Centre,"sb\ss.png",320,240
+ M,2,252219,253171,172,615,172,-27
+ S,0,253171,,0.1
+Sprite,Foreground,Centre,"sb\ss.png",320,240
+ M,2,251861,252813,443,621,443,-24
+ S,0,252813,,0.1
+Sprite,Foreground,Centre,"sb\ss.png",320,240
+ M,2,252576,253528,295,600,295,-28
+ S,0,253528,,0.1
+Sprite,Foreground,Centre,"sb\ss.png",320,240
+ M,2,252814,253766,183,609,183,-34
+ S,0,253766,,0.1
+Sprite,Foreground,Centre,"sb\ss.png",320,240
+ M,2,253052,254004,179,611,179,-32
+ S,0,254004,,0.1
+Sprite,Foreground,Centre,"sb\ss.png",320,240
+ M,2,253052,254004,589,611,589,-28
+ S,0,254004,,0.1
+Sprite,Foreground,Centre,"sb\ss.png",320,240
+ M,2,252933,253885,355,611,355,-38
+ S,0,253885,,0.1
+Sprite,Foreground,Centre,"sb\ss.png",320,240
+ M,2,251147,252338,181,606,181,-36
+ S,0,252338,,0.1
+Sprite,Foreground,Centre,"sb\ss.png",320,240
+ M,2,253290,254242,496,611,496,-36
+ S,0,254242,,0.1
+Sprite,Foreground,Centre,"sb\ss.png",320,240
+ M,2,253528,254481,368,611,368,-29
+ S,0,254481,,0.1
+Sprite,Foreground,Centre,"sb\ss.png",320,240
+ M,2,253766,254719,355,604,355,-38
+ S,0,254719,,0.1
+Sprite,Foreground,Centre,"sb\s2.png",320,240
+ M,0,253171,,320,240
+ F,0,253171,255076,0,1
+Sprite,Foreground,Centre,"sb\ss.png",320,240
+ M,0,254600,,320,240
+ F,2,254600,255046,0,1
+ F,0,255046,255076,1,0
+ S,0,255076,,1.29729
+Sprite,Foreground,Centre,"sb\white.png",320,240
+ S,0,247457,,0.625
+ F,0,247457,248417,1,0
+Sprite,Foreground,Centre,"sb\sw.png",320,240
+ M,0,247457,,320,292.3213
+ S,0,247457,,0.625
+ F,0,247457,254600,0,1
+ F,0,254600,,1
+ F,0,254600,254838,1,0
+Sprite,Foreground,Centre,"sb\sw.png",320,240
+ L,247457,4
+  F,0,0,476,0.4,0
+ L,249361,4
+  F,0,0,476,0.6,0
+ L,251266,4
+  F,0,0,476,0.8,0
+ L,253171,3
+  F,0,0,476,1,0
+ M,0,247457,,320,292.3213
+ S,0,247457,,0.625
+Sprite,Foreground,Centre,"sb\ss.png",320,240
+ M,0,191266,,320,240
+ F,2,191266,191742,1,0
+Sprite,Foreground,Centre,"sb\s2.png",320,240
+ M,0,302695,,320,240
+ F,0,302695,303647,1,0
+//Storyboard Sound Samples
+
+[TimingPoints]
+1465,481.927710843374,4,2,1,20,1,0
+1946,-100,4,2,1,20,0,0
+2428,480,4,2,1,50,1,0
+33148,489.795918367347,4,2,1,50,1,0
+33637,500,4,2,1,50,1,0
+34137,512.820512820513,4,2,1,50,1,0
+34649,500,4,2,1,50,1,0
+35149,480,4,2,1,50,1,0
+42829,-133.333333333333,4,2,1,50,0,0
+48589,489.795918367347,4,2,1,50,1,0
+48589,-133.333333333333,4,2,1,50,0,0
+49568,500,4,2,1,50,1,0
+49568,-133.333333333333,4,2,1,50,0,0
+50068,510.63829787234,4,2,1,50,1,0
+50068,-133.333333333333,4,2,1,50,0,0
+50578,480,4,2,1,50,1,0
+50578,-133.333333333333,4,2,1,50,0,0
+62098,481.927710843374,4,2,1,50,1,0
+62098,-133.333333333333,4,2,1,50,0,0
+64025,-166.666666666667,4,2,1,50,0,0
+65953,480,4,2,1,50,1,0
+65953,-133.333333333333,4,2,1,50,0,0
+96673,-100,4,2,1,75,0,0
+125473,481.927710843374,4,2,1,75,1,0
+127400,983.606557377049,4,2,1,75,1,0
+127461,-100,4,2,1,5,0,0
+128383,489.795918367347,4,2,1,5,1,0
+128872,-100,4,2,1,25,0,0
+128995,-100,4,2,1,50,0,0
+129117,-100,4,2,1,75,0,0
+129362,476.190476190476,4,3,2,75,1,1
+130314,-100,4,3,12,75,0,1
+130552,-100,4,3,2,75,0,1
+134600,-100,4,2,1,75,0,1
+134838,-100,4,3,2,75,0,1
+137933,-100,4,3,12,75,0,1
+138171,-100,4,3,2,75,0,1
+139838,-100,4,3,12,75,0,1
+140076,-100,4,3,2,75,0,1
+142219,-100,4,2,1,75,0,1
+142457,-100,4,3,2,75,0,1
+144540,-100,4,3,2,75,0,0
+144600,-100,4,3,2,75,0,1
+145552,-100,4,3,12,75,0,1
+145790,-100,4,3,2,75,0,1
+149838,-100,4,2,1,75,0,1
+150076,-100,4,3,2,75,0,1
+151504,-100,4,2,1,75,0,1
+151742,-100,4,3,2,75,0,1
+153171,-100,4,3,12,75,0,1
+153409,-100,4,3,2,75,0,1
+155076,-100,4,3,12,75,0,1
+155314,-100,4,3,2,75,0,1
+156981,-100,4,3,12,75,0,1
+157219,-100,4,3,2,75,0,1
+161504,-100,4,1,12,75,0,1
+161742,-133.333333333333,4,3,2,75,0,0
+165790,-133.333333333333,4,2,1,75,0,0
+166028,-133.333333333333,4,3,2,75,0,0
+166742,-133.333333333333,4,2,1,75,0,0
+166981,-133.333333333333,4,3,2,75,0,0
+169123,-133.333333333333,4,2,1,75,0,0
+169362,-133.333333333333,4,3,2,75,0,0
+170552,-133.333333333333,4,2,1,75,0,0
+170790,-133.333333333333,4,3,2,75,0,0
+174361,-133.333333333333,4,2,1,75,0,0
+174600,-133.333333333333,4,3,2,75,0,0
+176266,-133.333333333333,4,2,1,75,0,0
+176504,-133.333333333333,4,3,2,75,0,0
+177219,-133.333333333333,4,2,1,75,0,0
+177457,-133.333333333333,4,3,2,75,0,0
+180076,-133.333333333333,4,2,1,75,0,0
+180314,-133.333333333333,4,3,2,75,0,0
+181028,-133.333333333333,4,2,1,75,0,0
+181266,-133.333333333333,4,3,2,75,0,0
+184838,-133.333333333333,4,2,1,75,0,0
+185076,-133.333333333333,4,3,2,75,0,0
+188647,-133.333333333333,4,1,12,75,0,0
+188885,-133.333333333333,4,3,2,75,0,0
+189600,-133.333333333333,4,2,1,75,0,0
+189838,-133.333333333333,4,3,2,75,0,0
+191266,-100,4,3,2,75,0,0
+192219,-100,4,3,2,75,0,1
+193171,-100,4,3,12,75,0,1
+193409,-100,4,3,2,75,0,1
+198885,-100,4,3,12,75,0,1
+199123,-100,4,3,2,75,0,1
+200790,-100,4,3,12,75,0,1
+201028,-100,4,3,2,75,0,1
+204600,-100,4,3,12,75,0,1
+204838,-100,4,3,2,75,0,1
+206266,-100,4,1,12,75,0,1
+206504,-100,4,3,2,75,0,1
+207397,-100,4,3,2,75,0,0
+207457,-100,4,3,2,75,0,1
+208409,-100,4,3,12,75,0,1
+208647,-100,4,3,2,75,0,1
+210314,-100,4,3,12,75,0,1
+210552,-100,4,3,2,75,0,1
+212219,-100,4,3,12,75,0,1
+212457,-100,4,3,2,75,0,1
+214123,-100,4,3,12,75,0,1
+214361,-100,4,3,2,75,0,1
+216028,-100,4,3,12,75,0,1
+216266,-100,4,3,2,75,0,1
+217933,-100,4,3,12,75,0,1
+218171,-100,4,3,2,75,0,1
+219838,-100,4,3,12,75,0,1
+220076,-100,4,3,2,75,0,1
+222457,-100,4,1,12,75,0,1
+222695,-100,4,3,2,75,0,1
+224540,-100,4,3,2,75,0,0
+224600,-100,4,3,2,75,0,1
+225076,-100,4,3,3,75,0,0
+226028,-100,4,2,13,75,0,0
+226266,-100,4,3,3,75,0,0
+226981,-100,4,2,13,75,0,0
+227219,-100,4,3,3,75,0,0
+230790,-100,4,2,13,75,0,0
+231028,-100,4,3,3,75,0,0
+233647,-100,4,2,13,75,0,0
+233885,-100,4,3,3,75,0,0
+238647,-100,4,1,12,75,0,0
+238885,-100,4,3,2,75,0,0
+240314,-100,4,3,3,75,0,0
+241266,-100,4,2,13,75,0,0
+241504,-100,4,3,3,75,0,0
+242219,-100,4,2,13,75,0,0
+242457,-100,4,3,3,75,0,0
+246028,-100,4,2,13,75,0,0
+246266,-100,4,3,3,75,0,0
+251266,-100,4,3,2,75,0,0
+251504,-100,4,3,3,75,0,0
+253171,-100,4,3,2,75,0,0
+255076,-100,4,3,2,85,0,1
+256028,-100,4,3,12,85,0,1
+256266,-100,4,3,2,85,0,1
+261981,-100,4,3,2,5,0,1
+262219,-100,4,3,2,85,0,1
+270254,-100,4,3,2,85,0,0
+270314,-100,4,3,2,85,0,1
+271266,-100,4,3,12,85,0,1
+271504,-100,4,3,2,85,0,1
+278885,-100,4,3,12,85,0,1
+279123,-100,4,3,2,85,0,1
+282695,-100,4,3,12,85,0,1
+282933,-100,4,3,2,85,0,1
+284838,-100,4,3,2,5,0,1
+285076,-100,4,3,2,85,0,1
+285492,-100,4,3,2,85,0,0
+285552,-100,4,3,2,85,0,1
+286028,-100,4,3,2,75,0,0
+292457,-100,4,3,2,5,0,0
+292695,-100,4,3,2,75,0,0
+300790,-100,4,3,3,75,0,0
+301742,-100,4,2,1,40,0,0
+302219,-100,4,2,1,45,0,0
+302695,-133.333333333333,4,2,1,50,0,0
+325552,495.867768595041,4,2,1,50,1,0
+325552,-133.333333333333,4,2,1,50,0,0
+329518,517.241379310345,4,2,1,50,1,0
+329776,-100,4,2,1,45,0,0
+330035,-100,4,2,1,40,0,0
+330293,-100,4,2,1,35,0,0
+330552,550.45871559633,4,2,1,30,1,0
+330827,-100,4,2,1,25,0,0
+331102,-100,4,2,1,20,0,0
+331652,555.555555555556,4,2,1,5,1,0
+
+
+[Colours]
+Combo1 : 148,236,140
+Combo2 : 199,218,241
+Combo3 : 239,236,165
+Combo4 : 243,184,200
+
+[HitObjects]
+328,136,1465,5,0,0:0:0:0:
+328,136,1946,1,2,0:0:0:0:
+328,136,2428,6,0,P|320:184|328:232,2,95,4|0|0,0:0|0:0|0:0,0:0:0:0:
+376,48,3148,2,0,P|280:48|224:136,2,190,2|0|0,0:0|0:0|0:0,0:0:0:0:
+424,136,4348,2,0,L|408:328,1,190
+328,376,5068,2,0,P|352:248|488:272,1,285,2|0,0:0|0:0,0:0:0:0:
+408,325,6028,1,0,0:0:0:0:
+332,380,6268,5,8,0:0:0:0:
+332,380,6508,2,0,L|140:364,1,190,0|2,0:0|0:0,0:0:0:0:
+280,184,7468,2,0,P|288:232|280:280,1,95
+192,328,7948,2,0,P|184:280|192:232,1,95
+296,264,8428,2,0,L|392:256,1,95
+448,180,8908,2,0,B|404:164|404:164|308:172|308:172|264:156,1,190,2|0,0:0|0:0,0:0:0:0:
+288,64,9628,1,0,0:0:0:0:
+208,8,9868,1,0,0:0:0:0:
+176,96,10108,5,4,0:0:0:0:
+392,32,10588,1,0,0:0:0:0:
+392,32,10828,2,0,P|384:128|392:224,1,190,2|0,0:0|0:0,0:0:0:0:
+208,384,11788,1,0,0:0:0:0:
+208,384,12028,2,0,P|216:288|208:192,1,190,0|0,0:0|0:0,0:0:0:0:
+280,136,12748,2,0,P|152:120|128:248,1,285,2|0,0:0|0:0,0:0:0:0:
+104,344,13708,2,0,P|152:344|208:304,1,95,0|8,0:0|0:0,0:0:0:0:
+88,240,14188,6,0,P|8:296|8:384,2,190,0|2|0,0:0|0:0|0:0,0:0:0:0:
+72,48,15628,2,0,L|64:144,1,95
+168,80,16108,2,0,L|160:176,1,95
+264,112,16588,2,0,L|248:304,1,190,2|0,0:0|0:0,0:0:0:0:
+248,301,17548,5,0,0:0:0:0:
+252,305,17788,2,0,B|364:289|332:337|444:321,1,190,4|0,0:0|0:0,0:0:0:0:
+480,232,18508,2,0,L|472:136,1,95,2|0,0:0|0:0,0:0:0:0:
+376,112,18988,2,0,B|384:208|384:208|320:280,1,190
+240,336,19708,2,0,P|232:288|240:240,1,95
+336,200,20188,2,0,P|344:248|336:296,1,95,0|2,0:0|0:0,0:0:0:0:
+136,368,20908,2,0,L|40:360,2,95,0|0|0,0:0|0:0|0:0,0:0:0:0:
+208,304,21628,5,8,0:0:0:0:
+208,304,21868,2,0,P|296:304|360:384,1,190,0|2,0:0|0:0,0:0:0:0:
+104,344,22828,2,0,P|104:256|184:192,1,190
+272,216,23548,2,0,P|272:168|248:128,1,95
+200,288,24028,2,0,P|240:312|288:312,1,95,0|2,0:0|0:0,0:0:0:0:
+176,24,24988,1,0,0:0:0:0:
+88,64,25228,1,0,0:0:0:0:
+168,120,25468,6,0,L|160:216,1,95,4|0,0:0|0:0,0:0:0:0:
+232,376,25948,2,0,L|240:280,1,95,0|2,0:0|0:0,0:0:0:0:
+239,281,26668,2,0,P|335:289|431:281,1,190
+448,176,27388,2,0,P|352:168|256:176,1,190
+176,224,28108,2,0,P|176:128|256:80,1,190,2|0,0:0|0:0,0:0:0:0:
+336,32,28828,6,0,P|344:80|336:128,1,95
+456,328,29308,2,0,P|448:280|456:232,1,95,8|0,0:0|0:0,0:0:0:0:
+455,234,30028,2,0,P|367:234|319:154,2,190,2|0|0,0:0|0:0|0:0,0:0:0:0:
+512,152,31228,2,0,L|504:56,1,95
+392,0,31708,2,0,L|400:96,1,95,0|2,0:0|0:0,0:0:0:0:
+48,328,32668,1,0,0:0:0:0:
+48,328,33148,5,4,0:0:0:0:
+144,344,33392,1,0,0:0:0:0:
+160,248,33637,1,0,0:0:0:0:
+64,232,33887,1,2,0:0:0:0:
+64,232,34649,5,0,0:0:0:0:
+144,344,35149,5,8,0:0:0:0:
+144,344,42829,6,0,L|288:336,1,142.500005435944,4|0,0:0|0:0,0:0:0:0:
+376,360,43549,1,2,0:0:0:0:
+464,384,43789,1,0,0:0:0:0:
+464,384,44269,2,0,P|456:312|464:240,1,142.500005435944
+512,64,45229,1,0,0:0:0:0:
+512,64,45469,1,2,0:0:0:0:
+512,64,45709,2,0,P|440:72|368:64,1,142.500005435944
+200,160,46669,6,0,P|304:160|360:248,1,213.750008153916,8|2,0:0|0:0,0:0:0:0:
+304,320,47629,2,0,B|200:312|200:312|120:328|120:328|16:320,1,285.000010871888
+64,112,49078,2,0,P|112:168|112:240,1,142.500005435944,2|0,0:0|0:0,0:0:0:0:
+0,352,50068,1,0,0:0:0:0:
+0,352,50578,6,0,L|72:344,1,71.2500027179719,4|0,0:0|0:0,0:0:0:0:
+160,360,51058,2,0,L|232:352,1,71.2500027179719,0|2,0:0|0:0,0:0:0:0:
+456,192,51778,1,0,0:0:0:0:
+456,192,52018,2,0,L|312:208,1,142.500005435944
+280,0,52978,1,0,0:0:0:0:
+280,0,53218,2,0,P|280:72|240:128,1,142.500005435944,2|0,0:0|0:0,0:0:0:0:
+152,160,53938,6,0,L|80:152,1,71.2500027179719
+0,200,54418,1,8,0:0:0:0:
+232,96,54898,2,0,L|304:88,1,71.2500027179719,0|2,0:0|0:0,0:0:0:0:
+384,136,55378,1,0,0:0:0:0:
+264,8,55858,1,0,0:0:0:0:
+208,184,56338,1,0,0:0:0:0:
+408,112,56818,1,0,0:0:0:0:
+408,112,57058,1,2,0:0:0:0:
+408,112,57298,2,0,P|408:216|488:280,1,213.750008153916
+456,368,58258,6,0,P|416:368|384:376,1,71.2500027179719,4|0,0:0|0:0,0:0:0:0:
+304,328,58738,1,0,0:0:0:0:
+304,328,58978,2,0,P|240:360|168:360,1,142.500005435944,2|0,0:0|0:0,0:0:0:0:
+96,304,59698,1,0,0:0:0:0:
+264,200,60178,2,0,P|328:200|400:232,1,142.500005435944
+472,176,60898,2,0,L|464:32,1,142.500005435944,2|0,0:0|0:0,0:0:0:0:
+464,33,61618,1,0,0:0:0:0:
+360,240,62098,6,0,L|352:96,1,142.500005435944,8|0,0:0|0:0,0:0:0:0:
+376,8,62820,2,0,P|336:8|304:16,1,71.2500027179719,2|0,0:0|0:0,0:0:0:0:
+176,144,63543,2,0,P|216:144|248:136,1,71.2500027179719
+204,52,64025,2,0,P|96:88|96:196,1,227.999993041992,2|0,0:0|0:0,0:0:0:0:
+152,256,65953,6,0,B|176:272|176:272|264:272|264:272|288:288,1,142.500005435944,4|0,0:0|0:0,0:0:0:0:
+232,360,66673,2,0,L|160:360,1,71.2500027179719,2|0,0:0|0:0,0:0:0:0:
+0,256,67393,2,0,L|72:256,1,71.2500027179719
+184,184,67873,2,0,B|136:184|136:184|96:160|96:160|48:160,1,142.500005435944
+0,80,68593,2,0,P|-4:44|0:8,1,71.2500027179719,0|2,0:0|0:0,0:0:0:0:
+176,152,69313,6,0,P|180:188|176:224,1,71.2500027179719
+240,288,69793,2,0,P|312:288|360:344,1,142.500005435944,8|0,0:0|0:0,0:0:0:0:
+272,376,70513,2,0,L|368:152,1,213.750008153916,2|0,0:0|0:0,0:0:0:0:
+392,96,71473,2,0,P|432:112|472:112,1,71.2500027179719
+512,192,71953,2,0,L|504:264,2,71.2500027179719
+459,113,72673,2,0,P|387:113|339:161,1,142.500005435944,2|0,0:0|0:0,0:0:0:0:
+376,248,73393,1,0,0:0:0:0:
+280,240,73633,6,0,L|104:232,1,142.500005435944,4|0,0:0|0:0,0:0:0:0:
+152,328,74353,1,2,0:0:0:0:
+152,328,74593,2,0,L|-24:320,2,142.500005435944
+216,160,76033,2,0,L|224:232,1,71.2500027179719,0|2,0:0|0:0,0:0:0:0:
+320,240,76513,2,0,L|312:168,1,71.2500027179719
+408,176,76993,2,0,L|416:248,1,71.2500027179719,0|0,0:0|0:0,0:0:0:0:
+512,256,77473,6,0,L|496:104,1,142.500005435944,8|0,0:0|0:0,0:0:0:0:
+432,40,78193,1,2,0:0:0:0:
+432,40,78433,2,0,P|360:40|304:0,1,142.500005435944
+104,120,79393,1,0,0:0:0:0:
+104,120,79633,1,0,0:0:0:0:
+104,120,79873,2,0,P|176:120|232:80,1,142.500005435944,2|0,0:0|0:0,0:0:0:0:
+496,200,80833,5,0,0:0:0:0:
+496,200,81073,1,0,0:0:0:0:
+496,200,81313,2,0,L|352:208,1,142.500005435944,4|0,0:0|0:0,0:0:0:0:
+288,272,82033,2,0,P|280:312|280:344,1,71.2500027179719,2|0,0:0|0:0,0:0:0:0:
+344,168,82753,2,0,P|304:160|272:160,1,71.2500027179719
+192,208,83233,2,0,P|120:208|48:192,1,142.500005435944
+16,104,83953,2,0,L|24:32,1,71.2500027179719,0|2,0:0|0:0,0:0:0:0:
+80,360,84673,5,0,0:0:0:0:
+80,360,84913,1,0,0:0:0:0:
+80,360,85153,2,0,L|96:216,1,142.500005435944,8|0,0:0|0:0,0:0:0:0:
+184,276,85873,2,0,P|296:276|368:212,1,213.750008153916,2|0,0:0|0:0,0:0:0:0:
+416,128,86833,1,0,0:0:0:0:
+416,128,87073,2,0,P|464:184|464:256,1,142.500005435944
+312,160,87793,1,0,0:0:0:0:
+312,160,88033,2,0,P|312:88|360:32,1,142.500005435944,2|0,0:0|0:0,0:0:0:0:
+408,216,88993,6,0,P|352:264|280:264,1,142.500005435944,4|0,0:0|0:0,0:0:0:0:
+216,200,89713,1,2,0:0:0:0:
+216,200,89953,2,0,L|224:56,1,142.500005435944
+120,152,90673,1,0,0:0:0:0:
+120,152,90913,2,0,L|128:8,2,142.500005435944,0|0|2,0:0|0:0|0:0,0:0:0:0:
+312,248,92353,1,0,0:0:0:0:
+312,248,92593,1,0,0:0:0:0:
+312,248,92833,6,0,P|376:216|448:216,1,142.500005435944,8|0,0:0|0:0,0:0:0:0:
+512,272,93553,1,2,0:0:0:0:
+512,272,93793,2,0,P|480:208|480:136,2,142.500005435944,0|0|2,0:0|0:0|0:0,0:0:0:0:
+512,272,95713,2,0,L|368:288,1,142.500005435944
+256,136,96673,5,4,0:0:0:0:
+256,136,111553,6,0,P|264:184|256:232,1,95
+256,136,112033,2,0,P|336:88|432:88,1,190,4|0,0:0|0:0,0:0:0:0:
+256,136,112753,2,0,P|176:184|80:184,2,190,2|0|0,0:0|0:0|0:0,0:0:0:0:
+336,88,113953,2,0,L|432:96,1,95,0|0,0:0|0:0,0:0:0:0:
+496,176,114433,2,0,P|480:216|480:272,1,95,0|2,0:0|0:0,0:0:0:0:
+479,267,115153,1,0,0:0:0:0:
+384,248,115393,1,0,0:0:0:0:
+256,368,115873,5,8,0:0:0:0:
+256,368,116113,2,0,P|168:368|96:296,2,190,0|2|0,0:0|0:0|0:0,0:0:0:0:
+304,288,117313,2,0,L|296:192,1,95
+368,0,117793,2,0,L|376:96,1,95,0|0,0:0|0:0,0:0:0:0:
+312,160,118273,1,0,0:0:0:0:
+312,160,118513,2,0,P|216:160|160:88,1,190,2|0,0:0|0:0,0:0:0:0:
+0,304,119473,5,0,0:0:0:0:
+0,304,119713,2,0,P|96:304|152:232,1,190,4|0,0:0|0:0,0:0:0:0:
+248,280,120433,2,0,P|248:184|152:128,1,190,2|0,0:0|0:0,0:0:0:0:
+144,304,121393,1,0,0:0:0:0:
+144,304,121633,2,0,P|208:376|296:376,1,190,0|0,0:0|0:0,0:0:0:0:
+368,312,122353,2,0,L|464:320,1,95,2|0,0:0|0:0,0:0:0:0:
+336,224,122833,2,0,L|240:232,1,95
+368,312,123313,1,0,0:0:0:0:
+432,240,123553,5,8,0:0:0:0:
+432,240,123793,2,0,B|448:208|440:168|432:144|432:144|424:120|416:88|440:48,2,190,0|2|0,0:0|0:0|0:0,0:0:0:0:
+392,328,124993,1,0,0:0:0:0:
+304,368,125233,1,0,0:0:0:0:
+208,368,125473,1,0,0:0:0:0:
+120,328,125713,1,0,0:0:0:0:
+80,240,125954,1,0,0:0:0:0:
+80,240,126195,1,2,0:0:0:0:
+336,64,126918,2,0,P|256:108|176:64,1,190,0|2,0:0|0:0,0:0:0:0:
+256,192,127461,12,0,128383,0:0:0:0:
+256,16,128872,6,2,L|256:160,1,142.5,0|0,0:0|0:0,0:0:0:0:
+256,208,129362,6,0,P|184:152|88:152,1,190,12|2,0:1|0:0,0:0:0:0:
+256,208,130076,2,0,P|328:264|424:264,1,190,8|0,0:0|0:0,0:0:0:0:
+512,208,130790,6,0,L|504:304,1,95,0|2,0:0|0:0,0:0:0:0:
+336,376,131266,2,0,L|344:280,1,95,8|2,0:0|0:0,0:0:0:0:
+168,280,131742,2,0,L|176:376,1,95,2|8,0:0|0:0,0:0:0:0:
+8,304,132219,2,0,L|0:208,1,95,4|0,0:0|0:0,0:0:0:0:
+120,8,132695,2,0,L|128:104,1,95,2|0,0:0|0:0,0:0:0:0:
+120,136,133012,1,2,0:0:0:0:
+112,168,133092,1,2,0:0:0:0:
+104,200,133171,6,0,P|152:184|200:184,1,95,8|2,0:0|0:0,0:0:0:0:
+288,120,133647,2,0,P|304:168|304:216,1,95,2|8,0:0|0:0,0:0:0:0:
+344,312,134123,1,4,0:0:0:0:
+344,312,134362,2,0,P|256:312|200:232,1,190,0|2,0:0|0:0,0:0:0:0:
+440,264,135076,2,0,P|448:312|440:360,1,95,8|2,0:0|0:0,0:0:0:0:
+304,212,135552,2,0,P|296:164|304:116,1,95,2|8,0:0|0:0,0:0:0:0:
+344,312,136028,2,0,L|248:320,2,95,4|0|2,0:0|0:0|0:0,0:0:0:0:
+328,208,136742,1,0,2:0:0:0:
+328,208,136981,6,0,P|416:208|472:288,1,190,8|2,0:0|0:0,0:0:0:0:
+392,360,137695,2,0,B|320:352|320:352|272:360|272:360|200:352,1,190,8|0,0:0|0:0,0:0:0:0:
+160,248,138409,6,0,L|296:264,1,95,0|2,0:0|0:0,0:0:0:0:
+312,168,138885,2,0,L|176:152,1,95,8|2,0:0|0:0,0:0:0:0:
+104,336,139362,1,2,0:0:0:0:
+104,336,139600,2,0,L|296:360,1,190,8|0,0:0|0:0,0:0:0:0:
+376,296,140314,1,2,0:0:0:0:
+480,112,140552,2,0,L|488:160,2,31.6666666666667,0|2|2,0:0|0:0|0:0,0:0:0:0:
+504,160,140790,5,8,0:0:0:0:
+504,160,141028,2,0,P|416:160|352:80,1,190,2|8,0:0|0:0,0:0:0:0:
+456,64,141742,1,4,0:0:0:0:
+456,64,141981,2,0,L|368:248,1,190,0|2,0:0|0:0,0:0:0:0:
+272,216,142695,6,0,P|272:264|296:304,1,95,8|2,0:0|0:0,0:0:0:0:
+480,384,143171,2,0,P|480:336|456:296,1,95,2|8,0:0|0:0,0:0:0:0:
+392,216,143647,2,0,L|488:208,1,95,4|0,0:0|0:0,0:0:0:0:
+304,384,144123,2,0,L|208:376,1,95,0|0,2:0|0:0,0:0:0:0:
+40,240,144600,6,0,P|128:240|208:176,1,190,12|2,0:1|0:0,0:0:0:0:
+304,176,145314,2,0,P|384:240|472:240,1,190,8|0,0:0|0:0,0:0:0:0:
+512,152,146028,6,0,L|504:56,1,95,0|2,0:0|0:0,0:0:0:0:
+344,8,146504,2,0,L|336:104,1,95,8|2,0:0|0:0,0:0:0:0:
+168,104,146981,2,0,L|160:8,1,95,2|8,0:0|0:0,0:0:0:0:
+8,56,147457,2,0,L|0:152,1,95,4|0,0:0|0:0,0:0:0:0:
+112,384,147933,2,0,L|120:288,1,95,2|0,0:0|0:0,0:0:0:0:
+112,256,148250,1,2,0:0:0:0:
+104,224,148330,1,2,0:0:0:0:
+96,192,148409,6,0,P|48:192|0:216,1,95,8|2,0:0|0:0,0:0:0:0:
+200,216,148885,2,0,P|200:168|176:120,1,95,2|8,0:0|0:0,0:0:0:0:
+152,312,149362,1,4,0:0:0:0:
+152,312,149600,2,0,P|248:312|304:240,1,190,0|2,0:0|0:0,0:0:0:0:
+207,202,150314,6,0,L|212:104,1,95,8|2,0:0|0:0,0:0:0:0:
+116,64,150790,2,0,L|112:160,1,95,2|8,0:0|0:0,0:0:0:0:
+303,243,151266,2,0,L|312:48,1,190,4|2,0:0|0:0,0:0:0:0:
+200,208,151981,1,0,2:0:0:0:
+200,208,152219,6,0,B|192:304|192:304|120:368,1,190,8|2,0:0|0:0,0:0:0:0:
+24,240,152933,2,0,B|32:144|32:144|104:80,1,190,8|0,0:0|0:0,0:0:0:0:
+176,152,153647,6,0,P|224:152|272:136,1,95,0|2,0:0|0:0,0:0:0:0:
+312,40,154123,2,0,P|264:40|216:56,1,95,8|2,0:0|0:0,0:0:0:0:
+144,248,154600,1,2,0:0:0:0:
+144,248,154838,2,0,P|240:248|328:216,1,190,8|0,0:0|0:0,0:0:0:0:
+384,128,155552,1,2,0:0:0:0:
+424,344,155790,2,0,L|376:336,2,31.6666666666667,0|2|2,0:0|0:0|0:0,0:0:0:0:
+376,360,156028,5,8,0:0:0:0:
+376,360,156266,2,0,B|368:288|368:288|352:248|352:248|344:168,2,190,2|8|0,0:0|0:0|0:0,0:0:0:0:
+280,328,157457,2,0,P|232:328|184:344,1,95,0|2,0:0|0:0,0:0:0:0:
+0,272,157933,2,0,P|48:272|96:256,1,95,8|2,0:0|0:0,0:0:0:0:
+24,72,158409,2,0,L|32:168,1,95,2|8,0:0|0:0,0:0:0:0:
+0,272,158885,1,4,0:0:0:0:
+208,376,159362,1,0,2:0:0:0:
+256,136,159838,5,10,0:1:0:0:
+352,184,160076,2,0,L|400:176,2,31.6666666666667,0|2|2,0:0|0:0|0:0,0:0:0:0:
+400,160,160314,2,0,P|400:216|416:264,1,95,2|8,0:0|0:0,0:0:0:0:
+512,384,160790,2,0,P|512:328|496:280,1,95,4|8,0:0|0:0,0:0:0:0:
+432,64,161266,2,0,P|344:64|296:144,1,190,0|12,2:0|0:1,0:0:0:0:
+400,304,162219,6,0,L|328:312,1,71.2500027179719,2|8,0:0|0:0,0:0:0:0:
+248,264,162695,1,4,0:0:0:0:
+248,264,162933,2,0,L|104:280,1,142.500005435944,0|0,0:0|0:0,0:0:0:0:
+24,244,163647,2,0,P|16:276|24:316,1,71.2500027179719,8|2,0:0|0:0,0:0:0:0:
+105,348,164123,2,0,P|113:316|105:276,1,71.2500027179719,2|8,0:0|0:0,0:0:0:0:
+24,244,164600,1,4,0:0:0:0:
+216,336,165076,6,0,L|228:240,1,71.2500027179719,2|0,0:0|0:0,0:0:0:0:
+312,304,165552,2,0,L|328:160,1,142.500005435944,8|2,0:0|0:0,0:0:0:0:
+296,72,166266,1,8,0:0:0:0:
+296,72,166504,2,0,P|368:72|416:120,1,142.500005435944,4|2,0:0|0:0,0:0:0:0:
+232,144,167457,2,0,P|160:144|112:192,1,142.500005435944,8|2,0:0|0:0,0:0:0:0:
+200,232,168171,1,8,0:0:0:0:
+312,88,168409,2,0,P|312:48|304:16,1,71.2500027179719,4|0,0:0|0:0,0:0:0:0:
+272,168,168885,2,0,P|328:120|400:120,1,142.500005435944,2|8,0:0|0:0,0:0:0:0:
+512,264,169838,5,2,0:0:0:0:
+512,264,170076,1,8,0:0:0:0:
+512,264,170314,2,0,L|368:256,1,142.500005435944,4|2,0:0|0:0,0:0:0:0:
+288,304,171028,1,0,0:0:0:0:
+288,304,171266,2,0,L|144:296,1,142.500005435944,8|2,0:0|0:0,0:0:0:0:
+88,224,171981,2,0,L|96:152,1,71.2500027179719,8|4,0:0|0:0,0:0:0:0:
+176,272,172457,2,0,L|184:200,1,71.2500027179719,0|2,0:0|0:0,0:0:0:0:
+264,320,172933,2,0,L|272:248,1,71.2500027179719,0|8,0:0|0:0,0:0:0:0:
+384,32,173647,5,2,0:0:0:0:
+384,32,173885,1,8,0:0:0:0:
+384,32,174123,2,0,L|368:176,1,142.500005435944,4|2,0:0|0:0,0:0:0:0:
+416,248,174838,2,0,P|456:240|488:240,1,71.2500027179719,0|8,0:0|0:0,0:0:0:0:
+328,280,175314,2,0,P|292:280|252:272,1,71.2500027179719,10|2,0:0|0:0,0:0:0:0:
+208,192,175790,1,8,0:0:0:0:
+304,184,176028,2,0,P|312:112|304:40,1,142.500005435944,4|0,0:0|2:0,0:0:0:0:
+216,80,176742,5,0,0:0:0:0:
+216,80,176981,2,0,L|72:72,1,142.500005435944,12|2,0:1|0:0,0:0:0:0:
+0,176,177695,2,0,L|72:168,1,71.2500027179719,8|4,0:0|0:0,0:0:0:0:
+144,232,178171,2,0,L|216:224,1,71.2500027179719,0|2,0:0|0:0,0:0:0:0:
+288,288,178647,2,0,L|360:280,1,71.2500027179719,0|8,0:0|0:0,0:0:0:0:
+432,344,179123,1,2,0:0:0:0:
+512,288,179361,2,0,P|504:248|512:216,1,71.2500027179719,2|8,0:0|0:0,0:0:0:0:
+448,64,179838,2,0,P|448:136|408:192,1,142.500005435944,4|2,0:0|0:0,0:0:0:0:
+328,240,180552,5,0,0:0:0:0:
+328,240,180790,2,0,B|272:232|272:232|240:240|240:240|184:232,1,142.500005435944,8|2,0:0|0:0,0:0:0:0:
+96,168,181504,2,0,P|92:208|96:240,1,71.2500027179719,8|4,0:0|0:0,0:0:0:0:
+200,320,181981,2,0,P|204:280|200:248,2,71.2500027179719,0|2|0,0:0|0:0|0:0,0:0:0:0:
+120,376,182695,2,0,L|48:368,2,71.2500027179719,8|2|2,0:0|0:0|0:0,0:0:0:0:
+216,384,183409,1,8,0:0:0:0:
+184,296,183647,1,4,0:0:0:0:
+184,296,184123,2,0,L|176:224,1,71.2500027179719,2|0,0:0|0:0,0:0:0:0:
+168,136,184600,6,0,P|240:136|296:96,1,142.500005435944,8|2,0:0|0:0,0:0:0:0:
+320,8,185314,2,0,P|280:8|248:16,1,71.2500027179719,8|4,0:0|0:0,0:0:0:0:
+392,80,185790,2,0,P|432:80|464:72,2,71.2500027179719,0|2|0,0:0|0:0|0:0,0:0:0:0:
+320,144,186504,2,0,L|328:216,1,71.2500027179719,8|2,0:0|0:0,0:0:0:0:
+424,256,186981,2,0,L|416:184,1,71.2500027179719,2|8,0:0|0:0,0:0:0:0:
+320,144,187457,1,4,0:0:0:0:
+192,344,187933,2,0,L|200:272,1,71.2500027179719,2|0,0:0|0:0,0:0:0:0:
+232,184,188409,6,0,P|160:184|112:232,1,142.500005435944,8|2,0:0|0:0,0:0:0:0:
+320,216,189123,1,8,0:0:0:0:
+320,216,189361,2,0,P|320:144|272:96,1,142.500005435944,4|0,0:0|2:0,0:0:0:0:
+24,176,190314,5,10,0:1:0:0:
+256,312,190671,1,8,0:2:0:0:
+488,176,191028,1,4,0:2:0:0:
+488,176,191266,2,0,P|440:176|392:152,1,95,12|2,0:1|0:2,0:0:0:0:
+384,112,191623,1,2,0:2:0:0:
+344,80,191742,1,8,0:2:0:0:
+296,80,191861,1,8,0:2:0:0:
+256,112,191981,1,4,0:2:0:0:
+248,160,192100,1,4,0:2:0:0:
+268,204,192219,6,0,L|364:196,1,95,14|2,0:1|0:0,0:0:0:0:
+512,304,192695,1,2,0:0:0:0:
+512,304,192933,2,0,B|440:296|440:296|392:304|392:304|320:296,1,190,8|0,0:0|0:0,0:0:0:0:
+216,312,193647,2,0,P|216:264|240:224,1,95,0|2,0:0|0:0,0:0:0:0:
+200,128,194123,6,0,P|296:128|344:208,1,190,8|2,0:0|0:0,0:0:0:0:
+408,360,194838,2,0,L|416:264,1,95,8|4,0:0|0:0,0:0:0:0:
+512,64,195314,2,0,L|504:160,1,95,0|0,0:0|2:0,0:0:0:0:
+432,248,195790,5,0,0:0:0:0:
+432,248,195869,1,2,0:0:0:0:
+432,248,195949,1,2,0:0:0:0:
+432,248,196028,2,0,P|384:256|336:248,1,95,8|2,0:0|0:0,0:0:0:0:
+288,120,196504,2,0,P|336:112|384:120,1,95,2|8,0:0|0:0,0:0:0:0:
+216,304,196981,1,4,0:0:0:0:
+216,304,197219,2,0,P|208:256|216:208,2,95,0|0|2,0:0|0:0|0:0,0:0:0:0:
+136,376,197933,6,0,L|40:368,1,95,8|10,0:0|0:0,0:0:0:0:
+0,248,198409,1,2,0:0:0:0:
+0,248,198647,2,0,L|192:264,1,190,8|0,0:0|0:0,0:0:0:0:
+272,208,199361,2,0,P|272:160|256:112,1,95,0|2,2:0|0:0,0:0:0:0:
+176,64,199838,6,0,P|272:64|340:0,1,190,10|2,0:1|0:0,0:0:0:0:
+456,64,200552,2,0,L|440:256,1,190,8|0,0:0|0:0,0:0:0:0:
+320,296,201266,2,0,P|312:248|320:200,1,95,0|2,0:0|0:0,0:0:0:0:
+504,152,201742,6,0,P|520:248|504:344,1,190,8|2,0:0|0:0,0:0:0:0:
+408,296,202457,2,0,P|360:296|312:312,1,95,8|4,0:0|0:0,0:0:0:0:
+512,320,202933,2,0,P|512:272|496:224,1,95,0|0,0:0|2:0,0:0:0:0:
+376,96,203409,5,0,0:0:0:0:
+376,96,203488,1,2,0:0:0:0:
+376,96,203568,1,2,0:0:0:0:
+376,96,203647,2,0,P|376:144|392:192,2,95,8|2|2,0:0|0:0|0:0,0:0:0:0:
+424,0,204361,2,0,P|328:0|272:72,1,190,8|0,0:0|0:0,0:0:0:0:
+296,168,205076,6,0,L|200:160,1,95,0|2,0:0|0:0,0:0:0:0:
+152,64,205552,2,0,L|248:72,1,95,8|10,0:0|0:0,0:0:0:0:
+344,264,206028,2,0,L|152:248,1,190,0|2,2:0|1:0,0:0:0:0:
+128,160,206742,2,0,L|136:256,1,95,2|8,0:2|0:2,0:0:0:0:
+8,384,207219,5,4,0:2:0:0:
+8,384,207338,1,4,0:2:0:0:
+8,384,207457,2,0,L|0:288,1,95,12|2,0:1|0:0,0:0:0:0:
+56,104,207933,1,2,0:0:0:0:
+56,104,208171,2,0,B|64:200|64:200|144:248,1,190,8|0,0:0|0:0,0:0:0:0:
+240,296,208885,2,0,P|248:248|240:200,1,95,0|2,0:0|0:0,0:0:0:0:
+144,152,209361,6,0,P|136:200|144:248,1,95,8|2,0:0|0:0,0:0:0:0:
+336,352,209838,1,2,0:0:0:0:
+336,352,210076,2,0,P|352:256|336:160,1,190,8|0,0:0|0:0,0:0:0:0:
+240,136,210790,1,0,2:0:0:0:
+312,64,211028,2,0,L|320:16,2,31.6666666666667,0|2|2,0:0|0:0|0:0,0:0:0:0:
+320,8,211266,1,8,0:0:0:0:
+320,8,211504,6,0,B|400:0|400:0|440:8|440:8|512:0,2,190,2|8|0,0:0|0:0|0:0,0:0:0:0:
+248,88,212695,2,0,P|264:136|264:184,1,95,0|2,0:0|0:0,0:0:0:0:
+184,248,213171,6,0,P|168:200|168:152,2,95,8|10|2,0:0|0:0|0:0,0:0:0:0:
+280,248,213885,2,0,P|184:248|104:296,1,190,8|0,0:0|0:0,0:0:0:0:
+48,208,214600,2,0,B|40:160|40:160|48:112,1,95,0|2,2:0|0:0,0:0:0:0:
+8,16,215076,6,0,P|104:16|152:96,1,190,10|2,0:1|0:0,0:0:0:0:
+48,112,215790,2,0,B|176:96|104:144|240:128,1,190,8|0,0:0|0:0,0:0:0:0:
+328,160,216504,2,0,L|320:64,1,95,0|2,0:0|0:0,0:0:0:0:
+224,144,216981,6,0,L|240:336,1,190,8|2,0:0|0:0,0:0:0:0:
+336,384,217695,2,0,P|400:312|496:312,1,190,8|0,0:0|0:0,0:0:0:0:
+488,308,218409,1,0,2:0:0:0:
+352,152,218647,2,0,L|344:200,2,31.6666666666667,0|2|2,0:0|0:0|0:0,0:0:0:0:
+352,208,218885,6,0,P|304:208|264:232,1,95,8|2,0:0|0:0,0:0:0:0:
+192,304,219361,1,2,0:0:0:0:
+192,304,219600,2,0,B|208:208|208:208|192:112,1,190,8|0,0:0|0:0,0:0:0:0:
+88,96,220314,6,0,L|104:192,1,95,0|2,0:0|0:0,0:0:0:0:
+16,384,220790,2,0,L|0:288,1,95,8|10,0:0|0:0,0:0:0:0:
+88,208,221266,2,0,P|136:200|184:208,1,95,2|8,0:0|0:0,0:0:0:0:
+344,296,221742,2,0,P|296:304|248:296,1,95,4|0,0:0|0:0,0:0:0:0:
+304,192,222219,2,0,P|392:192|448:272,1,190,0|12,2:0|0:1,0:0:0:0:
+447,269,223409,6,0,L|456:216,1,47.5,8|8,0:2|0:2,0:0:0:0:
+416,144,223647,2,0,L|425:91,3,47.5,10|2|2|2,0:1|0:2|0:2|0:2,0:0:0:0:
+408,48,224123,1,8,0:2:0:0:
+368,16,224242,1,8,0:2:0:0:
+312,16,224361,1,4,0:2:0:0:
+272,48,224481,1,4,0:2:0:0:
+264,96,224600,1,12,0:1:0:0:
+304,280,225076,5,2,0:0:0:0:
+208,328,225314,1,8,0:0:0:0:
+208,328,225433,1,0,0:0:0:0:
+208,328,225552,2,0,L|64:320,2,142.5,4|0|0,0:0|0:0|0:0,0:0:0:0:
+304,280,226504,2,0,L|448:288,2,142.5,8|0|8,0:0|0:0|0:0,0:0:0:0:
+240,192,227457,2,0,P|296:120|392:120,1,190,4|2,0:0|2:3,0:0:0:0:
+136,216,228409,6,0,P|136:168|160:120,1,95,8|0,0:0|0:0,0:0:0:0:
+208,296,228885,2,0,P|160:320|112:320,1,95,2|8,0:0|0:0,0:0:0:0:
+240,192,229361,2,0,P|288:192|328:216,1,95,4|0,0:0|0:0,0:0:0:0:
+504,288,229838,2,0,P|456:312|416:312,1,95,2|0,0:0|0:0,0:0:0:0:
+344,232,230314,2,0,P|344:168|376:96,2,142.5,8|0|8,0:0|0:0|0:0,0:0:0:0:
+448,256,231266,2,0,P|392:328|296:328,1,190,4|2,0:0|0:0,0:0:0:0:
+264,296,231861,1,0,0:0:0:0:
+264,296,231981,2,0,P|264:336|240:384,1,95,0|12,0:0|0:1,0:0:0:0:
+200,208,232457,6,0,P|248:184|288:184,1,95,0|2,0:0|0:0,0:0:0:0:
+144,304,232933,1,8,0:0:0:0:
+144,304,233171,2,0,P|96:248|96:176,2,142.5,4|0|0,0:0|0:0|0:0,0:0:0:0:
+216,232,234123,2,0,L|208:136,1,95,8|0,0:0|0:0,0:0:0:0:
+312,256,234600,2,0,L|304:160,1,95,2|8,0:0|0:0,0:0:0:0:
+408,280,235076,2,0,L|392:88,1,190,4|2,0:0|2:3,0:0:0:0:
+440,0,235790,5,0,0:0:0:0:
+440,0,236028,2,0,P|344:0|288:72,1,190,8|2,0:0|0:0,0:0:0:0:
+384,184,236742,1,8,0:0:0:0:
+384,184,236861,1,0,0:0:0:0:
+384,184,236981,2,0,P|391:137|392:90,1,95,4|0,0:0|0:0,0:0:0:0:
+239,161,237457,2,0,P|240:209|248:256,1,95,2|0,0:0|0:0,0:0:0:0:
+344,296,237933,1,8,0:0:0:0:
+264,368,238171,1,8,0:0:0:0:
+168,328,238409,2,0,P|80:328|16:256,1,190,2|2,2:3|1:0,0:0:0:0:
+128,120,239123,2,0,B|136:168|136:168|128:216,1,95,4|2,0:2|0:2,0:0:0:0:
+88,248,239481,1,2,0:2:0:0:
+32,240,239600,1,8,0:2:0:0:
+8,192,239719,1,4,0:2:0:0:
+24,144,239838,1,12,0:1:0:0:
+184,344,240314,5,2,0:0:0:0:
+256,272,240552,1,8,0:0:0:0:
+256,272,240671,1,0,0:0:0:0:
+256,272,240790,2,0,L|248:128,2,142.5,4|0|0,0:0|0:0|0:0,0:0:0:0:
+336,344,241742,2,0,L|480:352,2,142.5,8|0|8,0:0|0:0|0:0,0:0:0:0:
+240,384,242695,1,4,0:0:0:0:
+392,208,243171,1,2,2:3:0:0:
+392,208,243647,6,0,P|344:208|296:184,1,95,8|0,0:0|0:0,0:0:0:0:
+224,256,244123,2,0,P|200:208|200:160,1,95,2|8,0:0|0:0,0:0:0:0:
+96,152,244600,2,0,P|152:72|240:72,1,190,4|2,0:0|0:0,0:0:0:0:
+200,168,245314,1,0,0:0:0:0:
+128,248,245552,2,0,P|56:248|0:184,2,142.5,8|0|8,0:0|0:0|0:0,0:0:0:0:
+216,184,246504,2,0,B|344:160|272:216|408:192,1,190,4|2,0:0|2:3,0:0:0:0:
+448,168,247100,1,0,0:0:0:0:
+464,120,247219,1,0,0:0:0:0:
+448,72,247338,1,0,0:0:0:0:
+400,48,247457,6,0,L|352:40,3,47.5,12|0|0|0,0:1|0:0|0:0|0:0,0:0:0:0:
+296,96,247933,2,0,L|208:88,3,47.5,2|0|8|0,0:0|0:0|0:0|0:0,0:0:0:0:
+192,152,248409,2,0,L|104:160,3,47.5,4|0|0|0,0:0|0:0|0:0|0:0,0:0:0:0:
+112,232,248885,2,0,L|64:240,3,47.5,2|0|0|0,0:0|0:0|0:0|0:0,0:0:0:0:
+24,208,249361,5,8,0:0:0:0:
+16,152,249481,1,0,0:0:0:0:
+40,104,249600,1,0,0:0:0:0:
+88,80,249719,1,0,0:0:0:0:
+144,80,249838,1,2,0:0:0:0:
+192,104,249957,1,0,0:0:0:0:
+216,152,250076,1,8,0:0:0:0:
+264,176,250195,1,0,0:0:0:0:
+312,168,250314,2,0,L|336:128,3,47.5,4|0|0|0,0:0|0:0|0:0|0:0,0:0:0:0:
+360,80,250790,1,2,0:0:0:0:
+384,128,250909,1,0,0:0:0:0:
+408,176,251028,1,0,0:0:0:0:
+432,224,251147,1,0,0:0:0:0:
+448,272,251266,6,0,L|440:328,2,31.6666666666667,10|0|0,0:1|0:0|0:0,0:0:0:0:
+360,280,251505,2,0,L|352:336,2,31.6666666666667
+272,288,251742,2,0,L|264:344,2,31.6666666666667,2|0|0,0:0|0:0|0:0,0:0:0:0:
+184,296,251981,2,0,L|176:352,2,31.6666666666667,8|0|0,0:0|0:0|0:0,0:0:0:0:
+188,260,252219,5,4,1:0:0:0:
+184,224,252298,1,0,0:0:0:0:
+160,196,252377,1,0,0:0:0:0:
+124,188,252457,1,0,0:0:0:0:
+100,160,252536,1,0,0:0:0:0:
+100,124,252615,1,0,0:0:0:0:
+112,92,252695,2,0,L|104:36,5,31.6666666666667,2|0|0|0|0|0,2:3|0:0|0:0|0:0|0:0|0:0,0:0:0:0:
+104,24,253171,5,12,0:1:0:0:
+0,168,253409,1,2,0:2:0:0:
+0,168,253488,1,2,0:2:0:0:
+0,168,253568,1,8,0:2:0:0:
+0,168,253647,2,0,L|16:272,1,95,8|4,0:2|0:2,0:0:0:0:
+192,384,254123,2,0,L|176:280,1,95,2|0,1:0|0:0,0:0:0:0:
+248,40,254600,2,0,L|256:96,5,31.6666666666667,2|2|8|8|4|4,0:2|0:2|0:2|0:2|0:2|0:2,0:0:0:0:
+256,112,255076,6,0,P|336:64|424:88,1,190,12|2,0:1|0:0,0:0:0:0:
+256,112,255790,2,0,P|176:160|88:136,1,190,8|0,0:0|0:0,0:0:0:0:
+0,256,256504,2,0,L|136:240,1,95,0|2,0:0|0:0,0:0:0:0:
+200,32,256981,2,0,L|64:48,1,95,8|2,0:0|0:0,0:0:0:0:
+280,104,257457,6,0,P|304:64|304:16,1,95,2|8,0:0|0:0,0:0:0:0:
+264,208,257933,2,0,P|312:208|352:184,1,95,4|0,0:0|0:0,0:0:0:0:
+192,288,258409,2,0,P|232:312|280:312,1,95,0|0,2:0|0:0,0:0:0:0:
+512,304,258885,5,8,0:0:0:0:
+512,304,259123,2,0,P|416:304|352:368,1,190,2|8,0:0|0:0,0:0:0:0:
+264,296,259838,2,0,L|272:200,1,95,4|0,0:0|0:0,0:0:0:0:
+416,104,260314,2,0,L|408:200,1,95,0|2,0:0|0:0,0:0:0:0:
+280,312,260790,6,0,P|232:304|184:312,1,95,8|10,0:0|0:0,0:0:0:0:
+0,200,261266,2,0,P|48:208|96:200,1,95,2|8,0:0|0:0,0:0:0:0:
+208,24,261742,2,0,P|112:24|56:96,1,190,4|0,0:0|2:0,0:0:0:0:
+168,128,262457,5,0,0:0:0:0:
+168,128,262695,2,0,L|360:120,1,190,10|2,0:1|0:0,0:0:0:0:
+448,72,263409,2,0,P|456:120|448:168,1,95,8|4,0:0|0:0,0:0:0:0:
+264,272,263885,2,0,P|256:224|264:176,2,95,0|0|2,0:0|0:0|0:0,0:0:0:0:
+360,360,264600,2,0,L|456:352,1,95,8|2,0:0|0:0,0:0:0:0:
+280,288,265076,6,0,P|256:328|256:376,1,95,2|8,0:0|0:0,0:0:0:0:
+296,184,265552,2,0,P|248:184|208:208,1,95,4|0,0:0|0:0,0:0:0:0:
+368,112,266028,2,0,P|328:88|280:88,1,95,0|0,2:0|0:0,0:0:0:0:
+192,160,266504,5,8,0:0:0:0:
+192,160,266742,2,0,P|104:160|32:88,1,190,2|8,0:0|0:0,0:0:0:0:
+280,112,267457,2,0,B|288:160|288:160|280:208,1,95,4|0,0:0|0:0,0:0:0:0:
+176,280,267933,2,0,B|168:232|168:232|176:184,1,95,0|2,0:0|0:0,0:0:0:0:
+256,80,268409,6,0,L|352:88,1,95,8|10,0:0|0:0,0:0:0:0:
+424,264,268885,2,0,L|328:256,2,95,0|8|2,2:0|0:0|1:0,0:0:0:0:
+512,184,269600,1,8,0:2:0:0:
+448,88,269838,1,2,0:2:0:0:
+400,104,269957,1,2,0:2:0:0:
+352,120,270076,1,8,0:2:0:0:
+304,136,270195,1,4,0:2:0:0:
+256,152,270314,6,0,P|168:160|88:104,1,190,12|2,0:1|0:0,0:0:0:0:
+256,152,271028,2,0,P|344:144|424:200,1,190,8|0,0:0|0:0,0:0:0:0:
+496,296,271742,2,0,L|400:288,1,95,0|2,0:0|0:0,0:0:0:0:
+288,40,272219,2,0,L|384:48,1,95,8|2,0:0|0:0,0:0:0:0:
+208,104,272695,6,0,P|184:64|184:16,1,95,2|8,0:0|0:0,0:0:0:0:
+224,208,273171,2,0,P|176:208|136:184,1,95,4|0,0:0|0:0,0:0:0:0:
+296,288,273647,2,0,P|256:312|208:312,1,95,0|0,2:0|0:0,0:0:0:0:
+328,184,274123,6,0,L|424:192,1,95,8|2,0:0|0:0,0:0:0:0:
+512,72,274600,2,0,L|416:64,1,95,2|8,0:0|0:0,0:0:0:0:
+312,168,275076,2,0,P|328:216|328:264,1,95,4|0,0:0|0:0,0:0:0:0:
+200,384,275552,2,0,P|184:336|184:288,1,95,0|2,0:0|0:0,0:0:0:0:
+264,72,276028,5,8,0:0:0:0:
+264,72,276266,2,0,P|360:72|416:144,1,190,10|8,0:0|0:0,0:0:0:0:
+384,184,276861,1,0,0:0:0:0:
+384,184,276981,2,0,L|248:168,1,95,4|0,0:0|0:0,0:0:0:0:
+112,240,277457,2,0,L|248:256,1,95,0|0,2:0|0:0,0:0:0:0:
+360,88,277933,6,0,B|280:80|280:80|248:88|248:88|168:80,1,190,12|2,0:1|0:0,0:0:0:0:
+80,8,278647,2,0,P|128:88|128:184,2,190,8|0|2,0:0|0:0|0:0,0:0:0:0:
+0,112,279838,2,0,L|8:208,1,95,8|2,0:0|0:0,0:0:0:0:
+120,184,280314,6,0,P|120:232|96:280,1,95,2|8,0:0|0:0,0:0:0:0:
+200,112,280790,2,0,P|224:160|224:208,1,95,4|0,0:0|0:0,0:0:0:0:
+176,8,281266,2,0,P|224:8|272:32,1,95,0|0,2:0|0:0,0:0:0:0:
+336,112,281742,5,8,0:0:0:0:
+336,112,281981,2,0,P|432:112|496:48,2,190,2|8|0,0:0|0:0|0:0,0:0:0:0:
+240,48,283171,1,0,0:0:0:0:
+128,48,283409,1,2,0:0:0:0:
+32,112,283647,1,8,0:0:0:0:
+0,224,283885,1,10,0:0:0:0:
+24,336,284123,6,0,P|72:320|120:320,1,95,0|8,2:0|0:0,0:0:0:0:
+219,369,284600,2,0,P|219:273|155:209,1,190,4|0,0:0|2:0,0:0:0:0:
+72,136,285314,1,0,0:0:0:0:
+104,24,285552,1,12,0:1:0:0:
+168,304,286028,6,0,L|152:168,1,95,2|8,0:0|0:0,0:0:0:0:
+264,272,286504,2,0,L|248:136,1,95,4|0,0:0|0:0,0:0:0:0:
+360,240,286981,2,0,L|344:104,1,95,0|2,0:0|0:0,0:0:0:0:
+456,208,287457,2,0,B|448:128|448:128|456:104|456:104|448:16,1,190,8|2,0:0|0:0,0:0:0:0:
+272,48,288171,2,0,P|320:72|360:72,1,95,8|4,0:0|0:0,0:0:0:0:
+512,256,288647,2,0,P|464:232|424:232,1,95,0|0,0:0|2:0,0:0:0:0:
+384,128,289123,5,0,0:0:0:0:
+384,128,289361,2,0,P|320:192|320:288,1,190,8|2,0:0|0:0,0:0:0:0:
+400,360,290076,2,0,P|424:312|424:272,1,95,8|4,0:0|0:0,0:0:0:0:
+240,216,290552,2,0,P|216:264|216:304,1,95,0|0,0:0|0:0,0:0:0:0:
+320,288,291028,1,2,0:0:0:0:
+280,384,291266,2,0,L|88:368,1,190,8|2,0:0|0:0,0:0:0:0:
+0,232,291981,1,8,0:0:0:0:
+0,232,292219,2,0,L|192:248,1,190,4|0,0:0|2:0,0:0:0:0:
+512,136,293171,6,0,L|320:120,1,190,10|2,0:1|0:0,0:0:0:0:
+232,56,293885,2,0,B|224:104|224:104|232:152,1,95,8|4,0:0|0:0,0:0:0:0:
+344,240,294361,2,0,B|352:192|352:192|344:144,2,95,0|0|2,0:0|0:0|0:0,0:0:0:0:
+256,312,295076,2,0,L|160:304,1,95,8|2,0:0|0:0,0:0:0:0:
+32,184,295552,2,0,L|128:192,2,95,0|8|4,2:0|0:0|1:0,0:0:0:0:
+0,72,296266,1,2,0:2:0:0:
+48,40,296385,1,2,0:2:0:0:
+104,48,296504,1,8,0:2:0:0:
+144,88,296623,1,8,0:2:0:0:
+200,104,296742,1,4,0:2:0:0:
+256,88,296861,1,4,0:2:0:0:
+288,40,296981,6,0,P|432:40|512:152,1,285,10|8,0:1|0:0,0:0:0:0:
+496,192,297814,1,8,0:0:0:0:
+480,240,297933,1,4,1:0:0:0:
+232,368,298290,1,8,0:2:0:0:
+168,88,298647,1,4,0:2:0:0:
+256,192,298885,5,14,0:1:0:0:
+256,192,298945,12,2,300790,0:0:0:0:
+256,192,301742,5,0,0:0:0:0:
+256,192,302219,1,0,0:0:0:0:
+256,192,302695,2,0,L|256:336,1,142.500005435944,4|0,0:0|0:0,0:0:0:0:
+256,334,303409,1,2,0:0:0:0:
+488,352,303885,2,0,P|416:352|352:312,1,142.500005435944
+392,224,304600,2,0,L|384:120,1,71.2500027179719
+480,88,305076,2,0,L|488:192,1,71.2500027179719,0|2,0:0|0:0,0:0:0:0:
+504,176,306266,5,0,0:0:0:0:
+440,256,306504,1,8,0:0:0:0:
+440,256,306742,2,0,L|296:248,1,142.500005435944,0|2,0:0|0:0,0:0:0:0:
+56,32,307695,2,0,P|64:104|56:176,1,142.500005435944
+0,256,308409,2,0,L|8:360,2,71.2500027179719,0|0|0,0:0|0:0|0:0,0:0:0:0:
+56,176,309123,2,0,P|160:176|224:256,1,213.750008153916,2|0,0:0|0:0,0:0:0:0:
+184,352,310076,5,0,0:0:0:0:
+184,352,310314,2,0,L|328:344,1,142.500005435944,4|0,0:0|0:0,0:0:0:0:
+216,256,311028,2,0,L|360:248,1,142.500005435944,2|0,0:0|0:0,0:0:0:0:
+248,160,311742,2,0,L|392:152,2,142.500005435944,0|0|0,0:0|0:0|0:0,0:0:0:0:
+152,176,312933,2,0,P|152:136|160:104,1,71.2500027179719,2|0,0:0|0:0,0:0:0:0:
+144,88,313647,5,0,0:0:0:0:
+240,112,313885,1,0,0:0:0:0:
+296,24,314123,1,8,0:0:0:0:
+296,24,314361,2,0,P|368:24|424:64,1,142.500005435944,0|2,0:0|0:0,0:0:0:0:
+256,128,315314,2,0,P|296:184|296:256,1,142.500005435944
+208,312,316028,2,0,P|204:276|208:240,1,71.2500027179719
+384,200,316504,2,0,P|388:236|384:272,1,71.2500027179719,0|2,0:0|0:0,0:0:0:0:
+400,288,317457,6,0,L|328:280,1,71.2500027179719,0|0,0:0|0:0,0:0:0:0:
+240,328,317933,2,0,L|96:312,1,142.500005435944,4|0,0:0|0:0,0:0:0:0:
+16,368,318647,2,0,P|48:304|48:232,1,142.500005435944,2|0,0:0|0:0,0:0:0:0:
+32,16,319600,1,0,0:0:0:0:
+32,16,319838,2,0,P|0:80|0:152,1,142.500005435944
+72,216,320552,2,0,B|160:208|160:208|200:216|200:216|288:208,1,213.750008153916,2|0,0:0|0:0,0:0:0:0:
+376,168,321504,6,0,L|368:240,1,71.2500027179719,0|8,0:0|0:0,0:0:0:0:
+456,296,321981,2,0,L|464:224,1,71.2500027179719
+408,72,322457,2,0,P|336:72|288:128,1,142.500005435944,2|0,0:0|0:0,0:0:0:0:
+312,136,323409,1,0,0:0:0:0:
+216,120,323647,1,0,0:0:0:0:
+120,104,323885,1,0,0:0:0:0:
+24,88,324123,1,0,0:0:0:0:
+24,88,324361,1,2,0:0:0:0:
+8,72,325314,5,0,0:0:0:0:
+8,72,325552,2,0,P|16:144|8:216,1,142.500005435944,4|0,0:0|0:0,0:0:0:0:
+128,280,326295,2,0,P|120:208|128:136,2,142.500005435944,2|0|0,0:0|0:0|0:0,0:0:0:0:
+216,336,327535,2,0,P|272:288|344:288,1,142.500005435944
+304,384,328279,2,0,L|224:168,1,213.750008153916,2|0,0:0|0:0,0:0:0:0:
+256,192,329518,12,2,331102,0:0:0:0:
+256,192,331652,12,0,334152,0:0:0:0:

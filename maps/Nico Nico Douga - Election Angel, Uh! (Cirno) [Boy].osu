@@ -1,0 +1,100 @@
+osu file format v9
+
+[General]
+AudioFilename: electionangel.mp3
+AudioLeadIn: 0
+PreviewTime: 12235
+Countdown: 0
+SampleSet: Normal
+StackLeniency: 0.7
+Mode: 0
+LetterboxInBreaks: 1
+
+[Editor]
+Bookmarks: 6985,41669,55414
+DistanceSpacing: 1
+BeatDivisor: 4
+GridSize: 8
+
+[Metadata]
+Title:Election Angel, Uh!
+Artist:Nico Nico Douga
+Creator:Cirno
+Version:Boy
+Source:
+Tags:Electronic Angel Aniki Gachimuchi Vocaloid MAD Weiren Nijihara Peperon Hatsune Miku
+
+[Difficulty]
+HPDrainRate:2
+CircleSize:4
+OverallDifficulty:2
+ApproachRate:3
+SliderMultiplier:0.6
+SliderTickRate:1
+
+[Events]
+//Background and Video events
+0,0,"electionbkg2.jpg"
+Video,0,"electionangel_vid.flv"
+//Break Periods
+2,27308,31668
+//Storyboard Layer 0 (Background)
+//Storyboard Layer 1 (Fail)
+//Storyboard Layer 2 (Pass)
+//Storyboard Layer 3 (Foreground)
+//Storyboard Sound Samples
+//Background Colour Transformations
+3,100,163,162,255
+
+[TimingPoints]
+537,428.571428571429,4,1,1,67,1,0
+41679,-100,4,1,1,69,0,1
+55394,-100,4,1,1,84,0,0
+
+[Colours]
+Combo1 : 196,163,74
+Combo2 : 122,122,122
+Combo3 : 150,102,86
+Combo4 : 219,219,219
+
+[HitObjects]
+256,192,6965,1,8
+256,128,7394,2,0,B|192:136|152:200,1,120
+256,256,9108,2,0,B|320:248|360:184,1,120
+456,136,10822,6,0,B|496:192|456:248,2,120,0|0|8
+424,88,12965,1,8
+376,48,13394,1,8
+256,48,14251,6,0,B|128:48,1,120,12|0
+64,144,15965,1,8
+24,192,16394,1,0
+64,240,16822,1,0
+176,192,17679,6,0,B|304:192,1,120,8|0
+416,216,19394,2,0,B|448:192|416:168,2,60,0|0|4
+312,280,21108,5,8
+256,312,21537,1,0
+200,280,21965,1,0
+200,160,22822,1,0
+256,128,23251,1,8
+312,160,23679,1,0
+256,48,24537,6,0,B|296:31|344:56|384:48,1,120
+256,48,26251,1,0
+200,48,26679,1,0
+144,48,27108,1,4
+160,288,33108,6,0,B|184:320|224:312,2,60,0|8|0
+136,232,34394,1,8
+128,176,34822,1,0
+176,64,35679,5,0
+296,64,36537,2,0,B|324:76|324:76|352:64,2,60,0|8|0
+256,192,37822,12,8,39108
+136,280,41679,6,0,B|104:288|72:280,2,60,0|8|0
+216,192,43394,1,0
+136,104,44251,6,0,B|104:96|72:104,4,60,0|8|0|8|0
+184,64,46394,1,0
+224,104,46822,1,0
+336,64,47679,5,0
+384,104,48108,1,8
+424,152,48537,2,0,B|472:200|472:264,1,120
+360,304,50251,6,0,B|312:256|312:192,1,120
+312,136,51537,1,8
+312,80,51965,1,0
+256,192,52822,12,0,55394

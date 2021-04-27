@@ -1,0 +1,89 @@
+osu file format v14
+
+[General]
+AudioFilename: asdf.mp3
+AudioLeadIn: 0
+PreviewTime: 6168
+Countdown: 0
+SampleSet: Normal
+StackLeniency: 0.7
+Mode: 0
+LetterboxInBreaks: 0
+WidescreenStoryboard: 0
+
+[Editor]
+DistanceSpacing: 0.56
+BeatDivisor: 4
+GridSize: 8
+TimelineZoom: 0.4999998
+
+[Metadata]
+Title:Quiet Water
+TitleUnicode:Quiet Water
+Artist:toby fox
+ArtistUnicode:toby fox
+Creator:Intelli
+Version:TheOnlyLeon's Flowing
+Source:UNDERTALE
+Tags:TheOnlyLeon TotallyTurtwig OST Original Soundtrack slow easy piano radiation 33 chiptune
+BeatmapID:860486
+BeatmapSetID:393995
+
+[Difficulty]
+HPDrainRate:7
+CircleSize:7
+OverallDifficulty:6
+ApproachRate:6.5
+SliderMultiplier:1.8
+SliderTickRate:1
+
+[Events]
+//Background and Video events
+0,0,"evening-lake-quiet-trees-water-reflection-sunset-wallpaper-1.jpg",0,0
+//Break Periods
+//Storyboard Layer 0 (Background)
+//Storyboard Layer 1 (Fail)
+//Storyboard Layer 2 (Pass)
+//Storyboard Layer 3 (Foreground)
+//Storyboard Sound Samples
+
+[TimingPoints]
+168,1000,3,1,1,25,1,0
+6168,-100,3,1,1,15,0,0
+15168,-100,3,1,1,25,0,0
+16168,-100,3,1,1,15,0,0
+27168,-100,3,1,1,25,0,0
+32168,-100,3,1,1,5,0,0
+
+
+[Colours]
+Combo1 : 128,255,255
+Combo2 : 128,128,255
+Combo3 : 192,192,192
+
+[HitObjects]
+138,108,168,5,4,0:0:0:0:
+169,112,3168,5,4,0:0:0:0:
+103,145,6168,6,0,B|166:121|217:137|217:137|228:104|253:92,1,135,2|0,0:0|0:0,0:0:0:0:
+280,147,7168,2,0,B|258:218|186:194|186:194|165:190|134:201,1,135,2|0,0:0|0:0,0:0:0:0:
+152,260,8168,2,0,B|182:258|182:258|257:276|307:224,1,135,2|0,0:0|0:0,0:0:0:0:
+333,173,9168,1,2,0:0:0:0:
+416,116,10168,5,2,0:0:0:0:
+346,75,10668,1,0,0:0:0:0:
+275,34,11168,1,2,0:0:0:0:
+205,75,11668,1,0,0:0:0:0:
+135,116,12168,1,2,0:0:0:0:
+357,328,15168,5,4,0:0:0:0:
+345,192,16168,5,2,0:0:0:0:
+256,116,16668,1,0,0:0:0:0:
+256,268,17168,1,2,0:0:0:0:
+167,192,17668,1,0,0:0:0:0:
+92,117,18168,6,0,P|71:152|92:275,1,135,2|0,0:0|0:0,0:0:0:0:
+53,318,19168,2,0,B|102:332|141:302|148:259|148:259|172:259,1,135,2|0,0:0|0:0,0:0:0:0:
+147,196,20168,2,0,P|198:210|199:306,1,135,2|0,0:0|0:0,0:0:0:0:
+168,362,21168,5,2,0:0:0:0:
+413,248,22168,1,0,0:0:0:0:
+146,162,23168,1,0,0:0:0:0:
+391,49,24168,1,2,0:0:0:0:
+256,192,27168,5,4,0:0:0:0:
+256,192,27418,12,0,32168,0:0:0:0:

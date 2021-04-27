@@ -1,0 +1,82 @@
+osu file format v7
+
+[General]
+AudioFilename: We Will Carry On.mp3
+AudioLeadIn: 993
+PreviewTime: 17026
+Countdown: 0
+SampleSet: Normal
+StackLeniency: 0.7
+Mode: 0
+LetterboxInBreaks: 1
+
+[Editor]
+DistanceSpacing: 0.800000011920929
+BeatDivisor: 2
+GridSize: 8
+
+[Metadata]
+Title:We Will Carry On (TV Size)
+Artist:John Loeffler
+Creator:NoHItter
+Version:Piplup
+Source:Pokemon: Sinnoh League Victors
+Tags:ash pikachu dawn brock gladi
+
+[Difficulty]
+HPDrainRate:2
+CircleSize:4
+OverallDifficulty:2
+SliderMultiplier:1
+SliderTickRate:1
+
+[Events]
+//Background and Video events
+0,0,"800px-SinnohLeagueVictors.png"
+Video,100,"We Will Carry On.avi"
+//Break Periods
+//Storyboard Layer 0 (Background)
+//Storyboard Layer 1 (Fail)
+//Storyboard Layer 2 (Pass)
+//Storyboard Layer 3 (Foreground)
+//Storyboard Sound Samples
+//Background Colour Transformations
+3,100,163,162,255
+
+[TimingPoints]
+3180,461.538461538462,4,1,0,61,1,0
+17949,-100,4,1,0,61,0,1
+25333,-100,4,1,0,61,0,0
+
+[HitObjects]
+256,112,2256,2,0,B|136:112,2,100,0|8|4
+256,272,4103,2,0,B|360:272,2,100,0|8|4
+256,112,5949,6,0,B|328:32,2,100,0|8|4
+256,272,7795,2,0,B|184:352,2,100,0|8|4
+376,176,9641,5,0
+296,176,10103,1,8
+216,176,10564,1,4
+136,176,11026,1,0
+131,256,11487,2,0,B|392:256,1,250,8|4
+368,16,14026,6,0,B|336:64,1,50,0|8
+296,128,14718,1,0
+216,128,15180,1,8
+168,56,15641,2,0,B|138:6,1,50,0|4
+32,192,17026,6,0,B|0:232|32:296,2,100,0|8|4
+96,240,18410,1,0
+160,192,18872,1,8
+224,240,19333,2,0,B|304:240,1,50,0|4
+480,192,20718,6,0,B|512:152|480:88,2,100,0|8|4
+416,144,22103,1,0
+352,192,22564,1,8
+288,144,23026,2,0,B|240:112|184:152,1,100,0|4
+216,336,24410,5,0
+296,336,24872,1,8
+304,256,25333,2,0,B|192:256,2,100,0|0|4
+296,176,26718,1,0
+216,176,27179,1,0
+256,104,27641,2,0,B|232:80|280:48|248:-8,1,100,0|4
+144,48,28795,6,0,B|176:96,1,50,0|4
+136,160,29487,2,0,B|168:208,1,50,0|4
+136,280,30179,2,0,B|208:392,1,100,0|4
+256,192,30872,12,4,33641

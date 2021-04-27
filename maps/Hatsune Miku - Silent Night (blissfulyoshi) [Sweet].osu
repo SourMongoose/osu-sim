@@ -1,0 +1,78 @@
+osu file format v6
+
+[General]
+AudioFilename: Hatsune Miku - Silent Night.mp3
+AudioLeadIn: 0
+PreviewTime: 26720
+Countdown: 0
+SampleSet: Soft
+StackLeniency: 0.4
+Mode: 0
+LetterboxInBreaks: 1
+
+[Editor]
+Bookmarks: 69920
+DistanceSpacing: 0.800000011920929
+BeatDivisor: 2
+GridSize: 8
+
+[Metadata]
+Title:Silent Night
+Artist:Hatsune Miku
+Creator:blissfulyoshi
+Version:Sweet
+Source:
+Tags:Christmas Vocaloid enameru-P 3D PV 3DPV Dusty FuukoLover
+
+[Difficulty]
+HPDrainRate:0
+CircleSize:3
+OverallDifficulty:0
+SliderMultiplier:0.7
+SliderTickRate:1
+
+[Events]
+//Background and Video events
+0,0,"Hatsune Miku Winterr.jpg"
+Video,240,"Silent Night.avi"
+//Break Periods
+//Storyboard Layer 0 (Background)
+//Storyboard Layer 1 (Fail)
+//Storyboard Layer 2 (Pass)
+//Storyboard Layer 3 (Foreground)
+//Storyboard Sound Samples
+//Background Colour Transformations
+3,100,163,162,255
+
+[TimingPoints]
+19520,600,3,2,1,30,1,0
+20420,-100,3,2,1,40,0,0
+22820,-100,3,2,1,60,0,0
+24020,-100,3,2,1,70,0,0
+25220,-100,3,2,1,80,0,0
+
+[Colours]
+Combo1 : 0,0,160
+Combo2 : 192,192,192
+Combo3 : 0,255,255
+
+[HitObjects]
+256,192,19520,5,2
+464,192,21320,5,2
+256,192,23120,5,2
+48,192,24920,5,2
+384,192,26720,6,0,B|384:56|256:56,1,210,2|2
+128,192,30320,2,0,B|128:328|256:328,1,210
+347,101,33920,6,0,B|256:8|160:104,1,210
+166,282,37520,2,0,B|256:376|352:280,1,210,0|4
+128,192,41120,5,2
+256,64,42920,1,2
+384,192,44720,5,2
+256,320,46520,1,2
+256,192,48320,5,0
+165,283,50120,2,0,B|256:376|352:280,1,210
+256,192,53720,1,2
+165,101,55520,6,0,B|256:8|352:104,2,210
+256,312,60920,5,6
+256,72,62720,5,2
+256,192,64520,12,4,68120

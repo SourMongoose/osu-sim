@@ -1,0 +1,94 @@
+osu file format v14
+
+[General]
+AudioFilename: Korean Love Story.mp3
+AudioLeadIn: 0
+PreviewTime: 15797
+Countdown: 0
+SampleSet: Soft
+StackLeniency: 0.7
+Mode: 0
+LetterboxInBreaks: 1
+WidescreenStoryboard: 1
+
+[Editor]
+DistanceSpacing: 1.2
+BeatDivisor: 4
+GridSize: 32
+TimelineZoom: 1
+
+[Metadata]
+Title:<3 Korean Love Story ~ Intro <3
+TitleUnicode:<3 Korean Love Story ~ Intro <3
+Artist:Based Frequency
+ArtistUnicode:Based Frequency
+Creator:Wafu
+Version:Beginner
+Source:
+Tags:vaporwave sad piano vapors emotional
+BeatmapID:794480
+BeatmapSetID:361576
+
+[Difficulty]
+HPDrainRate:0
+CircleSize:3
+OverallDifficulty:0
+ApproachRate:0.5
+SliderMultiplier:0.8
+SliderTickRate:1
+
+[Events]
+//Background and Video events
+0,0,"bg.jpg",0,0
+//Break Periods
+//Storyboard Layer 0 (Background)
+//Storyboard Layer 1 (Fail)
+//Storyboard Layer 2 (Pass)
+//Storyboard Layer 3 (Foreground)
+//Storyboard Sound Samples
+
+[TimingPoints]
+297,1000,4,2,1,10,1,0
+1297,-100,4,2,3,5,0,0
+1547,-100,4,2,1,10,0,0
+9297,-100,4,2,3,5,0,0
+9547,-100,4,2,1,10,0,0
+13297,-100,4,2,2,5,0,0
+14547,-100,4,2,1,10,0,0
+17297,-100,4,2,3,5,0,0
+17547,-100,4,2,1,10,0,0
+21297,-100,4,2,2,5,0,0
+21547,-100,4,2,1,10,0,0
+29297,-100,4,2,3,5,0,0
+29547,-100,4,2,1,10,0,0
+33297,-100,4,2,3,5,0,0
+33547,-100,4,2,1,10,0,0
+41297,-100,4,2,3,5,0,0
+41547,-100,4,2,1,10,0,0
+44297,-100,4,2,1,5,0,0
+
+
+[Colours]
+Combo1 : 210,72,145
+Combo2 : 45,150,255
+Combo3 : 136,196,255
+Combo4 : 141,24,101
+
+[HitObjects]
+220,312,297,6,0,L|387:305,1,160,2|4,0:0|0:0,0:0:0:0:
+344,116,4297,2,0,P|337:77|343:38,2,80,6|6|0,0:0|0:0|0:0,0:0:0:0:
+188,228,8297,6,0,B|166:190|186:152|186:152|207:113|185:76,1,160,6|4,0:0|0:0,0:0:0:0:
+21,177,12297,2,0,P|18:291|116:352,1,240,6|2,0:0|0:0,0:0:0:0:
+195,297,16297,6,0,L|354:278,1,160,2|0,0:0|0:0,0:0:0:0:
+418,206,19297,1,8,0:0:0:0:
+380,118,20297,2,0,P|306:89|231:111,1,160,2|0,0:0|0:0,0:0:0:0:
+208,204,23297,2,0,B|221:246|221:246|227:322,1,120,8|0,0:0|0:0,0:0:0:0:
+275,323,25297,6,0,L|354:313,2,80,8|2|8,0:0|0:0|0:0,0:0:0:0:
+189,367,28297,2,0,B|165:330|183:291|183:291|201:251|178:215,1,160,6|4,0:0|0:0,0:0:0:0:
+119,138,31297,1,10,0:0:0:0:
+166,54,32297,6,0,B|244:95|311:26|311:26|334:64|378:60,1,240,2|8,0:0|0:0,0:0:0:0:
+472,77,36297,2,0,L|480:156,1,80,6|8,0:0|0:0,0:0:0:0:
+420,231,38297,1,2,0:0:0:0:
+336,183,39297,1,10,0:0:0:0:
+276,259,40297,6,0,P|164:261|120:156,1,240,4|8,0:0|0:0,0:0:0:0:
+256,192,44297,12,0,48297,0:0:0:0:

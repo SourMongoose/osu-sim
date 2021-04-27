@@ -1,0 +1,88 @@
+osu file format v14
+
+[General]
+AudioFilename: audio.mp3
+AudioLeadIn: 0
+PreviewTime: 413
+Countdown: 0
+SampleSet: Soft
+StackLeniency: 0.9
+Mode: 0
+LetterboxInBreaks: 0
+WidescreenStoryboard: 1
+
+[Editor]
+DistanceSpacing: 0.9
+BeatDivisor: 4
+GridSize: 32
+TimelineZoom: 1
+
+[Metadata]
+Title:Atsui yo ......
+TitleUnicode:あついよぉ……
+Artist:Keisuke Ito, Yasuhiro Kawagoe, Noriko Murakami
+ArtistUnicode:いとうけいすけ、川越康弘、村上徳子
+Creator:fieryrage
+Version:beginner
+Source:ポケモン超不思議のダンジョン
+Tags:pokemon pokémon super mystery dungeon so hot pocket monsters nintendo the company game freak 3ds
+BeatmapID:1445267
+BeatmapSetID:683341
+
+[Difficulty]
+HPDrainRate:1.6
+CircleSize:2
+OverallDifficulty:2
+ApproachRate:2.4
+SliderMultiplier:1.2
+SliderTickRate:1
+
+[Events]
+//Background and Video events
+0,0,"oof.jpg",0,0
+//Break Periods
+//Storyboard Layer 0 (Background)
+//Storyboard Layer 1 (Fail)
+//Storyboard Layer 2 (Pass)
+//Storyboard Layer 3 (Foreground)
+//Storyboard Sound Samples
+
+[TimingPoints]
+413,789.473684210526,4,2,1,7,1,0
+1991,-100,4,2,1,10,0,0
+9097,-100,4,2,1,15,0,0
+9886,-100,4,2,1,18,0,0
+17781,-100,4,2,1,15,0,0
+19360,-100,4,2,1,10,0,0
+24886,-100,4,2,1,15,0,0
+25676,-100,4,2,1,10,0,0
+27255,-100,4,2,1,7,0,0
+29623,-100,4,2,1,10,0,0
+30412,-100,4,2,1,5,0,0
+
+
+[Colours]
+Combo1 : 230,57,152
+Combo2 : 139,101,171
+Combo3 : 244,149,255
+Combo4 : 199,75,54
+
+[HitObjects]
+171,254,413,6,0,P|162:199|180:132,2,120
+256,320,2781,1,0,0:0:0:0:
+341,254,3570,6,0,P|350:199|332:132,2,120
+256,320,5939,1,0,0:0:0:0:
+171,254,6728,6,0,P|162:199|180:132,1,120
+272,86,8307,2,0,P|279:145|264:202,1,120
+171,254,9886,6,0,L|51:260,2,120
+258,317,12255,1,0,0:0:0:0:
+353,264,13044,6,0,P|363:204|351:147,1,120
+318,103,14228,1,2,0:0:0:0:
+160,132,15412,1,0,0:0:0:0:
+112,229,16202,6,0,P|104:298|118:353,2,120
+160,132,18570,1,0,0:0:0:0:
+262,165,19360,6,0,L|390:162,1,120
+467,228,20939,2,0,P|488:171|481:111,1,120
+396,47,22518,6,0,P|375:104|382:164,1,120
+471,220,24097,2,0,P|477:279|456:334,1,120
+256,192,25676,12,0,31991,0:0:0:0:

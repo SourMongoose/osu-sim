@@ -1,0 +1,58 @@
+osu file format v5
+
+[General]
+AudioFilename: Clocks.mp3
+AudioLeadIn: 0
+AudioHash: 44a60072108832f41d505138064badb1
+PreviewTime: -1
+Countdown: 1
+SampleSet: Normal
+EditorBookmarks: 21191,47467,60915
+
+[Metadata]
+Title:Clocks
+Artist:Cold Play
+Creator:Kidwii
+Version:Easy
+
+[Difficulty]
+HPDrainRate:1
+CircleSize:4
+OverallDifficulty:5
+SliderMultiplier: 1.4
+SliderTickRate: 1
+
+[Events]
+//Background and Video events
+0,-100000,"Clocks-bg.png"
+//Break Periods
+2,47459,60956
+//Storyboard Layer 0 (Background)
+//Storyboard Layer 1 (Failing)
+//Storyboard Layer 2 (Passing)
+//Storyboard Layer 3 (Foreground)
+//Storyboard Sound Samples
+//Background Colour Transformations
+3,100,163,162,255
+
+[TimingPoints]
+7950,413.793103448276,4,1,0,100
+
+[HitObjects]
+256,192,21191,1,4
+208,120,22846,1,0
+320,120,24501,1,0
+320,256,26156,1,0
+192,256,27812,6,0,B|192:256|136:192|376:56,1,280
+376,112,29467,1,0
+376,192,31122,1,0
+376,264,32777,1,0
+256,192,34432,5,4
+19,193,36087,2,0,B|19:193|139:97|267:41,1,280
+288,48,37743,5,0
+344,64,39398,6,0,B|344:64|432:64|432:88|336:88|336:104|432:104|432:128|344:128|344:152|432:152|432:168|344:168|344:208|432:208|440:48|448:56|448:64|456:80|456:192|376:232|328:168|320:72,1,420
+256,192,41053,12,0,47260
+256,192,62570,12,0,67536
+256,192,69191,5,0
+344,112,70846,2,0,B|344:112|208:32|320:160|256:160|192:88|304:208|344:128|384:200|248:192,5,280
+256,192,75812,12,0,81191

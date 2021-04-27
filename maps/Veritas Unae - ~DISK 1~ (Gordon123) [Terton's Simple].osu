@@ -1,0 +1,90 @@
+osu file format v14
+
+[General]
+AudioFilename: audio.mp3
+AudioLeadIn: 0
+PreviewTime: 5650
+Countdown: 0
+SampleSet: Soft
+StackLeniency: 0.7
+Mode: 0
+LetterboxInBreaks: 0
+WidescreenStoryboard: 0
+
+[Editor]
+DistanceSpacing: 1.4
+BeatDivisor: 4
+GridSize: 4
+TimelineZoom: 1.2
+
+[Metadata]
+Title:~DISK 1~
+TitleUnicode:•~DISK 1~•
+Artist:Veritas Unae
+ArtistUnicode:Veritas Unae
+Creator:Gordon123
+Version:Terton's Simple
+Source:
+Tags:experimental piano disc homestuck unofficialmspafans land of fans and music 2 Terton -Space-
+BeatmapID:1399064
+BeatmapSetID:659934
+
+[Difficulty]
+HPDrainRate:2
+CircleSize:3
+OverallDifficulty:2
+ApproachRate:3
+SliderMultiplier:1.2
+SliderTickRate:1
+
+[Events]
+//Background and Video events
+0,0,"BG.jpg",0,0
+//Break Periods
+//Storyboard Layer 0 (Background)
+//Storyboard Layer 1 (Fail)
+//Storyboard Layer 2 (Pass)
+//Storyboard Layer 3 (Foreground)
+//Storyboard Sound Samples
+
+[TimingPoints]
+1525,750,4,2,1,30,1,0
+6025,750,4,2,1,30,1,0
+18025,-100,4,2,1,30,0,1
+24775,-100,4,2,1,30,0,0
+25525,-100,4,2,1,26,0,0
+26275,-100,4,2,1,22,0,0
+27025,-100,4,2,1,18,0,0
+27775,-100,4,2,1,14,0,0
+28525,-100,4,2,1,10,0,0
+29275,-100,4,2,1,6,0,0
+30025,-100,4,2,1,5,0,0
+
+
+[Colours]
+Combo1 : 191,191,106
+Combo2 : 170,85,0
+Combo3 : 180,103,103
+
+[HitObjects]
+57,141,775,6,0,L|145:144,1,60,0|0,0:0|0:0,0:0:0:0:
+175,85,1525,2,0,P|213:30|248:16,2,90,0|2|0,0:3|0:0|0:3,0:0:0:0:
+220,156,3025,2,0,P|280:152|312:128,2,90,0|2|0,0:0|0:0|0:0,0:0:0:0:
+212,72,4525,2,0,P|124:36|40:84,1,180,2|0,0:0|0:0,0:0:0:0:
+84,148,6025,6,0,L|80:276,1,120,0|2,0:0|0:0,0:0:0:0:
+208,156,7525,2,0,L|213:24,1,120,0|2,0:0|0:0,0:0:0:0:
+332,156,9025,2,0,L|328:276,1,120,0|2,0:0|0:0,0:0:0:0:
+168,324,10525,2,0,P|116:328|76:312,2,90,0|0|0,0:0|0:0|0:0,0:0:0:0:
+244,288,12025,6,0,P|288:260|372:272,1,120,4|0,0:0|0:0,0:0:0:0:
+356,180,13150,1,0,0:0:0:0:
+300,116,13525,2,0,L|304:20,2,90
+216,112,15025,2,0,L|220:16,2,90,2|0|0,0:0|0:0|0:0,0:0:0:0:
+268,180,16525,1,8,0:0:0:0:
+92,360,17650,5,0,0:0:0:0:
+172,332,18025,2,0,L|304:337,1,120,0|2,0:0|0:0,0:0:0:0:
+424,232,19525,2,0,L|296:228,1,120,0|2,0:0|0:0,0:0:0:0:
+176,120,21025,2,0,L|304:125,1,120,0|2,0:0|0:0,0:0:0:0:
+440,36,22525,2,0,L|340:32,2,90
+492,104,24025,5,8,0:0:0:0:
+372,220,24775,5,4,0:0:0:0:
+256,192,25150,12,0,30775,0:0:0:0:

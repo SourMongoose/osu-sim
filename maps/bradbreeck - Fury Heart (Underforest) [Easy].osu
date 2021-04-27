@@ -1,0 +1,101 @@
+osu file format v14
+
+[General]
+AudioFilename: fury.mp3
+AudioLeadIn: 1000
+PreviewTime: 410
+Countdown: 0
+SampleSet: Soft
+StackLeniency: 0.7
+Mode: 0
+LetterboxInBreaks: 0
+WidescreenStoryboard: 1
+
+[Editor]
+DistanceSpacing: 1.1
+BeatDivisor: 4
+GridSize: 4
+TimelineZoom: 2.2
+
+[Metadata]
+Title:Fury Heart
+TitleUnicode:Fury Heart
+Artist:bradbreeck
+ArtistUnicode:bradbreeck
+Creator:Underforest
+Version:Easy
+Source:We Bare Bears
+Tags:Cartoon Network Daniel Chong Brad Breeck WBB Season 1 Episode 14 Brother Up Panda Panpan Ice Bear Grizzly Charlie Ours pour un et un pour t'ours Medvetesók Siamo solo orsi ぼくらベアベアーズ 위 베어 베어스 Między nami, misiami Ursos sem Curso Ou Nós, os Ursos Aventurile fraților urși Вся правда о медведях Kafadar Ayılar Ми звичайні ведмеді Chúng tôi đơn giản là gấu Somos Osos Ние, мечоците Wat Beren Leren Bären wie wir Vi' Bare Bjørne Vi Bare Bjørner Escandalosos الدببة الثلاثة Marianna Hoen Eye of the Tiger parody
+BeatmapID:942815
+BeatmapSetID:437904
+
+[Difficulty]
+HPDrainRate:2
+CircleSize:2
+OverallDifficulty:2
+ApproachRate:2
+SliderMultiplier:1
+SliderTickRate:2
+
+[Events]
+//Background and Video events
+0,0,"www.jpg",0,0
+Video,0,"Fufuryy.avi"
+//Break Periods
+//Storyboard Layer 0 (Background)
+//Storyboard Layer 1 (Fail)
+//Storyboard Layer 2 (Pass)
+//Storyboard Layer 3 (Foreground)
+//Storyboard Sound Samples
+
+[TimingPoints]
+410,550.45871559633,4,2,1,70,1,0
+24630,-100,4,2,1,50,0,0
+24767,-100,4,2,1,70,0,0
+26832,-100,4,2,1,75,0,1
+34538,-100,4,2,1,60,0,1
+35088,-100,4,2,1,60,0,0
+35364,-100,4,2,1,30,0,0
+38942,-100,4,2,1,5,0,0
+
+
+[Colours]
+Combo1 : 0,0,128
+Combo2 : 159,0,0
+Combo3 : 111,55,0
+
+[HitObjects]
+46,87,410,6,0,P|99:77|153:90,1,100,4|8,0:0|0:0,0:0:0:0:
+239,139,1510,2,0,P|284:147|350:127,1,100,0|8,0:0|0:0,0:0:0:0:
+418,207,2611,2,0,L|490:201,2,50,2|0|8,0:0|0:0|0:0,0:0:0:0:
+325,266,3712,2,0,P|317:311|337:377,1,100,0|8,0:0|0:0,0:0:0:0:
+219,349,4813,6,0,P|171:365|115:357,1,100,2|8,0:0|0:0,0:0:0:0:
+56,271,5914,2,0,L|56:154,1,100,0|8,0:0|0:0,0:0:0:0:
+104,72,7015,2,0,P|152:56|208:64,1,100,2|8,0:0|0:0,0:0:0:0:
+275,141,8116,1,0,0:0:0:0:
+330,46,8666,1,8,0:0:0:0:
+397,132,9217,6,0,P|394:185|352:238,1,100,4|8,0:0|0:0,0:0:0:0:
+301,310,10317,2,0,P|256:318|190:298,1,100,0|8,0:0|0:0,0:0:0:0:
+134,220,11418,2,0,L|62:232,2,50,2|0|8,0:0|0:0|0:0,0:0:0:0:
+185,123,12520,2,0,B|219:121|219:121|250:106|250:106|285:103,1,100,0|8,0:0|0:0,0:0:0:0:
+379,53,13620,6,0,P|427:37|483:45,1,100,2|8,0:0|0:0,0:0:0:0:
+502,148,14721,2,0,L|502:248,1,100,0|8,0:0|0:0,0:0:0:0:
+437,337,15822,2,0,P|389:321|333:329,1,100,2|8,0:0|0:0,0:0:0:0:
+232,344,16923,1,4,0:3:0:0:
+132,299,17473,1,4,0:3:0:0:
+40,360,18024,6,0,P|20:301|25:258,2,100,4|8|0,0:0|0:0|0:0,0:0:0:0:
+132,299,19675,1,8,0:0:0:0:
+232,254,20226,2,0,B|280:265|280:265|330:259,1,100,2|8,0:0|0:0,0:0:0:0:
+437,235,21327,2,0,B|445:183|445:183|432:134,1,100,0|8,0:0|0:0,0:0:0:0:
+386,37,22428,6,0,L|278:53,1,100,2|8,0:0|0:0,0:0:0:0:
+236,150,23529,2,0,L|137:135,1,100,0|8,0:0|0:0,0:0:0:0:
+53,207,24630,2,0,P|27:144|53:64,2,150,4|4|8,0:0|0:0|0:3,0:0:0:0:
+161,225,26832,6,0,L|173:330,1,100,4|8,0:0|0:0,0:0:0:0:
+274,364,27932,2,0,L|285:264,1,100,0|8,0:0|0:0,0:0:0:0:
+384,215,29033,2,0,P|422:212|474:164,2,100,2|8|0,0:0|0:0|0:0,0:0:0:0:
+385,104,30685,1,8,0:0:0:0:
+277,80,31235,5,4,0:0:0:0:
+180,132,31786,2,0,B|155:80|181:25,2,100,8|0|8,0:0|0:0|0:0,0:0:0:0:
+221,234,33437,2,0,B|110:268|136:197|24:237,1,200,4|4,0:0|0:0,0:0:0:0:
+3,344,35088,1,4,0:1:0:0:
+256,192,35364,12,0,38942,0:0:0:0:

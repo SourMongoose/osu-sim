@@ -1,0 +1,79 @@
+osu file format v14
+
+[General]
+AudioFilename: Kac.mp3
+AudioLeadIn: 2690
+PreviewTime: 14
+Countdown: 0
+SampleSet: Soft
+StackLeniency: 0.7
+Mode: 0
+LetterboxInBreaks: 0
+WidescreenStoryboard: 0
+
+[Editor]
+DistanceSpacing: 0.9
+BeatDivisor: 1
+GridSize: 4
+TimelineZoom: 1
+
+[Metadata]
+Title:Kac (TV Size)
+TitleUnicode:Kac (TV Size)
+Artist:Krfawy
+ArtistUnicode:Krfawy
+Creator:Krfawy
+Version:Beginner
+Source:
+Tags:Pinksane Treats National Hangover Anthem troll ambient Bathory Witch Gero Irreversible BoberOfDarkness streeteelf - Magic Bomb - Tidek -Kamikaze-
+BeatmapID:622457
+BeatmapSetID:273355
+
+[Difficulty]
+HPDrainRate:0
+CircleSize:2
+OverallDifficulty:0
+ApproachRate:0
+SliderMultiplier:0.689999999999999
+SliderTickRate:1
+
+[Events]
+//Background and Video events
+0,0,"Douz Kalez.jpg",0,0
+//Break Periods
+//Storyboard Layer 0 (Background)
+//Storyboard Layer 1 (Fail)
+//Storyboard Layer 2 (Pass)
+//Storyboard Layer 3 (Foreground)
+//Storyboard Sound Samples
+
+[TimingPoints]
+14,535.714285714286,4,2,1,37,1,0
+
+
+[Colours]
+Combo1 : 242,225,11
+Combo2 : 119,248,3
+Combo3 : 3,197,237
+Combo4 : 249,119,181
+SliderBorder : 240,240,240
+SliderTrackOverride : 251,57,57
+
+[HitObjects]
+60,296,14,6,0,P|126:312|194:300,1,138,2|8,1:2|1:0,0:0:0:0:
+317,300,2156,2,0,P|384:311|451:295,1,138,2|8,1:2|1:0,0:0:0:0:
+460,172,4299,2,0,B|440:120|440:120|408:84|409:35,2,138,2|8|2,1:2|1:0|1:2,0:0:0:0:
+451,295,7514,1,8,1:0:0:0:
+326,298,8585,6,0,L|220:193,1,138,2|8,1:2|1:0,0:0:0:0:
+135,118,10728,2,0,P|202:111|256:69,1,138,2|8,1:2|1:0,0:0:0:0:
+368,123,12871,2,0,L|345:263,2,138,2|8|2,1:2|1:0|1:2,0:0:0:0:
+256,69,16085,1,8,1:0:0:0:
+144,123,17156,6,0,L|166:259,1,138,2|8,1:2|1:0,0:0:0:0:
+229,366,19299,1,2,1:2:0:0:
+351,341,20370,1,8,1:0:0:0:
+473,316,21442,2,0,B|473:221|473:221|453:182,1,138,4|8,1:2|1:0,0:0:0:0:
+360,98,23585,2,0,P|292:111|225:98,1,138,2|8,1:2|1:0,0:0:0:0:
+106,62,25728,6,0,B|93:153|93:153|106:202,2,138,2|8|2,1:2|1:0|1:2,0:0:0:0:
+225,98,28942,1,8,1:0:0:0:
+344,134,30014,2,0,P|281:210|223:221,1,138,2|8,1:2|1:0,0:0:0:0:
+136,277,32156,2,0,P|126:178|160:129,2,138,2|8|2,1:2|1:0|0:0,0:0:0:0:

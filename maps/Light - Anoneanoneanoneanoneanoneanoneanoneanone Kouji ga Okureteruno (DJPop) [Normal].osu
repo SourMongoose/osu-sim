@@ -1,0 +1,103 @@
+﻿osu file format v14
+
+[General]
+AudioFilename: Anoneanoneanoneanoneanoneanoneanoneanone Kouji ga Okureteruno.mp3
+AudioLeadIn: 2000
+PreviewTime: 17642
+Countdown: 0
+SampleSet: Normal
+StackLeniency: 0.7
+Mode: 0
+LetterboxInBreaks: 0
+WidescreenStoryboard: 1
+
+[Editor]
+DistanceSpacing: 1
+BeatDivisor: 4
+GridSize: 16
+TimelineZoom: 1.8
+
+[Metadata]
+Title:Anoneanoneanoneanoneanoneanoneanoneanone Kouji ga Okureteruno
+TitleUnicode:あのね阿野ねアノネあのネアのねアノねあノネあのね工事が遅れてるの
+Artist:Light
+ArtistUnicode:Light
+Creator:DJPop
+Version:Normal
+Source:はたらく細胞
+Tags:Hataraku Saibou Cells At Work Kesshouban Platelet Naganawa Maria Anone Niconico Douga on and on Kotoba no Puzzle Mojipittan MAD 血小板 長縄 まりあ ニコニコ動画 ことばのパズル もじぴったん Deppyforce Net0 pimp
+BeatmapID:1735075
+BeatmapSetID:822716
+
+[Difficulty]
+HPDrainRate:2
+CircleSize:3
+OverallDifficulty:3
+ApproachRate:4
+SliderMultiplier:1.28
+SliderTickRate:2
+
+[Events]
+//Background and Video events
+Video,-600,"Anoneanoneanoneanoneanoneanoneanoneanone Kouji ga Okureteruno.avi"
+0,0,"Anoneanoneanoneanoneanoneanoneanoneanone Kouji ga Okureteruno.jpg",0,0
+//Break Periods
+//Storyboard Layer 0 (Background)
+//Storyboard Layer 1 (Fail)
+//Storyboard Layer 2 (Pass)
+//Storyboard Layer 3 (Foreground)
+//Storyboard Sound Samples
+
+[TimingPoints]
+500,476.190476190476,4,1,0,60,1,0
+17642,-95.2380952380952,4,1,0,60,0,1
+25261,-94.3396226415094,4,1,0,60,0,1
+29071,-96.1538461538461,4,1,0,60,0,1
+30976,-100,4,1,0,60,0,1
+32761,-100,4,1,0,60,0,0
+
+
+[Colours]
+Combo1 : 204,156,88
+Combo2 : 192,232,248
+Combo3 : 248,224,144
+Combo4 : 243,230,216
+
+[HitObjects]
+224,340,500,6,0,P|138:299|112:212,1,192,2|2,0:2|0:2,0:0:0:0:
+112,148,1452,2,0,L|48:148,2,64
+192,48,2404,5,4,0:0:0:0:
+320,48,2880,1,0,0:0:0:0:
+400,148,3357,2,0,L|464:148,2,64,2|2|2,0:2|0:2|0:2,0:0:0:0:
+400,276,4309,5,0,0:0:0:0:
+288,336,4785,1,0,0:0:0:0:
+160,336,5261,2,0,P|102:313|80:256,1,128
+76,192,5976,1,2,0:0:0:0:
+80,128,6214,6,0,P|102:71|160:48,1,128
+288,48,7166,2,0,L|416:48,1,128
+480,48,7880,1,2,0:0:0:0:
+480,112,8119,6,0,P|404:281|224:320,1,384,0|2,0:0|0:0,0:0:0:0:
+164,296,9785,1,2,0:0:0:0:
+104,272,10023,5,4,0:0:0:0:
+47,157,10499,1,0,0:0:0:0:
+160,96,10976,2,0,L|128:40,2,64,2|2|2,0:2|0:2|0:2,0:0:0:0:
+292,96,11928,6,0,P|364:41|436:92,2,192
+264,154,13595,1,2,0:0:0:0:
+236,212,13833,5,0,0:0:0:0:
+108,212,14309,1,2,0:2:0:0:
+176,320,14785,2,0,L|240:320,1,64
+304,320,15261,2,0,L|368:320,1,64,2|2,0:2|0:2,0:0:0:0:
+432,320,15738,6,0,P|404:231|320:192,1,192,0|2,0:0|0:0,0:0:0:0:
+256,192,16690,2,0,L|256:256,2,64,2|2|2,0:0|0:0|0:0,0:0:0:0:
+256,64,17642,6,0,P|166:101|128:192,4,201.599993847656,4|0|0|0|2,0:0|0:0|0:0|0:0|0:2,0:0:0:0:
+256,192,20976,1,2,0:2:0:0:
+256,320,21452,6,0,P|346:283|384:192,4,201.599993847656,0|0|0|0|2,0:0|0:0|0:0|0:0|0:2,0:0:0:0:
+256,192,24785,1,2,0:2:0:0:
+112,192,25261,6,0,P|121:143|146:99,1,101.760000155273,4|0,0:0|0:0,0:0:0:0:
+231,50,25976,2,0,P|281:50|329:67,1,101.760000155273
+392,142,26690,2,0,P|400:191|392:241,1,101.760000155273
+328,316,27404,2,0,P|282:333|231:333,1,101.760000155273
+146,284,28119,2,0,P|122:241|112:191,2,101.760000155273,2|2|2,0:2|0:2|0:2,0:0:0:0:
+208,272,29071,6,0,B|248:252|272:216|256:192|240:168|264:132|304:112,2,199.67999878125
+320,352,30976,6,0,L|384:352,4,64,2|2|2|2|2,0:2|0:2|0:2|0:2|0:2,0:0:0:0:
+176,352,32404,6,0,L|144:352,2,32,2|2|2,0:0|0:0|0:0,0:0:0:0:

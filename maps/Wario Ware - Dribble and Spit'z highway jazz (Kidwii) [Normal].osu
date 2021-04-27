@@ -1,0 +1,75 @@
+osu file format v5
+
+[General]
+AudioFilename: Dribble and Spit'z highway jazz.mp3
+AudioLeadIn: 0
+PreviewTime: -1
+Countdown: 1
+SampleSet: Normal
+StackLeniency: 0.7
+Mode: 0
+
+[Metadata]
+Title:Dribble and Spit'z highway jazz
+Artist:Wario Ware
+Creator:Kidwii
+Version:Normal
+
+[Difficulty]
+HPDrainRate:4
+CircleSize:4
+OverallDifficulty:5
+SliderMultiplier:1.2
+SliderTickRate:1
+
+[Events]
+//Background and Video events
+1,0,"dribble_and_spitz_-_Yahoo_Search_Results.avi"
+//Break Periods
+2,31881,38868
+//Storyboard Layer 0 (Background)
+//Storyboard Layer 1 (Failing)
+//Storyboard Layer 2 (Passing)
+//Storyboard Layer 3 (Foreground)
+//Storyboard Sound Samples
+//Background Colour Transformations
+3,100,163,162,255
+
+[TimingPoints]
+0,465.910855722938,4,1,0,100
+
+[HitObjects]
+256,192,1863,1,0
+256,288,2329,2,0,B|144:360|24:280,2,240
+336,240,4659,1,0
+336,240,5125,1,0
+336,240,5590,1,0
+376,48,6522,6,0,B|112:48,1,240
+120,240,8386,1,0
+120,240,8852,1,0
+120,240,9318,1,4
+184,168,9784,6,0,B|184:312,1,120
+376,288,11181,2,0,B|376:152,4,120
+256,192,13977,12,0,16306
+392,48,17238,6,0,B|336:304|152:280|136:24,2,480
+288,208,21897,1,0
+288,208,22363,1,4
+288,112,22829,6,0,B|240:152|32:96|32:96|32:320,2,480
+384,112,27022,5,0
+384,208,27488,1,0
+384,304,27954,1,0
+256,192,28420,12,0,31681
+440,112,40068,6,0,B|384:144|184:112|184:112|256:224,3,360
+288,280,44727,1,4
+96,280,45659,6,0,B|96:168|256:96,1,240
+296,24,47056,5,0
+296,24,47522,1,0
+224,88,47988,1,0
+224,88,48454,1,0
+296,152,48920,1,0
+296,152,49386,1,0
+240,232,49852,1,0
+240,232,50318,1,0
+256,192,50784,12,0,54045
+152,56,54511,6,0,B|272:360|464:216|464:216|416:152,2,480
+32,128,59170,5,0
