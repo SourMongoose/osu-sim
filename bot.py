@@ -34,7 +34,7 @@ async def get_similar_maps(ch, map_id, page=1):
 
     color = discord.Color.from_rgb(100, 255, 100)
     title = f'Maps similar in structure to {map_id}:'
-    file_to_link = lambda f: f'https://osu.ppy.sh/b/{map_ids[f.replace(".dist", "")]}' if f.replace(".dist", "") in map_ids else ''
+    file_to_link = lambda f: f'https://osu.ppy.sh/b/{map_ids[f.replace(".dist", "").lower()]}' if f.replace(".dist", "").lower() in map_ids else ''
     description = '\n'.join(f'**{i+1})** {sim[i][0].replace(".osu.dist","")}\n{file_to_link(sim[i][0])}' for i in range((page-1)*perpage, page*perpage))
     embed = discord.Embed(title=title, description=description, color=color)
     embed.set_footer(text=f'Page {page} of 10')
@@ -52,7 +52,7 @@ async def get_rating_maps(ch, map_id, page=1, dt=False):
 
     color = discord.Color.from_rgb(100, 255, 100)
     title = f'Maps similar in star rating to {map_id}' + (' (+DT)' if dt else '') + ':'
-    file_to_link = lambda f: f'https://osu.ppy.sh/b/{map_ids[f+".osu"]}' if f+".osu" in map_ids else ''
+    file_to_link = lambda f: f'https://osu.ppy.sh/b/{map_ids[f.lower()+".osu"]}' if f.lower()+".osu" in map_ids else ''
     description = '\n'.join(f'**{i+1})** {sim[i][0].replace(".osu.dist","")}\n{file_to_link(sim[i][0])}' for i in range((page-1)*perpage, page*perpage))
     embed = discord.Embed(title=title, description=description, color=color)
     embed.set_footer(text=f'Page {page} of 10')
@@ -65,7 +65,7 @@ def get_map_ids():
         lines = f.readlines()
 
     for i in range(0, len(lines), 2):
-        map_ids[lines[i + 1].strip()] = lines[i].strip()
+        map_ids[lines[i + 1].strip().lower()] = lines[i].strip()
 
     return map_ids
 

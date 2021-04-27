@@ -20,15 +20,16 @@ def get_srs(srs_file='srs.txt'):
 if __name__ == '__main__':
     raw = 'srs_dt_raw.txt'
     start_line = 5
-    end_line = 31613
     line_step = 2
 
     with open(raw, 'r', encoding='utf8') as f:
         lines = f.readlines()
 
     with open('srs_dt.txt', 'w', encoding='utf8') as f:
-        for i in range(start_line, end_line, line_step):
+        for i in range(start_line, len(lines), line_step):
             line = lines[i]
+            if not line.strip():
+                break
             song = line[:160]
             song = song[song.index('-')+1:].strip()
             sr, aim, speed, combo, ar, od = (float(x) for x in line[161:].strip('\n║').split('│'))
