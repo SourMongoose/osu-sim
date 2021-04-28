@@ -1,3 +1,4 @@
 .idea/
 __pycache__/
 tokens.py
+secret.py

@@ -1,18 +1,29 @@
 # https://discord.com/api/oauth2/authorize?client_id=829860591405498419&permissions=18432&scope=bot
 
 import discord
+import random
 
+import api
 import similarity_buckets
 import similarity_srs
 import tokens
 
 client = discord.Client()
 
-async def invalid_input(ch):
+async def send_error_message(ch, msg='Invalid input.'):
     color = discord.Color.from_rgb(255, 100, 100)
-    description = 'Invalid input.'
-    embed = discord.Embed(description=description, color=color)
+    embed = discord.Embed(description=msg, color=color)
     await ch.send(embed=embed)
+
+def file_to_id(file):
+    file_lower = file.replace('.dist', '').lower()
+    if '.osu' not in file_lower:
+        file_lower += '.osu'
+    return map_ids.get(file_lower, None)
+
+def file_to_link(file):
+    id = file_to_id(file)
+    return f'https://osu.ppy.sh/b/{id}' if id else ''
 
 async def get_similar_maps(ch, map_id, page=1):
     perpage = 10
@@ -29,12 +40,11 @@ async def get_similar_maps(ch, map_id, page=1):
         sim = similarity_buckets.get_similar(map_id, n)
     except:
         await calc_msg.delete()
-        await invalid_input(ch)
+        await send_error_message(ch)
         return
 
     color = discord.Color.from_rgb(100, 255, 100)
     title = f'Maps similar in structure to {map_id}:'
-    file_to_link = lambda f: f'https://osu.ppy.sh/b/{map_ids[f.replace(".dist", "").lower()]}' if f.replace(".dist", "").lower() in map_ids else ''
     description = '\n'.join(f'**{i+1})** {sim[i][0].replace(".osu.dist","")}\n{file_to_link(sim[i][0])}' for i in range((page-1)*perpage, page*perpage))
     embed = discord.Embed(title=title, description=description, color=color)
     embed.set_footer(text=f'Page {page} of 10')
@@ -47,15 +57,48 @@ async def get_rating_maps(ch, map_id, page=1, dt=False):
     try:
         sim = similarity_srs.get_similar(map_id, n, dt)
     except:
-        await invalid_input(ch)
+        await send_error_message(ch)
         return
 
     color = discord.Color.from_rgb(100, 255, 100)
     title = f'Maps similar in star rating to {map_id}' + (' (+DT)' if dt else '') + ':'
-    file_to_link = lambda f: f'https://osu.ppy.sh/b/{map_ids[f.lower()+".osu"]}' if f.lower()+".osu" in map_ids else ''
     description = '\n'.join(f'**{i+1})** {sim[i][0].replace(".osu.dist","")}\n{file_to_link(sim[i][0])}' for i in range((page-1)*perpage, page*perpage))
     embed = discord.Embed(title=title, description=description, color=color)
     embed.set_footer(text=f'Page {page} of 10')
+    await ch.send(embed=embed)
+
+async def recommend_map(ch, username):
+    api.refresh_token()
+    try:
+        user = api.get_user(username)
+    except:
+        await send_error_message(ch, f'User **{username}** not found.')
+        return
+
+    try:
+        scores = api.get_scores(user['id'], limit=50)
+        index = random.randrange(len(scores))
+        dt = 'DT' in scores[index]['mods'] or 'NC' in scores[index]['mods']
+        sim = similarity_srs.get_similar(scores[index]['beatmap']['id'], 100, dt)
+    except:
+        await send_error_message(ch, 'Error fetching scores. Please try again later.')
+        return
+
+    score_ids = set(score['beatmap']['id'] for score in scores)
+
+    index = 0
+    for i in range(len(sim)):
+        map_id = file_to_id(sim[i][0])
+        if map_id in score_ids:
+            continue
+        if map_freq.get(map_id, 0) >= 100: # frequency threshold
+            index = i
+            break
+
+    color = discord.Color.from_rgb(100, 255, 100)
+    description = f'**{sim[index][0]}**{" +DT"*int(dt)}\n{file_to_link(sim[index][0])}'
+    embed = discord.Embed(description=description, color=color)
+    embed.set_footer(text=f'Recommended map for {user["username"]}')
     await ch.send(embed=embed)
 
 def get_map_ids():
@@ -69,7 +112,20 @@ def get_map_ids():
 
     return map_ids
 
+def get_map_freq():
+    map_freq = {}
+
+    with open('mapfreq.txt', 'r') as f:
+        lines = f.readlines()
+
+    for line in lines:
+        id, freq = line.split(',')
+        map_freq[id] = int(freq)
+
+    return map_freq
+
 map_ids = get_map_ids()
+map_freq = get_map_freq()
 
 # command starter
 C = '.'
@@ -94,7 +150,8 @@ async def on_message(message):
         title = 'Command List'
         color = discord.Color.from_rgb(150,150,150)
         description = f'**{C}s**im `<beatmap id/link>` `[<page>]`\nFind similar maps (based on map structure)\n\n' \
-                      f'**{C}r**ating `<beatmap id/link>` `[dt]` `[<page>]`\nFind similar maps (based on star rating)\n\n' \
+                      f'**{C}sr** `<beatmap id/link>` `[dt]` `[<page>]`\nFind similar maps (based on star rating)\n\n' \
+                      f'**{C}r**ec `[<username/id>]`\nRecommend a map\n\n' \
                       f'**{C}i**nvite\nGet this bot\'s invite link\n\n' \
                       f'**{C}h**elp\nView commands'
         embed = discord.Embed(title=title, description=description, color=color)
@@ -110,7 +167,7 @@ async def on_message(message):
         await ch.send(embed=embed)
 
     # find similar maps (map structure)
-    if any(msg.startswith(C+s+' ') for s in ['s', 'sim', 'similar']):
+    if any(msg.startswith(C + s + ' ') for s in ['s', 'sim', 'similar']):
         msg = msg[msg.index(' ')+1:]
 
         # parse input
@@ -129,10 +186,10 @@ async def on_message(message):
 
             await get_similar_maps(ch, map_id, page)
         except:
-            await invalid_input(ch)
+            await send_error_message(ch)
 
     # find similar maps (star rating)
-    if any(msg.startswith(C + s + ' ') for s in ['r', 'rating']):
+    if msg.startswith(C + 'sr '):
         msg = msg[msg.index(' ') + 1:]
         args = msg.split(' ')
 
@@ -153,6 +210,17 @@ async def on_message(message):
 
             await get_rating_maps(ch, map_id, page, dt)
         except:
-            await invalid_input(ch)
+            await send_error_message(ch)
+
+    # recommend a map
+    if any(msg.startswith(C + s) for s in ['r', 'rec']):
+        if msg == C + 'r' or msg == C + 'rec':
+            username = au.display_name
+        elif any(msg.startswith(C + s + ' ') for s in ['r', 'rec']):
+            username = msg[msg.index(' ') + 1:]
+        else:
+            return
+
+        await recommend_map(ch, username)
 
 client.run(tokens.token)
