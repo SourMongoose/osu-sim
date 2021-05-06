@@ -77,9 +77,9 @@ async def recommend_map(ch, username):
 
     try:
         scores = api.get_scores(user['id'], limit=50)
-        index = random.randrange(min(25, len(scores)))
-        dt = 'DT' in scores[index]['mods'] or 'NC' in scores[index]['mods']
-        sim = similarity_srs.get_similar(scores[index]['beatmap']['id'], 100, dt)
+        score_index = random.randrange(min(25, len(scores)))
+        dt = 'DT' in scores[score_index]['mods'] or 'NC' in scores[score_index]['mods']
+        sim = similarity_srs.get_similar(scores[score_index]['beatmap']['id'], 100, dt)
     except:
         await send_error_message(ch, 'Error fetching scores. Please try again later.')
         return
@@ -97,7 +97,7 @@ async def recommend_map(ch, username):
                 break
 
     color = discord.Color.from_rgb(100, 255, 100)
-    modstr = ' +' + ''.join(scores[index]['mods']) if scores[index]['mods'] else ''
+    modstr = ' +' + ''.join(scores[score_index]['mods']) if scores[score_index]['mods'] else ''
     description = f'**{sim[index][0]}**{modstr}\n{file_to_link(sim[index][0])}'
     embed = discord.Embed(description=description, color=color)
     embed.set_footer(text=f'Recommended map for {user["username"]}')
