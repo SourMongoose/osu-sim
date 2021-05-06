@@ -86,3 +86,13 @@ def get_beatmap(id):
     r = requests.get(f'https://osu.ppy.sh/api/v2/beatmaps/{id}', headers=headers, timeout=1)
 
     return r.json()
+
+def calculate_sr(id, mods=[]):
+    params = {
+        'Map': str(id),
+        'Mods': mods,
+    }
+
+    r = requests.post('https://newpp.stanr.info/api/maps/calculate', json=params, timeout=5)
+
+    return r.json()

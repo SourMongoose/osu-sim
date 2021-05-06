@@ -77,7 +77,7 @@ async def recommend_map(ch, username):
 
     try:
         scores = api.get_scores(user['id'], limit=50)
-        index = random.randrange(len(scores))
+        index = random.randrange(min(25, len(scores)))
         dt = 'DT' in scores[index]['mods'] or 'NC' in scores[index]['mods']
         sim = similarity_srs.get_similar(scores[index]['beatmap']['id'], 100, dt)
     except:
@@ -89,14 +89,16 @@ async def recommend_map(ch, username):
     index = 0
     for i in range(len(sim)):
         map_id = file_to_id(sim[i][0])
-        if map_id in score_ids:
+        if int(map_id) in score_ids:
             continue
         if map_freq.get(map_id, 0) >= 100: # frequency threshold
             index = i
-            break
+            if random.randrange(2):
+                break
 
     color = discord.Color.from_rgb(100, 255, 100)
-    description = f'**{sim[index][0]}**{" +DT"*int(dt)}\n{file_to_link(sim[index][0])}'
+    modstr = ' +' + ''.join(scores[index]['mods']) if scores[index]['mods'] else ''
+    description = f'**{sim[index][0]}**{modstr}\n{file_to_link(sim[index][0])}'
     embed = discord.Embed(description=description, color=color)
     embed.set_footer(text=f'Recommended map for {user["username"]}')
     await ch.send(embed=embed)

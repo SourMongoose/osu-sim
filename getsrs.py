@@ -1,9 +1,14 @@
 from osu_sr_calculator.osu_sr_calculator import calculateStarRating
+import api
 
-def get_sr(map, dt=False):
+def get_sr_old(map, dt=False):
     rating = calculateStarRating(returnAllDifficultyValues=True, filepath=map, mods=['DT']) if dt else calculateStarRating(returnAllDifficultyValues=True, filepath=map)
     mod = 'DT' if dt else 'nomod'
     return rating[mod]['aim'], rating[mod]['speed']
+
+def get_sr(map, dt=False):
+    rating = api.calculate_sr(map) # api.calculate_sr(map, ['DT'] * int(dt))
+    return rating['AimSR'], rating['TapSR']
 
 def get_srs(srs_file='srs.txt'):
     srs = {}
