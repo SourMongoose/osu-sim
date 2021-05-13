@@ -6,6 +6,7 @@ import random
 import calc
 import getmaps
 import getbuckets
+import getsrs
 
 def manhattan(a, b):
     return sum(abs(a[i] - b[i]) for i in range(len(a)))
@@ -39,19 +40,16 @@ def get_similarity(b1, b2):
     return sim
 
 def get_similar(id, n=50):
+    filename, text = getmaps.get_map(id)
+    dist = calc.get_distribution_raw(text)
+    bkts = getbuckets.get_buckets_raw(dist)
+
     chars = '1234567890qwertyuiopasdfghjklzxcvbnm'
     temp_filename = ''.join(chars[random.randrange(len(chars))] for _ in range(10)) + '.osu'
-
-    filename, text = getmaps.get_map(id)
     with open(temp_filename, 'w', encoding='utf8', newline='') as f:
         f.write(text)
-    dist_file = calc.get_distribution(temp_filename)
-    bkts_file = getbuckets.get_buckets(dist_file)
-    bkts = get_buckets(bkts_file)
-
+    sr = getsrs.get_sr_old(temp_filename)
     os.remove(temp_filename)
-    os.remove(dist_file)
-    os.remove(bkts_file)
 
     similarities = []
 
@@ -59,10 +57,14 @@ def get_similar(id, n=50):
         if file.startswith(filename):
             continue
 
-        similarities.append((file, get_similarity(bkts, all_buckets[file])))
+        key = file[:-9].lower()
+        if key not in srs:
+            continue
+        if euclidean(srs[key], sr) <= 0.5:
+            similarities.append((file, get_similarity(bkts, all_buckets[file]), euclidean(srs[key], sr)))
 
     similarities.sort(key=lambda s: -s[1])
-    return similarities[:n]
+    return similarities[:min(len(similarities), n)]
 
 def get_all_buckets():
     buckets = {}
@@ -75,7 +77,20 @@ def get_all_buckets():
 
     return buckets
 
+def get_srs(srs_file='srs.txt'):
+    srs = {}
+    try:
+        with open(srs_file, 'r') as f:
+            lines = f.readlines()
+        for i in range(0, len(lines), 2):
+            srs[lines[i].strip().lower()] = tuple(float(x) for x in lines[i+1].split(','))
+    except:
+        pass
+
+    return srs
+
 all_buckets = get_all_buckets()
+srs = get_srs('srs_old.txt')
 
 if __name__ == '__main__':
-    get_similar(771858)
+    print(get_similar(771858))

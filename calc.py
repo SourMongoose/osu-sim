@@ -48,6 +48,43 @@ def get_distribution(input_file, output_file=None):
 
     return output_file
 
+def get_distribution_raw(input):
+    lines = input.split('\r\n')
+
+    output = ''
+
+    i = lines.index('[HitObjects]') + 1
+    qx = qy = qt = zx = zy = zt = -1
+    while i < len(lines):
+        if not lines[i]:
+            break
+
+        vals = lines[i].split(',')
+        i += 1
+        x, y, t, type = int(vals[0]), int(vals[1]), int(vals[2]), int(vals[3])
+
+        circle = bool(type & (1 << 0))
+        slider = bool(type & (1 << 1))
+        spinner = bool(type & (1 << 3))
+
+        if spinner:
+            qx = qy = qt = zx = zy = zt = -1
+            continue
+
+        if slider:
+            pass
+
+        if qx != -1:
+            angle = angle_between(qx, qy, zx, zy, x, y)
+            time = t - zt
+            dist = distance_between(zx, zy, x, y)
+            output += f'{angle},{time},{dist}\n'
+
+        qx, qy, qt = zx, zy, zt
+        zx, zy, zt = x, y, t
+
+    return output
+
 def graph_distribution(dist_file):
     x = []
     y = []

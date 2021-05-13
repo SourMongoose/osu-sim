@@ -31,7 +31,7 @@ async def get_similar_maps(ch, map_id, page=1):
 
     color = discord.Color.from_rgb(255, 255, 100)
     description = 'Calculating...'
-    footer = 'This should take about 5 seconds.'
+    footer = 'This should take about 10 seconds.'
     embed = discord.Embed(description=description, color=color)
     embed.set_footer(text=footer)
     calc_msg = await ch.send(embed=embed)
@@ -41,6 +41,11 @@ async def get_similar_maps(ch, map_id, page=1):
     except:
         await calc_msg.delete()
         await send_error_message(ch)
+        return
+
+    if len(sim) < page * perpage:
+        await calc_msg.delete()
+        await send_error_message(ch, 'Not enough similar maps.')
         return
 
     color = discord.Color.from_rgb(100, 255, 100)
@@ -225,4 +230,4 @@ async def on_message(message):
 
         await recommend_map(ch, username)
 
-client.run(tokens.token)
+client.run(tokens.beta_token)
