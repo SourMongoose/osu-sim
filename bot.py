@@ -230,4 +230,4 @@ async def on_message(message):
 
         await recommend_map(ch, username)
 
-client.run(tokens.beta_token)
+client.run(tokens.token)
