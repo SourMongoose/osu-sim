@@ -15,12 +15,15 @@ def get_map_ids():
         lines = f.readlines()
 
     for i in range(0, len(lines), 2):
-        map_ids[lines[i].strip()] = lines[i + 1].strip()
+        map_ids[lines[i].strip()] = lines[i + 1].strip()[:-4]
 
     return map_ids
 
 def get_similar(id, n=50, dt=False):
-    sr = getsrs.get_sr(id, dt)
+    to_use = srs_dt if dt else srs
+
+    filename = map_ids.get(str(id), '')
+    sr = to_use[filename] if filename in to_use else getsrs.get_sr(id, dt)
 
     # chars = '1234567890qwertyuiopasdfghjklzxcvbnm'
     # temp_filename = ''.join(chars[random.randrange(len(chars))] for _ in range(10)) + '.osu'
@@ -34,9 +37,8 @@ def get_similar(id, n=50, dt=False):
 
     similarities = []
 
-    to_use = srs_dt if dt else srs
     for file in to_use:
-        if map_ids[str(id)].startswith(file):
+        if filename.startswith(file):
             continue
 
         similarities.append((file, manhattan(sr, to_use[file])))

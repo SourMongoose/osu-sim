@@ -7,7 +7,7 @@ def get_sr_old(map, dt=False):
     return rating[mod]['aim'], rating[mod]['speed']
 
 def get_sr(map, dt=False):
-    rating = api.calculate_sr(map) # api.calculate_sr(map, ['DT'] * int(dt))
+    rating = api.calculate_sr(map, ['DT'] * int(dt))
     return rating['AimSR'], rating['TapSR']
 
 def get_srs(srs_file='srs.txt'):

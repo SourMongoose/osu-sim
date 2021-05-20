@@ -96,7 +96,7 @@ async def recommend_map(ch, username):
         map_id = file_to_id(sim[i][0])
         if int(map_id) in score_ids:
             continue
-        if map_freq.get(map_id, 0) >= 100: # frequency threshold
+        if map_freq.get(map_id, 0) >= 150: # frequency threshold
             index = i
             if random.randrange(2):
                 break
