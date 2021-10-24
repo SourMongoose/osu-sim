@@ -1,7 +1,10 @@
 # https://discord.com/api/oauth2/authorize?client_id=829860591405498419&permissions=18432&scope=bot
 
+import asyncio
 import discord
+import math
 import random
+import time
 
 import api
 import similarity_buckets
@@ -108,6 +111,117 @@ async def recommend_map(ch, username):
     embed.set_footer(text=f'Recommended map for {user["username"]}')
     await ch.send(embed=embed)
 
+active_quizzes = {}
+async def start_quiz(ch, params):
+    if ch.id in active_quizzes:
+        return
+
+    active_quizzes[ch.id] = {}
+    q = active_quizzes[ch.id]
+
+    easy = []
+    for id in map_freq_country:
+        if map_freq_country[id] >= 1000:
+            easy.append(id)
+
+    map_ids = []
+    while len(map_ids) < 10:
+        selected = easy[random.randrange(len(easy))]
+        if selected not in map_ids:
+            map_ids.append(selected)
+
+    api.refresh_token()
+    map_infos = []
+    i = 0
+    while i < len(map_ids):
+        try:
+            map_infos.append(api.get_beatmap(map_ids[i]))
+            i += 1
+        except:
+            continue
+
+    answers = []
+    images = []
+    for mi in map_infos:
+        name = mi['beatmapset']['title']
+        namesplit = name.split(' ')
+        for i in range(1, len(namesplit)):
+            if any(namesplit[i].startswith(c) for c in '~([-<') \
+                    or any(alphanumeric(namesplit[i].lower()) == s for s in ['ft', 'feat', 'featuring']) \
+                    or 'tv' in namesplit[i].lower():
+                name = ''.join(namesplit[:i])
+                break
+        answers.append(alphanumeric(name.lower()))
+
+        images.append(mi['beatmapset']['covers']['cover'])
+
+    print(answers)
+
+    q['answers'] = answers
+    q['scores'] = {}
+
+    guess_time = 10
+
+    await ch.send('Welcome to the osu! beatmap quiz! You will be given a series of beatmap backgrounds; try to type '
+                  'the title of the beatmap as quickly as possible.\n\n'
+                  f'Current settings: Easy, 10 songs, {guess_time}s guess time\n\n'
+                  'First background will appear in 5 seconds!')
+
+    await asyncio.sleep(5)
+
+    for i in range(len(answers)):
+        q['index'] = i
+        q['window'] = (time.time(), time.time() + guess_time)
+        q['curr_scores'] = {}
+
+        await ch.send(images[i])
+
+        await asyncio.sleep(guess_time)
+
+        output = f"The answer was: {map_infos[i]['beatmapset']['title']}\n\n"
+        if q['curr_scores']:
+            output += '\n'.join(f"{au.display_name}: {q['curr_scores'][au]}" for au in q['curr_scores']) + '\n\n'
+        output += 'Next question in 5 seconds.\n' + '-'*20
+        await ch.send(output)
+
+        for au in q['curr_scores']:
+            if au not in q['scores']:
+                q['scores'][au] = 0
+            q['scores'][au] += q['curr_scores'][au]
+
+        await asyncio.sleep(5)
+
+    scores = list(q['scores'].items())
+    scores.sort(key=lambda s: -s[1])
+    output = 'Final standings:\n'
+    output += '\n'.join(f'{s[0].display_name}: {s[1]}' for s in scores)
+
+async def quiz_guess(au, ch, msg):
+    q = active_quizzes[ch.id]
+
+    t = time.time()
+    w = q['window']
+    if lerp(w[0], w[1], t) > 1:
+        return
+
+    guess = alphanumeric(msg.lower())
+
+    if q['answers'][q['index']] not in guess:
+        return
+
+    score = 5 - math.floor(lerp(w[0], w[1], t) / 0.2)
+    q['curr_scores'][au] = score
+
+def lerp(a, b, x):
+    return (x - a) / (b - a)
+
+def alphanumeric(s):
+    output = ''
+    for c in s:
+        if '0' <= c <= '9' or 'a' <= c <= 'z':
+            output += c
+    return output
+
 def get_map_ids():
     map_ids = {}
 
@@ -119,10 +233,10 @@ def get_map_ids():
 
     return map_ids
 
-def get_map_freq():
+def get_map_freq(filename='mapfreq.txt'):
     map_freq = {}
 
-    with open('mapfreq.txt', 'r') as f:
+    with open(filename, 'r') as f:
         lines = f.readlines()
 
     for line in lines:
@@ -133,6 +247,7 @@ def get_map_freq():
 
 map_ids = get_map_ids()
 map_freq = get_map_freq()
+map_freq_country = get_map_freq('mapfreq_country.txt')
 
 # command starter
 C = '.'
@@ -229,5 +344,14 @@ async def on_message(message):
             return
 
         await recommend_map(ch, username)
+
+    # beatmap bg trivia
+    if any(msg.startswith(C + s) for s in ['q', 'quiz']):
+        if ' ' in msg:
+            await start_quiz(ch, msg[msg.index(' ') + 1:])
+        else:
+            await start_quiz(ch, '')
+    if active_quizzes[ch.id]:
+        await quiz_guess(au, ch, msg)
 
 client.run(tokens.token)
