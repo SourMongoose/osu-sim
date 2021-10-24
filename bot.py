@@ -120,13 +120,35 @@ async def start_quiz(ch, params):
     q = active_quizzes[ch.id]
 
     easy = []
+    medium = []
+    hard = []
     for id in map_freq_country:
         if map_freq_country[id] >= 1000:
             easy.append(id)
+        elif map_freq_country[id] >= 300:
+            medium.append(id)
+        elif map_freq_country[id] >= 100:
+            hard.append(id)
+
+    pool = []
+    difficulties = []
+    if 'easy' in params:
+        pool.extend(easy)
+        difficulties.append('Easy')
+    if 'medium' in params:
+        pool.extend(medium)
+        difficulties.append('Medium')
+    if 'hard' in params:
+        pool.extend(hard)
+        difficulties.append('Hard')
+
+    if not pool:
+        pool = easy
+        difficulties = ['Easy']
 
     map_ids = []
     while len(map_ids) < 10:
-        selected = easy[random.randrange(len(easy))]
+        selected = pool[random.randrange(len(pool))]
         if selected not in map_ids:
             map_ids.append(selected)
 
@@ -155,8 +177,6 @@ async def start_quiz(ch, params):
 
         images.append(mi['beatmapset']['covers']['cover'])
 
-    print(answers)
-
     q['answers'] = answers
     q['scores'] = {}
 
@@ -164,7 +184,7 @@ async def start_quiz(ch, params):
 
     await ch.send('Welcome to the osu! beatmap quiz! You will be given a series of beatmap backgrounds; try to type '
                   'the title of the beatmap as quickly as possible.\n\n'
-                  f'Current settings: Easy, 10 songs, {guess_time}s guess time\n\n'
+                  f"Current settings: {'+'.join(difficulties)}, 10 songs, {guess_time}s guess time\n\n"
                   'First background will appear in 5 seconds!')
 
     await asyncio.sleep(5)
@@ -178,10 +198,12 @@ async def start_quiz(ch, params):
 
         await asyncio.sleep(guess_time)
 
-        output = f"The answer was: {map_infos[i]['beatmapset']['title']}\n\n"
+        output = f"The answer was: {map_infos[i]['beatmapset']['title']}\n"
         if q['curr_scores']:
-            output += '\n'.join(f"{au.display_name}: {q['curr_scores'][au]}" for au in q['curr_scores']) + '\n\n'
-        output += 'Next question in 5 seconds.\n' + '-'*20
+            output += '\n' + '\n'.join(f"{au.display_name}: {q['curr_scores'][au]}" for au in q['curr_scores']) + '\n'
+        if i < len(answers) - 1:
+            output += '\nNext question in 5 seconds.\n'
+        output += '-' * 20
         await ch.send(output)
 
         for au in q['curr_scores']:
@@ -189,12 +211,21 @@ async def start_quiz(ch, params):
                 q['scores'][au] = 0
             q['scores'][au] += q['curr_scores'][au]
 
-        await asyncio.sleep(5)
+        if i < len(answers) - 1:
+            await asyncio.sleep(5)
 
     scores = list(q['scores'].items())
     scores.sort(key=lambda s: -s[1])
     output = 'Final standings:\n'
-    output += '\n'.join(f'{s[0].display_name}: {s[1]}' for s in scores)
+    icons = {
+        0: ':first_place:',
+        1: ':second_place:',
+        2: ':third_place:'
+    }
+    output += '\n'.join(f"{icons.get(i, '')}{scores[i][0].display_name}: {scores[i][1]}" for i in range(len(scores)))
+    await ch.send(output)
+
+    active_quizzes.pop(ch.id)
 
 async def quiz_guess(au, ch, msg):
     q = active_quizzes[ch.id]
@@ -351,7 +382,7 @@ async def on_message(message):
             await start_quiz(ch, msg[msg.index(' ') + 1:])
         else:
             await start_quiz(ch, '')
-    if active_quizzes[ch.id]:
+    if ch.id in active_quizzes:
         await quiz_guess(au, ch, msg)
 
 client.run(tokens.token)
