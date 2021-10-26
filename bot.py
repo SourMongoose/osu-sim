@@ -198,6 +198,9 @@ async def start_quiz(ch, params):
 
     await asyncio.sleep(5)
 
+    if ch.id not in active_quizzes:
+        return
+
     for i in range(len(answers)):
         q['index'] = i
         q['window'] = (time.time(), time.time() + guess_time)
