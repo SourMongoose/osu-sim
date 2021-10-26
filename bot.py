@@ -119,16 +119,21 @@ async def start_quiz(ch, params):
     active_quizzes[ch.id] = {}
     q = active_quizzes[ch.id]
 
+    q['first'] = 'first' in params
+
     easy = []
     medium = []
     hard = []
-    for id in map_freq_country:
-        if map_freq_country[id] >= 1000:
-            easy.append(id)
-        elif map_freq_country[id] >= 300:
-            medium.append(id)
-        elif map_freq_country[id] >= 100:
-            hard.append(id)
+    impossible = []
+    for i in range(len(mapsets)):
+        if i < 1000:
+            easy.append(mapsets[i][0])
+        elif i < 3000:
+            medium.append(mapsets[i][0])
+        elif i < 5000:
+            hard.append(mapsets[i][0])
+        else:
+            impossible.append(mapsets[i][0])
 
     pool = []
     difficulties = []
@@ -141,41 +146,45 @@ async def start_quiz(ch, params):
     if 'hard' in params:
         pool.extend(hard)
         difficulties.append('Hard')
+    if 'impossible' in params:
+        pool.extend(impossible)
+        difficulties.append('Impossible')
 
     if not pool:
         pool = easy
         difficulties = ['Easy']
 
-    map_ids = []
-    while len(map_ids) < 10:
+    mapset_ids = []
+    while len(mapset_ids) < 10:
         selected = pool[random.randrange(len(pool))]
-        if selected not in map_ids:
-            map_ids.append(selected)
+        if selected not in mapset_ids:
+            mapset_ids.append(selected)
 
     api.refresh_token()
-    map_infos = []
+    mapset_infos = []
     i = 0
-    while i < len(map_ids):
+    while i < len(mapset_ids):
         try:
-            map_infos.append(api.get_beatmap(map_ids[i]))
+            mapset_infos.append(api.get_beatmapset(mapset_ids[i]))
             i += 1
         except:
             continue
 
     answers = []
     images = []
-    for mi in map_infos:
-        name = mi['beatmapset']['title']
+    for mi in mapset_infos:
+        name = mi['title']
         namesplit = name.split(' ')
         for i in range(1, len(namesplit)):
             if any(namesplit[i].startswith(c) for c in '~([-<') \
                     or any(alphanumeric(namesplit[i].lower()) == s for s in ['ft', 'feat', 'featuring']) \
+                    or any(namesplit[i].lower().startswith(s) for s in ['ft.', 'feat.', 'featuring.']) \
                     or 'tv' in namesplit[i].lower():
                 name = ''.join(namesplit[:i])
                 break
         answers.append(alphanumeric(name.lower()))
 
-        images.append(mi['beatmapset']['covers']['cover'])
+        images.append(mi['covers']['cover'])
 
     q['answers'] = answers
     q['scores'] = {}
@@ -184,7 +193,7 @@ async def start_quiz(ch, params):
 
     await ch.send('Welcome to the osu! beatmap quiz! You will be given a series of beatmap backgrounds; try to type '
                   'the title of the beatmap as quickly as possible.\n\n'
-                  f"Current settings: {'+'.join(difficulties)}, 10 songs, {guess_time}s guess time\n\n"
+                  f"Current settings: {'+'.join(difficulties)}, 10 songs, {guess_time}s guess time, {'first-guess' if q['first'] else 'time-based'} scoring\n\n"
                   'First background will appear in 5 seconds!')
 
     await asyncio.sleep(5)
@@ -196,9 +205,15 @@ async def start_quiz(ch, params):
 
         await ch.send(images[i])
 
-        await asyncio.sleep(guess_time)
+        if q['first']:
+            for _ in range(guess_time):
+                if q['curr_scores']:
+                    break
+                await asyncio.sleep(1)
+        else:
+            await asyncio.sleep(guess_time)
 
-        output = f"The answer was: {map_infos[i]['beatmapset']['title']}\n"
+        output = f"The answer was: {mapset_infos[i]['title']}\n"
         if q['curr_scores']:
             output += '\n' + '\n'.join(f"{au.display_name}: {q['curr_scores'][au]}" for au in q['curr_scores']) + '\n'
         if i < len(answers) - 1:
@@ -240,7 +255,10 @@ async def quiz_guess(au, ch, msg):
     if q['answers'][q['index']] not in guess:
         return
 
-    score = 5 - math.floor(lerp(w[0], w[1], t) / 0.2)
+    if q['first'] and q['curr_scores']:
+        return
+
+    score = 1 if q['first'] else 5 - math.floor(lerp(w[0], w[1], t) / 0.2)
     q['curr_scores'][au] = score
 
 def lerp(a, b, x):
@@ -276,9 +294,24 @@ def get_map_freq(filename='mapfreq.txt'):
 
     return map_freq
 
+def get_mapsets(filename='setids_country.txt'):
+    mapsets = []
+
+    with open(filename, 'r') as f:
+        lines = f.readlines()
+
+    for line in lines:
+        ls = line.strip().split(',')
+        mapsets.append((int(ls[0]), int(ls[1])))
+
+    mapsets.sort(key=lambda t: -t[1])
+
+    return mapsets
+
 map_ids = get_map_ids()
 map_freq = get_map_freq()
 map_freq_country = get_map_freq('mapfreq_country.txt')
+mapsets = get_mapsets()
 
 # command starter
 C = '.'

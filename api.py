@@ -87,6 +87,13 @@ def get_beatmap(id):
 
     return r.json()
 
+def get_beatmapset(id):
+    headers = {'Authorization': f'Bearer {token}'}
+
+    r = requests.get(f'https://osu.ppy.sh/api/v2/beatmapsets/{id}', headers=headers, timeout=1)
+
+    return r.json()
+
 def calculate_sr(id, mods=[]):
     params = {
         'Map': str(id),
