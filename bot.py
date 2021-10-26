@@ -213,6 +213,9 @@ async def start_quiz(ch, params):
         else:
             await asyncio.sleep(guess_time)
 
+        if ch.id not in active_quizzes:
+            return
+
         output = f"The answer was: {mapset_infos[i]['title']}\n"
         if q['curr_scores']:
             output += '\n' + '\n'.join(f"{au.display_name}: {q['curr_scores'][au]}" for au in q['curr_scores']) + '\n'
@@ -228,6 +231,9 @@ async def start_quiz(ch, params):
 
         if i < len(answers) - 1:
             await asyncio.sleep(5)
+
+        if ch.id not in active_quizzes:
+            return
 
     scores = list(q['scores'].items())
     scores.sort(key=lambda s: -s[1])
@@ -255,7 +261,7 @@ async def quiz_guess(au, ch, msg):
     if q['answers'][q['index']] not in guess:
         return
 
-    if q['first'] and q['curr_scores']:
+    if q['first'] and q['curr_scores'] or au in q['curr_scores']:
         return
 
     score = 1 if q['first'] else 5 - math.floor(lerp(w[0], w[1], t) / 0.2)
@@ -416,6 +422,10 @@ async def on_message(message):
         else:
             await start_quiz(ch, '')
     if ch.id in active_quizzes:
-        await quiz_guess(au, ch, msg)
+        if any(msg.startswith(C + s) for s in ['q abort', 'quiz abort']):
+            active_quizzes.pop(ch.id)
+            await ch.send('Quiz has been aborted.')
+        else:
+            await quiz_guess(au, ch, msg)
 
 client.run(tokens.token)
