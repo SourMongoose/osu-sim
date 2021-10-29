@@ -1,0 +1,87 @@
+osu file format v7
+
+[General]
+AudioFilename: dagobah_K-ON_Harmonica-1.mp3
+AudioLeadIn: 2000
+PreviewTime: 0
+Countdown: 1
+SampleSet: Soft
+StackLeniency: 0.7
+Mode: 0
+LetterboxInBreaks: 1
+
+[Editor]
+DistanceSpacing: 1
+BeatDivisor: 2
+GridSize: 8
+
+[Metadata]
+Title:Koishi and Okuu of the Sprite Tribe
+Artist:Nico Nico Douga
+Creator:saymun
+Version:YGOkid8's Tribe 0.0
+Source:Touhou
+Tags:K-ON! Keion Handdrawn Koishi Komeiji Utsuho Reiuji Zekira YGOkid8
+
+[Difficulty]
+HPDrainRate:2
+CircleSize:3
+OverallDifficulty:2
+SliderMultiplier:0.8
+SliderTickRate:1
+
+[Events]
+//Background and Video events
+0,0,"bg.jpg"
+//Break Periods
+//Storyboard Layer 0 (Background)
+//Storyboard Layer 1 (Fail)
+//Storyboard Layer 2 (Pass)
+//Storyboard Layer 3 (Foreground)
+//Storyboard Sound Samples
+//Background Colour Transformations
+3,100,255,255,255
+
+[TimingPoints]
+150,501.756146512795,4,2,0,80,1,0
+7676,-100,4,1,0,60,0,0
+7801,-100,4,2,0,80,0,0
+19843,-100,4,1,0,60,0,0
+20094,-100,4,2,0,80,0,0
+21349,-100,4,1,0,60,0,0
+24108,-100,4,2,0,80,0,0
+33218,-200,4,2,0,80,0,0
+34096,-100,4,2,0,80,0,0
+39788,-100,4,1,0,0,0,0
+
+[Colours]
+Combo1 : 61,216,200
+Combo2 : 67,150,65
+Combo3 : 168,239,221
+Combo4 : 219,183,225
+
+[HitObjects]
+256,208,150,1,0
+256,48,1153,1,0
+96,48,2157,2,0,B|0:152|88:272,1,240
+144,320,4164,5,0
+256,208,5167,1,0
+360,328,6171,2,0,B|504:328|504:168,1,240
+424,168,8178,6,0,B|240:168,1,160,8|8
+184,168,9683,1,0
+184,168,10185,2,0,B|184:24|344:24,1,240,8|0
+416,32,12192,6,0,B|416:208,1,160,8|8
+416,272,13697,1,0
+344,232,14199,2,0,B|96:232,1,240,8|0
+104,312,16206,5,0
+0,192,17209,1,0
+136,104,18213,2,0,B|384:104,1,240
+456,88,20220,6,0,B|384:320|128:320|56:88,1,560
+136,96,24234,6,0,B|192:216|136:336,1,240,4|0
+80,272,26241,2,0,B|352:272,1,240,4|0
+400,272,28248,6,0,B|456:152|400:32,1,240,4|0
+336,88,30255,2,0,B|168:88,1,160,4|0
+256,232,32262,6,0,B|256:280,6,40
+176,224,34269,2,2,L|208:136|144:152|176:56,1,240
+256,64,36276,6,0,L|256:24,6,40
+256,192,38283,12,0,39788

@@ -1,0 +1,88 @@
+osu file format v6
+
+[General]
+AudioFilename: Battle Frontier.mp3
+AudioLeadIn: 3000
+PreviewTime: 12995
+Countdown: 1
+SampleSet: Normal
+StackLeniency: 0.7
+Mode: 0
+LetterboxInBreaks: 1
+
+[Editor]
+DistanceSpacing: 0.699999988079071
+BeatDivisor: 4
+GridSize: 8
+
+[Metadata]
+Title:Battle Frontier
+Artist:Jason Appleton
+Creator:Aoitenshi
+Version:NoHItter's Training
+Source:Pokemon: Battle Frontier
+Tags:Pokemon Pikachu Ash Symbol NoHitter
+
+[Difficulty]
+HPDrainRate:1
+CircleSize:4
+OverallDifficulty:2
+SliderMultiplier:1
+SliderTickRate:2
+
+[Events]
+//Background and Video events
+Video,0,"Battle Frontier.avi"
+0,0,"BAttle frontierz.PNG"
+//Break Periods
+//Storyboard Layer 0 (Background)
+//Storyboard Layer 1 (Fail)
+//Storyboard Layer 2 (Pass)
+//Storyboard Layer 3 (Foreground)
+//Storyboard Sound Samples
+//Background Colour Transformations
+3,100,163,162,255
+
+[TimingPoints]
+512,402.684563758389,4,1,0,60,1,0
+674,-100,4,2,0,80,0,0
+3291,-100,4,1,0,60,0,0
+3895,-100,4,2,0,80,0,0
+6354,-100,4,1,0,60,0,0
+13397,-100,4,1,0,80,0,1
+17424,-100,4,1,0,80,0,0
+19840,-100,4,1,0,80,0,1
+23062,-100,4,1,0,80,0,0
+
+[HitObjects]
+256,192,109,1,4
+256,192,512,1,4
+256,192,914,6,0,B|256:72,2,100,8|8|4
+328,192,2122,2,0,B|328:320,2,100,8|8|4
+184,192,3733,5,8
+48,192,4538,1,4
+48,48,5344,1,8
+184,48,6149,2,0,B|336:224,1,200,4|2
+352,256,7357,6,0,B|352:360,2,100,0|0|4
+352,256,8968,2,0,B|464:256,2,100,0|0|4
+256,208,10579,12,6,12592
+256,200,12995,6,0,B|152:112,1,100,8|4
+120,96,13800,2,0,B|32:184,1,100,8|4
+88,224,14605,2,0,B|184:320,3,100,8|4|8|4
+240,304,16216,5,0
+312,304,16619,1,4
+384,304,17022,1,0
+456,304,17424,1,4
+448,48,18632,5,4
+392,96,19035,1,4
+424,160,19438,6,0,B|320:256,1,100,8|4
+296,272,20243,2,0,B|216:184,1,100,8|4
+256,136,21048,2,0,B|352:48,3,100,8|4|8|4
+192,64,23062,5,2
+80,160,23867,1,2
+192,248,24673,1,0
+256,208,24874,12,4,26283
+256,336,27089,5,8
+256,336,27894,2,0,B|256:96,1,200,4|4
+256,136,29102,5,4
+256,136,29505,1,4

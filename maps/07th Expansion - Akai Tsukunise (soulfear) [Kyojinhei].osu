@@ -1,0 +1,83 @@
+osu file format v7
+
+[General]
+AudioFilename: Akai kutsunise.ogg
+AudioLeadIn: 0
+PreviewTime: 61710
+Countdown: 0
+SampleSet: Normal
+StackLeniency: 0.4
+Mode: 0
+LetterboxInBreaks: 1
+
+[Editor]
+DistanceSpacing: 1
+BeatDivisor: 2
+GridSize: 8
+
+[Metadata]
+Title:Akai Tsukunise
+Artist:07th Expansion
+Creator:soulfear
+Version:Kyojinhei
+Source:Umineko no Naku Koro ni
+Tags:EP3 Beatrice VS Virgilia lepidopodus lepidon!
+
+[Difficulty]
+HPDrainRate:3
+CircleSize:3
+OverallDifficulty:3
+SliderMultiplier:0.599999999999999
+SliderTickRate:1
+
+[Events]
+//Background and Video events
+0,0,"4864617....jpg"
+//Break Periods
+//Storyboard Layer 0 (Background)
+//Storyboard Layer 1 (Fail)
+//Storyboard Layer 2 (Pass)
+//Storyboard Layer 3 (Foreground)
+//Storyboard Sound Samples
+//Background Colour Transformations
+3,100,163,162,255
+
+[TimingPoints]
+24678,342.896331009258,4,1,0,80,1,0
+61667,-100,4,1,0,80,0,1
+61753,-100,4,1,0,80,0,0
+
+[Colours]
+Combo1 : 128,0,255
+Combo2 : 255,255,0
+Combo3 : 255,0,0
+Combo4 : 0,0,255
+
+[HitObjects]
+256,192,24677,1,0
+176,104,25363,1,0
+256,192,26049,1,0
+256,192,26735,5,0
+336,104,27421,1,0
+256,192,28106,1,0
+256,192,28792,5,0
+176,280,29478,1,0
+256,192,30164,1,0
+256,192,30850,5,0
+336,280,31535,1,0
+256,192,32221,1,0
+256,192,32907,5,0
+256,192,33593,1,0
+256,192,34279,1,0
+256,192,34964,12,0,37022
+136,192,37708,6,0,B|192:136|248:192,1,120
+256,64,39079,2,0,B|312:120|256:176,1,120
+376,192,40451,2,0,B|320:248|264:192,1,120
+256,320,41822,2,0,B|200:264|256:208,1,120
+256,192,43194,12,0,49366
+200,320,50052,6,0,B|256:376|312:320,1,120
+392,248,51423,2,0,B|448:192|392:136,1,120
+312,64,52795,2,0,B|256:8|200:64,1,120
+120,136,54167,2,0,B|64:192|120:248,1,120
+256,192,55538,12,0,57596
+256,192,58281,12,4,61710

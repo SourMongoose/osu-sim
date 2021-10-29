@@ -1,0 +1,110 @@
+osu file format v9
+
+[General]
+AudioFilename: GReeeeN - Ai uta(Taiko).mp3
+AudioLeadIn: 0
+PreviewTime: 49148
+Countdown: 0
+SampleSet: Normal
+StackLeniency: 0.7
+Mode: 0
+LetterboxInBreaks: 1
+SkinPreference:taiko
+
+[Editor]
+DistanceSpacing: 0.8
+BeatDivisor: 2
+GridSize: 8
+
+[Metadata]
+Title:Ai Uta (Taiko Cut)
+Artist:GReeeeN
+Creator:arien666
+Version:Kantan
+Source:
+Tags:taikosu taiko arken1015 ignorethis Doomsday
+
+[Difficulty]
+HPDrainRate:2
+CircleSize:3
+OverallDifficulty:2
+ApproachRate:2
+SliderMultiplier:0.8
+SliderTickRate:1
+
+[Events]
+//Background and Video events
+0,0,"green heart.jpg"
+//Break Periods
+//Storyboard Layer 0 (Background)
+//Storyboard Layer 1 (Fail)
+//Storyboard Layer 2 (Pass)
+//Storyboard Layer 3 (Foreground)
+//Storyboard Sound Samples
+//Background Colour Transformations
+3,100,163,162,255
+
+[TimingPoints]
+1561,705.882352941176,4,1,1,30,1,0
+24149,-100,4,1,1,65,0,0
+49561,-100,4,1,1,80,0,1
+72149,-100,4,1,1,80,0,1
+73561,-100,4,1,1,80,0,0
+
+[Colours]
+Combo1 : 112,196,193
+Combo2 : 243,89,34
+
+[HitObjects]
+40,192,12855,1,0
+168,192,14267,1,0
+256,96,15679,2,0,B|304:96|328:152,1,80
+344,192,17091,1,0
+472,192,18502,5,2
+344,192,19914,1,2
+256,288,21326,2,0,B|208:288|184:232,1,80
+168,192,22738,1,0
+256,96,24149,5,4
+352,192,25561,1,0
+320,64,26973,1,0
+256,64,27679,1,0
+192,64,28385,1,0
+160,192,29797,5,2
+160,192,31208,1,2
+224,304,32620,1,0
+288,304,33326,1,0
+256,248,34032,1,4
+256,120,35444,5,0
+320,120,36149,1,2
+384,120,36855,1,0
+320,232,38267,5,0
+256,232,38973,1,2
+192,232,39679,1,0
+72,192,41091,5,0
+200,192,42502,1,0
+256,152,43208,1,0
+312,192,43914,2,0,B|312:232|256:261|200:232|200:192|200:192|200:176,1,160
+200,192,46738,5,4
+256,224,47444,1,4
+312,192,48149,1,4
+256,80,49561,5,0
+256,80,50973,1,0
+192,192,52385,1,2
+256,192,53091,1,2
+320,192,53797,1,2
+256,304,55208,5,0
+256,304,56620,1,0
+320,192,58032,1,0
+256,192,58738,1,0
+192,192,59444,1,0
+80,128,60855,5,0
+80,256,62267,1,0
+192,192,63679,1,0
+256,192,64385,1,0
+320,192,65091,1,0
+448,192,66502,5,0
+384,192,67208,1,0
+320,192,67914,1,0
+200,160,69326,1,4
+200,224,70032,1,4
+256,192,70738,12,4,72149

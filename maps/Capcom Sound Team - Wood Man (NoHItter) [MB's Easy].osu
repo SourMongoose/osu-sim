@@ -1,0 +1,92 @@
+osu file format v7
+
+[General]
+AudioFilename: Mega Man 2 - Wood Man.mp3
+AudioLeadIn: 0
+PreviewTime: 7009
+Countdown: 0
+SampleSet: Normal
+StackLeniency: 0.7
+Mode: 0
+LetterboxInBreaks: 1
+
+[Editor]
+Bookmarks: 12176,17532,19496,22823,33469,35466,36131,41454
+DistanceSpacing: 1.29999995231628
+BeatDivisor: 2
+GridSize: 8
+
+[Metadata]
+Title:Wood Man
+Artist:Capcom Sound Team
+Creator:NoHItter
+Version:MB's Easy
+Source:Mega Man 2
+Tags:rockman megaman woodman II retro mb mariobros777
+
+[Difficulty]
+HPDrainRate:0
+CircleSize:3
+OverallDifficulty:3
+SliderMultiplier:0.6
+SliderTickRate:0.5
+
+[Events]
+//Background and Video events
+0,0,"mm2woodmanzl2.jpg"
+//Break Periods
+//Storyboard Layer 0 (Background)
+//Storyboard Layer 1 (Fail)
+//Storyboard Layer 2 (Pass)
+//Storyboard Layer 3 (Foreground)
+//Storyboard Sound Samples
+//Background Colour Transformations
+3,100,163,162,255
+
+[TimingPoints]
+536,332.704890761894,4,1,0,71,1,0
+37798,-100,4,1,0,71,0,1
+40294,-100,4,1,0,71,0,0
+
+[Colours]
+Combo1 : 183,70,0
+Combo2 : 58,230,34
+Combo3 : 248,248,248
+
+[HitObjects]
+180,47,8354,2,0,B|348:47,1,150,4|0
+256,136,9685,1,0
+176,312,10517,5,2
+256,312,10849,1,8
+336,312,11182,1,2
+477,247,11847,6,0,B|479:190|433:146,1,90,4|0
+403,100,12679,1,2
+176,40,13677,2,0,B|72:40|64:192|184:192,1,240,4|0
+263,120,15507,2,8,B|399:120,1,120
+379,44,16505,2,2,B|483:44|491:196|371:196,1,240
+316,335,18502,5,2
+196,335,19001,1,2
+212,124,19832,6,0,B|256:108|314:127,1,90
+176,272,21163,1,2
+256,272,21496,1,8
+336,272,21829,1,2
+424,144,22494,6,0,B|312:144,1,90,4|0
+256,144,23326,1,2
+64,152,24158,2,0,B|64:320|240:312,1,270,8|0
+352,312,26154,2,0,B|432:264|472:176,1,180,8|2
+464,64,27651,1,4
+64,272,29814,5,0
+64,112,30479,1,0
+200,192,31144,1,0
+336,112,31810,2,2,B|400:88|472:120,1,120
+424,184,32808,5,8
+320,304,33473,1,8
+216,184,34139,1,8
+120,304,34804,1,8
+120,304,35137,1,0
+180,246,35470,5,8
+332,246,36135,1,8
+336,168,36800,5,8
+256,168,37133,1,0
+176,168,37466,1,8
+96,168,37798,6,0,B|112:40|248:0|408:32|418:183,1,450,2|4
