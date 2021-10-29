@@ -125,6 +125,7 @@ async def start_quiz(ch, params):
     medium = []
     hard = []
     impossible = []
+    iceberg = []
     for i in range(len(mapsets)):
         if i < 1000:
             easy.append(mapsets[i][0])
@@ -132,6 +133,8 @@ async def start_quiz(ch, params):
             medium.append(mapsets[i][0])
         elif i < 5000:
             hard.append(mapsets[i][0])
+        elif i > len(mapsets) - 1000:
+            iceberg.append(mapsets[i][0])
         else:
             impossible.append(mapsets[i][0])
 
@@ -149,6 +152,9 @@ async def start_quiz(ch, params):
     if 'impossible' in params:
         pool.extend(impossible)
         difficulties.append('Impossible')
+    if 'iceberg' in params:
+        pool.extend(iceberg)
+        difficulties.append('Iceberg')
 
     if not pool:
         pool = easy
@@ -347,6 +353,7 @@ async def on_message(message):
         description = f'**{C}s**im `<beatmap id/link>` `[<page>]`\nFind similar maps (based on map structure)\n\n' \
                       f'**{C}sr** `<beatmap id/link>` `[dt]` `[<page>]`\nFind similar maps (based on star rating)\n\n' \
                       f'**{C}r**ec `[<username/id>]`\nRecommend a map\n\n' \
+                      f'**{C}q**uiz `[easy/medium/hard/impossible]` `[first]`\nStart the beatmap quiz\n\n' \
                       f'**{C}i**nvite\nGet this bot\'s invite link\n\n' \
                       f'**{C}h**elp\nView commands'
         embed = discord.Embed(title=title, description=description, color=color)
@@ -419,7 +426,8 @@ async def on_message(message):
         await recommend_map(ch, username)
 
     # beatmap bg trivia
-    if any(msg.startswith(C + s) for s in ['q', 'quiz']):
+    if any(msg.startswith(C + s) for s in ['q', 'quiz']) \
+            and not any(msg.startswith(C + s) for s in ['q abort', 'quiz abort']):
         if ' ' in msg:
             await start_quiz(ch, msg[msg.index(' ') + 1:])
         else:
