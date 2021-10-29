@@ -76,6 +76,9 @@ async def get_rating_maps(ch, map_id, page=1, dt=False):
     await ch.send(embed=embed)
 
 async def recommend_map(ch, username):
+    if '(' in username:
+        username = username[:username.index('(')].strip()
+
     api.refresh_token()
     try:
         user = api.get_user(username)
@@ -89,7 +92,7 @@ async def recommend_map(ch, username):
         dt = 'DT' in scores[score_index]['mods'] or 'NC' in scores[score_index]['mods']
         sim = similarity_srs.get_similar(scores[score_index]['beatmap']['id'], 100, dt)
     except:
-        await send_error_message(ch, 'Error fetching scores. Please try again later.')
+        await send_error_message(ch, f'Error fetching scores for user **{username}**. Please try again later.')
         return
 
     score_ids = set(score['beatmap']['id'] for score in scores)
@@ -112,7 +115,7 @@ async def recommend_map(ch, username):
     await ch.send(embed=embed)
 
 active_quizzes = {}
-async def start_quiz(ch, params):
+async def start_quiz(ch, au, params):
     if ch.id in active_quizzes:
         return
 
@@ -121,40 +124,48 @@ async def start_quiz(ch, params):
 
     q['first'] = 'first' in params
 
-    easy = []
-    medium = []
-    hard = []
-    impossible = []
-    iceberg = []
-    for i in range(len(mapsets)):
-        if i < 1000:
-            easy.append(mapsets[i][0])
-        elif i < 3000:
-            medium.append(mapsets[i][0])
-        elif i < 5000:
-            hard.append(mapsets[i][0])
-        elif i > len(mapsets) - 1000:
-            iceberg.append(mapsets[i][0])
-        else:
-            impossible.append(mapsets[i][0])
-
     pool = []
     difficulties = []
-    if 'easy' in params:
-        pool.extend(easy)
-        difficulties.append('Easy')
-    if 'medium' in params:
-        pool.extend(medium)
-        difficulties.append('Medium')
-    if 'hard' in params:
-        pool.extend(hard)
-        difficulties.append('Hard')
-    if 'impossible' in params:
-        pool.extend(impossible)
-        difficulties.append('Impossible')
-    if 'iceberg' in params:
-        pool.extend(iceberg)
-        difficulties.append('Iceberg')
+
+    if 'topplays' in params:
+        api.refresh_token()
+
+        username = au.display_name
+        if '(' in username:
+            username = username[:username.index('(')].strip()
+
+        try:
+            user = api.get_user(username)
+        except:
+            await send_error_message(ch, f'User **{username}** not found.')
+            return
+
+        try:
+            scores = api.get_scores(user['id'], limit=50, offset=0) + api.get_scores(user['id'], limit=50, offset=50)
+        except:
+            await send_error_message(ch, f'Error fetching scores for user **{username}**. Please try again later.')
+            return
+
+        score_ids = list(set(score['beatmap']['beatmapset_id'] for score in scores))
+
+        pool.extend(score_ids)
+        difficulties.append('Top plays')
+    else:
+        if 'easy' in params:
+            pool.extend(easy)
+            difficulties.append('Easy')
+        if 'medium' in params:
+            pool.extend(medium)
+            difficulties.append('Medium')
+        if 'hard' in params:
+            pool.extend(hard)
+            difficulties.append('Hard')
+        if 'impossible' in params:
+            pool.extend(impossible)
+            difficulties.append('Impossible')
+        if 'iceberg' in params:
+            pool.extend(iceberg)
+            difficulties.append('Iceberg')
 
     if not pool:
         pool = easy
@@ -326,7 +337,25 @@ def get_mapsets(filename='setids_country.txt'):
 map_ids = get_map_ids()
 map_freq = get_map_freq()
 map_freq_country = get_map_freq('mapfreq_country.txt')
+
+# get mapsets for beatmap quiz
 mapsets = get_mapsets()
+easy = []
+medium = []
+hard = []
+impossible = []
+iceberg = []
+for i in range(len(mapsets)):
+    if i < 1000:
+        easy.append(mapsets[i][0])
+    elif i < 3000:
+        medium.append(mapsets[i][0])
+    elif i < 5000:
+        hard.append(mapsets[i][0])
+    elif i > len(mapsets) - 1000:
+        iceberg.append(mapsets[i][0])
+    else:
+        impossible.append(mapsets[i][0])
 
 # command starter
 C = '.'
@@ -429,9 +458,9 @@ async def on_message(message):
     if any(msg.startswith(C + s) for s in ['q', 'quiz']) \
             and not any(msg.startswith(C + s) for s in ['q abort', 'quiz abort']):
         if ' ' in msg:
-            await start_quiz(ch, msg[msg.index(' ') + 1:])
+            await start_quiz(ch, au, msg[msg.index(' ') + 1:])
         else:
-            await start_quiz(ch, '')
+            await start_quiz(ch, au, '')
     if ch.id in active_quizzes:
         if any(msg.startswith(C + s) for s in ['q abort', 'quiz abort']):
             active_quizzes.pop(ch.id)
