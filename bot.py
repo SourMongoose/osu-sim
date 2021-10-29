@@ -128,27 +128,51 @@ async def start_quiz(ch, au, params):
     difficulties = []
 
     if 'topplays' in params:
+        usernames = None
+
+        i = params.index('topplays')
+        bracket = params[i + 8]
+        brackets = {
+            '(': ')',
+            '[': ']'
+        }
+        if bracket in brackets:
+            usernames = params[i + 9:]
+            usernames = usernames[:usernames.index(brackets[bracket])].split(',')
+            for i in range(len(usernames)):
+                usernames[i] = usernames[i].strip()
+
         api.refresh_token()
 
-        username = au.display_name
-        if '(' in username:
-            username = username[:username.index('(')].strip()
+        if not usernames:
+            username = au.display_name
+            if '(' in username:
+                username = username[:username.index('(')].strip()
+            usernames = [username]
 
-        try:
-            user = api.get_user(username)
-        except:
-            await send_error_message(ch, f'User **{username}** not found.')
-            return
+        users = []
+        for username in usernames:
+            try:
+                user = api.get_user(username)
+                users.append(user)
+            except:
+                await send_error_message(ch, f'User **{username}** not found.')
+                active_quizzes.pop(ch.id)
+                return
 
-        try:
-            scores = api.get_scores(user['id'], limit=50, offset=0) + api.get_scores(user['id'], limit=50, offset=50)
-        except:
-            await send_error_message(ch, f'Error fetching scores for user **{username}**. Please try again later.')
-            return
+        for i in range(len(users)):
+            user = users[i]
+            try:
+                scores = api.get_scores(user['id'], limit=50, offset=0) + api.get_scores(user['id'], limit=50, offset=50)
+            except:
+                await send_error_message(ch, f'Error fetching scores for user **{usernames[i]}**. Please try again later.')
+                active_quizzes.pop(ch.id)
+                return
 
-        score_ids = list(set(score['beatmap']['beatmapset_id'] for score in scores))
+            score_ids = list(set(score['beatmap']['beatmapset_id'] for score in scores))
 
-        pool.extend(score_ids)
+            pool.extend(score_ids)
+
         difficulties.append('Top plays')
     else:
         if 'easy' in params:
@@ -198,6 +222,12 @@ async def start_quiz(ch, au, params):
                     or any(namesplit[i].lower().startswith(s) for s in ['ft.', 'feat.', 'featuring.']) \
                     or 'tv' in namesplit[i].lower():
                 name = ''.join(namesplit[:i])
+                break
+            if any(c in namesplit[i] for c in '~([<'):
+                for c in '~([<':
+                    if c in namesplit[i]:
+                        namesplit[i] = namesplit[i][:namesplit[i].index(c)]
+                name = ''.join(namesplit[:i + 1])
                 break
         answers.append(alphanumeric(name.lower()))
 
