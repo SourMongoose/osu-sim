@@ -131,16 +131,17 @@ async def start_quiz(ch, au, params):
         usernames = None
 
         i = params.index('topplays')
-        bracket = params[i + 8]
-        brackets = {
-            '(': ')',
-            '[': ']'
-        }
-        if bracket in brackets:
-            usernames = params[i + 9:]
-            usernames = usernames[:usernames.index(brackets[bracket])].split(',')
-            for i in range(len(usernames)):
-                usernames[i] = usernames[i].strip()
+        if i + 8 < len(params):
+            bracket = params[i + 8]
+            brackets = {
+                '(': ')',
+                '[': ']'
+            }
+            if bracket in brackets:
+                usernames = params[i + 9:]
+                usernames = usernames[:usernames.index(brackets[bracket])].split(',')
+                for i in range(len(usernames)):
+                    usernames[i] = usernames[i].strip()
 
         api.refresh_token()
 
@@ -302,6 +303,8 @@ async def quiz_guess(au, ch, msg):
     q = active_quizzes[ch.id]
 
     t = time.time()
+    if 'window' not in q:
+        return
     w = q['window']
     if lerp(w[0], w[1], t) > 1:
         return
