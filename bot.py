@@ -135,10 +135,14 @@ async def start_quiz(ch, au, params):
             bracket = params[i + 8]
             brackets = {
                 '(': ')',
-                '[': ']'
+                '[': ']',
+                '{': '}'
             }
             if bracket in brackets:
                 usernames = params[i + 9:]
+                if brackets[bracket] not in usernames:
+                    active_quizzes.pop(ch.id)
+                    return
                 usernames = usernames[:usernames.index(brackets[bracket])].split(',')
                 for i in range(len(usernames)):
                     usernames[i] = usernames[i].strip()
