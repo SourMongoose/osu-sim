@@ -123,11 +123,16 @@ async def start_quiz(ch, au, params):
     q = active_quizzes[ch.id]
 
     q['first'] = 'first' in params
+    q['diff'] = 'diff' in params
 
     pool = []
     difficulties = []
+    if q['diff']:
+        easy, medium, hard, impossible, iceberg = easy_diffs, medium_diffs, hard_diffs, impossible_diffs, iceberg_diffs
+    else:
+        easy, medium, hard, impossible, iceberg = easy_sets, medium_sets, hard_sets, impossible_sets, iceberg_sets
 
-    if 'topplays' in params:
+    if 'topplays' in params and not q['diff']:
         usernames = None
 
         i = params.index('topplays')
@@ -211,7 +216,11 @@ async def start_quiz(ch, au, params):
     i = 0
     while i < len(mapset_ids):
         try:
-            mapset_infos.append(api.get_beatmapset(mapset_ids[i]))
+            if q['diff']:
+                mapset_infos.append(api.get_beatmap(mapset_ids[i]))
+            else:
+                mapset_infos.append(api.get_beatmapset(mapset_ids[i]))
+
             i += 1
         except:
             continue
@@ -219,7 +228,7 @@ async def start_quiz(ch, au, params):
     answers = []
     images = []
     for mi in mapset_infos:
-        name = mi['title']
+        name = mi['beatmapset']['title'] if q['diff'] else mi['title']
         namesplit = name.split(' ')
         for i in range(1, len(namesplit)):
             if any(namesplit[i].startswith(c) for c in '~([-<') \
@@ -236,17 +245,25 @@ async def start_quiz(ch, au, params):
                 break
         answers.append(alphanumeric(name.lower()))
 
-        images.append(mi['covers']['cover'])
+        images.append(f'**[{mi["version"]}]**' if q['diff'] else mi['covers']['cover'])
 
     q['answers'] = answers
     q['scores'] = {}
 
     guess_time = 10
 
-    await ch.send('Welcome to the osu! beatmap quiz! You will be given a series of beatmap backgrounds; try to type '
-                  'the title of the beatmap as quickly as possible.\n\n'
-                  f"Current settings: {'+'.join(difficulties)}, 10 songs, {guess_time}s guess time, {'first-guess' if q['first'] else 'time-based'} scoring\n\n"
-                  'First background will appear in 5 seconds!')
+    if q['diff']:
+        await ch.send(
+            'Welcome to the osu! beatmap quiz! You will be given a series of difficulty names; try to type '
+            'the title of the beatmap as quickly as possible.\n\n'
+            f"Current settings: {'+'.join(difficulties)}, 10 songs, {guess_time}s guess time, {'first-guess' if q['first'] else 'time-based'} scoring\n\n"
+            'First difficulty name will appear in 5 seconds!')
+    else:
+        await ch.send(
+            'Welcome to the osu! beatmap quiz! You will be given a series of beatmap backgrounds; try to type '
+            'the title of the beatmap as quickly as possible.\n\n'
+            f"Current settings: {'+'.join(difficulties)}, 10 songs, {guess_time}s guess time, {'first-guess' if q['first'] else 'time-based'} scoring\n\n"
+            'First background will appear in 5 seconds!')
 
     await asyncio.sleep(5)
 
@@ -271,7 +288,7 @@ async def start_quiz(ch, au, params):
         if ch.id not in active_quizzes:
             return
 
-        output = f"The answer was: {mapset_infos[i]['title']}\n"
+        output = f"The answer was: {mapset_infos[i]['beatmapset']['title'] if q['diff'] else mapset_infos[i]['title']}\n"
         if q['curr_scores']:
             output += '\n' + '\n'.join(f"{au.display_name}: {q['curr_scores'][au]}" for au in q['curr_scores']) + '\n'
         if i < len(answers) - 1:
@@ -371,28 +388,84 @@ def get_mapsets(filename='setids_country.txt'):
 
     return mapsets
 
+def get_unique_diffnames(filename='filenames.txt'):
+    diffnames = {}
+    diffname_set = set()
+    diffname_dupes = set()
+
+    with open(filename, 'r') as f:
+        lines = f.readlines()
+
+    for i in range(0, len(lines), 2):
+        filename = lines[i + 1].strip()
+        try:
+            diffname = filename[filename.rindex(') [') + 3:-5]
+        except:
+            continue
+
+        if any(x in diffname.lower() for x in ['beginner', 'easy', 'normal', 'hard', 'hyper', 'insane', 'extra', 'expert', 'extreme']):
+            continue
+
+        diffnames[lines[i].strip()] = diffname
+        if diffname.lower() in diffname_set:
+            diffname_dupes.add(diffname.lower())
+        else:
+            diffname_set.add(diffname.lower())
+
+    # remove duplicates
+    for id in list(diffnames.keys()):
+        if diffnames[id].lower() in diffname_dupes:
+            diffnames.pop(id)
+
+    return diffnames
+
 map_ids = get_map_ids()
 map_freq = get_map_freq()
 map_freq_country = get_map_freq('mapfreq_country.txt')
 
 # get mapsets for beatmap quiz
 mapsets = get_mapsets()
-easy = []
-medium = []
-hard = []
-impossible = []
-iceberg = []
+easy_sets = []
+medium_sets = []
+hard_sets = []
+impossible_sets = []
+iceberg_sets = []
 for i in range(len(mapsets)):
     if i < 1000:
-        easy.append(mapsets[i][0])
+        easy_sets.append(mapsets[i][0])
     elif i < 3000:
-        medium.append(mapsets[i][0])
+        medium_sets.append(mapsets[i][0])
     elif i < 5000:
-        hard.append(mapsets[i][0])
+        hard_sets.append(mapsets[i][0])
     elif i > len(mapsets) - 1000:
-        iceberg.append(mapsets[i][0])
+        iceberg_sets.append(mapsets[i][0])
     else:
-        impossible.append(mapsets[i][0])
+        impossible_sets.append(mapsets[i][0])
+
+# get difficulty names for beatmap quiz
+diffnames = get_unique_diffnames('filenames.txt')
+print(len(diffnames))
+diff_freq = []
+for id in map_freq_country:
+    if id in diffnames:
+        diff_freq.append((id, map_freq_country[id]))
+diff_freq.sort(key=lambda t: -t[1])
+easy_diffs = []
+medium_diffs = []
+hard_diffs = []
+impossible_diffs = []
+iceberg_diffs = []
+for i in range(len(diff_freq)):
+    if i < 500:
+        easy_diffs.append(diff_freq[i][0])
+    elif i < 1500:
+        medium_diffs.append(diff_freq[i][0])
+    elif i < 2500:
+        hard_diffs.append(diff_freq[i][0])
+    elif i > len(diff_freq) - 500:
+        iceberg_diffs.append(diff_freq[i][0])
+    else:
+        impossible_diffs.append(diff_freq[i][0])
 
 # command starter
 C = '.'
