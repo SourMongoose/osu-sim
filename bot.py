@@ -403,7 +403,7 @@ def get_unique_diffnames(filename='filenames.txt'):
         except:
             continue
 
-        if any(x in diffname.lower() for x in ['beginner', 'easy', 'normal', 'hard', 'hyper', 'insane', 'extra', 'expert', 'extreme']):
+        if any(x in diffname.lower() for x in ['beginner', 'easy', 'normal', 'hard', 'hyper', 'insane', 'extra', 'expert', 'extreme', 'another', 'lunatic']):
             continue
 
         diffnames[lines[i].strip()] = diffname
