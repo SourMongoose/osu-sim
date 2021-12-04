@@ -63,9 +63,13 @@ async def get_rating_maps(ch, map_id, page=1, dt=False):
     n = page * perpage
 
     try:
-        sim = similarity_srs.get_similar(map_id, n, dt)
+        sim = similarity_srs.get_similar(map_id, n, ['DT'] if dt else [])
     except:
         await send_error_message(ch)
+        return
+
+    if not sim:
+        await send_error_message(ch, 'Map not found in local database.')
         return
 
     color = discord.Color.from_rgb(100, 255, 100)
@@ -80,32 +84,61 @@ async def recommend_map(ch, username):
         username = username[:username.index('(')].strip()
 
     api.refresh_token()
-    try:
-        user = api.get_user(username)
-    except:
+
+    counter = 0
+    user = None
+    while counter < 3:
+        try:
+            user = api.get_user(username)
+            break
+        except:
+            counter += 1
+
+    if not user:
         await send_error_message(ch, f'User **{username}** not found.')
         return
 
-    try:
-        scores = api.get_scores(user['id'], limit=50)
-        score_index = random.randrange(min(25, len(scores)))
-        dt = 'DT' in scores[score_index]['mods'] or 'NC' in scores[score_index]['mods']
-        sim = similarity_srs.get_similar(scores[score_index]['beatmap']['id'], 100, dt)
-    except:
+    scores = None
+    while counter < 3:
+        try:
+            scores = api.get_scores(user['id'], limit=50)
+            break
+        except:
+            counter += 1
+
+    if not scores:
         await send_error_message(ch, f'Error fetching scores for user **{username}**. Please try again later.')
+        return
+
+    counter = 0
+    score_index = 0
+    sim = None
+    while counter < 5:
+        score_index = random.randrange(min(25, len(scores)))
+        sim = similarity_srs.get_similar(scores[score_index]['beatmap']['id'], 100, scores[score_index]['mods'])
+        if sim:
+            break
+
+        counter += 1
+
+    if not sim:
+        await send_error_message(ch, f'Error finding map recommendations for user **{username}**. Please try again later.')
         return
 
     score_ids = set(score['beatmap']['id'] for score in scores)
 
-    index = 0
+    farm_maps = []
     for i in range(len(sim)):
         map_id = file_to_id(sim[i][0])
-        if int(map_id) in score_ids:
+        if not map_id or int(map_id) in score_ids:
             continue
         if map_freq.get(map_id, 0) >= 150: # frequency threshold
-            index = i
-            if random.randrange(2):
-                break
+            farm_maps.append(i)
+
+    if not farm_maps:
+        index = 0
+    else:
+        index = farm_maps[random.randrange(0, min(len(farm_maps), 50))]
 
     color = discord.Color.from_rgb(100, 255, 100)
     modstr = ' +' + ''.join(scores[score_index]['mods']) if scores[score_index]['mods'] else ''
@@ -444,7 +477,6 @@ for i in range(len(mapsets)):
 
 # get difficulty names for beatmap quiz
 diffnames = get_unique_diffnames('filenames.txt')
-print(len(diffnames))
 diff_freq = []
 for id in map_freq_country:
     if id in diffnames:
