@@ -44,12 +44,7 @@ def get_similar(id, n=50):
     dist = calc.get_distribution_raw(text)
     bkts = getbuckets.get_buckets_raw(dist)
 
-    chars = '1234567890qwertyuiopasdfghjklzxcvbnm'
-    temp_filename = ''.join(chars[random.randrange(len(chars))] for _ in range(10)) + '.osu'
-    with open(temp_filename, 'w', encoding='utf8', newline='') as f:
-        f.write(text)
-    sr = getsrs.get_sr_old(temp_filename)
-    os.remove(temp_filename)
+    sr = srs.get(filename[:-4].lower(), None)
 
     similarities = []
 
@@ -57,11 +52,14 @@ def get_similar(id, n=50):
         if file.startswith(filename):
             continue
 
-        key = file[:-9].lower()
-        if key not in srs:
-            continue
-        if euclidean(srs[key], sr) <= 0.5:
-            similarities.append((file, get_similarity(bkts, all_buckets[file]), euclidean(srs[key], sr)))
+        if not sr:
+            similarities.append((file, get_similarity(bkts, all_buckets[file])))
+        else:
+            key = file[:-9].lower()
+            if key not in srs:
+                continue
+            if euclidean(srs[key], sr) <= 0.5:
+                similarities.append((file, get_similarity(bkts, all_buckets[file]), euclidean(srs[key], sr)))
 
     similarities.sort(key=lambda s: -s[1])
     return similarities[:min(len(similarities), n)]
@@ -77,20 +75,9 @@ def get_all_buckets():
 
     return buckets
 
-def get_srs(srs_file='srs.txt'):
-    srs = {}
-    try:
-        with open(srs_file, 'r') as f:
-            lines = f.readlines()
-        for i in range(0, len(lines), 2):
-            srs[lines[i].strip().lower()] = tuple(float(x) for x in lines[i+1].split(','))
-    except:
-        pass
-
-    return srs
-
 all_buckets = get_all_buckets()
-srs = get_srs('srs_old.txt')
+srs = getsrs.get_srs('srs.txt')
+srs = {k.lower(): srs[k] for k in srs}
 
 if __name__ == '__main__':
     print(get_similar(771858))
