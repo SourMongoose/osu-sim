@@ -1,3 +1,6 @@
+import os
+import subprocess
+
 def get_sr(map, mods=None):
     if mods is None:
         mods = []
@@ -7,6 +10,22 @@ def get_sr(map, mods=None):
     elif 'HR' in mods:
         return srs_hr.get(map, None)
     return srs.get(map, None)
+
+def get_sr_file(filename, mods=None):
+    if mods is None:
+        mods = []
+
+    filename = os.path.join('../..', filename)
+    cmd = ['dotnet', 'run', '--', 'difficulty', filename]
+    if 'DT' in mods or 'NC' in mods:
+        cmd.extend(['-m', 'dt'])
+    elif 'HR' in mods:
+        cmd.extend(['-m', 'hr'])
+
+    output = subprocess.run(cmd, cwd='./osu-tools/PerformanceCalculator', stdout=subprocess.PIPE)
+    line = output.stdout.split(b'\n')[5]
+    sr, aim, speed, combo, ar, od = (float(x) for x in line.strip(b'\xba').split(b'\xb3')[1:])
+    return (aim, speed, sr)
 
 def get_srs(srs_file='srs.txt'):
     srs = {}
@@ -25,6 +44,7 @@ srs_dt = get_srs('srs_dt.txt')
 srs_hr = get_srs('srs_hr.txt')
 
 if __name__ == '__main__':
+    # print(get_sr_file('maps/Reol,nqrse - Ooedo Ranvu (zhu) [Normal].osu'))
     raw = 'srs_hr_raw.txt'
     start_line = 5
     line_step = 2
@@ -46,4 +66,4 @@ if __name__ == '__main__':
 
             sr, aim, speed, combo, ar, od = (float(x) for x in line[161:].strip('\n║').split('│'))
 
-            f.write(f'{song}\n{aim},{speed}\n')
+            f.write(f'{song}\n{aim},{speed},{sr}\n')

@@ -44,7 +44,16 @@ def get_similar(id, n=50):
     dist = calc.get_distribution_raw(text)
     bkts = getbuckets.get_buckets_raw(dist)
 
-    sr = srs.get(filename[:-4].lower(), None)
+    key = filename[:-4].lower()
+    if key in srs:
+        sr = srs[filename[:-4].lower()]
+    else:
+        chars = '1234567890qwertyuiopasdfghjklzxcvbnm'
+        temp_filename = ''.join(chars[random.randrange(len(chars))] for _ in range(10)) + '.osu'
+        with open(temp_filename, 'w', encoding='utf8', newline='') as f:
+            f.write(text)
+        sr = getsrs.get_sr_file(temp_filename)
+        os.remove(temp_filename)
 
     similarities = []
 
@@ -58,8 +67,9 @@ def get_similar(id, n=50):
             key = file[:-9].lower()
             if key not in srs:
                 continue
-            if euclidean(srs[key], sr) <= 0.5:
-                similarities.append((file, get_similarity(bkts, all_buckets[file]), euclidean(srs[key], sr)))
+
+            if euclidean(srs[key][:2], sr[:2]) <= 0.5:
+                similarities.append((file, get_similarity(bkts, all_buckets[file]), euclidean(srs[key][:2], sr[:2])))
 
     similarities.sort(key=lambda s: -s[1])
     return similarities[:min(len(similarities), n)]
@@ -80,4 +90,6 @@ srs = getsrs.get_srs('srs.txt')
 srs = {k.lower(): srs[k] for k in srs}
 
 if __name__ == '__main__':
-    print(get_similar(771858))
+    import time
+    start = time.time()
+    print(get_similar(2659353), time.time() - start)
