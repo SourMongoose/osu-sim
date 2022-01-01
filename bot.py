@@ -8,6 +8,7 @@ import time
 
 import api
 import similarity_buckets
+import similarity_sliders
 import similarity_srs
 import tokens
 
@@ -19,7 +20,7 @@ async def send_error_message(ch, msg='Invalid input.'):
     await ch.send(embed=embed)
 
 def file_to_id(file):
-    file_lower = file.replace('.dist', '').lower()
+    file_lower = file.replace('.dist', '').replace('.sldr', '').lower()
     if '.osu' not in file_lower:
         file_lower += '.osu'
     return map_ids.get(file_lower, None)
@@ -78,6 +79,36 @@ async def get_rating_maps(ch, map_id, page=1, dt=False):
     embed = discord.Embed(title=title, description=description, color=color)
     embed.set_footer(text=f'Page {page} of 10')
     await ch.send(embed=embed)
+
+async def get_slider_maps(ch, map_id, page=1):
+    perpage = 10
+    n = page * perpage
+
+    color = discord.Color.from_rgb(255, 255, 100)
+    description = 'Calculating...'
+    footer = 'This should take about 10 seconds.'
+    embed = discord.Embed(description=description, color=color)
+    embed.set_footer(text=footer)
+    calc_msg = await ch.send(embed=embed)
+
+    try:
+        sim = similarity_sliders.get_similar(map_id, n)
+    except:
+        await calc_msg.delete()
+        await send_error_message(ch)
+        return
+
+    if len(sim) < page * perpage:
+        await calc_msg.delete()
+        await send_error_message(ch, 'Not enough similar maps.')
+        return
+
+    color = discord.Color.from_rgb(100, 255, 100)
+    title = f'Maps similar in sliders to {map_id}:'
+    description = '\n'.join(f'**{i+1})** {sim[i][0].replace(".osu.sldr","")}\n{file_to_link(sim[i][0])}' for i in range((page-1)*perpage, page*perpage))
+    embed = discord.Embed(title=title, description=description, color=color)
+    embed.set_footer(text=f'Page {page} of 10')
+    await calc_msg.edit(embed=embed)
 
 async def recommend_map(ch, username):
     if '(' in username:
@@ -582,6 +613,28 @@ async def on_message(message):
                     break
 
             await get_rating_maps(ch, map_id, page, dt)
+        except:
+            await send_error_message(ch)
+
+    # find similar maps (map structure)
+    if any(msg.startswith(C + s + ' ') for s in ['sl', 'slider']):
+        msg = msg[msg.index(' ') + 1:]
+
+        # parse input
+        try:
+            map_id = msg[:msg.index(' ')] if ' ' in msg else msg
+            if '/' in map_id:
+                map_id = map_id[map_id.strip('/').rindex('/') + 1:]
+            map_id = ''.join(c for c in map_id if '0' <= c <= '9')
+
+            page = 1
+            if ' ' in msg:
+                page = int(msg[msg.index(' ') + 1:])
+
+            if not (1 <= page <= 10):
+                raise Exception
+
+            await get_slider_maps(ch, map_id, page)
         except:
             await send_error_message(ch)
 

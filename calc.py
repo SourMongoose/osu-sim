@@ -108,5 +108,157 @@ def graph_distribution(dist_file):
     ax.scatter3D(x, y, z)
     plt.show()
 
+def get_sliders(input_file, output_file=None):
+    if output_file is None:
+        output_file = input_file + '.sldr'
+
+    with open(input_file, 'r', encoding='utf8') as fin:
+        lines = fin.readlines()
+
+    slider_mult = -1
+    for line in lines:
+        if line.startswith('SliderMultiplier'):
+            slider_mult = float(line[line.index(':') + 1:]) * 100
+            break
+
+    beat_length = -1
+    timing_points = []
+    i = lines.index('[TimingPoints]\n') + 1
+    while i < len(lines) and not lines[i].startswith('[') and lines[i].strip():
+        ls = lines[i].split(',')
+        while len(ls) < 8:
+            ls.append(0)
+
+        time, beatLength, meter, sampleSet, sampleIndex, volume, uninherited, effects = (float(x) for x in ls)
+
+        if uninherited:
+            beat_length = beatLength
+            timing_points.append((time, slider_mult / beat_length))
+        else:
+            timing_points.append((time, slider_mult / beat_length * (-100 / beatLength)))
+
+        i += 1
+
+    timing_points[0] = (0, timing_points[0][1])
+    timing_points = timing_points[::-1]
+
+    with open(output_file, 'w') as fout:
+        slider_time = 0
+        total_time = 0
+        first_object = -1
+
+        i = lines.index('[HitObjects]\n') + 1
+        while i < len(lines):
+            if not lines[i].strip():
+                i += 1
+                continue
+
+            vals = lines[i].split(',')
+            x, y, t, type = int(vals[0]), int(vals[1]), int(vals[2]), int(vals[3])
+            i += 1
+
+            circle = bool(type & (1 << 0))
+            slider = bool(type & (1 << 1))
+            spinner = bool(type & (1 << 3))
+
+            if first_object == -1:
+                first_object = t
+            total_time = t - first_object
+
+            if spinner:
+                continue
+
+            if slider:
+                x, y, time, type, hitSound, curve, slides, length = vals[:8]
+
+                velocity = -1
+                for point in timing_points:
+                    if float(time) > point[0]:
+                        velocity = point[1]
+                        break
+
+                slider_time += float(length) / velocity
+
+                fout.write(f'{length.strip()}, {velocity}\n')
+
+        fout.write(f'{slider_time / total_time}\n')
+
+    return output_file
+
+def get_sliders_raw(input):
+    lines = input.split('\r\n')
+
+    output = []
+
+    slider_mult = -1
+    for line in lines:
+        if line.startswith('SliderMultiplier'):
+            slider_mult = float(line[line.index(':') + 1:]) * 100
+            break
+
+    beat_length = -1
+    timing_points = []
+    i = lines.index('[TimingPoints]') + 1
+    while i < len(lines) and not lines[i].startswith('[') and lines[i].strip():
+        time, beatLength, meter, sampleSet, sampleIndex, volume, uninherited, effects = (float(x) for x in
+                                                                                         lines[i].split(','))
+
+        if uninherited:
+            beat_length = beatLength
+            timing_points.append((time, slider_mult / beat_length))
+        else:
+            timing_points.append((time, slider_mult / beat_length * (-100 / beatLength)))
+
+        i += 1
+
+    timing_points[0] = (0, timing_points[0][1])
+    timing_points = timing_points[::-1]
+
+    slider_time = 0
+    total_time = 0
+    first_object = -1
+
+    i = lines.index('[HitObjects]') + 1
+    while i < len(lines):
+        if not lines[i].strip():
+            i += 1
+            continue
+
+        vals = lines[i].split(',')
+        x, y, t, type = int(vals[0]), int(vals[1]), int(vals[2]), int(vals[3])
+        i += 1
+
+        circle = bool(type & (1 << 0))
+        slider = bool(type & (1 << 1))
+        spinner = bool(type & (1 << 3))
+
+        if first_object == -1:
+            first_object = t
+        total_time = t - first_object
+
+        if spinner:
+            continue
+
+        if slider:
+            x, y, time, type, hitSound, curve, slides, length = vals[:8]
+            time = int(time)
+            slides = int(slides)
+            length = float(length)
+
+            velocity = -1
+            for point in timing_points:
+                if time > point[0]:
+                    velocity = point[1]
+                    break
+
+            slider_time += length / velocity * slides
+
+            output.append((length * slides, velocity))
+
+    return output, slider_time / total_time
+
 if __name__ == '__main__':
-    graph_distribution(r"dists\Mitsuki Nakae - Ouka Enbu (Lasse) [Petal].osu.dist")
+    with open(r"maps\Silentroom - Alt Futur (Riana) [Ultra].osu", 'r', encoding='utf8') as f:
+        print(get_sliders_raw(f.read()))
+    #get_sliders(r"maps\Silentroom - Alt Futur (Riana) [Ultra].osu", 'temp.txt')
+    #graph_distribution(r"dists\Kano - Walk This Way! (Sotarks) [Ultra].osu.dist")
