@@ -578,7 +578,10 @@ def parse_guess(au, guess):
     wordle_guesses[day][au.id].append(''.join(symbols))
 
     if orig_word == orig_guess:
-        return f'Wordosu {day} {len(wordle_guesses[day][au.id])}/6\n\n' + '\n'.join(wordle_guesses[day][au.id])
+        s = f'Wordosu {day} {len(wordle_guesses[day][au.id])}/6\n\n' + '\n'.join(wordle_guesses[day][au.id])
+        while len(wordle_guesses[day][au.id]) < 6:
+            wordle_guesses[day][au.id].append('')
+        return s
     elif len(wordle_guesses[day][au.id]) >= 6:
         return f'The word was: {orig_word.upper()}\n\nWordosu {day} X/6\n\n' + '\n'.join(wordle_guesses[day][au.id])
 
