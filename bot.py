@@ -5,6 +5,7 @@ import discord
 import math
 import random
 import time
+import zlib
 
 import api
 import similarity_buckets
@@ -532,10 +533,16 @@ for i in range(len(diff_freq)):
 
 # get wordle words
 wordle_words = []
+valid_words = []
 with open('wordle.txt', 'r') as f:
     lines = f.readlines()
 for line in lines:
     wordle_words.append(line.strip())
+with open('valid_guesses.txt', 'r') as f:
+    lines = f.readlines()
+for line in lines:
+    valid_words.append(line.strip())
+valid_words = set(valid_words)
 
 wordle_guesses = {}
 
@@ -555,10 +562,10 @@ def parse_guess(au, guess):
 
     guess_symbols = ' '.join(f':regional_indicator_{c}:' for c in guess)
 
-    if guess not in wordle_words:
+    if guess not in wordle_words and guess not in valid_words:
         return 'Guess not in dictionary.'
 
-    word = wordle_words[hash(str(day)) % len(wordle_words)]
+    word = wordle_words[zlib.adler32(bytes(str(day))) % len(wordle_words)]
 
     orig_word, orig_guess = word, guess
 
