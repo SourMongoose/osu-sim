@@ -614,7 +614,7 @@ async def on_message(message):
         if not embeds:
             return
         embed = embeds[0].to_dict()
-        if 'chezbananas' in embed['author']['name']:
+        if 'chezbananas on' in embed['author']['name']:
             map_url = embed['author']['url']
             map_id = map_url[map_url.rindex('/') + 1:]
             api.refresh_token()
