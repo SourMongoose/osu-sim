@@ -608,7 +608,30 @@ async def on_message(message):
     ch = message.channel
     au = message.author
 
-    # ignore bot messages
+    # chez >c
+    if au.id == 289066747443675143:
+        embeds = message.embeds
+        if not embeds:
+            return
+        embed = embeds[0].to_dict()
+        if 'chezbananas' in embed['author']['name']:
+            map_url = embed['author']['url']
+            map_id = map_url[map_url.rindex('/') + 1:]
+            api.refresh_token()
+            map_details = api.get_beatmap(map_id)
+            map_title = map_details['beatmapset']['title']
+            map_status = map_details['beatmapset']['status']
+            lines = embed['description'].split('\n')
+            mods = lines[0][lines[0].index('`')+1:]
+            mods = mods[:mods.index('`')]
+            acc = lines[1][lines[1].rindex(' ')+1:]
+            misscount = lines[2][lines[2].rindex('/')+1:-1]
+            if 'FC' in lines[1] or misscount != '0':
+                await ch.send(f"chezbananas's {map_title} {mods} {acc} {misscount} miss. Without a doubt, one of the most impressive plays ever set in osu! history, but one that takes some experience to appreciate fully. In the years that this map has been {map_status}, chezbananas's score remains the ONLY {mods.upper()} {misscount} MISS, and there's much more to unpack about this score. While some maps easily convey how difficult they are through the raw aim, or speed requirements, {map_title} is much more nuanced than it may seem at first glance.")
+            else:
+                await ch.send(f"chezbananas's {map_title} {mods} {acc} full combo. Without a doubt, one of the most impressive plays ever set in osu! history, but one that takes some experience to appreciate fully. In the years that this map has been {map_status}, chezbananas's score remains the ONLY {mods.upper()} FC, and there's much more to unpack about this score. While some maps easily convey how difficult they are through the raw aim, or speed requirements, {map_title} is much more nuanced than it may seem at first glance.")
+
+    # ignore other bot messages
     if au.bot:
         return
 
