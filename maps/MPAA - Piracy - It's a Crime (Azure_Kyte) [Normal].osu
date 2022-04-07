@@ -1,0 +1,79 @@
+osu file format v7
+
+[General]
+AudioFilename: itsacrime.mp3
+AudioLeadIn: 2493
+PreviewTime: 3994
+Countdown: 1
+SampleSet: Soft
+StackLeniency: 0.7
+Mode: 0
+LetterboxInBreaks: 1
+
+[Editor]
+DistanceSpacing: 0.800000011920929
+BeatDivisor: 4
+GridSize: 8
+
+[Metadata]
+Title:Piracy - It's a Crime
+Artist:MPAA
+Creator:Azure_Kyte
+Version:Normal
+Source:
+Tags:
+
+[Difficulty]
+HPDrainRate:3
+CircleSize:4
+OverallDifficulty:6
+SliderMultiplier:1.4
+SliderTickRate:1
+
+[Events]
+//Background and Video events
+0,0,"lol.jpg"
+Video,0,"Movie_Piracy___It_s_a_crime.flv"
+//Break Periods
+//Storyboard Layer 0 (Background)
+//Storyboard Layer 1 (Fail)
+//Storyboard Layer 2 (Pass)
+//Storyboard Layer 3 (Foreground)
+//Storyboard Sound Samples
+//Background Colour Transformations
+3,100,163,162,255
+
+[TimingPoints]
+360,559.155555555558,4,2,0,100,1,0
+26360,-100,4,1,0,100,0,0
+
+[HitObjects]
+72,64,360,2,0,B|232:64,1,140,4|0
+288,144,1478,2,0,B|128:144,1,140,4|0
+144,256,2596,5,4
+256,256,3155,1,0
+368,256,3714,1,4
+479,256,4274,2,8,B|480:208,4,35,8|8|8|8|12
+392,192,5392,6,8,B|352:144|288:152,2,105
+392,248,6510,2,8,B|392:296,4,35,8|8|8|8|0
+335,248,7349,1,0
+280,248,7629,6,8,B|224:248|192:192,2,105
+280,191,8747,2,8,B|280:144,4,35,8|8|8|8|4
+224,192,9586,5,0
+168,192,9865,2,8,B|48:192,2,105
+224,192,10983,2,8,B|272:192,4,35
+168,192,11822,5,0
+112,192,12102,2,8,B|96:152|112:112|136:96,2,105
+112,248,13220,6,0,B|112:296,4,35,8|8|8|8|4
+112,192,14059,1,0
+112,136,14338,6,8,B|168:136|208:112|216:96,2,105
+112,192,15457,2,8,B|112:240,4,35
+112,136,16295,1,0
+152,96,16575,6,8,B|208:96|240:128|240:144,2,105
+96,96,17693,2,0,B|40:96,4,35,8|8|8|8|4
+416,96,19371,5,4
+96,288,20489,5,4
+416,288,21607,5,4
+368,192,22167,6,8,B|336:200|304:248|304:272,2,105
+424,192,23285,2,8,B|480:192,4,35,8|8|8|8|4
+256,192,24124,12,4,26360

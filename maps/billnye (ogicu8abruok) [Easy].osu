@@ -1,0 +1,87 @@
+osu file format v5
+
+[General]
+AudioFilename: billnye.mp3
+AudioLeadIn: 1037
+PreviewTime: -1
+Countdown: 1
+SampleSet: Normal
+StackLeniency: 0.7
+Mode: 0
+LetterboxInBreaks: 1
+
+[Metadata]
+Title:Bill Nye the Science Guy
+Artist:
+Creator:ogicu8abruok
+Version:Easy
+Source:
+Tags:
+
+[Difficulty]
+HPDrainRate:5
+CircleSize:3
+OverallDifficulty:3
+SliderMultiplier:1.4
+SliderTickRate:1
+
+[Events]
+//Background and Video events
+1,0,"billnye.wmv"
+//Break Periods
+//Storyboard Layer 0 (Background)
+//Storyboard Layer 1 (Failing)
+//Storyboard Layer 2 (Passing)
+//Storyboard Layer 3 (Foreground)
+//Storyboard Sound Samples
+//Background Colour Transformations
+3,100,163,162,255
+
+[TimingPoints]
+2248,458.645467053967,4,1,0,100
+
+[HitObjects]
+141,92,365,2,0,B|177:189,1,93.3333333333333
+287,246,1282,1,0
+365,254,1741,1,4
+444,254,2200,6,0,B|473:170|432:87|358:60,1,210
+255,67,3575,1,0
+220,129,3805,2,0,B|114:272,1,175
+288,160,5181,5,4
+224,160,5639,1,0
+160,160,6098,1,4
+96,160,6557,1,0
+96,224,7015,1,4
+96,288,7474,1,0
+133,288,7703,6,0,B|217:289|260:247,1,105
+337,228,8621,1,0
+403,233,9079,1,4
+256,192,9538,12,0,10914
+134,130,11372,2,0,B|419:132,1,280
+154,269,13207,5,0
+231,221,13666,1,0
+306,274,14125,1,0
+378,222,14583,1,0
+390,134,15042,2,0,B|367:59|293:59,1,105
+193,66,15959,1,4
+117,66,16418,1,4
+42,151,16877,6,0,B|474:151,1,420
+462,233,18711,5,0
+462,233,19055,1,0
+462,233,19399,1,0
+375,232,19858,2,0,B|146:231,1,210
+39,255,21234,1,0
+83,361,22151,2,0,B|269:294,1,175
+224,160,23527,5,4
+288,160,23986,1,0
+352,160,24444,1,4
+416,160,24903,1,0
+416,224,25362,1,4
+416,288,25820,1,0
+352,288,26279,1,4
+288,288,26738,1,0
+224,288,27196,1,4
+160,288,27655,1,0
+121,291,27884,6,0,B|131:237|104:171,1,105
+192,164,28802,1,4
+289,160,29260,1,4

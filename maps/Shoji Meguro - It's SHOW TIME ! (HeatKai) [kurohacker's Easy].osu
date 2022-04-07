@@ -1,0 +1,114 @@
+osu file format v9
+
+[General]
+AudioFilename: 20-It's SHOW TIME !.mp3
+AudioLeadIn: 2000
+PreviewTime: 18323
+Countdown: 0
+SampleSet: Soft
+StackLeniency: 0.7
+Mode: 0
+LetterboxInBreaks: 1
+
+[Editor]
+Bookmarks: 17989,35444
+DistanceSpacing: 0.8
+BeatDivisor: 4
+GridSize: 4
+
+[Metadata]
+Title:It's SHOW TIME !
+Artist:Shoji Meguro
+Creator:HeatKai
+Version:kurohacker's Easy
+Source:Shin Megami Tensei: Persona 4
+Tags:Atsushi Kitajoh Ryota Kazuka chie satonaka yukiko amagi kanji tatsumi naoto shirogane yosuke hanamura rise kujikawa teddie velvet room igor margaret smt p4 atlus perusona katsuro hashino Kurohacker
+
+[Difficulty]
+HPDrainRate:2
+CircleSize:3
+OverallDifficulty:3
+ApproachRate:3
+SliderMultiplier:1
+SliderTickRate:1
+
+[Events]
+//Background and Video events
+0,0,"BG2.jpg"
+//Break Periods
+//Storyboard Layer 0 (Background)
+//Storyboard Layer 1 (Fail)
+//Storyboard Layer 2 (Pass)
+//Storyboard Layer 3 (Foreground)
+Sprite,Foreground,Centre,"SB\Konachan.com - 55277 amagi_yukiko barefoot hat kujikawa_rise ookami_yuuki persona persona_4 psp satonaka_chie seifuku shirogane_naoto teddie wink.jpg",320,240
+ F,0,2780,3871,0,1
+ S,0,2780,20233,0.8
+Sprite,Foreground,Centre,"SB\Konachan.com - 41026 amagi_yukiko buzz hanamura_yosuke kujikawa_rise persona persona_4 satonaka_chie seta_souji shirogane_naoto tatsumi_kanji teddie yellow.jpg",320,240
+ F,0,19142,20233,0,1
+ S,0,19142,37686,0.8
+Sprite,Foreground,Centre,"SB\Konachan.com - 41027 amagi_yukiko chibi glasses hanamura_yosuke kujikawa_rise persona persona_4 satonaka_chie seta_souji shirogane_naoto teddie yellow.jpg",320,240
+ F,0,36595,37686,0,1
+ S,0,37686,47503,0.8
+ F,0,46414,47505,1,0
+//Storyboard Sound Samples
+//Background Colour Transformations
+3,100,163,162,255
+
+[TimingPoints]
+596,545.454545454546,4,2,1,50,1,0
+15868,-100,4,2,1,30,0,0
+18050,-100,4,2,1,50,0,0
+33323,-100,4,2,1,30,0,0
+35505,-100,4,2,1,50,0,0
+42050,-100,4,2,1,45,0,0
+42596,-100,4,2,1,35,0,0
+43141,-100,4,2,1,25,0,0
+43686,-100,4,2,1,15,0,0
+44777,-100,4,2,1,10,0,0
+45868,-100,4,2,1,5,0,0
+
+[Colours]
+Combo1 : 255,128,0
+Combo2 : 250,0,0
+Combo3 : 0,255,0
+Combo4 : 0,0,128
+
+[HitObjects]
+336,288,596,1,4
+256,288,1141,1,8
+176,288,1686,1,2
+192,208,2232,1,8
+216,132,2777,6,0,B|224:108|256:100|288:108|296:132,4,100,4|8|0|8|0
+256,288,6050,5,0
+336,284,6595,1,8
+404,240,7141,2,0,B|324:176|324:176|372:144|380:96|356:40|288:36,1,300,2|8
+208,36,9323,2,0,B|140:39|116:95|124:143|172:175|172:175|92:239,1,300,2|8
+28,292,11505,5,2
+88,344,12050,1,0
+168,344,12595,2,0,B|205:344|229:320|229:280,1,100,0|8
+244,200,13686,5,2
+304,144,14232,1,0
+384,144,14777,2,0,B|421:143|445:167|445:207,1,100,0|8
+256,192,15868,12,4,18050
+64,336,19141,5,0
+76,256,19686,1,8
+92,176,20232,2,0,B|172:116|172:116|256:168|256:168|340:116|340:116|424:176,1,400,4|0
+448,336,23505,5,0
+368,336,24050,1,8
+288,336,24595,2,0,B|232:336|212:280,3,100,2|0|0|8
+288,256,26777,2,0,B|268:201|212:201,3,100,2|0|0|8
+196,276,28959,6,0,B|148:308|104:276,1,100,2|0
+56,212,30050,2,0,B|24:164|56:120,1,100,0|8
+112,60,31141,2,0,B|160:27|204:60,1,100,2|0
+264,116,32232,2,0,B|296:160|264:208,1,100,0|8
+256,192,33323,12,4,35505
+256,328,36596,5,2
+256,248,37141,1,8
+176,260,37686,2,0,B|171:232|182:202|202:178|233:168,1,100,4|8
+296,176,38777,2,0,B|311:178|331:202|342:233|337:260,1,100,0|8
+256,248,39868,1,0
+256,88,40959,5,0
+256,168,41505,1,8
+336,152,42050,2,0,B|336:212|296:240,1,100,2|0
+215,239,43141,2,0,B|176:212|176:152,1,100,0|2
+256,192,44232,12,0,46414

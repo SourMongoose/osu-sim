@@ -1,0 +1,97 @@
+osu file format v14
+
+[General]
+AudioFilename: audio.mp3
+AudioLeadIn: 0
+PreviewTime: 409
+Countdown: 0
+SampleSet: Soft
+StackLeniency: 0.7
+Mode: 0
+LetterboxInBreaks: 0
+WidescreenStoryboard: 0
+
+[Editor]
+Bookmarks: 306,39753,79200
+DistanceSpacing: 1
+BeatDivisor: 4
+GridSize: 4
+TimelineZoom: 1
+
+[Metadata]
+Title:Market
+TitleUnicode:城下町
+Artist:Kondo Koji
+ArtistUnicode:近藤浩治
+Creator:MoodyRPG
+Version:Gens' Easy
+Source:ゼルダの伝説 時のオカリナ
+Tags:gens nintendo n64 oot Legend of Zelda ocarina of time Zeruda no Densetsu: Toki no Okarina video game instrumental joukamachi
+BeatmapID:2110031
+BeatmapSetID:1008184
+
+[Difficulty]
+HPDrainRate:3
+CircleSize:3
+OverallDifficulty:3
+ApproachRate:2
+SliderMultiplier:0.8
+SliderTickRate:1
+
+[Events]
+//Background and Video events
+0,0,"Townjpg.jpg",0,0
+//Break Periods
+//Storyboard Layer 0 (Background)
+//Storyboard Layer 1 (Fail)
+//Storyboard Layer 2 (Pass)
+//Storyboard Layer 3 (Foreground)
+//Storyboard Layer 4 (Overlay)
+//Storyboard Sound Samples
+
+[TimingPoints]
+409,410.958904109589,4,2,1,60,1,0
+39861,-100,4,2,1,35,0,0
+
+
+[Colours]
+Combo1 : 255,157,255
+Combo2 : 38,172,68
+Combo3 : 255,117,51
+Combo4 : 192,192,192
+
+[HitObjects]
+44,292,409,5,2,0:0:0:0:
+44,132,1230,1,2,0:0:0:0:
+184,56,2052,2,0,P|256:26|328:56,1,160,2|2,0:0|0:0,0:0:0:0:
+468,132,3696,5,2,0:0:0:0:
+468,292,4518,1,2,0:0:0:0:
+336,192,5340,2,4,L|176:192,1,160
+23,120,6984,5,2,0:0:0:0:
+182,99,7806,1,2,0:0:0:0:
+341,79,8628,2,0,P|415:56|477:103,1,160,2|2,0:0|0:0,0:0:0:0:
+488,263,10272,5,2,0:0:0:0:
+329,284,11093,1,2,0:0:0:0:
+170,304,11915,2,0,P|96:327|34:280,1,160,4|4,0:0|0:0,0:0:0:0:
+120,146,13559,6,0,P|256:74|392:146,1,320,2|2,0:0|0:0,0:0:0:0:
+256,223,16025,1,2,0:0:0:0:
+120,300,16847,2,0,P|256:372|392:300,1,320,2|2,0:0|0:0,0:0:0:0:
+256,223,19313,1,4,0:0:0:0:
+104,192,20135,6,0,B|149:78|322:153|367:40,1,320,2|2,0:0|0:0,0:0:0:0:
+512,84,22600,1,2,0:0:0:0:
+408,192,23422,2,0,B|362:305|189:230|144:344,1,320,2|2,0:0|0:0,0:0:0:0:
+8,272,25888,1,4,0:0:0:0:
+120,167,26710,5,4,0:3:0:0:
+360,192,27943,1,2,0:0:0:0:
+360,192,28354,1,4,0:3:0:0:
+152,72,29587,1,2,0:0:0:0:
+152,72,29998,5,4,0:3:0:0:
+152,312,31230,1,2,0:0:0:0:
+152,312,31641,1,4,0:3:0:0:
+303,14,33285,5,4,0:3:0:0:
+105,151,34518,1,2,0:0:0:0:
+105,151,34929,1,4,0:3:0:0:
+208,369,36162,1,2,0:0:0:0:
+208,369,36573,5,4,0:3:0:0:
+477,292,38217,2,4,L|499:211,1,80
+256,192,39861,5,2,0:0:0:0:
