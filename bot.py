@@ -8,6 +8,7 @@ import time
 import zlib
 
 import api
+import findppmaps
 import similarity_buckets
 import similarity_sliders
 import similarity_srs
@@ -25,6 +26,10 @@ def file_to_id(file):
     if '.osu' not in file_lower:
         file_lower += '.osu'
     return map_ids.get(file_lower, None)
+
+def id_to_file(id):
+    filename = filenames.get(id, None)
+    return filename.replace('.osu', '') if filename else None
 
 def file_to_link(file):
     id = file_to_id(file)
@@ -55,7 +60,7 @@ async def get_similar_maps(ch, map_id, page=1):
 
     color = discord.Color.from_rgb(100, 255, 100)
     title = f'Maps similar in structure to {map_id}:'
-    description = '\n'.join(f'**{i+1})** {sim[i][0].replace(".osu.dist","")}\n{file_to_link(sim[i][0])}' for i in range((page-1)*perpage, page*perpage))
+    description = '\n'.join(f'**{i+1})** [{sim[i][0].replace(".osu.dist","")}]({file_to_link(sim[i][0])})' for i in range((page-1)*perpage, page*perpage))
     embed = discord.Embed(title=title, description=description, color=color)
     embed.set_footer(text=f'Page {page} of 10')
     await calc_msg.edit(embed=embed)
@@ -76,7 +81,7 @@ async def get_rating_maps(ch, map_id, page=1, dt=False):
 
     color = discord.Color.from_rgb(100, 255, 100)
     title = f'Maps similar in star rating to {map_id}' + (' (+DT)' if dt else '') + ':'
-    description = '\n'.join(f'**{i+1})** {sim[i][0].replace(".osu.dist","")}\n{file_to_link(sim[i][0])}' for i in range((page-1)*perpage, page*perpage))
+    description = '\n'.join(f'**{i+1})** [{sim[i][0].replace(".osu.dist","")}]({file_to_link(sim[i][0])})' for i in range((page-1)*perpage, page*perpage))
     embed = discord.Embed(title=title, description=description, color=color)
     embed.set_footer(text=f'Page {page} of 10')
     await ch.send(embed=embed)
@@ -106,10 +111,40 @@ async def get_slider_maps(ch, map_id, page=1):
 
     color = discord.Color.from_rgb(100, 255, 100)
     title = f'Maps similar in sliders to {map_id}:'
-    description = '\n'.join(f'**{i+1})** {sim[i][0].replace(".osu.sldr","")}\n{file_to_link(sim[i][0])}' for i in range((page-1)*perpage, page*perpage))
+    description = '\n'.join(f'**{i+1})** [{sim[i][0].replace(".osu.sldr","")}]({file_to_link(sim[i][0])})' for i in range((page-1)*perpage, page*perpage))
     embed = discord.Embed(title=title, description=description, color=color)
     embed.set_footer(text=f'Page {page} of 10')
     await calc_msg.edit(embed=embed)
+
+async def get_pp_maps(ch, min_pp=0., max_pp=2e9, mods_include='', mods_exclude='', page=1):
+    perpage = 10
+    n = page * perpage
+
+    try:
+        mods_include, mods_exclude = findppmaps.simplify_mods(mods_include), findppmaps.simplify_mods(mods_exclude)
+        maps = findppmaps.find_pp_maps(min_pp, max_pp, mods_include, mods_exclude, limit=n)
+    except Exception as e:
+        print(e)
+        await send_error_message(ch)
+        return
+
+    if len(maps) < n:
+        await send_error_message(ch, 'Not enough similar maps.')
+        return
+
+    color = discord.Color.from_rgb(100, 255, 100)
+    title = f'Overweight maps from {min_pp}-{max_pp}pp'
+    if mods_include:
+        title += f', using mods {mods_include}'
+    if mods_exclude:
+        title += f', excluding mods {mods_exclude}'
+    title += ':'
+    modcombo = lambda i: f' +{maps[i][1]}' if maps[i][1] else ''
+    description = '\n'.join(f'**{i + 1})** [{id_to_file(maps[i][0])}](https://osu.ppy.sh/b/{maps[i][0]}){modcombo(i)}' for i in
+                            range((page - 1) * perpage, page * perpage))
+    embed = discord.Embed(title=title, description=description, color=color)
+    embed.set_footer(text=f'Page {page} of 10')
+    await ch.send(embed=embed)
 
 async def recommend_map(ch, username):
     if '(' in username:
@@ -427,6 +462,17 @@ def get_map_ids():
 
     return map_ids
 
+def get_filenames():
+    filenames = {}
+
+    with open('filenames.txt', 'r') as f:
+        lines = f.readlines()
+
+    for i in range(0, len(lines), 2):
+        filenames[lines[i].strip()] = lines[i + 1].strip()
+
+    return filenames
+
 def get_map_freq(filename='mapfreq.txt'):
     map_freq = {}
 
@@ -485,6 +531,7 @@ def get_unique_diffnames(filename='filenames.txt'):
     return diffnames
 
 map_ids = get_map_ids()
+filenames = get_filenames()
 map_freq = get_map_freq()
 map_freq_country = get_map_freq('mapfreq_country.txt')
 
@@ -614,7 +661,7 @@ async def on_message(message):
         if not embeds:
             return
         embed = embeds[0].to_dict()
-        if 'chezbananas on' in embed['author']['name']:
+        if 'author' in embed and 'chezbananas on' in embed['author']['name']:
             map_url = embed['author']['url']
             map_id = map_url[map_url.rindex('/') + 1:]
             api.refresh_token()
@@ -627,7 +674,8 @@ async def on_message(message):
             acc = lines[1][lines[1].rindex(' ')+1:]
             misscount = lines[2][lines[2].rindex('/')+1:-1]
             if 'FC' in lines[1] or misscount != '0':
-                await ch.send(f"chezbananas's {map_title} {mods} {acc} {misscount} miss. Without a doubt, one of the most impressive plays ever set in osu! history, but one that takes some experience to appreciate fully. In the years that this map has been {map_status}, chezbananas's score remains the ONLY {mods.upper()} {misscount} MISS, and there's much more to unpack about this score. While some maps easily convey how difficult they are through the raw aim, or speed requirements, {map_title} is much more nuanced than it may seem at first glance.")
+                pass
+                #await ch.send(f"chezbananas's {map_title} {mods} {acc} {misscount} miss. Without a doubt, one of the most impressive plays ever set in osu! history, but one that takes some experience to appreciate fully. In the years that this map has been {map_status}, chezbananas's score remains the ONLY {mods.upper()} {misscount} MISS, and there's much more to unpack about this score. While some maps easily convey how difficult they are through the raw aim, or speed requirements, {map_title} is much more nuanced than it may seem at first glance.")
             else:
                 await ch.send(f"chezbananas's {map_title} {mods} {acc} full combo. Without a doubt, one of the most impressive plays ever set in osu! history, but one that takes some experience to appreciate fully. In the years that this map has been {map_status}, chezbananas's score remains the ONLY {mods.upper()} FC, and there's much more to unpack about this score. While some maps easily convey how difficult they are through the raw aim, or speed requirements, {map_title} is much more nuanced than it may seem at first glance.")
 
@@ -641,6 +689,8 @@ async def on_message(message):
         color = discord.Color.from_rgb(150,150,150)
         description = f'**{C}s**im `<beatmap id/link>` `[<page>]`\nFind similar maps (based on map structure)\n\n' \
                       f'**{C}sr** `<beatmap id/link>` `[dt]` `[<page>]`\nFind similar maps (based on star rating)\n\n' \
+                      f'**{C}sl**ider `<beatmap id/link>` `[<page>]`\nFind similar maps (based on sliders)\n\n' \
+                      f'**{C}pp** `<min>-<max>` `[-][<mods>]` `[<page>]`\nFind overweighted maps\n\n' \
                       f'**{C}r**ec `[<username/id>]`\nRecommend a map\n\n' \
                       f'**{C}q**uiz `[easy/medium/hard/impossible]` `[first]`\nStart the beatmap quiz\n\n' \
                       f'**{C}i**nvite\nGet this bot\'s invite link\n\n' \
@@ -708,7 +758,7 @@ async def on_message(message):
         except:
             await send_error_message(ch)
 
-    # find similar maps (map structure)
+    # find similar maps (sliders)
     if any(msg.startswith(C + s + ' ') for s in ['sl', 'slider']):
         msg = msg[msg.index(' ') + 1:]
 
@@ -728,6 +778,44 @@ async def on_message(message):
 
             await get_slider_maps(ch, map_id, page)
         except:
+            await send_error_message(ch)
+
+    # find pp maps
+    if msg.startswith(C + 'pp '):
+        msg = msg[msg.index(' ') + 1:]
+
+        # parse input
+        try:
+            params = msg.strip().split(' ')
+
+            pp_boundaries = params[0]
+            min_pp, max_pp = pp_boundaries.split('-')
+            min_pp, max_pp = float(min_pp), float(max_pp)
+
+            mods_include = ''
+            mods_exclude = ''
+            page = 1
+
+            if len(params) > 1:
+                # just page number
+                if '0' <= params[1][0] <= '9':
+                    page = int(params[1])
+                # contains mod combos
+                else:
+                    # exclude
+                    if params[1][0] == '-':
+                        mods_exclude = params[1][1:]
+                    else:
+                        mods_include = params[1]
+                    if len(params) > 2:
+                        page = int(params[2])
+
+            if not (1 <= page <= 10):
+                raise Exception
+
+            await get_pp_maps(ch, min_pp, max_pp, mods_include, mods_exclude, page)
+        except Exception as e:
+            print(e)
             await send_error_message(ch)
 
     # recommend a map
