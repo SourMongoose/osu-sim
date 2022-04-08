@@ -129,7 +129,7 @@ async def get_pp_maps(ch, min_pp=0., max_pp=2e9, mods_include='', mods_exclude='
         return
 
     if len(maps) < n:
-        await send_error_message(ch, 'Not enough similar maps.')
+        await send_error_message(ch, 'Not enough maps.')
         return
 
     color = discord.Color.from_rgb(100, 255, 100)
@@ -199,7 +199,13 @@ async def recommend_map(ch, username):
         map_id = file_to_id(sim[i][0])
         if not map_id or int(map_id) in score_ids:
             continue
-        if map_freq.get(map_id, 0) >= 150: # frequency threshold
+        # if map_freq.get(map_id, 0) >= 150: # frequency threshold
+        #     farm_maps.append(i)
+
+        # calculate overweightedness
+        mapinfo = findppmaps.get_map_info(map_id, ''.join(m for m in scores[score_index]['mods']))
+        ow = findppmaps.overweight(mapinfo) if mapinfo else 0
+        if ow > 0.15: # threshold
             farm_maps.append(i)
 
     if not farm_maps:

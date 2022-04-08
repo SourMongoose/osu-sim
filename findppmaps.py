@@ -13,6 +13,10 @@ def avg(lst):
     lst = list(lst)
     return sum(lst) / len(lst)
 
+def get_map_info(id, mods):
+    if id in map_dict:
+        return map_dict[id].get(simplify_mods(mods), None)
+
 def overweight(m):
     id, mods, num_scores, avg_weight, avg_pp, max_pp = m
     return min(num_scores, 100) / 100 * avg_weight
@@ -38,9 +42,15 @@ with open('maplist_pp.txt', 'r') as f:
     lines = f.readlines()
 
 map_list = []
+map_dict = {}
 for line in lines:
     ls = line.split(',')
+
     map_list.append((ls[0], ls[1], int(ls[2]), float(ls[3]), float(ls[4]), float(ls[5])))
+
+    if ls[0] not in map_dict:
+        map_dict[ls[0]] = {}
+    map_dict[ls[0]][ls[1]] = (ls[0], ls[1], int(ls[2]), float(ls[3]), float(ls[4]), float(ls[5]))
 
 if __name__ == '__main__':
     with open('mapids_pp.txt', 'r') as f:
