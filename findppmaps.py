@@ -17,6 +17,10 @@ def get_map_info(id, mods):
     if id in map_dict:
         return map_dict[id].get(simplify_mods(mods), None)
 
+def overweight_raw(m):
+    id, mods, num_scores, avg_weight, avg_pp, max_pp = m
+    return avg_weight
+
 def overweight(m):
     id, mods, num_scores, avg_weight, avg_pp, max_pp = m
     return min(num_scores, 100) / 100 * avg_weight

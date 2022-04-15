@@ -259,7 +259,7 @@ async def get_farmer_rating(ch, username):
             modstr = (' +' + ''.join(m for m in score['mods'])) if score['mods'] else ''
             farm_ratings.append((
                 f"[{s}](https://osu.ppy.sh/b/{score['beatmap']['id']}){modstr} ({round(score['pp'])}pp)",
-                findppmaps.overweight(map_info) * 100,
+                findppmaps.overweight_raw(map_info) * 100,
                 0.95 ** i
             ))
 
