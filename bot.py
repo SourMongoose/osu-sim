@@ -123,8 +123,7 @@ async def get_pp_maps(ch, min_pp=0., max_pp=2e9, mods_include='', mods_exclude='
     try:
         mods_include, mods_exclude = findppmaps.simplify_mods(mods_include), findppmaps.simplify_mods(mods_exclude)
         maps = findppmaps.find_pp_maps(min_pp, max_pp, mods_include, mods_exclude, limit=n)
-    except Exception as e:
-        print(e)
+    except:
         await send_error_message(ch)
         return
 
@@ -218,6 +217,60 @@ async def recommend_map(ch, username):
     description = f'**{sim[index][0]}**{modstr}\n{file_to_link(sim[index][0])}'
     embed = discord.Embed(description=description, color=color)
     embed.set_footer(text=f'Recommended map for {user["username"]}')
+    await ch.send(embed=embed)
+
+async def get_farmer_rating(ch, username):
+    if '(' in username:
+        username = username[:username.index('(')].strip()
+
+    api.refresh_token()
+
+    counter = 0
+    user = None
+    while counter < 3:
+        try:
+            user = api.get_user(username)
+            break
+        except:
+            counter += 1
+
+    if not user:
+        await send_error_message(ch, f'User **{username}** not found.')
+        return
+
+    scores = None
+    while counter < 3:
+        try:
+            scores = api.get_scores(user['id'], limit=50) + api.get_scores(user['id'], limit=50, offset=50)
+            break
+        except:
+            counter += 1
+
+    if not scores:
+        await send_error_message(ch, f'Error fetching scores for user **{username}**. Please try again later.')
+        return
+
+    farm_ratings = []
+    for i in range(len(scores)):
+        score = scores[i]
+        map_info = findppmaps.get_map_info(str(score['beatmap']['id']), ''.join(m for m in score['mods']))
+        if map_info:
+            s = f"{score['beatmapset']['artist']} - {score['beatmapset']['title']} [{score['beatmap']['version']}]"
+            modstr = (' +' + ''.join(m for m in score['mods'])) if score['mods'] else ''
+            farm_ratings.append((
+                f"[{s}](https://osu.ppy.sh/b/{score['beatmap']['id']}){modstr} ({round(score['pp'])}pp)",
+                findppmaps.overweight(map_info) * 100,
+                0.95 ** i
+            ))
+
+    farm_ratings.sort(key=lambda f: f[1])
+    overall = round(sum(f[1] * f[2] for f in farm_ratings) / sum(f[2] for f in farm_ratings), 2)
+
+    color = discord.Color.from_rgb(100, 255, 100)
+    title = f'Farmer rating for {username}:'
+    description = f'**{overall}**\n\n**Most farm plays:**\n' + '\n'.join(f'**{round(f[1], 2):.2f}** | {f[0]}' for f in farm_ratings[-5:][::-1]) \
+            + '\n\n**Least farm plays:**\n' + '\n'.join(f'**{round(f[1], 2):.2f}** | {f[0]}' for f in farm_ratings[:5])
+    embed = discord.Embed(title=title, description=description, color=color)
     await ch.send(embed=embed)
 
 active_quizzes = {}
@@ -820,8 +873,7 @@ async def on_message(message):
                 raise Exception
 
             await get_pp_maps(ch, min_pp, max_pp, mods_include, mods_exclude, page)
-        except Exception as e:
-            print(e)
+        except:
             await send_error_message(ch)
 
     # recommend a map
@@ -834,6 +886,17 @@ async def on_message(message):
             return
 
         await recommend_map(ch, username)
+
+    # farmer rating
+    if any(msg.startswith(C + s) for s in ['f', 'farm', 'farmer']):
+        if any(msg == C + s for s in ['f', 'farm', 'farmer']):
+            username = au.display_name
+        elif any(msg.startswith(C + s + ' ') for s in ['f', 'farm', 'farmer']):
+            username = msg[msg.index(' ') + 1:]
+        else:
+            return
+
+        await get_farmer_rating(ch, username)
 
     # beatmap bg trivia
     if any(msg.startswith(C + s) for s in ['q', 'quiz']) \
