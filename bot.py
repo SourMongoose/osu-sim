@@ -5,7 +5,6 @@ import discord
 import math
 import random
 import time
-import zlib
 
 import api
 import findppmaps
@@ -637,69 +636,6 @@ for i in range(len(diff_freq)):
     else:
         impossible_diffs.append(diff_freq[i][0])
 
-# get wordle words
-wordle_words = []
-valid_words = []
-with open('wordle.txt', 'r') as f:
-    lines = f.readlines()
-for line in lines:
-    wordle_words.append(line.strip())
-with open('valid_guesses.txt', 'r') as f:
-    lines = f.readlines()
-for line in lines:
-    valid_words.append(line.strip())
-valid_words = set(valid_words)
-
-wordle_guesses = {}
-
-def parse_guess(au, guess):
-    global wordle_guesses
-
-    day = int(time.time()) // 86400 - 19038
-
-    if day not in wordle_guesses:
-        wordle_guesses = {}
-        wordle_guesses[day] = {}
-
-    if au.id not in wordle_guesses[day]:
-        wordle_guesses[day][au.id] = []
-    elif len(wordle_guesses[day][au.id]) >= 6:
-        return
-
-    guess_symbols = ' '.join(f':regional_indicator_{c}:' for c in guess)
-
-    if guess not in wordle_words and guess not in valid_words:
-        return 'Guess not in dictionary.'
-
-    word = wordle_words[zlib.adler32(bytes(str(day))) % len(wordle_words)]
-
-    orig_word, orig_guess = word, guess
-
-    symbols = [':black_large_square:'] * len(word)
-    word, guess = list(word), list(guess)
-    for i in range(len(word)):
-        if word[i] == guess[i]:
-            symbols[i] = ':green_square:'
-            word[i] = ''
-            guess[i] = ''
-    for i in range(len(word)):
-        if guess[i] and guess[i] in word:
-            symbols[i] = ':yellow_square:'
-            word[word.index(guess[i])] = ''
-            guess[i] = ''
-
-    wordle_guesses[day][au.id].append(''.join(symbols))
-
-    if orig_word == orig_guess:
-        s = f'Wordosu {day} {len(wordle_guesses[day][au.id])}/6\n\n' + '\n'.join(wordle_guesses[day][au.id])
-        while len(wordle_guesses[day][au.id]) < 6:
-            wordle_guesses[day][au.id].append('')
-        return s
-    elif len(wordle_guesses[day][au.id]) >= 6:
-        return f'The word was: {orig_word.upper()}\n\nWordosu {day} X/6\n\n' + '\n'.join(wordle_guesses[day][au.id])
-
-    return ' '.join(symbols) + '\n' + guess_symbols
-
 # command starter
 C = '.'
 
@@ -757,11 +693,6 @@ async def on_message(message):
         embed = discord.Embed(title=title, description=description, color=color)
         embed.set_footer(text="Omit brackets. Square brackets ([]) indicate optional parameters.")
         await ch.send(embed=embed)
-
-    # wordle
-    if isinstance(ch, discord.DMChannel):
-        if len(msg) == 5 and all('a' <= c <= 'z' for c in msg):
-            await ch.send(parse_guess(au, msg))
 
     # invite link
     if msg == C+'invite' or msg == C+'i':
