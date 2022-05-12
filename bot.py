@@ -13,6 +13,9 @@ import similarity_sliders
 import similarity_srs
 import tokens
 
+# debugging
+DEBUG = False
+
 client = discord.Client()
 
 async def send_error_message(ch, msg='Invalid input.'):
@@ -268,7 +271,7 @@ async def get_farmer_rating(ch, username):
     color = discord.Color.from_rgb(100, 255, 100)
     title = f'Farmer rating for {username}:'
     description = f'**{overall}**\n\n**Most farm plays:**\n' + '\n'.join(f'**{round(f[1], 2):.2f}** | {f[0]}' for f in farm_ratings[-5:][::-1]) \
-            + '\n\n**Least farm plays:**\n' + '\n'.join(f'**{round(f[1], 2):.2f}** | {f[0]}' for f in farm_ratings[:5])
+            + '\n\n**Least farm plays:**\n' + '\n'.join(f'**{round(f[1], 2):.2f}** | {f[0]}' for f in farm_ratings[:10])
     embed = discord.Embed(title=title, description=description, color=color)
     await ch.send(embed=embed)
 
@@ -637,7 +640,7 @@ for i in range(len(diff_freq)):
         impossible_diffs.append(diff_freq[i][0])
 
 # command starter
-C = '.'
+C = ',' if DEBUG else '.'
 
 @client.event
 async def on_ready():
@@ -843,4 +846,4 @@ async def on_message(message):
         else:
             await quiz_guess(au, ch, msg)
 
-client.run(tokens.token)
+client.run(tokens.beta_token if DEBUG else tokens.token)
