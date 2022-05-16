@@ -275,6 +275,54 @@ async def get_farmer_rating(ch, username):
     embed = discord.Embed(title=title, description=description, color=color)
     await ch.send(embed=embed)
 
+async def chez(message):
+    embeds = message.embeds
+    if not embeds:
+        return
+
+    embed = embeds[0].to_dict()
+    if 'author' in embed and 'chezbananas on' in embed['author']['name']:
+        map_url = embed['author']['url']
+        map_id = map_url[map_url.rindex('/') + 1:]
+        api.refresh_token()
+        map_details = api.get_beatmap(map_id)
+        map_title = map_details['beatmapset']['title']
+        map_status = map_details['beatmapset']['status']
+        lines = embed['description'].split('\n')
+        mods = lines[0][lines[0].index('`') + 1:]
+        mods = mods[:mods.index('`')]
+        acc = lines[1][lines[1].rindex(' ') + 1:]
+        misscount = lines[2][lines[2].rindex('/') + 1:-1]
+
+        pastas = []
+        if mods == 'HD':
+            pastas.append(
+                f'After plowing its way through to the quarterfinals, Berkeley Team A was put up against '
+                f'Stanford University, who proved challenging for them with an especially strong player: '
+                f'"chezbananas". "chezbananas" is notorious for their strength in "HD," or "Hidden" — one of '
+                f'the osu! game modifiers that remove hit objects after they appear, increasing the game\'s '
+                f'difficulty.')
+        if 'FC' in lines[1] or misscount != '0':
+            pastas.append(
+                f"I mean if you go and >rs {map_title} then what do you expect? It has such a big status as a "
+                f"chezbananas score that you can't avoid being >c'd. In my honest opinion there are maps that "
+                f"are tied to such grand scores that they should be given a status where they are not allowed "
+                f"to be >rs'd if chezbananas has a better score ({map_title} being one of them). That being said "
+                f"I haven't looked at the map so I have no opinion on it, because the quality of the map is "
+                f"irrelevant in this matter. This is about preserving history of osu! and therefore I hope that "
+                f"this doesn't become a trend in the future.")
+        else:
+            pastas.append(
+                f"chezbananas's {map_title} {mods} {acc} full combo. Without a doubt, one of the most "
+                f"impressive plays ever set in osu! history, but one that takes some experience to "
+                f"appreciate fully. In the years that this map has been {map_status}, chezbananas's score "
+                f"remains the ONLY {mods.upper()} FC, and there's much more to unpack about this score. "
+                f"While some maps easily convey how difficult they are through the raw aim, or speed "
+                f"requirements, {map_title} is much more nuanced than it may seem at first glance.")
+
+        if pastas:
+            await message.channel.send(random.choice(pastas))
+
 active_quizzes = {}
 async def start_quiz(ch, au, params):
     if ch.id in active_quizzes:
@@ -655,27 +703,7 @@ async def on_message(message):
 
     # chez >c
     if au.id == 289066747443675143:
-        embeds = message.embeds
-        if not embeds:
-            return
-        embed = embeds[0].to_dict()
-        if 'author' in embed and 'chezbananas on' in embed['author']['name']:
-            map_url = embed['author']['url']
-            map_id = map_url[map_url.rindex('/') + 1:]
-            api.refresh_token()
-            map_details = api.get_beatmap(map_id)
-            map_title = map_details['beatmapset']['title']
-            map_status = map_details['beatmapset']['status']
-            lines = embed['description'].split('\n')
-            mods = lines[0][lines[0].index('`')+1:]
-            mods = mods[:mods.index('`')]
-            acc = lines[1][lines[1].rindex(' ')+1:]
-            misscount = lines[2][lines[2].rindex('/')+1:-1]
-            if 'FC' in lines[1] or misscount != '0':
-                pass
-                #await ch.send(f"chezbananas's {map_title} {mods} {acc} {misscount} miss. Without a doubt, one of the most impressive plays ever set in osu! history, but one that takes some experience to appreciate fully. In the years that this map has been {map_status}, chezbananas's score remains the ONLY {mods.upper()} {misscount} MISS, and there's much more to unpack about this score. While some maps easily convey how difficult they are through the raw aim, or speed requirements, {map_title} is much more nuanced than it may seem at first glance.")
-            else:
-                await ch.send(f"chezbananas's {map_title} {mods} {acc} full combo. Without a doubt, one of the most impressive plays ever set in osu! history, but one that takes some experience to appreciate fully. In the years that this map has been {map_status}, chezbananas's score remains the ONLY {mods.upper()} FC, and there's much more to unpack about this score. While some maps easily convey how difficult they are through the raw aim, or speed requirements, {map_title} is much more nuanced than it may seem at first glance.")
+        await chez(message)
 
     # ignore other bot messages
     if au.bot:
