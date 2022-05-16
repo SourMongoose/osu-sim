@@ -1,4 +1,4 @@
-mods_change = [['EZ'], ['HD'], ['HR'], ['HT'], ['DT', 'NC'], ['FL']]
+mods_change = [['NM'], ['EZ'], ['HD'], ['HR'], ['HT'], ['DT', 'NC'], ['FL']]
 def simplify_mods(mods):
     mods = mods.upper()
     modstring = ''
@@ -65,6 +65,8 @@ if __name__ == '__main__':
     for l in lines:
         id, idx, mods, pp, ts = l.split(',')
         mods = simplify_mods(mods)
+        if not mods:
+            mods = 'NM'
 
         if id not in maps:
             maps[id] = {}
