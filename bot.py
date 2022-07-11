@@ -322,6 +322,8 @@ async def chez(message):
 
         if pastas:
             await message.channel.send(random.choice(pastas))
+    elif 'author' in embed and 'Azurium on MATZcore [Lolicore]' in embed['author']['name']:
+        await message.channel.send('shat on')
 
 active_quizzes = {}
 async def start_quiz(ch, au, params):
