@@ -5,6 +5,7 @@ import discord
 import math
 import random
 import time
+import traceback
 
 import api
 import findppmaps
@@ -37,7 +38,7 @@ def file_to_link(file):
     id = file_to_id(file)
     return f'https://osu.ppy.sh/b/{id}' if id else ''
 
-async def get_similar_maps(ch, map_id, page=1):
+async def get_similar_maps(ch, map_id, page=1, filters=None):
     perpage = 10
     n = page * perpage
 
@@ -49,7 +50,7 @@ async def get_similar_maps(ch, map_id, page=1):
     calc_msg = await ch.send(embed=embed)
 
     try:
-        sim = similarity_buckets.get_similar(map_id, n)
+        sim = similarity_buckets.get_similar(map_id, n, filters)
     except:
         await calc_msg.delete()
         await send_error_message(ch)
@@ -715,7 +716,7 @@ async def on_message(message):
     if msg == C+'help' or msg == C+'h':
         title = 'Command List'
         color = discord.Color.from_rgb(150,150,150)
-        description = f'**{C}s**im `<beatmap id/link>` `[<page>]`\nFind similar maps (based on map structure)\n\n' \
+        description = f'**{C}s**im `<beatmap id/link>` `[<filters>]` `[<page>]`\nFind similar maps (based on map structure)\n\n' \
                       f'**{C}sr** `<beatmap id/link>` `[dt]` `[<page>]`\nFind similar maps (based on star rating)\n\n' \
                       f'**{C}sl**ider `<beatmap id/link>` `[<page>]`\nFind similar maps (based on sliders)\n\n' \
                       f'**{C}pp** `<min>-<max>` `[-][<mods>]` `[<page>]`\nFind overweighted maps\n\n' \
@@ -740,20 +741,43 @@ async def on_message(message):
         msg = msg[msg.index(' ')+1:]
 
         # parse input
+        params = msg.split(' ')
         try:
-            map_id = msg[:msg.index(' ')] if ' ' in msg else msg
+            map_id = params[0]
             if '/' in map_id:
                 map_id = map_id[map_id.strip('/').rindex('/')+1:]
             map_id = ''.join(c for c in map_id if '0' <= c <= '9')
 
             page = 1
-            if ' ' in msg:
-                page = int(msg[msg.index(' ')+1:])
+
+            if len(params) > 1:
+                for param in params[1:]:
+                    if param.isnumeric():
+                        page = int(param)
+                        break
+
+                symbols = ['!=', '>=', '<=', '>', '<', '=']
+                supported_filters = ['ar', 'od', 'hp', 'cs', 'length']
+                filters = []
+                for param in params[1:]:
+                    for symbol in symbols:
+                        if symbol in param:
+                            filter_key = param[:param.index(symbol)]
+                            filter_value = float(param[param.index(symbol)+len(symbol):])
+                            if filter_key in supported_filters:
+                                filters.append((filter_key, symbol, filter_value))
+                            else:
+                                if filter_key:
+                                    await send_error_message(ch, f'Filter `{filter_key}` not currently supported.')
+                                else:
+                                    await send_error_message(ch, "Don't include spaces when using filters (e.g. `ar<9` instead of `ar < 9`)")
+                                return
+                            break
 
             if not (1 <= page <= 10):
                 raise Exception
 
-            await get_similar_maps(ch, map_id, page)
+            await get_similar_maps(ch, map_id, page, filters)
         except:
             await send_error_message(ch)
 

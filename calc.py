@@ -257,8 +257,42 @@ def get_sliders_raw(input):
 
     return output, slider_time / total_time
 
+def get_stats(input_file):
+    with open(input_file, 'r', encoding='utf8') as fin:
+        lines = fin.readlines()
+
+    stats = {
+        'HPDrainRate': -1,
+        'CircleSize': -1,
+        'OverallDifficulty': -1,
+        'ApproachRate': -1,
+    }
+
+    for line in lines:
+        for stat in stats:
+            if line.startswith(stat):
+                stats[stat] = float(line[line.index(':')+1:])
+
+    if stats['ApproachRate'] == -1:
+        stats['ApproachRate'] = stats['OverallDifficulty']
+
+    i = lines.index('[HitObjects]\n') + 1
+    times = []
+    while i < len(lines) and not lines[i].startswith('[') and lines[i].strip():
+        ls = lines[i].split(',')
+        times.append(int(ls[2]))
+        i += 1
+    length = (times[-1] - times[0]) // 1000
+
+    return {
+        'hp': stats['HPDrainRate'],
+        'cs': stats['CircleSize'],
+        'od': stats['OverallDifficulty'],
+        'ar': stats['ApproachRate'],
+        'length': length
+    }
+
 if __name__ == '__main__':
-    with open(r"maps\Silentroom - Alt Futur (Riana) [Ultra].osu", 'r', encoding='utf8') as f:
-        print(get_sliders_raw(f.read()))
+    print(get_stats(r"maps\Silentroom - Alt Futur (Riana) [Ultra].osu"))
     #get_sliders(r"maps\Silentroom - Alt Futur (Riana) [Ultra].osu", 'temp.txt')
     #graph_distribution(r"dists\Kano - Walk This Way! (Sotarks) [Ultra].osu.dist")

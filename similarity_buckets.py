@@ -1,6 +1,7 @@
-import os
+import json
 import math
 import numpy as np
+import os
 import random
 
 import calc
@@ -39,7 +40,7 @@ def get_similarity(b1, b2):
             sim += t_corr * min_similarity(b1[t1], b2[t2])
     return sim
 
-def get_similar(id, n=50):
+def get_similar(id, n=50, filters=None):
     filename, text = getmaps.get_map(id)
     dist = calc.get_distribution_raw(text)
     bkts = getbuckets.get_buckets_raw(dist)
@@ -60,6 +61,24 @@ def get_similar(id, n=50):
     for file in all_buckets:
         if file.startswith(filename):
             continue
+
+        if filters:
+            valid = True
+            for fil in filters:
+                key, operator, value = fil
+                funcs = {
+                    '!=': lambda x, y: x != y,
+                    '>=': lambda x, y: x >= y,
+                    '<=': lambda x, y: x <= y,
+                    '>': lambda x, y: x > y,
+                    '<': lambda x, y: x < y,
+                    '=': lambda x, y: x == y
+                }
+                if not funcs[operator](stats[file[:-5]][key], value):
+                    valid = False
+                    break
+            if not valid:
+                continue
 
         if not sr:
             similarities.append((file, get_similarity(bkts, all_buckets[file])))
@@ -88,6 +107,8 @@ def get_all_buckets():
 all_buckets = get_all_buckets()
 srs = getsrs.get_srs('srs.txt')
 srs = {k.lower(): srs[k] for k in srs}
+with open('stats.json') as fin:
+    stats = json.load(fin)
 
 if __name__ == '__main__':
     import time
