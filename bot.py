@@ -749,6 +749,7 @@ async def on_message(message):
             map_id = ''.join(c for c in map_id if '0' <= c <= '9')
 
             page = 1
+            filters = []
 
             if len(params) > 1:
                 for param in params[1:]:
@@ -758,7 +759,6 @@ async def on_message(message):
 
                 symbols = ['!=', '>=', '<=', '>', '<', '=']
                 supported_filters = ['ar', 'od', 'hp', 'cs', 'length']
-                filters = []
                 for param in params[1:]:
                     for symbol in symbols:
                         if symbol in param:
