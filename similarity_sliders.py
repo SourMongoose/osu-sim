@@ -36,12 +36,12 @@ def get_similarity(s1, s2):
     return similarity + abs(s1[2] - s2[2]) * 2
 
 def get_similar(id, n=50):
-    filename, text = getmaps.get_map(id)
+    text = getmaps.get_map(id)
     sldr = calc.get_sliders_raw(text)
 
-    key = filename[:-4].lower()
+    key = str(id)
     if key in srs:
-        sr = srs[filename[:-4].lower()]
+        sr = srs[key]
     else:
         chars = '1234567890qwertyuiopasdfghjklzxcvbnm'
         temp_filename = ''.join(chars[random.randrange(len(chars))] for _ in range(10)) + '.osu'
@@ -53,13 +53,13 @@ def get_similar(id, n=50):
     similarities = []
 
     for file in all_sliders:
-        if file.startswith(filename):
+        if file.startswith(key):
             continue
 
         if not sr:
             similarities.append((file, get_similarity(sldr, all_sliders[file])))
         else:
-            key = file[:-9].lower()
+            key = file[:-5]
             if key not in srs:
                 continue
 
@@ -85,14 +85,14 @@ def get_all_sliders():
     return sliders
 
 all_sliders = get_all_sliders()
-srs = getsrs.get_srs('srs.txt')
-srs = {k.lower(): srs[k] for k in srs}
+srs = getsrs.get_srs()
 
 if __name__ == '__main__':
     inpt = ''
     while inpt != 'exit':
         inpt = input()
-        try:
+        print(get_similar(inpt))
+        '''try:
             print(get_similar(inpt))
         except:
-            continue
+            continue'''

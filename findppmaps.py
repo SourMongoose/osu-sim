@@ -63,7 +63,7 @@ if __name__ == '__main__':
     maps = {}
 
     for l in lines:
-        id, idx, mods, pp, ts = l.split(',')
+        id, idx, uid, mods, pp = l.split(',')
         mods = simplify_mods(mods)
         if not mods:
             mods = 'NM'
@@ -73,7 +73,7 @@ if __name__ == '__main__':
         if mods not in maps[id]:
             maps[id][mods] = []
 
-        maps[id][mods].append((int(idx), float(pp), ts))
+        maps[id][mods].append((int(idx), float(pp)))
 
     map_list = []
     for id in maps:

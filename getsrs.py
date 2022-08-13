@@ -1,3 +1,4 @@
+import json
 import os
 import subprocess
 
@@ -23,47 +24,57 @@ def get_sr_file(filename, mods=None):
         cmd.extend(['-m', 'hr'])
 
     output = subprocess.run(cmd, cwd='./osu-tools/PerformanceCalculator', stdout=subprocess.PIPE)
-    line = output.stdout.split(b'\n')[5]
-    sr, aim, speed, combo, ar, od = (float(x) for x in line.strip(b'\xba').split(b'\xb3')[1:])
+    line = output.stdout.split(b'\n')[5].decode('utf8')
+    sr, aim, speed, combo, ar, od = (float(x) for x in line.strip('\u2551').split('\u2502')[1:])
     return (aim, speed, sr)
 
-def get_srs(srs_file='srs.txt'):
-    srs = {}
-    try:
-        with open(srs_file, 'r') as f:
-            lines = f.readlines()
-        for i in range(0, len(lines), 2):
-            srs[lines[i].strip()] = tuple(float(x) for x in lines[i+1].split(','))
-    except:
-        pass
-
+def get_srs(srs_file='srs.json'):
+    with open(srs_file, 'r') as f:
+        srs = json.load(f)
     return srs
 
 srs = get_srs()
-srs_dt = get_srs('srs_dt.txt')
-srs_hr = get_srs('srs_hr.txt')
+srs_dt = get_srs('srs_dt.json')
+srs_hr = get_srs('srs_hr.json')
 
 if __name__ == '__main__':
-    # print(get_sr_file('maps/Reol,nqrse - Ooedo Ranvu (zhu) [Normal].osu'))
-    raw = 'srs_hr_raw.txt'
+    #print(get_sr_file('maps/Reol,nqrse - Ooedo Ranvu (zhu) [Normal].osu'))
+    raw = 'srs_raw_hr.txt'
+    output_file = 'srs_hr.json'
     start_line = 5
     line_step = 2
 
     with open(raw, 'r', encoding='utf8') as f:
         lines = f.readlines()
 
-    with open('srs_hr.txt', 'w', encoding='utf8') as f:
-        for i in range(start_line, len(lines), line_step):
-            line = lines[i]
-            if not line.strip():
-                break
-            song = line[:160]
-            song = song[song.index('-')+1:].strip()
+    song_srs = {}
+    for i in range(start_line, len(lines), line_step):
+        line = lines[i]
+        if not line.strip():
+            break
+        song = line[:160]
+        song = song[song.index('-')+1:].strip()
 
-            # clean out illegal file chars
-            for c in '?*/:"<>':
-                song = song.replace(c, '')
+        sr, aim, speed, combo, ar, od = (float(x) for x in line[161:].strip('\n║').split('│'))
 
-            sr, aim, speed, combo, ar, od = (float(x) for x in line[161:].strip('\n║').split('│'))
+        song_srs[song] = (sr, aim, speed)
 
-            f.write(f'{song}\n{aim},{speed},{sr}\n')
+    output_srs = {}
+
+    with open('stats.json', 'r') as f:
+        stats = json.load(f)
+
+    for map in stats:
+        s = stats[map]
+        if not s['artist']:
+            s['artist'] = 'unknown artist'
+        mapstr = f'{s["artist"]} - {s["title"]} ({s["creator"]})'
+        if s['version']:
+            mapstr += f' [{s["version"]}]'
+        if mapstr in song_srs:
+            output_srs[map] = song_srs[mapstr]
+        else:
+            print(map, mapstr)
+
+    with open(output_file, 'w') as f:
+        json.dump(output_srs, f)

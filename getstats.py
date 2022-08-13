@@ -13,7 +13,7 @@ for subdir, dirs, files in os.walk(songs_dir):
         path = subdir + os.sep + filename
         if path.endswith(".osu"):
             try:
-                stats[filename] = calc.get_stats(path)
+                stats[filename[:-4]] = calc.get_stats(path)
             except:
                 pass
 

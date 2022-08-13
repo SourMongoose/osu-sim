@@ -4,40 +4,38 @@ from time import sleep
 
 def get_map(id):
     r = requests.get(f'https://osu.ppy.sh/osu/{id}', timeout=1)
-    filename = r.headers['Content-Disposition']
-    filename = filename[filename.index('filename')+9:].strip('\'"')
-    return filename, r.text
+    return r.text
 
 if __name__ == '__main__':
-    mapids_file = r'C:\Users\chris\Documents\Python Workspace\osurec\mapids_country_nodup.txt'
+    mapids_file = 'mapids_nodup.txt'
     maps_folder = 'maps'
 
     with open(mapids_file, 'r') as f:
-        mapids = f.readlines()
+        mapids = [l.strip() for l in f.readlines()]
 
-    with open('filenames.txt', 'r') as f:
-        files = f.readlines()
-    files = set(files[i] for i in range(0, len(files), 2))
+    existing = set(os.listdir(maps_folder))
 
     idx = 0
+    fail = 0
     while idx < len(mapids):
-        print(idx)
+        filename = f'{mapids[idx]}.osu'
 
-        if mapids[idx] in files:
+        if filename in existing:
             idx += 1
             continue
 
+        print(idx)
+
         try:
-            filename, text = get_map(mapids[idx].strip())
+            text = get_map(mapids[idx].strip())
         except:
+            fail += 1
+            if fail >= 5:
+                fail = 0
+                idx += 1
             continue
 
-        with open('filenames.txt', 'a', encoding='utf8') as f:
-            f.write(mapids[idx] + filename + '\n')
-
-        #if not os.path.exists(path):
-        if filename not in files:
-            with open(os.path.join(maps_folder, filename), 'w', encoding='utf8', newline='') as f:
-                f.write(text)
+        with open(os.path.join(maps_folder, filename), 'w', encoding='utf8', newline='') as f:
+            f.write(text)
 
         idx += 1

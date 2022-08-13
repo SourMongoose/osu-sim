@@ -2,12 +2,14 @@
 
 import asyncio
 import discord
+import json
 import math
 import random
 import time
 import traceback
 
 import api
+import estimaterank
 import findppmaps
 import similarity_buckets
 import similarity_sliders
@@ -24,19 +26,33 @@ async def send_error_message(ch, msg='Invalid input.'):
     embed = discord.Embed(description=msg, color=color)
     await ch.send(embed=embed)
 
-def file_to_id(file):
-    file_lower = file.replace('.dist', '').replace('.sldr', '').lower()
-    if '.osu' not in file_lower:
-        file_lower += '.osu'
-    return map_ids.get(file_lower, None)
-
-def id_to_file(id):
-    filename = filenames.get(id, None)
-    return filename.replace('.osu', '') if filename else None
+def id_to_map(id):
+    mapstr = f'{stats[str(id)]["artist"]} - {stats[str(id)]["title"]} [{stats[str(id)]["version"]}]'
+    return mapstr
 
 def file_to_link(file):
-    id = file_to_id(file)
+    id = alphanumeric(file)
     return f'https://osu.ppy.sh/b/{id}' if id else ''
+
+def username_to_id(username):
+    if '(' in username:
+        username = username[:username.index('(')].strip()
+
+    api.refresh_token()
+
+    counter = 0
+    user = None
+    while counter < 3:
+        try:
+            user = api.get_user(username)
+            break
+        except:
+            counter += 1
+
+    if not user:
+        return None
+
+    return user['id']
 
 async def get_similar_maps(ch, map_id, page=1, filters=None):
     perpage = 10
@@ -63,7 +79,7 @@ async def get_similar_maps(ch, map_id, page=1, filters=None):
 
     color = discord.Color.from_rgb(100, 255, 100)
     title = f'Maps similar in structure to {map_id}:'
-    description = '\n'.join(f'**{i+1})** [{sim[i][0].replace(".osu.dist","")}]({file_to_link(sim[i][0])})' for i in range((page-1)*perpage, page*perpage))
+    description = '\n'.join(f'**{i+1})** [{id_to_map(sim[i][0])}]({file_to_link(sim[i][0])})' for i in range((page-1)*perpage, page*perpage))
     embed = discord.Embed(title=title, description=description, color=color)
     embed.set_footer(text=f'Page {page} of 10')
     await calc_msg.edit(embed=embed)
@@ -84,7 +100,7 @@ async def get_rating_maps(ch, map_id, page=1, dt=False):
 
     color = discord.Color.from_rgb(100, 255, 100)
     title = f'Maps similar in star rating to {map_id}' + (' (+DT)' if dt else '') + ':'
-    description = '\n'.join(f'**{i+1})** [{sim[i][0].replace(".osu.dist","")}]({file_to_link(sim[i][0])})' for i in range((page-1)*perpage, page*perpage))
+    description = '\n'.join(f'**{i+1})** [{id_to_map(sim[i][0])}]({file_to_link(sim[i][0])})' for i in range((page-1)*perpage, page*perpage))
     embed = discord.Embed(title=title, description=description, color=color)
     embed.set_footer(text=f'Page {page} of 10')
     await ch.send(embed=embed)
@@ -114,7 +130,7 @@ async def get_slider_maps(ch, map_id, page=1):
 
     color = discord.Color.from_rgb(100, 255, 100)
     title = f'Maps similar in sliders to {map_id}:'
-    description = '\n'.join(f'**{i+1})** [{sim[i][0].replace(".osu.sldr","")}]({file_to_link(sim[i][0])})' for i in range((page-1)*perpage, page*perpage))
+    description = '\n'.join(f'**{i+1})** [{id_to_map(sim[i][0].replace(".sldr",""))}]({file_to_link(sim[i][0])})' for i in range((page-1)*perpage, page*perpage))
     embed = discord.Embed(title=title, description=description, color=color)
     embed.set_footer(text=f'Page {page} of 10')
     await calc_msg.edit(embed=embed)
@@ -142,7 +158,7 @@ async def get_pp_maps(ch, min_pp=0., max_pp=2e9, mods_include='', mods_exclude='
         title += f', excluding mods {mods_exclude}'
     title += ':'
     modcombo = lambda i: f' +{maps[i][1]}' if maps[i][1] else ''
-    description = '\n'.join(f'**{i + 1})** [{id_to_file(maps[i][0])}](https://osu.ppy.sh/b/{maps[i][0]}){modcombo(i)}' for i in
+    description = '\n'.join(f'**{i + 1})** [{id_to_map(maps[i][0])}](https://osu.ppy.sh/b/{maps[i][0]}){modcombo(i)}' for i in
                             range((page - 1) * perpage, page * perpage))
     embed = discord.Embed(title=title, description=description, color=color)
     embed.set_footer(text=f'Page {page} of 10')
@@ -198,7 +214,7 @@ async def recommend_map(ch, username):
 
     farm_maps = []
     for i in range(len(sim)):
-        map_id = file_to_id(sim[i][0])
+        map_id = alphanumeric(sim[i][0])
         if not map_id or int(map_id) in score_ids:
             continue
         # if map_freq.get(map_id, 0) >= 150: # frequency threshold
@@ -223,28 +239,17 @@ async def recommend_map(ch, username):
     await ch.send(embed=embed)
 
 async def get_farmer_rating(ch, username):
-    if '(' in username:
-        username = username[:username.index('(')].strip()
+    id = username_to_id(username)
 
-    api.refresh_token()
-
-    counter = 0
-    user = None
-    while counter < 3:
-        try:
-            user = api.get_user(username)
-            break
-        except:
-            counter += 1
-
-    if not user:
-        await send_error_message(ch, f'User **{username}** not found.')
+    if not id:
+        await send_error_message(ch, f'Error fetching scores for user **{username}**. Please try again later.')
         return
 
     scores = None
+    counter = 0
     while counter < 3:
         try:
-            scores = api.get_scores(user['id'], limit=50) + api.get_scores(user['id'], limit=50, offset=50)
+            scores = api.get_scores(id, limit=50) + api.get_scores(id, limit=50, offset=50)
             break
         except:
             counter += 1
@@ -273,6 +278,25 @@ async def get_farmer_rating(ch, username):
     title = f'Farmer rating for {username}:'
     description = f'**{overall}**\n\n**Most farm plays:**\n' + '\n'.join(f'**{round(f[1], 2):.2f}** | {f[0]}' for f in farm_ratings[-5:][::-1]) \
             + '\n\n**Least farm plays:**\n' + '\n'.join(f'**{round(f[1], 2):.2f}** | {f[0]}' for f in farm_ratings[:10])
+    embed = discord.Embed(title=title, description=description, color=color)
+    await ch.send(embed=embed)
+
+async def get_estimated_rank(ch, username):
+    id = username_to_id(username)
+
+    if not id:
+        await send_error_message(ch, f'Error fetching scores for user **{username}**. Please try again later.')
+        return
+
+    try:
+        er = estimaterank.get_rank_estimate(id)
+    except ZeroDivisionError:
+        await send_error_message(ch, f'Error fetching scores for user **{username}**. Please try again later.')
+        return
+
+    color = discord.Color.from_rgb(100, 255, 100)
+    title = f'Estimated rank for {username}:'
+    description = f'**#{round(er[0])}**\n\n' + '\n'.join(f'**{round(sc[1])}** | {sc[0]}' for sc in er[1])
     embed = discord.Embed(title=title, description=description, color=color)
     await ch.send(embed=embed)
 
@@ -335,12 +359,12 @@ async def start_quiz(ch, au, params):
     q = active_quizzes[ch.id]
 
     q['first'] = 'first' in params
-    q['diff'] = 'diff' in params
+    q['diff'] = False # 'diff' in params
 
     pool = []
     difficulties = []
     if q['diff']:
-        easy, medium, hard, impossible, iceberg = easy_diffs, medium_diffs, hard_diffs, impossible_diffs, iceberg_diffs
+        pass # easy, medium, hard, impossible, iceberg = easy_diffs, medium_diffs, hard_diffs, impossible_diffs, iceberg_diffs
     else:
         easy, medium, hard, impossible, iceberg = easy_sets, medium_sets, hard_sets, impossible_sets, iceberg_sets
 
@@ -563,28 +587,6 @@ def alphanumeric(s):
             output += c
     return output
 
-def get_map_ids():
-    map_ids = {}
-
-    with open('filenames.txt', 'r') as f:
-        lines = f.readlines()
-
-    for i in range(0, len(lines), 2):
-        map_ids[lines[i + 1].strip().lower()] = lines[i].strip()
-
-    return map_ids
-
-def get_filenames():
-    filenames = {}
-
-    with open('filenames.txt', 'r') as f:
-        lines = f.readlines()
-
-    for i in range(0, len(lines), 2):
-        filenames[lines[i].strip()] = lines[i + 1].strip()
-
-    return filenames
-
 def get_map_freq(filename='mapfreq.txt'):
     map_freq = {}
 
@@ -611,41 +613,10 @@ def get_mapsets(filename='setids_country.txt'):
 
     return mapsets
 
-def get_unique_diffnames(filename='filenames.txt'):
-    diffnames = {}
-    diffname_set = set()
-    diffname_dupes = set()
-
-    with open(filename, 'r') as f:
-        lines = f.readlines()
-
-    for i in range(0, len(lines), 2):
-        filename = lines[i + 1].strip()
-        try:
-            diffname = filename[filename.rindex(') [') + 3:-5]
-        except:
-            continue
-
-        if any(x in diffname.lower() for x in ['beginner', 'easy', 'normal', 'hard', 'hyper', 'insane', 'extra', 'expert', 'extreme', 'another', 'lunatic']):
-            continue
-
-        diffnames[lines[i].strip()] = diffname
-        if diffname.lower() in diffname_set:
-            diffname_dupes.add(diffname.lower())
-        else:
-            diffname_set.add(diffname.lower())
-
-    # remove duplicates
-    for id in list(diffnames.keys()):
-        if diffnames[id].lower() in diffname_dupes:
-            diffnames.pop(id)
-
-    return diffnames
-
-map_ids = get_map_ids()
-filenames = get_filenames()
-map_freq = get_map_freq()
 map_freq_country = get_map_freq('mapfreq_country.txt')
+
+with open('stats.json', 'r') as f:
+    stats = json.load(f)
 
 # get mapsets for beatmap quiz
 mapsets = get_mapsets()
@@ -665,30 +636,6 @@ for i in range(len(mapsets)):
         iceberg_sets.append(mapsets[i][0])
     else:
         impossible_sets.append(mapsets[i][0])
-
-# get difficulty names for beatmap quiz
-diffnames = get_unique_diffnames('filenames.txt')
-diff_freq = []
-for id in map_freq_country:
-    if id in diffnames:
-        diff_freq.append((id, map_freq_country[id]))
-diff_freq.sort(key=lambda t: -t[1])
-easy_diffs = []
-medium_diffs = []
-hard_diffs = []
-impossible_diffs = []
-iceberg_diffs = []
-for i in range(len(diff_freq)):
-    if i < 500:
-        easy_diffs.append(diff_freq[i][0])
-    elif i < 1500:
-        medium_diffs.append(diff_freq[i][0])
-    elif i < 2500:
-        hard_diffs.append(diff_freq[i][0])
-    elif i > len(diff_freq) - 500:
-        iceberg_diffs.append(diff_freq[i][0])
-    else:
-        impossible_diffs.append(diff_freq[i][0])
 
 # command starter
 C = ',' if DEBUG else '.'
@@ -868,12 +815,10 @@ async def on_message(message):
     if any(msg.startswith(C + s) for s in ['r', 'rec']):
         if msg == C + 'r' or msg == C + 'rec':
             username = au.display_name
+            await recommend_map(ch, username)
         elif any(msg.startswith(C + s + ' ') for s in ['r', 'rec']):
             username = msg[msg.index(' ') + 1:]
-        else:
-            return
-
-        await recommend_map(ch, username)
+            await recommend_map(ch, username)
 
     # farmer rating
     if any(msg.startswith(C + s) for s in ['f', 'farm', 'farmer']):
@@ -885,6 +830,17 @@ async def on_message(message):
             return
 
         await get_farmer_rating(ch, username)
+
+    # estimated rank
+    if any(msg.startswith(C + s) for s in ['rank']):
+        if any(msg == C + s for s in ['rank']):
+            username = au.display_name
+        elif any(msg.startswith(C + s + ' ') for s in ['rank']):
+            username = msg[msg.index(' ') + 1:]
+        else:
+            return
+
+        await get_estimated_rank(ch, username)
 
     # beatmap bg trivia
     if any(msg.startswith(C + s) for s in ['q', 'quiz']) \

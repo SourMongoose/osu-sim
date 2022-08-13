@@ -41,13 +41,13 @@ def get_similarity(b1, b2):
     return sim
 
 def get_similar(id, n=50, filters=None):
-    filename, text = getmaps.get_map(id)
+    text = getmaps.get_map(id)
     dist = calc.get_distribution_raw(text)
     bkts = getbuckets.get_buckets_raw(dist)
 
-    key = filename[:-4].lower()
+    key = str(id)
     if key in srs:
-        sr = srs[filename[:-4].lower()]
+        sr = srs[key]
     else:
         chars = '1234567890qwertyuiopasdfghjklzxcvbnm'
         temp_filename = ''.join(chars[random.randrange(len(chars))] for _ in range(10)) + '.osu'
@@ -59,7 +59,7 @@ def get_similar(id, n=50, filters=None):
     similarities = []
 
     for file in all_buckets:
-        if file.startswith(filename):
+        if file.startswith(str(id)):
             continue
 
         if filters:
@@ -83,7 +83,7 @@ def get_similar(id, n=50, filters=None):
         if not sr:
             similarities.append((file, get_similarity(bkts, all_buckets[file])))
         else:
-            key = file[:-9].lower()
+            key = file[:-5]
             if key not in srs:
                 continue
 
@@ -105,8 +105,7 @@ def get_all_buckets():
     return buckets
 
 all_buckets = get_all_buckets()
-srs = getsrs.get_srs('srs.txt')
-srs = {k.lower(): srs[k] for k in srs}
+srs = getsrs.get_srs()
 with open('stats.json') as fin:
     stats = json.load(fin)
 

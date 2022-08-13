@@ -10,7 +10,7 @@ for subdir, dirs, files in os.walk(songs_dir):
         path = subdir + os.sep + filename
         if path.endswith(".osu"):
             try:
-                dist_output = 'dists' + os.sep + filename + '.dist'
+                dist_output = 'dists' + os.sep + filename[:-4] + '.dist'
                 if not os.path.exists(dist_output):
                     calc.get_distribution(path, dist_output)
             except:

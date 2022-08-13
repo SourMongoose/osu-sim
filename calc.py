@@ -266,12 +266,19 @@ def get_stats(input_file):
         'CircleSize': -1,
         'OverallDifficulty': -1,
         'ApproachRate': -1,
+        'Title': -2,
+        'Artist': -2,
+        'Creator': -2,
+        'Version': -2,
     }
 
     for line in lines:
         for stat in stats:
-            if line.startswith(stat):
-                stats[stat] = float(line[line.index(':')+1:])
+            if line.startswith(stat + ':'):
+                if stats[stat] == -1:
+                    stats[stat] = float(line[line.index(':')+1:])
+                else:
+                    stats[stat] = line[line.index(':')+1:].strip()
 
     if stats['ApproachRate'] == -1:
         stats['ApproachRate'] = stats['OverallDifficulty']
@@ -289,6 +296,10 @@ def get_stats(input_file):
         'cs': stats['CircleSize'],
         'od': stats['OverallDifficulty'],
         'ar': stats['ApproachRate'],
+        'title': stats['Title'],
+        'artist': stats['Artist'],
+        'creator': stats['Creator'],
+        'version': stats['Version'],
         'length': length
     }
 
