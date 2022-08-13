@@ -135,13 +135,13 @@ async def get_slider_maps(ch, map_id, page=1):
     embed.set_footer(text=f'Page {page} of 10')
     await calc_msg.edit(embed=embed)
 
-async def get_pp_maps(ch, min_pp=0., max_pp=2e9, mods_include='', mods_exclude='', page=1):
+async def get_pp_maps(ch, min_pp=0., max_pp=2e9, mods_include='', mods_exclude='', page=1, filters=None):
     perpage = 10
     n = page * perpage
 
     try:
         mods_include, mods_exclude = findppmaps.simplify_mods(mods_include), findppmaps.simplify_mods(mods_exclude)
-        maps = findppmaps.find_pp_maps(min_pp, max_pp, mods_include, mods_exclude, limit=n)
+        maps = findppmaps.find_pp_maps(min_pp, max_pp, mods_include, mods_exclude, limit=n, filters=filters)
     except:
         await send_error_message(ch)
         return
@@ -779,37 +779,53 @@ async def on_message(message):
         msg = msg[msg.index(' ') + 1:]
 
         # parse input
-        try:
-            params = msg.strip().split(' ')
+        # try:
+        params = msg.strip().split(' ')
 
-            pp_boundaries = params[0]
-            min_pp, max_pp = pp_boundaries.split('-')
-            min_pp, max_pp = float(min_pp), float(max_pp)
+        pp_boundaries = params[0]
+        min_pp, max_pp = pp_boundaries.split('-')
+        min_pp, max_pp = float(min_pp), float(max_pp)
 
-            mods_include = ''
-            mods_exclude = ''
-            page = 1
+        mods_include = ''
+        mods_exclude = ''
+        page = 1
+        filters = []
 
-            if len(params) > 1:
-                # just page number
-                if '0' <= params[1][0] <= '9':
-                    page = int(params[1])
-                # contains mod combos
-                else:
-                    # exclude
-                    if params[1][0] == '-':
-                        mods_exclude = params[1][1:]
-                    else:
-                        mods_include = params[1]
-                    if len(params) > 2:
-                        page = int(params[2])
+        if len(params) > 1:
+            # exclude
+            if params[1][0] == '-':
+                mods_exclude = params[1][1:]
+            else:
+                mods_include = params[1]
 
-            if not (1 <= page <= 10):
-                raise Exception
+            for param in params[1:]:
+                if param.isnumeric():
+                    page = int(param)
+                    break
 
-            await get_pp_maps(ch, min_pp, max_pp, mods_include, mods_exclude, page)
-        except:
-            await send_error_message(ch)
+            symbols = ['!=', '>=', '<=', '>', '<', '=']
+            supported_filters = ['ar', 'od', 'hp', 'cs', 'length']
+            for param in params[1:]:
+                for symbol in symbols:
+                    if symbol in param:
+                        filter_key = param[:param.index(symbol)]
+                        filter_value = float(param[param.index(symbol) + len(symbol):])
+                        if filter_key in supported_filters:
+                            filters.append((filter_key, symbol, filter_value))
+                        else:
+                            if filter_key:
+                                await send_error_message(ch, f'Filter `{filter_key}` not currently supported.')
+                            else:
+                                await send_error_message(ch, "Don't include spaces when using filters (e.g. `ar<9` instead of `ar < 9`)")
+                            return
+                        break
+
+        if not (1 <= page <= 10):
+            raise Exception
+
+        await get_pp_maps(ch, min_pp, max_pp, mods_include, mods_exclude, page, filters)
+        # except:
+        #     await send_error_message(ch)
 
     # recommend a map
     if any(msg.startswith(C + s) for s in ['r', 'rec']):
