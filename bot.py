@@ -233,7 +233,7 @@ async def recommend_map(ch, username):
 
     color = discord.Color.from_rgb(100, 255, 100)
     modstr = ' +' + ''.join(scores[score_index]['mods']) if scores[score_index]['mods'] else ''
-    description = f'**{sim[index][0]}**{modstr}\n{file_to_link(sim[index][0])}'
+    description = f'**{id_to_map(sim[index][0])}**{modstr}\n{file_to_link(sim[index][0])}'
     embed = discord.Embed(description=description, color=color)
     embed.set_footer(text=f'Recommended map for {user["username"]}')
     await ch.send(embed=embed)
@@ -723,10 +723,10 @@ async def on_message(message):
 
             if not (1 <= page <= 10):
                 raise Exception
-
-            await get_similar_maps(ch, map_id, page, filters)
         except:
             await send_error_message(ch)
+
+        await get_similar_maps(ch, map_id, page, filters)
 
     # find similar maps (star rating)
     if msg.startswith(C + 'sr '):

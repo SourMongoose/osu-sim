@@ -88,7 +88,7 @@ def get_similar(id, n=50, filters=None):
                 continue
 
             if euclidean(srs[key][:2], sr[:2]) <= 0.5:
-                similarities.append((file, get_similarity(bkts, all_buckets[file]), euclidean(srs[key][:2], sr[:2])))
+                similarities.append((key, get_similarity(bkts, all_buckets[file]), euclidean(srs[key][:2], sr[:2])))
 
     similarities.sort(key=lambda s: -s[1])
     return similarities[:min(len(similarities), n)]

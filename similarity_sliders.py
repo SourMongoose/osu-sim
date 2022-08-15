@@ -66,7 +66,7 @@ def get_similar(id, n=50):
             if euclidean(srs[key][:2], sr[:2]) <= 0.5:
                 avg_sldr = avg(sldr[0])
                 std_sldr = std(sldr[0])
-                similarities.append((file, get_similarity((avg_sldr, std_sldr, sldr[1]), all_sliders[file]), euclidean(srs[key][:2], sr[:2])))
+                similarities.append((key, get_similarity((avg_sldr, std_sldr, sldr[1]), all_sliders[file]), euclidean(srs[key][:2], sr[:2])))
 
     similarities.sort(key=lambda s: s[1])
     return similarities[:min(len(similarities), n)]
