@@ -306,7 +306,11 @@ async def chez(message):
         return
 
     embed = embeds[0].to_dict()
-    if 'author' in embed and 'chezbananas on' in embed['author']['name']:
+
+    if 'author' not in embed:
+        return
+
+    if 'chezbananas on' in embed['author']['name']:
         map_url = embed['author']['url']
         map_id = map_url[map_url.rindex('/') + 1:]
         api.refresh_token()
@@ -347,8 +351,26 @@ async def chez(message):
 
         if pastas:
             await message.channel.send(random.choice(pastas))
-    elif 'author' in embed and 'Azurium on MATZcore [Lolicore]' in embed['author']['name']:
+    elif 'Azurium on MATZcore [Lolicore]' in embed['author']['name']:
         await message.channel.send('shat on')
+    elif 'Recent' in message.content:
+        if embed['author']['name'].startswith('Lionheart'):
+            await message.channel.send(
+                'Like a lion :lion_face: we fight :punch: '
+                'Together we will die :skull: '
+                'For the glory of our god :innocent: '
+                'Justice on our side :cross: '
+                'This cross will lead to light :bulb: '
+                'Follow Richard Lionheart :pray:')
+        if embed['author']['name'].startswith('Glory Days'):
+            await message.channel.send(
+                'To seek the glory days :sunrise: '
+                'we\'ll fight the lion\'s way :lion_face: '
+                'then let the rain wash :cloud_rain: '
+                'all of your pride away :innocent: '
+                'so if this victory :trophy: '
+                'is our last odyssey :red_car: '
+                'then let the POWER within us decide :muscle:')
 
 active_quizzes = {}
 async def start_quiz(ch, au, params):
@@ -651,6 +673,9 @@ async def on_message(message):
     ch = message.channel
     au = message.author
 
+    symbols = ['!=', '>=', '<=', '>', '<', '=']
+    supported_filters = ['ar', 'od', 'hp', 'cs', 'length', 'sr', 'star', 'stars', 'aim', 'aimsr', 'tap', 'tapsr']
+
     # chez >c
     if au.id == 289066747443675143:
         await chez(message)
@@ -704,8 +729,6 @@ async def on_message(message):
                         page = int(param)
                         break
 
-                symbols = ['!=', '>=', '<=', '>', '<', '=']
-                supported_filters = ['ar', 'od', 'hp', 'cs', 'length']
                 for param in params[1:]:
                     for symbol in symbols:
                         if symbol in param:
@@ -803,8 +826,6 @@ async def on_message(message):
                     page = int(param)
                     break
 
-            symbols = ['!=', '>=', '<=', '>', '<', '=']
-            supported_filters = ['ar', 'od', 'hp', 'cs', 'length']
             for param in params[1:]:
                 for symbol in symbols:
                     if symbol in param:

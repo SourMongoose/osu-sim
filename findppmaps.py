@@ -1,5 +1,7 @@
 import json
 
+import getsrs
+
 mods_change = [['NM'], ['EZ'], ['HD'], ['HR'], ['HT'], ['DT', 'NC'], ['FL']]
 def simplify_mods(mods):
     mods = mods.upper()
@@ -30,6 +32,17 @@ def overweight(m):
 def find_pp_maps(min_pp=0., max_pp=2e9, mods_include='', mods_exclude='', limit=100, filters=None):
     mods_include, mods_exclude = simplify_mods(mods_include), simplify_mods(mods_exclude)
 
+    def get_stat(id, key):
+        if key in stats[id]:
+            return stats[id][key]
+        elif key in ['sr', 'star', 'stars']:
+            return getsrs.get_sr(id)[0]
+        elif key in ['aim', 'aimsr']:
+            return getsrs.get_sr(id)[1]
+        elif key in ['tap', 'tapsr']:
+            return getsrs.get_sr(id)[2]
+        return None
+
     def filter_func(m):
         if filters:
             valid = True
@@ -43,7 +56,7 @@ def find_pp_maps(min_pp=0., max_pp=2e9, mods_include='', mods_exclude='', limit=
                     '<': lambda x, y: x < y,
                     '=': lambda x, y: x == y
                 }
-                if not funcs[operator](stats[m[0]][key], value):
+                if not funcs[operator](get_stat(m[0], key), value):
                     valid = False
                     break
             if not valid:
