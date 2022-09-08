@@ -17,14 +17,18 @@ import similarity_srs
 import tokens
 
 # debugging
-DEBUG = False
+DEBUG = True
 
-client = discord.Client()
+bot = discord.Bot()
 
-async def send_error_message(ch, msg='Invalid input.'):
+async def send_error_message(ctx, msg='Invalid input.'):
     color = discord.Color.from_rgb(255, 100, 100)
     embed = discord.Embed(description=msg, color=color)
-    await ch.send(embed=embed)
+    await ctx.respond(embed=embed)
+
+def get_error_message(msg='Invalid input.'):
+    color = discord.Color.from_rgb(255, 100, 100)
+    return discord.Embed(description=msg, color=color)
 
 def id_to_map(id):
     mapstr = f'{stats[str(id)]["artist"]} - {stats[str(id)]["title"]} [{stats[str(id)]["version"]}]'
@@ -54,7 +58,7 @@ def username_to_id(username):
 
     return user['id']
 
-async def get_similar_maps(ch, map_id, page=1, filters=None):
+async def get_similar_maps(ctx, map_id, page=1, filters=None):
     perpage = 10
     n = page * perpage
 
@@ -63,18 +67,16 @@ async def get_similar_maps(ch, map_id, page=1, filters=None):
     footer = 'This should take about 10 seconds.'
     embed = discord.Embed(description=description, color=color)
     embed.set_footer(text=footer)
-    calc_msg = await ch.send(embed=embed)
+    calc_msg = await ctx.respond(embed=embed)
 
     try:
         sim = similarity_buckets.get_similar(map_id, n, filters)
     except:
-        await calc_msg.delete()
-        await send_error_message(ch)
+        await calc_msg.edit_original_message(embed=get_error_message())
         return
 
     if len(sim) < page * perpage:
-        await calc_msg.delete()
-        await send_error_message(ch, 'Not enough similar maps.')
+        await calc_msg.edit_original_message(embed=get_error_message('Not enough similar maps.'))
         return
 
     color = discord.Color.from_rgb(100, 255, 100)
@@ -82,20 +84,20 @@ async def get_similar_maps(ch, map_id, page=1, filters=None):
     description = '\n'.join(f'**{i+1})** [{id_to_map(sim[i][0])}]({file_to_link(sim[i][0])})' for i in range((page-1)*perpage, page*perpage))
     embed = discord.Embed(title=title, description=description, color=color)
     embed.set_footer(text=f'Page {page} of 10')
-    await calc_msg.edit(embed=embed)
+    await calc_msg.edit_original_message(embed=embed)
 
-async def get_rating_maps(ch, map_id, page=1, dt=False):
+async def get_rating_maps(ctx, map_id, page=1, dt=False):
     perpage = 10
     n = page * perpage
 
     try:
         sim = similarity_srs.get_similar(map_id, n, ['DT'] if dt else [])
     except:
-        await send_error_message(ch)
+        await send_error_message(ctx)
         return
 
     if not sim:
-        await send_error_message(ch, 'Map not found in local database.')
+        await send_error_message(ctx, 'Map not found in local database.')
         return
 
     color = discord.Color.from_rgb(100, 255, 100)
@@ -103,9 +105,9 @@ async def get_rating_maps(ch, map_id, page=1, dt=False):
     description = '\n'.join(f'**{i+1})** [{id_to_map(sim[i][0])}]({file_to_link(sim[i][0])})' for i in range((page-1)*perpage, page*perpage))
     embed = discord.Embed(title=title, description=description, color=color)
     embed.set_footer(text=f'Page {page} of 10')
-    await ch.send(embed=embed)
+    await ctx.respond(embed=embed)
 
-async def get_slider_maps(ch, map_id, page=1):
+async def get_slider_maps(ctx, map_id, page=1):
     perpage = 10
     n = page * perpage
 
@@ -114,18 +116,16 @@ async def get_slider_maps(ch, map_id, page=1):
     footer = 'This should take about 10 seconds.'
     embed = discord.Embed(description=description, color=color)
     embed.set_footer(text=footer)
-    calc_msg = await ch.send(embed=embed)
+    calc_msg = await ctx.respond(embed=embed)
 
     try:
         sim = similarity_sliders.get_similar(map_id, n)
     except:
-        await calc_msg.delete()
-        await send_error_message(ch)
+        await calc_msg.edit_original_message(get_error_message())
         return
 
     if len(sim) < page * perpage:
-        await calc_msg.delete()
-        await send_error_message(ch, 'Not enough similar maps.')
+        await calc_msg.edit_original_message(get_error_message('Not enough similar maps.'))
         return
 
     color = discord.Color.from_rgb(100, 255, 100)
@@ -133,9 +133,9 @@ async def get_slider_maps(ch, map_id, page=1):
     description = '\n'.join(f'**{i+1})** [{id_to_map(sim[i][0].replace(".sldr",""))}]({file_to_link(sim[i][0])})' for i in range((page-1)*perpage, page*perpage))
     embed = discord.Embed(title=title, description=description, color=color)
     embed.set_footer(text=f'Page {page} of 10')
-    await calc_msg.edit(embed=embed)
+    await calc_msg.edit_original_message(embed=embed)
 
-async def get_pp_maps(ch, min_pp=0., max_pp=2e9, mods_include='', mods_exclude='', page=1, filters=None):
+async def get_pp_maps(ctx, min_pp=0., max_pp=2e9, mods_include='', mods_exclude='', page=1, filters=None):
     perpage = 10
     n = page * perpage
 
@@ -143,11 +143,11 @@ async def get_pp_maps(ch, min_pp=0., max_pp=2e9, mods_include='', mods_exclude='
         mods_include, mods_exclude = findppmaps.simplify_mods(mods_include), findppmaps.simplify_mods(mods_exclude)
         maps = findppmaps.find_pp_maps(min_pp, max_pp, mods_include, mods_exclude, limit=n, filters=filters)
     except:
-        await send_error_message(ch)
+        await send_error_message(ctx)
         return
 
     if len(maps) < n:
-        await send_error_message(ch, 'Not enough maps.')
+        await send_error_message(ctx, 'Not enough maps.')
         return
 
     color = discord.Color.from_rgb(100, 255, 100)
@@ -162,9 +162,9 @@ async def get_pp_maps(ch, min_pp=0., max_pp=2e9, mods_include='', mods_exclude='
                             range((page - 1) * perpage, page * perpage))
     embed = discord.Embed(title=title, description=description, color=color)
     embed.set_footer(text=f'Page {page} of 10')
-    await ch.send(embed=embed)
+    await ctx.respond(embed=embed)
 
-async def recommend_map(ch, username):
+async def recommend_map(ctx, username):
     if '(' in username:
         username = username[:username.index('(')].strip()
 
@@ -180,7 +180,7 @@ async def recommend_map(ch, username):
             counter += 1
 
     if not user:
-        await send_error_message(ch, f'User **{username}** not found.')
+        await send_error_message(ctx, f'User **{username}** not found.')
         return
 
     scores = None
@@ -192,7 +192,7 @@ async def recommend_map(ch, username):
             counter += 1
 
     if not scores:
-        await send_error_message(ch, f'Error fetching scores for user **{username}**. Please try again later.')
+        await send_error_message(ctx, f'Error fetching scores for user **{username}**. Please try again later.')
         return
 
     counter = 0
@@ -207,7 +207,7 @@ async def recommend_map(ch, username):
         counter += 1
 
     if not sim:
-        await send_error_message(ch, f'Error finding map recommendations for user **{username}**. Please try again later.')
+        await send_error_message(ctx, f'Error finding map recommendations for user **{username}**. Please try again later.')
         return
 
     score_ids = set(score['beatmap']['id'] for score in scores)
@@ -236,13 +236,13 @@ async def recommend_map(ch, username):
     description = f'**{id_to_map(sim[index][0])}**{modstr}\n{file_to_link(sim[index][0])}'
     embed = discord.Embed(description=description, color=color)
     embed.set_footer(text=f'Recommended map for {user["username"]}')
-    await ch.send(embed=embed)
+    await ctx.respond(embed=embed)
 
-async def get_farmer_rating(ch, username):
+async def get_farmer_rating(ctx, username):
     id = username_to_id(username)
 
     if not id:
-        await send_error_message(ch, f'Error fetching scores for user **{username}**. Please try again later.')
+        await send_error_message(ctx, f'Error fetching scores for user **{username}**. Please try again later.')
         return
 
     scores = None
@@ -255,7 +255,7 @@ async def get_farmer_rating(ch, username):
             counter += 1
 
     if not scores:
-        await send_error_message(ch, f'Error fetching scores for user **{username}**. Please try again later.')
+        await send_error_message(ctx, f'Error fetching scores for user **{username}**. Please try again later.')
         return
 
     farm_ratings = []
@@ -279,26 +279,26 @@ async def get_farmer_rating(ch, username):
     description = f'**{overall}**\n\n**Most farm plays:**\n' + '\n'.join(f'**{round(f[1], 2):.2f}** | {f[0]}' for f in farm_ratings[-5:][::-1]) \
             + '\n\n**Least farm plays:**\n' + '\n'.join(f'**{round(f[1], 2):.2f}** | {f[0]}' for f in farm_ratings[:10])
     embed = discord.Embed(title=title, description=description, color=color)
-    await ch.send(embed=embed)
+    await ctx.respond(embed=embed)
 
-async def get_estimated_rank(ch, username):
+async def get_estimated_rank(ctx, username):
     id = username_to_id(username)
 
     if not id:
-        await send_error_message(ch, f'Error fetching scores for user **{username}**. Please try again later.')
+        await send_error_message(ctx, f'Error fetching scores for user **{username}**. Please try again later.')
         return
 
     try:
         er = estimaterank.get_rank_estimate(id)
     except ZeroDivisionError:
-        await send_error_message(ch, f'Error fetching scores for user **{username}**. Please try again later.')
+        await send_error_message(ctx, f'Error fetching scores for user **{username}**. Please try again later.')
         return
 
     color = discord.Color.from_rgb(100, 255, 100)
     title = f'Estimated rank for {username}:'
     description = f'**#{round(er[0])}**\n\n' + '\n'.join(f'**{round(sc[1])}** | {sc[0]}' for sc in er[1])
     embed = discord.Embed(title=title, description=description, color=color)
-    await ch.send(embed=embed)
+    await ctx.respond(embed=embed)
 
 async def chez(message):
     embeds = message.embeds
@@ -662,19 +662,154 @@ for i in range(len(mapsets)):
 # command starter
 C = ',' if DEBUG else '.'
 
-@client.event
+# supported symbols/keywords for search filters
+symbols = ['!=', '>=', '<=', '>', '<', '=']
+supported_filters = ['ar', 'od', 'hp', 'cs', 'length', 'sr', 'star', 'stars', 'aim', 'aimsr', 'tap', 'tapsr']
+
+@bot.command(description='View commands')
+async def help(ctx):
+    title = 'Command List'
+    color = discord.Color.from_rgb(150, 150, 150)
+    description = f'**{C}s**im `<beatmap id/link>` `[<filters>]` `[<page>]`\nFind similar maps (based on map structure)\n\n' \
+                  f'**{C}sr** `<beatmap id/link>` `[dt]` `[<page>]`\nFind similar maps (based on star rating)\n\n' \
+                  f'**{C}sl**ider `<beatmap id/link>` `[<page>]`\nFind similar maps (based on sliders)\n\n' \
+                  f'**{C}pp** `<min>-<max>` `[-][<mods>]` `[<page>]`\nFind overweighted maps\n\n' \
+                  f'**{C}r**ec `[<username/id>]`\nRecommend a map\n\n' \
+                  f'**{C}q**uiz `[easy/medium/hard/impossible]` `[first]`\nStart the beatmap quiz\n\n' \
+                  f'**{C}i**nvite\nGet this bot\'s invite link\n\n' \
+                  f'**{C}h**elp\nView commands'
+    embed = discord.Embed(title=title, description=description, color=color)
+    embed.set_footer(text="Omit brackets. Square brackets ([]) indicate optional parameters.")
+    await ctx.respond(embed=embed)
+
+@bot.command(description='Find similar maps (based on map structure)')
+async def sim(ctx,
+              beatmap: discord.Option(str, description='beatmap id/link', required=True),
+              filters: discord.Option(str, description='search filters', required=False),
+              page: discord.Option(int, description='page', min_value=1, max_value=10, default=1, required=False)):
+    # parse input
+    try:
+        if '/' in beatmap:
+            beatmap = beatmap[beatmap.strip('/').rindex('/') + 1:]
+        beatmap = ''.join(c for c in beatmap if '0' <= c <= '9')
+
+        filters_list = []
+
+        if filters:
+            filters_split = filters.split(' ')
+            for filter_str in filters_split[1:]:
+                for symbol in symbols:
+                    if symbol in filter_str:
+                        filter_key = filter_str[:filter_str.index(symbol)]
+                        filter_value = filter_str[filter_str.index(symbol) + len(symbol):]
+                        if filter_key in supported_filters:
+                            filters_list.append((filter_key, symbol, float(filter_value)))
+                        else:
+                            if filter_key:
+                                await send_error_message(ctx, f'Filter `{filter_key}` not currently supported.')
+                            else:
+                                await send_error_message(ctx, "Don't include spaces when using filters (e.g. `ar<9` instead of `ar < 9`)")
+                            return
+                        break
+    except:
+        await send_error_message(ctx, traceback.format_exc())
+        return
+
+    await get_similar_maps(ctx, beatmap, page, filters_list)
+
+@bot.command(description='Find similar maps (based on star rating)')
+async def sr(ctx,
+             beatmap: discord.Option(str, description='beatmap id/link', required=True),
+             dt: discord.Option(bool, description='use DT star rating', default=False, required=False),
+             page: discord.Option(int, description='page', min_value=1, max_value=10, default=1, required=False)):
+    # parse input
+    try:
+        if '/' in beatmap:
+            beatmap = beatmap[beatmap.strip('/').rindex('/') + 1:]
+        beatmap = ''.join(c for c in beatmap if '0' <= c <= '9')
+
+        await get_rating_maps(ctx, beatmap, page, dt)
+    except:
+        await send_error_message(ctx)
+
+@bot.command(description='Find similar maps (based on slider velocity/length)')
+async def slider(ctx,
+                 beatmap: discord.Option(str, description='beatmap id/link', required=True),
+                 page: discord.Option(int, description='page', min_value=1, max_value=10, default=1, required=False)):
+    # parse input
+    try:
+        if '/' in beatmap:
+            beatmap = beatmap[beatmap.strip('/').rindex('/') + 1:]
+        beatmap = ''.join(c for c in beatmap if '0' <= c <= '9')
+
+        await get_slider_maps(ctx, beatmap, page)
+    except:
+        await send_error_message(ctx)
+
+@bot.command(description='Find overweighted maps')
+async def pp(ctx,
+             min_pp: discord.Option(float, description='minimum pp value', min_value=0, max_value=9999, default=0, required=False),
+             max_pp: discord.Option(float, description='maximum pp value', min_value=0, max_value=9999, default=9999, required=False),
+             mods_include: discord.Option(str, description='list of mods to include (will look for exact match)', default='', required=False),
+             mods_exclude: discord.Option(str, description='list of mods to exclude', default='', required=False),
+             filters: discord.Option(str, description='search filters', required=False),
+             page: discord.Option(int, description='page', min_value=1, max_value=10, default=1, required=False)):
+    # parse input
+    try:
+        filters_list = []
+
+        if filters:
+            filters_split = filters.split(' ')
+            for filter_str in filters_split:
+                for symbol in symbols:
+                    if symbol in filter_str:
+                        filter_key = filter_str[:filter_str.index(symbol)]
+                        filter_value = filter_str[filter_str.index(symbol) + len(symbol):]
+                        if filter_key in supported_filters:
+                            filters_list.append((filter_key, symbol, float(filter_value)))
+                        else:
+                            if filter_key:
+                                await send_error_message(ctx, f'Filter `{filter_key}` not currently supported.')
+                            else:
+                                await send_error_message(ctx, "Don't include spaces when using filters (e.g. `ar<9` instead of `ar < 9`)")
+                            return
+                        break
+
+        await get_pp_maps(ctx, min_pp, max_pp, mods_include, mods_exclude, page, filters_list)
+    except:
+        await send_error_message(ctx, traceback.format_exc())
+
+@bot.command(description='Recommend a map')
+async def rec(ctx,
+              username: discord.Option(str, description='osu! username', required=False)):
+    if not username:
+        username = ctx.author.display_name
+    await recommend_map(ctx, username)
+
+@bot.command(description='Get a user\'s farmer rating')
+async def farmer(ctx,
+                 username: discord.Option(str, description='osu! username', required=False)):
+    if not username:
+        username = ctx.author.display_name
+    await get_farmer_rating(ctx, username)
+
+@bot.command(description='Get a user\'s estimated rank')
+async def rank(ctx,
+               username: discord.Option(str, description='osu! username', required=False)):
+    if not username:
+        username = ctx.author.display_name
+    await get_estimated_rank(ctx, username)
+
+@bot.event
 async def on_ready():
-    await client.change_presence(activity=discord.Game(name=C+'help'))
+    await bot.change_presence(activity=discord.Game(name=C+'help'))
     print('When you see it!')
 
-@client.event
+@bot.event
 async def on_message(message):
     msg = message.content.lower()
     ch = message.channel
     au = message.author
-
-    symbols = ['!=', '>=', '<=', '>', '<', '=']
-    supported_filters = ['ar', 'od', 'hp', 'cs', 'length', 'sr', 'star', 'stars', 'aim', 'aimsr', 'tap', 'tapsr']
 
     # chez >c
     if au.id == 289066747443675143:
@@ -683,201 +818,6 @@ async def on_message(message):
     # ignore other bot messages
     if au.bot:
         return
-
-    # help command
-    if msg == C+'help' or msg == C+'h':
-        title = 'Command List'
-        color = discord.Color.from_rgb(150,150,150)
-        description = f'**{C}s**im `<beatmap id/link>` `[<filters>]` `[<page>]`\nFind similar maps (based on map structure)\n\n' \
-                      f'**{C}sr** `<beatmap id/link>` `[dt]` `[<page>]`\nFind similar maps (based on star rating)\n\n' \
-                      f'**{C}sl**ider `<beatmap id/link>` `[<page>]`\nFind similar maps (based on sliders)\n\n' \
-                      f'**{C}pp** `<min>-<max>` `[-][<mods>]` `[<page>]`\nFind overweighted maps\n\n' \
-                      f'**{C}r**ec `[<username/id>]`\nRecommend a map\n\n' \
-                      f'**{C}q**uiz `[easy/medium/hard/impossible]` `[first]`\nStart the beatmap quiz\n\n' \
-                      f'**{C}i**nvite\nGet this bot\'s invite link\n\n' \
-                      f'**{C}h**elp\nView commands'
-        embed = discord.Embed(title=title, description=description, color=color)
-        embed.set_footer(text="Omit brackets. Square brackets ([]) indicate optional parameters.")
-        await ch.send(embed=embed)
-
-    # invite link
-    if msg == C+'invite' or msg == C+'i':
-        title = 'Invite this bot to your server:'
-        color = discord.Color.from_rgb(150, 150, 150)
-        description = 'https://discord.com/api/oauth2/authorize?client_id=829860591405498419&permissions=18432&scope=bot'
-        embed = discord.Embed(title=title, description=description, color=color)
-        await ch.send(embed=embed)
-
-    # find similar maps (map structure)
-    if any(msg.startswith(C + s + ' ') for s in ['s', 'sim', 'similar']):
-        msg = msg[msg.index(' ')+1:]
-
-        # parse input
-        params = msg.split(' ')
-        try:
-            map_id = params[0]
-            if '/' in map_id:
-                map_id = map_id[map_id.strip('/').rindex('/')+1:]
-            map_id = ''.join(c for c in map_id if '0' <= c <= '9')
-
-            page = 1
-            filters = []
-
-            if len(params) > 1:
-                for param in params[1:]:
-                    if param.isnumeric():
-                        page = int(param)
-                        break
-
-                for param in params[1:]:
-                    for symbol in symbols:
-                        if symbol in param:
-                            filter_key = param[:param.index(symbol)]
-                            filter_value = float(param[param.index(symbol)+len(symbol):])
-                            if filter_key in supported_filters:
-                                filters.append((filter_key, symbol, filter_value))
-                            else:
-                                if filter_key:
-                                    await send_error_message(ch, f'Filter `{filter_key}` not currently supported.')
-                                else:
-                                    await send_error_message(ch, "Don't include spaces when using filters (e.g. `ar<9` instead of `ar < 9`)")
-                                return
-                            break
-
-            if not (1 <= page <= 10):
-                raise Exception
-        except:
-            await send_error_message(ch)
-
-        await get_similar_maps(ch, map_id, page, filters)
-
-    # find similar maps (star rating)
-    if msg.startswith(C + 'sr '):
-        msg = msg[msg.index(' ') + 1:]
-        args = msg.split(' ')
-
-        # parse input
-        try:
-            map_id = args[0]
-            if '/' in map_id:
-                map_id = map_id[map_id.strip('/').rindex('/') + 1:]
-            map_id = ''.join(c for c in map_id if '0' <= c <= '9')
-
-            dt = 'dt' in args
-
-            page = 1
-            for p in range(1, 11):
-                if str(p) in args:
-                    page = p
-                    break
-
-            await get_rating_maps(ch, map_id, page, dt)
-        except:
-            await send_error_message(ch)
-
-    # find similar maps (sliders)
-    if any(msg.startswith(C + s + ' ') for s in ['sl', 'slider']):
-        msg = msg[msg.index(' ') + 1:]
-
-        # parse input
-        try:
-            map_id = msg[:msg.index(' ')] if ' ' in msg else msg
-            if '/' in map_id:
-                map_id = map_id[map_id.strip('/').rindex('/') + 1:]
-            map_id = ''.join(c for c in map_id if '0' <= c <= '9')
-
-            page = 1
-            if ' ' in msg:
-                page = int(msg[msg.index(' ') + 1:])
-
-            if not (1 <= page <= 10):
-                raise Exception
-
-            await get_slider_maps(ch, map_id, page)
-        except:
-            await send_error_message(ch)
-
-    # find pp maps
-    if msg.startswith(C + 'pp '):
-        msg = msg[msg.index(' ') + 1:]
-
-        # parse input
-        # try:
-        params = msg.strip().split(' ')
-
-        pp_boundaries = params[0]
-        min_pp, max_pp = pp_boundaries.split('-')
-        min_pp, max_pp = float(min_pp), float(max_pp)
-
-        mods_include = ''
-        mods_exclude = ''
-        page = 1
-        filters = []
-
-        if len(params) > 1:
-            # exclude
-            if params[1][0] == '-':
-                mods_exclude = params[1][1:]
-            else:
-                mods_include = params[1]
-
-            for param in params[1:]:
-                if param.isnumeric():
-                    page = int(param)
-                    break
-
-            for param in params[1:]:
-                for symbol in symbols:
-                    if symbol in param:
-                        filter_key = param[:param.index(symbol)]
-                        filter_value = float(param[param.index(symbol) + len(symbol):])
-                        if filter_key in supported_filters:
-                            filters.append((filter_key, symbol, filter_value))
-                        else:
-                            if filter_key:
-                                await send_error_message(ch, f'Filter `{filter_key}` not currently supported.')
-                            else:
-                                await send_error_message(ch, "Don't include spaces when using filters (e.g. `ar<9` instead of `ar < 9`)")
-                            return
-                        break
-
-        if not (1 <= page <= 10):
-            raise Exception
-
-        await get_pp_maps(ch, min_pp, max_pp, mods_include, mods_exclude, page, filters)
-        # except:
-        #     await send_error_message(ch)
-
-    # recommend a map
-    if any(msg.startswith(C + s) for s in ['r', 'rec']):
-        if msg == C + 'r' or msg == C + 'rec':
-            username = au.display_name
-            await recommend_map(ch, username)
-        elif any(msg.startswith(C + s + ' ') for s in ['r', 'rec']):
-            username = msg[msg.index(' ') + 1:]
-            await recommend_map(ch, username)
-
-    # farmer rating
-    if any(msg.startswith(C + s) for s in ['f', 'farm', 'farmer']):
-        if any(msg == C + s for s in ['f', 'farm', 'farmer']):
-            username = au.display_name
-        elif any(msg.startswith(C + s + ' ') for s in ['f', 'farm', 'farmer']):
-            username = msg[msg.index(' ') + 1:]
-        else:
-            return
-
-        await get_farmer_rating(ch, username)
-
-    # estimated rank
-    if any(msg.startswith(C + s) for s in ['rank']):
-        if any(msg == C + s for s in ['rank']):
-            username = au.display_name
-        elif any(msg.startswith(C + s + ' ') for s in ['rank']):
-            username = msg[msg.index(' ') + 1:]
-        else:
-            return
-
-        await get_estimated_rank(ch, username)
 
     # beatmap bg trivia
     if any(msg.startswith(C + s) for s in ['q', 'quiz']) \
@@ -893,4 +833,4 @@ async def on_message(message):
         else:
             await quiz_guess(au, ch, msg)
 
-client.run(tokens.beta_token if DEBUG else tokens.token)
+bot.run(tokens.beta_token if DEBUG else tokens.token)
