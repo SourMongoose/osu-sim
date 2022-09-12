@@ -797,7 +797,7 @@ async def quiz_abort(ctx):
 
 @bot.event
 async def on_ready():
-    await bot.change_presence(activity=discord.Game(name=C+'help'))
+    await bot.change_presence(activity=discord.Game(name='/help'))
     print('When you see it!')
 
 @bot.event
