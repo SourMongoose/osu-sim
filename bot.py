@@ -17,9 +17,11 @@ import similarity_srs
 import tokens
 
 # debugging
-DEBUG = True
+DEBUG = False
 
-bot = discord.Bot()
+intents = discord.Intents.default()
+intents.message_content = True
+bot = discord.Bot(intents=intents)
 
 async def send_error_message(ctx, msg='Invalid input.'):
     color = discord.Color.from_rgb(255, 100, 100)
@@ -373,15 +375,17 @@ async def chez(message):
                 'then let the POWER within us decide :muscle:')
 
 active_quizzes = {}
-async def start_quiz(ch, au, params):
+async def start_quiz(ctx, difficulty, first, guess_time, length, top_plays):
+    ch = ctx.channel
+
     if ch.id in active_quizzes:
         return
 
     active_quizzes[ch.id] = {}
     q = active_quizzes[ch.id]
 
-    q['first'] = 'first' in params
-    q['diff'] = False # 'diff' in params
+    q['first'] = first
+    q['diff'] = False # diff
 
     pool = []
     difficulties = []
@@ -390,33 +394,12 @@ async def start_quiz(ch, au, params):
     else:
         easy, medium, hard, impossible, iceberg = easy_sets, medium_sets, hard_sets, impossible_sets, iceberg_sets
 
-    if 'topplays' in params and not q['diff']:
-        usernames = None
-
-        i = params.index('topplays')
-        if i + 8 < len(params):
-            bracket = params[i + 8]
-            brackets = {
-                '(': ')',
-                '[': ']',
-                '{': '}'
-            }
-            if bracket in brackets:
-                usernames = params[i + 9:]
-                if brackets[bracket] not in usernames:
-                    active_quizzes.pop(ch.id)
-                    return
-                usernames = usernames[:usernames.index(brackets[bracket])].split(',')
-                for i in range(len(usernames)):
-                    usernames[i] = usernames[i].strip()
+    if top_plays and not q['diff']:
+        usernames = top_plays.split(',')
+        for i in range(len(usernames)):
+            usernames[i] = usernames[i].strip()
 
         api.refresh_token()
-
-        if not usernames:
-            username = au.display_name
-            if '(' in username:
-                username = username[:username.index('(')].strip()
-            usernames = [username]
 
         users = []
         for username in usernames:
@@ -443,19 +426,19 @@ async def start_quiz(ch, au, params):
 
         difficulties.append('Top plays')
     else:
-        if 'easy' in params:
+        if 'easy' in difficulty:
             pool.extend(easy)
             difficulties.append('Easy')
-        if 'medium' in params:
+        if 'medium' in difficulty:
             pool.extend(medium)
             difficulties.append('Medium')
-        if 'hard' in params:
+        if 'hard' in difficulty:
             pool.extend(hard)
             difficulties.append('Hard')
-        if 'impossible' in params:
+        if 'impossible' in difficulty:
             pool.extend(impossible)
             difficulties.append('Impossible')
-        if 'iceberg' in params:
+        if 'iceberg' in difficulty:
             pool.extend(iceberg)
             difficulties.append('Iceberg')
 
@@ -464,7 +447,7 @@ async def start_quiz(ch, au, params):
         difficulties = ['Easy']
 
     mapset_ids = []
-    while len(mapset_ids) < 10:
+    while len(mapset_ids) < length:
         selected = pool[random.randrange(len(pool))]
         if selected not in mapset_ids:
             mapset_ids.append(selected)
@@ -508,19 +491,17 @@ async def start_quiz(ch, au, params):
     q['answers'] = answers
     q['scores'] = {}
 
-    guess_time = 10
-
     if q['diff']:
-        await ch.send(
+        await ctx.respond(
             'Welcome to the osu! beatmap quiz! You will be given a series of difficulty names; try to type '
             'the title of the beatmap as quickly as possible.\n\n'
-            f"Current settings: {'+'.join(difficulties)}, 10 songs, {guess_time}s guess time, {'first-guess' if q['first'] else 'time-based'} scoring\n\n"
+            f"Current settings: {'+'.join(difficulties)}, {length} songs, {guess_time}s guess time, {'first-guess' if q['first'] else 'time-based'} scoring\n\n"
             'First difficulty name will appear in 5 seconds!')
     else:
-        await ch.send(
+        await ctx.respond(
             'Welcome to the osu! beatmap quiz! You will be given a series of beatmap backgrounds; try to type '
             'the title of the beatmap as quickly as possible.\n\n'
-            f"Current settings: {'+'.join(difficulties)}, 10 songs, {guess_time}s guess time, {'first-guess' if q['first'] else 'time-based'} scoring\n\n"
+            f"Current settings: {'+'.join(difficulties)}, {length} songs, {guess_time}s guess time, {'first-guess' if q['first'] else 'time-based'} scoring\n\n"
             'First background will appear in 5 seconds!')
 
     await asyncio.sleep(5)
@@ -800,6 +781,20 @@ async def rank(ctx,
         username = ctx.author.display_name
     await get_estimated_rank(ctx, username)
 
+@bot.command(description='Start the osu! beatmap quiz')
+async def quiz_start(ctx,
+                difficulty: discord.Option(str, description='quiz difficulty(s)', default='easy', required=False),
+                first: discord.Option(bool, description='first-guess scoring', default=False, required=False),
+                guess_time: discord.Option(int, description='time for each guess (in seconds)', default=10, required=False),
+                length: discord.Option(int, description='number of questions', default=10, required=False),
+                top_plays: discord.Option(str, description='provide a list of comma-separated usernames to only use maps from those users\' top plays', required=False)):
+    await start_quiz(ctx, difficulty, first, guess_time, length, top_plays)
+
+@bot.command(description='Abort a currently running quiz')
+async def quiz_abort(ctx):
+    active_quizzes.pop(ctx.channel.id)
+    await ctx.respond('Quiz has been aborted.')
+
 @bot.event
 async def on_ready():
     await bot.change_presence(activity=discord.Game(name=C+'help'))
@@ -820,17 +815,7 @@ async def on_message(message):
         return
 
     # beatmap bg trivia
-    if any(msg.startswith(C + s) for s in ['q', 'quiz']) \
-            and not any(msg.startswith(C + s) for s in ['q abort', 'quiz abort']):
-        if ' ' in msg:
-            await start_quiz(ch, au, msg[msg.index(' ') + 1:])
-        else:
-            await start_quiz(ch, au, '')
     if ch.id in active_quizzes:
-        if any(msg.startswith(C + s) for s in ['q abort', 'quiz abort']):
-            active_quizzes.pop(ch.id)
-            await ch.send('Quiz has been aborted.')
-        else:
-            await quiz_guess(au, ch, msg)
+        await quiz_guess(au, ch, msg)
 
 bot.run(tokens.beta_token if DEBUG else tokens.token)
