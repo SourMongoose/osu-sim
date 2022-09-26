@@ -663,6 +663,14 @@ async def help(ctx):
     embed.set_footer(text="Omit brackets. Square brackets ([]) indicate optional parameters.")
     await ctx.respond(embed=embed)
 
+@bot.command(description='Get invite link')
+async def invite(ctx):
+    title = 'Invite this bot to your server:'
+    color = discord.Color.from_rgb(150, 150, 150)
+    description = 'https://discord.com/api/oauth2/authorize?client_id=829860591405498419&permissions=18432&scope=bot'
+    embed = discord.Embed(title=title, description=description, color=color)
+    await ctx.respond(embed=embed)
+
 @bot.command(description='Find similar maps (based on map structure)')
 async def sim(ctx,
               beatmap: discord.Option(str, description='beatmap id/link', required=True),
