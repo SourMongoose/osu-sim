@@ -678,7 +678,7 @@ async def sim(ctx,
 
         if filters:
             filters_split = filters.split(' ')
-            for filter_str in filters_split[1:]:
+            for filter_str in filters_split:
                 for symbol in symbols:
                     if symbol in filter_str:
                         filter_key = filter_str[:filter_str.index(symbol)]
