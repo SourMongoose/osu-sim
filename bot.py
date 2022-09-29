@@ -364,7 +364,7 @@ async def chez(message):
                 'Justice on our side :cross: '
                 'This cross will lead to light :bulb: '
                 'Follow Richard Lionheart :pray:')
-        if embed['author']['name'].startswith('Glory Days'):
+        elif embed['author']['name'].startswith('Glory Days'):
             await message.channel.send(
                 'To seek the glory days :sunrise: '
                 'we\'ll fight the lion\'s way :lion_face: '
@@ -373,6 +373,15 @@ async def chez(message):
                 'so if this victory :trophy: '
                 'is our last odyssey :red_car: '
                 'then let the POWER within us decide :muscle:')
+        elif embed['author']['name'].startswith('Day By Day ft. Nicole Curry') \
+                or embed['author']['name'].startswith('Day by day (PSYQUI Remix)'):
+            await message.channel.send(
+                'It\'s time to start the new day :sunrise: '
+                'Put aside all the trouble on the way :put_litter_in_its_place: '
+                'Get out of bed :bed: and brush my hair :woman_red_haired: and wear my favorite outfit :dress: '
+                'I don\'t know what to do with myself :woman_shrugging: '
+                'I just go on day by day :calendar_spiral: '
+                'Being my very best me :blush:')
 
 active_quizzes = {}
 async def start_quiz(ctx, difficulty, first, guess_time, length, top_plays):
