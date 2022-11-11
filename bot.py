@@ -74,11 +74,11 @@ async def get_similar_maps(ctx, map_id, page=1, filters=None):
     try:
         sim = similarity_buckets.get_similar(map_id, n, filters)
     except:
-        await calc_msg.edit_original_message(embed=get_error_message())
+        await calc_msg.edit_original_response(embed=get_error_message())
         return
 
     if len(sim) < page * perpage:
-        await calc_msg.edit_original_message(embed=get_error_message('Not enough similar maps.'))
+        await calc_msg.edit_original_response(embed=get_error_message('Not enough similar maps.'))
         return
 
     color = discord.Color.from_rgb(100, 255, 100)
@@ -86,7 +86,7 @@ async def get_similar_maps(ctx, map_id, page=1, filters=None):
     description = '\n'.join(f'**{i+1})** [{id_to_map(sim[i][0])}]({file_to_link(sim[i][0])})' for i in range((page-1)*perpage, page*perpage))
     embed = discord.Embed(title=title, description=description, color=color)
     embed.set_footer(text=f'Page {page} of 10')
-    await calc_msg.edit_original_message(embed=embed)
+    await calc_msg.edit_original_response(embed=embed)
 
 async def get_rating_maps(ctx, map_id, page=1, dt=False):
     perpage = 10
@@ -123,11 +123,11 @@ async def get_slider_maps(ctx, map_id, page=1):
     try:
         sim = similarity_sliders.get_similar(map_id, n)
     except:
-        await calc_msg.edit_original_message(get_error_message())
+        await calc_msg.edit_original_response(get_error_message())
         return
 
     if len(sim) < page * perpage:
-        await calc_msg.edit_original_message(get_error_message('Not enough similar maps.'))
+        await calc_msg.edit_original_response(get_error_message('Not enough similar maps.'))
         return
 
     color = discord.Color.from_rgb(100, 255, 100)
@@ -135,7 +135,7 @@ async def get_slider_maps(ctx, map_id, page=1):
     description = '\n'.join(f'**{i+1})** [{id_to_map(sim[i][0].replace(".sldr",""))}]({file_to_link(sim[i][0])})' for i in range((page-1)*perpage, page*perpage))
     embed = discord.Embed(title=title, description=description, color=color)
     embed.set_footer(text=f'Page {page} of 10')
-    await calc_msg.edit_original_message(embed=embed)
+    await calc_msg.edit_original_response(embed=embed)
 
 async def get_pp_maps(ctx, min_pp=0., max_pp=2e9, mods_include='', mods_exclude='', page=1, filters=None):
     perpage = 10
