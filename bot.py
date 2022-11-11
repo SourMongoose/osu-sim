@@ -9,7 +9,7 @@ import time
 import traceback
 
 import api
-import estimaterank
+#import estimaterank
 import findppmaps
 import similarity_buckets
 import similarity_sliders
@@ -283,6 +283,7 @@ async def get_farmer_rating(ctx, username):
     embed = discord.Embed(title=title, description=description, color=color)
     await ctx.respond(embed=embed)
 
+'''
 async def get_estimated_rank(ctx, username):
     id = username_to_id(username)
 
@@ -301,6 +302,7 @@ async def get_estimated_rank(ctx, username):
     description = f'**#{round(er[0])}**\n\n' + '\n'.join(f'**{round(sc[1])}** | {sc[0]}' for sc in er[1])
     embed = discord.Embed(title=title, description=description, color=color)
     await ctx.respond(embed=embed)
+'''
 
 async def chez(message):
     embeds = message.embeds
@@ -791,12 +793,14 @@ async def farmer(ctx,
         username = ctx.author.display_name
     await get_farmer_rating(ctx, username)
 
+'''
 @bot.command(description='Get a user\'s estimated rank')
 async def rank(ctx,
                username: discord.Option(str, description='osu! username', required=False)):
     if not username:
         username = ctx.author.display_name
     await get_estimated_rank(ctx, username)
+'''
 
 @bot.command(description='Start the osu! beatmap quiz')
 async def quiz_start(ctx,
