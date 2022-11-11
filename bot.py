@@ -654,7 +654,7 @@ C = ',' if DEBUG else '.'
 
 # supported symbols/keywords for search filters
 symbols = ['!=', '>=', '<=', '>', '<', '=']
-supported_filters = ['ar', 'od', 'hp', 'cs', 'length', 'sr', 'star', 'stars', 'aim', 'aimsr', 'tap', 'tapsr']
+supported_filters = ['ar', 'od', 'hp', 'cs', 'length', 'sr', 'star', 'stars', 'aim', 'aimsr', 'tap', 'tapsr', 'id']
 
 @bot.command(description='View commands')
 async def help(ctx):

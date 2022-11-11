@@ -64,17 +64,22 @@ def get_similar(id, n=50, filters=None):
 
         if filters:
             valid = True
+            funcs = {
+                '!=': lambda x, y: x != y,
+                '>=': lambda x, y: x >= y,
+                '<=': lambda x, y: x <= y,
+                '>': lambda x, y: x > y,
+                '<': lambda x, y: x < y,
+                '=': lambda x, y: x == y
+            }
             for fil in filters:
                 key, operator, value = fil
-                funcs = {
-                    '!=': lambda x, y: x != y,
-                    '>=': lambda x, y: x >= y,
-                    '<=': lambda x, y: x <= y,
-                    '>': lambda x, y: x > y,
-                    '<': lambda x, y: x < y,
-                    '=': lambda x, y: x == y
-                }
-                if not funcs[operator](stats[file[:-5]][key], value):
+
+                if key == 'id':
+                    if not funcs[operator](int(file[:-5]), value):
+                        valid = False
+                        break
+                elif not funcs[operator](stats[file[:-5]][key], value):
                     valid = False
                     break
             if not valid:
