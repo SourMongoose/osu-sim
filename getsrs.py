@@ -26,7 +26,7 @@ def get_sr_file(filename, mods=None):
     output = subprocess.run(cmd, cwd='./osu-tools/PerformanceCalculator', stdout=subprocess.PIPE)
     line = output.stdout.split(b'\n')[5].decode('utf8')
     sr, aim, speed, combo, ar, od = (float(x) for x in line.strip('\u2551').split('\u2502')[1:])
-    return (aim, speed, sr)
+    return (sr, aim, speed)
 
 def get_srs(srs_file='srs.json'):
     with open(srs_file, 'r') as f:
