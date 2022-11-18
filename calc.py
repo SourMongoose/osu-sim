@@ -1,6 +1,5 @@
 import math
-import matplotlib.pyplot as plt
-from mpl_toolkits import mplot3d
+# import matplotlib.pyplot as plt
 
 def angle_between(x1, y1, x2, y2, x3, y3):
     a1 = math.atan2(y1 - y2, x1 - x2) * 180 / math.pi
@@ -85,6 +84,7 @@ def get_distribution_raw(input):
 
     return output
 
+"""
 def graph_distribution(dist_file):
     x = []
     y = []
@@ -107,6 +107,7 @@ def graph_distribution(dist_file):
     plt.xlim(-10, 190)
     ax.scatter3D(x, y, z)
     plt.show()
+"""
 
 def get_sliders(input_file, output_file=None):
     if output_file is None:
