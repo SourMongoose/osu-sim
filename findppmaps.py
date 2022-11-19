@@ -19,6 +19,9 @@ def avg(lst):
 
 def get_map_info(id, mods):
     if id in map_dict:
+        mods = simplify_mods(mods)
+        if not mods:
+            mods = 'NM'
         return map_dict[id].get(simplify_mods(mods), None)
 
 def overweight_raw(m):
