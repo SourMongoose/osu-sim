@@ -60,9 +60,49 @@ def username_to_id(username):
 
     return user['id']
 
+async def send_output_pages(ctx, title, elements, page, edit_msg=False):
+    perpage = 10
+    if (page - 1) * perpage < len(elements):
+        page = 1
+
+    color = discord.Color.from_rgb(100, 255, 100)
+
+    def make_embed():
+        description = '\n'.join(f'**{i+1})** {elements[i]}' for i in range((page - 1) * perpage, min(page * perpage, len(elements))))
+        embed = discord.Embed(title=title, color=color, description=description)
+        embed.set_footer(text=f'Page {page} of {len(elements) // perpage}')
+        return embed
+
+    class PagesView(discord.ui.View):
+        async def on_timeout(self):
+            await ctx.edit(view=None)
+
+        @discord.ui.button(label='\u25C0', style=discord.ButtonStyle.primary, disabled=(page == 1))
+        async def left_button_callback(self, button, interaction):
+            nonlocal page
+            page = max(1, page - 1)
+            for child in self.children: # all children are no longer disabled, lets go
+                child.disabled = False
+            button.disabled = (page == 1)
+            await interaction.response.edit_message(embed=make_embed(), view=self)
+
+        @discord.ui.button(label='\u25B6', style=discord.ButtonStyle.primary, disabled=(page == (len(elements) - 1) // 10 + 1))
+        async def right_button_callback(self, button, interaction):
+            nonlocal page
+            page = min((len(elements) - 1) // 10 + 1, page + 1)
+            for child in self.children:
+                child.disabled = False
+            button.disabled = (page == (len(elements) - 1) // 10 + 1)
+            await interaction.response.edit_message(embed=make_embed(), view=self)
+
+    if edit_msg:
+        await ctx.edit(embed=make_embed(), view=PagesView(timeout=30, disable_on_timeout=True))
+    else:
+        await ctx.respond(embed=make_embed(), view=PagesView(timeout=30, disable_on_timeout=True))
+
 async def get_similar_maps(ctx, map_id, page=1, filters=None):
     perpage = 10
-    n = page * perpage
+    n = 10 * perpage
 
     color = discord.Color.from_rgb(255, 255, 100)
     description = 'Calculating...'
@@ -77,20 +117,17 @@ async def get_similar_maps(ctx, map_id, page=1, filters=None):
         await calc_msg.edit_original_response(embed=get_error_message())
         return
 
-    if len(sim) < page * perpage:
+    if len(sim) == 0:
         await calc_msg.edit_original_response(embed=get_error_message('Not enough similar maps.'))
         return
 
-    color = discord.Color.from_rgb(100, 255, 100)
     title = f'Maps similar in structure to {map_id}:'
-    description = '\n'.join(f'**{i+1})** [{id_to_map(sim[i][0])}]({file_to_link(sim[i][0])})' for i in range((page-1)*perpage, page*perpage))
-    embed = discord.Embed(title=title, description=description, color=color)
-    embed.set_footer(text=f'Page {page} of 10')
-    await calc_msg.edit_original_response(embed=embed)
+    elements = [f'[{id_to_map(sim[i][0])}]({file_to_link(sim[i][0])})' for i in range(len(sim))]
+    await send_output_pages(ctx, title, elements, page, edit_msg=True)
 
 async def get_rating_maps(ctx, map_id, page=1, dt=False):
     perpage = 10
-    n = page * perpage
+    n = 10 * perpage
 
     try:
         sim = similarity_srs.get_similar(map_id, n, ['DT'] if dt else [])
@@ -102,16 +139,13 @@ async def get_rating_maps(ctx, map_id, page=1, dt=False):
         await send_error_message(ctx, 'Map not found in local database.')
         return
 
-    color = discord.Color.from_rgb(100, 255, 100)
     title = f'Maps similar in star rating to {map_id}' + (' (+DT)' if dt else '') + ':'
-    description = '\n'.join(f'**{i+1})** [{id_to_map(sim[i][0])}]({file_to_link(sim[i][0])})' for i in range((page-1)*perpage, page*perpage))
-    embed = discord.Embed(title=title, description=description, color=color)
-    embed.set_footer(text=f'Page {page} of 10')
-    await ctx.respond(embed=embed)
+    elements = [f'[{id_to_map(sim[i][0])}]({file_to_link(sim[i][0])})' for i in range(len(sim))]
+    await send_output_pages(ctx, title, elements, page)
 
 async def get_slider_maps(ctx, map_id, page=1):
     perpage = 10
-    n = page * perpage
+    n = 10 * perpage
 
     color = discord.Color.from_rgb(255, 255, 100)
     description = 'Calculating...'
@@ -126,20 +160,17 @@ async def get_slider_maps(ctx, map_id, page=1):
         await calc_msg.edit_original_response(get_error_message())
         return
 
-    if len(sim) < page * perpage:
+    if len(sim) == 0:
         await calc_msg.edit_original_response(get_error_message('Not enough similar maps.'))
         return
 
-    color = discord.Color.from_rgb(100, 255, 100)
     title = f'Maps similar in sliders to {map_id}:'
-    description = '\n'.join(f'**{i+1})** [{id_to_map(sim[i][0].replace(".sldr",""))}]({file_to_link(sim[i][0])})' for i in range((page-1)*perpage, page*perpage))
-    embed = discord.Embed(title=title, description=description, color=color)
-    embed.set_footer(text=f'Page {page} of 10')
-    await calc_msg.edit_original_response(embed=embed)
+    elements = [f'[{id_to_map(sim[i][0].replace(".sldr",""))}]({file_to_link(sim[i][0])})' for i in range(len(sim))]
+    await send_output_pages(ctx, title, elements, page)
 
 async def get_pp_maps(ctx, min_pp=0., max_pp=2e9, mods_include='', mods_exclude='', page=1, filters=None):
     perpage = 10
-    n = page * perpage
+    n = 10 * perpage
 
     try:
         mods_include, mods_exclude = findppmaps.simplify_mods(mods_include), findppmaps.simplify_mods(mods_exclude)
@@ -148,11 +179,10 @@ async def get_pp_maps(ctx, min_pp=0., max_pp=2e9, mods_include='', mods_exclude=
         await send_error_message(ctx)
         return
 
-    if len(maps) < n:
+    if len(maps) == 0:
         await send_error_message(ctx, 'Not enough maps.')
         return
 
-    color = discord.Color.from_rgb(100, 255, 100)
     title = f'Overweight maps from {min_pp}-{max_pp}pp'
     if mods_include:
         title += f', using mods {mods_include}'
@@ -160,11 +190,8 @@ async def get_pp_maps(ctx, min_pp=0., max_pp=2e9, mods_include='', mods_exclude=
         title += f', excluding mods {mods_exclude}'
     title += ':'
     modcombo = lambda i: f' +{maps[i][1]}' if maps[i][1] else ''
-    description = '\n'.join(f'**{i + 1})** [{id_to_map(maps[i][0])}](https://osu.ppy.sh/b/{maps[i][0]}){modcombo(i)}' for i in
-                            range((page - 1) * perpage, page * perpage))
-    embed = discord.Embed(title=title, description=description, color=color)
-    embed.set_footer(text=f'Page {page} of 10')
-    await ctx.respond(embed=embed)
+    elements = [f'[{id_to_map(maps[i][0])}](https://osu.ppy.sh/b/{maps[i][0]}){modcombo(i)}' for i in range(len(maps))]
+    await send_output_pages(ctx, title, elements, page)
 
 async def recommend_map(ctx, username):
     if '(' in username:
@@ -263,6 +290,8 @@ async def get_farmer_rating(ctx, username):
     farm_ratings = []
     for i in range(len(scores)):
         score = scores[i]
+        if score['pp'] < .66 * scores[0]['pp']:
+            continue
         map_info = findppmaps.get_map_info(str(score['beatmap']['id']), ''.join(m for m in score['mods']))
         if map_info:
             s = f"{score['beatmapset']['artist']} - {score['beatmapset']['title']} [{score['beatmap']['version']}]"
@@ -279,7 +308,7 @@ async def get_farmer_rating(ctx, username):
     color = discord.Color.from_rgb(100, 255, 100)
     title = f'Farmer rating for {username}:'
     description = f'**{overall}**\n\n**Most farm plays:**\n' + '\n'.join(f'**{round(f[1], 2):.2f}** | {f[0]}' for f in farm_ratings[-5:][::-1]) \
-            + '\n\n**Least farm plays:**\n' + '\n'.join(f'**{round(f[1], 2):.2f}** | {f[0]}' for f in farm_ratings[:10])
+            + '\n\n**Least farm plays:**\n' + '\n'.join(f'**{round(f[1], 2):.2f}** | {f[0]}' for f in farm_ratings[:20])
     embed = discord.Embed(title=title, description=description, color=color)
     await ctx.respond(embed=embed)
 
