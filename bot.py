@@ -70,7 +70,7 @@ async def send_output_pages(ctx, title, elements, page, edit_msg=False):
     def make_embed():
         description = '\n'.join(f'**{i+1})** {elements[i]}' for i in range((page - 1) * perpage, min(page * perpage, len(elements))))
         embed = discord.Embed(title=title, color=color, description=description)
-        embed.set_footer(text=f'Page {page} of {len(elements) // perpage}')
+        embed.set_footer(text=f'Page {page} of {(len(elements) - 1) // perpage + 1}')
         return embed
 
     class PagesView(discord.ui.View):
@@ -86,13 +86,13 @@ async def send_output_pages(ctx, title, elements, page, edit_msg=False):
             button.disabled = (page == 1)
             await interaction.response.edit_message(embed=make_embed(), view=self)
 
-        @discord.ui.button(label='\u25B6', style=discord.ButtonStyle.primary, disabled=(page == (len(elements) - 1) // 10 + 1))
+        @discord.ui.button(label='\u25B6', style=discord.ButtonStyle.primary, disabled=(page == (len(elements) - 1) // perpage + 1))
         async def right_button_callback(self, button, interaction):
             nonlocal page
-            page = min((len(elements) - 1) // 10 + 1, page + 1)
+            page = min((len(elements) - 1) // perpage + 1, page + 1)
             for child in self.children:
                 child.disabled = False
-            button.disabled = (page == (len(elements) - 1) // 10 + 1)
+            button.disabled = (page == (len(elements) - 1) // perpage + 1)
             await interaction.response.edit_message(embed=make_embed(), view=self)
 
     if edit_msg:
