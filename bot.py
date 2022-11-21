@@ -290,8 +290,6 @@ async def get_farmer_rating(ctx, username):
     farm_ratings = []
     for i in range(len(scores)):
         score = scores[i]
-        if score['pp'] < .66 * scores[0]['pp']:
-            continue
         map_info = findppmaps.get_map_info(str(score['beatmap']['id']), ''.join(m for m in score['mods']))
         if map_info:
             s = f"{score['beatmapset']['artist']} - {score['beatmapset']['title']} [{score['beatmap']['version']}]"
@@ -308,7 +306,7 @@ async def get_farmer_rating(ctx, username):
     color = discord.Color.from_rgb(100, 255, 100)
     title = f'Farmer rating for {username}:'
     description = f'**{overall}**\n\n**Most farm plays:**\n' + '\n'.join(f'**{round(f[1], 2):.2f}** | {f[0]}' for f in farm_ratings[-5:][::-1]) \
-            + '\n\n**Least farm plays:**\n' + '\n'.join(f'**{round(f[1], 2):.2f}** | {f[0]}' for f in farm_ratings[:20])
+            + '\n\n**Least farm plays:**\n' + '\n'.join(f'**{round(f[1], 2):.2f}** | {f[0]}' for f in farm_ratings[:10])
     embed = discord.Embed(title=title, description=description, color=color)
     await ctx.respond(embed=embed)
 
