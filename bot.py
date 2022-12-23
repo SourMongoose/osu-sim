@@ -62,7 +62,7 @@ def username_to_id(username):
 
 async def send_output_pages(ctx, title, elements, page, edit_msg=False):
     perpage = 10
-    if (page - 1) * perpage < len(elements):
+    if (page - 1) * perpage >= len(elements):
         page = 1
 
     color = discord.Color.from_rgb(100, 255, 100)

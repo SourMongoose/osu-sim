@@ -36,14 +36,14 @@ def find_pp_maps(min_pp=0., max_pp=2e9, mods_include='', mods_exclude='', limit=
     mods_include, mods_exclude = simplify_mods(mods_include), simplify_mods(mods_exclude)
 
     def get_stat(id, key):
-        if key in stats[id]:
-            return stats[id][key]
-        elif key in ['sr', 'star', 'stars']:
+        if key in ['sr', 'star', 'stars']:
             return getsrs.get_sr(id)[0]
         elif key in ['aim', 'aimsr']:
             return getsrs.get_sr(id)[1]
         elif key in ['tap', 'tapsr']:
             return getsrs.get_sr(id)[2]
+        elif id in stats and key in stats[id]:
+            return stats[id][key]
         return None
 
     def filter_func(m):
