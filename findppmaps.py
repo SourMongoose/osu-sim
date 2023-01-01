@@ -59,7 +59,8 @@ def find_pp_maps(min_pp=0., max_pp=2e9, mods_include='', mods_exclude='', limit=
                     '<': lambda x, y: x < y,
                     '=': lambda x, y: x == y
                 }
-                if not funcs[operator](get_stat(m[0], key), value):
+                stat = get_stat(m[0], key)
+                if not stat or not funcs[operator](stat, value):
                     valid = False
                     break
             if not valid:
