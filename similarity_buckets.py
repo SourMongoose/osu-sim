@@ -58,6 +58,19 @@ def get_similar(id, n=50, filters=None):
 
     similarities = []
 
+    def get_stat(id, key):
+        if key == 'id':
+            return int(id)
+        elif key in ['sr', 'star', 'stars']:
+            return getsrs.get_sr(id)[0]
+        elif key in ['aim', 'aimsr']:
+            return getsrs.get_sr(id)[1]
+        elif key in ['tap', 'tapsr']:
+            return getsrs.get_sr(id)[2]
+        elif id in stats and key in stats[id]:
+            return stats[id][key]
+        return None
+
     for file in all_buckets:
         if file.startswith(str(id)):
             continue
@@ -75,11 +88,7 @@ def get_similar(id, n=50, filters=None):
             for fil in filters:
                 key, operator, value = fil
 
-                if key == 'id':
-                    if not funcs[operator](int(file[:-5]), value):
-                        valid = False
-                        break
-                elif not funcs[operator](stats[file[:-5]][key], value):
+                if not funcs[operator](get_stat(file[:-5], key), value):
                     valid = False
                     break
             if not valid:
