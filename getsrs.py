@@ -39,9 +39,9 @@ srs_hr = get_srs('srs_hr.json')
 
 if __name__ == '__main__':
     #print(get_sr_file('maps/Reol,nqrse - Ooedo Ranvu (zhu) [Normal].osu'))
-    raw = 'srs_raw_hr.txt'
-    output_file = 'srs_hr.json'
-    start_line = 5
+    raw = 'srs_raw_nm.txt'
+    output_file = 'srs.json'
+    start_line = 8
     line_step = 2
 
     with open(raw, 'r', encoding='utf8') as f:
@@ -53,9 +53,11 @@ if __name__ == '__main__':
         if not line.strip():
             break
         song = line[:160]
+        if song.startswith('║-1'):
+            song = song[2:]
         song = song[song.index('-')+1:].strip()
 
-        sr, aim, speed, combo, ar, od = (float(x) for x in line[161:].strip('\n║').split('│'))
+        sr, combo, aim, speed, snc, fd, sf, _, _ = ((float(x.replace(',', '')) if x else 0) for x in line[161:].strip('\n║').split('│'))
 
         song_srs[song] = (sr, aim, speed)
 
