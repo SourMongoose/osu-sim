@@ -19,9 +19,7 @@ import tokens
 # debugging
 DEBUG = False
 
-intents = discord.Intents.default()
-intents.message_content = True
-bot = discord.Bot(intents=intents)
+bot = discord.Bot()
 
 async def send_error_message(ctx, msg='Invalid input.'):
     color = discord.Color.from_rgb(255, 100, 100)
@@ -683,7 +681,7 @@ C = ',' if DEBUG else '.'
 
 # supported symbols/keywords for search filters
 symbols = ['!=', '>=', '<=', '>', '<', '=']
-supported_filters = ['ar', 'od', 'hp', 'cs', 'length', 'sr', 'star', 'stars', 'aim', 'aimsr', 'tap', 'tapsr', 'id']
+supported_filters = ['ar', 'od', 'hp', 'cs', 'length', 'sr', 'star', 'stars', 'aim', 'aimsr', 'tap', 'tapsr', 'id', 'max_bpm']
 
 @bot.command(description='View commands')
 async def help(ctx):

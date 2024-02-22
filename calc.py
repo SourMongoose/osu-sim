@@ -372,6 +372,9 @@ def get_stats(input_file):
         i += 1
     length = (times[-1] - times[0]) // 1000
 
+    min_between = min(times[i] - times[i - 1] for i in range(1, len(times)))
+    max_bpm = round(60 * 1000 / max(1, min_between) / 4)
+
     return {
         'hp': stats['HPDrainRate'],
         'cs': stats['CircleSize'],
@@ -381,7 +384,8 @@ def get_stats(input_file):
         'artist': stats['Artist'],
         'creator': stats['Creator'],
         'version': stats['Version'],
-        'length': length
+        'length': length,
+        'max_bpm': max_bpm
     }
 
 if __name__ == '__main__':
